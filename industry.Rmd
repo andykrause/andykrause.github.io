@@ -1,0 +1,57 @@
+ &nbsp;
+
+##<span style="color:#21618C"> Industry Experience and Contributions </span>
+
+&nbsp;
+&nbsp;
+
+### <span style="color:#2E86C1"> Employment History </span>
+
+&nbsp;
+
+**Principal Data Scientist: [Greenfield Advisors](www.greenfieldadvisors.com): 2017-Present**
+
+I split time between leading Greenfield’s valuation products group and assisting with the firm’s litigation consulting business. Currently, I’m heading up the effort to develop tools for assisting appraisers, assessors and lenders to better understand and evaluate real estate markets. I manage a team of eight data and analytics professionals. I also spend time providing litigation support regarding the statistical and computational performance of in-house automated valuation model(s).
+
+&nbsp;
+
+**Lecturer: [University of Melbourne](https://msd.unimelb.edu.au/property): 2015-2017**
+
+Research focused on house price indexes, rent-price ratios, Airbnb markets and relationship
+between public policy and housing markets. Taught Property Research Methods, Research Thesis and International Property Development classes at masters level. Supervised over 20 masters and 2 PhD theses. Provided R statistical language training through various campus programs.
+
+&nbsp;
+
+**Senior Data Scientist: [Zillow](www.zillow.com) (Consultant): 2014-2015**
+
+Consultant to both the Data Science and Economic Research teams. Duties included developing new valuation and error diagnosis algorithms as well as producing economic reports for public dissemination.
+
+&nbsp;
+
+**Senior Analyst: [Greenfield Advisors](www.greenfieldadvisors.com): 2005-2014**
+
+Managed small teams to produce valuation reports used in litigation proceedings. Frequent client contact, oral presentation of results and the development and monitoring of budgets and project timelines. Developed and employed dozens of unique mass valuation models used in legal settlements. Assisted with deposition and trial preparation.
+
+&nbsp;
+
+### <span style="color:#2E86C1"> Patents</span>
+
+&nbsp;
+
+**Krause, A. Lipscomb, C. A. & Kilpatrick, J. A. Automated-valuation-model training-data
+optimization systems and methods.** [U.S. Patent 9,582,819](https://patents.google.com/patent/US9582819B2), filed September 26,
+2013, and issued February 28, 2017.
+
+To optimize training data used by a predictive real-estate valuation model, a search space having multiple dimensions may be defined. Each search dimension corresponds to a range of candidate values for a search criterion for selecting subsets of sales-transaction records. The multiple dimensions include a temporal dimension and a geographic dimension. An accuracy-optimized subset of a multiplicity of sales-transaction records is identified by evaluating points that vary along each dimension within the multi-dimension search space. A statistical measure of model accuracy is used to evaluate each candidate point. The accuracy-optimized subset of the multiplicity of sales-transaction records is provided to a predictive model to generate an automated value prediction for a subject real-estate property as of an effective date.
+
+&nbsp;
+
+### <span style="color:#2E86C1"> Publications</span>
+
+&nbsp;
+
+**Krause, A. Winson-Geideman, K. & Warren-Myers, G. *Does ’Big Data’ offer big
+potential to the property industry?* Australia and New Zealand Property Journal,
+July, 358-363.**
+
+With the growing hype around Big Data and its business applications, property firms must consider adapting to this new trend or face the consequences....
