@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Andy Krause</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="talks.html">Speaking</a>
+</li>
+<li>
+  <a href="industry.html">Industry</a>
+</li>
+<li>
+  <a href="software.html">Software</a>
+</li>
+<li>
+  <a href="links.html">Links</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="http://github.com/andykrause">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/andy-krause-7260ab17/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/Andy_L_Krause">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://www.greenfieldadvisors.com">Greenfield Advisors</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="on-going-research" class="section level2">
+<h2>On-Going Research</h2>
+<div id="house-price-index-related" class="section level3">
+<h3>House Price Index Related</h3>
+</div>
+<div id="airbnb-related" class="section level3">
+<h3>AirBNB Related</h3>
+<p><strong>Should I Airbnb my Property?</strong></p>
+<p>This research (w/ Gideon Aschwanden) looks into whether a short-term leasing strategy (Airbnb-ing) creates more revenue that a traditional long-term strategy. This work was funded by the Real Estate Research Institute (RERI) and was presented in Chicago, IL on May 11, 2017. A draft copy of the paper can be found <a href="files/krause_aschwanden_airbnb.pdf">here</a></p>
+<p><strong>The AirBNB market in Melbourne</strong></p>
+<p>See the PDF below for a ‘census’ of the current Airbnb market in Melbourne as of 31 August 2016. Key findings are shown in the report while the movie visualizes the growth in reservations over time. A draft copy of the paper can be found <a href="files/krause_aschwanden_airbnb_melb.pdf">here</a></p>
+</div>
+<div id="rental-yield-related" class="section level3">
+<h3>Rental Yield Related</h3>
+<p><strong>Rental Yield in Melbourne</strong></p>
+<p>Working paper on identifying the factors that drive residential rental yields Melbourne, Australia. <a href="files/krause_aschwanden_rentalyield.pdf">here</a></p>
+<p><strong>Rental Yield Calculation Methods</strong></p>
+<p>Working paper on rental yield calculation methods in Melbourne, Australia. This work was first presented at the American Real Estate Society Annual Meeting, March 2016 in Denver, CO, USA. Working paper on identifying the factors that drive residential rental yields Melbourne, Australia. <a href="files/krause_aschwanden_prr.pdf">here</a></p>
+</div>
+</div>
+<div id="published-research" class="section level2">
+<h2>Published Research</h2>
+<div id="books-and-book-chapters" class="section level3">
+<h3>Books and Book Chapters</h3>
+</div>
+<div id="journal-articles" class="section level3">
+<h3>Journal Articles</h3>
+<div id="section" class="section level4">
+<h4>2018</h4>
+<p><strong>Estiri, H. and A. Krause. <em>A Cohort Location Model of Household Sorting in US Metropolitan Regions.</em> Urban Studies, 55(1), 71-90.</strong> <a href="http://journals.sagepub.com/doi/full/10.1177/0042098016668783">Access via DOI</a>.</p>
+<p>In this paper we propose a household sorting model for the 50 largest US metropolitan regions and evaluate the model using 2010 Census data. To approximate residential locations for household cohorts, we specify a Cohort Location Model (CLM) built upon two principle assumptions about housing consumption and metropolitan development/land use patterns. According to our model, the expected distance from the household’s residential location to the city centre(s) increases with the age of the householder (as a proxy for changes in housing career over life span). The CLM provides a flexible housing-based explanation for household sorting patterns in US metropolitan regions. Results from our analysis on US metropolitan regions show that households headed by individuals under the age of 35 are the most common cohort in centrally located areas. We also found that households over 35 are most prevalent in peripheral locations, but their sorting was not statistically different across space.</p>
+<p><strong>Lipscomb, C., Youtie, J., Shapiro, P., Arora, S. &amp; Krause, A. <em>Evaluating the Impact of Manufacturing Extension Services on Establishment Performance.</em> Economic Development Quarterly, 32(1), 29-43.</strong> <a href="http://journals.sagepub.com/doi/full/10.1177/0891242417744050">Access via DOI</a></p>
+<p>This study examines the effects of receipt of business assistance services from the Manufacturing Extension Partnership (MEP) on manufacturing establishment performance. The results generally indicate that MEP services have had positive and significant impacts on establishment productivity and sales per worker for the 2002 to 2007 period with some exceptions based on employment size, industry, and type of service provided. MEP services have also increased the probability of establishment survival for the 1997 to 2007 period. Regardless of econometric model specification, MEP clients with 1 to 19 employees have statistically significant and higher levels of labor productivity growth. The authors also observed significant productivity differences associated with MEP services by broad sector, with higher impacts over the 2002 to 2007 period in the durable goods manufacturing sector. The study further finds that establishments receiving MEP assistance are more likely to survive than those that do not receive MEP assistance.</p>
+</div>
+<div id="section-1" class="section level4">
+<h4>2017</h4>
+<p><strong>Winson-Geideman, K., A. Krause, G. Warren-Myers, and H. Wu. <em>Non-spatial Contagion in Real Estate Markets: The Case of Brookland Greens.</em> Journal of Sustainable Real Estate, 9(1), 22-45.</strong> <a href="http://www.aresjournals.org/doi/abs/10.5555/1949-8276.9.1.22?code=ares-site3">Access via DOI</a></p>
+<p>We investigate contagion in real estate markets by evaluating the effects of a widely publicized landfill contamination event in one local market on the price of homes near landfills in non-impacted markets within the same metropolitan region. The impact of proximity to open, closed, and redeveloped landfills in the directly affected and contagion neighborhoods is tested at distances varying from &lt;500 meters to 2,500 meters using the traditional hedonic pricing model. The results are mixed and relative to the current use of the landfill as closed, capped, and redeveloped landfills show no impact. Sites that are capped yet undeveloped and sites with open fills appear to show some impact, although further research is needed to support any contagion effects.</p>
+<p><strong>Bitter, C. and A. Krause. <em>The Influence of Urban Design Packages on Home Values.</em> International Journal of Housing Market Analysis, 10(2), 184-203.</strong> <a href="https://www.emeraldinsight.com/doi/abs/10.1108/IJHMA-08-2015-0049">Access via DOI</a></p>
+<p>The purpose of this study is to examine the impact of neighborhood design templates on residential home values in King County, WA, USA. Previous research examines a number of individual design factors; this study combines these factors into typologies and tests for the impacts of the composite set of design features. Design/methodology/approach. The study analyzes over 27,000 home sales with a hedonic price model to measure the impacts across three large, regional submarkets. Neighborhood design categories are developed using a cluster analysis on a set of individual neighborhood attributes. The key finding from this research is that the impact of more traditional (“urban”) design packages on home values is highly contextual. For the older and denser neighborhoods in the study area, a more traditional design results in a significantly positive impact on home values. In the new and more suburban regions of the study area, this effect is not found. Originality/value. Prior work focused on valuing design attributes individually. The study argues that neighborhood design is better conceived of as a “package”, as the value of a given design element may depend on other co-located attributes. This is the first study, to the authors’ knowledge, to treat physical neighborhood design variables as a composite whole and to attempt to value their impact on home values as such.</p>
+</div>
+<div id="section-2" class="section level4">
+<h4>2016</h4>
+<p><strong>Krause, A. and C. Lipscomb. <em>The Data Preparation Process in Real Estate: Guidance and Review</em>, Journal of Real Estate Practice and Education, 19(1), 15-42.</strong> <a href="http://aresjournals.org/doi/abs/10.5555/1521-4842.19.1.15?code=ares-site">Access via DOI</a></p>
+<p>Very little discussion in the real estate literature or the classroom is given to acquiring, managing, cleaning, and preparing large datasets (collectively, the data preparation process). In this paper, we examine the general state of real estate data, the research on data preparation and provide common examples of issues encountered while working with property-level data. We also examine the characteristics that make working with real estate data highly unique and occasionally very difficult: it is largely un-standardized, often lacks sufficient labeling, and is spatial and temporal in nature. We conclude by examining a sample of published research from the Journal of Real Estate Research, Real Estate Economics, and the Journal of Real Estate Finance and Economics to gauge how documentation of the data preparation process in the peer-reviewed literature has changed over time.</p>
+<p><strong>Krause, A. <em>Reproducible Research in Real Estate: A Review and an Example</em>, Journal of Real Estate Practice and Education, 19(1), 69-85.</strong> <a href="http://aresjournals.org/doi/abs/10.5555/1521-4842.19.1.69">Access via DOI</a>.</p>
+<p>The practice of reproducible research, a central component of the burgeoning “open science” movement, has been thrust into the public spotlight over the past few years. In this paper, I offer an overview of reproducibility in science, review specific concerns for the real estate field, and survey the current policy regarding reproducibility among top real estate journals. Performing research reproducibly requires a change from the status quo and represents an educational issue. Toward that end, I demonstrate reproducible research via a fully documented and freely-available example of a reproducible hedonic price analysis complete with all data, code, and results hosted online.</p>
+</div>
+<div id="section-3" class="section level4">
+<h4>2015</h4>
+<p><strong>Sim, E., A. Krause, and K. Winson-Geideman. <em>The Impact of Transit Oriented Development (TOD) on Residential Property Prices: The Case of Box Hill, Melbourne.</em> Pacific Rim Property Research Journal, 21(3), 199-214.</strong> <a href="https://www.tandfonline.com/doi/full/10.1080/14445921.2016.1140715">Access via DOI</a></p>
+<p>Transit-oriented design (TOD) – an increase in density around transit stations – has arisen in many of Australia’s capital cities as a way to encourage mass transit ridership as well as to efficiently utilize the increase in foot and vehicle traffic that transit stations create. However, the implementation of TODs in Melbourne has faced strong opposition due to residents’ perception that the disamenities of a TOD will outweigh the benefits resulting in negative impacts on property prices. This research analyzes the relationship between proximity to a TOD and residential home prices. Results indicate that proximity to a TOD is positively related to property prices, even after controlling for neighborhood factors such as street connectivity and overall land use mix. By testing a variety of transformations of distance, we find that the benefits of TOD proximity extend approximately 1250 m from the Box Hill station. From a methodological standpoint, we find that more flexible treatments of distance variables in spatial autoregressive and spline models produce better model fit and lead to results more in line with urban economic theory.</p>
+<p><strong>Krause, A. <em>Piece-by-Piece: Low-rise Redevelopment in Seattle</em>, Journal of Property Research, 32(3), 258-278.</strong> <a href="https://www.tandfonline.com/doi/full/10.1080/09599916.2015.1048705">Access via DOI</a></p>
+<p>The redevelopment of land containing single-family detached dwellings into small attached or multiple-family structures is a common method of densification in existing urban areas. The potential for redevelopment of any existing home is an important consideration for housing market participants, real estate developers and public officials. Using a longitudinal data-set from the City of Seattle, this study quantifies the impact that a number of factors – policy, physical, neighbourhood and market – have on the likelihood of this form of land use conversion. Derived with a duration model, these findings suggest that the size of the existing home, the adjacent land uses and, most importantly, factors affecting the size of the potential redevelopment have the largest impact on the probability of redevelopment.</p>
+<p><strong>Estiri, H, A. Krause &amp; M. Heris. <em>“Phasic” metropolitan settlers: a phase-based model for the distribution of households in US metropolitan regions</em>, Urban Geography, 36(5), 777-794.</strong><a href="https://www.tandfonline.com/doi/full/10.1080/02723638.2015.1005921">Access via DOI</a></p>
+<p>In this article, we develop a model for explaining spatial patterns in the distribution of households across metropolitan regions in the United States. First, we use housing consumption and residential mobility theories to construct a hypothetical probability distribution function for the consumption of housing services across three phases of household life span. We then hypothesize a second probability distribution function for the offering of housing services based on the distance from city center(s) at the metropolitan scale. Intersecting the two hypothetical probability functions, we develop a phase-based model for the distribution of households in US metropolitan regions. We argue that phase one households (young adults) are more likely to reside in central city locations, whereas phase two and three households are more likely to select suburban locations, due to their respective housing consumption behaviors. We provide empirical validation of our theoretical model with the data from the 2010 US Census for 35 large metropolitan regions.</p>
+</div>
+<div id="section-4" class="section level4">
+<h4>2012</h4>
+<p><strong>Krause, A. &amp; C. Bitter. Spatial Econometrics, Land Values and Sustainability: Trends in Real Estate Valuation</strong>, Cities, Special Issue: Current Research on Cities, 29(S1), S19-S25.** <a href="https://www.sciencedirect.com/science/article/pii/S0264275112001023">Access via DOI</a></p>
+<p>In the aftermath of the recent boom and bust of US real estate, both a refinement and a deeper understanding of real estate valuation methods have become critical concerns across a number of broad urban-related academic fields. Out of this we see three major trends in the field of real estate valuation research: (1) the expansion of spatial econometrics; (2) the recognition of the differences between land values and improvement values; and (3) acknowledgment of value premiums stemming from more sustainable forms of development. This paper offers a brief summary of the latest work in these emerging areas of academic valuation research.</p>
+<p><strong>Krause, A., R. Throupe, J. Kilpatrick, &amp; W. Spiess. <em>Contaminated Properties, Trespass, and Underground Rents</em>, Journal of Property Investment &amp; Finance 30(3), 304-320.</strong> <a href="https://www.emeraldinsight.com/doi/abs/10.1108/14635781211223842">Access via DOI</a></p>
+<p>This paper seeks to extend the literature on property damage assessment by incorporating the right of exclusion as a compensable component to damages. The paper aims to go on to illustrate methodologies to estimate as a rent this damage component. The authors develop a conceptual framework from which to examine the value of underground storage space with special reference to situations in which migrating contamination from commercial operations have invaded private real property. Specifically they view this invasion as a compensable violation of the right of exclusion. This underground storage analysis uses the three approaches common to traditional appraisal (income, sales and cost) to estimate the value of underground storage caused by migrating contamination. Conceptually the paper finds that underground storage can be easily valued with existing appraisal methods. Using contamination scenarios paired with actual market data from the South‐Eastern USA, the paper shows an example of each of the three methods for valuation. It concludes by reconciling the estimated values and supply additional issues to consider when valuing underground storage. Contaminated properties analysis and damages have focused on the right of transfer when estimating damages to real property. Other portions of the bundle of rights also require examination. This is the first discussion of underground trespass in relation to contaminated property coupled with an empirical example to address the right of exclusion and estimated rents due for use of adjacent properties as a storage facility.</p>
+</div>
+<div id="section-5" class="section level4">
+<h4>2011</h4>
+<p><strong>Krause, A. &amp; M. Kummerow. <em>An Iterative Approach to Minimizing Valuation Errors using an Automated Comparable Sales Model</em>, Journal of Property Tax Assessment &amp; Administration 8(2), 39-52.</strong></p>
+<p>This paper describes a method for automating sales comparison valuations by choosing a small sample of comparable sales from a submarket of similar properties and adjusting their prices based on differences between sale and subject property characteristics. This logic is similar to that used in a traditional sales comparison adjustment grid approach using, for example, FNMA Form 1004. Traditional appraisal methods select, adjust, and reconcile a few comparable sales. This valuation algorithm follows the same steps and, in addition, computes summary price prediction error statistics useful for evaluating and improving the valuation protocol.</p>
+</div>
+<div id="section-6" class="section level4">
+<h4>2007</h4>
+<p><strong>Kilpatrick, J., J. Carruthers, R. Throupe &amp; A. Krause. <em>The Impact of Transit Corridors on Residential Property Values</em>, Journal of Real Estate Literature 29(3), 303-320.</strong> <a href="http://aresjournals.org/doi/abs/10.5555/rees.29.3.lg5hq60530884755">Access via DOI</a></p>
+<p>Most of the literature on transit corridors, such as superhighways and tunnels, focuses on the positive externality of transit access (e.g., interstate access, transit station) and fails to isolate the negative externality of the corridor itself. This empirical study examines two situations: one with both access benefits and negatives, and another without the access benefit. The findings reveal that proximity to the transit corridor alone without direct access conveys a negative impact on nearby housing values.</p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
