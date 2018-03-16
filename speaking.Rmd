@@ -1,0 +1,75 @@
+&nbsp;
+&nbsp;
+
+##<span style="color:#21618C"> Speaking and Presentations </span>
+
+&nbsp;
+
+### <span style="color:#2E86C1"> Upcoming </span>
+
+&nbsp;
+
+**GIS/CAMA (IAAO) 2018 Conference, Houston, TX. March 19-22, 2018**
+[Program Link](https://giscama2018.sched.com/event/Co7p/transparency-in-modeling)
+
+I'll be giving a talk on constructing house price indexes for small market areas.  I'll focus on transparency in creating price indexes as well as discussing the recently released `hpiR` open source package for the R statistical language.
+
+&nbsp;
+
+**American Real Estate Society (ARES) 2018 Annual Conference. GIS/CAMA (IAAO) 2018 Conference, Houston, TX. March 19-22, 2018**
+[Program Link](https://www.etnpconferences.net/ares/ares2018/)
+
+I'll be giving an updated talk on my Airbnb research with Gideon Aschwanden, as well as heading a panel on open data and open source software in the real estate discpline and industry.  
+
+&nbsp;
+&nbsp;
+
+### <span style="color:#2E86C1"> Recent </span>
+
+&nbsp;
+
+**IPTI & RICS Annual Caribbean Valuation & Construction Conference, Port-of-Spain, Trinidad.  November 2-3, 2017**
+[Program Link](http://www.ipti.org/wp-content/uploads/2017/04/Brochure-Trinidad-2017-8.pdf)
+
+*Mass Appraisal and Big Data (Thinking):Process over Petabytes*
+
+My talk here focused on seeing past the hype of big data itself and focusing on how 'data' thinking and 'data' process can help your organization or team.  Slide deck available [here](files/krause_ipti.pdf)
+
+&nbsp;
+
+**Real Estate Research Institute (RERI) Research Conference, Chicago, IL. May 10-11, 2017**
+[Program Link](https://www.reri.org/conferences/2017_conference.cfm)
+
+*To AirBNB: A Question of Returns*
+
+I presented the results of our (with G. Aschwanded) RERI funded research into the financial feasibility of using an AirBNB leasing strategy in Melbourne, Australia. 
+
+&nbsp;
+&nbsp;
+
+### <span style="color:#2E86C1"> Past </span>
+
+* 2017 *House Price Indexes for Submarkets: A Blending Approach*, American Real
+Estate Society Annual Meeting, San Diego, CA.
+
+* 2017 *Big Data Analytics*, Panel Member, American Real Estate Society Annual Meeting, San Diego, CA.
+
+* 2016 *Deriving Rent-to-Price Ratios: A Comparison of Methods*, American Real Estate
+Society Annual Meeting, Denver, CO. Co-Authored with Gideon Aschwanden
+
+* 2016 *Property-Level Real Estate Data: Processing Techniques and Documentation Review*,
+Pacific Rim Real Estate Society Annual Meeting, Sunshine Coast, QLD. Co-Authored with Clifford A. Lipscomb
+
+* 2014 *Piece by Piece: A Parcel-Level Statistical Analysis of Medium Density Redevelopment
+in Seattle*, Western Regional Science Association Annual Meeting, San Diego, CA.
+
+* 2013 *Investigating the ‘Re-urbanism Hypothesis’ through an analysis of land market trends.*, Western Regional Science Association Annual Meeting, Santa Barbara, CA.
+
+* 2012 *Expanding GWR: Exploring an N-dimensionally locally weighted regression technique for home price estimation*, Western Regional Science Association Annual Meeting, Kauai, Hawaii.
+
+* 2011 *N-dimensional locally weighted regression for house price prediction*, American Real Estate Society Annual Meeting, Seattle, Washington.
+
+* 2009 *An Iterative Approach to Minimizing Valuation Errors using an Automated Comparable Sales Model*, American Real Estate Society Annual Meeting, Monterrey, CA. Co-Authored with Max Kummerow.
+
+* 2007 *Valuation of Underground Storage and Rents*, American Real Estate Society Annual Meeting, San Francisco, CA. Co-Authored with Throupe, R., Kilpatrick, J., & Spiess, W.
+ 

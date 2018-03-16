@@ -1,28 +1,30 @@
-name: "Andy Krause"
-output_dir: "."
+name: Andy Krause
+output_dir: '.'
 navbar:
-  title: "Andy Krause"
+  title: Andy Krause
   left:
-    - text: "Research"
-      href: research.html
-    - text: "Speaking"
-      href: talks.html
-    - text: "Industry"
-      href: industry.html
-    - text: "Software"
-      href: software.html
-    - text: "Links"
-      href: links.html
+  - text: Research
+    href: research.html
+  - text: Speaking
+    href: speaking.html
+  - text: Industry
+    href: industry.html
+  - text: Software
+    href: software.html
+  - text: Links
+    href: links.html
   right:
-    - icon: fa-github fa-lg
-      href: http://github.com/andykrause
-    - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/andy-krause-7260ab17/
-    - icon: fa-twitter fa-lg
-      href: https://twitter.com/Andy_L_Krause
-    - text: 'Greenfield Advisors'
-      href: http://www.greenfieldadvisors.com
+  - icon: fa-github fa-lg
+    href: http://github.com/andykrause
+  - icon: fa-linkedin fa-lg
+    href: https://www.linkedin.com/in/andy-krause-7260ab17/
+  - icon: fa-twitter fa-lg
+    href: https://twitter.com/Andy_L_Krause
+  - text: Greenfield Advisors
+    href: http://www.greenfieldadvisors.com
 output:
   html_document:
-  theme: tango
-css: 'styles.css'
+    lib_dir: site_libs
+    self_contained: no
+css: styles.css
+
