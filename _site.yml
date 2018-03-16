@@ -3,15 +3,26 @@ output_dir: "."
 navbar:
   title: "Andy Krause"
   left:
-    - text: "Writing"
+    - text: "Research"
       href: research.html
     - text: "Speaking"
       href: talks.html
-    - text: "Programming"
+    - text: "Industry"
+      href: industry.html
+    - text: "Software"
       href: software.html
-    - text: "Teaching"
-      href: teaching.html
+    - text: "Links"
+      href: links.html
+  right:
+    - icon: fa-github fa-lg
+      href: http://github.com/andykrause
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/andy-krause-7260ab17/
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/Andy_L_Krause
+    - text: 'Greenfield Advisors'
+      href: http://www.greenfieldadvisors.com
 output:
   html_document:
-  theme: paper
+  theme: tango
 css: 'styles.css'
