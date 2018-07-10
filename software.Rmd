@@ -6,8 +6,11 @@
 
 **`hpiR`: House Price Indexes in R**
 
-Version 0.1.0.  This R package simplifies the contruction of houes price indexes in R.  Along with standard repeat sales and hedonic price methods, it also includes a suite of tools for testing index accuracy, volatility and revision.  A dataset of Seattle sales is also provided with the package.  
+Version 0.2.0.  This R package simplifies the contruction of houes price indexes in R.  Along with standard repeat sales and hedonic price methods, it also includes a suite of tools for testing index accuracy, volatility and revision.  A dataset of Seattle sales is also provided with the package.  
 
 More information on the package development are available on the packages github page at: [github.com/andykrause/hpiR](http://github.com/andykrause/hpiR). A vignette on using the package is available here: [Using hpiR](https://github.com/andykrause/hpiR/blob/master/vignettes/introduction.Rmd)
+
+ &nbsp;
+ &nbsp;
 
 ### More to come...
