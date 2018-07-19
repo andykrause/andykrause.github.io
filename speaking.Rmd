@@ -5,21 +5,18 @@
 
 &nbsp;
 
-### <span style="color:#2E86C1"> Upcoming </span>
-
-**Attom Data Solutions: "ATTOMIZED AVM" Webinar, July 17, 2018**
-[Webinar Link](https://www.attomdata.com/events/attomized-avm-webinar/)
-
-I'm a panel member on an informational webinar dealing with our recently released Automated Valuation Model; the Attomized AVM. 
-
-&nbsp;
-&nbsp;
-
 ### <span style="color:#2E86C1"> Recent </span>
 
 &nbsp;
 
-**American Real Estate Society (ARES) 2018 Annual Conference. GIS/CAMA (IAAO) 2018 Conference, Houston, TX. March 19-22, 2018**
+**Attom Data Solutions: "ATTOMIZED AVM" Webinar, July 17, 2018**
+[Webinar Link](https://www.attomdata.com/events/attomized-avm-webinar/)
+
+Panel member on an informational webinar dealing with our recently released Automated Valuation Model; the Attomized AVM. 
+
+&nbsp;
+
+**American Real Estate Society (ARES) 2018 Annual Conference. Bonita Springs, FL. April 10-14, 2018**
 [Program Link](https://www.etnpconferences.net/ares/ares2018/)
 
 I gave an updated talk on my Airbnb research with Gideon Aschwanden, as well as lead a panel on open data and open source software in the real estate discpline and industry.  
