@@ -6,6 +6,9 @@
 
 <img src="images/andy.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-As of June 2017, I’ve taken a position as the Principal Data Scientist at Greenfield Advisors in Seattle, WA.  My time at Greenfield will be spent developing new analytical tools and products for marketing to valuation professionals as well as assisting in on-going litigation consulting projects.
+As of September 2018, I’ve taken a position as a Senior Applied Scientist at Zillow Group in their Seattle headquarters. I'll be working with the Home Valuation team to continue to improve the value (Zestimate) and rent estimate offerings. 
+
+My team is a division of the larger Artificial Intelligence unit.  Our group blog is here: https://www.zillow.com/data-science/
+
 
 My full CV is available [here](files/krause_cv.pdf).
