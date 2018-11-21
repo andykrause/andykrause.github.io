@@ -9,9 +9,16 @@
 
 &nbsp;
 
-**Principal Data Scientist: [Greenfield Advisors](www.greenfieldadvisors.com): 2017 - Present**
+**Senior Applied Scientist: [Zillow Group](www.zillow.com): 2018 - Present**
 
-I split time between leading Greenfield’s valuation products group and assisting with the firm’s litigation consulting business. Currently, I’m heading up the effort to develop tools for assisting appraisers, assessors and lenders to better understand and evaluate real estate markets. I manage a team of eight data and analytics professionals. I also spend time providing litigation support regarding the statistical and computational performance of in-house automated valuation model(s).
+I work on prototyping new algorithms and machine learning tools for analyzing housing markets.  I sit on the Home Valuations team, a sub-unit of Zillow's Artificial Intelligence organization.  
+
+&nbsp;
+
+
+**Principal Data Scientist: [Greenfield Advisors](www.greenfieldadvisors.com): 2017 - 2018**
+
+I split time between leading Greenfield’s valuation products group and assisting with the firm’s litigation consulting business. Currently, I’m heading up the effort to develop tools for assisting appraisers, assessors and lenders to better understand and evaluate real estate markets. I managed a team of eight data and analytics professionals. I also spend time providing litigation support regarding the statistical and computational performance of in-house automated valuation model(s).
 
 &nbsp;
 
