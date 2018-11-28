@@ -20,8 +20,8 @@ navbar:
     href: https://www.linkedin.com/in/andy-krause-7260ab17/
   - icon: fa-twitter fa-lg
     href: https://twitter.com/Andy_L_Krause
-  - text: Greenfield Advisors
-    href: http://www.greenfieldadvisors.com
+  - text: Zillow
+    href: http://www.zillow.com
 output:
   html_document:
     lib_dir: site_libs
