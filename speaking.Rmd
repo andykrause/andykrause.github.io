@@ -10,7 +10,7 @@
 &nbsp;
 
 **American Real Estate Society (ARES) 2019 Annual Conference. Paradise Valley, AZ. April 9-13, 2019**
-[Program Link](https://www.etnpconferences.net/ares/ares2018/)
+[Program Link](https://cdn.ymaws.com/www.aresnet.org/resource/resmgr/docs/meetingprograms/ares-2019-program.pdf)
 
 I presented original research on using machine learning models together with model agnostic interpretability methods to generate house price indexes.  I also sat on a panel discussing big data and the future of real estate research, practice and education. 
 
@@ -24,7 +24,7 @@ Panel member on an informational webinar dealing with our recently released Auto
 &nbsp;
 
 **American Real Estate Society (ARES) 2018 Annual Conference. Bonita Springs, FL. April 10-14, 2018**
-[Program Link](https://www.etnpconferences.net/ares/ares2018/)
+[Program Link](https://cdn.ymaws.com/www.aresnet.org/resource/resmgr/docs/meetingprograms/ares-2018-program.pdf)
 
 I gave an updated talk on my Airbnb research with Gideon Aschwanden, as well as lead a panel on open data and open source software in the real estate discpline and industry.  
 
