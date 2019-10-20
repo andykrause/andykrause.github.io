@@ -9,6 +9,13 @@
 
 &nbsp;
 
+**American Real Estate Society (ARES) 2019 Annual Conference. Paradise Valley, AZ. April 9-13, 2019**
+[Program Link](https://www.etnpconferences.net/ares/ares2018/)
+
+I presented original research on using machine learning models together with model agnostic interpretability methods to generate house price indexes.  I also sat on a panel discussing big data and the future of real estate research, practice and education. 
+
+&nbsp;
+
 **Attom Data Solutions: "ATTOMIZED AVM" Webinar, July 17, 2018**
 [Webinar Link](https://www.attomdata.com/events/attomized-avm-webinar/)
 

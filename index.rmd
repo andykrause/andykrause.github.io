@@ -8,7 +8,7 @@
 
 As of September 2018, I’ve taken a position as a Senior Applied Scientist at Zillow Group in their Seattle headquarters. I'll be working with the Home Valuation team to continue to improve the value (Zestimate) and rent estimate offerings. 
 
-My team is a division of the larger Artificial Intelligence unit.  Our group blog is here: https://www.zillow.com/data-science/
+Our team is a division of the larger Artificial Intelligence unit.  Our group blog is here: https://www.zillow.com/data-science/
 
 
 My full CV is available [here](files/krause_cv.pdf).
