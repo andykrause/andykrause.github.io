@@ -9,6 +9,14 @@
 
 &nbsp;
 
+**A Machine Learning Approach to House Price Indexes**
+
+The existing approaches for generating house price indexes (HPIs) are almost exclusively found in the realm of traditional statistical modeling. This paper offers a new approach using a machine learning model class – random forests – combined with a model-agnostic interpretability method – partial dependency – to derive an HPI. After providing an example of this approach, I then test the Interpretable Random Forest (IRF) against indexes derived from repeat sales and hedonic price models. Using data from the City of Seattle, this comparison suggests that the IRF is competitive (and occasionally superior to) popular existing methods across measures of accuracy, volatility and revision at both a city-wide and a neighborhood scale.
+
+The working paper is [here](files/krause_irf_hpi.pdf)
+
+&nbsp;
+
 **Hierarchical Blending: House Price Indexes for Submarkets**
 
 Traditionally, literature on house price indexes has focused on the choice of method (repeat sales vs. hedonic vs. hybrid, etc.) or correcting for biases resulting from issues such as sample selection, aggregation, or temporal heterogeneity. While more recent research has explored the production of indexes at the sub-city or submarket level there remains, however, a lack of comparative analytics to determine the limits to market disaggregation in terms of generating reliable price indexes. The goals of this study are two-fold: 1) Compare index performance at different sub-market levels (county, ZIP, etc.); and 2) To test if blended indexes – between market levels and between methods – offer any improvement over more traditional non-blended models. A draft copy of the paper can be found [here](files/krause_hrb.pdf)
