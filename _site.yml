@@ -13,6 +13,8 @@ navbar:
     href: software.html
   - text: Links
     href: links.html
+  - text: Non-Professional
+    href: non-professional.html
   right:
   - icon: fa-github fa-lg
     href: http://github.com/andykrause
