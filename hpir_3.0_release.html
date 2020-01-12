@@ -11,7 +11,7 @@
 
 
 
-<title>software.utf8.md</title>
+<title>hpir_3.0_release.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -339,26 +339,39 @@ $(document).ready(function () {
 </div>
 
 
-<div id="software-projects" class="section level2">
-<h2><span style="color:#21618C"> Software Projects </span></h2>
+<div id="hpir-0.3.0" class="section level1">
+<h1>hpiR 0.3.0</h1>
 <p>   </p>
-<div id="hpir" class="section level3">
-<h3><span style="color:#2E86C1"> hpiR </span></h3>
+<div id="release-notes" class="section level2">
+<h2>Release Notes</h2>
 <p> </p>
-<p><strong><code>hpiR</code>: House Price Indexes in R</strong></p>
-<p>*<a href="hpiR_3.0_release.html">Version 0.3.0 Release Notes</a></p>
-<p><strong>Version 0.3.0.</strong> This R package simplifies the construction of house price indexes in R. Along with three approaches to deriving indexes, it also includes a suite of tools for testing index accuracy, volatility and revision. A dataset of Seattle sales is also provided with the package.</p>
-<p>More information on the package development and vignette on using the package is available here: <a href="https://github.com/andykrause/hpiR/blob/master/vignettes/introduction.Rmd">Using hpiR</a></p>
-<p>   </p>
+<p>With the release of version 0.3.0, <a href="https://github.com/andykrause/hpiR"><code>hpiR</code></a> (<a href="https://cran.r-project.org/web/packages/hpiR/index.html">Link to CRAN</a>) now allows for easy (one function) creation of house prices created through three methods:</p>
+<ul>
+<li>Repeat Sales</li>
+<li>Hedonic Regression</li>
+<li>Interpretable Random Forest (NEW!)</li>
+</ul>
+<p>In addition to creating indexes, <code>hpiR</code> also present a standard framework for comparing the quality of indexes across the following measures:</p>
+<ul>
+<li>Volatility</li>
+<li>Revision</li>
+<li>Accuracy
+<ul>
+<li>In-sample</li>
+<li>Out-of-sample (k-fold)</li>
+<li>Out-of-time (forward prediction)</li>
+</ul></li>
+</ul>
+<p>A test dataset of over 43,000 home sales from the City of Seattle is included.</p>
+<p> </p>
+<div id="documentation" class="section level3">
+<h3>Documentation</h3>
+<p>For just getting started, see the Introduction Vignette from within the package or at this <a href="https://github.com/andykrause/hpiR/blob/master/vignettes/introduction.Rmd">link</a>.</p>
+<p>For more information on the Interpretable Random Forest method to creating house price index, see this <a href="https://www.github.com/andykrause/hpi_research/tree/master/irf/papers">working paper</a>.</p>
+<p><a href="https://cran.r-project.org/web/packages/hpiR/index.html">CRAN Link</a></p>
 <hr />
+<p>Back to <a href="software.html">Software</a></p>
 </div>
-<div id="kingcosales" class="section level3">
-<h3><span style="color:#2E86C1"> kingCoSales </span></h3>
-<p> </p>
-<p><strong><code>kingCoData</code>: King County Home Sales Data</strong></p>
-<p><strong>Version 0.1.0</strong> This is a data specific package (R) that contains single family homes sales from King County, Washington (Seattle) over the 1999 to 2019 period. More than 480,000 sales are included in this data. The transactions and home characteristics are gathered from public sources and free to share. The documentation functions explain each field.</p>
-<p>See the Github Page <a href="https://github.com/andykrause/kingCoData">here</a></p>
-<hr />
 </div>
 </div>
 
