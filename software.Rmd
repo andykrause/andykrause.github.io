@@ -19,7 +19,7 @@ More information on the package development and vignette on using the package is
 
 ---------------------------------------------------------------------------------
 
-### <span style="color:#2E86C1"> kingCoSales </span>
+### <span style="color:#2E86C1"> kingCoData </span>
 
 &nbsp;
 
