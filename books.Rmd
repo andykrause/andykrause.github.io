@@ -2,6 +2,25 @@
 &nbsp;
 &nbsp;
 
+#### [Naked Statistics: Stripping the Dread from the Data](https://www.goodreads.com/book/show/17986418-naked-statistics): 
+
+&nbsp;
+
+- By : Charles Wheelan
+
+&nbsp;
+
+About 50 pages into this book I thought to myself; ‘they should teach this in high school’; the ‘this' being the general statistical literacy which the book is about. Very shortly thereafter the prescriptiveness and condescension of that statement hit me and and I thought better of sharing it openly with anyone. Also, it made me realize I’m old.  My personal feelings aside, Whelan's clarity of presentation and methodical march through the basics of applied statistics is broadly approachable.  And funny, to boot.  The standard examples like the Monty Hall problem and laughable reverse causality situations all make an appearance.  And so do new ones, like the Schlitz Beer's taste test ploy in the 1980s, which,  though commendable, couldn't save the brand.  
+
+All humor and Stats 101 aside, there is deeper layer, a line of argument that should resonate with data and analytics professionals.  It is that incorrect, misleading and malfeasant uses of statistics are not the fault of the math itself, but rather the application.  In short, no amount of sophisticated modeling and analysis can overcome bad data, biased sampling, poor choices of variables and a faulty research design.  More conceptually and, perhaps, normatively, Whelan argues that our thinking about how to use data has lagged seriously behind our ability to gather and analyze it.  Put another way, we can put a lot of effort into building very precise models — getting the data, sampling and variables correct — only to find out later that they are not very ‘accurate’ in the sense of solving the problem we originally intended to.  
+
+Whelan equates data to offensive lineman. As such, they are a necessary but not sufficient condition for creating an accurate, useful and honest statistical analysis.   Machine learning as a discipline seems to be coming around to this view as well.  Modeling improvements still matter, but rarely will they improve performance to same level as greatly increasing the size of the data.  Amidst the continuous improvements in computing power, deep learning and AI in general, it can be easy to forget the importance of asking the right question and collecting the right data. This book is an enjoyable read that provides a gentle reminder of why we do analyses in the first place and how to ensure that the fundamentals — the lineman — are both efficiently operating and dutifully respected.    
+
+---------------------------------------------------------------------------------------------------
+
+&nbsp;
+&nbsp;
+
 #### [How To: Absurd Scientific Advice for Common Real World Problems](https://www.penguinrandomhouse.com/books/576760/how-to-by-randall-munroe/): 
 
 &nbsp;
