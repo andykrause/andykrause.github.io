@@ -46,15 +46,15 @@ There are a lot of state parks in Washington State, 136 in all, and not all are 
 
 * 2020-01-20
 * 48.1269829 -122.5150792 | [Map](https://www.google.com/maps/place/Camano+Island+State+Park/@48.1269829,-122.5150792,14z/data=!4m22!1m16!4m15!1m6!1m2!1s0x54857ccbe05a2c55:0xb86f9fd46006f816!2sNorth+Beach,+Washington+98277!2m2!1d-122.6554493!2d48.401491!1m6!1m2!1s0x548ff658f7c04fcb:0x8d3bf4245a6d2380!2sCama+Beach+State+Park,+West+Camano+Drive,+Camano,+WA!2m2!1d-122.5094461!2d48.1451393!3e0!3m4!1s0x548ff7066b43811d:0xa674a90f32f3081c!8m2!3d48.1226059!4d-122.4932456)
-
 * 49 Degrees, Windy and Overcast
 * Miles Traveled: 66.8
 * Sighted: 1 Refrigerator of Frozen Tea
 
+&nbsp;
 
 A few miles down the road from Cama Beach is Camano Island State Park.  In place of the small cabins and structured sea wall is a wilder coast as the campgrounds and main park buildings are situated upland and away from the water.
 
-<img src="images/waparks_camanoisland.jpg" style="width:35%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/waparks_camanoisland.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left">
 
 The beach here has a more southerly aspect.  Better for sun-bathing on a summer day, but headlong into today's stiff breeze.  49 felt like 29 as the wind-driven waves pounded the shoreline in front of us. The Olympics and the Cascades, both currently snow-covered, are visible from the parking lot as its orientation points you directly down the Puget Sound and gap between the two.  From some vantage points in Western Washington the ranges look distant; from here the Sound looks so very narrow. 
 
@@ -75,12 +75,13 @@ Everett and I found a makeshift driftwood fort which we requisitioned and remode
 
 * 2020-01-20
 * 48.1452553 -122.5242631 | [Map](https://www.google.com/maps/place/Cama+Beach+%7C+Historical+State+Park/@48.1452553,-122.5242631,14z/data=!4m22!1m16!4m15!1m6!1m2!1s0x54857ccbe05a2c55:0xb86f9fd46006f816!2sNorth+Beach,+Washington+98277!2m2!1d-122.6554493!2d48.401491!1m6!1m2!1s0x548ff658f7c04fcb:0x8d3bf4245a6d2380!2sCama+Beach+State+Park,+West+Camano+Drive,+Camano,+WA!2m2!1d-122.5094461!2d48.1451393!3e0!3m4!1s0x548ff658f7c04fcb:0x8d3bf4245a6d2380!8m2!3d48.1451393!4d-122.5094461)
-
 * 49 Degrees, Windy and Overcast
 * Miles Traveled: 48.9
 * Sighted: 1 flooded golf course
 
-<img src="images/waparks_camabeach.jpg" style="width:35%; border:5px solid; margin-right: 20px" align="left">
+&nbsp;
+
+<img src="images/waparks_camabeach.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left">
 
 A re-purposed fishing resort from the 1930s, the defining features of Cama Beach are man-made.  The small cabins, wooden boat museum and park support offices sit tightly clustered in a (mostly) automobile-free community right on the beach.  New urbanism meets wilderness outpost meets Airbnb.  Though the buildings had been restored and some modern conveniences added, on this steel gray day it wasn't hard to imagine the resort in full swing during the 1930s.  Shellfish and the day's catch being unloaded and cleaned, wood fires burning, whiskey swilled and spilled.   
 
@@ -111,7 +112,7 @@ Being a holiday weekend, some of the cabins had been inhabited the night before 
 
 Deception Pass is both natural spectacle and monument to human engineering.  Tidal ebbs and flows rush through the narrow channel at upwards of 10 mph -- a marine river; audible and visually striking -- beneath the double span bridge nearly 200 feet above. There's more than just that: salt and freshwater beaches, multiple lakes and miles of hiking trails.  
 
-<img src="images/waparks_deceptionpass.jpg" style="width:35%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/waparks_deceptionpass.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left">
 
 I had been here before on a hungover morning back in 2005.  In such a state, walking along the bridge turned out to be a poor idea and I had turned back without completing it. This time two young children presented another reason to pass on the attempt at a pedestrian crossing.  It is a very narrow walkway, separated from speeding traffic on one side by an iron cable and from a 180-foot fall to you death by a 4-foot high railing on the other.  Parents, the feint of heart and the clumsy need not apply.  
 
@@ -144,7 +145,7 @@ The amphitheater had a compass rose stamped in the concrete.  Clever parent that
 
 The second park on our first (hopefully of many) multiple park day.  One failed park visit already on the books, we would not be denied here.  It was raining.  So, we geared up and hit the beach.  Temperature, 43 degrees.  We had brought neither the beach toys nor the rugged and waterproof pram.
 
-<img src="images/waparks_dashpoint.png" style="width:35%; border:10px solid; margin-right: 20px" align="right">
+<img src="images/waparks_dashpoint.png" style="width:30%; border:10px solid; margin-right: 20px" align="right">
 
 Fortune shined on us even though the sun would not.  Everett found two discarded sifters on the beach and we were able to fashion our picnic blanket into a make-shift umbrella/tent for Hawkins.  The little one didn’t last long outside, but Everett and I collected, cleaned and piled shells until we were soaked.  
 
@@ -206,7 +207,7 @@ Despite this, our spirits were high and instead of heading home defeated we call
 &nbsp;
 &nbsp;
 
-<img src="images/waparks_lakesammamish.jpg" style="width:35%; border:10px solid; margin-right: 20px" align="right">
+<img src="images/waparks_lakesammamish.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="right">
 
 A front had moved through last night and gone was the balmy 50+ degrees.  In its place a biting wind and threatening clouds.  Still early in our State Parks quest and full of vim, vigor and a general dread of being shut up for the entire day, we decided to have a go at Lake Sammamish State Park. The choice of destination was a hedge, however.  Lake Sammamish Park is (sub)urbanly-located meaning if the weather drove us off, we could still fulfill a number of other errands without much additional travel.  
 
@@ -238,7 +239,7 @@ The weather had kept the crowds at bay and the massive parking lot was mostly em
 
 Twenty minutes from our house, Saint Edward is our most quickly and easily accessible state park. The journey was rather uneventful, few people other than parents and, perhaps, athletes-in-training venture out on the roadways at eight-thirty AM on New Years Day.  The park, however, was full. Heaping full of young families like our own.  In addition to the trails and old seminary building there is a massive, Sherwood Forest-themed playground.  Actually, child-castle would be a better description. 
 
-<img src="images/waparks_saintedward.png" style="width:35%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/waparks_saintedward.png" style="width:30%; border:10px solid; margin-right: 20px" align="left">
 
 We opted first for a hike to the lake and back.  The Grotto Trail descends quickly to the water, past hanging moss and radial sword ferns, but oddly, not past the Grotto. Though a much promised attraction, we did not back-track to find it. Our 3-year old rated the hike “Bad: too many mud and roots”.  The beach area also lacked enough "sticks for throwing in the water.” His complaints were duly noted and filed with the park ranger.  
 
@@ -273,7 +274,7 @@ Post-hike, we entered the melee at the playground. Time was passed silently judg
 
 We were five days into a six-day stay at the in-laws. Sure, Christmas and some unseasonably good weather had eased the psychological toll of having and/or being guests.  Nonetheless, patience wore thin.  Escape called.  
 
-<img src="images/waparks_spencerspit.jpg" style="width:35%; border:10px solid; margin-right: 20px" align="right">
+<img src="images/waparks_spencerspit.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="right">
 
 The steel gray, bone-chilling damp days had returned.  The eldest child was lured from the house with promises of a beach and eagles and a log cabin and some snacks.  All of these were available, or at least possible, at Spencer Spit — the to-be first stop of our WA Parks Challenge. We had been here many times, in fact, Erin had worked here as a junior park ranger during high school.  It seemed right to take the first step on our home turf.  
 
