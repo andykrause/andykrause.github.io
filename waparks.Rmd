@@ -23,9 +23,10 @@ There are a lot of state parks in Washington State, 136 in all, and not all are 
 
 &nbsp;
 
-* 8 Visited (128 Remaining)
-* 290.7 Miles Driven
+* 9 Visited (127 Remaining)
+* 349.1 Miles Driven
 * 11.7 Miles Ferried
+* 3.2 Miles Hiked
 * 5 Counties Visited
     * Island
     * King
@@ -33,6 +34,34 @@ There are a lot of state parks in Washington State, 136 in all, and not all are 
     * Skagit
     * Snohomish
     
+&nbsp;
+&nbsp;
+&nbsp;
+.
+
+---------------------------------------------------------------------------------------------------
+
+#### 9) [Squak Mountain](https://parks.state.wa.us/588/Squak-Mountain): 
+
+&nbsp;
+
+* 2020-01-26
+* 47.4880319 -122.0646835 | [Map](https://www.google.com/maps/place/Squak+Mountain+State+Park+Natural+Area/@47.4880319,-122.0646835,14z/data=!4m13!1m7!3m6!1s0x549065c8e92192cd:0xfbbebf03b6a6292f!2sSquak+Mountain!3b1!8m2!3d47.496389!4d-122.038333!3m4!1s0x549065e830de6639:0x2fc8d6788f82e4bf!8m2!3d47.5010181!4d-122.0469528)
+* 46 Degrees, Overcast
+* Miles Traveled: 58.4
+* Miles Hiked: 2.0
+* Sighted: A dog driving a Subaru
+
+&nbsp;
+
+<img src="images/waparks_squakmountain.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Upon arrival our three year old asked: "Where's the beach?". We hadn't realized it until then, but this was our first non-beach park visit on this quest.  It was also our first joint visit, as the Michener-Malcolm family joined us for a hike.  Hike is a generous term.  More like short, slow walk in the woods with small children.  There's a lot of stops, some whining, stick-play, one face-plant in the mud, some snacks, more whining.  We made it multiple miles (2.0) with a few hundred feet of elevation gain all without any major incidents.  A small steps on the long journey to reclaiming our once-defining outdoor lifestyle.  
+
+Back at the parking lot the fun truly began for the younger generation.  Puddles from last night's rain abounded and none were left unexplored. No boots, socks or pants remained dry either.  Toddlers entertaining themselves for 15 minutes is well worth the trouble.  Young families were filing in as we packed up to leave.  A 'hiking with kids' Meetup we were told.  Our timing was impeccable. Two kids on the trail is manageable, two dozen is disaster. 
+
+8 Down, 128 to go.
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -81,7 +110,7 @@ Everett and I found a makeshift driftwood fort which we requisitioned and remode
 
 &nbsp;
 
-<img src="images/waparks_camabeach.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/waparks_camabeach.jpg" style="width:30%; border:10px solid; margin-left: 20px" align="right">
 
 A re-purposed fishing resort from the 1930s, the defining features of Cama Beach are man-made.  The small cabins, wooden boat museum and park support offices sit tightly clustered in a (mostly) automobile-free community right on the beach.  New urbanism meets wilderness outpost meets Airbnb.  Though the buildings had been restored and some modern conveniences added, on this steel gray day it wasn't hard to imagine the resort in full swing during the 1930s.  Shellfish and the day's catch being unloaded and cleaned, wood fires burning, whiskey swilled and spilled.   
 
@@ -231,6 +260,7 @@ The weather had kept the crowds at bay and the massive parking lot was mostly em
 * 47.7325728 -122.2591007 | [Map](https://www.google.com/maps/place/Saint+Edward+State+Park/@47.7325728,-122.3969877,11z/data=!4m5!3m4!1s0x5490118ca599d303:0x796ecd98c741f826!8m2!3d47.7325692!4d-122.256912)
 * 44 Degrees and Partly Sunny
 * Miles Traveled: 22.2
+* Miles Hiked: 1.2
 * Sighted: 2 tow-trucks
 
 &nbsp;
