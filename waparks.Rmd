@@ -18,15 +18,16 @@ There are a lot of state parks in Washington State, 136 in all, and not all are 
 &nbsp;
 &nbsp;
 &nbsp;
+.
 
 ### **Current Stats**
 
 &nbsp;
 
-* 9 Visited (127 Remaining)
-* 349.1 Miles Driven
+* 13 Visited (123 Remaining)
+* 497.1 Miles Driven
 * 11.7 Miles Ferried
-* 3.2 Miles Hiked
+* 4.3 Miles Hiked
 * 5 Counties Visited
     * Island
     * King
@@ -41,11 +42,98 @@ There are a lot of state parks in Washington State, 136 in all, and not all are 
 
 ---------------------------------------------------------------------------------------------------
 
-#### 9) [Squak Mountain](https://parks.state.wa.us/588/Squak-Mountain): 
+#### 13) [Federation Forest](https://parks.state.wa.us/502/Federation-Forest): 
 
 &nbsp;
 
 * 2020-01-26
+* 47.15636 -121.72045 | [Map](https://www.google.com/maps/place/Federation+Forest+State+Park/@47.1563655,-121.7204524,5302m/data=!3m1!1e3!4m12!1m6!3m5!1s0x549095b29a66fa6b:0x640dc1997f601ccf!2sFederation+Forest+State+Park!8m2!3d47.154582!4d-121.7057429!3m4!1s0x549095b29a66fa6b:0x640dc1997f601ccf!8m2!3d47.154582!4d-121.7057429)
+* 44 Degrees, Overcast
+* Miles Traveled: 83.3
+* Miles Hiked: 1.1
+* Sighted: 18ft Tall Alanis Morisette (White River Amphitheater Billboard)
+
+&nbsp;
+
+To the mountains for our final stop of this four-park day. Traffic was moderate, with a steady stream of late risers making their way to Crystal Mountain for the day. The Federation Forest Interpretive Center and main parking lot were closed. We continued on to the mud pit/pull off area at the far eastern end of the park.  
+
+<img src="images/waparks_federationforest.jpeg" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Just a short walk takes you back into the old growth forest, multiple hundreds of years back, actually.  Saved from the logger's saw by the General Federation of Women's Clubs in the early 20th century, it not pristine in the way that the Redwoods are, but inspiring nonetheless. 
+
+The spongy flood plain maintained a hint of the week's earlier snowfall. Cold, but we were now far enough from the sea to have lost some of that damp chill.  Our progeny were generally unimpressed by the massive trees.  One had milk on his mind, the other just wanted to throw rocks in the water.  In the end, they both won out and our hike was cut short. So great that a few of these trees still exist; so sad also.     
+
+---------------------------------------------------------------------------------------------------
+
+#### 12) [Nolte](https://parks.state.wa.us/552/Nolte): 
+
+&nbsp;
+
+* 2020-01-26
+* 47.27132 -121.94334 | [Map](https://www.google.com/maps/place/Nolte+State+Park/@47.2713218,-121.9433434,661m/data=!3m2!1e3!4b1!4m5!3m4!1s0x5490f33408f8c0d5:0x4b1cfe63b455ee83!8m2!3d47.2713182!4d-121.9411494)
+* 46 Degrees, Sunny 
+* Miles Traveled: 3.9 
+* A car on a trailer in the ditch
+
+&nbsp;
+
+This was a check off stop.  Or at least intended to be so. The sun peaked through the clouds and the small depression in which the lake resides kept the wind at bay.  
+
+<img src="images/waparks_nolte.jpg" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+
+A number of young families crowded the beach, children working on the perfect cast with their Mickey/Minnie Mouse fishing poles. Ever the observer, Everett was content just watching the young anglers.  Hawkins, wrapped in his size-much-too-large full body fur suit just wanted to move about. So I set him on the picnic table and let him clambor around a bit.  It is possible he was mistaken for a small blue dog.  It is hard to say. Most adults at the park were too busy dodging errant hooks and replacing missing worms to be bothered with our machinations.  
+
+Its a nice park.  The grounds are well kept, the facilities aged in that underfunded, heavily-used way. The information on bulletin board; relevant but out of date. The fish were not biting, though perhaps anglers of higher skill may have had luck. I had never been this way before and likely never will again, but its a nice park...more than we had expected.      
+
+---------------------------------------------------------------------------------------------------
+
+#### 11) [Kanaskat-Palmer](https://parks.state.wa.us/527/Kanaskat-Palmer): 
+
+&nbsp;
+
+* 2020-01-26
+* 47.31945 -121.916707 | [Map](https://www.google.com/maps/place/Kanaskat-Palmer+State+Park/@47.3194501,-121.916707,1321m/data=!3m1!1e3!4m5!3m4!1s0x54908b8602006851:0xc84bc44bd398a0c6!8m2!3d47.3194465!4d-121.9123243)
+* 44 Degrees, Overcast
+* Miles Traveled: 13.7
+* Sighted: A cyclist with a flat tire
+
+&nbsp;
+
+Only a few miles of river separate Kanasket-Palmer and Flaming Geyser Parks.  But is a wild, cliff-lined river, not exactly amenable to road building.  Thus, driving from one to the other is a 20 minute, sinuous affair.  
+
+<img src="images/waparks_kanaskatpalmer.jpg" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Thought it wasn't much warmer, it was snack time so we settled down into a small 'beach' area near the river to eat. A mud flat, really. The river was mad with January rain, rushing over the exposed rocks and almost over the far bank.  Nearly as mad as the two kayakers who came hurling down it minutes later.  It looked like a wild ride, but they navigated the rapids with ease and were quickly on their way.  
+
+As with our earlier stop, we pretty much had the park to ourselves.  In the city, dog-walkers keep parks busy from sun-up to sunset.  Out here, the parks serve a different purpose and campers are thin this time of year.  The collection of empty spaces that are equiped for crowds -- shelter, picnic tables, toilets and parking lots -- gives an end of the world type feeling. The steel gray sky aiding the aura of doom.  
+
+---------------------------------------------------------------------------------------------------
+
+#### 10) [Flaming Geyser](https://parks.state.wa.us/504/Flaming-Geyser): 
+
+&nbsp;
+
+* 2020-01-26
+* 47.2771344 -122.0304191 | [Map](https://www.google.com/maps/place/Flaming+Geyser+Park/@47.2771344,-122.0304191,2645m/data=!3m1!1e3!4m5!3m4!1s0x5490f47960f51c0f:0xc5d5b56102d37798!8m2!3d47.2771308!4d-122.021659)
+* 42 Degrees, Partly Sunny, Damp
+* Miles Traveled: 47.0
+* Sighted: Morning sunrise over the Cascades
+
+&nbsp;
+
+<img src="images/waparks_flaminggeyser.jpg" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+
+After a crooked route into the Green River Gorge, we crossed a very modern bridge and followed the main route to park next to a not-so modern building.  Fire was once the main draw, but that flame had slowly weakened to nothing over the years.  Water was now the attraction.  Access to the Green River, to be exact.  It had rained heavily the night before so the ground was laden, the small creek and the river itself flowing fast.  Water in the air too.  That damp Northwest cold that no jacket or wind-break can possibly shield you from.  It cuts right to the bone.  I grew up in Wisconsin and i'd gladly take a 20 degree sunny day there over the damp, low-40s chill we get here. 
+
+Geyser is a misnomer.  It is pipe drilled 1,300 feet into the ground originally intended to prospect for coal.  They found a methane seam, lit it aflame and it burned for decades. Once many feet high, then many inches, now not at all.  The park has been re-purposed from spectacle to recreational and it is much better for it. We peered at the faded hydrocarbon darling, caught a feint whiff of methane from down deep and hustled back to the car.  We had more parks to see.    
+
+---------------------------------------------------------------------------------------------------
+
+#### 9) [Squak Mountain](https://parks.state.wa.us/588/Squak-Mountain): 
+
+&nbsp;
+
+* 2020-01-25
 * 47.4880319 -122.0646835 | [Map](https://www.google.com/maps/place/Squak+Mountain+State+Park+Natural+Area/@47.4880319,-122.0646835,14z/data=!4m13!1m7!3m6!1s0x549065c8e92192cd:0xfbbebf03b6a6292f!2sSquak+Mountain!3b1!8m2!3d47.496389!4d-122.038333!3m4!1s0x549065e830de6639:0x2fc8d6788f82e4bf!8m2!3d47.5010181!4d-122.0469528)
 * 46 Degrees, Overcast
 * Miles Traveled: 58.4
