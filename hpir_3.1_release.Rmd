@@ -1,4 +1,4 @@
-# hpiR 0.3.0
+# hpiR 0.3.1
 
 &nbsp;
 &nbsp;
@@ -7,7 +7,7 @@
 
 &nbsp;
 
-With the release of version 0.3.0, [`hpiR`](https://github.com/andykrause/hpiR) ([Link to CRAN](https://cran.r-project.org/web/packages/hpiR/index.html)) now allows for easy (one function) creation of house prices created through three methods:
+With the release of version 0.3.1, [`hpiR`](https://github.com/andykrause/hpiR) ([Link to CRAN](https://cran.r-project.org/web/packages/hpiR/index.html)) now allows for easy (one function) creation of house prices created through three methods:
 
 * Repeat Sales 
 * Hedonic Regression
