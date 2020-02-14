@@ -8,11 +8,17 @@
 
 **`hpiR`: House Price Indexes in R**
 
-*<a href="hpiR_3.0_release.html">Version 0.3.0 Release Notes</a>
+&nbsp;
 
-**Version 0.3.0.** This R package simplifies the construction of house price indexes in R.  Along with three approaches to deriving indexes, it also includes a suite of tools for testing index accuracy, volatility and revision. A dataset of Seattle sales is also provided with the package.
+*<a href="hpiR_0.3.1_release.html">Version 0.3.1 Release Notes</a>
 
-More information on the package development and vignette on using the package is available here: [Using hpiR](https://github.com/andykrause/hpiR/blob/master/vignettes/introduction.Rmd)
+&nbsp;
+
+<img src="images/hpir.png" style="width:12%; border:0px solid; margin-left:20px; margin-right: 20px" align="left">
+
+**Version 0.3.1.** This R package simplifies the construction of house price indexes in R.  Along with three approaches to deriving indexes, it also includes a suite of tools for testing index accuracy, volatility and revision. New to this version is the use of random forests combined with a model agnostic interpretability method to creating HPIs (see working paper [here](https://github.com/andykrause/hpi_research/tree/master/irf)). A dataset of residential home sales from the City of Seattle is also provided with the package.
+
+More information on the package development and usage is available here: [Using hpiR](https://github.com/andykrause/hpiR/blob/master/vignettes/introduction.Rmd)
 
  &nbsp;
  &nbsp;
