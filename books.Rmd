@@ -4,6 +4,34 @@
 &nbsp;
 &nbsp;
 
+#### [Range: Why Generalists Triumph in a Specialized World](https://davidepstein.com/the-range/): 
+
+&nbsp;
+
+- By : David Epstein
+
+&nbsp;
+
+The spoils of a graduate school education are myriad; a firm belief in the necessity of specialization chief among them. In this book, Epstein argues that our reliance on a deep and narrow pursuit of a solution is often misplaced. Our trust in and preference for the insight and opinions of siloed specialists is pervasive in our institutions, our relationships and often our own minds. But, there are situations -- many of them, in fact -- where greater specific knowledge leads to worse outcomes than broader and shallower understanding. It takes some un-learning to fully recognize and benefit from the power of generalized thinking.     
+
+The key distinguising factor is the context of the problem and its formative learning environment.  Epstein marks these as either 'kind' or 'wicked'. Kind problems and learning environments have stable and exhaustable rule sets.  They are optimizable and easily simulated.  You won't be suprised to learn that in many of these cases, computers have caught and surpassed human ability.  These are also the environments where deep specialization pays the greatest dividends. Take chess.  Really, the only thing that helps with being a better chess player is more chess practice. Specialization is positively correlated with performance.  
+
+The complement to kind problems are wicked ones. The rules here change frequently. So, too, do the inputs, the players and goals.  Optimization is generally not possible; most decisions or choices in a wicked problem require tradeoffs, unquantified and unquantifiable uncertainties, edge cases and exceptions, limited data and no chance for repetition. Here, specialization creates blinders; local minima from which escape is futile. Major life decisions, political policies, business ventures all originate in wicked learning environments...the things that shape our lives, our societies and our planet.   
+
+Epstein's position is not that specialization and specialists are necessarily the problem, rather that they need to be mixed with breadth and generalists in order to for truly successful decisions and innovative work to result.  Key takeaways include:
+
+* The importance of building teams with diverse backgrounds
+* Encouraging or practicing periods of cross-polination of ideas and opinions
+* Including creative expression, not just error correction, in your practice
+* When teaching, trading procedural-based pedagogy for one centered on concepts
+
+If the rise of machine learning and artificial intelligence (to date) have taught us anything it is that computers and humans are good at vastly different things (a form of Moravec's Paradox). And, though the Age of the Renaissance (Wo)Man is firmly behind us, generalists are making a comeback due to their ability to tie together disparate threads of knowledge into unique and fascinating solutions for wicked problems. It just so turns out that hobbies, hunches and heuristics can offer promising leads where deep focus has failed us.  
+
+---------------------------------------------------------------------------------------------------
+
+&nbsp;
+&nbsp;
+
 #### [American Nations: A History of the Eleven Rival Regional Cultures of North America](https://www.penguinrandomhouse.com/books/306345/american-nations-by-colin-woodard/): 
 
 &nbsp;
