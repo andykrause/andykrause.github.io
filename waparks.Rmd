@@ -24,22 +24,68 @@ There are a lot of state parks in Washington State, 136 in all, and not all are 
 
 &nbsp;
 
-* 23 Visited (113 Remaining)
-* 894.5 Miles Driven
+* 24 Visited (112 Remaining)
+* 973.5 Miles Driven
 * 14.5 Miles Ferried
-* 11.1 Miles Hiked
-* 6 Counties Visited
+* 11.9 Miles Hiked
+* 8 Counties Visited
     * Island
     * King
     * Kittitas
+    * Pierce
     * San Juan
     * Skagit
     * Snohomish
+    * Thurston
     
 &nbsp;
 &nbsp;
 &nbsp;
 .
+
+<!-- --------------------------------------------------------------------------------------------------- -->
+
+<!-- #### 25) [Tolmie](https://parks.state.wa.us/297/Tolmie):  -->
+
+<!-- &nbsp; -->
+
+<!-- * 2020-02-22 -->
+<!-- * 47.2489037 -121.2073145 | [Map](https://www.google.com/maps/place/Lake+Easton+State+Park/@47.2489037,-121.2073145,15z/data=!4m5!3m4!1s0x0:0x56de140034da3190!8m2!3d47.2489037!4d-121.2073145) -->
+<!-- * 38 Degrees, Cloudy, Rain Showers -->
+<!-- * Miles Traveled: 21.4 Miles -->
+<!-- * Sighted: A Mountaineers-branded Subaru -->
+
+<!-- &nbsp; -->
+
+<!-- <img src="images/waparks_tolmie.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left"> -->
+
+<!-- &nbsp; -->
+
+---------------------------------------------------------------------------------------------------
+
+#### 24) [Millersvania](https://parks.state.wa.us/546/Millersylvania): 
+
+&nbsp;
+
+* 2020-03-08
+* 46.9158754 -122.9208231 | [Map](https://www.google.com/maps/place/Millersylvania+State+Park/@46.9158754,-122.9208231,15z/data=!4m12!1m6!3m5!1s0x5491702ee6f5e703:0xe0da361f7a0cb740!2sMillersylvania+State+Park!8m2!3d46.9158754!4d-122.9120683!3m4!1s0x5491702ee6f5e703:0xe0da361f7a0cb740!8m2!3d46.9158754!4d-122.9120683)
+* 36 Degrees, Foggy
+* Miles Hiked 0.8
+* Miles Traveled: 79 Miles
+* Sighted: A Ben Carson 2016 Bumper Sticker 
+
+&nbsp;
+
+The lake was glass; still, reflecting the gray fog that hovered just feet above, cold and silent.  This was our first post-COVID outbreak park and the mood was appropriate, scripted almost.  A bufflehead diving for a meal broke the silence.  It wasn't reverie -- positive and comforting -- nor was it necessarily worry, just a sustained sense of uncertainty that percolates through all discussions, planning and thought recently.    
+ 
+<img src="images/waparks_millersvania.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+
+Over the creek and through the mud, to the old growth forest we went.  Some truly impressive trees remain in the virgin tracks of forest here.  Nurse stumps and towering canopies lost in the fog.  Our walk was cut short by flooded trails, but well worth the visit. An alleged splinter gained while throwing sticks in the creek required a minor medical (ok, mostly psychological) intervention.  The patient recovered fully.  
+
+Back at the car, the little one needed a drink, so Everett and I spent some time exploring the empty park buildings -- including a beer garden near the beach -- and practicing the time-honored art of nature peeing.  Suffice it to say, that at 9:30am on a cold March day we were among the few visitors in the entire park and the only ones at the beach.  
+ 
+&nbsp;
+
 
 ---------------------------------------------------------------------------------------------------
 
@@ -55,9 +101,9 @@ There are a lot of state parks in Washington State, 136 in all, and not all are 
 
 &nbsp;
 
-A late winter day, above freezing, full of fog.  A perfect day for sledding on the beach.  The sledding hill at our rental house was steep, like fun, nearly dangerous, for adults, type steep.  Almost too much for the kids.  
-
 <img src="images/waparks_lakeeaston.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+
+A late winter day, above freezing, full of fog.  A perfect day for sledding on the beach.  The sledding hill at our rental house was steep, like fun, nearly dangerous, for adults, type steep.  Almost too much for the kids.  
 
 Just up the road, Lake Easton park offered more moderate options. In fact, the best area was the beach.  A perfect, consistent slope. The ideal location for a risk-averse three year old, provided one could stop before heading into the open water of Lake Easton.  
 
