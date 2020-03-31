@@ -4,10 +4,12 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/andy.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/andy.jpg" style="width:28%; border:10px solid; margin-right: 20px" align="left">
 
 I manage the Home Valuations (AI/Zestimate) Applied Science team at Zillow.  Our team focuses on research and development of novel data and techniques to improve our estimates of home values and rents as well as to provide novel and interpretable information to users. 
 
 We are a division of the larger Artificial Intelligence unit.  Our group blog is here: https://www.zillow.com/data-science/
 
-My full CV is available [here](files/krause_cv.pdf).
+My full CV is available [here](files/krause_cv.pdf). 
+
+Research at: [Google Scholar](https://scholar.google.com.au/citations?user=FN04yK0AAAAJ&hl=en)
