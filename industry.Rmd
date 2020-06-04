@@ -9,7 +9,14 @@
 
 &nbsp;
 
-**Senior Applied Scientist: [Zillow Group](www.zillow.com): 2018 - Present**
+
+**Manager, Applied Science: [Zillow Group](www.zillow.com): 2019 - Present**
+
+Directing research initiatives aimed at improvement and development of new machine learning models to increase home valuation accuracy (Zestimate and Rent Zestimate). 
+
+&nbsp;
+
+**Senior Applied Scientist: [Zillow Group](www.zillow.com): 2018 - 2019**
 
 I work on prototyping new algorithms and machine learning tools for analyzing housing markets.  I sit on the Home Valuations team, a sub-unit of Zillow's Artificial Intelligence organization.  
 
