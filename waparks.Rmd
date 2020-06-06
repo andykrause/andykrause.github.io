@@ -7,7 +7,7 @@
 &nbsp;
 &nbsp;
 
-<img src="images/waparks.png" style="width:15%; border:0px solid; margin-right: 24px" align="left">
+<img src="images/waparks.png" style="width:13%; border:0px solid; margin-right: 24px" align="left">
 
 We had lost our sense of adventure, mostly.  With two small children packing the car and enduring road trip eventualities — soiled car seats, endless questions, whining — creates significant homebody inertia.  Getting out, especially in the short, damp days of a Northwest Winter, was often just too much.  We needed motivation.  
 
@@ -24,10 +24,11 @@ There are a lot of state parks in Washington State, 136 in all, and not all are 
 
 &nbsp;
 
-* 25 Visited (111 Remaining)
-* 1062.4 Miles Driven
+* 28 Visited (108 Remaining)
+* 1077.2 Miles Driven
 * 14.5 Miles Ferried
-* 11.9 Miles Hiked
+* 15.7 Miles Hiked
+* 25.39 Miles Boated
 * 8 Counties Visited
     * Island
     * King
@@ -44,6 +45,74 @@ There are a lot of state parks in Washington State, 136 in all, and not all are 
 .
 
 <!-- --------------------------------------------------------------------------------------------------- -->
+
+#### 28) [Blind Island](https://www.parks.state.wa.us/477/Blind-Island)
+
+&nbsp;
+
+* 2020-06-04
+* 48.5855963 -122.9377365 | [Map](https://www.google.com/maps/@48.5855963,-122.9377365,16.83z)
+* 53 Degrees, Cloudy
+* Miles Traveled: 14.28 (boat), 7.4 (car)
+* Sighted: An island with a drawbridge
+
+Leaving Jones, we had planned to head west to the postage stamp-sized Posey Island, near Roche Harbor.  The chop picked up rapidly as we crossed San Juan Channel and we nestled down near O'Neal Island in Rocky Bay to re-evaluate our situation.  O'Neal Island is an odd little rock, it has a home and a dock, but the drawbridge to the dock is hoisted many tens of feet in the air, obstensibly to ward off would be pirates.  A post trip google search showed the owner to be Ann Holquist Moss, the ex-wife of Jerome Moss a legendary music producer and horse racing socialite.  The place looks like it doesn't see a lot of use, likely a traded pawn in the divorce proceedings.  
+
+<img src="images/waparks_blind.png" style="width:25%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+
+With the weather threatening, we crossed back over the Channel to the safety of the passage between Shaw and Orcas Islands and onwards to Blind Island. It was a rough ride.  Steering a small aluminum boat via tiller is a work out in good weather; an outright punishment on the body during rough water. Our stop at Blind Island was hardly a stop.  The south wind prevented a clean landing, so I held our position amidst the rocks while Erin jumped out to summit the small rock and grab the requisite photo.  If you fly right by Blind Island and don't notice it on your ferry trip to/from Shaw you can't be blamed; its a rock with two picnic tables and remnant orchard.  There were homesteaders here in 1800s, one descendent of whom lived alone here until the 1960s...doing what, it is hard to say.     
+
+Our trip from Jones and our eventual 'stop' here showed us the short-comings of a boat that fills the middle between one large enough to handle 10 knot winds and one small enough to pull up onto any beach or rock (a kayak).  In good weather, with flat broad beaches, a 15 foot aluminum boat is great for island hopping.  If either of those situations doesn't hold, you find yourself wet, cold and stuck off shore.  
+
+&nbsp;
+
+#### 27) [Jones Island](https://parks.state.wa.us/525/Jones-Island)
+
+&nbsp;
+
+* 2020-06-04
+* 48.6153385 -123.0556781 | [Map](https://www.google.com/maps/place/Jones+Island+Marine+State+Park/@48.6153385,-123.0556781,14.83z/data=!4m5!3m4!1s0x548f7d5869517fa7:0x22f9c99d221661df!8m2!3d48.6153584!4d-123.0471057)
+* 56 Degrees, Partly Cloudy
+* Miles Traveled: 7.04  
+* Miles Hiked: 2.5
+* Sighted: A lone porpoise 
+
+&nbsp;
+
+From Turn Island, we pointed our trusty float NW and headed up San Juan Channel; destination Jones Island.  Jones sits off the western edge of much larger Orcas Island. Our trip there -- just over seven miles -- took some weaving between the Yellow and Low islands group.  The wind remained minimal and there were few other boats around.  The sky had not cleared.  The main point of entry for Jones is the north facing cove.  Unlike Turn, Jones has a large dock. Also unlike Turn, the place was busy.  All the dock tie-offs were occupied as well as the mooring buoys, mostly by large, live-abourd type boats. We found a spot in the area reserved for dinghies -- our 15 ft aluminium boat qualified in relation to the present company occupying this harbor. 
+
+<img src="images/waparks_jones.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+
+Having been in relative quarantine for nearly three weeks, it was an odd sight to see a public place humming with activity.  By and large, most groups were social distancing-ish but there is only so much room you give on an eight foot wide dock.  Tied off we headed ashore for a hike around the island.  The sun poked through the clouds for most of our walk which looped around the western half of the island.  There were people picnicing, the local park steward was mowing the large grassy area and kids splashed in the water in the small beach coves.  Despite it location and the circumstances, Jones was a busy place, relative to our previous destination and our experience in the San Juan's for the past three months.  
+
+There are some truly magnificent trees tucked into the valley in the middle of the island.  Burn scars from the days when the native used fire to clear ground for camas, these monsters are many feet in diameter, growing right up against the rock faces.  The sun light slopes are filled with madrona and small pockets of Garry oaks.  Like Turn, the forest here is a real attraction to those appreciative of native NW arboreal habitats.    
+
+&nbsp;
+
+#### 26) [Turn Island](https://www.parks.state.wa.us/295/Turn-Island)
+
+&nbsp;
+
+* 2020-06-04
+* 48.53232 -122.97700 | [Map](https://www.google.com/maps/place/Turn+Island+State+Park/@48.5297674,-122.9812488,15z/data=!4m5!3m4!1s0x548f7e38ef445fdf:0xf3f1adb30b400247!8m2!3d48.5330841!4d-122.9715317)
+* 55 Degrees, Partly Cloudy
+* Miles Traveled: 7.4 (by car); 4.07 (by Boat) 
+* Miles Hiked: 1.0
+* Sighted: An angry Goose and Gander
+
+&nbsp;
+
+To celebrate my birthday (40), we borrowed a friend's boat and planned a day of island hopping in the San Juan's.  Kids ensconsced with their grandparents, we had the day to ourselves.  Home to boat launch was issue-free. Twenty years from my last boat backing experience, I was able to reverse the boat down the launch and into the water on the first try.  Erin parked the truck and trailer while I attemnpted to start the motor.  I pulled for an eternity and then gave up and rowed over to the public dock.  I had likely flooded it.  And old sea wolf hanging around the dock agreed with my diagnosis.  After some googling, the online crowd of boat owners suggested trying to start it with the throttle wide open.  One pull and off we went.  First destination, Turn Island.  
+
+The forecast called for partly cloudy.  Our location was supplying the cloudy part of the mix.  The wind held light but steady from the south.  We skirted Lopez Island then SW to Turn, which hangs off the tip of San Juan Island, not far from Friday Harbor.  The tide was out, -2, and we had an easy time pulling the boat up onto the sand beach and tying off to a picnic table.  Turn Island can get a lot of kayak traffic in the summer, but COVID-19 has cancelled all of the tourist activities and we had the place to ourselves.  
+
+<img src="images/waparks_turn.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+
+With the low tide we were easily able to walk across Boat Channel and climb up the small islet to the NW of Turn.  We couldn't stay long as we had stumbled onto a Canadian Goose nesting site and were quickly and loudly chased from the area.  Back on the main island, we circumambulated on the ring trail noting future camping sites and small coves to expore.  The outside of the island is rich with native madronas, junipers and big leaf maples, giving way to large Douglas firs in the interior. Though civilization is easy visible out across the water in all directions, there is a certain immediate sense of adventure being on an island all by yourselves.  Turn Island may look like a small blip on the map, but it really is a treasure of beaches, trails and picturesque flora.  
+
+On our last leg of the hike, we scared up two raccoons who appeared to have been heading for our boat (and our lunch).  We had not closely read the park guidelines on landing; "Food should be kept in secure holds as the raccoons are intelligent and agressive scavengers."  Disaster averted.  We untied and push off into the Sound.  The motor started on the first pull.  
+
+&nbsp;
 
 #### 25) [Tolmie](https://parks.state.wa.us/297/Tolmie):
 
