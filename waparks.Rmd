@@ -18,28 +18,21 @@ There are a lot of state parks in Washington State, 136 in all, and not all are 
 &nbsp;
 &nbsp;
 &nbsp;
-.
+
+<img src="images/state_map.png" style="width:75%; border:0px solid; margin-left:0px; margin-right: 0px" align="center">
+
 
 ### **Current Stats**
 
 &nbsp;
 
-* 29 Visited (107 Remaining)
+* 29 Visited (107 Remaining) 
 * 1087.0 Miles Driven
 * 14.5 Miles Ferried
 * 15.7 Miles Hiked
 * 39.89 Miles Boated
 * 9 Counties Visited
-    * Island
-    * King
-    * Kitsap
-    * Kittitas
-    * Pierce
-    * San Juan
-    * Skagit
-    * Snohomish
-    * Thurston
-    
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -162,7 +155,7 @@ We stayed long enough for a snack and a brief hunt for sea glass.  The tide was 
 
 ---------------------------------------------------------------------------------------------------
 
-#### 24) [Millersvania](https://parks.state.wa.us/546/Millersylvania): 
+#### 24) [Millersylvania](https://parks.state.wa.us/546/Millersylvania): 
 
 &nbsp;
 
