@@ -744,21 +744,18 @@ Post-hike, we entered the melee at the playground. Time was passed silently judg
 
 &nbsp;
 
-<img src="images/map_spencerspit.png" style="width:300px;height:200px;" align="left">
+<img src="images/map_spencerspit.png" style="width:430px;height:310px;padding:30px" align="left">
+<img src="images/waparks_spencerspit.jpg" style="width:42%; margin-right:20px;padding:30px;" align="right">
 
-&nbsp;
+\vspace{45mm}
 
 | Date |  Map Link | Lat | Long | Weather | Traveled |
 | :-----: |:------: | :-------: |:-------: | :-------: |:------: |
-| 2019-12-27 | [Map](https://www.google.com/maps/place/Spencer+Spit+State+Park/@48.536069,-122.861176,12z/data=!4m5!3m4!1s0x0:0xe0620a6877355ad4!8m2!3d48.536678!4d-122.8609479?hl=en) | 48.5360 | -122.8612 | 42 / Cloudy | 14.8  |
-
-* Sighted: 1 cat on a utility box
+| 2019-12-27 | [Map](https://www.google.com/maps/place/Spencer+Spit+State+Park/@48.536069,-122.861176,12z/data=!4m5!3m4!1s0x0:0xe0620a6877355ad4!8m2!3d48.536678!4d-122.8609479?hl=en) | 48.5360 | -122.8612 | 42 / Cloudy | 14.8 (car) |
 
 &nbsp;
 
 We were five days into a six-day stay at the in-laws. Sure, Christmas and some unseasonably good weather had eased the psychological toll of having and/or being guests.  Nonetheless, patience wore thin.  Escape called.  
-
-<img src="images/waparks_spencerspit.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="right">
 
 The steel gray, bone-chilling damp days had returned.  The eldest child was lured from the house with promises of a beach and eagles and a log cabin and some snacks.  All of these were available, or at least possible, at Spencer Spit — the to-be first stop of our WA Parks Challenge. We had been here many times, in fact, Erin had worked here as a junior park ranger during high school.  It seemed right to take the first step on our home turf.  
 

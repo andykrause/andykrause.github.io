@@ -96,7 +96,7 @@ library(OpenStreetMap)
      xlab('') + 
      ylab('') + 
      scale_fill_manual(name = '', values = park_color) + 
-     theme(legend.position = 'bottom',
+     theme(legend.position = 'none',
            axis.text.y = element_blank(),
            axis.text.x = element_blank(),
            axis.ticks = element_blank())
@@ -106,7 +106,7 @@ library(OpenStreetMap)
  ## Cama Beach
  png(filename = file.path(getwd(), 'images', 'map_spencerspit.png'), width = 780, height = 480)
    plotPark(parks_sf$ParkCode[grep('Spencer', parks_sf$ParkName)],
-            scale=.28, map_type = 'toner', park_color = 'red')
+            scale=.23, map_type = 'toner', park_color = 'red')
  dev.off()
  
 
