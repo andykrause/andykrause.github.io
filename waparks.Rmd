@@ -1,3 +1,11 @@
+---
+title: "WA State Parks Challenge"
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+---
+
 
 &nbsp;
 &nbsp;
@@ -736,15 +744,21 @@ Post-hike, we entered the melee at the playground. Time was passed silently judg
 
 &nbsp;
 
+| Location | Date |  Map Link | Lat | Long | Weather | Traveled |
+|:-----: | :-----: |:------: | :-------: |:------- | :-------: |:------ | :-------: |
+| <img src="images/map_spencerspit.png" style="width:300px;height:200px;" align="left"> | 2019-12-27 | [Map](https://www.google.com/maps/place/Spencer+Spit+State+Park/@48.536069,-122.861176,12z/data=!4m5!3m4!1s0x0:0xe0620a6877355ad4!8m2!3d48.536678!4d-122.8609479?hl=en) | 48.536 | -122.861 | 42 / Cloudy | 14.8  |
 
-* 2019-12-27
-* 48.536069 -122.861176 | [Map](https://www.google.com/maps/place/Spencer+Spit+State+Park/@48.536069,-122.861176,12z/data=!4m5!3m4!1s0x0:0xe0620a6877355ad4!8m2!3d48.536678!4d-122.8609479?hl=en)
-* 42 Degrees and Cloudy
-* Miles Traveled: 14.8
+
+<!-- * 2019-12-27 -->
+<!-- * 48.536069 -122.861176 | [Map](https://www.google.com/maps/place/Spencer+Spit+State+Park/@48.536069,-122.861176,12z/data=!4m5!3m4!1s0x0:0xe0620a6877355ad4!8m2!3d48.536678!4d-122.8609479?hl=en) -->
+<!-- * 42 Degrees and Cloudy -->
+<!-- * Miles Traveled: 14.8 -->
 * Sighted: 1 cat on a utility box
 
-&nbsp;
-&nbsp;
+<!-- &nbsp; -->
+
+<!-- <img src="images/map_spencerspit.png" style="width:33%; border:0px solid" align="left"> -->
+
 &nbsp;
 
 We were five days into a six-day stay at the in-laws. Sure, Christmas and some unseasonably good weather had eased the psychological toll of having and/or being guests.  Nonetheless, patience wore thin.  Escape called.  
