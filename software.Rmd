@@ -1,3 +1,11 @@
+---
+title: ""
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+---
+
 ## <span style="color:#21618C"> Software Projects  </span>
  &nbsp;
  &nbsp;

@@ -1,3 +1,10 @@
+---
+title: ""
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+---
 
 &nbsp;
 &nbsp;

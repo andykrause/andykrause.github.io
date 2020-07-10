@@ -1,6 +1,29 @@
+---
+title: "Research"
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+---
+
 &nbsp;
 
 ## <span style="color:#21618C"> Current Research</span>
+
+&nbsp;
+&nbsp;
+
+### <span style="color:#2E86C1"> AVM Uncertainty </span>
+
+&nbsp;
+
+**Uncertainty in Automated Valuation Models: Error- vs Model-Based Approaches**
+
+* *With Andy Martin and Matthew Fix (both @ Zillow)*
+
+Point estimates from Automated Valuation Models (AVMs) represent the most likely value from a distribution of possible values. The uncertainty in the point estimate – the width of the range of possible values at a given level of confidence – is a critical piece of the AVM output, especially in collateral and transactional situations. Estimating AVM uncertainty, however, remains highly unstandardised in both terminology and methods. In this paper we present and compare two of the most common approaches to estimating AVM uncertainty – model-based and error-based prediction intervals. We also present a uniform language and framework for evaluating the calibration and efficiency of uncertainty estimates. Based on empirical tests of two approaches on a large, longitudinal dataset of home sales, we show that model-based approaches outperform error-based ones in all but cases with very highest confidence level requirements. The differences between the two methods are conditioned on model class, model partitions and data filtering conditions.
+
+The working paper is [here](files/krause_et_al_avm_unc_hpi.pdf)
 
 &nbsp;
 &nbsp;
@@ -19,7 +42,9 @@ The working paper is [here](files/krause_irf_hpi.pdf)
 
 **Hierarchical Blending: House Price Indexes for Submarkets**
 
-Traditionally, literature on house price indexes has focused on the choice of method (repeat sales vs. hedonic vs. hybrid, etc.) or correcting for biases resulting from issues such as sample selection, aggregation, or temporal heterogeneity. While more recent research has explored the production of indexes at the sub-city or submarket level there remains, however, a lack of comparative analytics to determine the limits to market disaggregation in terms of generating reliable price indexes. The goals of this study are two-fold: 1) Compare index performance at different sub-market levels (county, ZIP, etc.); and 2) To test if blended indexes – between market levels and between methods – offer any improvement over more traditional non-blended models. A draft copy of the paper can be found [here](files/krause_hrb.pdf)
+Traditionally, literature on house price indexes has focused on the choice of method (repeat sales vs. hedonic vs. hybrid, etc.) or correcting for biases resulting from issues such as sample selection, aggregation, or temporal heterogeneity. While more recent research has explored the production of indexes at the sub-city or submarket level there remains, however, a lack of comparative analytics to determine the limits to market disaggregation in terms of generating reliable price indexes. The goals of this study are two-fold: 1) Compare index performance at different sub-market levels (county, ZIP, etc.); and 2) To test if blended indexes – between market levels and between methods – offer any improvement over more traditional non-blended models. 
+
+A draft copy of the paper can be found [here](files/krause_hrb.pdf)
 
 &nbsp;
 &nbsp;

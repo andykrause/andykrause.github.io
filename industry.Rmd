@@ -1,4 +1,12 @@
- &nbsp;
+---
+title: ""
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+---
+
+&nbsp;
 
 ## <span style="color:#21618C"> Industry Experience and Contributions </span>
 
@@ -60,7 +68,7 @@ To optimize training data used by a predictive real-estate valuation model, a se
 
 &nbsp;
 
-### <span style="color:#2E86C1"> Publications</span>
+### <span style="color:#2E86C1"> Industry Publications</span>
 
 &nbsp;
 
