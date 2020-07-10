@@ -1,0 +1,41 @@
+---
+title: "On Being Fair"
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+---
+
+&nbsp;
+&nbsp;
+
+### Preamble
+
+&nbsp;
+
+It is late June 2020.  The days are long and increasingly sunny above the 48th parallel. In the Pacific Northwest this qualifies as spring. Summer, those ten weeks of high pressure and blue skies, is still a fortnight away.  The normal anticipation of warm, dry weather -- hiking, camping and the beach -- has been replaced with uncertainty; a raw and unfamiliar feeling for those of us fortunate enough to live in times, places and standings that have always afforded predictability.
+
+I’m finding it a trying time. Difficult to comprehend how we got here. Difficult to offer solutions, to know what to do. Difficult to focus on what truly matters.  I’m struggling mightily with all of the above; perhaps writing can help to clarify my thoughts, guide my actions, settle my soul.  
+
+Our problems are myriad — political, environmental and epidemiological, to name a few.  And though we are more connected than ever, on any important issue we are, yet, also hopelessly divided.  Via algorithm, ads and atavism we’ve seemingly lost our ability and desire to maintain the civil and civic discussions required of a functioning liberal democracy. Medicine has become political. So, too, has the weather.  Facts themselves, even.  Many others have offered opinions on why, all likely causes no doubt.  I would like to take some time, some space to ponder the how.  How we can bridge this gap, heal this wound, pull together.  My proposed solution is a new shared ideal.  To this end I offer **fairness**, or more simply, the **act of being fair**. 
+
+We are told repeatedly as children that life is not fair. And while complete and omnipresent fairness may be out of our reach, that should not deter us from the pursuit of it. Let us not sacrifice the better for want of the perfect. For there is no stasis here. Nor is this a binary condition.  We are either moving toward a world that is more fair or we are moving away from it.
+
+What is ‘fair’? The word ‘fair’ is a master case of ambiguity.  Broadly, and in this context, it is a situation or process in which all involved or affected are treated properly, evenly or appropriately. The concept of fairness, at its root, is hard to define and, accordingly, that definition leaves much to interpretation. Yet, the absence of fairness is easily identified by young children. Animals have been shown to adhere to a measure of it. Perhaps it is one of those things, like Judge Potter Stewart noted, that we all know when we see it.  
+
+But that level of subjectiveness does not do a society well and I’m going to take this space to see if ‘fairness’ — the act of being fair — can’t be reduced to something more concrete, more universal and, ultimately, more applicable. I want to start with a purposeful rawness of meaning; a rawness that this work will seek to hone, if, indeed, it can be honed.  I will ask if fairness can be the lens through which we can evaluate our problems and if it can be the moral imperative around which we can recreate some common ground. That is a lot to ask of a word, I know.  
+
+&nbsp;
+&nbsp;
+
+### Contributions
+
+&nbsp;
+
+<a style="font-weight:bold;font-size:14px" href="obf-quadrants.html">Quadrants of Fairness</a>
+
+&nbsp;
+
+
+
+
