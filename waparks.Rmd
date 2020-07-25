@@ -6,6 +6,22 @@ output:
       after_body: footer.html
 ---
 
+```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
+
+parks_df <- readr::read_csv(file.path(getwd(), 'data', 'final_parks_data.csv')) %>%
+      dplyr::filter(Challenge == 1) %>%
+      dplyr::mutate(Visited = as.factor(Visited))
+library(magick)
+library(gridExtra)
+library(png)
+library(grid)
+cropp <- function(im, left = 0, top = 0, right = 0, bottom = 0) {
+  d <- dim(im[[1]]); w <- d[2]; h <- d[3]
+  magick::image_crop(im, glue::glue("{w-left-right}x{h-top-bottom}+{left}+{top}"))
+}
+clipp <- 100
+tt2 <- ttheme_minimal()
+```
 
 &nbsp;
 &nbsp;
@@ -21,7 +37,31 @@ We had lost our sense of adventure, mostly.  With two small children packing the
 
 Busy professionals with weak spots for childish competitions and games, one of us gifted the other a Washington State Parks checklist banner — thanks [Etsy](https://www.etsy.com/listing/758790133/wa-state-park-checklists-washington?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=Washington+state+parks&ref=sr_gallery-1-1&organic_search_click=1&cns=1) — for Christmas.  The challenge was on, the game afoot.  Visiting State Parks is a sizable reduction in both investment and payoff, from say, counting continents, countries or even National Parks.  We had checked the map; done right we could probably do 5-7 parks some days.  Our reward would be picnic shelters and boat launches not grand geologic formations and soul-stirring vistas.  Playgrounds not postcards.   
 
-There are a lot of state parks in Washington State, 136 in all, and not all are accessible by car.   The good money would be on us not finishing this quest…and that’s OK, its the journey we seek. In our pre-child mid-twenties, we once visited the Grand Coulee dam. We’ve been to the Mima Mounds, overnighted in Warnambool (twice) and weathered a typhoon in Toba. We are no strangers to long journeys with small payoffs.  We've experienced -- and enjoyed -- being surrounded by retirees, RV people and empty parking lots. Though now we are two car seats strong and have a tiny collapsible toiled in the hatch. Adventure takes no universal form.  
+There are a lot of state parks in Washington State, 136 in all, and not all are accessible by car. The good money would be on us not finishing this quest…and that’s OK, its the journey we seek. In our pre-child mid-twenties, we once visited the Grand Coulee dam. We’ve been to the Mima Mounds, overnighted in Warnambool (twice) and weathered a typhoon in Toba. We are no strangers to long journeys with small payoffs.  We've experienced -- and enjoyed -- being surrounded by retirees, RV people and empty parking lots. Though now we are two car seats strong and have a tiny collapsible toilet in the hatch. Adventure takes no universal form.  
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+### **Progress**
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+| . | . |
+| :------- | :-------: |
+| | |
+| Parks Visited | 35 |
+| Remaining to Visit | 101 |
+| | |
+| Miles Driven | 1087 |
+| Miles Ferried | 14.5 |
+| Miles Boated | 39.89  |
+| Miles Hiked | 15.7 |
+| Miles Paddleboarded | 1.2 |
+| | |
+| | |
 
 &nbsp;
 &nbsp;
@@ -29,26 +69,183 @@ There are a lot of state parks in Washington State, 136 in all, and not all are 
 
 <img src="images/state_map.png" style="width:75%; border:0px solid; margin-left:0px; margin-right: 0px" align="center">
 
-
-### **Current Stats**
-
+&nbsp;
+&nbsp;
 &nbsp;
 
-* 29 Visited (107 Remaining) 
-* 1087.0 Miles Driven
-* 14.5 Miles Ferried
-* 15.7 Miles Hiked
-* 39.89 Miles Boated
-* 9 Counties Visited
+### **Trip Reports**
 
 &nbsp;
 &nbsp;
 &nbsp;
-.
+
+#### 34) [Clark Island](https://parks.state.wa.us/488/Clark-Island): 
+
+```{r, echo = FALSE, cache = FALSE}
+img <- 
+  "images/map_clarkisland.png" %>%
+  image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp)
+
+tbl <- data.frame(`Stat` = c('Date', 'Lat', 'Long', 'Weather', 'Miles Boated'),
+                  `.` = c('2020-07-14', '48.70084', '-122.76446', '70 / Sunny', '15.8'))
+tbl <- tableGrob(tbl, rows = NULL, theme = tt2)
+gridExtra::grid.arrange(rasterGrob(img), tbl,
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+The Pacific Northwest is anything but tropical. Even during our 10 weeks of summer, the native botany, rocky beaches and mountain backdrops will not let you forget where you are. But put yourself onto the white sand beach of the western side of Clark Island on a warm, sunny day and you just might, if you try hard enough, drum up visions of the Mediterranean or maybe Central America.  Until you touch the water.  It is still really cold. 
+
+<img src="images/waparks_clarkisland.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Clark is a small stick of an island NE of Orcas.  Its a 1 minute hike from one side to the other east-west; the west side sandier than the east.  Great madrona groves cover the small rise between the two coasts given the scene an appearance of out of this region.  It is a glorious little place, probably the best beach we've seen in the San Juan's and maybe all of Washington.  Its not a secret to the boat/kayak crowd either.  There were half a dozen boats, a few full campsites and a kayaker on a lazy Tuesday afternoon.   
+
+We don't currently own a boat. This week's island trips have been courtesy of our friends and housemates for the week who recently purchased one. Clark Island is the reason why we may soon be in the market for a boat. With long-distance travel in limbo due to COVID we're slowly but surely awakening to the wonders our state has to offer.  So many of them are marine-based that it seems a shame to not be able to easily reach them.  
+
+&nbsp;
+&nbsp;
+
+#### 33) [Posey Island](https://parks.state.wa.us/567/Posey-Island): 
+
+```{r, echo = FALSE, cache = FALSE}
+img <-
+  "images/map_poseyisland.png" %>%
+  image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp)
+
+tbl <- data.frame(`Stat` = c('Date', 'Lat', 'Long', 'Weather', 'Miles Boated',
+                                'Miles Paddleboarded'),
+                  `.` = c('2020-07-13', '48.61833', '-123.16798', '69 / Sunny', '20.4', '0.2'))
+tbl <- tableGrob(tbl, rows = NULL, theme = tt2)
+gridExtra::grid.arrange(rasterGrob(img), tbl,
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Our journey from hiking on Stuart Island to dinner on San Juan Island took us past Posey Island. Less than a mile from glitzy Roche Harbor -- you can see the glean from the multi-million dollar yachts from its shores -- Posey is a postage stamp sized little rock with a few picnic tables and a pit toilet.  
+
+<img src="images/waparks_poseyisland.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+We convinced the captain to pull in as close as he felt comfortable -- its surrounded by reefs and rocks -- and both of us piled onto a single paddleboard for the short trip over. It was dead calm, the only movement from disturbances caused by passing pleasure craft. Its a good thing too, as it isn't easy to paddleboard from the front of the board with a moving human on the back.  Then again, the water was never more than 3-4 feet deep so the worst that could have happened was an uncomfortable dinner and a good story. 
+
+Our stay on the island was measurable in seconds.  Our friends both were keeping the boat off the rocks and watching our two kids. The least we could do was hustle along.  A (natural) toilet break and a few photos later and we were off.  Back onto the paddleboard designed for one and up into the boat.  Off to Roche, the Monaco of the San Juan's.  A former lime kiln mill turned playground for the rich and others fortunate enough to be on a watercraft, powered or otherwise. 
+
+&nbsp;
+
+#### 32) [Stuart Island](https://parks.state.wa.us/593/Stuart-Island): 
+
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE}
+img <- 
+  "images/map_stuartisland.png" %>%
+  image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp)
+
+tbl <- data.frame(`Stat` = c('Date', 'Lat', 'Long', 'Weather', 'Miles Boated', 'Miles Hiked'),
+                  `.` = c('2020-07-13', '48.67396', '-123.21757', '68 / Sunny', '14.9', '1.1'))
+tbl <- tableGrob(tbl, rows = NULL, theme = tt2)
+gridExtra::grid.arrange(rasterGrob(img), tbl,
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Stuart Island is the westernmost of the San Juan Islands. Beyond it lies the Haro Strait and then the Canadian Gulf Islands.  Our trip here from Orcas took us up around Waldron and Skipjack, very close the border itself.  In normal times, a radio to the Canadian Coast Guard would allow passage to the nearest port of entry.  But not now.  That border -- an imaginary line in the water -- is the edge of where we Americans can travel.  I hadn't thought much about that fact until this very moment; that for the first time in my life I wasn't mostly free to travel outside of our country. There, right in front of me was Saturna Island, not three miles away and access was forbidden.  
+
+<img src="images/waparks_stuartisland.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+From the near rendevous with the border, we vectored SW and into Prevost Harbor on Stuart's North Side. Much of Stuart Island is private land.  A secluded little community out here at the edge of the country, literally. I suspect that, like much of the San Juans, the population hasn't grown much over the years, with vacation homes taking from the housing stock and astronomical building costs and limited economic opportunitites failing to replace the lost residents. A common fate in amenity rich, economically challenged regions. 
+
+From the dock, we hiked up and over a ridge, along a cliff and down to a sand/rock beach.  While the older kids took turns whipping each other with bull kelp, our youngest tried to swallow a rock. A child peed shamelessly on the beach. Yelling, screaming and splashing scared a perched osprey from its roost. A kayak tour approaching the beach landed in the farthest possible location from us; perhaps in the name of social distancing, perhaps self preservation. A childless person may well have looked on our beach gathering with horror; as parents we saw no blood, no tears, all was well.  As the snacks ran out and our own hunger built, we trecked back to the boat, through Johns Pass and onwards towards Spieden Island.        
+
+
+&nbsp;
+
+
+#### 31) [Moran](https://parks.state.wa.us/547/Moran): 
+
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE}
+img <- 
+  "images/map_moran.png" %>%
+  image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp)
+
+tbl <- data.frame(`Stat` = c('Date', 'Lat', 'Long', 'Weather', 'Miles Driven', 'Miles Paddleboarded'),
+                  `.` = c('2020-07-13', '48.66498', '-122.82404', '65 / Sunny', '12.0', '1.0'))
+tbl <- tableGrob(tbl, rows = NULL, theme = tt2)
+gridExtra::grid.arrange(rasterGrob(img), tbl,
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+We awoke to a northerly breeze, moderate but consistent. To avoid the chill and the chop, we headed inland to Moran State Park for the morning session -- our days bifurcated by the midday nap routine (requirement). Moran was the state's first major park and one of the largest at over 5,000 acres.  Mostly a hiker's paradise, there are a handful of gorgeous mountain lakes spread throughout.  Hiking has a different meaning with toddlers and all involved had been to the peak of Mt. Constitution before so we settled for some beach time at Cascade Lake. 
+
+<img src="images/waparks_moran.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+An early arrival provided us with full control of the beach at the roped off swimming area.  Slowly the park came to life.  First the geese, then the shop workers, a few fishermen and then, eventually, other families to the beach.  Our end of the beach was the normal rodeo of fights over splashing and toys, requests for snacks, suncreen in the eyes and brief moments of joy.  Parents tagged in and out, usually between hyper vigilance around the water and mindlessly checking our phones.  
+
+Erin and I managed to slip in nice paddleboard trips across the lake to the wooden bridge and the small lagoon beyond.  The cross wind proved formidable, but neither of us dumped in the water.  Hopefully that was enough exercise to justify ice cream and whisky later in the day.  
+
+&nbsp;
+
+#### 30) [Sucia Island](https://parks.state.wa.us/594/Sucia-Island): 
+
+```{r, echo = FALSE, cache = FALSE}
+img <- 
+  "images/map_suciaisland.png" %>%
+  image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp)
+
+tbl <- data.frame(`Stat` = c('Date', 'Lat', 'Long', 'Weather', 'Miles Boated', 'Miles Hiked'),
+                  `.` = c('2020-07-12', '48.60529', '-122.83183', '65 / Sunny', '6.2', '2.1'))
+tbl <- tableGrob(tbl, rows = NULL, theme = tt2)
+gridExtra::grid.arrange(rasterGrob(img), tbl,
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Sucia Island is known as the crown jewel of the Washington State's Marine Park system.  Its long fingers give it many miles of shoreline -- most of them steep cliffs or sand beaches -- as well as multiple bays and coves perfect for boat parking.  
+
+<img src="images/waparks_suciaisland.jpg" style="width:300px; margin-right:20px;padding:30px;" align="right">
+
+We arrived, slalomed through the dozens of boats moored in the bay and claimed the last remaining spot on the northernmost of the two public docks in Fossil Bay.  The kids wanted beach time immediately, we adults made them earn it with a hike first.  On the map the trail to Ev Henry Point and back looks like a simple two mile loop.  In reality, its a fairly exposed hike and somewhat dangerous, at least for kids.  There are some severe drops just feet off of the trail, though with them, views to match.  I definitely recommend the hike; leave the children behind.  
+
+The beaches are ideal.  Very shallow slope with all manner of shells, sticks and sea life.  It was busy by remote island standards; practically vacant from the perspective of city dwellers. Other than mask wearing on the docks, you could almost forget about COVID out here. In fact, I think that is what most visitors were trying to do.  To bring back some sense of normalcy to their lives with the grandest summer tradition of them all: the beach day. 
+
+&nbsp;
+
+#### 29) [Obstruction Pass](https://parks.state.wa.us/553/Obstruction-Pass): 
+
+```{r, echo = FALSE, cache = FALSE}
+img <- 
+  "images/map_obstructionpass.png" %>%
+  image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp)
+
+tbl <- data.frame(`Stat` = c('Date', 'Lat', 'Long', 'Weather', 'Miles Driven', 'Miles Ferried', 'Miles Hiked'),
+                  `.` = c('2020-07-12', '48.60529', '-122.83183', '59 / P. Cloudy', '97.6', '14.9', '1.7'))
+tbl <- tableGrob(tbl, rows = NULL, theme = tt2)
+gridExtra::grid.arrange(rasterGrob(img), tbl,
+                        nrow = 1,
+                        as.table = TRUE)
+```
+ 
+With an early start from Seattle we made the 7:40am ferry to Orcas with time to spare. A last minute invite to split a house with some friends has us headed to a different island than usual. San Juan County has loosened their travel restrictions and the islands have begun to see more actions -- still off from a normal summer, but trending upwards.  After our last camping trip, we realized that with two car seats and all the gear that comes with young kids our car travel situation was lacking.  We upgraded with a roof box, a new cooler and a large duffel bag.  Time to break in the new equipment.  Yes, like every other Seattlite, we now have a black Subura Outback with a matching Thule roof rack.  Some things are just not worth being original about. 
+
+<img src="images/waparks_obstructionpass.jpg" style="width:300px; margin-right:20px;padding:30px;" align="right">
+
+In additional to being a delightful place to spend a few summer days, Orcas Island is also a great jumping off point for many of the State's Marine Parks.  But first a stop at Obstruction Pass park on the main island.  
+
+Arriving straight from the ferry landing, we unloaded and packed up for a short hike the beach.  The littler one is walking now and took off sprinting for a nearby dog and end up face first in the mud and gravel not 60 seconds after our arrival.  Every good vacation starts with some blood on your face.  The undulating hike takes you less than a mile to get to a secluded beach looking out to Obstruction, Blakely, Lopez and Shaw Islands.  The beaches here in the San Juan vary so in constitution. Some have large rocks, other small, even sand in some places. Obstruction Pass is somewhere right in the middle, the perfect size to making walking optimally difficult. Combined with a slight incline, it is a labor to walk 50 feet on this beach.  So we didn't. We sat, snacked and splashed, watching the chipmunks while being watched by a hungry raccoon. Then back to the car an onwards to the house.   
+
+&nbsp;
 
 <!-- --------------------------------------------------------------------------------------------------- -->
 
-#### 29) [Blake Island](https://www.parks.state.wa.us/476/Blake-Island)
+#### 28) [Blake Island](https://www.parks.state.wa.us/476/Blake-Island)
 
 &nbsp;
 
@@ -71,7 +268,7 @@ Donning our masks and backpacks, we unloaded the kids, unloosed their life-jacke
 &nbsp;
 
 
-#### 28) [Blind Island](https://www.parks.state.wa.us/477/Blind-Island)
+#### 27) [Blind Island](https://www.parks.state.wa.us/477/Blind-Island)
 
 &nbsp;
 
@@ -91,7 +288,7 @@ Our trip from Jones and our eventual 'stop' here showed us the short-comings of 
 
 &nbsp;
 
-#### 27) [Jones Island](https://parks.state.wa.us/525/Jones-Island)
+#### 26) [Jones Island](https://parks.state.wa.us/525/Jones-Island)
 
 &nbsp;
 
@@ -114,7 +311,7 @@ There are some truly magnificent trees tucked into the valley in the middle of t
 
 &nbsp;
 
-#### 26) [Turn Island](https://www.parks.state.wa.us/295/Turn-Island)
+#### 25) [Turn Island](https://www.parks.state.wa.us/295/Turn-Island)
 
 &nbsp;
 
@@ -139,7 +336,7 @@ On our last leg of the hike, we scared up two raccoons who appeared to have been
 
 &nbsp;
 
-#### 25) [Tolmie](https://parks.state.wa.us/297/Tolmie):
+#### 24) [Tolmie](https://parks.state.wa.us/297/Tolmie):
 
 &nbsp;
 
@@ -163,7 +360,7 @@ We stayed long enough for a snack and a brief hunt for sea glass.  The tide was 
 
 ---------------------------------------------------------------------------------------------------
 
-#### 24) [Millersylvania](https://parks.state.wa.us/546/Millersylvania): 
+#### 23) [Millersylvania](https://parks.state.wa.us/546/Millersylvania): 
 
 &nbsp;
 
@@ -189,7 +386,7 @@ Back at the car, the little one needed a drink, so Everett and I spent some time
 
 ---------------------------------------------------------------------------------------------------
 
-#### 23) [Lake Easton](https://parks.state.wa.us/532/Lake-Easton): 
+#### 22) [Lake Easton](https://parks.state.wa.us/532/Lake-Easton): 
 
 &nbsp;
 
@@ -213,7 +410,7 @@ The smaller one got to roll around in the snow tucked into his hand-me down snow
 
 ---------------------------------------------------------------------------------------------------
 
-#### 22) [Gingko Petrified Forest](https://parks.state.wa.us/288/Ginkgo-Petrified-Forest): 
+#### 21) [Gingko Petrified Forest](https://parks.state.wa.us/288/Ginkgo-Petrified-Forest): 
 
 &nbsp;
 
@@ -237,7 +434,7 @@ Late morning on a Friday in February, we were the only visitors.  Perhaps in bus
 
 ---------------------------------------------------------------------------------------------------
 
-#### 21) [Olmstead Place Historical](https://parks.state.wa.us/556/Olmstead-Place): 
+#### 20) [Olmstead Place Historical](https://parks.state.wa.us/556/Olmstead-Place): 
 
 &nbsp;
 
@@ -261,7 +458,7 @@ The stop was saved by the discovery of the small creek, now rushing and bubbling
 
 ---------------------------------------------------------------------------------------------------
 
-#### 19 - 20) [Iron Horse/Palouse to Cascades Trail](https://parks.state.wa.us/521/Palouse-to-Cascades): 
+#### 19) [Iron Horse/Palouse to Cascades Trail](https://parks.state.wa.us/521/Palouse-to-Cascades): 
 
 &nbsp;
 
@@ -582,19 +779,16 @@ Being a holiday weekend, some of the cabins had been inhabited the night before 
 
 &nbsp;
 
-* 2020-01-20
-* 48.3982467 -122.6658987 | [Map](https://www.google.com/maps/place/North+Beach/@48.3982467,-122.6658987,15z/data=!4m12!1m6!3m5!1s0x54857caeb43d67b5:0xa32ccd675fe1a55f!2sDeception+Pass+State+Park!8m2!3d48.4073784!4d-122.6445697!3m4!1s0x54857ccbe05a2c55:0xb86f9fd46006f816!8m2!3d48.4014909!4d-122.6554495)
-* 48 Degrees and Overcast
-* Miles Traveled: 26.2 (vehicle), 11.7 (ferry)
-* Sighted: 1 pencil puzzle (on Ferry)
+<img src="images/map_deceptionpass.png" style="width:330px;padding:30px" align="left">
+<img src="images/waparks_deceptionpass.jpg" style="width:300px; margin-right:20px;padding:30px;" align="right">
 
-&nbsp;
-&nbsp;
+| Date |  Map Link | Lat | Long | Weather | Traveled |
+| :-----: |:------: | :-------: |:-------: | :-------: |:------: |
+| 2020-01-20 | [Map](https://www.google.com/maps/place/North+Beach/@48.3982467,-122.6658987,15z/data=!4m12!1m6!3m5!1s0x54857caeb43d67b5:0xa32ccd675fe1a55f!2sDeception+Pass+State+Park!8m2!3d48.4073784!4d-122.6445697!3m4!1s0x54857ccbe05a2c55:0xb86f9fd46006f816!8m2!3d48.4014909!4d-122.6554495) | 47.39824 | -122.66589 | 48 / Cloudy | 26.2 (car) / 11.7 (ferry) |
+
 &nbsp;
 
 Deception Pass is both natural spectacle and monument to human engineering.  Tidal ebbs and flows rush through the narrow channel at upwards of 10 mph -- a marine river; audible and visually striking -- beneath the double span bridge nearly 200 feet above. There's more than just that: salt and freshwater beaches, multiple lakes and miles of hiking trails.  
-
-<img src="images/waparks_deceptionpass.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left">
 
 I had been here before on a hungover morning back in 2005.  In such a state, walking along the bridge turned out to be a poor idea and I had turned back without completing it. This time two young children presented another reason to pass on the attempt at a pedestrian crossing.  It is a very narrow walkway, separated from speeding traffic on one side by an iron cable and from a 180-foot fall to you death by a 4-foot high railing on the other.  Parents, the feint of heart and the clumsy need not apply.  
 
@@ -615,19 +809,16 @@ The amphitheater had a compass rose stamped in the concrete.  Clever parent that
 
 &nbsp;
 
-* 2020-01-05
-* 47.3183165 -122.4162708 | [Map](https://www.google.com/maps/place/Dash+Point+State+Park/@47.3183165,-122.4162708,15z/data=!4m5!3m4!1s0x549056c760de0a9b:0xbdd4ce3fd805cb00!8m2!3d47.3183129!4d-122.4075162)
-* 43 Degrees and Raining
-* Miles Traveled: 43.0
-* Sighted: 1 minor accident on freeway
+<img src="images/map_dashpoint.png" style="width:330px;padding:30px" align="left">
+<img src="images/waparks_dashpoint.png" style="width:300px; margin-right:20px;padding:30px;" align="right">
 
-&nbsp;
-&nbsp;
+| Date |  Map Link | Lat | Long | Weather | Traveled |
+| :-----: |:------: | :-------: |:-------: | :-------: |:------: |
+| 2020-01-05 | [Map](https://www.google.com/maps/place/Dash+Point+State+Park/@47.3183165,-122.4162708,15z/data=!4m5!3m4!1s0x549056c760de0a9b:0xbdd4ce3fd805cb00!8m2!3d47.3183129!4d-122.4075162) | 47.31831 | -122.41627 | 43 / Rainy | 43.0 (car) |
+
 &nbsp;
 
 The second park on our first (hopefully of many) multiple park day.  One failed park visit already on the books, we would not be denied here.  It was raining.  So, we geared up and hit the beach.  Temperature, 43 degrees.  We had brought neither the beach toys nor the rugged and waterproof pram.
-
-<img src="images/waparks_dashpoint.png" style="width:30%; border:10px solid; margin-right: 20px" align="right">
 
 Fortune shined on us even though the sun would not.  Everett found two discarded sifters on the beach and we were able to fashion our picnic blanket into a make-shift umbrella/tent for Hawkins.  The little one didn’t last long outside, but Everett and I collected, cleaned and piled shells until we were soaked.  
 
@@ -648,19 +839,16 @@ Getting ready to leave the parking lot, there were three families preparing to d
 
 &nbsp;
 
-* 2020-01-05
-* 47.37446 -122.3237796 | [Map](https://www.google.com/maps/place/Saltwater+State+Park/@47.37446,-122.3237796,16z/data=!4m5!3m4!1s0x54905a392cb3a9df:0x60f0bd43e192b77e!8m2!3d47.3744564!4d-122.3194022)
-* 43 Degrees and Raining
-* Miles Traveled: 24.2
-* Sighted: 1 broken-down car carrier
+<img src="images/map_saltwater.png" style="width:330px;padding:30px" align="left">
+<img src="images/waparks_saltwater.png" style="width:300px; margin-right:20px;padding:30px;" align="right">
 
-&nbsp;
-&nbsp;
+| Date |  Map Link | Lat | Long | Weather | Traveled |
+| :-----: |:------: | :-------: |:-------: | :-------: |:------: |
+| 2020-01-05 |[Map](https://www.google.com/maps/place/Saltwater+State+Park/@47.37446,-122.3237796,16z/data=!4m5!3m4!1s0x54905a392cb3a9df:0x60f0bd43e192b77e!8m2!3d47.3744564!4d-122.3194022) | 47.37446 | -122.32377 | 43 / Rainy | 24.2 (car) |
+
 &nbsp;
 
 The forecast looked grim, the weather delivered, we persevered…at least in terms of intent.  The highlight of the journey was seeing a broken down car-carrier being actively repaired on the side of the road.  
-
-<img src="images/waparks_saltwater.png" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
 ‘So, too much poop?’.  That was our 3-year-old's summation of our explanation of why Saltwater State Park was closed on our arrival.  The torrential rains earlier in the week had caused sewer overflow runoff to contaminate some of the low-lying areas, thus leading to the park's closure.  Our poor research efforts this morning had failed to uncover these developments.  After reading the full announcement from the park’s website (while parked in front of the locked gate), the response from the back seat was ‘So, too much poop?’
 
@@ -679,17 +867,14 @@ Despite this, our spirits were high and instead of heading home defeated we call
 
 &nbsp;
 
-* 2020-01-04
-* 47.5590578 -122.0650745 | [Map](https://www.google.com/maps/place/Lake+Sammamish+State+Park/@47.5590578,-122.0650745,15z/data=!4m5!3m4!1s0x54906faf255d9715:0xfc18e427e1f261aa!8m2!3d47.5590542!4d-122.0563198)
-* 41 Degrees and Windy
-* Miles Traveled: 44.6
-* Sighted: 6 kites stuck in a tree 
+<img src="images/map_lakesammamish.png" style="width:330px;padding:30px" align="left">
+<img src="images/waparks_lakesammamish.JPG" style="width:300px; margin-right:20px;padding:30px;" align="right">
+
+| Date |  Map Link | Lat | Long | Weather | Traveled |
+| :-----: |:------: | :-------: |:-------: | :-------: |:------: |
+| 2020-01-04| [Map](https://www.google.com/maps/place/Lake+Sammamish+State+Park/@47.5590578,-122.0650745,15z/data=!4m5!3m4!1s0x54906faf255d9715:0xfc18e427e1f261aa!8m2!3d47.5590542!4d-122.0563198) | 47.55905 | -122.06507 | 41 / Windy | 44.6 (car) |
 
 &nbsp;
-&nbsp;
-&nbsp;
-
-<img src="images/waparks_lakesammamish.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="right">
 
 A front had moved through last night and gone was the balmy 50+ degrees.  In its place a biting wind and threatening clouds.  Still early in our State Parks quest and full of vim, vigor and a general dread of being shut up for the entire day, we decided to have a go at Lake Sammamish State Park. The choice of destination was a hedge, however.  Lake Sammamish Park is (sub)urbanly-located meaning if the weather drove us off, we could still fulfill a number of other errands without much additional travel.  
 
@@ -708,21 +893,16 @@ The weather had kept the crowds at bay and the massive parking lot was mostly em
 
 &nbsp;
 
+<img src="images/map_saintedward.png" style="width:330px;padding:30px" align="left">
+<img src="images/waparks_saintedward.png" style="width:300px; margin-right:20px;padding:30px;" align="right">
 
-* 2020-01-01
-* 47.7325728 -122.2591007 | [Map](https://www.google.com/maps/place/Saint+Edward+State+Park/@47.7325728,-122.3969877,11z/data=!4m5!3m4!1s0x5490118ca599d303:0x796ecd98c741f826!8m2!3d47.7325692!4d-122.256912)
-* 44 Degrees and Partly Sunny
-* Miles Traveled: 22.2
-* Miles Hiked: 1.2
-* Sighted: 2 tow-trucks
+| Date |  Map Link | Lat | Long | Weather | Traveled |
+| :-----: |:------: | :-------: |:-------: | :-------: |:------: |
+| 2020-01-01 | [Map](https://www.google.com/maps/place/Saint+Edward+State+Park/@47.7325728,-122.3969877,11z/data=!4m5!3m4!1s0x5490118ca599d303:0x796ecd98c741f826!8m2!3d47.7325692!4d-122.256912) | 47.7325 | -122.2591 | 44 / P. Sunny | 22.2 (car) / 1.2 (hike) |
 
-&nbsp;
-&nbsp;
 &nbsp;
 
 Twenty minutes from our house, Saint Edward is our most quickly and easily accessible state park. The journey was rather uneventful, few people other than parents and, perhaps, athletes-in-training venture out on the roadways at eight-thirty AM on New Years Day.  The park, however, was full. Heaping full of young families like our own.  In addition to the trails and old seminary building there is a massive, Sherwood Forest-themed playground.  Actually, child-castle would be a better description. 
-
-<img src="images/waparks_saintedward.png" style="width:30%; border:10px solid; margin-right: 20px" align="left">
 
 We opted first for a hike to the lake and back.  The Grotto Trail descends quickly to the water, past hanging moss and radial sword ferns, but oddly, not past the Grotto. Though a much promised attraction, we did not back-track to find it. Our 3-year old rated the hike “Bad: too many mud and roots”.  The beach area also lacked enough "sticks for throwing in the water.” His complaints were duly noted and filed with the park ranger.  
 
@@ -744,12 +924,12 @@ Post-hike, we entered the melee at the playground. Time was passed silently judg
 
 &nbsp;
 
-<img src="images/map_spencerspit.png" style="width:430px;height:310px;padding:30px" align="left">
-<img src="images/waparks_spencerspit.jpg" style="width:42%; margin-right:20px;padding:30px;" align="right">
+<img src="images/map_spencerspit.png" style="width:330px;padding:30px" align="left">
+<img src="images/waparks_spencerspit.jpg" style="width:300px; margin-right:20px;padding:30px;" align="right">
 
 \vspace{45mm}
 
-| Date |  Map Link | Lat | Long | Weather | Traveled |
+| Date |  Map Link | Latitude | Longitude | Weather | Traveled |
 | :-----: |:------: | :-------: |:-------: | :-------: |:------: |
 | 2019-12-27 | [Map](https://www.google.com/maps/place/Spencer+Spit+State+Park/@48.536069,-122.861176,12z/data=!4m5!3m4!1s0x0:0xe0620a6877355ad4!8m2!3d48.536678!4d-122.8609479?hl=en) | 48.5360 | -122.8612 | 42 / Cloudy | 14.8 (car) |
 
