@@ -4,6 +4,8 @@ output:
   html_document:
     includes:
       after_body: footer.html
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
@@ -11,16 +13,53 @@ output:
 parks_df <- readr::read_csv(file.path(getwd(), 'data', 'final_parks_data.csv')) %>%
       dplyr::filter(Challenge == 1) %>%
       dplyr::mutate(Visited = as.factor(Visited))
+
+visited_sf <- readRDS(file.path(getwd(), 'images', paste0('visited.RDS')))
+  
 library(magick)
 library(gridExtra)
 library(png)
 library(grid)
+library(sf)
 cropp <- function(im, left = 0, top = 0, right = 0, bottom = 0) {
   d <- dim(im[[1]]); w <- d[2]; h <- d[3]
   magick::image_crop(im, glue::glue("{w-left-right}x{h-top-bottom}+{left}+{top}"))
 }
 clipp <- 100
 tt2 <- ttheme_minimal()
+
+makeTblx <- function(visited_sf, 
+                     park_name){
+  
+  tbl <- visited_sf %>%
+    dplyr::filter(ParkName == park_name)
+
+  traveled <- tbl %>%
+    dplyr::select(Driven, Boated, Ferried, Hiked, Paddleboarded)
+  
+  sf::st_geometry(traveled) <- NULL
+  
+  traveled <- t(traveled) %>%
+    as.data.frame() %>%
+    dplyr::filter(!is.na(`1`)) %>%
+    dplyr::mutate(Metric = paste0('Miles ', rownames(.))) %>%
+    dplyr::rename(Measure = `1`) %>%
+    dplyr::mutate(Measure = as.character(Measure))
+  
+  lon <- round(unlist(tbl$geometry)[1], 4)
+  lat <- round(unlist(tbl$geometry)[2], 4)
+  
+  tblx <- data.frame(Metric = c('Date', 'Weather', 'Lat', 'Long'),
+                     Measure = c(as.character(tbl$Date_Visited), as.character(tbl$Weather), 
+                                 as.character(lat), as.character(lon))) %>%
+    dplyr::bind_rows(., traveled)
+  
+  rownames(tblx) <- NULL
+  
+  tableGrob(tblx, rows = NULL, theme = tt2)
+  
+}
+
 ```
 
 &nbsp;
@@ -31,43 +70,48 @@ tt2 <- ttheme_minimal()
 &nbsp;
 &nbsp;
 
-<img src="images/waparks.png" style="width:13%; border:0px solid; margin-right: 24px" align="left">
+<img src="images/waparks.png" style="width:12%; border:0px solid; margin-right: 24px; margin-bottom:15px" align="left">
 
-We had lost our sense of adventure, mostly.  With two small children packing the car and enduring road trip eventualities — soiled car seats, endless questions, whining — creates significant homebody inertia.  Getting out, especially in the short, damp days of a Northwest Winter, was often just too much.  We needed motivation.  
+We had lost our sense of adventure, mostly. With two small children packing the car and enduring road trip eventualities — soiled car seats, endless questions, whining — creates significant homebody inertia.  Getting out, especially in the short, damp days of a Northwest Winter, was often just too much.  We needed motivation.  
 
 Busy professionals with weak spots for childish competitions and games, one of us gifted the other a Washington State Parks checklist banner — thanks [Etsy](https://www.etsy.com/listing/758790133/wa-state-park-checklists-washington?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=Washington+state+parks&ref=sr_gallery-1-1&organic_search_click=1&cns=1) — for Christmas.  The challenge was on, the game afoot.  Visiting State Parks is a sizable reduction in both investment and payoff, from say, counting continents, countries or even National Parks.  We had checked the map; done right we could probably do 5-7 parks some days.  Our reward would be picnic shelters and boat launches not grand geologic formations and soul-stirring vistas.  Playgrounds not postcards.   
 
-There are a lot of state parks in Washington State, 136 in all, and not all are accessible by car. The good money would be on us not finishing this quest…and that’s OK, its the journey we seek. In our pre-child mid-twenties, we once visited the Grand Coulee dam. We’ve been to the Mima Mounds, overnighted in Warnambool (twice) and weathered a typhoon in Toba. We are no strangers to long journeys with small payoffs.  We've experienced -- and enjoyed -- being surrounded by retirees, RV people and empty parking lots. Though now we are two car seats strong and have a tiny collapsible toilet in the hatch. Adventure takes no universal form.  
+There are a lot of state parks in Washington State, 139 in all, and not all are accessible by car. The good money would be on us not finishing this quest…and that’s OK, its the journey we seek. In our pre-child mid-twenties, we once visited the Grand Coulee dam. We’ve been to the Mima Mounds, overnighted in Warnambool (twice) and weathered a typhoon in Toba. We are no strangers to long journeys with small payoffs.  We've experienced -- and enjoyed -- being surrounded by retirees, RV people and empty parking lots. Though now we are two car seats strong and have a tiny collapsible toilet in the hatch. Adventure takes no universal form.  
 
 &nbsp;
 &nbsp;
-&nbsp;
+<img src="images/spacer.png" style="height:116%; border:0px solid; margin-right: 24px; margin-bottom:15px" align="left">
+&nbsp;&nbsp;
 
 ### **Progress**
 
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
 
-| . | . |
-| :------- | :-------: |
-| | |
-| Parks Visited | 35 |
-| Remaining to Visit | 101 |
-| | |
-| Miles Driven | 1087 |
-| Miles Ferried | 14.5 |
-| Miles Boated | 39.89  |
-| Miles Hiked | 15.7 |
-| Miles Paddleboarded | 1.2 |
-| | |
-| | |
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE}
+
+  head_col <- '#489f28'
+  row_col <- "#edf5fc"
+  summ_df <- readRDS(file.path(getwd(), 'images', paste0('summary.RDS')))
+
+  summ_df %>%
+   knitr::kable(., format = 'html') %>%
+   kableExtra::kable_styling(full_width = F, stripe_color = strip_col) %>%
+   kableExtra::row_spec(0, background = head_col) %>%
+    kableExtra::pack_rows("Travel Details", 4, 8, label_row_css = "background-color: #666; color: #fff;")
+
+```
 
 &nbsp;
 &nbsp;
 &nbsp;
 
-<img src="images/state_map.png" style="width:75%; border:0px solid; margin-left:0px; margin-right: 0px" align="center">
+<img src="images/state_map.png" style="width:85%; border:0px solid; margin-left:0px; margin-right: 0px" align="center">
 
 &nbsp;
 &nbsp;
@@ -79,21 +123,122 @@ There are a lot of state parks in Washington State, 136 in all, and not all are 
 &nbsp;
 &nbsp;
 
-#### 34) [Clark Island](https://parks.state.wa.us/488/Clark-Island): 
+&nbsp;
+&nbsp;
 
-```{r, echo = FALSE, cache = FALSE}
-img <- 
-  "images/map_clarkisland.png" %>%
-  image_read() %>%
-  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp)
+#### 37) [Kopachuck](https://parks.state.wa.us/530/Kopachuck): 
 
-tbl <- data.frame(`Stat` = c('Date', 'Lat', 'Long', 'Weather', 'Miles Boated'),
-                  `.` = c('2020-07-14', '48.70084', '-122.76446', '70 / Sunny', '15.8'))
-tbl <- tableGrob(tbl, rows = NULL, theme = tt2)
-gridExtra::grid.arrange(rasterGrob(img), tbl,
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_kopachuck.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Kopachuck'),
                         nrow = 1,
                         as.table = TRUE)
 ```
+
+&nbsp;
+
+We are morning people. Most of our part visits occur early in the day and, as such, we are generally one of few cars in the lot.  Beaches and trails to ourselves.  Rolling into Kopachuck at 11:30 on a hot Sunday was out of character for us and left us with crowds to navigate.  
+
+<img src="images/waparks_kopachuck.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+A number of interweaving trails lead down to the beach; all were full of people headed one way or the other.  Half way down, the eldest had an emergency need to go back up to the bathroom, so again we split.  Meandering through groups -- half masked, half not -- on the rocky beach, I tucked us into a small little nest out the sun and the wind. Much of the action at the park was paddleboarders and kayakers launching for the crossing to Cutts Island State Park.  Its not that far of a trip but a someone treacherous one on the weekend with all the powerboats criss-crossing the water.  
+
+Lunch, a brief swim and back to the car in time for naps on the ride home.  We managed three parks today, but a bit at the expense of our sanity. The kids are good riders in the car, adventurous outdoorsmen and overall supportive of our parks quest, however, sometimes too many stops, too many ins and outs of the car wear us all out.   
+
+&nbsp;
+&nbsp;
+
+#### 36) [Manchester](https://parks.state.wa.us/542/Manchester):
+
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_manchester.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Manchester'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+By water, Manchester State Park is just a few miles from Illahee.  By land is a longer journey.  Down through Bremerton, past the Naval Yards -- an aircraft carrier was in, very cool -- through the used car lots of Gorst, back up through Port Orchard, along Beach Drive to the peninsula, then back down again to the park.  Long enough for one child to fall asleep, the other to get hangry and us to make one wrong turn and then an errant stop at Port Orchard Ford for picnic vittles (the navigator thought Google Maps was showing her Port Orchard Food).  
+
+<img src="images/waparks_manchester.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+We arrived, bereft of food but still full of spirit.  The receding tide had left the main beach coated with drying and dying aquatic plants.  In addition to that stale marine smell, it also meant treacherous footing.  Soon, the elder child was splayed out on his back in the muck.  While tending to him, the younger one attempted to eat the loose seaweed as well as some rocks. Our mood began to wane. 
+
+Zone coverage on the two children wasn't working well, so we split up for a man-to-man defense, rendezvousing later at the old Torpedo Building.  The de-activated naval mines out-front are a vivid reminder of the military preparations done in and around the Puget Sound during the first half of the 20th century. The overturned picnic tables and social distancing signs within a reminder of our current battle just as vivid.   
+
+&nbsp;
+&nbsp;
+
+#### 35) [Illahee](https://parks.state.wa.us/520/Illahee): 
+
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_illahee.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Illahee'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+
+We had planned a long weekend camping on the eastern side of the Olympics. A series of blunders together with inattentive camp hosts and greatly increased demand for time in the great outdoors during Covid turned our imagined three-night getaway into 24 hours of frustration wrapped around a night spend squatting in someone else's camp site. In the course of our wanderings we did manage to cross seven counties, seventeen fire district and one national park boundary.  Unfortunately, with small children the journey is usually not the reward.  
+
+<img src="images/waparks_illahee.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+After a Saturday spent resting and re-evaluating our enthusiasm towards travel with small kids, we summoned some vigor, and a bit of vim, and decided to salvage the weekend.  Sunday morning we caught an early ferry to Bremerton and onwards to some state parks.  
+
+By 9am it was evident it was going to be a great day for the beach. Blue sky, slight breeze, heat. Illahee State Park has a number of definining features -- the world's oldest Pacific Yew tree, a large, stately dock for the boating class and cannons. The beach here, however, is under-whelming. Even the beach glass was sub-par; mostly the thin brown variety of recent vintage with little-to-no wear. Our discerning three-year old wouldn't waste the time to even pick it up. The Yew Tree had been towered over by Douglas Firs and encroached upon by a maintenance shed.  From all appearances it was clearly yearning for more independence. You could tell it was alive if you looked close enough, but absent the signage one couldn't be blamed for thinking it a common snag.  The cannons, at least the kids loved the cannons.      
+
+&nbsp;
+&nbsp;
+
+#### 34) [Clark Island](https://parks.state.wa.us/488/Clark-Island): 
+
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_clarkisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Clark Island'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
 
 The Pacific Northwest is anything but tropical. Even during our 10 weeks of summer, the native botany, rocky beaches and mountain backdrops will not let you forget where you are. But put yourself onto the white sand beach of the western side of Clark Island on a warm, sunny day and you just might, if you try hard enough, drum up visions of the Mediterranean or maybe Central America.  Until you touch the water.  It is still really cold. 
 
@@ -108,17 +253,16 @@ We don't currently own a boat. This week's island trips have been courtesy of ou
 
 #### 33) [Posey Island](https://parks.state.wa.us/567/Posey-Island): 
 
-```{r, echo = FALSE, cache = FALSE}
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
 img <-
   "images/map_poseyisland.png" %>%
-  image_read() %>%
-  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp)
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
 
-tbl <- data.frame(`Stat` = c('Date', 'Lat', 'Long', 'Weather', 'Miles Boated',
-                                'Miles Paddleboarded'),
-                  `.` = c('2020-07-13', '48.61833', '-123.16798', '69 / Sunny', '20.4', '0.2'))
-tbl <- tableGrob(tbl, rows = NULL, theme = tt2)
-gridExtra::grid.arrange(rasterGrob(img), tbl,
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Posey Island'),
                         nrow = 1,
                         as.table = TRUE)
 ```
@@ -137,16 +281,17 @@ Our stay on the island was measurable in seconds.  Our friends both were keeping
 
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE}
-img <- 
-  "images/map_stuartisland.png" %>%
-  image_read() %>%
-  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp)
 
-tbl <- data.frame(`Stat` = c('Date', 'Lat', 'Long', 'Weather', 'Miles Boated', 'Miles Hiked'),
-                  `.` = c('2020-07-13', '48.67396', '-123.21757', '68 / Sunny', '14.9', '1.1'))
-tbl <- tableGrob(tbl, rows = NULL, theme = tt2)
-gridExtra::grid.arrange(rasterGrob(img), tbl,
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_stuartisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Stuart Island'),
                         nrow = 1,
                         as.table = TRUE)
 ```
@@ -167,16 +312,17 @@ From the dock, we hiked up and over a ridge, along a cliff and down to a sand/ro
 
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE}
-img <- 
-  "images/map_moran.png" %>%
-  image_read() %>%
-  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp)
 
-tbl <- data.frame(`Stat` = c('Date', 'Lat', 'Long', 'Weather', 'Miles Driven', 'Miles Paddleboarded'),
-                  `.` = c('2020-07-13', '48.66498', '-122.82404', '65 / Sunny', '12.0', '1.0'))
-tbl <- tableGrob(tbl, rows = NULL, theme = tt2)
-gridExtra::grid.arrange(rasterGrob(img), tbl,
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_moran.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Moran'),
                         nrow = 1,
                         as.table = TRUE)
 ```
@@ -193,16 +339,16 @@ Erin and I managed to slip in nice paddleboard trips across the lake to the wood
 
 #### 30) [Sucia Island](https://parks.state.wa.us/594/Sucia-Island): 
 
-```{r, echo = FALSE, cache = FALSE}
-img <- 
-  "images/map_suciaisland.png" %>%
-  image_read() %>%
-  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp)
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
-tbl <- data.frame(`Stat` = c('Date', 'Lat', 'Long', 'Weather', 'Miles Boated', 'Miles Hiked'),
-                  `.` = c('2020-07-12', '48.60529', '-122.83183', '65 / Sunny', '6.2', '2.1'))
-tbl <- tableGrob(tbl, rows = NULL, theme = tt2)
-gridExtra::grid.arrange(rasterGrob(img), tbl,
+img <-
+  "images/map_suciaisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Sucia Island'),
                         nrow = 1,
                         as.table = TRUE)
 ```
@@ -219,20 +365,24 @@ The beaches are ideal.  Very shallow slope with all manner of shells, sticks and
 
 #### 29) [Obstruction Pass](https://parks.state.wa.us/553/Obstruction-Pass): 
 
-```{r, echo = FALSE, cache = FALSE}
-img <- 
-  "images/map_obstructionpass.png" %>%
-  image_read() %>%
-  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp)
+&nbsp;
 
-tbl <- data.frame(`Stat` = c('Date', 'Lat', 'Long', 'Weather', 'Miles Driven', 'Miles Ferried', 'Miles Hiked'),
-                  `.` = c('2020-07-12', '48.60529', '-122.83183', '59 / P. Cloudy', '97.6', '14.9', '1.7'))
-tbl <- tableGrob(tbl, rows = NULL, theme = tt2)
-gridExtra::grid.arrange(rasterGrob(img), tbl,
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_obstructionpass.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Obstruction Pass'),
                         nrow = 1,
                         as.table = TRUE)
 ```
- 
+
+&nbsp;
+
 With an early start from Seattle we made the 7:40am ferry to Orcas with time to spare. A last minute invite to split a house with some friends has us headed to a different island than usual. San Juan County has loosened their travel restrictions and the islands have begun to see more actions -- still off from a normal summer, but trending upwards.  After our last camping trip, we realized that with two car seats and all the gear that comes with young kids our car travel situation was lacking.  We upgraded with a roof box, a new cooler and a large duffel bag.  Time to break in the new equipment.  Yes, like every other Seattlite, we now have a black Subura Outback with a matching Thule roof rack.  Some things are just not worth being original about. 
 
 <img src="images/waparks_obstructionpass.jpg" style="width:300px; margin-right:20px;padding:30px;" align="right">
@@ -243,17 +393,26 @@ Arriving straight from the ferry landing, we unloaded and packed up for a short 
 
 &nbsp;
 
-<!-- --------------------------------------------------------------------------------------------------- -->
 
 #### 28) [Blake Island](https://www.parks.state.wa.us/476/Blake-Island)
 
 &nbsp;
 
-* 2020-06-27
-* 47.53748 -122.56331 | [Map](https://www.google.com/maps/place/Blake+Island/@47.5374844,-122.5633103,12z/data=!4m13!1m7!3m6!1s0x5490470b79a220a5:0xb80a0f469111a8bf!2sBlake+Island!3b1!8m2!3d47.5376679!4d-122.4954007!3m4!1s0x5490470b79a220a5:0xb80a0f469111a8bf!8m2!3d47.5376679!4d-122.4954007)
-* 54 Degrees, Raining
-* Miles Traveled: 14.5 (boat), 9.8 (car)
-* Sighted: Harbor porpoise
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_blakeisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Blake Island'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
 
 Our Friday night picnic plans for Blake Island had been derailed by a forecast of strong northerly winds.  The gale never really materialized, but better safe than sorry when taking small children asea.  We rescheduled for the next morning which promised calmer waters.
 
