@@ -129,6 +129,7 @@ There are a lot of state parks in Washington State, 139 in all, and not all are 
 #### 37) [Kopachuck](https://parks.state.wa.us/530/Kopachuck): 
 
 &nbsp;
+&nbsp;
 
 ```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
@@ -159,6 +160,7 @@ Lunch, a brief swim and back to the car in time for naps on the ride home.  We m
 
 #### 36) [Manchester](https://parks.state.wa.us/542/Manchester):
 
+&nbsp;
 &nbsp;
 
 ```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
@@ -191,6 +193,8 @@ Zone coverage on the two children wasn't working well, so we split up for a man-
 #### 35) [Illahee](https://parks.state.wa.us/520/Illahee): 
 
 &nbsp;
+&nbsp;
+
 
 ```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
@@ -223,6 +227,7 @@ By 9am it was evident it was going to be a great day for the beach. Blue sky, sl
 #### 34) [Clark Island](https://parks.state.wa.us/488/Clark-Island): 
 
 &nbsp;
+&nbsp;
 
 ```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
@@ -253,6 +258,9 @@ We don't currently own a boat. This week's island trips have been courtesy of ou
 
 #### 33) [Posey Island](https://parks.state.wa.us/567/Posey-Island): 
 
+&nbsp;
+&nbsp;
+
 ```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
@@ -275,12 +283,15 @@ We convinced the captain to pull in as close as he felt comfortable -- its surro
 
 Our stay on the island was measurable in seconds.  Our friends both were keeping the boat off the rocks and watching our two kids. The least we could do was hustle along.  A (natural) toilet break and a few photos later and we were off.  Back onto the paddleboard designed for one and up into the boat.  Off to Roche, the Monaco of the San Juan's.  A former lime kiln mill turned playground for the rich and others fortunate enough to be on a watercraft, powered or otherwise. 
 
+
 &nbsp;
+&nbsp;
+
 
 #### 32) [Stuart Island](https://parks.state.wa.us/593/Stuart-Island): 
 
 &nbsp;
-
+&nbsp;
 
 ```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
@@ -304,14 +315,14 @@ From the near rendevous with the border, we vectored SW and into Prevost Harbor 
 
 From the dock, we hiked up and over a ridge, along a cliff and down to a sand/rock beach.  While the older kids took turns whipping each other with bull kelp, our youngest tried to swallow a rock. A child peed shamelessly on the beach. Yelling, screaming and splashing scared a perched osprey from its roost. A kayak tour approaching the beach landed in the farthest possible location from us; perhaps in the name of social distancing, perhaps self preservation. A childless person may well have looked on our beach gathering with horror; as parents we saw no blood, no tears, all was well.  As the snacks ran out and our own hunger built, we trecked back to the boat, through Johns Pass and onwards towards Spieden Island.        
 
-
+&nbsp;
 &nbsp;
 
 
 #### 31) [Moran](https://parks.state.wa.us/547/Moran): 
 
 &nbsp;
-
+&nbsp;
 
 ```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
@@ -335,9 +346,14 @@ An early arrival provided us with full control of the beach at the roped off swi
 
 Erin and I managed to slip in nice paddleboard trips across the lake to the wooden bridge and the small lagoon beyond.  The cross wind proved formidable, but neither of us dumped in the water.  Hopefully that was enough exercise to justify ice cream and whisky later in the day.  
 
+
+&nbsp;
 &nbsp;
 
 #### 30) [Sucia Island](https://parks.state.wa.us/594/Sucia-Island): 
+
+&nbsp;
+&nbsp;
 
 ```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
@@ -355,17 +371,20 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 Sucia Island is known as the crown jewel of the Washington State's Marine Park system.  Its long fingers give it many miles of shoreline -- most of them steep cliffs or sand beaches -- as well as multiple bays and coves perfect for boat parking.  
 
-<img src="images/waparks_suciaisland.jpg" style="width:300px; margin-right:20px;padding:30px;" align="right">
+<img src="images/waparks_suciaisland.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 We arrived, slalomed through the dozens of boats moored in the bay and claimed the last remaining spot on the northernmost of the two public docks in Fossil Bay.  The kids wanted beach time immediately, we adults made them earn it with a hike first.  On the map the trail to Ev Henry Point and back looks like a simple two mile loop.  In reality, its a fairly exposed hike and somewhat dangerous, at least for kids.  There are some severe drops just feet off of the trail, though with them, views to match.  I definitely recommend the hike; leave the children behind.  
 
 The beaches are ideal.  Very shallow slope with all manner of shells, sticks and sea life.  It was busy by remote island standards; practically vacant from the perspective of city dwellers. Other than mask wearing on the docks, you could almost forget about COVID out here. In fact, I think that is what most visitors were trying to do.  To bring back some sense of normalcy to their lives with the grandest summer tradition of them all: the beach day. 
 
 &nbsp;
+&nbsp;
 
 #### 29) [Obstruction Pass](https://parks.state.wa.us/553/Obstruction-Pass): 
 
 &nbsp;
+&nbsp;
+
 
 ```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
@@ -385,17 +404,19 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 With an early start from Seattle we made the 7:40am ferry to Orcas with time to spare. A last minute invite to split a house with some friends has us headed to a different island than usual. San Juan County has loosened their travel restrictions and the islands have begun to see more actions -- still off from a normal summer, but trending upwards.  After our last camping trip, we realized that with two car seats and all the gear that comes with young kids our car travel situation was lacking.  We upgraded with a roof box, a new cooler and a large duffel bag.  Time to break in the new equipment.  Yes, like every other Seattlite, we now have a black Subura Outback with a matching Thule roof rack.  Some things are just not worth being original about. 
 
-<img src="images/waparks_obstructionpass.jpg" style="width:300px; margin-right:20px;padding:30px;" align="right">
+<img src="images/waparks_obstructionpass.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 In additional to being a delightful place to spend a few summer days, Orcas Island is also a great jumping off point for many of the State's Marine Parks.  But first a stop at Obstruction Pass park on the main island.  
 
 Arriving straight from the ferry landing, we unloaded and packed up for a short hike the beach.  The littler one is walking now and took off sprinting for a nearby dog and end up face first in the mud and gravel not 60 seconds after our arrival.  Every good vacation starts with some blood on your face.  The undulating hike takes you less than a mile to get to a secluded beach looking out to Obstruction, Blakely, Lopez and Shaw Islands.  The beaches here in the San Juan vary so in constitution. Some have large rocks, other small, even sand in some places. Obstruction Pass is somewhere right in the middle, the perfect size to making walking optimally difficult. Combined with a slight incline, it is a labor to walk 50 feet on this beach.  So we didn't. We sat, snacked and splashed, watching the chipmunks while being watched by a hungry raccoon. Then back to the car an onwards to the house.   
 
 &nbsp;
-
+&nbsp;
 
 #### 28) [Blake Island](https://www.parks.state.wa.us/476/Blake-Island)
 
+
+&nbsp;
 &nbsp;
 
 ```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
@@ -416,7 +437,7 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 Our Friday night picnic plans for Blake Island had been derailed by a forecast of strong northerly winds.  The gale never really materialized, but better safe than sorry when taking small children asea.  We rescheduled for the next morning which promised calmer waters.
 
-<img src="images/waparks_blake.png" style="width:25%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+<img src="images/waparks_blake.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 With our friend's new 28-foot pleasure craft as our trusty steed and an experienced-ish seaman at the helm, the trip over was pleasant.  Calm but rainy. The standard cargo ships and ferries to dodge, but few other pleasure crafts about. Ensconced in the cabin, the weather presented no diminishment to the children's joy of racing across the Puget Sound at 35 knots. Or my own, for that matter. The city and surrounds take on a different look from the water.  More grand in some sense, but also more vulnerable. Wider, encroaching, parasitic, almost.
 
@@ -425,61 +446,94 @@ We claimed the last available moorage spot as the wet weather hadn't kept the we
 Donning our masks and backpacks, we unloaded the kids, unloosed their life-jackets and released them to scavange the beach and practice their standards acts of foolery. Wet feet, dirty faces and hurt feelings followed as expected. After a short, damp hike through large cedars, blooming foxglove and stinging nettle taller than any of us, we packed the boat back up for the short 15 minute ride home. Not home exactly, but the Elliot Bay marina to be correct. Blake is great little park so close to the city. We'll certainly be back.  
 
 &nbsp;
-
+&nbsp;
 
 #### 27) [Blind Island](https://www.parks.state.wa.us/477/Blind-Island)
 
+
+&nbsp;
 &nbsp;
 
-* 2020-06-04
-* 48.5855963 -122.9377365 | [Map](https://www.google.com/maps/@48.5855963,-122.9377365,16.83z)
-* 53 Degrees, Cloudy
-* Miles Traveled: 14.28 (boat), 7.4 (car)
-* Sighted: An island with a drawbridge
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_blindisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Blind Island'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
 
 Leaving Jones, we had planned to head west to the postage stamp-sized Posey Island, near Roche Harbor.  The chop picked up rapidly as we crossed San Juan Channel and we nestled down near O'Neal Island in Rocky Bay to re-evaluate our situation.  O'Neal Island is an odd little rock, it has a home and a dock, but the drawbridge to the dock is hoisted many tens of feet in the air, obstensibly to ward off would be pirates.  A post trip google search showed the owner to be Ann Holquist Moss, the ex-wife of Jerome Moss a legendary music producer and horse racing socialite.  The place looks like it doesn't see a lot of use, likely a traded pawn in the divorce proceedings.  
 
-<img src="images/waparks_blind.png" style="width:25%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+<img src="images/waparks_blind.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 With the weather threatening, we crossed back over the Channel to the safety of the passage between Shaw and Orcas Islands and onwards to Blind Island. It was a rough ride.  Steering a small aluminum boat via tiller is a work out in good weather; an outright punishment on the body during rough water. Our stop at Blind Island was hardly a stop.  The south wind prevented a clean landing, so I held our position amidst the rocks while Erin jumped out to summit the small rock and grab the requisite photo.  If you fly right by Blind Island and don't notice it on your ferry trip to/from Shaw you can't be blamed; its a rock with two picnic tables and remnant orchard.  There were homesteaders here in 1800s, one descendent of whom lived alone here until the 1960s...doing what, it is hard to say.     
 
 Our trip from Jones and our eventual 'stop' here showed us the short-comings of a boat that fills the middle between one large enough to handle 10 knot winds and one small enough to pull up onto any beach or rock (a kayak).  In good weather, with flat broad beaches, a 15 foot aluminum boat is great for island hopping.  If either of those situations doesn't hold, you find yourself wet, cold and stuck off shore.  
 
 &nbsp;
+&nbsp;
 
 #### 26) [Jones Island](https://parks.state.wa.us/525/Jones-Island)
 
+
+&nbsp;
 &nbsp;
 
-* 2020-06-04
-* 48.6153385 -123.0556781 | [Map](https://www.google.com/maps/place/Jones+Island+Marine+State+Park/@48.6153385,-123.0556781,14.83z/data=!4m5!3m4!1s0x548f7d5869517fa7:0x22f9c99d221661df!8m2!3d48.6153584!4d-123.0471057)
-* 56 Degrees, Partly Cloudy
-* Miles Traveled: 7.04  
-* Miles Hiked: 2.5
-* Sighted: A lone porpoise 
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_jonesisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Jones Island'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
 From Turn Island, we pointed our trusty float NW and headed up San Juan Channel; destination Jones Island.  Jones sits off the western edge of much larger Orcas Island. Our trip there -- just over seven miles -- took some weaving between the Yellow and Low islands group.  The wind remained minimal and there were few other boats around.  The sky had not cleared.  The main point of entry for Jones is the north facing cove.  Unlike Turn, Jones has a large dock. Also unlike Turn, the place was busy.  All the dock tie-offs were occupied as well as the mooring buoys, mostly by large, live-abourd type boats. We found a spot in the area reserved for dinghies -- our 15 ft aluminium boat qualified in relation to the present company occupying this harbor. 
 
-<img src="images/waparks_jones.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+<img src="images/waparks_jones.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 Having been in relative quarantine for nearly three weeks, it was an odd sight to see a public place humming with activity.  By and large, most groups were social distancing-ish but there is only so much room you give on an eight foot wide dock.  Tied off we headed ashore for a hike around the island.  The sun poked through the clouds for most of our walk which looped around the western half of the island.  There were people picnicing, the local park steward was mowing the large grassy area and kids splashed in the water in the small beach coves.  Despite it location and the circumstances, Jones was a busy place, relative to our previous destination and our experience in the San Juan's for the past three months.  
 
 There are some truly magnificent trees tucked into the valley in the middle of the island.  Burn scars from the days when the native used fire to clear ground for camas, these monsters are many feet in diameter, growing right up against the rock faces.  The sun light slopes are filled with madrona and small pockets of Garry oaks.  Like Turn, the forest here is a real attraction to those appreciative of native NW arboreal habitats.    
 
 &nbsp;
+&nbsp;
 
 #### 25) [Turn Island](https://www.parks.state.wa.us/295/Turn-Island)
 
 &nbsp;
+&nbsp;
 
-* 2020-06-04
-* 48.53232 -122.97700 | [Map](https://www.google.com/maps/place/Turn+Island+State+Park/@48.5297674,-122.9812488,15z/data=!4m5!3m4!1s0x548f7e38ef445fdf:0xf3f1adb30b400247!8m2!3d48.5330841!4d-122.9715317)
-* 55 Degrees, Partly Cloudy
-* Miles Traveled: 7.4 (by car); 4.07 (by Boat) 
-* Miles Hiked: 1.0
-* Sighted: An angry Goose and Gander
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_turnisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Turn Island'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
@@ -487,49 +541,66 @@ To celebrate my birthday (40), we borrowed a friend's boat and planned a day of 
 
 The forecast called for partly cloudy.  Our location was supplying the cloudy part of the mix.  The wind held light but steady from the south.  We skirted Lopez Island then SW to Turn, which hangs off the tip of San Juan Island, not far from Friday Harbor.  The tide was out, -2, and we had an easy time pulling the boat up onto the sand beach and tying off to a picnic table.  Turn Island can get a lot of kayak traffic in the summer, but COVID-19 has cancelled all of the tourist activities and we had the place to ourselves.  
 
-<img src="images/waparks_turn.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+<img src="images/waparks_turn.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 With the low tide we were easily able to walk across Boat Channel and climb up the small islet to the NW of Turn.  We couldn't stay long as we had stumbled onto a Canadian Goose nesting site and were quickly and loudly chased from the area.  Back on the main island, we circumambulated on the ring trail noting future camping sites and small coves to expore.  The outside of the island is rich with native madronas, junipers and big leaf maples, giving way to large Douglas firs in the interior. Though civilization is easy visible out across the water in all directions, there is a certain immediate sense of adventure being on an island all by yourselves.  Turn Island may look like a small blip on the map, but it really is a treasure of beaches, trails and picturesque flora.  
 
 On our last leg of the hike, we scared up two raccoons who appeared to have been heading for our boat (and our lunch).  We had not closely read the park guidelines on landing; "Food should be kept in secure holds as the raccoons are intelligent and agressive scavengers."  Disaster averted.  We untied and push off into the Sound.  The motor started on the first pull.  
 
 &nbsp;
+&nbsp;
 
 #### 24) [Tolmie](https://parks.state.wa.us/297/Tolmie):
 
 &nbsp;
+&nbsp;
 
-* 2020-03-08
-* 47.2489037 -121.2073145 | [Map](https://www.google.com/maps/place/Lake+Easton+State+Park/@47.2489037,-121.2073145,15z/data=!4m5!3m4!1s0x0:0x56de140034da3190!8m2!3d47.2489037!4d-121.2073145)
-* 38 Degrees, Cloudy, Rain Showers
-* Miles Traveled: 88.9 Miles
-* Sighted: A Dog Wearing Socks
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_tolmie.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Tolmie'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
 The short haul from the freeway to Tolmie State Park presents an odd combination of land uses.  The juxtapositions -- distributions centers butted up against churches, parks and small lot subdivisions -- viewed through through a seemingly endless progression of round-abouts immediatelyreminded us of our days of driving through suburban Melbourne looking for some random baseball diamond or trailhead. It is the oddest little things that take me back there in an instant. 
 
-<img src="images/waparks_tolmie.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+<img src="images/waparks_tolmie.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 The weather had not improved from our morning trip to Millersvania.  The chill hung in the air; visible and almost threatening.  There were other people about here.  Mostly dog walkers but a few beach-combing families like ourselves.  No one went out of their way to distance from each other in the parking lot as the initial COVID outbreak in King County was far enough from here to be a bit out of mind.  
 
 We stayed long enough for a snack and a brief hunt for sea glass.  The tide was out and shore was muddy; poor conditions for true scavanging.  Back to the car and Seattle and the uncertainty of an evolving pandemic.  
 
 &nbsp;
+&nbsp;
 
----------------------------------------------------------------------------------------------------
 
 #### 23) [Millersylvania](https://parks.state.wa.us/546/Millersylvania): 
 
 &nbsp;
+&nbsp;
 
-* 2020-03-08
-* 46.9158754 -122.9208231 | [Map](https://www.google.com/maps/place/Millersylvania+State+Park/@46.9158754,-122.9208231,15z/data=!4m12!1m6!3m5!1s0x5491702ee6f5e703:0xe0da361f7a0cb740!2sMillersylvania+State+Park!8m2!3d46.9158754!4d-122.9120683!3m4!1s0x5491702ee6f5e703:0xe0da361f7a0cb740!8m2!3d46.9158754!4d-122.9120683)
-* 36 Degrees, Foggy
-* Miles Hiked 0.8
-* Miles Traveled: 79 Miles
-* Sighted: A Ben Carson 2016 Bumper Sticker 
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
+img <-
+  "images/map_millersylvania.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Millersylvania'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 &nbsp;
 
 The lake was glass; still, reflecting the gray fog that hovered just feet above, cold and silent.  This was our first post-COVID outbreak park and the mood was appropriate, scripted almost.  A bufflehead diving for a meal broke the silence.  It wasn't reverie -- positive and comforting -- nor was it necessarily worry, just a sustained sense of uncertainty that percolates through all discussions, planning and thought recently.    
