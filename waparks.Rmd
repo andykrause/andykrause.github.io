@@ -605,7 +605,7 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 The lake was glass; still, reflecting the gray fog that hovered just feet above, cold and silent.  This was our first post-COVID outbreak park and the mood was appropriate, scripted almost.  A bufflehead diving for a meal broke the silence.  It wasn't reverie -- positive and comforting -- nor was it necessarily worry, just a sustained sense of uncertainty that percolates through all discussions, planning and thought recently.    
  
-<img src="images/waparks_millersvania.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+<img src="images/waparks_millersvania.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 Over the creek and through the mud, to the old growth forest we went.  Some truly impressive trees remain in the virgin tracks of forest here.  Nurse stumps and towering canopies lost in the fog.  Our walk was cut short by flooded trails, but well worth the visit. An alleged splinter gained while throwing sticks in the creek required a minor medical (ok, mostly psychological) intervention.  The patient recovered fully.  
 
@@ -614,21 +614,27 @@ Back at the car, the little one needed a drink, so Everett and I spent some time
 &nbsp;
 
 
----------------------------------------------------------------------------------------------------
-
 #### 22) [Lake Easton](https://parks.state.wa.us/532/Lake-Easton): 
 
 &nbsp;
-
-* 2020-02-22
-* 47.2489037 -121.2073145 | [Map](https://www.google.com/maps/place/Lake+Easton+State+Park/@47.2489037,-121.2073145,15z/data=!4m5!3m4!1s0x0:0x56de140034da3190!8m2!3d47.2489037!4d-121.2073145)
-* 38 Degrees, Cloudy, Rain Showers
-* Miles Traveled: 21.4 Miles
-* Sighted: A Mountaineers-branded Subaru
-
 &nbsp;
 
-<img src="images/waparks_lakeeaston.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_lakeeaston.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Lake Easton'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+&nbsp;
+
+<img src="images/waparks_lakeeaston.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 A late winter day, above freezing, full of fog.  A perfect day for sledding on the beach.  The sledding hill at our rental house was steep, like fun, nearly dangerous, for adults, type steep.  Almost too much for the kids.  
 
