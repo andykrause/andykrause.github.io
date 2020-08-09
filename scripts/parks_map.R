@@ -104,7 +104,7 @@
   ## Print Maps
   
   #for (k in 1:nrow(visited_sf)){
-  for (k in 35:37){
+  for (k in 1:4){
  
      i_sf <- visited_sf[k,]
      cat('Drawing: ', i_sf$ParkName, '\n')

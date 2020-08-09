@@ -126,6 +126,133 @@ There are a lot of state parks in Washington State, 139 in all, and not all are 
 &nbsp;
 &nbsp;
 
+#### 41) [McMicken Island](https://parks.state.wa.us/545/McMicken-Island): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_mcmickenisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'McMicken Island'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Formed by tidal diffraction and refraction, a tombolo is a narrow strip of land connecting an island to a mainland. During high tide, McMicken Island is, indeed, an island.  During low tide its tombolo surfaces tying it to the larger Harstine Island.  We had our inflatable paddleboards in the car, but opted for a land approach as we had timed the tides correct, we hoped, and didn't want to miss the chance to experience this rare geographic formation.  
+
+<img src="images/waparks_mcmickenisland.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Getting to the tombolo on foot isn't an easy affair. After parking at the lot in the old Harstine State Park (now just a satellite property of Jarrell Cove State Park), a winding 0.3 mile path takes you down to the beach. Then it is a slow and occasionally treacherous mile-long tidelands hike across seaweed covered rocks, dozens of downed trees and a number of small streams. We arrived at the foot of the tombolo just shy of noon, tide at about +3.5 feet and dropping. The tombolo was fully submerged, but we could see the sinuous line it cut as a disturbance in the retreating tide.  Shoes off, pants hike up we found that the deepest crossing (2 feet or so) was in the immediate 50 feet.  After that it leveled out and then slowly shallowed. In crossing when we did, we had a narrow but easy to follow path out to McMicken Island. The tide pulled water hard across our feet; it was very similar to cross a shallow but fast moving mountain stream. Crobs waited patienty in the lee of the litte ridge that had formed for lunch to float by.  On either side of the 6 foot wide path, it dropped off steadily to the surrounding shoal. By the time we reached the McMicken Island side the very end of the tombolo was beginning to breach the surface.  
+
+We had crossed from one island to another via a secret, underwater path: We were legends. We surveyed the island of our conquest -- a 1/2 loop hike makes this a quick affair -- and settled in for lunch (and some wine) on the beach. Hungry legends, it turned out. There is a small home and various outbuildings on the SE corner sequestered behind a private property sign. Strangely, a number of groups were camped on its grounds (A later check of the county's land records showed no private land on the island, oddly enough). An hour after we had crossed, the entire tombolo was exposed and the path back to Harstine Island was, quite literally, a standard walk in the park. Our original, aquatic crossing was much preferable to the return trip.  I'd highly recommend timing the tides right -- at about 3.5 feet and falling -- if you plan to access McMicken Island by foot.   
+
+&nbsp;
+&nbsp;
+
+#### 40) [Jarrell Cove](https://parks.state.wa.us/523/Jarrell-Cove): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_jarrellcove.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Jarrell Cove'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+The area south of Bremerton, north of Olympia, west of Tacoma and east of the Olympics -- the Southwest Puget Sound -- was definitely Terra Incognita for me prior to planning today's park visits. All I knew was that it held many long narrow inlets, peninsulas, islands, trees and few people. Asked to located Harstine Island on a map, I'm not certainly where exactly I would have incorrectly pointed. Part of the beauty of our park quest is in filling in those blank spots on my mental map of our state.  
+
+<img src="images/waparks_jarrellcove.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Dropping off of Highway 3, we avoided the siren call of the Olympic Bakery and the Spencer Lake Bar & Grill (largest pull-tab selection in the state) and forged on through the Pickering District and up and over the Harstine Bridge to the Island.  A meandering road north takes you to Jarrell Cove.  Underwhelming on entry, once you get to the water this park really shines.  The sun had poked through by now and the water was a deep blue-green, still as glass except for the refracted wake of passing boats from the larger Case Inlet.  
+
+Both park docks were busy. One with boaters trading stories, the other with a docking sailboat. Together with the neighboring marina, the cove was at capacity with limited moorage available in any direction.  While Harstine Island was a mystery to me, it is clearly a known quantity to the larger boating community...and for good reason.  We gave the shoreline and campground a 'once-over' hike to survey future campsites and beach play areas and were on our way.  
+
+&nbsp;
+&nbsp;
+
+#### 39) [Twanoh](https://parks.state.wa.us/294/Twanoh): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_twanoh.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Twanoh'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Stately evergreen trees with a mat of orange needles beneath, well built and designed stone buildings and walls, narrow parking lots and drives. Twanoh is the quintessential Civilian Conservation Corps (CCC) park.  Nearly a century old, these projects have beautifully stood the test of time.
+
+<img src="images/waparks_twanoh.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+An overcast weekday morning, we were among the small handful of visitors. But wandering the well-kept grounds you could almost feel the generations of summer vacations that were had here. The sweaty tennis matches, the trees climbed and the shells collected. Campfires, cookouts and hide-and-go seek. Perhaps all the nostaligia was due to its similarity to parks we visited during my youth in Northern Wisconsin, or maybe it was just the joy of our adult-only day of adventure. Regardless of the cause, the surrounds filled me with an invigorating spirit; my steps light, my mood grand.
+
+We didn't stay long -- we had upcoming adventures planned and a tight timeline -- but long enough to know we'd like to return in the future.  The dock looked relatively recently updated, perhaps arriving by water would be a nice approach some day. I think the kids would have a field day here. 
+
+&nbsp;
+&nbsp;
+
+#### 38) [Belfair](https://parks.state.wa.us/475/Belfair): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_belfair.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Belfair'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Covid had nixed our plans for a 5-day group trip to Seabrook. We gave most of the vacation days back, but kept Friday open for an adults-only adventure. A mental health day. A relaxing time rushing from one state park to another in the South West Puget Sound.
+
+<img src="images/waparks_belfair.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Kids to day care downtown, a short hop to the Bremerton Ferry, across the Sound and then onwards to Belfair State Park. Always on the lookout for good future camping spots, we rolled through the campground upon arrival.  The beach loop, while located true to its name, had the look of a used RV sale taking place on a poorly maintained cricket pitch. Hard pass, we are tenting people. The tree loop offers some nicely tucked in sites, though the highway is never far away.  
+After creeping on the campers, we took a quick tour of the beach. Mud flats, really. Tidal wetlands would be the correct term.  An interesting array of non-natural detritus littered the small cove we explored: a mint-condition baseball hat, a well-used infant's onesie and some legos. Prohibitive signage in abundance as well.  All manner of postings on the beach and in the toilets directing park users when and when not to forage for shellfish, what to and what not to eat of collected shellfish, where and where not to clean shellfish and other game, and how and how not to repair the tidelands after foraging. It is apparant that previous users of Belfair State Park have struggled to self-educate on proper shellfish harvesting actions prior to arrival.It is not a park we are likely to return to, but I will say that, outside of Lake Sammammish Park, these were the cleanest bathrooms at a state park we've seen...possibly because of the helpful signage reminding users not to clean fish in the toilets.  
+
+&nbsp;
+&nbsp;
+
 #### 37) [Kopachuck](https://parks.state.wa.us/530/Kopachuck): 
 
 &nbsp;
