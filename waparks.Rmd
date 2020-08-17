@@ -123,15 +123,129 @@ There are a lot of state parks in Washington State, 139 in all, and not all are 
 &nbsp;
 &nbsp;
 
+
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
+
+#### 44) [Penrose Point](https://parks.state.wa.us/564/Penrose Point): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_penrosepoint.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Penrose Point'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+From Joemma Beach, Penrose Point Park is about three miles, by air, closer to five by road.  We upped that into eight or so by missing our turn and taking a round-about route as a consequence. Along the way, we nearly hit a deer and had to slow to a stop to allow a particularly angry group of Canadian geese to cross the road. Lorenz Road: The wilder side of the Key Peninsula. 
+
+<img src="images/waparks_penrosepoint.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+The beach at Penrose was considerably busier than Joemma.  It is flatter, sandier and, overall, more easily accessible. Most definitely better set up for all generations to access the water.  We walked the exposed shore out along the western side of the eponymous 'point' of the park.  It is a dramatic edge.  Steep cliffs with trees clinging off at 90 degree angles. Occasionally undercuts, caves almost, caused by the wave action. The low tide made this traverse possible; a high tide would have been a wet walk.  
+
+Rounding the point in this manner greets the intrepid with an amazing view of Mt. Rainier.  Its about fifty miles from here, but seems much closer as it looms over the sky to the ESE.  The water is clearer, crisper on the east side of the point. A welcome contrast to the muddy bay from whence we came. Like nearly all parks at any level of jurisdiction, the size of the crowds declines exponentially as the distance from the parking lot increases. We had the point to ourselves on this calm, bluebird August day in the PNW...all for the price of mile walk. 
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
+
+#### 43) [Joemma Beach](https://parks.state.wa.us/524/Joemma Beach): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_joemmabeach.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Joemma Beach'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Crossing the Purdy Sand Spit and entering the town of Wauna a signs urges you to 'Discover Key Peninsula'.  We had.  Like Harstine Island, the Key Peninsula was unknown to me prior to planning this trip.  The steady vehicle traffic, many laden with campers, kayaks and kids, would suggest we were late to the party, figuratively speaking.  
+
+<img src="images/waparks_joemmabeach.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+It was a weekday, after all, and the Joemma Beach parking lot was scarcely 25% full at 11am, though the boat launch was quite active. Joemma is a nice, little crescent-shaped bay, southwest facing and with an impressive dock that sports room for a dozen or so boats. You could certainly do worse in choosing a place for a snack and a nap.  
+
+We spent a bit of time scouring the beach for treasures for the kids. The oldest child is collecting both beach glass and agates and we support this mission on our adventure days -- its the least we can do for leaving him behind while we are out exploring. Beach glass is a fairly common on any beach near civilization, it's like finding a stick in the woods. Agates, however, are a true prize. Ignorant of the proper technique for finding the elusive agate (see [www.pnwbeachcombing.com](http://wwww.pnwbeachcombing.com) for helpful hints), I relied on the tried and true method of letting my gut decide. Doing so conjures the gambler's tickle. That atavistic feeling that you might just know something others don't. That the roulette ball will hit your number this time. That your horse will pull off an upset. That the next pan will hold the gold nugget. That your lottery numbers will come up. Rationally, you know better, but that pang of superstition can be hard to suppress.  It can be a bit liberating, too, to let the subjective and the spontaneous crowd into our, often, objective and planned lives if only for a respite.  Am I waxing too poetic about rocks? Yes, most certainly. This aside, our agate collection grew by two.         
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
+
+#### 42) [Cutts Island](https://parks.state.wa.us/494/Cutts-Island): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_cuttsisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Cutts Island'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Early on a Friday morning we found ourselves back on the shores of Kopachuck Beach.  Things were different this time, though. The tide was out, the crowds were gone, the wind was down, the boat traffic non-existent and, most importantly, we were childless. Intent on making the crossing to Cutts Island we also had our paddleboards. 
+
+<img src="images/waparks_cuttsisland.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+A bit winded from pumping up the boards -- the rechargable air pump was not up to the task -- we set off for the 0.8 mile crossing.  Twenty minutes later we beached on the eastern shore of Cutts.  Though careful to maintain much more than the recommended distance, our presence spooked the basking seals and they made for a circuitous trip around us. We felt their eyes, possibly sizing us up for a sneak attack.  Or at the very least pulling our boards back into the water just to see some humans scramble and flail as they attempted to locomote their land-lubbing bodies through the cold water of the Sound. Happy to report our fears were unfounded. 
+
+After a quick trip around the island and out to the exposed tombolo (formerly of the seal's domain) we climbed up to the elevated plateau at the center of Cutts Island.  Hoping for a pristine-ish natural environ like that which greets visitors on McMicken, we found reality a let down.  English Ivy (hedera helix) had taken over most of the ground and the lower portion of the trees. In more exposed areas there was poison oak (toxicodendron diversilobum).  Discarded toilet paper and empty alcohol containers filled in other hollows.  Judging by the quality of drink, i'd venture Cutts is a not-so-secret rendevous point for high schoolers (homo adolescenza) out on their parents' boats.  The cliff face, the tombolo, the hanging madronas (arbutus menziesii), Cutts is endowed with amble natural wonders; proximity to civilization and lack of maintenance do leave the state of the park underwhelming.  A day or two of a work crew could have it in tip-top shape...and, yes, we would gladly volunteer for this mission.  
+
+
+
+
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 41) [McMicken Island](https://parks.state.wa.us/545/McMicken-Island): 
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_mcmickenisland.png" %>%
@@ -157,13 +271,16 @@ We had crossed from one island to another via a secret, underwater path: We were
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 40) [Jarrell Cove](https://parks.state.wa.us/523/Jarrell-Cove): 
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_jarrellcove.png" %>%
@@ -189,13 +306,16 @@ Both park docks were busy. One with boaters trading stories, the other with a do
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 39) [Twanoh](https://parks.state.wa.us/294/Twanoh): 
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_twanoh.png" %>%
@@ -221,13 +341,16 @@ We didn't stay long -- we had upcoming adventures planned and a tight timeline -
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 38) [Belfair](https://parks.state.wa.us/475/Belfair): 
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_belfair.png" %>%
@@ -252,13 +375,16 @@ After creeping on the campers, we took a quick tour of the beach. Mud flats, rea
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 37) [Kopachuck](https://parks.state.wa.us/530/Kopachuck): 
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_kopachuck.png" %>%
@@ -284,13 +410,16 @@ Lunch, a brief swim and back to the car in time for naps on the ride home.  We m
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 36) [Manchester](https://parks.state.wa.us/542/Manchester):
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_manchester.png" %>%
@@ -316,6 +445,9 @@ Zone coverage on the two children wasn't working well, so we split up for a man-
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 35) [Illahee](https://parks.state.wa.us/520/Illahee): 
 
@@ -323,7 +455,7 @@ Zone coverage on the two children wasn't working well, so we split up for a man-
 &nbsp;
 
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_illahee.png" %>%
@@ -350,13 +482,16 @@ By 9am it was evident it was going to be a great day for the beach. Blue sky, sl
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 34) [Clark Island](https://parks.state.wa.us/488/Clark-Island): 
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_clarkisland.png" %>%
@@ -382,13 +517,16 @@ We don't currently own a boat. This week's island trips have been courtesy of ou
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 33) [Posey Island](https://parks.state.wa.us/567/Posey-Island): 
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_poseyisland.png" %>%
@@ -410,17 +548,18 @@ We convinced the captain to pull in as close as he felt comfortable -- its surro
 
 Our stay on the island was measurable in seconds.  Our friends both were keeping the boat off the rocks and watching our two kids. The least we could do was hustle along.  A (natural) toilet break and a few photos later and we were off.  Back onto the paddleboard designed for one and up into the boat.  Off to Roche, the Monaco of the San Juan's.  A former lime kiln mill turned playground for the rich and others fortunate enough to be on a watercraft, powered or otherwise. 
 
-
 &nbsp;
 &nbsp;
+&nbsp;
 
+---------------------------------------------------------------------------------------------------
 
 #### 32) [Stuart Island](https://parks.state.wa.us/593/Stuart-Island): 
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_stuartisland.png" %>%
@@ -444,14 +583,16 @@ From the dock, we hiked up and over a ridge, along a cliff and down to a sand/ro
 
 &nbsp;
 &nbsp;
+&nbsp;
 
+---------------------------------------------------------------------------------------------------
 
 #### 31) [Moran](https://parks.state.wa.us/547/Moran): 
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_moran.png" %>%
@@ -473,16 +614,18 @@ An early arrival provided us with full control of the beach at the roped off swi
 
 Erin and I managed to slip in nice paddleboard trips across the lake to the wooden bridge and the small lagoon beyond.  The cross wind proved formidable, but neither of us dumped in the water.  Hopefully that was enough exercise to justify ice cream and whisky later in the day.  
 
+&nbsp;
+&nbsp;
+&nbsp;
 
-&nbsp;
-&nbsp;
+---------------------------------------------------------------------------------------------------
 
 #### 30) [Sucia Island](https://parks.state.wa.us/594/Sucia-Island): 
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_suciaisland.png" %>%
@@ -506,6 +649,9 @@ The beaches are ideal.  Very shallow slope with all manner of shells, sticks and
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 29) [Obstruction Pass](https://parks.state.wa.us/553/Obstruction-Pass): 
 
@@ -513,7 +659,7 @@ The beaches are ideal.  Very shallow slope with all manner of shells, sticks and
 &nbsp;
 
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_obstructionpass.png" %>%
@@ -539,6 +685,9 @@ Arriving straight from the ferry landing, we unloaded and packed up for a short 
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 28) [Blake Island](https://www.parks.state.wa.us/476/Blake-Island)
 
@@ -546,7 +695,7 @@ Arriving straight from the ferry landing, we unloaded and packed up for a short 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_blakeisland.png" %>%
@@ -574,6 +723,9 @@ Donning our masks and backpacks, we unloaded the kids, unloosed their life-jacke
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 27) [Blind Island](https://www.parks.state.wa.us/477/Blind-Island)
 
@@ -582,7 +734,7 @@ Donning our masks and backpacks, we unloaded the kids, unloosed their life-jacke
 &nbsp;
 
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_blindisland.png" %>%
@@ -608,6 +760,9 @@ Our trip from Jones and our eventual 'stop' here showed us the short-comings of 
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 26) [Jones Island](https://parks.state.wa.us/525/Jones-Island)
 
@@ -616,7 +771,7 @@ Our trip from Jones and our eventual 'stop' here showed us the short-comings of 
 &nbsp;
 
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_jonesisland.png" %>%
@@ -642,13 +797,16 @@ There are some truly magnificent trees tucked into the valley in the middle of t
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 #### 25) [Turn Island](https://www.parks.state.wa.us/295/Turn-Island)
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_turnisland.png" %>%
@@ -676,13 +834,17 @@ On our last leg of the hike, we scared up two raccoons who appeared to have been
 
 &nbsp;
 &nbsp;
+&nbsp;
 
-#### 24) [Tolmie](https://parks.state.wa.us/297/Tolmie):
+---------------------------------------------------------------------------------------------------
+
+
+#### 24) [Tolmie](https://parks.state.wa.us/297/Tolmie)
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_tolmie.png" %>%
@@ -708,6 +870,9 @@ We stayed long enough for a snack and a brief hunt for sea glass.  The tide was 
 
 &nbsp;
 &nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
 
 
 #### 23) [Millersylvania](https://parks.state.wa.us/546/Millersylvania): 
@@ -715,7 +880,7 @@ We stayed long enough for a snack and a brief hunt for sea glass.  The tide was 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_millersylvania.png" %>%
@@ -728,6 +893,7 @@ gridExtra::grid.arrange(rasterGrob(img),
                         nrow = 1,
                         as.table = TRUE)
 ```
+
 &nbsp;
 
 The lake was glass; still, reflecting the gray fog that hovered just feet above, cold and silent.  This was our first post-COVID outbreak park and the mood was appropriate, scripted almost.  A bufflehead diving for a meal broke the silence.  It wasn't reverie -- positive and comforting -- nor was it necessarily worry, just a sustained sense of uncertainty that percolates through all discussions, planning and thought recently.    
@@ -739,14 +905,17 @@ Over the creek and through the mud, to the old growth forest we went.  Some trul
 Back at the car, the little one needed a drink, so Everett and I spent some time exploring the empty park buildings -- including a beer garden near the beach -- and practicing the time-honored art of nature peeing.  Suffice it to say, that at 9:30am on a cold March day we were among the few visitors in the entire park and the only ones at the beach.  
  
 &nbsp;
+&nbsp;
+&nbsp;
 
+---------------------------------------------------------------------------------------------------
 
 #### 22) [Lake Easton](https://parks.state.wa.us/532/Lake-Easton): 
 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_lakeeaston.png" %>%
@@ -770,53 +939,75 @@ Just up the road, Lake Easton park offered more moderate options. In fact, the b
 The smaller one got to roll around in the snow tucked into his hand-me down snowmobile suit.  Lake Easton looks like a great summer park, its probably nice for active adventurers in the winter too.  I have little else to say about it.  
 
 &nbsp;
+&nbsp;
+&nbsp;
 
 ---------------------------------------------------------------------------------------------------
 
 #### 21) [Gingko Petrified Forest](https://parks.state.wa.us/288/Ginkgo-Petrified-Forest): 
 
+
+&nbsp;
 &nbsp;
 
-* 2020-02-21
-* 46.9545989 -119.99107 | [Map](https://www.google.com/maps/place/Ginkgo+Petrified+Forest+State+Park/@46.9545989,-119.9901763,17z/data=!3m1!4b1!4m5!3m4!1s0x5499a33a238f7d1d:0x39f9544f865548ab!8m2!3d46.9545989!4d-119.9879823)
-* 42 Degrees, Sunny
-* Miles Traveled: 121.2
-* Miles Hiked: 0.9
-* Sighted: A T.Rex and Pterydactyl 
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
+img <-
+  "images/map_ginkgo.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Ginkgo Petrified Forest'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 &nbsp;
 
 Only an hour from the drenched western slopes of the Cascades, Gingko Petrified Forest and all of the Columbia Basin hereabouts, could hardly be more different. Brown everywhere.  The rocks, the grasses, the dirt.  Broken only by the black ribbon of highway and the steel gray Columbia rolling on slowly through this dry and desolate land.  
 
-<img src="images/waparks_gingko.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+<img src="images/waparks_ginkgo.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 Late morning on a Friday in February, we were the only visitors.  Perhaps in busier months the Gem Shop just outside the park would poach a few tourist -- if for nothing other than photos with its large, dinosaurs monuments -- but its lot too was barren.  Failing to properly explain to a three-year old how a tree became a rock but still looked like a tree, we ditched the geology for geography and went for a hike down to the water.  The small beach area, a rock pile, really, was once home to both a ferry landing and the original bridge over the Columbia.  Today's river is wide and slow and shallow, thanks to the Wanapum Dam. In earlier days the bridge was shorter but the ferry ride probably riskier due to the current.  We threw rocks and scouted out the new campground along its banks.  
 
-
+&nbsp;
+&nbsp;
 &nbsp;
 
 ---------------------------------------------------------------------------------------------------
 
 #### 20) [Olmstead Place Historical](https://parks.state.wa.us/556/Olmstead-Place): 
 
+
+&nbsp;
 &nbsp;
 
-* 2020-02-20
-* 46.9741714 -120-486091 | [Map](https://www.google.com/maps/place/Olmstead+Place+Historical+State+Park/@46.9741714,-120.4860913,13z/data=!4m5!3m4!1s0x5499f2860b99c12b:0xd0b0e0ca9b2ddf5d!8m2!3d46.9760067!4d-120.4718256)
-* 44 Degrees, Sunny
-* Miles Traveled: 78.0
-* Sighted: 
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
+img <-
+  "images/map_olmsteadplace.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Olmstead Place'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 &nbsp;
 
 The working farm country surrounding Olmstead do not provide a building sense of grandeur or majesty upon nearing the park.  Were it not for the signage, you'd never know it was there.  On a cold but clear Thursday afternoon in February, we were the only visitors, save some salesman using the parking lot to take phone calls and aggressively vape.  The park was not ready for us, being locked up and fully winterized.  
 
-<img src="images/waparks_olmstead.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+<img src="images/waparks_olmstead.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 After a call on nature, we made for a quick tour of the old buildings and farm machinery. It may not have been the most exciting park to date, but it was the most dangerous.  A storm had blown many wooden shakes off the roofs of the old building, some of which landed face down with sharp and rusty nails facing straight up. A farm is always in need of repair. 
 
 The stop was saved by the discovery of the small creek, now rushing and bubbling from the week's rains.  A short 'fishing' session left the eldest child with one wet shoe, muddy pants and inches away from a trip down the creek. The younger one tried to eat a stick and then nearly poked out my eye.  We left shortly thereafter, miraculously intact.    
 
+&nbsp;
+&nbsp;
 &nbsp;
 
 ---------------------------------------------------------------------------------------------------
@@ -824,24 +1015,33 @@ The stop was saved by the discovery of the small creek, now rushing and bubbling
 #### 19) [Iron Horse/Palouse to Cascades Trail](https://parks.state.wa.us/521/Palouse-to-Cascades): 
 
 &nbsp;
+&nbsp;
 
-* 2020-02-16
-* 47.402313 -121.791994 | [Map](https://www.google.com/maps/place/Cedar+River+Watershed+Education+Center/@47.420313,-121.7919947,13z/data=!4m22!1m16!4m15!1m6!1m2!1s0x549080e0ec1b142b:0x6be9b1ffca457387!2sSouth+Fork+Picnic+Area,+51350+SE+Homestead+Valley+Rd,+North+Bend,+WA+98045!2m2!1d-121.6560687!2d47.435814!1m6!1m2!1s0x5490879ab88776c9:0x1118025648833347!2sCedar+River+Watershed+Education+Center,+Cedar+Falls+Road+Southeast,+North+Bend,+WA!2m2!1d-121.7739395!2d47.4271776!3e0!3m4!1s0x5490879ab88776c9:0x1118025648833347!8m2!3d47.4271776!4d-121.7739395)
-* 42 Degrees, Partly Sunny
-* Miles Traveled: 9.8
-* Miles Hiked: 0.2
-* Sighted: Foundation of an old train repair tool shed
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
+img <-
+  "images/map_palousetocascades.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Palouse to Cascades'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 &nbsp;
 
 Recently, the Iron Horse Trail State Park was renamed to the Palouse to Cascades Trail State Park.  Not all of the sign, websites and our quest check-off banner got the message. The two are used interchangeably on local road signs and both appear on our banner.  Thus, we are double counting this visit, if only to keep to the original 136 count of parks.  [Note: the double naming appears to hold through much of Kittitas County as well].
 
-<img src="images/waparks_ironhorse.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+<img src="images/waparks_ironhorse.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 Planning to access the park from the Rattlesnake Lake/Ledge area had us worried as the parking lots can be a downright Zoo on the weekends.  However, the heavy rain had closed Rattlesnake Ledge hike and the crowds were minimal. We opted to visit the very end of the trail, the last 0.1 miles from the far parking lot of the Cedar River Watershed Education Center to the building itself.  It isn't clear if this is actually even part of the park.  But it was an old rail bed and a trail and we were hiking it so we're going to count it -- twice, in fact -- for our parks quest.   
 
-The Cedar River Watershed Education Center (CRWEC?) is surprisingly worthwhile visit.  We came for the outdoor water drums and the toilets, we learned a good deal about the local watershed and the history of the valley. There are toys for the kids and 3-D relief maps for adult-sized geography nerds like me.  I'm not certain that a museum-type visit is in the spirit of a trail-focused State Park, but we'll undoubtedly have to cut some corner to get to 136; I see this as a minor cheat, if at all. 
+The Cedar River Watershed Education Center (CRWEC?) is surprisingly worthwhile visit.  We came for the outdoor water drums and the toilets, we learned a good deal about the local watershed and the history of the valley. There are toys for the kids and 3-D relief maps for adult-sized geography nerds like me.  I'm not certain that a museum-type visit is in the spirit of a trail-focused State Park, but we'll undoubtedly have to cut some corner to get to 139; I see this as a minor cheat, if at all. 
 
+&nbsp;
+&nbsp;
 &nbsp;
 
 ---------------------------------------------------------------------------------------------------
@@ -849,24 +1049,34 @@ The Cedar River Watershed Education Center (CRWEC?) is surprisingly worthwhile v
 #### 18) [Olallie](https://parks.state.wa.us/555/Olallie): 
 
 &nbsp;
+&nbsp;
 
-* 2020-02-16
-* 47.4369661 -121.6785458 | [Map](https://www.google.com/maps/place/South+Fork+Picnic+Area/@47.4369661,-121.6785458,14z/data=!4m12!1m6!3m5!1s0x549080e1200a6c43:0x3a6a36c5a37f351b!2sOlallie+State+Park!8m2!3d47.4359465!4d-121.7107269!3m4!1s0x549080e0ec1b142b:0x6be9b1ffca457387!8m2!3d47.435814!4d-121.6560692)
-* 38 Degrees, Partly Sunny
-* Miles Traveled: 45.6
-* Miles Hiked: 0.9
-* Sighted: A nurse stump with four children
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
+img <-
+  "images/map_olallie.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Olallie'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 &nbsp;
 
 We've likely driven by Olallie State Park hundreds of times on our way to and from Snoqualmie Pass and other destinations in and across the Cascades.  On our hikes of Mt. Washington, we've use the parking lot as well.  But never had we ventured into the park proper.  
 
-<img src="images/waparks_olallie.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+<img src="images/waparks_olallie.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
 
 It was bound to happen. We had forgotten our Discover Pass.  Olallie doesn't have an electronic pay station and the paper passes were soaked and illegible from last night's rain.  Though the rangers were parked mere tens of yards away, we rolled the dice and simply left a small note in the window describing our lack of preparedness.  Perhaps the sight of two car seats, a pram in the back and a scattering of empty apple sauces pouches and half-eaten Goldfish would suffice in supporting our story of the forgotten pass.  A high crime for sure, but a risk we had to take.  
 
 The presence and proportion of old growth along the short Weeks Falls trail is a pleasant surprise. There are some truly spectacular Western Red Cedars and Hemlocks within line of sight from the freeway. It is amazing that so many survived the logger's ax despite being located alongside the old wooden road leading from the pass down to the coast.  We had a small snack at down by the rushing river and hustled back to the car...we were parked, illegally, after all. 
 
+&nbsp;
+&nbsp;
 &nbsp;
 
 ---------------------------------------------------------------------------------------------------
@@ -874,24 +1084,33 @@ The presence and proportion of old growth along the short Weeks Falls trail is a
 #### 17) [Joseph Whidbey](https://parks.state.wa.us/526/Joseph-Whidbey): 
 
 &nbsp;
+&nbsp;
 
-* 2020-02-08
-* 48.3088922 -122.721877 | [Map](https://www.google.com/maps/place/Joseph+Whidbey+State+Park/@48.3088922,-122.7218774,2749m/data=!3m1!1e3!4m5!3m4!1s0x548f89980bc4a3d3:0xe4e9cc5e55946f7d!8m2!3d48.3088922!4d-122.7131173)
-* 46 Degrees, Partly Sunny
-* Miles Traveled: 83.3
-* Miles Hiked: 0.1
-* Sighted: Young political activist (or maybe a brainwashed child)
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
+img <-
+  "images/map_josephwhidbey.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Joseph Whidbey'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 &nbsp;
 
 Joseph Whidbey did well by attaching his name to the fourth-largest island in the contiguous United States. Not as well as his shipmate Peter Puget or their captain George Vancouver, but well in his own right. Of the four state parks, however, the eponymous Joseph Whidbey is not the island's crown jewel, overshadowed as it is by the vistas and variety of landscape forms of its southern counterparts.  
 
-<img src="images/waparks_josephwhidbey.jpg" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+<img src="images/waparks_josephwhidbey.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 Or, perhaps, being the last park of the day for us, we'd given it short shrift. We were running up against our deadline for returning home so we had intended an in-and-out here; a visit for the sake of crossing it off the list. Weary travelers -- childless and a bit free-er than usual -- but still tired in that eternal, parents-of-young-children sort of way.  
 
 There was a delay getting into the park.  The main lot was full (6 spaces), but we grabbed the last remaining spot at the auxiliary lot up the hill (3 spaces).  Both other cars were empty but running. A line formed at the toilet.  Others were intending to use this park for its bathroom facility and move on, much as we were.  I jogged down a side trail, found a prime location overlooking the flooded picnic area and made a call on Mother Nature as the former inhabitants -- The Lower Skagit, Swinomish, Suquamish, Snohomish - did...long before Joseph (and Peter and George) sailed the Salish Sea. On the road again.
 
+&nbsp;
+&nbsp;
 &nbsp;
 
 ---------------------------------------------------------------------------------------------------
@@ -899,65 +1118,99 @@ There was a delay getting into the park.  The main lot was full (6 spaces), but 
 #### 16) [Fort Ebey](https://parks.state.wa.us/507/Fort-Ebey): 
 
 &nbsp;
+&nbsp;
 
-* 2020-02-08
-* 48.21862 -122.7720772 | [Map](https://www.google.com/maps/place/Fort+Ebey+State+Park/@48.21862,-122.7720722,5507m/data=!3m1!1e3!4m5!3m4!1s0x548f8cfbedef4775:0x5ed9970ca81038f9!8m2!3d48.21862!4d-122.7545574)
-* 47 Degrees, Partly Sunny, Windy
-* Miles Traveled: 9.4
-* Miles Hiked: 3.6
-* Sighted: Bald eagles, multiple
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_fortebey.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Fort Ebey'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
 En route to Fort Ebey, we made a stop at Ebey's Landing. So had much of the rest of Whidbey's active population.  Or at least it felt that way due to the small parking lot and busy trailhead.  The history of the site is interesting, but we had come for the hike. True, it wasn't officially part of Fort Ebey State Park, but this is a technicality due to jurisdictional alignments and governmental funding that I'll overlook in this entry.  
 
-<img src="images/waparks_fortebey.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+<img src="images/waparks_fortebey.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 The Bluff Trail provides a 3.5-mile loop hike full of views and rugged shoreline. It isn't hard -- 260 ft elevation gain -- but the upper side offers the prospect of rolling down the long incline into the lagoon and the beach hike is uneven and soft, making for slow headway.  Ah yes, but it is rewarding.  A number of eagles soared overhead, fishing and hunting in the grass and water below.  The surf and tide were up, providing that calming marine sound of rocks washing over rocks with each retreating wave.  
 
 After the hike, we eventually made our way to Fort Ebey.  Much larger in size, the main attraction for day visitors are the battlements.  Having our fill of military history, we didn't linger long. It looks like a great place to camp in the summer, perhaps we'll return. 
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 ---------------------------------------------------------------------------------------------------
 
 #### 15) [Fort Casey](https://parks.state.wa.us/505/Fort-Casey): 
 
 &nbsp;
+&nbsp;
 
-* 2020-02-08
-* 48.1644391 -122.6862763 | [Map](https://www.google.com/maps/place/Fort+Casey,+WA+98239/@48.1644391,-122.6862763,2756m/data=!3m2!1e3!4b1!4m5!3m4!1s0x548ff3a9b21360cd:0xf81bd6c05f3aed85!8m2!3d48.16444!4d-122.6775)
-* 46 Degrees, Partly Sunny, Windy
-* Miles Traveled: 13.3
-* Miles Hiked: 0.5
-* Sighted: Lebowski flying a kite
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_fortcasey.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Fort Casey'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
+
 Together with Fort Worden and Fort Flagler, Fort Casey provided protection for the Puget Sound during the first half of the twenty century.  Its large battery was never used, save testing.  Where Fort Worden is grown over and end-of-world looking, Fort Casey has been kept cleared and even repainted (partially) recently.  It goes without saying that it is a wonderful thing these fortifications were never used; the glorious side effect of our war preparations are the amazing open spaces and parks that we now have. Without these former bases, this land -- strategically located with amazing water views -- would no doubt be privately held, inaccessible and less environmentally managed.  Silver linings.  
 
-<img src="images/waparks_fortcasey.png" style="width:24%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+<img src="images/waparks_fortcasey.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 The wind blew hard from the north, creating ideal kite-flying conditions on the open field behind the battlements.  Young kids reveling in their, mostly, failed attempts to keep kites in the air.  And one old dude.  Quite nearly, the Dude, Jeffrey Lebowski himself. Clad in short and sandals, he had not only the look of 1990's Jeff Bridges but the mien as well.  "Kids be damned, I'm going to monopolize the center of this field with my two-handed, custom-built kite/parachute."  His challenge was not keeping it airborne, but rather in ensuring his flowing locks and manicured beard didn't become entangled in the lines.  Sheer joy on his face.  It takes it all kinds.
 
 Erin is a lighthouse fanatic and was disappointed to find Fort Casey's covered in scaffolding and closed for the season.  We explored the battlements for a bit, thankfully we hadn't spent days in the ammunition loading room with 20 tons of explosives and a handful of other sweaty 19-year-old men.  It puts your own workplace complaints into perspective very quickly. 
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 ---------------------------------------------------------------------------------------------------
 
 #### 14) [South Whidbey](https://parks.state.wa.us/585/South-Whidbey): 
 
 &nbsp;
+&nbsp;
 
-* 2020-02-08
-* 48.0565374 -122.600047 | [Map](https://www.google.com/maps/place/South+Whidbey+State+Park/@48.0565374,-122.6000457,15z/data=!4m5!3m4!1s0x548ffa9f8345fe79:0x93b349f555db857d!8m2!3d48.0565374!4d-122.5912856)
-* 42 Degrees, Overcast
-* Miles Traveled: 36.8 (Vehicle), 2.8 (Ferry)
-* Miles Hiked: .6
-* Sighted: The Langley Arcade
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_southwhidbey.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'South Whidbey'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
+
 Freedom! Erin's parents had the children for the day and we had a plan to explore Whidbey Island and check four state parks off our list. The weather was standard February in the NW: mid 40s, cloudy with rain about. An improvement from the drenching week we had, but a chilly day, nonetheless. A drive to Mukilteo, a ferry to Clinton, a pit stop in Langley for breakfast and to the first park,  South Whidbey before 9:30am.  
 
-<img src="images/waparks_southwhidbey.jpg" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+<img src="images/waparks_southwhidbey.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 We were joined in the parking lot by a sports utility van. A modified living arrangement/carrier of all manner of outdoor equipment including mountain bike, paddle board, skis and a Thule rack bursting at the seems.  Its tri-tone exterior was covered in National Park stickers and other advertisements of the adventurous nature of its owner(s).  Here was a true traveler.  It turned out to be a young guy and his dog.  The SUVan their home for some time.  If I sound a bit critical it is only out of jealously.  We, feeling young and carefree, were immediately reminded of the relativity of our fleeting freedom.  But then again, we had done this too in days gone by, sort of, at least.  Nostalgia replaced jealousy and we headed down the trail for a short hike. 
 
@@ -965,193 +1218,273 @@ The mud and our big plans for the day cut this hike short.  That and the fact th
 
 Actually, we didn't do that...but the thought crossed my mind.  
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 ---------------------------------------------------------------------------------------------------
 
 #### 13) [Federation Forest](https://parks.state.wa.us/502/Federation-Forest): 
 
 &nbsp;
+&nbsp;
 
-* 2020-01-26
-* 47.15636 -121.72045 | [Map](https://www.google.com/maps/place/Federation+Forest+State+Park/@47.1563655,-121.7204524,5302m/data=!3m1!1e3!4m12!1m6!3m5!1s0x549095b29a66fa6b:0x640dc1997f601ccf!2sFederation+Forest+State+Park!8m2!3d47.154582!4d-121.7057429!3m4!1s0x549095b29a66fa6b:0x640dc1997f601ccf!8m2!3d47.154582!4d-121.7057429)
-* 44 Degrees, Overcast
-* Miles Traveled: 83.3
-* Miles Hiked: 1.1
-* Sighted: 18ft Tall Alanis Morisette (White River Amphitheater Billboard)
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_federationforest.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Federation Forest'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
 To the mountains for our final stop of this four-park day. Traffic was moderate, with a steady stream of late risers making their way to Crystal Mountain for the day. The Federation Forest Interpretive Center and main parking lot were closed. We continued on to the mud pit/pull off area at the far eastern end of the park.  
 
-<img src="images/waparks_federationforest.jpeg" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+<img src="images/waparks_federationforest.jpeg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 Just a short walk takes you back into the old growth forest, multiple hundreds of years back, actually.  Saved from the logger's saw by the General Federation of Women's Clubs in the early 20th century, it not pristine in the way that the Redwoods are, but inspiring nonetheless. 
 
 The spongy flood plain maintained a hint of the week's earlier snowfall. Cold, but we were now far enough from the sea to have lost some of that damp chill.  Our progeny were generally unimpressed by the massive trees.  One had milk on his mind, the other just wanted to throw rocks in the water.  In the end, they both won out and our hike was cut short. So great that a few of these trees still exist; so sad also.     
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 ---------------------------------------------------------------------------------------------------
 
 #### 12) [Nolte](https://parks.state.wa.us/552/Nolte): 
 
 &nbsp;
+&nbsp;
 
-* 2020-01-26
-* 47.27132 -121.94334 | [Map](https://www.google.com/maps/place/Nolte+State+Park/@47.2713218,-121.9433434,661m/data=!3m2!1e3!4b1!4m5!3m4!1s0x5490f33408f8c0d5:0x4b1cfe63b455ee83!8m2!3d47.2713182!4d-121.9411494)
-* 46 Degrees, Sunny 
-* Miles Traveled: 3.9 
-* A car on a trailer in the ditch
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_nolte.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Nolte'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
 This was a check off stop.  Or at least intended to be so. The sun peaked through the clouds and the small depression in which the lake resides kept the wind at bay.  
 
-<img src="images/waparks_nolte.jpg" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+<img src="images/waparks_nolte.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 A number of young families crowded the beach, children working on the perfect cast with their Mickey/Minnie Mouse fishing poles. Ever the observer, Everett was content just watching the young anglers.  Hawkins, wrapped in his size-much-too-large full body fur suit just wanted to move about. So I set him on the picnic table and let him clamber around a bit.  It is possible he was mistaken for a small blue dog.  It is hard to say. Most adults at the park were too busy dodging errant hooks and replacing missing worms to be bothered with our machinations.  
 
 Its a nice park.  The grounds are well kept, the facilities aged in that underfunded, heavily-used way. The information on bulletin board; relevant but out of date. The fish were not biting, though perhaps anglers of higher skill may have had luck. I had never been this way before and likely never will again, but its a nice park...more than we had expected.      
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 ---------------------------------------------------------------------------------------------------
 
 #### 11) [Kanaskat-Palmer](https://parks.state.wa.us/527/Kanaskat-Palmer): 
 
 &nbsp;
+&nbsp;
 
-* 2020-01-26
-* 47.31945 -121.916707 | [Map](https://www.google.com/maps/place/Kanaskat-Palmer+State+Park/@47.3194501,-121.916707,1321m/data=!3m1!1e3!4m5!3m4!1s0x54908b8602006851:0xc84bc44bd398a0c6!8m2!3d47.3194465!4d-121.9123243)
-* 44 Degrees, Overcast
-* Miles Traveled: 13.7
-* Sighted: A cyclist with a flat tire
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_kanaskat-palmer.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Kanaskat-Palmer'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
 Only a few miles of river separate Kanasket-Palmer and Flaming Geyser Parks.  But is a wild, cliff-lined river, not exactly amenable to road building.  Thus, driving from one to the other is a 20 minute, sinuous affair.  
 
-<img src="images/waparks_kanaskatpalmer.jpg" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+<img src="images/waparks_kanaskatpalmer.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 Thought it wasn't much warmer, it was snack time so we settled down into a small 'beach' area near the river to eat. A mud flat, really. The river was mad with January rain, rushing over the exposed rocks and almost over the far bank.  Nearly as mad as the two kayakers who came hurling down it minutes later.  It looked like a wild ride, but they navigated the rapids with ease and were quickly on their way.  
 
 As with our earlier stop, we pretty much had the park to ourselves.  In the city, dog-walkers keep parks busy from sun-up to sunset.  Out here, the parks serve a different purpose and campers are thin this time of year.  The collection of empty spaces that are equipped for crowds -- shelter, picnic tables, toilets and parking lots -- gives an end of the world type feeling. The steel gray sky aiding the aura of doom.  
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 ---------------------------------------------------------------------------------------------------
 
 #### 10) [Flaming Geyser](https://parks.state.wa.us/504/Flaming-Geyser): 
 
 &nbsp;
+&nbsp;
 
-* 2020-01-26
-* 47.2771344 -122.0304191 | [Map](https://www.google.com/maps/place/Flaming+Geyser+Park/@47.2771344,-122.0304191,2645m/data=!3m1!1e3!4m5!3m4!1s0x5490f47960f51c0f:0xc5d5b56102d37798!8m2!3d47.2771308!4d-122.021659)
-* 42 Degrees, Partly Sunny, Damp
-* Miles Traveled: 47.0
-* Sighted: Morning sunrise over the Cascades
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_flaminggeyser.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Flaming Geyser'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
-<img src="images/waparks_flaminggeyser.jpg" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="left">
+<img src="images/waparks_flaminggeyser.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 After a crooked route into the Green River Gorge, we crossed a very modern bridge and followed the main route to park next to a not-so modern building.  Fire was once the main draw, but that flame had slowly weakened to nothing over the years.  Water was now the attraction.  Access to the Green River, to be exact.  It had rained heavily the night before so the ground was laden, the small creek and the river itself flowing fast.  Water in the air too.  That damp Northwest cold that no jacket or wind-break can possibly shield you from.  It cuts right to the bone.  I grew up in Wisconsin and I'd gladly take a 20 degree sunny day there over the damp, low-40s chill we get here. 
 
 Geyser is a misnomer.  It is pipe drilled 1,300 feet into the ground originally intended to prospect for coal.  They found a methane seam, lit it aflame and it burned for decades. Once many feet high, then many inches, now not at all.  The park has been re-purposed from spectacle to recreational and it is much better for it. We peered at the faded hydrocarbon darling, caught a feint whiff of methane from down deep and hustled back to the car.  We had more parks to see.    
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 ---------------------------------------------------------------------------------------------------
 
 #### 9) [Squak Mountain](https://parks.state.wa.us/588/Squak-Mountain): 
 
 &nbsp;
+&nbsp;
 
-* 2020-01-25
-* 47.4880319 -122.0646835 | [Map](https://www.google.com/maps/place/Squak+Mountain+State+Park+Natural+Area/@47.4880319,-122.0646835,14z/data=!4m13!1m7!3m6!1s0x549065c8e92192cd:0xfbbebf03b6a6292f!2sSquak+Mountain!3b1!8m2!3d47.496389!4d-122.038333!3m4!1s0x549065e830de6639:0x2fc8d6788f82e4bf!8m2!3d47.5010181!4d-122.0469528)
-* 46 Degrees, Overcast
-* Miles Traveled: 58.4
-* Miles Hiked: 2.0
-* Sighted: A dog driving a Subaru
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_squakmountain.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Squak Mountain'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
-<img src="images/waparks_squakmountain.png" style="width:30%; border:10px solid; margin-left:20px; margin-right: 20px" align="right">
+<img src="images/waparks_squakmountain.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 Upon arrival our three year old asked: "Where's the beach?". We hadn't realized it until then, but this was our first non-beach park visit on this quest.  It was also our first joint visit, as the Michener-Malcolm family joined us for a hike.  Hike is a generous term.  More like short, slow walk in the woods with small children.  There's a lot of stops, some whining, stick-play, one face-plant in the mud, some snacks, more whining.  We made it multiple miles (2.0) with a few hundred feet of elevation gain all without any major incidents.  A small steps on the long journey to reclaiming our once-defining outdoor lifestyle.  
 
 Back at the parking lot the fun truly began for the younger generation.  Puddles from last night's rain abounded and none were left unexplored. No boots, socks or pants remained dry either.  Toddlers entertaining themselves for 15 minutes is well worth the trouble.  Young families were filing in as we packed up to leave.  A 'hiking with kids' Meetup we were told.  Our timing was impeccable. Two kids on the trail is manageable, two dozen is disaster. 
 
-8 Down, 128 to go.
-
 &nbsp;
 &nbsp;
 &nbsp;
-.
 
 ---------------------------------------------------------------------------------------------------
 
 #### 8) [Camano Island](https://parks.state.wa.us/272/Camano-Island): 
 
 &nbsp;
-
-* 2020-01-20
-* 48.1269829 -122.5150792 | [Map](https://www.google.com/maps/place/Camano+Island+State+Park/@48.1269829,-122.5150792,14z/data=!4m22!1m16!4m15!1m6!1m2!1s0x54857ccbe05a2c55:0xb86f9fd46006f816!2sNorth+Beach,+Washington+98277!2m2!1d-122.6554493!2d48.401491!1m6!1m2!1s0x548ff658f7c04fcb:0x8d3bf4245a6d2380!2sCama+Beach+State+Park,+West+Camano+Drive,+Camano,+WA!2m2!1d-122.5094461!2d48.1451393!3e0!3m4!1s0x548ff7066b43811d:0xa674a90f32f3081c!8m2!3d48.1226059!4d-122.4932456)
-* 49 Degrees, Windy and Overcast
-* Miles Traveled: 66.8
-* Sighted: 1 Refrigerator of Frozen Tea
-
 &nbsp;
 
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_camanoisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Camano Island'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
 A few miles down the road from Cama Beach is Camano Island State Park.  In place of the small cabins and structured sea wall is a wilder coast as the campgrounds and main park buildings are situated upland and away from the water.
 
-<img src="images/waparks_camanoisland.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/waparks_camanoisland.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 The beach here has a more southerly aspect.  Better for sun-bathing on a summer day, but headlong into today's stiff breeze.  49 felt like 29 as the wind-driven waves pounded the shoreline in front of us. The Olympics and the Cascades, both currently snow-covered, are visible from the parking lot as its orientation points you directly down the Puget Sound and gap between the two.  From some vantage points in Western Washington the ranges look distant; from here the Sound looks so very narrow. 
 
 Everett and I found a makeshift driftwood fort which we requisitioned and remodeled into a frontier shell store (and general mercantile).  I was assigned shell collection duty whilst my partner manned the storefront.  Resources were plentiful and soon our shelves were stocked.  Few paying customers, however, on a day like today.  The big win was convincing the store owner to leave behind his goods for the next kid.    
 
-8 Down, 128 to go.
-
 &nbsp;
 &nbsp;
 &nbsp;
-.
 
 ---------------------------------------------------------------------------------------------------
 
 #### 7) [Cama Beach](https://www.parks.state.wa.us/407/Cama-Beach-State-Park): 
 
 &nbsp;
+&nbsp;
 
-* 2020-01-20
-* 48.1452553 -122.5242631 | [Map](https://www.google.com/maps/place/Cama+Beach+%7C+Historical+State+Park/@48.1452553,-122.5242631,14z/data=!4m22!1m16!4m15!1m6!1m2!1s0x54857ccbe05a2c55:0xb86f9fd46006f816!2sNorth+Beach,+Washington+98277!2m2!1d-122.6554493!2d48.401491!1m6!1m2!1s0x548ff658f7c04fcb:0x8d3bf4245a6d2380!2sCama+Beach+State+Park,+West+Camano+Drive,+Camano,+WA!2m2!1d-122.5094461!2d48.1451393!3e0!3m4!1s0x548ff658f7c04fcb:0x8d3bf4245a6d2380!8m2!3d48.1451393!4d-122.5094461)
-* 49 Degrees, Windy and Overcast
-* Miles Traveled: 48.9
-* Sighted: 1 flooded golf course
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_camabeach.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Cama Beach'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
-<img src="images/waparks_camabeach.jpg" style="width:30%; border:10px solid; margin-left: 20px" align="right">
+<img src="images/waparks_camabeach.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 A re-purposed fishing resort from the 1930s, the defining features of Cama Beach are man-made.  The small cabins, wooden boat museum and park support offices sit tightly clustered in a (mostly) automobile-free community right on the beach.  New urbanism meets wilderness outpost meets Airbnb.  Though the buildings had been restored and some modern conveniences added, on this steel gray day it wasn't hard to imagine the resort in full swing during the 1930s.  Shellfish and the day's catch being unloaded and cleaned, wood fires burning, whiskey swilled and spilled.   
 
 Being a holiday weekend, some of the cabins had been inhabited the night before and some life stirred in this little waterfront 'community'.  We found a mostly wind-sheltered location to drop a picnic blanket and lunch. We didn't last long, barely enough to eat before the damp wind drove us back up the hill and to the car.    
 
-7 Down, 129 to go.
-
 &nbsp;
 &nbsp;
 &nbsp;
-.
 
 ---------------------------------------------------------------------------------------------------
 
 #### 6) [Deception Pass](https://parks.state.wa.us/497/Deception-Pass): 
 
 &nbsp;
-
-<img src="images/map_deceptionpass.png" style="width:330px;padding:30px" align="left">
-<img src="images/waparks_deceptionpass.jpg" style="width:300px; margin-right:20px;padding:30px;" align="right">
-
-| Date |  Map Link | Lat | Long | Weather | Traveled |
-| :-----: |:------: | :-------: |:-------: | :-------: |:------: |
-| 2020-01-20 | [Map](https://www.google.com/maps/place/North+Beach/@48.3982467,-122.6658987,15z/data=!4m12!1m6!3m5!1s0x54857caeb43d67b5:0xa32ccd675fe1a55f!2sDeception+Pass+State+Park!8m2!3d48.4073784!4d-122.6445697!3m4!1s0x54857ccbe05a2c55:0xb86f9fd46006f816!8m2!3d48.4014909!4d-122.6554495) | 47.39824 | -122.66589 | 48 / Cloudy | 26.2 (car) / 11.7 (ferry) |
-
 &nbsp;
 
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_deceptionpass.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Deception Pass'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
 Deception Pass is both natural spectacle and monument to human engineering.  Tidal ebbs and flows rush through the narrow channel at upwards of 10 mph -- a marine river; audible and visually striking -- beneath the double span bridge nearly 200 feet above. There's more than just that: salt and freshwater beaches, multiple lakes and miles of hiking trails.  
+
+<img src="images/waparks_deceptionpass.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 I had been here before on a hungover morning back in 2005.  In such a state, walking along the bridge turned out to be a poor idea and I had turned back without completing it. This time two young children presented another reason to pass on the attempt at a pedestrian crossing.  It is a very narrow walkway, separated from speeding traffic on one side by an iron cable and from a 180-foot fall to you death by a 4-foot high railing on the other.  Parents, the feint of heart and the clumsy need not apply.  
 
@@ -1159,29 +1492,35 @@ We had been at the beach for no more than five minutes when the oldest's feet we
 
 The amphitheater had a compass rose stamped in the concrete.  Clever parent that I am, I took the opportunity to explain the cardinal directions to a 3-year old. I was utterly defeated.  'Why is East East?'.  That is a good damn question and one I could not answer.  End of science lesson.  Let's go throw some more stick and other sticks.    
 
-6 Down, 130 to go.
-
 &nbsp;
 &nbsp;
 &nbsp;
-.
 
 ---------------------------------------------------------------------------------------------------
 
 #### 5) [Dash Point](https://parks.state.wa.us/496/Dash-Point): 
 
 &nbsp;
-
-<img src="images/map_dashpoint.png" style="width:330px;padding:30px" align="left">
-<img src="images/waparks_dashpoint.png" style="width:300px; margin-right:20px;padding:30px;" align="right">
-
-| Date |  Map Link | Lat | Long | Weather | Traveled |
-| :-----: |:------: | :-------: |:-------: | :-------: |:------: |
-| 2020-01-05 | [Map](https://www.google.com/maps/place/Dash+Point+State+Park/@47.3183165,-122.4162708,15z/data=!4m5!3m4!1s0x549056c760de0a9b:0xbdd4ce3fd805cb00!8m2!3d47.3183129!4d-122.4075162) | 47.31831 | -122.41627 | 43 / Rainy | 43.0 (car) |
-
 &nbsp;
 
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_dashpoint.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Dash Point'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
 The second park on our first (hopefully of many) multiple park day.  One failed park visit already on the books, we would not be denied here.  It was raining.  So, we geared up and hit the beach.  Temperature, 43 degrees.  We had brought neither the beach toys nor the rugged and waterproof pram.
+
+<img src="images/waparks_dashpoint.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 Fortune shined on us even though the sun would not.  Everett found two discarded sifters on the beach and we were able to fashion our picnic blanket into a make-shift umbrella/tent for Hawkins.  The little one didn’t last long outside, but Everett and I collected, cleaned and piled shells until we were soaked.  
 
@@ -1189,124 +1528,147 @@ The hardest part, often, is just getting out of the car.  Kids have no problem r
 
 Getting ready to leave the parking lot, there were three families preparing to do a polar plunge. Just when you think you’ve gone off and won the day, someone will show up and put you in your place.  Humility, don’t forget the humility.  
 
-5 Down, 131 to go.
-
 &nbsp;
 &nbsp;
 &nbsp;
-.
 
 ---------------------------------------------------------------------------------------------------
 
 #### 4) [Saltwater](https://parks.state.wa.us/578/Saltwater): 
 
 &nbsp;
+ 
+&nbsp;
+&nbsp;
 
-<img src="images/map_saltwater.png" style="width:330px;padding:30px" align="left">
-<img src="images/waparks_saltwater.png" style="width:300px; margin-right:20px;padding:30px;" align="right">
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
-| Date |  Map Link | Lat | Long | Weather | Traveled |
-| :-----: |:------: | :-------: |:-------: | :-------: |:------: |
-| 2020-01-05 |[Map](https://www.google.com/maps/place/Saltwater+State+Park/@47.37446,-122.3237796,16z/data=!4m5!3m4!1s0x54905a392cb3a9df:0x60f0bd43e192b77e!8m2!3d47.3744564!4d-122.3194022) | 47.37446 | -122.32377 | 43 / Rainy | 24.2 (car) |
+img <-
+  "images/map_Saltwater.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Saltwater'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
 The forecast looked grim, the weather delivered, we persevered…at least in terms of intent.  The highlight of the journey was seeing a broken down car-carrier being actively repaired on the side of the road.  
 
+<img src="images/waparks_saltwater.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
 ‘So, too much poop?’.  That was our 3-year-old's summation of our explanation of why Saltwater State Park was closed on our arrival.  The torrential rains earlier in the week had caused sewer overflow runoff to contaminate some of the low-lying areas, thus leading to the park's closure.  Our poor research efforts this morning had failed to uncover these developments.  After reading the full announcement from the park’s website (while parked in front of the locked gate), the response from the back seat was ‘So, too much poop?’
 
 Despite this, our spirits were high and instead of heading home defeated we called an audible and headed south to Dash Point State Park.
 
-4 Down, 132 to go.
-
 &nbsp;
 &nbsp;
 &nbsp;
-.
 
 ---------------------------------------------------------------------------------------------------
 
 #### 3) [Lake Sammamish](https://parks.state.wa.us/533/Lake-Sammamish): 
 
 &nbsp;
-
-<img src="images/map_lakesammamish.png" style="width:330px;padding:30px" align="left">
-<img src="images/waparks_lakesammamish.JPG" style="width:300px; margin-right:20px;padding:30px;" align="right">
-
-| Date |  Map Link | Lat | Long | Weather | Traveled |
-| :-----: |:------: | :-------: |:-------: | :-------: |:------: |
-| 2020-01-04| [Map](https://www.google.com/maps/place/Lake+Sammamish+State+Park/@47.5590578,-122.0650745,15z/data=!4m5!3m4!1s0x54906faf255d9715:0xfc18e427e1f261aa!8m2!3d47.5590542!4d-122.0563198) | 47.55905 | -122.06507 | 41 / Windy | 44.6 (car) |
-
+ 
 &nbsp;
 
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_Lakesammamish.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Lake Sammamish'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
 A front had moved through last night and gone was the balmy 50+ degrees.  In its place a biting wind and threatening clouds.  Still early in our State Parks quest and full of vim, vigor and a general dread of being shut up for the entire day, we decided to have a go at Lake Sammamish State Park. The choice of destination was a hedge, however.  Lake Sammamish Park is (sub)urbanly-located meaning if the weather drove us off, we could still fulfill a number of other errands without much additional travel.  
+
+<img src="images/waparks_lakesammamish.JPG" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 The weather had kept the crowds at bay and the massive parking lot was mostly empty.  The few humans about were walking their dogs.  The main park structure, playground and associated grounds had recently been re-done, a marked change from the standard worn picnic tables and cramped toilets.  The sense of public investment — crisp design, new structures, clean surrounds — was reminiscent of our time in Melbourne.  Our stay at the park was short; in which we took turns speed-walking the stroller around to stay warm.  The big hit was the large plastic spoon that was found and used to fling mud at the resident ducks.  
 
-3 Down, 133 to go.
-
 &nbsp;
 &nbsp;
 &nbsp;
-.
 
 ---------------------------------------------------------------------------------------------------
 
 #### 2) [Saint Edward](https://parks.state.wa.us/577/Saint-Edward): 
-
+ 
+&nbsp;
 &nbsp;
 
-<img src="images/map_saintedward.png" style="width:330px;padding:30px" align="left">
-<img src="images/waparks_saintedward.png" style="width:300px; margin-right:20px;padding:30px;" align="right">
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
-| Date |  Map Link | Lat | Long | Weather | Traveled |
-| :-----: |:------: | :-------: |:-------: | :-------: |:------: |
-| 2020-01-01 | [Map](https://www.google.com/maps/place/Saint+Edward+State+Park/@47.7325728,-122.3969877,11z/data=!4m5!3m4!1s0x5490118ca599d303:0x796ecd98c741f826!8m2!3d47.7325692!4d-122.256912) | 47.7325 | -122.2591 | 44 / P. Sunny | 22.2 (car) / 1.2 (hike) |
+img <-
+  "images/map_saintedward.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Saint Edward'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
 Twenty minutes from our house, Saint Edward is our most quickly and easily accessible state park. The journey was rather uneventful, few people other than parents and, perhaps, athletes-in-training venture out on the roadways at eight-thirty AM on New Years Day.  The park, however, was full. Heaping full of young families like our own.  In addition to the trails and old seminary building there is a massive, Sherwood Forest-themed playground.  Actually, child-castle would be a better description. 
 
+<img src="images/waparks_saintedward.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
 We opted first for a hike to the lake and back.  The Grotto Trail descends quickly to the water, past hanging moss and radial sword ferns, but oddly, not past the Grotto. Though a much promised attraction, we did not back-track to find it. Our 3-year old rated the hike “Bad: too many mud and roots”.  The beach area also lacked enough "sticks for throwing in the water.” His complaints were duly noted and filed with the park ranger.  
 
 Post-hike, we entered the melee at the playground. Time was passed silently judging the disciplining techniques of other parents and taking mental notes of design ideas for the tree house we are building at the in-laws.  In the parking lot we were accused of being Australian — due to our kids being suited in Bonds clothing — by another couple that had also lived in Melbourne a few years back.  We chatted briefly and were on our way home.  Within the bustle of daily life we often forget about our past Australian adventure.  Little coincidences like this bring it front and center and remind us of: 1) How amazing it was; and 2) Why we refuse to let our intrepid fire die.  Smolder as it may during through these years of rearing young children, we shall keep a spark (or two) alive.  
 
-2 Down, 134 to go.
-
 &nbsp;
 &nbsp;
 &nbsp;
-.
 
 ---------------------------------------------------------------------------------------------------
-
-&nbsp;
-&nbsp;
 
 #### 1) [Spencer Spit](https://parks.state.wa.us/687/Spencer-Spit): 
 
 &nbsp;
+&nbsp;
 
-<img src="images/map_spencerspit.png" style="width:330px;padding:30px" align="left">
-<img src="images/waparks_spencerspit.jpg" style="width:300px; margin-right:20px;padding:30px;" align="right">
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
-\vspace{45mm}
+img <-
+  "images/map_spencerspit.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
 
-| Date |  Map Link | Latitude | Longitude | Weather | Traveled |
-| :-----: |:------: | :-------: |:-------: | :-------: |:------: |
-| 2019-12-27 | [Map](https://www.google.com/maps/place/Spencer+Spit+State+Park/@48.536069,-122.861176,12z/data=!4m5!3m4!1s0x0:0xe0620a6877355ad4!8m2!3d48.536678!4d-122.8609479?hl=en) | 48.5360 | -122.8612 | 42 / Cloudy | 14.8 (car) |
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Spencer Spit'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
 
 &nbsp;
 
 We were five days into a six-day stay at the in-laws. Sure, Christmas and some unseasonably good weather had eased the psychological toll of having and/or being guests.  Nonetheless, patience wore thin.  Escape called.  
+
+<img src="images/waparks_spencerspit.jpg" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 The steel gray, bone-chilling damp days had returned.  The eldest child was lured from the house with promises of a beach and eagles and a log cabin and some snacks.  All of these were available, or at least possible, at Spencer Spit — the to-be first stop of our WA Parks Challenge. We had been here many times, in fact, Erin had worked here as a junior park ranger during high school.  It seemed right to take the first step on our home turf.  
 
 The highlight of journey — an eight minute drive — was seeing a white cat perched on a utility box. No tantrums, no detours, no arguments; a solid first step.  
 
 But…the park was closed for the season.  We had stumbled out of the gate.  Or maybe not.  This was our Challenge, we made the rules and the rules became only that we had to get a photo of the entrance sign.  Physical presence within the park boundary is enough to check the box.  It is important to get a thing like this started and important to set expectations.  It certainly won’t be the only time we run into a ‘Park Closed’ sign; now we have precedent.  Case law, if you will.  Plus, we’ll likely be back here many times before we visit all the others.
-
-1 down, 135 to go. 
 
 &nbsp;
 &nbsp;
