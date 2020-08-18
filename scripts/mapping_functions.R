@@ -35,11 +35,17 @@ plotPark <- function(park_code,
                      circle = FALSE,
                      cscale = 2,
                      cpscale = 80,
-                     spin = 1){
+                     spin = 1,
+                     abbr = NULL){
   
-  park_df <- parks_df[which(parks_df$ParkCode == park_code)[1], ]
-  park_sf <- parks_poly_sf[which(parks_poly_sf$ParkCode == park_code)[1], ]
-  
+  if (is.null(abbr)){
+    park_df <- parks_df[which(parks_df$ParkCode == park_code)[1], ]
+    park_sf <- parks_poly_sf[which(parks_poly_sf$ParkCode == park_code)[1], ]
+  } else {
+    park_df <- parks_df[which(parks_df$Abbrv == abbr), ]
+    park_sf <- parks_poly_sf[which(parks_poly_sf$Abbr == abbr), ]
+  }
+    
   bbox <- c(left = park_df$Longitude - scale,
             bottom = park_df$Latitude - scale/lscale,
             right = park_df$Longitude + scale,

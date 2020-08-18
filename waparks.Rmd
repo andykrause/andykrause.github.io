@@ -128,9 +128,44 @@ There are a lot of state parks in Washington State, 139 in all, and not all are 
 &nbsp;
 &nbsp;
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 ---------------------------------------------------------------------------------------------------
 
-#### 44) [Penrose Point](https://parks.state.wa.us/564/Penrose Point): 
+#### 45) [Hope Island (Skagit)](http://parks.state.wa.us/518/Hope-Island---Skagit): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_hopeisland(skagit).png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Hope Island (Skagit)'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+To date, our assault on Marine State Parks have been either via friends' boats or on childless adventure days. Today we tried a different approach: divide and conquer.  One of us at a time paddling our way to an island and back.  The other minding the kids -- frantically keeping one from eating rocks and the other from running off into the riptide (cue Vancy Joy).  
+
+<img src="images/waparks_hopeislandskagit.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Departing from Ala Spit county park Hope Island (the Skagit version) looked like an easy target via paddleboard. The spit, itself, also appeared worthy of a visit based on a our aerial image reconnaissance. We arrived early, mostly to beat the heat but also to align with the low, slack tide for our crossings. We hadn't factored into the mix that it was also a very low tide during clamming season, so the beach was busy with large groups wearing knee-high boots and carrying all manner of oddly-shaped shovels. Our bare feet, swimsuits and paddleboard; one of these things was not like the other.  
+
+Despite the slack tide, the 0.4 mile crossing to Hope Island wasn't easy. Dodging powerboats and fighting the rip, it was hard to keep a straight path. The tidal current is a river, and a fairly fast one at that, about 100 yards wide right in the middle of the channel.  It is smooth sailing on either side, but you have to paddle your heart out to get across it and at the same time try to keep from catching an errant wake from the passing boats. We went at the best of all times -- early morning, low, slack tide -- and it was still a struggle. Neither of us spent much time on the island itself.  Just long enough to catch our breath, take a few photos and lament the lost opportunity of spending the entire afternoon on a mostly deserted island.  We are happy to report, however, that the spit itself was a wonderful place for small children to play and even with dozens of groups out foraging it still had plenty of room to social distance as well very cool driftwood forts to play among. There are no toilets, bear in mind. 
+
+---------------------------------------------------------------------------------------------------
+
+#### 44) [Penrose Point](https://parks.state.wa.us/564/Penrose-Point): 
 
 &nbsp;
 &nbsp;
@@ -165,7 +200,7 @@ Rounding the point in this manner greets the intrepid with an amazing view of Mt
 
 ---------------------------------------------------------------------------------------------------
 
-#### 43) [Joemma Beach](https://parks.state.wa.us/524/Joemma Beach): 
+#### 43) [Joemma Beach](https://parks.state.wa.us/524/Joemma-Beach): 
 
 &nbsp;
 &nbsp;

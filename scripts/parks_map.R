@@ -99,7 +99,7 @@
   visited_sf <- parks_sf %>%
      dplyr::filter(Visited == 1) %>%
      dplyr::mutate(Date_Visited = as.Date(Date_Visited, '%m/%d/%y')) %>%
-     dplyr::arrange(desc(Date_Visited))
+     dplyr::arrange(desc(Date_Visited), desc(`Day Order`))
   
   ## Print Maps
   
@@ -114,7 +114,7 @@
                               width = image_width, height = image_height)
        plotPark(i_sf$ParkCode,
                 scale=x_scale, map_type = 'toner', park_color = 'red', 
-                circle = TRUE, cscale = c_scale, cpscale=cp_scale)
+                circle = TRUE, cscale = c_scale, cpscale=cp_scale, abbr = i_sf$Abbrv)
      dev.off()
   }
   
