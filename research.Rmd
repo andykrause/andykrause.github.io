@@ -21,9 +21,11 @@ output:
 
 * *With Andy Martin and Matthew Fix (both @ Zillow)*
 
-Point estimates from Automated Valuation Models (AVMs) represent the most likely value from a distribution of possible values. The uncertainty in the point estimate – the width of the range of possible values at a given level of confidence – is a critical piece of the AVM output, especially in collateral and transactional situations. Estimating AVM uncertainty, however, remains highly unstandardised in both terminology and methods. In this paper we present and compare two of the most common approaches to estimating AVM uncertainty – model-based and error-based prediction intervals. We also present a uniform language and framework for evaluating the calibration and efficiency of uncertainty estimates. Based on empirical tests of two approaches on a large, longitudinal dataset of home sales, we show that model-based approaches outperform error-based ones in all but cases with very highest confidence level requirements. The differences between the two methods are conditioned on model class, model partitions and data filtering conditions.
+* *Forthcoming in the Journal of Property Research, Special Edition on Automated Valuation Services*
 
-The working paper is [here](files/krause_et_al_avm_unc_hpi.pdf)
+Point estimates from Automated Valuation Models (AVMs) represent the most likely value from a distribution of possible values. The uncertainty in the point estimate – the width of the range of possible values at a given level of confidence – is a critical piece of the AVM output, especially in collateral and transactional situations. Estimating AVM uncertainty, however, remains highly unstandardised in both terminology and methods. In this paper we present and compare two of the most common approaches to estimating AVM uncertainty – model-based and error-based prediction intervals. We also present a uniform language and framework for evaluating the calibration and efficiency of uncertainty estimates. Based on empirical tests on a large, longitudinal dataset of home sales, we show that model-based approaches outperform error-based ones in all but cases with very highest confidence level requirements. The differences between the two methods are conditioned on model class, geographic data partitions and data filtering conditions.
+
+The pre-print working paper is [here](files/krause_et_al_avm_unc.pdf)
 
 &nbsp;
 &nbsp;
@@ -85,7 +87,7 @@ the median and index methods are biased on the low side (up to 20%) when compare
 &nbsp;
 &nbsp;
 
-##<span style="color:#21618C"> Published Research</span>
+## <span style="color:#21618C"> Published Research</span>
 
 &nbsp;
 &nbsp;
