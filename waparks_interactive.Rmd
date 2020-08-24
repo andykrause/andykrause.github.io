@@ -32,17 +32,18 @@ library(tmap)
 
 ```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE}
 
+  NotVisited <- parks_sf %>%
+  dplyr::filter(!Abbrv %in% visited_sf$Abbrv)
+  Visited <- visited_sf
+
   library(tmap)
   tmap_mode("view")
-  tm_shape(wa_sf) + 
-    tm_fill() + 
-    #tm_shape(parks_poly_sf) + 
-    #tm_fill(col = 'blue') + 
-    tm_shape(parks_sf) + 
+  tm_shape(NotVisited) + 
     tm_dots() + 
     tm_text("Abbrv", size = 1, ymod = .1) +
-    tm_shape(visited_sf) + 
-    tm_dots(col = 'green') 
+    tm_shape(Visited) + 
+    tm_dots(col = 'green') + 
+    tm_text("Abbrv", size = 1, ymod = .1)
   
 
 ```
