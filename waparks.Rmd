@@ -15,6 +15,9 @@ parks_df <- readr::read_csv(file.path(getwd(), 'data', 'final_parks_data.csv')) 
       dplyr::mutate(Visited = as.factor(Visited))
 
 visited_sf <- readRDS(file.path(getwd(), 'images', paste0('visited.RDS')))
+parks_sf <- readRDS(file.path(getwd(), 'images', paste0('parks.RDS')))
+wa_sf <- readRDS(file.path(getwd(), 'images', paste0('state.RDS')))
+
   
 library(magick)
 library(gridExtra)
@@ -114,6 +117,10 @@ There are a lot of state parks in Washington State, 139 in all, and not all are 
 <img src="images/state_map.png" style="width:85%; border:0px solid; margin-left:0px; margin-right: 0px" align="center">
 
 &nbsp;
+
+<a style="font-weight:bold;font-size:24px" href="waparks_interactive.html">An interactive map</a>
+
+
 &nbsp;
 &nbsp;
 
@@ -126,6 +133,37 @@ There are a lot of state parks in Washington State, 139 in all, and not all are 
 &nbsp;
 &nbsp;
 &nbsp;
+
+---------------------------------------------------------------------------------------------------
+
+#### 46) [Skagit Island](http://parks.state.wa.us/584/Skagit-Island): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_skagitisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Skagit Island'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+
+Lorem Ipsum
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 
 ---------------------------------------------------------------------------------------------------
 
@@ -157,6 +195,10 @@ To date, our assault on Marine State Parks have been either via friends' boats o
 Departing from Ala Spit county park Hope Island (the Skagit version) offered itself as an easy target via paddleboard. From our aerial image reconnaissance, the spit, too, appeared worthy of a visit so we opted to make a day of it. To beat the heat and to align with the low, slack tide for our crossings we arrived early. What we hadn't factored in was that it was also a weekend with a very low tide during clamming season.  As a result, the beach was busy with large groups wearing knee-high boots, stomping through the tidelands and carrying all manner of oddly-shaped shovels. Enter us with our bare feet, swimsuits and paddleboard; four of these things were not like the others. Like the metal-detector guy who, so focused on his craft, wanders through an outdoor wedding, we cut through their mix and headed for the water. Oddballs, no matter.   
 
 Despite the slack tide the 0.4 mile crossing to Hope Island wasn't easy. Dodging powerboats and fighting the rip, it is a battle to maintain anything resembling a straight path. The tidal current is a river, and a fairly fast one at that, about 100 yards wide right in the middle of the channel. It is smooth sailing on either side, but you have to paddle your heart out to get across it and at the same time try to keep from catching an errant wake. We went at the best of all times -- early morning, low, slack tide -- and it was still a struggle. Neither of us spent much time on the island itself.  Just long enough to catch our breath, take a few photos and lament the lost opportunity to spend the entire afternoon on a mostly deserted island.  We are happy to report, however, that the spit itself was a wonderful place for small children to play and even with dozens of groups out foraging it still had plenty of room to social distance as well as very cool driftwood forts to play among. Bear in mind Ala Spit is a mostly rocky beach and there are no toilets, no water, no shade. 
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 ---------------------------------------------------------------------------------------------------
 

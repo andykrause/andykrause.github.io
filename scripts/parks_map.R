@@ -136,10 +136,20 @@
   
   saveRDS(summ_df, file.path(getwd(), 'images', paste0('summary.RDS')))
   saveRDS(visited_sf, file.path(getwd(), 'images', paste0('visited.RDS')))
+  saveRDS(parks_sf, file.path(getwd(), 'images', paste0('parks.RDS')))
+  saveRDS(wa_sf, file.path(getwd(), 'images', paste0('state.RDS')))
+  
   
   
 #***************************************************************************************************
 #***************************************************************************************************
   
+  library(tmap)
+  tmap::qtm(wa_sf)
+  tmap_mode("view")
+  tm_shape(wa_sf) + 
+    tm_fill() + 
+    tm_shape(parks_sf) + 
+    tm_dots()
   
   

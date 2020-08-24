@@ -1,0 +1,48 @@
+---
+title: "WA State Parks Challenge - Interactive Map"
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
+
+parks_df <- readr::read_csv(file.path(getwd(), 'data', 'final_parks_data.csv')) %>%
+      dplyr::filter(Challenge == 1) %>%
+      dplyr::mutate(Visited = as.factor(Visited))
+
+visited_sf <- readRDS(file.path(getwd(), 'images', paste0('visited.RDS')))
+parks_sf <- readRDS(file.path(getwd(), 'images', paste0('parks.RDS')))
+wa_sf <- readRDS(file.path(getwd(), 'images', paste0('state.RDS')))
+
+  
+library(magick)
+library(gridExtra)
+library(png)
+library(grid)
+library(sf)
+library(tmap)
+```
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE}
+
+  library(tmap)
+  tmap_mode("view")
+  tm_shape(wa_sf) + 
+    tm_fill() + 
+    #tm_shape(parks_poly_sf) + 
+    #tm_fill(col = 'blue') + 
+    tm_shape(parks_sf) + 
+    tm_dots() + 
+    tm_text("Abbrv", size = 1, ymod = .1) +
+    tm_shape(visited_sf) + 
+    tm_dots(col = 'green') 
+  
+
+```
