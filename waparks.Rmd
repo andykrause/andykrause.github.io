@@ -158,7 +158,13 @@ gridExtra::grid.arrange(rasterGrob(img),
 &nbsp;
 
 
-Lorem Ipsum
+Researching possible routes from which to approach Skagit Island, the large peninsula that nearly reaches out and nearly touches it is rarely, if ever, mentioned. It's a strange omission; looking at a map, a clear defiance of common sense, prudence, ease.  Perhaps it is the relative recency with which the Kukateli peninsula returned to public land status. More likely, we determined, it is a concerted effort to keep this, somewhat obscure, preserve a secret.  With our limited readership, I don't feel I'm betraying local adventurers, bird watchers and beach-bums by mentioning it here.  Back at the map, the major impediments to our proposed plan appeared to be limited parking and the need to carry your gear -- and in our case our children and their gear -- about a mile to the beach near the western end of the peninsula.  Early risers with plenty of portable and/or wheeled goods, we took this bet.
+
+<img src="images/waparks_skagitisland.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+And, I'm happy to report that it paid off splendidly. At 8am only two of the seven parking spots were filled. We hiked down a hill, over the tombolo (formerly a road, now retured to its natural state), up and over another, larger hill, down past the former homestead and onto the narrow beach facing Skagit Island.  I had the inflated paddleboard on my back while pushing the pram, filled mostly with food as the youngest child had escaped. Erin, with our beach setup in a large back pack, ended up carrying the youngest whose independent streak lasted up until the hill climb. The elder child marched along backpack laden with fig bars, rocks from previous beaches and a change of shoes, keeping a steady pace of two or three 'why?' questions per minute.  A merry caravan were we. 
+
+From our temporary post on the deserted beach it was a .25 mile paddle over to Skagit Island. With a few kayakers heading in and out during the morning, the small landing area on Skagit Island was busier than the beach on the mainland.  A quaint little island, it has a few campsites, a pit toilet and a small beach on its eastern shore. Certainly there are more adventerous or beautiful island sin the State's Marine Park System, but for a short 1 mile hike and a half-mile, round-trip paddle, few are as accessible without a power boat. In additiona, the Kukateli Preserve itself is worthy of the trip.  If you want a parking spot or first crack at the blackberries or apple trees, make sure you get there early...and don't tell too many others as we'd like to return to an empty lot and a quiet beach in the future.   
 
 &nbsp;
 &nbsp;
