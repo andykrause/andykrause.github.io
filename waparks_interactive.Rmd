@@ -14,9 +14,12 @@ parks_df <- readr::read_csv(file.path(getwd(), 'data', 'final_parks_data.csv')) 
       dplyr::filter(Challenge == 1) %>%
       dplyr::mutate(Visited = as.factor(Visited))
 
-visited_sf <- readRDS(file.path(getwd(), 'images', paste0('visited.RDS')))
-parks_sf <- readRDS(file.path(getwd(), 'images', paste0('parks.RDS')))
-wa_sf <- readRDS(file.path(getwd(), 'images', paste0('state.RDS')))
+visited_sf <- readRDS(file.path(getwd(), 'data', paste0('visited.RDS')))
+parks_sf <- readRDS(file.path(getwd(), 'data', paste0('parks.RDS')))
+wa_sf <- readRDS(file.path(getwd(), 'data', paste0('state.RDS')))
+routes_sf <- readRDS(file.path(getwd(), 'data', paste0('park_routes.RDS')))
+
+      
 
   
 library(magick)
@@ -38,12 +41,15 @@ library(tmap)
 
   library(tmap)
   tmap_mode("view")
+  tm_shape(routes_sf) + 
+    tm_lines(col="type", scale=2, legend.lwd.show = FALSE, palette = c('yellow', 'gray40', 'orange', 'brown', 'red')) +
   tm_shape(NotVisited) + 
     tm_dots() + 
-    tm_text("Abbrv", size = 1, ymod = .1) +
+    tm_text("Abbrv", size = .8, ymod = .1) +
     tm_shape(Visited) + 
-    tm_dots(col = 'green') + 
-    tm_text("Abbrv", size = 1, ymod = .1)
+    tm_dots(col = 'green4') + 
+    tm_text("Abbrv", size = .8, ymod = .1) 
+
   
 
 ```

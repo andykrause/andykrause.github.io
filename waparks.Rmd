@@ -100,7 +100,7 @@ There are a lot of state parks in Washington State, 139 in all, and not all are 
 
   head_col <- '#489f28'
   row_col <- "#edf5fc"
-  summ_df <- readRDS(file.path(getwd(), 'images', paste0('summary.RDS')))
+  summ_df <- readRDS(file.path(getwd(), 'data', paste0('summary.RDS')))
 
   summ_df %>%
    knitr::kable(., format = 'html') %>%

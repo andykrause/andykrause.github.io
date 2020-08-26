@@ -47,7 +47,10 @@
         sf::st_transform(., crs = 4269)
       sf::st_crs(parks_poly_sf) <- 4269
       
+   
+      
       saveRDS(parks_poly_sf, file.path(getwd(), 'data', 'park_boundaries.RDS'))
+
       
   } else {
     
@@ -58,6 +61,13 @@
     parks_sf <- sf::st_as_sf(parks_df, coords = c('Longitude', 'Latitude'))
     st_crs(parks_sf) <- 4269
     parks_poly_sf <- readRDS(file.path(getwd(), 'data', 'park_boundaries.RDS'))
+    
+    parks_routes_sf <- sf::st_read(file.path(getwd(), 'data', 'parks_routes.shp')) %>%
+      sf::st_transform(., crs = 4269)
+    sf::st_crs(parks_routes_sf) <- 4269
+    saveRDS(parks_routes_sf, file.path(getwd(), 'data', 'park_routes.RDS'))
+    
+    
   }
   
  ## Create Map
@@ -134,10 +144,10 @@
                 sum(as.numeric(visited_sf$Paddleboarded), na.rm = TRUE))) %>%
     dplyr::mutate(Measure = round(Measure, 0))
   
-  saveRDS(summ_df, file.path(getwd(), 'images', paste0('summary.RDS')))
-  saveRDS(visited_sf, file.path(getwd(), 'images', paste0('visited.RDS')))
-  saveRDS(parks_sf, file.path(getwd(), 'images', paste0('parks.RDS')))
-  saveRDS(wa_sf, file.path(getwd(), 'images', paste0('state.RDS')))
+  saveRDS(summ_df, file.path(getwd(), 'data', paste0('summary.RDS')))
+  saveRDS(visited_sf, file.path(getwd(), 'data', paste0('visited.RDS')))
+  saveRDS(parks_sf, file.path(getwd(), 'data', paste0('parks.RDS')))
+  saveRDS(wa_sf, file.path(getwd(), 'data', paste0('state.RDS')))
   
   
   
