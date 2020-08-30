@@ -26,7 +26,7 @@ makeCircle <- function(center_sf,
 }
 
 # Function
-plotPark <- function(park_code,
+plotPark <- function(abbr,
                      zoom = 11,
                      scale = .2,
                      lscale = 1.6,
@@ -35,16 +35,11 @@ plotPark <- function(park_code,
                      circle = FALSE,
                      cscale = 2,
                      cpscale = 80,
-                     spin = 1,
-                     abbr = NULL){
+                     spin = 1){
   
-  if (is.null(abbr)){
-    park_df <- parks_df[which(parks_df$ParkCode == park_code)[1], ]
-    park_sf <- parks_poly_sf[which(parks_poly_sf$ParkCode == park_code)[1], ]
-  } else {
-    park_df <- parks_df[which(parks_df$Abbrv == abbr), ]
-    park_sf <- parks_poly_sf[which(parks_poly_sf$Abbr == abbr), ]
-  }
+  park_df <- data_df[which(data_df$Abbrv == abbr), ]
+  park_sf <- boundaries_sf[which(boundaries_sf$Abbr == abbr), ]
+
     
   bbox <- c(left = park_df$Longitude - scale,
             bottom = park_df$Latitude - scale/lscale,
@@ -55,7 +50,7 @@ plotPark <- function(park_code,
   
   base_plot <- 
     ggmap(basemap) + 
-    geom_sf(data = park_sf, aes(fill=ParkName), inherit.aes = FALSE, color = park_color) +
+    geom_sf(data = park_sf, aes(fill = Name), inherit.aes = FALSE, color = park_color) +
     xlab('') + 
     ylab('') + 
     scale_fill_manual(name = '', values = park_color) + 
@@ -76,3 +71,40 @@ plotPark <- function(park_code,
   }
   base_plot
 } 
+
+cropp <- function(im, left = 0, top = 0, right = 0, bottom = 0) {
+  d <- dim(im[[1]]); w <- d[2]; h <- d[3]
+  magick::image_crop(im, glue::glue("{w-left-right}x{h-top-bottom}+{left}+{top}"))
+}
+
+makeTblx <- function(visited_sf, 
+                     park_name){
+  
+  tbl <- visited_sf %>%
+    dplyr::filter(Name == park_name)
+  
+  traveled <- tbl %>%
+    dplyr::select(Driven, Boated, Ferried, Hiked, Paddleboarded)
+  
+  sf::st_geometry(traveled) <- NULL
+  
+  traveled <- t(traveled) %>%
+    as.data.frame() %>%
+    dplyr::filter(!is.na(`1`)) %>%
+    dplyr::mutate(Metric = paste0('Miles ', rownames(.))) %>%
+    dplyr::rename(Measure = `1`) %>%
+    dplyr::mutate(Measure = as.character(Measure))
+  
+  lon <- round(unlist(tbl$geometry)[1], 4)
+  lat <- round(unlist(tbl$geometry)[2], 4)
+  
+  tblx <- data.frame(Metric = c('Date', 'Weather', 'Lat', 'Long'),
+                     Measure = c(as.character(tbl$Date), as.character(tbl$Weather), 
+                                 as.character(lat), as.character(lon))) %>%
+    dplyr::bind_rows(., traveled)
+  
+  rownames(tblx) <- NULL
+  
+  tableGrob(tblx, rows = NULL, theme = tt2)
+  
+}

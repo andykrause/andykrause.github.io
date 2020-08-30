@@ -10,24 +10,17 @@ editor_options:
 
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
 
-parks_df <- readr::read_csv(file.path(getwd(), 'data', 'final_parks_data.csv')) %>%
-      dplyr::filter(Challenge == 1) %>%
-      dplyr::mutate(Visited = as.factor(Visited))
+  ## Set libraries
+  library(sf)
+  library(tmap)
 
-visited_sf <- readRDS(file.path(getwd(), 'data', paste0('visited.RDS')))
-parks_sf <- readRDS(file.path(getwd(), 'data', paste0('parks.RDS')))
-wa_sf <- readRDS(file.path(getwd(), 'data', paste0('state.RDS')))
-routes_sf <- readRDS(file.path(getwd(), 'data', paste0('park_routes.RDS')))
+  # Load Data
+  data_df <- readRDS(file.path(getwd(), 'data', 'created', paste0('data.RDS')))
+  visited_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('visited.RDS')))
+  points_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('points.RDS')))
+  routes_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('routes.RDS')))
+  boundaries_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('boundaries.RDS')))
 
-      
-
-  
-library(magick)
-library(gridExtra)
-library(png)
-library(grid)
-library(sf)
-library(tmap)
 ```
 
 &nbsp;
@@ -35,20 +28,30 @@ library(tmap)
 
 ```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE}
 
-  NotVisited <- parks_sf %>%
-  dplyr::filter(!Abbrv %in% visited_sf$Abbrv)
+  NotVisited <- points_sf %>%
+    dplyr::filter(!Abbrv %in% visited_sf$Abbrv)
   Visited <- visited_sf
+  
+  Boundaries <- boundaries_sf %>%
+    dplyr::filter(Abbrv %in% visited_sf$Abbrv)
 
-  library(tmap)
   tmap_mode("view")
+  
   tm_shape(routes_sf) + 
-    tm_lines(col="type", scale=2, legend.lwd.show = FALSE, palette = c('yellow', 'gray40', 'orange', 'brown', 'red')) +
+    tm_lines(col="type", scale=2, legend.lwd.show = FALSE, 
+             palette = c('yellow', 'gray40', 'orange', 'brown', 'red')) +
+    
+  tm_shape(Boundaries) + 
+    tm_polygons(col = 'darkgreen') +
+    tm_text("Abbrv", size = .8, ymod = .1, col = 'gray60') +
+
   tm_shape(NotVisited) + 
-    tm_dots() + 
-    tm_text("Abbrv", size = .8, ymod = .1) +
-    tm_shape(Visited) + 
-    tm_dots(col = 'green4') + 
-    tm_text("Abbrv", size = .8, ymod = .1) 
+    tm_dots() #+ 
+    #tm_text("Abbrv", size = .8, ymod = .1) +
+    #tm_shape(Visited) + 
+    #tm_dots(col = 'green4') #+ 
+    #tm_text("Abbrv", size = .8, ymod = .1) +
+
 
   
 

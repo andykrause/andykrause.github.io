@@ -10,58 +10,28 @@ editor_options:
 
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
 
-parks_df <- readr::read_csv(file.path(getwd(), 'data', 'final_parks_data.csv')) %>%
-      dplyr::filter(Challenge == 1) %>%
-      dplyr::mutate(Visited = as.factor(Visited))
+ ## Set Libraries
 
-visited_sf <- readRDS(file.path(getwd(), 'images', paste0('visited.RDS')))
-parks_sf <- readRDS(file.path(getwd(), 'images', paste0('parks.RDS')))
-wa_sf <- readRDS(file.path(getwd(), 'images', paste0('state.RDS')))
+  library(magick)
+  library(gridExtra)
+  library(png)
+  library(grid)
+  library(sf)
 
+ ## Read in Data
   
-library(magick)
-library(gridExtra)
-library(png)
-library(grid)
-library(sf)
-cropp <- function(im, left = 0, top = 0, right = 0, bottom = 0) {
-  d <- dim(im[[1]]); w <- d[2]; h <- d[3]
-  magick::image_crop(im, glue::glue("{w-left-right}x{h-top-bottom}+{left}+{top}"))
-}
-clipp <- 100
-tt2 <- ttheme_minimal()
+  summ_df <- readRDS(file.path(getwd(), 'data', 'created', paste0('summary.RDS')))
+  visited_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('visited.RDS')))
+ 
+ ## Source Files
+  
+  source(file.path(getwd(), 'scripts', 'mapping_functions.R'))
 
-makeTblx <- function(visited_sf, 
-                     park_name){
+ ## Set Parameters
   
-  tbl <- visited_sf %>%
-    dplyr::filter(ParkName == park_name)
+  clipp <- 100
+  tt2 <- ttheme_minimal()
 
-  traveled <- tbl %>%
-    dplyr::select(Driven, Boated, Ferried, Hiked, Paddleboarded)
-  
-  sf::st_geometry(traveled) <- NULL
-  
-  traveled <- t(traveled) %>%
-    as.data.frame() %>%
-    dplyr::filter(!is.na(`1`)) %>%
-    dplyr::mutate(Metric = paste0('Miles ', rownames(.))) %>%
-    dplyr::rename(Measure = `1`) %>%
-    dplyr::mutate(Measure = as.character(Measure))
-  
-  lon <- round(unlist(tbl$geometry)[1], 4)
-  lat <- round(unlist(tbl$geometry)[2], 4)
-  
-  tblx <- data.frame(Metric = c('Date', 'Weather', 'Lat', 'Long'),
-                     Measure = c(as.character(tbl$Date_Visited), as.character(tbl$Weather), 
-                                 as.character(lat), as.character(lon))) %>%
-    dplyr::bind_rows(., traveled)
-  
-  rownames(tblx) <- NULL
-  
-  tableGrob(tblx, rows = NULL, theme = tt2)
-  
-}
 
 ```
 
@@ -86,42 +56,68 @@ There are a lot of state parks in Washington State, 139 in all, and not all are 
 <img src="images/spacer.png" style="height:116%; border:0px solid; margin-right: 24px; margin-bottom:15px" align="left">
 &nbsp;&nbsp;
 
+---------------------------------------------------------------------------------------------------
+
 ### **Progress**
 
 &nbsp;
 &nbsp;
 &nbsp;
+
+
 &nbsp;
+
+<a style="font-weight:bold;font-size:24px" href="waparks_interactive.html">
+  <img src="images/state_map.png" style="width:85%; border:0px solid; margin-left:0px; margin-right: 0px"     align="center">
+</a>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE}
+
+  head_col <- '#9df18e'
+  row_col <- "#edf5fc"
+
+  total_df <- data.frame(Visited = summ_df$Measure[2],
+                         Remaining = summ_df$Measure[3],
+                         Total = summ_df$Measure[1],
+                         Done = round(100 * summ_df$Measure[2] / summ_df$Measure[1], 0))
+  names(total_df)[4] <- '% Done'
+  
+  total_df %>%
+   knitr::kable(., format = 'html') %>%
+   kableExtra::kable_styling(full_width = F, stripe_color = strip_col)  %>%
+   kableExtra::row_spec(0, background = head_col) 
+  
+```
 
 &nbsp;
 &nbsp;
 
 ```{r, echo = FALSE, cache = FALSE}
 
-  head_col <- '#489f28'
-  row_col <- "#edf5fc"
-  summ_df <- readRDS(file.path(getwd(), 'data', paste0('summary.RDS')))
-
-  summ_df %>%
+  travel_df <- data.frame('Miles Driven' = summ_df$Measure[4],
+                          'Miles Ferried' = summ_df$Measure[5],
+                          'Miles Boated' = summ_df$Measure[6],
+                          'Miles Hike' = summ_df$Measure[7],
+                          'Miles Paddleboarded' = summ_df$Measure[8])
+  names(travel_df) <- c('Miles Driven', 'Miles Ferried', 'Miles Boated', 'Miles Hiked', 
+                        'Miles Paddleboarded')
+  
+  travel_df %>%
    knitr::kable(., format = 'html') %>%
-   kableExtra::kable_styling(full_width = F, stripe_color = strip_col) %>%
-   kableExtra::row_spec(0, background = head_col) %>%
-    kableExtra::pack_rows("Travel Details", 4, 8, label_row_css = "background-color: #666; color: #fff;")
-
+   kableExtra::kable_styling(full_width = F, stripe_color = strip_col)  %>%
+   kableExtra::row_spec(0, background = row_col) 
+  
 ```
 
 &nbsp;
-&nbsp;
-&nbsp;
 
-<img src="images/state_map.png" style="width:85%; border:0px solid; margin-left:0px; margin-right: 0px" align="center">
+---------------------------------------------------------------------------------------------------
 
-&nbsp;
-
-<a style="font-weight:bold;font-size:24px" href="waparks_interactive.html">An interactive map</a>
-
-
-&nbsp;
 &nbsp;
 
 ### **Trip Reports**
@@ -130,6 +126,43 @@ There are a lot of state parks in Washington State, 139 in all, and not all are 
 &nbsp;
 &nbsp;
 
+&nbsp;
+&nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
+
+#### 47) [Larrabee](http://parks.state.wa.us/536/Larrabee): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_larrabee.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Larrabee'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+The southern approach to Larrabee State Park takes you on Chuckanut Drive, formally Highway 11.  First through the lowland agricultural flats (correction: the upscale Bow-Edison farm-to-market district) then climbing to skirt along the steep western slope of Chuckanut Mountain.  This section is a highway -- speeding cars, stripped yellow line, high volume -- but on nice days it also doubles as a parking lot for the numerous hiking trails that begin at the road. It is a sketchy affair to say the least.  At 8am on a Sunday morning, the standard parking pullouts were already full of what looked to be mostly fit 20-somethings from Bellingham.  And their dogs.  With night life limited and other healthy pursuits like yoga shuttered as well, it is no surprise to see traffic on the trails rise. 
+
+
+<img src="images/waparks_larrabee.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+A decade ago we would have been parked and half way up the mountain by now.  Today, we sped past those pullouts and trailheads, cognizant of our own jealousy but also joyously remiscent of those days.  Hiking will return for us; just a few more years until all eight our legs are strong enough to pound out some wilderness miles.  Lost in reverie, I nearly made a wrong turn, but we did finally land at the main parking lot to the Larrabee beach area. We were the first our kind there.  Our kind being the now-childed former hikers still intent on spending our free time outdoors.  
+
+Commissioned in 1913, Larrabee was the first State Park.  It maintains the feel of a place designed and built before the age of long, wide vehicles.  At a time when camping was a human and a tent, not a 30-foot RV. There is comfort in the intimacy of the roads and the spaces here.  There is also the occasional blast from the railroad that runs directly through the middle of the lower, marine facing portion of the park.  This too a signal of the times that bequeathed this park.         
+
+A gentle breeze off the water made 58 feel chilly; for August. In short, it was a nice fall morning, unfortunatly six weeks too early. A low tide left countless tidepools on the weather sandstone outcroppings.  Each one full of small crabs, various mollusks and the occasional stranded minnow.  We were lucky enough to be visited by a juvenile otter as well.  He/she kept their distance, but played close enough to give the kids a good show. By the drive back home, the parking melee along the road had intensified. I couldn't help but chuckle, knowing full well that for many of these eager, strong-thighed and free young people they would be soon enough trading their minimalist backpacks, trail runners and hydro-flasks for plastic shovels, oversized bags of snacks and sand.  A lot of sand.  Everywhere.  In hair, mouths, noses.  In purses and wallets and food containers.  Truly everywhere.  
 &nbsp;
 &nbsp;
 &nbsp;

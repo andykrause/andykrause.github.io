@@ -17,61 +17,19 @@
   library(ggmap)
 
   ## Load Custom Functions
+  source(file.path(getwd(), 'scripts', 'create_park_data.R'))
   source(file.path(getwd(), 'scripts', 'mapping_functions.R'))
-  
-### State Wide Map ---------------------------------------------------------------------------------
-  
-  ## Load Data 
-  
-  if (reload_state){
-    
-     var <- 'B02001_001'
-     census_api_key("eba9fd9d7bd7f7164ed95b4c7f8874cf37586d42")
-      wa_sf <- tidycensus::get_acs(geography = 'county',
-                                   state = 'wa',
-                                   variables = var,
-                               year = 2018,
-                               geometry = T)
-      
-      wa_sf <- 
-        wa_sf %>%
-        mutate(county = str_remove(str_remove(NAME, ' County.*'),
-                                   'Census Tract.*, ')) %>%
-        mutate(state = str_remove(NAME, '.*County, ')) %>%
-        select(-NAME) %>%
-        dplyr::select(GEOID,county, geometry)
-      
-      saveRDS(wa_sf, file.path(getwd(), 'data', 'county_boundaries.RDS'))
-      
-      parks_poly_sf <- sf::st_read(file.path(getwd(), 'data', 'State_parks.shp')) %>%
-        sf::st_transform(., crs = 4269)
-      sf::st_crs(parks_poly_sf) <- 4269
-      
+ 
+  ## Load Data
+  data_df <- readRDS(file.path(getwd(), 'data','created', 'data.RDS'))
+  points_sf <- readRDS(file.path(getwd(), 'data','created', 'points.RDS'))
+  boundaries_sf <- readRDS(file.path(getwd(), 'data','created', 'boundaries.RDS'))
+  routes_sf <- readRDS(file.path(getwd(), 'data','created', 'routes.RDS'))
+  wa_sf <- readRDS(file.path(getwd(), 'data','created', 'county_boundaries.RDS'))
    
-      
-      saveRDS(parks_poly_sf, file.path(getwd(), 'data', 'park_boundaries.RDS'))
-
-      
-  } else {
-    
-    wa_sf <- readRDS(file.path(getwd(), 'data', 'county_boundaries.RDS'))
-    parks_df <- readr::read_csv(file.path(getwd(), 'data', 'final_parks_data.csv')) %>%
-      dplyr::filter(Challenge == 1) %>%
-      dplyr::mutate(Visited = as.factor(Visited))
-    parks_sf <- sf::st_as_sf(parks_df, coords = c('Longitude', 'Latitude'))
-    st_crs(parks_sf) <- 4269
-    parks_poly_sf <- readRDS(file.path(getwd(), 'data', 'park_boundaries.RDS'))
-    
-    parks_routes_sf <- sf::st_read(file.path(getwd(), 'data', 'parks_routes.shp')) %>%
-      sf::st_transform(., crs = 4269)
-    sf::st_crs(parks_routes_sf) <- 4269
-    saveRDS(parks_routes_sf, file.path(getwd(), 'data', 'park_routes.RDS'))
-    
-    
-  }
+### State Wide Static Map --------------------------------------------------------------------------    
   
  ## Create Map
-  
  state_map <-   
    ggplot(data = wa_sf) + 
      geom_sf(fill = 'gray90', color = 'white') + 
@@ -82,12 +40,14 @@
            panel.grid.major = element_blank(),
            panel.grid.minor = element_blank(),
            panel.background = element_blank(), 
-           legend.position = 'none') + 
-     geom_sf(data = parks_sf, aes(color = Visited, size = Visited, shape = Visited),
+           legend.position = 'none',
+           plot.title = element_text(color="gray50", size=10, face="italic", hjust = 0.5)) + 
+     geom_sf(data = points_sf, aes(color = Visited, size = Visited, shape = Visited),
              alpha = .8) + 
      scale_color_manual(values = c('gray10', 'green4')) + 
      scale_size_manual(values = c(1.1, 2.6)) + 
-     scale_shape_manual(values = c(20, 20))
+     scale_shape_manual(values = c(20, 20)) + 
+    ggtitle('Click for an interactive version')
  
   ## Save to file
   png(filename = file.path(getwd(), 'images', 'state_map.png'), width = 780, height = 480)
@@ -106,25 +66,32 @@
 
   ## Limit to visited
   
-  visited_sf <- parks_sf %>%
+  visited_sf <- points_sf %>%
      dplyr::filter(Visited == 1) %>%
-     dplyr::mutate(Date_Visited = as.Date(Date_Visited, '%m/%d/%y')) %>%
-     dplyr::arrange(desc(Date_Visited), desc(`Day Order`))
+     dplyr::mutate(Date = as.Date(Date, '%m/%d/%y')) %>%
+     dplyr::arrange(desc(Order))
   
   ## Print Maps
   
   #for (k in 1:nrow(visited_sf)){
-  for (k in 1:4){
- 
+  for (k in 1:1){
+      
+  
      i_sf <- visited_sf[k,]
-     cat('Drawing: ', i_sf$ParkName, '\n')
-     shortname <- tolower(i_sf$ParkName)
+     cat('Drawing: ', i_sf$Name, '\n')
+     shortname <- tolower(i_sf$Name)
      shortname <- gsub(' ', '', shortname)
+     
      png(filename = file.path(getwd(), 'images', paste0('map_', shortname, '.png')), 
                               width = image_width, height = image_height)
-       plotPark(i_sf$ParkCode,
-                scale=x_scale, map_type = 'toner', park_color = 'red', 
-                circle = TRUE, cscale = c_scale, cpscale=cp_scale, abbr = i_sf$Abbrv)
+       plotPark(abbr = i_sf$Abbrv,
+                scale = x_scale, 
+                map_type = 'toner', 
+                park_color = 'red', 
+                circle = TRUE, 
+                cscale = c_scale, 
+                cpscale = cp_scale)
+       
      dev.off()
   }
   
@@ -134,32 +101,23 @@
    data.frame(
     Name = c('Total', 'Visited', 'Remaining', 'Miles Driven', 'Miles Ferried', 
              'Miles Boated', 'Miles Hiked', 'Miles Paddleboarded'),
-    Measure = c(nrow(parks_sf),
-                sum(as.numeric(visited_sf$Challenge)),
-                nrow(parks_sf) - sum(as.numeric(visited_sf$Challenge)),
-                sum(as.numeric(visited_sf$Driven), na.rm = TRUE),
-                sum(as.numeric(visited_sf$Ferried), na.rm = TRUE),
-                sum(as.numeric(visited_sf$Boated), na.rm = TRUE),
-                sum(as.numeric(visited_sf$Hiked), na.rm = TRUE),
-                sum(as.numeric(visited_sf$Paddleboarded), na.rm = TRUE))) %>%
+    Measure = c(nrow(points_sf),
+                nrow(visited_sf),
+                nrow(data_df) - nrow(visited_sf),
+                sum(as.numeric(data_df$Driven), na.rm = TRUE),
+                sum(as.numeric(data_df$Ferried), na.rm = TRUE),
+                sum(as.numeric(data_df$Boated), na.rm = TRUE),
+                sum(as.numeric(data_df$Hiked), na.rm = TRUE),
+                sum(as.numeric(data_df$Paddleboarded), na.rm = TRUE))) %>%
     dplyr::mutate(Measure = round(Measure, 0))
   
-  saveRDS(summ_df, file.path(getwd(), 'data', paste0('summary.RDS')))
-  saveRDS(visited_sf, file.path(getwd(), 'data', paste0('visited.RDS')))
-  saveRDS(parks_sf, file.path(getwd(), 'data', paste0('parks.RDS')))
-  saveRDS(wa_sf, file.path(getwd(), 'data', paste0('state.RDS')))
-  
-  
-  
+  saveRDS(summ_df, file.path(getwd(), 'data', 'created', paste0('summary.RDS')))
+  saveRDS(visited_sf %>%
+            dplyr::left_join(., data_df %>%
+                               dplyr::select(Abbrv, Driven, Boated, Ferried, Hiked, Paddleboarded),
+                             by = 'Abbrv'),
+          file.path(getwd(), 'data', 'created', paste0('visited.RDS')))
+
 #***************************************************************************************************
 #***************************************************************************************************
-  
-  library(tmap)
-  tmap::qtm(wa_sf)
-  tmap_mode("view")
-  tm_shape(wa_sf) + 
-    tm_fill() + 
-    tm_shape(parks_sf) + 
-    tm_dots()
-  
   
