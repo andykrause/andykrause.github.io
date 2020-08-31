@@ -20,7 +20,17 @@ editor_options:
   points_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('points.RDS')))
   routes_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('routes.RDS')))
   boundaries_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('boundaries.RDS')))
+  
+  
+  points_sf <- 
+   points_sf %>% dplyr::mutate(Visited = ifelse(Visited == 1, 
+                                                paste0('Been There: ', nrow(visited_sf)),
+                                                paste0('Not Yet: ', nrow(data_df) - nrow(visited_sf))))
 
+  routes_sf <- routes_sf %>%
+    dplyr::mutate(type = ifelse(type == 'drive', 'automobile', type),
+                  `Travel Mode` = type)
+  
 ```
 
 &nbsp;
@@ -28,31 +38,24 @@ editor_options:
 
 ```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE}
 
-  NotVisited <- points_sf %>%
-    dplyr::filter(!Abbrv %in% visited_sf$Abbrv)
-  Visited <- visited_sf
+
   
   Boundaries <- boundaries_sf %>%
     dplyr::filter(Abbrv %in% visited_sf$Abbrv)
 
   tmap_mode("view")
   
-  tm_shape(routes_sf) + 
-    tm_lines(col="type", scale=2, legend.lwd.show = FALSE, 
-             palette = c('yellow', 'gray40', 'orange', 'brown', 'red')) +
-    
+
   tm_shape(Boundaries) + 
-    tm_polygons(col = 'darkgreen') +
-    tm_text("Abbrv", size = .8, ymod = .1, col = 'gray60') +
-
-  tm_shape(NotVisited) + 
-    tm_dots() #+ 
-    #tm_text("Abbrv", size = .8, ymod = .1) +
-    #tm_shape(Visited) + 
-    #tm_dots(col = 'green4') #+ 
-    #tm_text("Abbrv", size = .8, ymod = .1) +
-
-
+    tm_polygons(col = 'darkgreen', alpha = .8) +
+    #tm_text("Abbrv", size = .8, ymod = .1, col = 'gray60') +
   
+  tm_shape(routes_sf, alpha = .8) + 
+    tm_lines(col="Travel Mode", scale=2, legend.lwd.show = FALSE, 
+             palette = c('gray70', 'darkslategray3', 'deepskyblue4', 'brown', 'red')) +
+    
+  tm_shape(points_sf, alpha = .8) + 
+    tm_dots(col='Visited', palette = c('forestgreen', 'black')) 
+    
 
 ```
