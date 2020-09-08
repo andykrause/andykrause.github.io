@@ -126,6 +126,269 @@ There are a lot of state parks in Washington State, 139 in all, and not all are 
 &nbsp;
 &nbsp;
 
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 55) [Peshastin Pinnacles](http://parks.state.wa.us/565/Peshastin-Pinnacles): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_peshastinpinnacles.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Peshastin Pinnacles'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Closed
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 54) [Lincoln Rock](http://parks.state.wa.us/541/Lincoln-Rock): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_lincolnrock.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Lincoln Rock'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Bubble gum ice cream, crowded.  End of a long day. Day use park.  
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 53) [Daroga](http://parks.state.wa.us/495/Daroga): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_daroga.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Daroga'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Humm of power lines.  Broken hammock.  Walk in campsites.  Mystery water pipe.  
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 52) [Steamboat Rock](http://parks.state.wa.us/590/Steamboat-Rock): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_steamboatrock.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Steamboat Rock'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Beach, paddleboard as a mule.  Party scene among natural scene.  Best non-marine beach in the state.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 51) [Sun Lakes-Dry Falls](http://parks.state.wa.us/298/Sun-Lakes-Dry-Falls): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_sunlakes-dryfalls.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Sun Lakes-Dry Falls'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Offroading, tracking, scat.  Being down in the coulee.  
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 50) [Wenatchee Confluence](http://parks.state.wa.us/286/Wenatchee-ConfluenceLarrabee): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_wenatcheeconfluence.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Wenatchee Confluence'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Soft green grass, excitement for swimming.  Closest travel to a park. Trail system. 
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
+
+#### 49) [Squilchuck](http://parks.state.wa.us/589/Squilchuck): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_squilchuck.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Squilchuck'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+This Labor Day weekend trip was of the last minute variety.  We had, as a result, underplanned. Though we had a rough ordering of parks to visit, we were leaving the specifics of what to do at each up to chance. Relying on spontaneity to carry us through. To the poet, serendipity.      
+
+<img src="images/waparks_squilchuck.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Pulling into Squilchuck, you could easily mistake the parking lot for an old, though admittedly short, tarmac. We stepped out onto it and into a still and sizzling 91 degrees. Looking around, we discovered this was a mountain biking park complete with ramps, rails and all manner of exciting things to do on a bicycle.  A few small groups occupied the prime shaded spots.  What remained was a lone picnic table baking in the sun next to a dusty set of jumps. A fine lunch spot, indeed. 
+
+Oddly enough, our kids are big fans of a certain [video](https://www.youtube.com/watch?v=K_7k3fnxPq0) featuring Danny MacAskill -- a RedBull sponsored mountain biker -- doing insane things on a bike all through Scotland.  We channelled our inner Danny and manufactured some fun by giving the course all we could on our two feet instead of two wheels.  The children became intensely dirty as only kids can and I nearly broke my ankle trying to land a 540 parkour twist, but we made it out alive...and had a good, though sweaty, time doing so. Serendipity had arisen to meet the call.  
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
+
+#### 48) [Lake Wenatchee](http://parks.state.wa.us/535/LakeWenatchee): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_lakewenatchee.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Lake Wenatchee'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+What a difference the pass makes.  From Seattle to the windward slope of Stevens Pass it was cloudy, calm and cool.  Speeding by the chairlifts, the sky immediately broke open, the temperature jumped and the wind howled. And, by some miracle, the youngest child slept the entire way.  
+
+<img src="images/waparks_lakewenatchee.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+At Lake Wenatchee a ranger guided us to one of the last remaining nearby parking spots. Just after 10am, it was a late arrival for us.  We are not accustomed to jockeying for parking, dealing with crowds or waiting in general. A steady stream of cars followed. Saturday of Labor Day weekend and the beach at Lake Wenatchee was going to be full. As we settled in to a cozy spot up against a log, it was easily the most crowded place we had been since COVID hit. Everyone was social distancing fairly well, but still an odd feeling of 'nearness' to strangers after so many months spent avoiding them.  I wonder how long it will take for us to shed these newfound habits?  The deliberate side step, the turning of the head, the instinct to isolate.  
+
+The wind blew hard right at the main beach. A number of kites were launched; immediately claimed by the nearby trees. Unmanned intertubes returned quickly to shore. Aspring paddleboarders thought better of the chop and settled for a swim. I spent about a minute preparing a floatation device for the eldest child.  He lasted all of 30 seconds in it before calling it quits.  That 2:1 ratio of time preparing to time actually used is universal. I'd argue its the Second Law of Parenting. The First being, of course, that any slight discrepancy in discipline or instruction provided separately by two parents will be exploited by the child to their maximal advantage.   
+
+As the crowd grew we made an escape for a hike down the lake's outlet -- the Wenatchee River. Pure serenity. No crowds or wind.  We hung the hammock and clambored around on some glacial erratics strewn throughout the forest. There are some nice beach spots down along the river, though the north side looks to be even better; more sun, more sand.  Next time we'll skip the main beach and head here instead.
+
 &nbsp;
 &nbsp;
 &nbsp;
