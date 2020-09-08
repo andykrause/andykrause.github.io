@@ -188,7 +188,14 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 &nbsp;
 
-Bubble gum ice cream, crowded.  End of a long day. Day use park.  
+Late afternoon on a long, hot day split equally between hours in the sun and hours in the car.  The sane choice would have been blowing past Lincoln Rock State Park in favor of the air-conditioned confines of our hotel room.  A dip in the pool. A cleansing shower. The chilled adult beverages waiting in the fridge.  But that would mean coming back to Lincoln Rock in the morning or on another trip.  Subservient to the quest, we exited the highway and entered our fourth park of the day. 
+
+
+<img src="images/waparks_lincolnrock.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Every boat owner in the greater Wenatchee area was here as well.  The park offers the closest boat launch above the Rocky Reach Dam and was being used to its fullest on a hot Sunday afternoon.  There was no shortage of swimmers either as the beach was an absolute melee. A very pre-COVID scene; comforting in its normality, but also too much for us weary travelers to venture into.  
+
+The lone parking spot we could find was directly adjacent to the park's snack shop.  Ice cream was advertised in big chalk letters.  I needed no further encouragement.  Serving as the vanguard, the eldest child and I were the first to order.  In reading off the flavors, I made a critical parenting mistake by mentioning that there was a bubble gum flavor.  Once that option was heard, there was no changing of his mind.  I knew he wouldn't like it.  No one likes bubble gum flavor.  Seriously, [research](https://www.huffpost.com/entry/worst-ice-cream-flavors_n_5547394) shows it is the second worst ice cream flavor of all time, after only a Viagra-laced variety.  A minute later I'm holding my delicious mint ice cream and his toxic blue abomination. After one spoon full he declared it 'awful' and began poaching mine. I tried it out on the one-year old. He turned up his nose at it as well. Five minutes later, I'm left holding a melted cup of chemical blue sugar milk.  The yellow jackets wouldn't even stop to drink from it. I made sure to carefully deposit it in the trash lest any leak out onto the ground and kill the grass or poison the groundwater.    
 
 &nbsp;
 &nbsp;
