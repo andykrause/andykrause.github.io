@@ -162,9 +162,6 @@ You might be asking if such a quick stop is in the spirit of our State Parks Cha
 &nbsp;
 &nbsp;
 
-
-
-
 ---------------------------------------------------------------------------------------------------
 
 #### 54) [Lincoln Rock](http://parks.state.wa.us/541/Lincoln-Rock): 
@@ -195,7 +192,7 @@ Late afternoon on a long, hot day split equally between hours in the sun and hou
 
 Every boat owner in the greater Wenatchee area was here as well.  The park offers the closest boat launch above the Rocky Reach Dam and was being used to its fullest on a hot Sunday afternoon.  There was no shortage of swimmers either as the beach was an absolute melee. A very pre-COVID scene; comforting in its normality, but also too much for us weary travelers to venture into.  
 
-The lone parking spot we could find was directly adjacent to the park's snack shop.  Ice cream was advertised in big chalk letters.  I needed no further encouragement.  Serving as the vanguard, the eldest child and I were the first to order.  In reading off the flavors, I made a critical parenting mistake by mentioning that there was a bubble gum flavor.  Once that option was heard, there was no changing of his mind.  I knew he wouldn't like it.  No one likes bubble gum flavor.  Seriously, [research](https://www.huffpost.com/entry/worst-ice-cream-flavors_n_5547394) shows it is the second worst ice cream flavor of all time, after only a Viagra-laced variety.  A minute later I'm holding my delicious mint ice cream and his toxic blue abomination. After one spoon full he declared it 'awful' and began poaching mine. I tried it out on the one-year old. He turned up his nose at it as well. Five minutes later, I'm left holding a melted cup of chemical blue sugar milk.  The yellow jackets wouldn't even stop to drink from it. I made sure to carefully deposit it in the trash lest any leak out onto the ground and kill the grass or poison the groundwater.    
+The lone parking spot we could find was directly adjacent to the park's snack shop.  Ice cream was advertised in big chalk letters.  I needed no further encouragement.  Serving as the vanguard, the eldest child and I were the first to order.  In reading off the flavors, I made a critical parenting mistake by mentioning that there was a bubble gum option.  Once that option was heard, there was no changing of his mind.  I knew he wouldn't like it.  No one likes bubble gum ice cream.  Seriously, [research](https://www.huffpost.com/entry/worst-ice-cream-flavors_n_5547394) shows it is the second worst ice cream flavor of all time, after only a Viagra-laced variety.  A minute later I'm holding my delicious mint ice cream and his toxic blue abomination. After one spoon full he declared it 'awful' and began poaching mine. I tried it out on the one-year old. He turned up his nose at it as well. Five minutes later, I'm left holding a melted cup of chemical blue sugar milk.  The yellow jackets wouldn't even stop to drink from it. I made sure to carefully deposit it in the trash lest any leak out onto the ground and kill the grass or poison the groundwater.    
 
 &nbsp;
 &nbsp;
@@ -226,16 +223,17 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 &nbsp;
 
-Humm of power lines.  Broken hammock.  Walk in campsites.  Mystery water pipe.  
+Back across the high farmlands of the plateau and down into the Columbia Valley.  North this time from Orondo and up to Daroga State Park. By some miracle the kids slept nearly the entire way, freeing the adults from the unstoppable litany of 'why' questions and the intermittent provision of snacks. Ninety minutes to ponder the wonders of Douglas County, most of which was consumed strategizing on how best to pass various slow moving trucks and RVs without waking the children.  
 
+<img src="images/waparks_daroga.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+It was mid-afternoon by the time we had parked and the heat was full on, upper 90s. The high voltage lines that ran through the park crackled and hissed as they powered air-conditioning units from Leavenworth to Lynnwood and from Yakima to Yelm. The park was busy, but generally well socially-distanced except for the five generational, 50 person strong birthday party that occupied the eastern half of the beach. We circled it widely, and found two thick and welcoming shade trees between which to string the hammock and settle in for a calm afternoon out of the earshot of speedboats and jetskis.       
+
+We had chosen this swimming spot outside of cordoned beach mainly to provide some breathing room from the rabid packs of siblings and cousins juiced up on frosting and Capri Sun. Unfortunately, after about ten minutes in the water we realized it was proximate to a mystery water pipe that discharged water at irregular intervals.  No one else seemed the least bit concerned about it, so we carried on in standard fashion, though just a little more careful than normal to avoid any accidental imbibing of the river water. Well, some of us. For the little one, we aren't quite past the 'random objects in mouth' phase so undoubtedly he consumed some small amount of whatever was in the water. Let's hope it leads to some X-Men-like super power and not a third eye like that fish on the Simpsons. It is hardly an adventure if there isn't a bit of risk.    
 
 &nbsp;
 &nbsp;
 &nbsp;
-
-
-
-
 
 ---------------------------------------------------------------------------------------------------
 
@@ -260,12 +258,19 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 &nbsp;
 
-Beach, paddleboard as a mule.  Party scene among natural scene.  Best non-marine beach in the state.
+From Sun Lakes-Dry Falls it was up the Grand Coulee to Steamboat Rock. From whence the flood waters of the last ice age came, almost. Here to, the camping area and manicured park grounds are a sharp green against the brown hills; the river supplying all of the scenery in one way or another. It was nearly 10am, 85 degrees and headed much higher. The traffic at the boat launch a harbinger of the mass of humanity about to congregate on the beach here.  
+
+<img src="images/waparks_steamboatrock.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Loaded down with our beach necessities, we hiked a half mile or so down the perfect sand beach to a shaded spot under a loan willow tree, hundreds of yards from the few other groups scattered along the beach.  I ran back to the car to inflate the paddleboard and brought that to our camp as well.  
+
+The water was the perfect temperature; cool enough to refresh but not to shock.  Boat traffic steadily grew, making the crossing over to the rock islands on a paddleboard treacherous.  These weren't the languid sailboats and slow moving crafts of the marine NW Washington variety.  No, here they were floating race cars ripping through the narrow channel at 40 plus miles an hour.  We each took a turn exploring, doing a bit of Frogger on the way there and back.  As we swam, the beach steadily filled with large groups and their boats. By noon, we were surrounded on both sides by dozens of parties.  Spring Break 2020!  Or something like it.  Per the usual, we were the black swan, the ugly duckling, the sore thumb, the only people there without some form of motorized watercraft. In a weak attempt at blending it, we loaded the paddleboard down like a fresh mule for the trip back to the car to moved our cargo home the way river folk intended.  
+
+The beach here is fantastic.  Absolutely stunning in its beauty; the fine sand, the clear water and the surrounding hills and cliffs are all worth the trip on their own, let alone all together. Easily the best fresh water beach we've been to in Washington.  Unfortunately, it is a little too nice as it gets overrun on sunny weekend. Seems like the perfect place to camp midweek, maybe just after Labor Day.  The hiking looks stellar as well, not something that fit into our tight schedule.    
 
 &nbsp;
 &nbsp;
 &nbsp;
-
 
 
 ---------------------------------------------------------------------------------------------------
@@ -291,7 +296,14 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 &nbsp;
 
-Offroading, tracking, scat.  Being down in the coulee.  
+The drive from Wenatchee to Coulee City (home of Sun Lakes-Dry Falls Park) is a journey of contrast.  First across and along the wide, slow rolling Columbia River full of orchards and power lines.  Then up the Corbaley Canyon with its Ponderosa Pines and steep slopes.  And, finally, out onto to the flat, dusty farmlands of the plateau.  Confident you've seen it all for the day, the Grand Coulee at Dry Falls offers another landscape all together different and much more alien that the others. A deep gash in the earth with tall basalt column walls and a variety of small lakes hidden within.  
+
+<img src="images/waparks_sunlakesdryfalls.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Down the long ramp into the abyss we went. Past the golf course and swimming beach, we headed for the farthest reaches of the park up near the once roaring, now still, Dry Falls. A winding, unpaved route, we finally put our AWD Subaru to the test on some primitive roads. Believe it or not, the first significant unpaved travel of our State Parks Challenge to date.  After a few small bumps and potholes we landed at a small turn around next to an outhouse and a wetlands full of tall reedy material. Signage was minimal (read: absent). We chose the path most well-traveled -- Robert Frost be damned -- as it would be the most pleasant for the tiny legs in the group.  The trail eventually led to a small rise on which we could overlook the remaining lake at the bottom of the once mightly falls.  Small effort, small reward in this case. The most popular part of the trip for all involved was tracking the large rabbit and small bird that had made tracks alongside our trail.
+
+The inside of the Coulee is a village of its own -- a golf course, campgrounds, swimming holes, Duke's Diner -- and truly has something for everyone. There is also a lot here at Sun Lakes-Dry Falls for the interested and able hiker. With our small kids and the hot weather we only met the first of those requirements and had to leave the more intrepid parts of the park for a future trip, probably in Spring or Fall when the weather on the West Side is damp and gray and one can fully appreciate being cooked inside this natural cauldron.  
+
 
 &nbsp;
 &nbsp;
