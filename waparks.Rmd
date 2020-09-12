@@ -127,6 +127,281 @@ There are a lot of state parks in Washington State, 139 in all, and not all are 
 &nbsp;
 &nbsp;
 
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 63) [Yakima Sportsman](http://parks.state.wa.us/278/Yakima-Sportsman): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_yakimasportsman.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Yakima Sportsman'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+xx
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 62) [Sacajawea](http://parks.state.wa.us/575/Sacajawea): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_sacajawea.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Sacajawea'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+xx
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 61) [Lewis & Clark Trail](http://parks.state.wa.us/539/Lewis-Clark-Trail): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_lewis&clarktrail.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Lewis & Clark Trail'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+xx
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 60) [Fields Spring](http://parks.state.wa.us/503/Fields-Spring): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_fieldsspring.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Fields Spring'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+xx
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 59) [Lyons Ferry](http://parks.state.wa.us/915/Lyons-Ferry): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_lyonsferry.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Lyons Ferry'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+xx
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 58) [Palouse Falls](http://parks.state.wa.us/559/Palouse-Falls): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_palousefalls.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Palouse Falls'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+xx
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 57) [Columbia Plateau Trail](http://parks.state.wa.us/490/Columbia-Plateau-Trail): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_columbiaplateau.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Columbia Plateau'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Dry and dusty
+Park office, like much of Washtucna was closed up. 
+Smoke settling in.  
+
+
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 56) [Potholes](http://parks.state.wa.us/568/Potholes): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_potholes.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Potholes'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+From smoke to clear
+Mudhole
+Kids dragging a cement block attached to a tattered rope
+Late summer muck and mire
+NWR
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 ---------------------------------------------------------------------------------------------------
 
 #### 55) [Peshastin Pinnacles](http://parks.state.wa.us/565/Peshastin-Pinnacles): 
