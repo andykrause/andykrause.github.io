@@ -320,7 +320,14 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 &nbsp;
 
-xx
+To get to Palouse Falls, you drive to the absolute, literal, middle of nowhere and then turn left down a dirt road for a few miles. Once you cross over a railline blasted through pure basalt and find yourself in an odd labyrinth of parking lots you'll know you are there. Past the parking lots, a massive crack in the earth appears with a waterfall plunging 200ft down into into a canyon. Pure vertical walls of the same height again rise up on either side of the falls, giving the canyon a mucher grander appearane. 
+
+Were it not for its location of utmost inconvenience, the park would likely be overrun with tourist busses, a gift shop and acres of paved parking. On this hot, smoky afternoon, there were but a few dozen people milling about the grounds.  A busier park would also need more fencing and patrols for safety.  The drop into the abyss is sudden and lethal.  A small fence surrounds the main viewing platform.  As you venture out up above the falls the only profalactics here are a few signs reminding you that previous hikers have died here so don't be stupid. 
+
+We took the sinuous route out along the highest butte, then back down along the railroad and finally down the steep grade to the river above the falls. The Palouse River here is mostly small bubbling rapids as the water tumbles forward, oblivious to the abrupt trip it will take in a few hundred yards. Set against the towering rock walls carved by the river itself, the hollow is striking. And, on a hot day, oppressively warm. If the rocks were sandstone instead of basalt, vermillion instead of jet black, it could easily be mistaken for Zion, Canyonlands or one of the many other lesser known parks of Southern Utah.  
+
+The Falls are a treasure. An under-developed, under-advertised and under-visited gem.  And that's OK. You really have to work to get to this park and in that, too, there is some sense of accomplishment, or at the very least a nod to your determination and grit.  For, as you return to your car and wipe the sweat from your brow you again realize where you are which is, no matter where you are headed, a long way from your destination. 
+
 
 
 &nbsp;
@@ -355,18 +362,15 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 &nbsp;
 
-Dry and dusty
-Park office, like much of Washtucna was closed up. 
-Smoke settling in.  
+East of Othello, life dwindles.  Human, animal, plant.  All of it.  The next recognizable town on the map is Washtucna.  Dry and dusty, the shuttered storefronts and deferred maintenance suggested that Washtucna had seen better days. Past wealth from agriculture had moved on. Additionally, the smoke had continued to roll in, giving the entire area a post-apocalyptic feel.  
 
+We entered and promptly found the main office of the Columbia Plateau Trail State Park.  It was closed.  We were not suprised by this finding.  One could scarcely imagine the boredom of the poor ranger who drew the assignment to man this desk on a weekday. Had anyone been so unfortunate, they likely flipped the small sign to 'Closed' and laid down for a nap in the back room.  Or, perhaps, they were at lunch.  No matter, we grabbed a photo as proof of our visit and were on our way.  
 
-
+As we rolled on to our next park, we crossed over the trail.  We slowed and looked each direction. The path, long and straight. The ground, rocky and dry. The air, hot and smoky. No shade in sight. Not a day to be out on the Columbia Plateau Trail for any real length of time. Post-trip research showed it to be a work in progress.  Over 130 miles of former railraod bed stretching from south of Spokane to the Tri-Cities.  The sections near the two ends were well developed, in the middle -- where we now stood -- it remained a bit wilder. 
 
 &nbsp;
 &nbsp;
 &nbsp;
-
-
 
 ---------------------------------------------------------------------------------------------------
 
@@ -391,12 +395,13 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 &nbsp;
 
-From smoke to clear
-Mudhole
-Kids dragging a cement block attached to a tattered rope
-Late summer muck and mire
-NWR
+A tractor attempting to turn left had blocked east bound traffic. We waited patiently as we were, unfortunately, going that direction as well.  Normally, stopping the vehicle would wake the kids in the back bringing an abrupt end to a peaceful drive. But today, this trip, it was just us two.  Adults, an open road and a number of far-flung parks to check off of our list. The road cleared and we followed the farm implement down one of the arrow-straight roads branching off from Highway 26 in perfect perpendicular fashion every mile or so.  Destination: Potholes State Park. 
 
+Like so much of Washington east of the Columbia, the land here was shaped by the glacial floods. Scablands, as they are often referred to.  In the 1930s and 1940s, the Columbia Basin Irrigation Project radically changed the face of this land, adding dams, canals, reservoirs.  From this followed power generation and agriculture. The semi-arid land now transformed into a critical piece of the state's economy. The Potholes Reservoir collects up-gradient irrigation runoff and then redistributes it to down-gradient canals.  A massive holding tank turned recreational waterbody. 
+
+It wasn't particularly busy on a hot Friday morning in September. A few power boats raced back and forth across the water.  An elderly man happily cleaned a few fish at the designated station near the boat launch.  The irrigated grass beneath the willow trees on the main park grounds was plush; shockingly green against the dusty hills that surround it. The reservoir was low, well below the obvious shoreline. It hadn't rained here in months. An aroma of stale water and dying aquatice plants filled the air. We walked out through the late summer mud and mire to the water's edge where a nearby group of children collectively pulled a cement block attached to a rope across the cracked and drying mud. Busy little trilobytes skirting the sea floor. 
+
+The forecast called for smoke to blow north from the massive fires in Oregon.  Leaving the park, we could see the weather models were going to be correct.  We opted for the scenic route through the Columbia National Wildlife Refuge on our way back to the highway. Here the native basalt columns, sage brush and small, tepid ponds remained in their natural format. A preferable state to the neighoring reservoir, in my opinion. 
 
 &nbsp;
 &nbsp;
