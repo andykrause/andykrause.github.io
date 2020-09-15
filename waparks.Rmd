@@ -287,15 +287,17 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 &nbsp;
 
-xx
+I noted (lamented?) the extreme isolation of Palouse Falls in relation to anything else of possible interest or concern. I had, knowingly, taken a bit of poetic license with the truth. If you continue your journey just a seven miles down the road you will be rewarded with a second State Park, Lyons Ferry. Though be forewarned that the former is considerably more exciting. 
 
+<img src="images/waparks_lyonsferry.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+The smoke had continued to pour in from the south giving Lyons Ferry a low, artificial ceiling. We were one of a small handful of groups enjoying the grounds here at the confluence of the Snake and Palouse Rivers. A roving herd of wild turkeys roamed with authority while geese and other unidentified fowl played out their natural machinations in the calm backwaters of the river. A beach suggested that the swimming might be good here, though we did not test the waters. Nor did we do much hiking around. The interpretative signage, both of the Ice Age floods and of the visit by the Corps of Discovery (Lewis & Clark) some 200+ years ago were excellent and we left much wiser about the geological and European history of the area. Consider this an educational stop. The rail line that crosses far overhead seem impossibly narrow and liable to blow over in the softest of breezes; a feat of early 20th century engineering.   
+
+On this trip we were listening to an audio book, [Astoria](https://www.harpercollins.com/products/astoria-peter-stark?variant=32122181812258), by Peter Stark. As we worked our way south east across the State toward the Snake River, Astor's 1810 overland party was struggling through Hells Canyon along this same river, though a few hundred miles upstream. We had food, water and a reliable and fast mode of transit. By this point in their journey they had none of these, save some old moccassins to chew on and the occasional meal of horse meat. Despite our differences in circumstance, we felt some kinship with this ragged band of fortune seekers.  Their travails shaped our mood -- one of thankfulness, mostly, but also just a hint of envy regarding their short list of concerns, tasks and responsibilities.  Move, eat, sleep, stay alive. Leaving Lyons Ferry we crossed over the Snake at 55 miles per hour with the air conditioning on while enjoying a snack of fresh fruit (our party shall not fall prey to scurvy)...perhaps modern travel wasn't so bad after all.        
 
 &nbsp;
 &nbsp;
 &nbsp;
-
-
-
 
 ---------------------------------------------------------------------------------------------------
 
@@ -321,6 +323,8 @@ gridExtra::grid.arrange(rasterGrob(img),
 &nbsp;
 
 To get to Palouse Falls, you drive to the absolute, literal, middle of nowhere and then turn left down a dirt road for a few miles. Once you cross over a railline blasted through pure basalt and find yourself in an odd labyrinth of parking lots you'll know you are there. Past the parking lots, a massive crack in the earth appears with a waterfall plunging 200ft down into into a canyon. Pure vertical walls of the same height again rise up on either side of the falls, giving the canyon a mucher grander appearane. 
+
+<img src="images/waparks_palousefalls.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 Were it not for its location of utmost inconvenience, the park would likely be overrun with tourist busses, a gift shop and acres of paved parking. On this hot, smoky afternoon, there were but a few dozen people milling about the grounds.  A busier park would also need more fencing and patrols for safety.  The drop into the abyss is sudden and lethal.  A small fence surrounds the main viewing platform.  As you venture out up above the falls the only profalactics here are a few signs reminding you that previous hikers have died here so don't be stupid. 
 
@@ -364,6 +368,8 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 East of Othello, life dwindles.  Human, animal, plant.  All of it.  The next recognizable town on the map is Washtucna.  Dry and dusty, the shuttered storefronts and deferred maintenance suggested that Washtucna had seen better days. Past wealth from agriculture had moved on. Additionally, the smoke had continued to roll in, giving the entire area a post-apocalyptic feel.  
 
+<img src="images/waparks_columbiaplateautrail.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
 We entered and promptly found the main office of the Columbia Plateau Trail State Park.  It was closed.  We were not suprised by this finding.  One could scarcely imagine the boredom of the poor ranger who drew the assignment to man this desk on a weekday. Had anyone been so unfortunate, they likely flipped the small sign to 'Closed' and laid down for a nap in the back room.  Or, perhaps, they were at lunch.  No matter, we grabbed a photo as proof of our visit and were on our way.  
 
 As we rolled on to our next park, we crossed over the trail.  We slowed and looked each direction. The path, long and straight. The ground, rocky and dry. The air, hot and smoky. No shade in sight. Not a day to be out on the Columbia Plateau Trail for any real length of time. Post-trip research showed it to be a work in progress.  Over 130 miles of former railraod bed stretching from south of Spokane to the Tri-Cities.  The sections near the two ends were well developed, in the middle -- where we now stood -- it remained a bit wilder. 
@@ -396,6 +402,8 @@ gridExtra::grid.arrange(rasterGrob(img),
 &nbsp;
 
 A tractor attempting to turn left had blocked east bound traffic. We waited patiently as we were, unfortunately, going that direction as well.  Normally, stopping the vehicle would wake the kids in the back bringing an abrupt end to a peaceful drive. But today, this trip, it was just us two.  Adults, an open road and a number of far-flung parks to check off of our list. The road cleared and we followed the farm implement down one of the arrow-straight roads branching off from Highway 26 in perfect perpendicular fashion every mile or so.  Destination: Potholes State Park. 
+
+<img src="images/waparks_potholes.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 Like so much of Washington east of the Columbia, the land here was shaped by the glacial floods. Scablands, as they are often referred to.  In the 1930s and 1940s, the Columbia Basin Irrigation Project radically changed the face of this land, adding dams, canals, reservoirs.  From this followed power generation and agriculture. The semi-arid land now transformed into a critical piece of the state's economy. The Potholes Reservoir collects up-gradient irrigation runoff and then redistributes it to down-gradient canals.  A massive holding tank turned recreational waterbody. 
 
