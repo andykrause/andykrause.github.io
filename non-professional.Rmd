@@ -17,16 +17,25 @@ output:
 
 &nbsp;
 
+<img src="images/wastateparks_logo.jpeg" style="width:15%; margin-left:20px; margin-right: 20px" align="left">
+
+&nbsp;
+
 One's adventure quotient can take a sizable hit when raising young children.  To help us continue to explore and to engender a healthy love of the outdoors in our kids, we've embarked on a quest to visit all of Washington's 136 State Parks.  
 
 &nbsp;
+
 ---------------------------------
 
 <a style="font-weight:bold;font-size:24px" href="books.html">Book Reviews</a>
 
 &nbsp;
 
-I used to read a lot of books. I still do, though they are now focused on Dr. Suess and the Adventures of Maisy.  Most of my literary intake is now via audio book, which is great when you need to consume literature on your lunch walks and occasional bus rides.  However, I find it less useful for actually retaining knowledge of what I've read.  To help this and to force me to write more, I'm self-enforcing book reviews.
+<img src="images/bookreview.png" style="width:15%; margin-left:20px; margin-right: 20px" align="left">
+
+&nbsp;
+
+I used to read a lot of books. I still do, though they are now focused on Dr. Suess and the Adventures of Maisy.  Most of my literary intake is now via audio book, which is great when you need to consume literature on your lunch walks and occasional bus rides.  However, I find it less useful for actually retaining knowledge of what I've read.  To help this and to encourage me to write more, I'm self-enforcing book reviews.
 
 &nbsp;
 ---------------------------------
