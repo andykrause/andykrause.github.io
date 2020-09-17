@@ -9,7 +9,7 @@ output:
 &nbsp;
 &nbsp;
 
-## <span style="color:#2E86C1"> Non-Professional Pursuits
+## <span style="color:#00802b"> Non-Professional Pursuits
 
 &nbsp;
 
@@ -31,14 +31,14 @@ I used to read a lot of books. I still do, though they are now focused on Dr. Su
 &nbsp;
 ---------------------------------
 
-<a style="font-weight:bold;font-size:24px" href="on-being-fair.html">On Being Fair</a>
+<!-- <a style="font-weight:bold;font-size:24px" href="on-being-fair.html">On Being Fair</a> -->
 
-&nbsp;
+<!-- &nbsp; -->
 
-An irregularly updated look at contemporary issues through the lens of fairness.  
+<!-- An irregularly updated look at contemporary issues through the lens of fairness.   -->
 
-&nbsp;
-&nbsp;
+<!-- &nbsp; -->
+<!-- &nbsp; -->
 
 
 

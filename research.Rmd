@@ -8,30 +8,11 @@ output:
 
 &nbsp;
 
+----------
+
 ## <span style="color:#21618C"> Current Research</span>
 
 &nbsp;
-&nbsp;
-
-### <span style="color:#2E86C1"> AVM Uncertainty </span>
-
-&nbsp;
-
-[**Uncertainty in Automated Valuation Models: Error- vs Model-Based Approaches**]((https://dx.doi.org/10.1080/09599916.2020.1807587))
-
-* *With Andy Martin and Matthew Fix (both @ Zillow)*
-
-* *Forthcoming in the Journal of Property Research, Special Edition on Automated Valuation Services*   [Access via DOI](https://dx.doi.org/10.1080/09599916.2020.1807587)
-
-Point estimates from Automated Valuation Models (AVMs) represent the most likely value from a distribution of possible values. The uncertainty in the point estimate – the width of the range of possible values at a given level of confidence – is a critical piece of the AVM output, especially in collateral and transactional situations. Estimating AVM uncertainty, however, remains highly unstandardised in both terminology and methods. In this paper we present and compare two of the most common approaches to estimating AVM uncertainty – model-based and error-based prediction intervals. We also present a uniform language and framework for evaluating the calibration and efficiency of uncertainty estimates. Based on empirical tests on a large, longitudinal dataset of home sales, we show that model-based approaches outperform error-based ones in all but cases with very highest confidence level requirements. The differences between the two methods are conditioned on model class, geographic data partitions and data filtering conditions.
-
-The pre-print working paper is [here](files/krause_et_al_avm_unc.pdf)
-
-&nbsp;
-&nbsp;
-
-### <span style="color:#2E86C1"> House Price Indexes </span>
-
 &nbsp;
 
 **A Machine Learning Approach to House Price Indexes**
@@ -51,10 +32,6 @@ A draft copy of the paper can be found [here](files/krause_hrb.pdf)
 &nbsp;
 &nbsp;
 
-### <span style="color:#2E86C1">AirBNB Markets</span>
-
-&nbsp;
-
 **Should I Airbnb my Property?**
 
 With the rise of Airbnb and other self-hosting accommodation platforms, it is easier than ever for property owners and investors to consider short-term rental (STR) as a potential leasing strategy for a revenue generating residential property. Should they though? Or rather, is it more profitable to do so when compared to long-term rental (LTR)? And further, are certain types of properties in specific locations more likely to show a preference for a short-term leasing strategy over long-term one.
@@ -62,30 +39,8 @@ With the rise of Airbnb and other self-hosting accommodation platforms, it is ea
 To address these questions and to provide some guidance to potential and current investors and owners, we examine the short- and long-term residential rental market in Melbourne, Australia. Melbourne has a thriving short-term rental market with over 20,000 total properties listed on the Airbnb portal, the source of our short-term market data.
 We adopt a scenario-based approach that compares observed annual revenues for short-term rental (STR) properties with an estimate of their expected long-term rental revenues. Our results show that the feasibility of a greater return through a short-term rental – what we have termed “Short-Term Preference” – is dependent on property type, product, location and host policies. In short, the answer to whether or not a owner or investor should opt for a short-term leasing strategy: it depends. A draft copy of the paper can be found [here](files/krause_aschwanden_airbnb.pdf)
 
-&nbsp;
 
-**The AirBNB market in Melbourne**
-
-This research presents a `census’ of the current state of Airbnb in the Melbourne metropolitan region. We document and analyse trends for the 22-month time period from October 2014 through August 2016. The data that we analyse has been obtained from www.airdna.co, a data provider specializing in Airbnb data collection and analysis. The data includes information on each property – such as location, bedrooms, bathrooms, first date on the website, etc. – as well as information on the daily booking status and price of each property for each day since October 2014. A draft copy of the paper can be found [here](files/krause_aschwanden_airbnb_melb.pdf)
-
-&nbsp;
-&nbsp;
-
-### <span style="color:#2E86C1">Rental Yields </span>
-
-&nbsp;
-
-**Rental Yields in Melbourne**
-Rental yields (rent-to-price ratios) are an important metric in judging both the viability of a housing investment as well as the overall health of the market. In this study, we use the property level rental yield calculations made in an earlier work to analyse the variation in the Melbourne market. This study is focused on market transactions that occurred in the year 2015. [here](files/krause_aschwanden_rentalyield.pdf)
-
-&nbsp;
-
-**Rental Yield Calculation Methods**
-In studies of residential real estate markets the relationship between rents and prices are an oft-used indicator of both investment potential as well as bubble identification. Most often, this relationships (referred to as rent-price ratio, price-rent ratio or rental yield) are constructed via simple metrics such as medians or means using spatially aggregated data. In such cases, inconsistencies between the types of properties that rent and sell as well as the constant quality differences between similar sales and rentals of a given property type may lead to biased measures. In this study we use a unique set of transaction-level observations - residential sales and rentals - in the Melbourne Metropolitan Area (Australia) to test for differences in the measured relationship between rents and prices using four different estimation techniques. More specifically we compare relatively simple spatial aggregation and index methods to a hedonic regression imputation method and a direct matching method. Our results show that, in general, the rent-price ratios (rental yields) suggested by
-the median and index methods are biased on the low side (up to 20%) when compared with direct matches of properties that have sold and rented (or vice versa) within a short time period. These biases have increased over the past I've years suggesting that the mix of rental and sold units has changed during this period. Additionally, in a test to determine which method offers the best predictive accuracy of future sales prices and rental rates, the direct match method fares the best, followed closely by hedonic imputation. [here](files/krause_aschwanden_prr.pdf)
-
-&nbsp;
-&nbsp;
+----------
 
 ## <span style="color:#21618C"> Published Research</span>
 
@@ -109,6 +64,16 @@ F. University of California Press, Co-Authored with Estiri, H. ISBN: 97805202947
 &nbsp;
 
 ### <span style="color:#2E86C1"> Journal Articles</span>
+
+&nbsp;
+
+#### 2020
+
+**Krause, A., A. Martin, M. Fix. *Uncertainty in Automated Valuation Models: Error- vs Model-Based Approaches.* Journal of Property Research. Forthcoming.** [Access via DOI](https://doi.org/10.3390/risks6020037).
+
+Point estimates from Automated Valuation Models (AVMs) represent the most likely value from a distribution of possible values. The uncertainty in the point estimate – the width of the range of possible values at a given level of confidence – is a critical piece of the AVM output, especially in collateral and transactional situations. Estimating AVM uncertainty, however, remains highly unstandardised in both terminology and methods. In this paper we present and compare two of the most common approaches to estimating AVM uncertainty – model-based and error-based prediction intervals. We also present a uniform language and framework for evaluating the calibration and efficiency of uncertainty estimates. Based on empirical tests on a large, longitudinal dataset of home sales, we show that model-based approaches outperform error-based ones in all but cases with very highest confidence level requirements. The differences between the two methods are conditioned on model class, geographic data partitions and data filtering conditions.
+
+The pre-print working paper is [here](files/krause_et_al_avm_unc.pdf)
 
 &nbsp;
 
@@ -250,4 +215,28 @@ on Residential Property Values*, Journal of Real Estate Literature 29(3), 303-32
 [Access via DOI](http://aresjournals.org/doi/abs/10.5555/rees.29.3.lg5hq60530884755)
 
 Most of the literature on transit corridors, such as superhighways and tunnels, focuses on the positive externality of transit access (e.g., interstate access, transit station) and fails to isolate the negative externality of the corridor itself. This empirical study examines two situations: one with both access benefits and negatives, and another without the access benefit. The findings reveal that proximity to the transit corridor alone without direct access conveys a negative impact on nearby housing values.
+
+## <span style="color:#21618C"> Past, Unpublished Work</span>
+
+&nbsp;
+&nbsp;
+
+**The AirBNB market in Melbourne**
+
+This research presents a `census’ of the current state of Airbnb in the Melbourne metropolitan region. We document and analyse trends for the 22-month time period from October 2014 through August 2016. The data that we analyse has been obtained from www.airdna.co, a data provider specializing in Airbnb data collection and analysis. The data includes information on each property – such as location, bedrooms, bathrooms, first date on the website, etc. – as well as information on the daily booking status and price of each property for each day since October 2014. A draft copy of the paper can be found [here](files/krause_aschwanden_airbnb_melb.pdf)
+
+&nbsp;
+&nbsp;
+
+**Rental Yields in Melbourne**
+Rental yields (rent-to-price ratios) are an important metric in judging both the viability of a housing investment as well as the overall health of the market. In this study, we use the property level rental yield calculations made in an earlier work to analyse the variation in the Melbourne market. This study is focused on market transactions that occurred in the year 2015. [here](files/krause_aschwanden_rentalyield.pdf)
+
+&nbsp;
+
+**Rental Yield Calculation Methods**
+In studies of residential real estate markets the relationship between rents and prices are an oft-used indicator of both investment potential as well as bubble identification. Most often, this relationships (referred to as rent-price ratio, price-rent ratio or rental yield) are constructed via simple metrics such as medians or means using spatially aggregated data. In such cases, inconsistencies between the types of properties that rent and sell as well as the constant quality differences between similar sales and rentals of a given property type may lead to biased measures. In this study we use a unique set of transaction-level observations - residential sales and rentals - in the Melbourne Metropolitan Area (Australia) to test for differences in the measured relationship between rents and prices using four different estimation techniques. More specifically we compare relatively simple spatial aggregation and index methods to a hedonic regression imputation method and a direct matching method. Our results show that, in general, the rent-price ratios (rental yields) suggested by
+the median and index methods are biased on the low side (up to 20%) when compared with direct matches of properties that have sold and rented (or vice versa) within a short time period. These biases have increased over the past I've years suggesting that the mix of rental and sold units has changed during this period. Additionally, in a test to determine which method offers the best predictive accuracy of future sales prices and rental rates, the direct match method fares the best, followed closely by hedonic imputation. [here](files/krause_aschwanden_prr.pdf)
+
+&nbsp;
+&nbsp;
 
