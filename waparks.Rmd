@@ -127,7 +127,54 @@ There are a lot of state parks in Washington State, 139 in all, and not all are 
 &nbsp;
 &nbsp;
 
+---------------------------------------------------------------------------------------------------
 
+#### 65) [Bay View](http://parks.state.wa.us/473/Bay-View): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_bayview.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Bay View'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 64) [Scenic Beach](http://parks.state.wa.us/579/Scenic-Beach): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_scenicbeach.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Scenic Beach'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+In addition to sending us to new and exciting corners of this state, our Parks Challenge has consistently pushed us through times of low motivation to be more active and engaged with the kids. It often means naps in the car and eating more travel snacks than an ideal diet would call for, but, in general our determination -- our grit -- has been richly rewarded. That said, we may have pushed it a bit too far on our trip to Scenic Beach. 
+
+As we loaded the ferry in downtown Seattle bound for Bremerton, Erin felt a migraine coming on.  It was, physically, too late to turn around as such a manuever on the dock enroute to the boat would have likely caused a visit from the Coast Guard. Ferry trips during COVID aren't nearly as much fun as its hard to keep the kids from running around on the passenger decks. Fortunately, it was an early morning boat and the exterior top level, the sun deck was empty.  It was not sunny and was somewhat cold, but it was large enough and well fenced that I could singularly, and safely, corral them without endangering other passengers.  Armed with plentiful snacks, we survived the hour long crossing. The three boys terrorizing the upper level of the boat; mom resting in the car.   
+
+The forecast had called for 10% chance of rain. Upon our arrival the rain began and continued for the entire drive to the park. As we disembarked the automobile it tapered to a light drizzle. Erin had improved to the point where should could take a small hike down to the beach.  The tide was up, obscuring most of the beach. The kids got into some rotten apples that had fallen from a tree and nearly were attacked by yellow jackets.  The youngest had a bowel movement that his diaper didn't quite hold.  Upon returning from that cleanup, I cut my hand showing the elder child how to open an oyster with a rock. We abandoned the beach for a hike in the woods.  After the first small hill, and noting the frustrating morning, no doubt, the elder child declared that he didn't want to be at a park any more and just wanted to go home. So we did.  Multiple hours in travel, 45 minutes at Scenic Beach Park.  On the plus side, both kids got to sit atop a decommissioned torpedo on the Bremerton wharf while we waited for the return boat...clearly the highlight of the trip.  
 
 ---------------------------------------------------------------------------------------------------
 
