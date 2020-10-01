@@ -148,7 +148,7 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-To this point we had driven some 3,500 miles on our Parks Challenge without any major incidents.  No accidents, no flat tires, our boat never ran aground, our paddleboards never tipped. No altercations with locals, no harassment by or of wild animals and no visits from law enforcement. Just a few miles south of Bay View State Park we stained our perfect record.  One of us mentioned to the other that we appeared to be gaining on a motorcycle that may have been a police vehicle. Shortly thereafter we were pulled over for speeding through the small town of Bay View.  
+To this point we had driven some 3,500 miles on our Parks Challenge without any major incidents.  No accidents, no flat tires, our boat never ran aground, our paddleboards never tipped. No altercations with locals, no harassment by or of wild animals and no visits from law enforcement. Just a few miles south of Bay View State Park we stained our perfect record.  One of us mentioned to the other that we appeared to be gaining on a motorcycle that may have been a police vehicle. Shortly thereafter we were pulled over for speeding through the small town of Bay View.  A mask covered the smug grin on the passenger's face.  
 
 The driver's (who shall remain nameless) previously unblemished record may have resulted in us getting off with a warning.  Our biggest concern was that our four-year-old -- who has taken to calling out speed limits sign whenever he sees them -- was going to tattle on us to the highway patrolman regarding our conversation about knowingly speeding prior to the incident. He kept quiet, likely transfixed by the flashing lights at our immediate rear.  
 
