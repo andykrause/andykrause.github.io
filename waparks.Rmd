@@ -129,6 +129,68 @@ There are a lot of state parks in Washington State, 139 in all, and not all are 
 
 ---------------------------------------------------------------------------------------------------
 
+#### 67) [Lake Chelan](https://parks.state.wa.us/531/Lake-Chelan): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_lakechelan.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Lake Chelan'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Lake Chelan State Park is only nine miles from Twenty-Five Mile Creek. It feels a lot longer when you are jammed between two car seats trying to keep your kids from mutiny. The long day in the car was getting to them and no amount of beautiful mountains views or parental singing from the front seat would mollify them.  No, the moment called for direct adult interaction paired with snacks and videos, hence my position in the back seat. 
+
+<img src="images/waparks_lakechelan.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Where Twenty-Five Mile Creek was mostly a camping and boating crowd -- and a small one at that -- Lake Chelan was filled with day users and RVs.  With a playground, larger beach and a store, it is a much bigger draw than Twenty-Five Mile Creek, not to mention closer to town.  As a result, it was also much more crowded, though not uncomfortably so.  Big groups abounded without a mask to be seen.  A time traveler from the deep past (say February 2020), would have had no idea we were amidst a pandemic; one currently affecting our highest levels of government^[I use this term as a matter of official-ness, not a measure of capacity, ability or even motivation]. 
+
+We didn't stay long.  A quick trip to the beach to dip our toes and then a few runs down the slide and off we went. I returned to the rear, center seat for the 30 min ride to our rental home. Our place on Wapato Point was a mere 1.4 miles across the water, but 20-some miles by road and, thus, around the lake we drove. Uncomfortable as it maybe, the rear seat does afford one the opportunity to selectively filter the chocolate pieces from the trail mix without your spouse knowing, so it isn't all bad. 
+
+---------------------------------------------------------------------------------------------------
+
+#### 66) [Twenty-Five Mile Creek](https://parks.state.wa.us/293/Twenty-Five-Mile-Creek): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_twenty-fivemilecreek.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Twenty-Five Mile Creek'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Six highways, three passes, five stoplights, one pit stop and 196 miles later we arrived at Twenty-Five Mile Creek State Park.  On its own, it is not a destination worth a journey of that extent, but we were making a weekend of it in Chelan so, in truth, getting here was only a minor detour.  
+
+<img src="images/waparks_twentyfivemilecreek.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Dominating the waterfront is the marina, oddly empty this gorgeous October weekend. A small beach rests inside of the moorage.  So well cordoned off is the marina that the water inside its confines is algae laden and discolored, a sharp contrast to the signature crystal clear water of the rest of the lake.  A smell wafted from the water, eerily reminiscent of the late summer lakes of my northern Wisconsin youth. A walk to the end of the concrete pier/breakwater will get you past the smell and out to a full, wide view across the lake.  This far up it -- nearly 1/3 of the way from the southern most point where the Chelan River exits -- you can look out across and see no human development at all.  Just a few sparse trees dotting the brown hills that dive straight into the water.  It is a side of Chelan that few likely get to see. 
+
+Next to the marina is the creek. A small water course with driftwood and bubbling falls, its a better place to spend an afternoon -- for adults and children alike -- than the lakeside beach.  While our attempt at building a beaver dam was ultimately unsuccessful, we did manage to escape with only a few bumps and bruises. Not an easy feat for two small children amidst slick rocks and sharp sticks. Upstream from our failed hydro project, we found a school of small sockeye salmon working their way slowly up the creek. Too tired to hide, they allowed us to get close enough to nearly touch then. A quick snack and repack of the car and we were on our way.     
+
+---------------------------------------------------------------------------------------------------
+
 #### 65) [Bay View](http://parks.state.wa.us/473/Bay-View): 
 
 &nbsp;
@@ -148,7 +210,11 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
+&nbsp;
+
 To this point we had driven some 3,500 miles on our Parks Challenge without any major incidents.  No accidents, no flat tires, our boat never ran aground, our paddleboards never tipped. No altercations with locals, no harassment by or of wild animals and no visits from law enforcement. Just a few miles south of Bay View State Park we stained our perfect record.  One of us mentioned to the other that we appeared to be gaining on a motorcycle that may have been a police vehicle. Shortly thereafter we were pulled over for speeding through the small town of Bay View.  A mask covered the smug grin on the passenger's face.  
+
+<img src="images/waparks_bayview.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 The driver's (who shall remain nameless) previously unblemished record may have resulted in us getting off with a warning.  Our biggest concern was that our four-year-old -- who has taken to calling out speed limits sign whenever he sees them -- was going to tattle on us to the highway patrolman regarding our conversation about knowingly speeding prior to the incident. He kept quiet, likely transfixed by the flashing lights at our immediate rear.  
 
@@ -175,7 +241,11 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
+&nbsp;
+
 In addition to sending us to new and exciting corners of this state, our Parks Challenge has consistently pushed us through times of low motivation to be more active and engaged with the kids. It often means naps in the car and eating more travel snacks than an ideal diet would call for, but, in general our determination -- our grit -- has been richly rewarded. That said, we may have pushed it a bit too far on our trip to Scenic Beach. 
+
+<img src="images/waparks_scenicbeach.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 As we loaded the ferry in downtown Seattle bound for Bremerton, Erin felt a migraine coming on.  It was, physically, too late to turn around as such a manuever on the dock enroute to the boat would have likely caused a visit from the Coast Guard. Ferry trips during COVID aren't nearly as much fun as its hard to keep the kids from running around on the passenger decks. Fortunately, it was an early morning boat and the exterior top level, the sun deck was empty.  It was not sunny and was somewhat cold, but it was large enough and well fenced that I could singularly, and safely, corral them without endangering other passengers.  Armed with plentiful snacks, we survived the hour long crossing. The three boys terrorizing the upper level of the boat; mom resting in the car.   
 
@@ -201,6 +271,8 @@ gridExtra::grid.arrange(rasterGrob(img),
                         nrow = 1,
                         as.table = TRUE)
 ```
+
+&nbsp;
 
 Heading west from the Tri-Cities you leave the Columbia and begin to climb back up the eastern flank of the Cascades along the Yakima River. Decades of irrigation projects have turned this valley into a bright green ribbon among the arid hills. As we rose in elevation the air began to clear. Nowhere near normal, but to a level much more suitable for outdoor exploration. 
 

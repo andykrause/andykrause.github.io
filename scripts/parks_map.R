@@ -112,6 +112,7 @@
     dplyr::mutate(Measure = round(Measure, 0))
   
   saveRDS(summ_df, file.path(getwd(), 'data', 'created', paste0('summary.RDS')))
+  
   saveRDS(visited_sf %>%
             dplyr::left_join(., data_df %>%
                                dplyr::select(Abbrv, Driven, Boated, Ferried, Hiked, Paddleboarded),
