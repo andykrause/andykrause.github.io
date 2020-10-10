@@ -127,6 +127,165 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 &nbsp;
 
+
+---------------------------------------------------------------------------------------------------
+
+#### 72) [Rasar](https://parks.state.wa.us/571/Rasar): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_rasar.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Rasar'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+With the morning's mechanical delays, our time at Rasar needed to be short and sweet in order to make our ferry. We all piled out of the car to make requisite bathrooms runs and diaper changes before sitting down for a picnic in the long, soft grass. Leaves the size of our heads gently drifted down from the big leaf maples surrounding the day use area. No views from here, but a pleasant mix of sunshine and shade.  Hints of autumn's pending arrival all around. 
+
+<img src="images/waparks_rasar.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Sated, we headed out for a quick hike; a much needed stretching of the legs after the three hour drive from Twisp. We took the nearest trail down the hill and out into the flat floodplain of the Skagit River.  Oddly placed directly in the middle of a large meadow is a single picnic table and large, interpretive sign.  Expecting some explanation of riverine action or fluvial dynamics on the sign, I was surprised to find that it contained a short anecdote about an experience a ranger had with a threatening bull elk near this very spot.  I guess its intent was to serve as a warning to future hikers. Or maybe to call our attention to the wonders of elk mating habits. It is really hard to say. After looking at my fair share of signage at the previous 71 state parks, this certainly qualifies as the oddest.
+
+While I scanned the horizon for angry ungulates, the eldest picked flowers (dandelions) and braided them into small ropes. The younger child was testing out various ways to injure himself on the picnic table; fortunately a failed endeavor. The only sounds were the distant rush of the river and the occasional crow flying over head.  For a minute, it was relaxing.  Then the clock called and we had to pack up and hit the road again bound for Anacortes. Our ferry ended up being delayed and our rush was for naught. Considering we began the day with three functioning tires and no electricity, you'll hear no complaints about a bit of a wait at the ferry dock. 
+
+&nbsp;
+
+---------------------------------------------------------------------------------------------------
+
+#### 71) [Rockport](https://parks.state.wa.us/574/Rockport): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_rockport.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Rockport'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+The kids slept through the night in our small hotel room in Winthrop and we all woke refreshed for another day on the road, this one our last of this trip.  Unfortunately, our morning would deteriorate.  Returning from a morning run along the Methow River, I noticed that we had a flat tire.  This was the first vehicular issue of the trip, nearly 4,000 miles into our Parks Challenge. Returing to the hotel room to convey the bad news, I wasn't the only one with something to share.  The power had gone out in the hotel and, according to the front desk in all of Methow Valley.  A call to Les Schwab in Twisp confirmed that they had time to fix our tire but could only do so if the power returned. We faced the possibility of spending more time here than originally planned.
+
+<img src="images/waparks_rockport.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+It wasn't the missed ferry reservation or the need to entertain the kids while at the repair shop that bothered us. No, our fear and loathing was precipitated by the possibility of a mis-alignment between the longer mountain crossing and the children's naps.  The nap schedule (read: our two hours of sanity) drove our trip planning and that now was threatened. After a quick consultation with our owner's manual I was able to put the spare tire on; enough to get us to the mechanic.  Off we went, 10 miles in the wrong direction hoping the power would return.  Luckily it had and after an hour we had a patched tire and were on our way back west on Highway 20.  With any luck we'd still make our 3:05 ferry. 
+
+Our original plan had been a picnic lunch at Rockport State Park. The kids were still sleeping so we opted for a slow roll through the park, aweing at the big trees and fall colors.  The car never stopping so as to keep the backseat asleep.  Forty-five minutes early at a lookout over Ross Lake, we pulled a similar maneuver where one of us jumped out of the moving vehicle for a quick bathroom run while the other drove circles in the parking lot.  Missing a hike through the old growth at Rockport was a missed opportunity, but given our morning if that is all we missed out on we'll consider the day salvaged.  
+
+---------------------------------------------------------------------------------------------------
+
+#### 70) [Pearrygin Lake](https://parks.state.wa.us/563/Pearrygin-Lake): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_pearryginlake.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Pearrygin Lake'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Judging from the size of the parking lot, Pearrygin Lake State Park can get busy.  Lucky for us, on this gorgeous weekday aftenoon in October our fellow patrons only numbered in the dozens. We easily found a prime beach spot that allowed for both direct water access and enough shade. After three or four trips back and forth from the car we had all of our necessities and could settle in for an afternoon at the lake. While we had plenty of experience on the road by now and had been developing little systems to help simply the process of traveling with kids, rare is the occasion that a followup trip to get the missing this or that isn't needed.  No amount of organizing or preparation seems to be able to allow one to run contrary to this Law of Parenting.  
+
+<img src="images/waparks_pearryginlake.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+The water appeared inviting and I was sweating from all the back and forth.  Looks can be deceiving.  The cold autumn evenings kept the lake temperature down and my swim was quickly aborted. Even the kids kept to knee deep or less in the cold water. We mostly collected sticks and rocks to build little beach structures and tried to keep the little one from destroying the big ones things. A pretty standard day at the beach. 
+
+Over the afternoon the beach slowly filled in.  A few paddleboarders, another family that also appeared a bit weary from the journey here and a number of dog walkers.  A single jet ski tore around the lake, interupting our peace and quiet (Note: I used this term lightly given we have a toddler).  No one else went for a swim, confirming to me that I wasn't just wimpy and that the water was actually too cold for sustained submersion. 
+
+---------------------------------------------------------------------------------------------------
+
+#### 69) [Bridgeport](https://parks.state.wa.us/480/Bridgeport): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_bridgeport.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Bridgeport'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+Exiting Highway 17 towards Bridgeport State Park you leave the manicured orchards and road side stands for the native sagebush hills.  On your left as far as the eye can see the olive green of the thinly scattered desert vegetation. On your right the massive Chief Joseph Dam; the water churning, the power lines humming. It is sparse out here. No people or moving vehicles in sight. The river pushes on toward the sea, slowing briefly for these annoyances that man has put in its way. Continuing on Half Sun Way, up and over a small rise and the Dam and its accessorties recedes from view.  Burnt hills arise in the distance. A few birds of prey hang in the thermals rising from the land heating in the bright mid-morning sun. Passing through the abandoned Lake Woods Golf Course on the river side adds to the feeling of desolation.  
+
+<img src="images/waparks_bridgeport.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Honestly, the drive in had lowered our expectations for the park. Just another one to cross off of the list. Well, actually not just another one. Bridgeport would mark the halfway point of our State Parks Challenge.  For six of the past nine months (minus a 3-month COVID break) we've been dipping our toes at beaches and scouting campsites all over the state. Consulting our trusty gazetteeer (and Google Maps) to plot routes to to best align with nap schedules. And, most importantly, stocking up on snacks to help manage the emotions of all members of our intrepid party. In doing so we've driven the equivalent Seattle to Key West, crossing the Cascades eight times, the Columbia River six. Setting foot in 24 counties and on 18 different islands. We were hoping for a joyous park experience to mark our progress. 
+
+Arriving a Bridgeport we were so pleased to have been utterly wrong in our initial inference. The autumn colors here shown bright, the lawns well manicured, the park empty. Other than a few remaining RVs we had the entire park to ourselves, much more space that we could ever hope to use. It was late enough in the morning that a swim would have been refreshing not chilling, but the large sign warning of toxic algae kept us out of the water. We explored the grounds freely, the kids excited at having the large playground to themselves, us adults noting the amazing views of the Columbia from the walk-in campsites for a return trip.  We managed a short hike up the interpretative trail before returning to quell the hunger complaints from some of our party.  Sated, we piled back in the car for the drive up the Methow Valley. Bridgeport is a wonderful park set amidst the lonesome shore of the Columbia River; a fitting marker of our progress. 
+
+The first half our challenge complete -- 68 more parks to go. 
+
+---------------------------------------------------------------------------------------------------
+
+#### 68) [Alta Lake](https://parks.state.wa.us/239/Alta-Lake): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_altalake.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Alta Lake'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+&nbsp;
+
+On a calm, October Monday morning Alta Lake lay still. A single aluminium fishing craft slowly trolled across it so slow its wake didn't upset the glass-pane texture of the water.  The parking lot was no busier.  No bodies at the beach, the concession stand locked up for the season. After spending the weekend at Lake Chelan, the emptiness here was welcome. 
+
+<img src="images/waparks_altalake.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Burn scars from the 2014 fire still show on the larger remaining trees. The vegetation is mostly quick growing, post-fire plants. The cold nights have turned the leaves all shades of vibrant colors, the reds and yellow striking against the pure blue water and the irrigated greens of the parks lawns.  Around this natural palette brown hills form a bounding ring. Lest I wax too poetically about the natural scenery here, do note that much of the shoreline is privately owned and filled with modern homes, docks and boats.  
+
+This early in the day it was too cold for a swim.  We settled for a short hike to see the ghost trees down by the NW end of the lake and then spent a long episode at the swingset -- which appeared to be the only playground equipment to have survived the fire.  In fact it may have survived the past few fires.  On second thought, I wouldn't be suprised if it was there when the first European settlers stumbled up the rim and looked down into the concavity holding in the lake. 
+
+
+Colors, emptiness
+
 ---------------------------------------------------------------------------------------------------
 
 #### 67) [Lake Chelan](https://parks.state.wa.us/531/Lake-Chelan): 

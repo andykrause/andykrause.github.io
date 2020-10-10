@@ -19,17 +19,27 @@ editor_options:
   visited_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('visited.RDS')))
   points_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('points.RDS')))
   routes_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('routes.RDS')))
+  drives_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('drives.RDS')))
+  hikes_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('hikes.RDS')))
+  ferries_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('ferries.RDS')))
+  boating_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('boating.RDS')))
+  paddle_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('paddle.RDS')))
   boundaries_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('boundaries.RDS')))
   
-  
-  points_sf <- 
-   points_sf %>% dplyr::mutate(Visited = ifelse(Visited == 1, 
+  Parks <- 
+   points_sf %>% dplyr::mutate(`State Parks` = ifelse(Visited == 1, 
                                                 paste0('Been There: ', nrow(visited_sf)),
                                                 paste0('Not Yet: ', nrow(data_df) - nrow(visited_sf))))
 
-  routes_sf <- routes_sf %>%
-    dplyr::mutate(type = ifelse(type == 'drive', 'automobile', type),
-                  `Travel Mode` = type)
+  `Park Boundaries` <- boundaries_sf %>%
+    dplyr::filter(Abbrv %in% visited_sf$Abbrv)
+
+  `Drives` <- drives_sf
+  `Ferries` <- ferries_sf
+  `Boating` <- boating_sf
+  `Hikes` <- hikes_sf
+  `Paddled` <- paddle_sf
+
   
 ```
 
@@ -38,24 +48,29 @@ editor_options:
 
 ```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 10, fig.height = 7}
 
-
-  
-  Boundaries <- boundaries_sf %>%
-    dplyr::filter(Abbrv %in% visited_sf$Abbrv)
-
   tmap_mode("view")
   
+  tm_shape(`Park Boundaries`) + 
+    tm_polygons(col = 'darkgreen', alpha = .48) +
 
-  tm_shape(Boundaries) + 
-    tm_polygons(col = 'darkgreen', alpha = .8) +
-    #tm_text("Abbrv", size = .8, ymod = .1, col = 'gray60') +
-  
-  tm_shape(routes_sf, alpha = .8) + 
-    tm_lines(col="Travel Mode", scale=2, legend.lwd.show = FALSE, 
-             palette = c('gray70', 'darkslategray3', 'deepskyblue4', 'brown', 'red')) +
+   tm_shape(Drives, alpha = .8) + 
+    tm_lines(col = 'gray80', scale = 1, legend.lwd.show = TRUE) + 
     
-  tm_shape(points_sf, alpha = .8) + 
-    tm_dots(col='Visited', palette = c('forestgreen', 'black')) 
+  tm_shape(Ferries, alpha = .8) + 
+    tm_lines(col = 'purple', scale = 2, legend.lwd.show = FALSE) + 
     
+  tm_shape(Boating, alpha = .8) + 
+    tm_lines(col = 'blue', scale = 2, legend.lwd.show = FALSE) + 
+    
+  tm_shape(Hikes, alpha = .8) + 
+    tm_lines(col = 'brown', scale = 1.5, legend.lwd.show = FALSE) + 
+    
+  tm_shape(Paddled, alpha = .8) + 
+    tm_lines(col = 'goldenrod', scale = 1.5, legend.lwd.show = FALSE) + 
+    
+  tm_shape(Parks, alpha = .8) + 
+    tm_dots(col='State Parks', palette = c('forestgreen', 'black'))  
+    
+
 
 ```

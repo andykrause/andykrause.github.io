@@ -24,7 +24,11 @@
   data_df <- readRDS(file.path(getwd(), 'data','created', 'data.RDS'))
   points_sf <- readRDS(file.path(getwd(), 'data','created', 'points.RDS'))
   boundaries_sf <- readRDS(file.path(getwd(), 'data','created', 'boundaries.RDS'))
-  routes_sf <- readRDS(file.path(getwd(), 'data','created', 'routes.RDS'))
+  #routes_sf <- readRDS(file.path(getwd(), 'data','created', 'routes.RDS'))
+  drives_sf <- readRDS(file.path(getwd(), 'data','created', 'drives.RDS'))
+  hikes_sf <- readRDS(file.path(getwd(), 'data','created', 'hikes.RDS'))
+  paddle_sf <- readRDS(file.path(getwd(), 'data','created', 'paddle.RDS'))
+  
   wa_sf <- readRDS(file.path(getwd(), 'data','created', 'county_boundaries.RDS'))
    
 ### State Wide Static Map --------------------------------------------------------------------------    
