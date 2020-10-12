@@ -71,6 +71,8 @@
   ## Limit to visited
   
   visited_sf <- points_sf %>%
+     dplyr::left_join(., data_df %>% dplyr::select(Abbrv, Date = Date_Visited, Order),
+                      by = 'Abbrv') %>%
      dplyr::filter(Visited == 1) %>%
      dplyr::mutate(Date = as.Date(Date, '%m/%d/%y')) %>%
      dplyr::arrange(desc(Order))

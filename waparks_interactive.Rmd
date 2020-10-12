@@ -28,8 +28,8 @@ editor_options:
   
   Parks <- 
    points_sf %>% dplyr::mutate(`State Parks` = ifelse(Visited == 1, 
-                                                paste0('Been There: ', nrow(visited_sf)),
-                                                paste0('Not Yet: ', nrow(data_df) - nrow(visited_sf))))
+                                                paste0(' Been There: ', nrow(visited_sf)),
+                                                paste0(' Not Yet: ', nrow(data_df) - nrow(visited_sf))))
 
   `Park Boundaries` <- boundaries_sf %>%
     dplyr::filter(Abbrv %in% visited_sf$Abbrv)
