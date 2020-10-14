@@ -57,7 +57,7 @@
   saveRDS(data_df, file.path(getwd(), 'data','created', 'data.RDS'))
   
  points_sf <- points_sf %>%
-    dplyr::inner_join(., data_df %>% dplyr::select(Abbrv, Visited), by = 'Abbrv')
+    dplyr::inner_join(., data_df %>% dplyr::select(Abbrv, Visited, Weather), by = 'Abbrv')
   saveRDS(points_sf, file.path(getwd(), 'data','created', 'points.RDS'))
   
   # Park Polygons 

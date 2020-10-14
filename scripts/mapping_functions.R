@@ -81,7 +81,7 @@ makeTblx <- function(visited_sf,
                      park_name){
   
   tbl <- visited_sf %>%
-    dplyr::filter(Name == park_name)
+    dplyr::filter(ParkName == park_name)
   
   traveled <- tbl %>%
     dplyr::select(Driven, Boated, Ferried, Hiked, Paddleboarded)

@@ -45,7 +45,7 @@
            panel.grid.minor = element_blank(),
            panel.background = element_blank(), 
            legend.position = 'none',
-           plot.title = element_text(color="gray50", size=10, face="italic", hjust = 0.5)) + 
+           plot.title = element_text(color="gray50", size=18, face="italic", hjust = 0.5)) + 
      geom_sf(data = points_sf, aes(color = Visited, size = Visited, shape = Visited),
              alpha = .8) + 
      scale_color_manual(values = c('gray10', 'green4')) + 
