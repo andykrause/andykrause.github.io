@@ -98,7 +98,7 @@ makeTblx <- function(visited_sf,
   lon <- round(unlist(tbl$geometry)[1], 4)
   lat <- round(unlist(tbl$geometry)[2], 4)
   
-  tblx <- data.frame(Metric = c('Date', 'Weather', 'Lat', 'Long'),
+  tblx <- data.frame(Metric = c('Date', 'Weather', 'Lat', 'Lon'),
                      Measure = c(as.character(tbl$Date), as.character(tbl$Weather), 
                                  as.character(lat), as.character(lon))) %>%
     dplyr::bind_rows(., traveled)
