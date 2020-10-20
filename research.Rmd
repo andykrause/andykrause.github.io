@@ -69,7 +69,7 @@ The pre-print working paper is [here](files/krause_aschwanden_airbnb.pdf)
 
 &nbsp;
 
-**Krause, A., A. Martin, M. Fix. *Uncertainty in Automated Valuation Models: Error- vs Model-Based Approaches.* Journal of Property Research. Forthcoming.** [Access via DOI](https://doi.org/10.3390/risks6020037).
+**Krause, A., A. Martin, M. Fix. *Uncertainty in Automated Valuation Models: Error- vs Model-Based Approaches.* Journal of Property Research. Forthcoming.** [Access via DOI](https://www.tandfonline.com/doi/abs/10.1080/09599916.2020.1807587).
 
 Point estimates from Automated Valuation Models (AVMs) represent the most likely value from a distribution of possible values. The uncertainty in the point estimate – the width of the range of possible values at a given level of confidence – is a critical piece of the AVM output, especially in collateral and transactional situations. Estimating AVM uncertainty, however, remains highly unstandardised in both terminology and methods. In this paper we present and compare two of the most common approaches to estimating AVM uncertainty – model-based and error-based prediction intervals. We also present a uniform language and framework for evaluating the calibration and efficiency of uncertainty estimates. Based on empirical tests on a large, longitudinal dataset of home sales, we show that model-based approaches outperform error-based ones in all but cases with very highest confidence level requirements. The differences between the two methods are conditioned on model class, geographic data partitions and data filtering conditions.
 
