@@ -54,7 +54,7 @@ editor_options:
     tm_polygons(col = 'darkgreen', alpha = .48) +
 
    tm_shape(Drives, alpha = .8) + 
-    tm_lines(col = 'gray80', scale = 1, legend.lwd.show = TRUE) + 
+    tm_lines(col = 'burlywood4', scale = 1, legend.lwd.show = TRUE) + 
     
   tm_shape(Ferries, alpha = .8) + 
     tm_lines(col = 'purple', scale = 2, legend.lwd.show = FALSE) + 
