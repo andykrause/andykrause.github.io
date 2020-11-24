@@ -84,8 +84,8 @@
       
   
      i_sf <- visited_sf[k,]
-     cat('Drawing: ', i_sf$Name, '\n')
-     shortname <- tolower(i_sf$Name)
+     cat('Drawing: ', i_sf$ParkName, '\n')
+     shortname <- tolower(i_sf$ParkName)
      shortname <- gsub(' ', '', shortname)
      
      png(filename = file.path(getwd(), 'images', paste0('map_', shortname, '.png')), 

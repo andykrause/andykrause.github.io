@@ -127,6 +127,217 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 
 
+
+---------------------------------------------------------------------------------------------------
+
+#### 81) [Fort Townsend](https://parks.state.wa.us/510/Fort-Townsend): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_forttownsend.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Fort Townsend'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 80) [Anderson Lake](https://parks.state.wa.us/240/Anderson-Lake): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_andersonlake.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Anderson Lake'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 79) [Fort Flagler](https://parks.state.wa.us/508/Fort-Flagler): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_fortflagler.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Fort Flagler'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 78) [Mystery Bay](https://parks.state.wa.us/550/Mystery-Bay): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_mysterybay.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Mystery Bay'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+---------------------------------------------------------------------------------------------------
+
+#### 77) [Kinney Point](https://parks.state.wa.us/528/Kinney-Point): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_kinneypoint.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Kinney Point'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 76) [Fort Worden](https://parks.state.wa.us/511/Fort-Worden): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_fortworden.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Fort Worden'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 75) [Shine Tidelands](https://parks.state.wa.us/583/Shine-Tidelands): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_shinetidelands.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Shine Tidelands'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+<!-- Sometimes our planning works out perfectly (see McMicken), other times the tides turn on us.  -->
+<!-- At a very high tide, there isn't much to this park.  Probably the least improved park we've been to that -->
+<!-- isn't a island.  Not even a proper sign.   -->
+
+---------------------------------------------------------------------------------------------------
+
+#### 74) [Kitsap Memorial](https://parks.state.wa.us/529/Kitsap-Memorial): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_kitsapmemorial.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Kitsap Memorial'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+<!-- Super high tide -->
+<!-- Mather nature taketh but giveth with bows from windstorm...built a fort.  -->
+<!-- Emptiness of COVID: Playground closed, historic party venue shuttered and disused for the entire season.  Kids in masks.   -->
+
+---------------------------------------------------------------------------------------------------
+
+#### 73) [Bridle Trails](https://parks.state.wa.us/481/Bridle-Trails): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_bridletrails.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Bridle Trails'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+<!-- Bridle Trails is one of the closet parks to our homes; however, we've been saving it for a cold winter weekend when it could be paired with other errands around town.  Translation: We had low expectations and were not going to make a special trip of it.   -->
+
+<!-- Our pre-trip preparation -- which consisted of looking at the aerial images -- revealed a large gravel parking lot, a variety of equestrian-related structures and powerlines running through the forest.  Not being horse-people, the primary focus of the park was lost on us.  Hopefully the forest would deliver and maybe the kids could see ` -->
+
+
+
+&nbsp;
+
 ---------------------------------------------------------------------------------------------------
 
 #### 72) [Rasar](https://parks.state.wa.us/571/Rasar): 

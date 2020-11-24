@@ -27,12 +27,23 @@ editor_options:
   boundaries_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('boundaries.RDS')))
   
   Parks <- 
-   points_sf %>% dplyr::mutate(`State Parks` = ifelse(Visited == 1, 
-                                                paste0(' Been There: ', nrow(visited_sf)),
-                                                paste0(' Not Yet: ', nrow(data_df) - nrow(visited_sf))))
+   points_sf %>% 
+    dplyr::left_join(., data_df %>% dplyr::select(Abbrv, URL = WebPage), by = 'Abbrv') %>%
+    dplyr::mutate(`State Parks` = ifelse(Visited == 1, 
+                                         paste0(' Been There: ', nrow(visited_sf)),
+                                         paste0(' Not Yet: ', nrow(data_df) - nrow(visited_sf)))) %>%
+    dplyr::select(ParkName, URL, `State Parks`)
 
-  `Park Boundaries` <- boundaries_sf %>%
-    dplyr::filter(Abbrv %in% visited_sf$Abbrv)
+  `Visited Parks` <- boundaries_sf %>%
+    dplyr::left_join(., data_df %>% dplyr::select(Abbrv, URL = WebPage), by = 'Abbrv') %>%
+    dplyr::filter(Abbrv %in% visited_sf$Abbrv) %>%
+    dplyr::select(-c(Order, Weather))
+  
+  `Parks To Do` <- boundaries_sf %>%
+    dplyr::filter(!Abbrv %in% visited_sf$Abbrv) %>%
+    dplyr::left_join(., data_df %>% dplyr::select(Abbrv, URL = WebPage), by = 'Abbrv') %>%
+    dplyr::select(-c(Order, Weather))
+  
 
   `Drives` <- drives_sf
   `Ferries` <- ferries_sf
@@ -50,9 +61,12 @@ editor_options:
 
   tmap_mode("view")
   
-  tm_shape(`Park Boundaries`) + 
+  tm_shape(`Visited Parks`) + 
     tm_polygons(col = 'darkgreen', alpha = .48) +
-
+    
+  tm_shape(`Parks To Do`) + 
+    tm_polygons(col = 'black', alpha = .4) +
+  
    tm_shape(Drives, alpha = .8) + 
     tm_lines(col = 'burlywood4', scale = 1, legend.lwd.show = TRUE) + 
     
@@ -68,8 +82,8 @@ editor_options:
   tm_shape(Paddled, alpha = .8) + 
     tm_lines(col = 'goldenrod', scale = 1.5, legend.lwd.show = FALSE) + 
     
-  tm_shape(Parks, alpha = .8) + 
-    tm_dots(col='State Parks', palette = c('forestgreen', 'black'))  
+  tm_shape(Parks, alpha = .8) +
+    tm_dots(col='State Parks', palette = c('forestgreen', 'gray20')) 
     
 
 
