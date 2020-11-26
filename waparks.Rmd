@@ -196,28 +196,7 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 ---------------------------------------------------------------------------------------------------
 
-#### 78) [Mystery Bay](https://parks.state.wa.us/550/Mystery-Bay): 
-
-&nbsp;
-&nbsp;
-
-```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
-
-img <-
-  "images/map_mysterybay.png" %>%
-  magick::image_read() %>%
-  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
-  magick::image_scale(., '200')
-
-gridExtra::grid.arrange(rasterGrob(img), 
-                        makeTblx(visited_sf, 'Mystery Bay'),
-                        nrow = 1,
-                        as.table = TRUE)
-```
-
----------------------------------------------------------------------------------------------------
-
-#### 77) [Kinney Point](https://parks.state.wa.us/528/Kinney-Point): 
+#### 77 + 78) [Kinney Point](https://parks.state.wa.us/528/Kinney-Point) + [Mystery Bay](https://parks.state.wa.us/550/Mystery-Bay): 
 
 &nbsp;
 &nbsp;
@@ -234,8 +213,28 @@ gridExtra::grid.arrange(rasterGrob(img),
                         makeTblx(visited_sf, 'Kinney Point'),
                         nrow = 1,
                         as.table = TRUE)
+
+img2 <-
+  "images/map_mysterybay.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img2), 
+                        makeTblx(visited_sf, 'Mystery Bay'),
+                        nrow = 1,
+                        as.table = TRUE)
 ```
 
+Kinney Point park, though conveniently located, is not very accessible.  Physically getting into it requires a bit of ingenuity and a bit more grit.  We had the necessary ingredients, though when spread over a crew of four they can get a bit thin.  So, we decided to divide and conquer here.  One of us would take on Kinney Point solo while the other hustled the two junior members up to Mystery Bay.  It was our first parallel park experience. 
+
+<img src="images/waparks_kinneypoint.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+<img src="images/waparks_mysterybay.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+The trail to Kinney Point isn't on the map.  Nor is it well worn or signed.  The grasses, brambles, saplings and various other vegetation impeding the trail were wet from last night's rain.  The tide was high, further complicating the process. Pants and shoes were quickly soaked making for a cold adventurer.  A early fork in the path took one of us farther inland than we would have liked, but did ensure we were on park grounds.  Meanwhile, the Mystery Bay crew rolled into this tiny park just a few short minutes after our dropoff. The smallest of the group was underwhelmed by the scenery on Marrowstone Island and had fallen asleep.  Probably for the best as there isn't much going on at Mystery Bay.  A boat launch, a dock and a small beach.  Including the homes surrounding the bay, we were the only people in sight. A small apple tree saved the day, providing enough ammunition to keep us busy throwing small apples into the water to 'feed the fish'.  
+
+We then message of success came through from the Kinney Point party, those at Mystery Bay quickly packed up and raced backed to the rendezvous point.  Our timing was solid and soon we were a party of four again.  Neither park, as we visited them, provided much reward, though the level of efforts varied widely. 
 
 ---------------------------------------------------------------------------------------------------
 
@@ -257,6 +256,14 @@ gridExtra::grid.arrange(rasterGrob(img),
                         nrow = 1,
                         as.table = TRUE)
 ```
+
+Of all the parks we had visited before starting this challenge, Fort Worden was the one I most looked forward to returning to. I'm not sure what second place would be, maybe Deception Pass or Mount Pilchuck, but they are certaintly a distant second. The old buldings, the bunkers, the beach; Fort Worden truly has it all.
+
+<img src="images/waparks_fortworden.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+The clouds had begun to break up and the sun shone through as we arrived, just in time for our lunch on the old parade grounds. As we ate, remote control airplane hobbyists kept the kids enthralled as we plotted out our path through the park's many highlights. First up the hill for a bit of steep hike to the line of old batteries at the top of the bluff. Exploring the dark narrow tunnels isn't the same with kids -- especially with one in a child-carrying backpack -- though still pretty amazing.  So very odd to think about the hustle and bustle of soldiers that once lived among this park and trained on the battlements daily. They spend days, weeks, months of their lives in these tunnels. All the preparation for the enemy ships that, thankfully, never came.  
+
+After the requisite loop through the fortifications -- including a stop at Battery Tolles where us adults had never been -- we descended to the beach.  By this point the sky had fully cleared and it was nearing 50 degrees. The glorious afternoon brought most of the locals out to the park and the beach was busy, relatively speaking. Inspired by the day's visit, the kids built a fort of their own from driftwood and bull kelp, the elder one constructing, the younger one getting in the way. Like so many other parks of military origin in and around urban areas their lasting legacy will likely be one of preservation of public open space and not tactical defense.  I doubt the original designers and builders of these forts envisioned happy vacationing families, interpretive signage, weddings and kayak rentals.  But I bet they'd be happier with the end result.  
 
 
 ---------------------------------------------------------------------------------------------------
@@ -280,11 +287,15 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-<!-- Sometimes our planning works out perfectly (see McMicken), other times the tides turn on us.  -->
-<!-- At a very high tide, there isn't much to this park.  Probably the least improved park we've been to that -->
-<!-- isn't a island.  Not even a proper sign.   -->
+We've had some good luck over the course of our State Parks travels to date.  Well-timed visits, minimal disruptions and disasters and no injuries to speak of.  Usually, we plan well but this was a bit of last-minute trip with some details left to chance.  Like Kitsap Memorial a few miles back, we had planned to walk the beaches of Shine Tidelands park. The name would suggest this is the defining feature here.  Turns out it is the only feature. 
 
----------------------------------------------------------------------------------------------------
+<img src="images/waparks_shinetidelands.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+The very high tide limited our use of the park considerably, poor timing on our part. We were left with a foot of rapidly dissappearing beach, the badly potholed gravel parking lot and two lonesome picnic tables. A fisherman cast into the water nearby.  Large trucks rattled the Hood Canal bridge, just a few hundred feet away.  The gray sky hung low, merging with the water in the distance.  The scene quickly drained the excitement from our party. Snacks were the only thing that could save the situation.  We plied them liberally.
+
+After a bit of stick and rock throwing we exited back down the narrow drive.  Later, we would find out that we could have driven down to the other parking area which may of provided a better beach and more hiking.  The entire areas is rather poorly signed, perhaps on purpose as there are privately owned tidelands here as well and, being a rather fragile environment, it might be best to keep the hoards of shellfish collectors away via confusion and uncertainty.  This is our 75th park and possibly the least developed of them to date, barring those that are islands.  
+
+----------------------------------------------------------------------------------------------
 
 #### 74) [Kitsap Memorial](https://parks.state.wa.us/529/Kitsap-Memorial): 
 
