@@ -193,6 +193,13 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
+Our past travels have included Fort Worden and Fort Casey; only Fort Flagler remained from the original [Triangle of Fire](https://www.historylink.org/File/7524) -- the three heavily-armed defensive fortifications originally built to protect Puget Sound. We arrived to steel gray skies and just enough wind to be uncomfortbable in the 40 degree weather.  Intent on heading straight to the battlements, ambiguous signage lead us astray, down to a small parking lot in the far southeast of the park. We followed this up with another mis-direction that landed us at the beach. We decided to stay here for a bit before working our way back up to the main attractions on the bluff.
+
+<img src="images/waparks_fortflagler.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Exiting the car at the lonely beach parking lot, we were greeted by the smell of something dead and by the sight and sound of dozens of sea birds.  A large, decaying humpback whale carcass -- as the sign informed us -- lay not far away on the beach.  It had been a few days, at minimum, since it had washed up and by now was mostly a large pile of blubber.  The scavengers did not appreciate our presence.  Nor did the sea lion patrolling off-shore not far away.  On account of the cold weather and cold welcome, we retreated to the human designated area of the beach til the wind drove us back to the car and, finally, down the correct road to the parking lot for the fortifications.
+
+The batteries here are both less numerous and less decayed than those at Fort Worden.  Their design is notably different as well, with greater exposure of the lower levels.  Due to the improved lighting and overall cleanliness, the creepiness factor is much lower here; though, the experience still well worth the visit.  All told, Fort Worden has a bit more to offer in terms of the beach, the old buildings and the fortifications, though Fort Flagler isn't far behind and seems less visited as well. As we finished our snack atop a concrete pad that once held a massive rotary gun, the rain began.  We raced back to the car and, from there, to our accomodations in Port Townsend.  Three parks down this morning, two more to go in the afternoon.  
 
 ---------------------------------------------------------------------------------------------------
 
@@ -323,10 +330,6 @@ Our weekend on the Peninsula began with a stop at Kitsap Memorial State Park, th
 We had planned on exploring the beach at Kitsap Memorial.  We had not planned on arriving during a +10 tide, which, here, means no beach at all. Where Mother Nature had taketh, she also giveth in the form of a storm a few nights ago that had left countless fir branches scattered about the park. We sent all the boys -- the author included -- to gather them up while Mom constructed a small shelter from our findings.  Our kids love being outside, love dragging things around and, occasionally, love being helpful. All parties were happy with how this visit ended up; perhaps none more than the park rangers who were spared the post-storm cleanup.  
 
 It was a cold, November morning and the emptiness of the park wasn't necessarily a surprise.  The taped-off playground, mostly empty campsites and shuttered and signed historic buildings (often the location of joyous weddings and family gatherings) here were a glaring reminder of the pandemic.  It is going to be a long winter, I fear.  I hope we can keep up our motivation around bundling up and getting outside in the misty, low-40 degree weather we can expect from now until March (June?).  
-
-<!-- Super high tide -->
-<!-- Mather nature taketh but giveth with bows from windstorm...built a fort.  -->
-<!-- Emptiness of COVID: Playground closed, historic party venue shuttered and disused for the entire season.  Kids in masks.   -->
 
 ---------------------------------------------------------------------------------------------------
 
