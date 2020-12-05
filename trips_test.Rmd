@@ -1,0 +1,41 @@
+---
+title: "Test Trips Page"
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
+
+  ## Set libraries
+  library(sf)
+  library(tmap)
+  library(leaflet)
+
+  # Load Data
+  # Points data (new Lat/Long)
+  suppressMessages(points_sf <- sf::st_read(file.path(getwd(), 'data', 'raw', 'waparks_points.shp')) %>%
+    sf::st_transform(4269) )
+  points_xy <- do.call(rbind, st_geometry(points_sf)) %>% 
+    as_tibble() %>% 
+    setNames(c("Longitude","Latitude"))
+  points_sf$Longitude <- points_xy$Longitude
+  points_sf$Latitude <- points_xy$Latitude
+  
+  trip_df <- read.csv(file.path(getwd(), 'data', 'created', 'test_trip.csv'))
+  
+  Parks <- 
+   points_sf %>% 
+    dplyr::inner_join(., trip_df %>% dplyr::select(ParkCode, URL = WebPage), by = 'ParkCode')
+```
+
+```{r}
+  Parks %>% 
+  leaflet() %>%
+  addTiles(group = "OSM") %>%
+  addCircleMarkers(popup = ~URL)
+  
+```
