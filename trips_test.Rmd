@@ -15,6 +15,9 @@ editor_options:
   library(tmap)
   library(leaflet)
 
+  suppressMessages(imagessf <- sf::st_read(file.path(getwd(), 'trips', 'images.shp')) %>%
+    sf::st_transform(4269) )
+
   # Load Data
   # Points data (new Lat/Long)
   suppressMessages(points_sf <- sf::st_read(file.path(getwd(), 'data', 'raw', 'waparks_points.shp')) %>%
@@ -33,9 +36,12 @@ editor_options:
 ```
 
 ```{r}
-  Parks %>% 
+  imagessf%>% 
+  mutate(label = paste(" <a href = ", Photo, "/>Photo</a>")) %>% 
+ 
   leaflet() %>%
+  
   addTiles(group = "OSM") %>%
-  addCircleMarkers(popup = ~URL)
+  addCircleMarkers(popup = ~label)
   
 ```

@@ -348,20 +348,29 @@ $(document).ready(function () {
 </div>
 
 
+<pre><code>FALSE Reading layer `images&#39; from data source `/Users/andyk/projects/_research/andykrause.github.io/trips/images.shp&#39; using driver `ESRI Shapefile&#39;
+FALSE Simple feature collection with 1 feature and 2 fields
+FALSE geometry type:  POINT
+FALSE dimension:      XY
+FALSE bbox:           xmin: -122.9452 ymin: 48.47718 xmax: -122.9452 ymax: 48.47718
+FALSE CRS:            4326</code></pre>
 <pre><code>FALSE Reading layer `waparks_points&#39; from data source `/Users/andyk/projects/_research/andykrause.github.io/data/raw/waparks_points.shp&#39; using driver `ESRI Shapefile&#39;
 FALSE Simple feature collection with 137 features and 3 fields
 FALSE geometry type:  POINT
 FALSE dimension:      XY
 FALSE bbox:           xmin: -124.36 ymin: 45.5528 xmax: -117.1107 ymax: 49.00142
 FALSE CRS:            4326</code></pre>
-<pre class="r"><code>  Parks %&gt;% 
+<pre class="r"><code>  imagessf%&gt;% 
+  mutate(label = paste(&quot; &lt;a href = &quot;, Photo, &quot;/&gt;Photo&lt;/a&gt;&quot;)) %&gt;% 
+ 
   leaflet() %&gt;%
+  
   addTiles(group = &quot;OSM&quot;) %&gt;%
-  addCircleMarkers(popup = ~URL)</code></pre>
+  addCircleMarkers(popup = ~label)</code></pre>
 <pre><code>## Warning: sf layer has inconsistent datum (+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs ).
 ## Need &#39;+proj=longlat +datum=WGS84&#39;</code></pre>
-<div id="htmlwidget-11cb4f1b9f0494efcd38" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-11cb4f1b9f0494efcd38">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,"OSM",{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addCircleMarkers","args":[48.073996207221,-122.795966427841,10,null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2},null,null,"<a href = \"https://photos.google.com/u/4/album/AF1QipNB-3lpoyluhHH9sCoWkmNh9NBIlReu9Ri34ftg\"> Photos <\/a>",null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[48.073996207221,48.073996207221],"lng":[-122.795966427841,-122.795966427841]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-8d10ab10984bd8921243" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-8d10ab10984bd8921243">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,"OSM",{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addCircleMarkers","args":[48.4771764372592,-122.945217956321,10,null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2},null,null," <a href =  https://photos.google.com/u/4/photo/AF1QipMyz28cmYmmiblY0yMF6Fedq5VJ8LvXLCCr_vuS />Photo<\/a>",null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[48.4771764372592,48.4771764372592],"lng":[-122.945217956321,-122.945217956321]}},"evals":[],"jsHooks":[]}</script>
 
 &nbsp;
 <hr />
