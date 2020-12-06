@@ -18,13 +18,17 @@ editor_options:
   load(file.path(getwd(), 'trips', 'channel_preserve', 'data', 'mapdata.Rdata'))
 ```
 
-```{r}
+```{r, echo = FALSE, warning = FALSE}
   imagessf %>% 
   mutate(label = paste(" <a href = ", URL, "/>Photo</a>")) %>% 
  
   leaflet() %>%
   
   addTiles(group = "OSM") %>%
-  addCircleMarkers(popup = ~label)
+  addCircleMarkers(popup = ~label) %>%
+  leaflet::addPolylines(data = hikessf,
+              weight = 3,
+              color = "green",
+              opacity = .8)
   
 ```
