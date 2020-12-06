@@ -15,18 +15,11 @@ editor_options:
   library(tmap)
   library(leaflet)
 
-  suppressMessages(imagessf <- sf::st_read(file.path(getwd(), 'trips', 'images.shp')) %>%
-    sf::st_transform(4269) )
-
-  trip_df <- read.csv(file.path(getwd(), 'data', 'created', 'test_trip.csv'))
-  
-  Parks <- 
-   imagessf %>% 
-    dplyr::inner_join(., trip_df %>% dplyr::select(ParkCode, URL = WebPage), by = 'ParkCode')
+  load(file.path(getwd(), 'data', 'mapdata.Rdata'))
 ```
 
 ```{r}
-  Parks %>% 
+  imagessf %>% 
   mutate(label = paste(" <a href = ", URL, "/>Photo</a>")) %>% 
  
   leaflet() %>%
