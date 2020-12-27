@@ -128,18 +128,34 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 
 ---------------------------------------------------------------------------------------------------
 
-#### 87) [Lake Silvia](https://parks.state.wa.us/534/Lake-Sylvia): 
+#### 87) [Lake Sylvia](https://parks.state.wa.us/534/Lake-Sylvia): 
 
 &nbsp;
 &nbsp;
 
-Write-up in progress...
 
-<!-- * Busy for a cold Wed morning -->
-<!-- * Hike over the damn and loop back -->
-<!-- * Original mill steaders and their 13 kids.  -->
-<!-- * New Ranger STation -->
-<!-- * Derailed train on the way to the park -->
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_lakesylvia.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Lake Sylvia'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Entering Montesano we came upon a train derailment, the first of our State Park Challenge. This is big excitement for a four-year-old. We slowly took the marked detour, speculating widely on what had happened (six grain cars derailed due to a wash out of the tracks). No matter the quality of Lake Sylvia Park, it was likely to be a dissappointment to at least one of us.  
+
+<img src="images/waparks_lakesylvia.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Up the winding road and perched above Montesano is Lake Sylvia Park. The lake is an artificial one, created by the damming of Sylvia Creek right above the natural waterfall.  Back in the 1880s a homesteading family settled here, built a dam to power a sawmill and raised a family of 13 children on the property. While trying to keep our two children from falling into the water or eating wild mushrooms, the enormity of that task settled uncomfortably on us...though I guess they start to watch each other at some point. I can only imagine the fun those kids had at having their very own lake to fish and swim in, provided late 19th century frontier life left any time for leisurely pursuits such as this.  
+
+We learned about this family and more during our short hike up and over the dam and through the surrounding forest.  Many more miles of trails radiate from this park -- down to town, up to the national forest and in every other direction. The park was busy, mostly with solo dog walker and hikers.  We were the only group with kids (the playground is closed for COVID and swimming obviously out of season).  We wondered about the uses of the very new building on the SE shore, but did not put in the effort of checking it out in person.  Based on the parking, the signage and the built features, it seems Lake Sylvia is a popular summer hang out for Montesanoans (?).  
 
 ---------------------------------------------------------------------------------------------------
 
@@ -148,14 +164,29 @@ Write-up in progress...
 &nbsp;
 &nbsp;
 
-Write-up in progress...
 
-<!-- * 32 and still with sun breaking though -->
-<!-- * Frost covered everything, making the ferns amazing -->
-<!-- * Camping area looks like the remnants of a clear cut -->
-<!-- * The stone building with the windows boarded up is a weird vibe -->
-<!-- * The river running high, no one around.  -->
-<!-- * Lake Arrowwood -->
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_schafer.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Schafer'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+There is no easy way to get from Hoodsport to Schafer State Park. The winding route of third-rate state highways and other back roads is, most certainly, a road less traveled. Along the way one passes a dizzying menagerie of land uses -- an airport, a prison, a church, a lakeside development that, apparently, requires broken-down RVs in the by-laws, tree farms and horse barns, logged areas and wild woods, fireworks stands, a mini-mart and a fish hatchery. Its a whirlwind tour of the wilder (weirder) side of Mason County.  Being a weekday, we also encountered some road construction, our presence at which surprised the workers clearly who hadn't expected any civilian vehicles and had neither signs nor flag people.  An odd 22 miles to say the least. 
+
+<img src="images/waparks_schafer.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Schafer State Park sits riverside, down in a hollow.  Our thermometer registered 32, it felt colder.  The damp fog was lifting, leaving behind a crystalline frost on everything. The standard hiking trail next to the raging river we deemed too risky given our wandering and fancy free tiny people. Instead, went for a short hike through the open campground area -- an area that looked more like the remnants of a clear cut than a welcoming place to pitch a tent. Some maintenance seemed in order as the sturdy stone buildings near the parking lot had seen better days.  One had boarded up windows and a variety of detritus laying about. It wasn't entirely clear if we had wandered off of park property or not. 
+
+It will come as no surprise that we were one of only two cars in the lot. A frigid Tuesday morning in December is not high season around here.  All these factors together with the requisite COVID signage and 'closed' signs put off a aura of desolation, of forgotten-ness, of irrelevance; however, we were too cold to philosophize about its deeper meaning for too long and quickly made our exit.  
 
 ---------------------------------------------------------------------------------------------------
 
@@ -184,7 +215,7 @@ The forecast had promised clear skies in the afternoon. The fog had other ideas 
 
 Potlatch is your standard ocean-front State Park. A public access beach and picnic area on the water side of the highway, with camping tucked in across the road in the higher elevations. It is a useful template that separates day use from the campers and allows for maximal public space near the water. It is also tends to blur one's memories of the parks given their similar design and appearance...unless that is just my advanced age beginning to show.  
 
-Its uniques attributes kept us busy for the afternoon. The new interpretative trail along the forested northern boundary captures a suprisingly large variety of native plant life given its short length, including nearly every berry we don't want the kids to eat as well as various mushrooms that had randomly colonized the area. To the kids it may have sounded like the trail of death, or perhaps, a walk entitled "How the forest can kill you".  Away from the poison plants, we found a large spriral design that someone had created out of oyster shells. It is possible it was sacred pagan art related to yesterday's winter solstice. Either way, it is unlikely that an explanation of such would have detered our children from treating it as a race course and we let them frolic atop it liberally, provided that we fix and then expand the project before we left. Content that we had done our part to add just a little bit more art to the world -- and not anger the local spirits -- we packed up and headed back to our rented home in Hoodsport.  
+Its unique attributes kept us busy for the afternoon. The new interpretative trail along the forested northern boundary captures a surprisingly large variety of native plant life given its short length, including nearly every berry we don't want the kids to eat as well as various mushrooms that had randomly colonized the area. To the kids it may have sounded like the trail of death, or perhaps, a walk entitled "How the forest can kill you".  Away from the poison plants, we found a large spiral design that someone had created out of oyster shells. It is possible it was sacred pagan art related to yesterday's winter solstice. Either way, it is unlikely that an explanation of such would have deterred our children from treating it as a race course and we let them frolic atop it liberally, provided that we fix and then expand the project before we left. Content that we had done our part to add just a little bit more art to the world -- and not anger the local spirits -- we packed up and headed back to our rented home in Hoodsport.  
 
 ---------------------------------------------------------------------------------------------------
 
@@ -213,7 +244,7 @@ Triton Cove State Park is a very large boat launch and parking lot with an equal
 
 With the time saved from our short Triton Cove visit, we added a stop at [Hama Hama Oysters & Tree Farm](https://hamahamaoysters.com/). The kids enjoyed climbing the hills of oyster shells and stalking the resident waterfowl across the grounds.  For the adults it was chowder and smoked salmon pate. While COVID hasn't been kind to any businesses rely on food provision, Hama Hama's outdoor dining setup suggested they had adapted just fine to social distancing requirements. Yes, you can't enjoy your soup in the warm confines of their cozy headquarters but you can eat in an A-frame built atop discarded bi-valve remains.  The new experience seems a bit more authentic to me.  The fare, by the way, is as good as ever. 
 
-Earlier in our state parks quest we may have opted to take our Hama Hama order to Triton Cove for a picnic in order to make a more sustantial 'visit' of the park. As our quest has progressed, we've become more pragmatic. It was cold, we were hungry, one child was running on a single sock and the clock was edging toward nap time.  Prudency won out and, for that, we feel no shame.  
+Earlier in our state parks quest we may have opted to take our Hama Hama order to Triton Cove for a picnic in order to make a more substantial 'visit' of the park. As our quest has progressed, we've become more pragmatic. It was cold, we were hungry, one child was running on a single sock and the clock was edging toward nap time.  Prudence won out and, for that, we feel no shame.  
 
 ---------------------------------------------------------------------------------------------------
 
@@ -240,7 +271,7 @@ Fresh off our very short visit to Pleasant Harbor we arrived at Dosewallips Stat
 
 <img src="images/waparks_dosewallips.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
-The lower part of the park encompases the majority of the delta/estuary of the Dosewallips River.  Overnight, the cold air had sunk down and sat in these wetlands coating the plants with a brilliant veneer of frost. Hardly the winter wonderland of my Midwestern upbringing, glints of sun poking through the fog occasionally danced off of the frost giving us some of the pre-Christmas feel that is so often absent here in the wet and dreary PNW. The trail out to the delta's far reaches is well-built but was flooded nonetheless given the yesterday's torrent.  We skirted, hopped and sidestepped most of the problem areas though eventually were blocked off as it was high tide and the rushing river had been pushed back across the normal route.
+The lower part of the park encompasses the majority of the delta/estuary of the Dosewallips River.  Overnight, the cold air had sunk down and sat in these wetlands coating the plants with a brilliant veneer of frost. Hardly the winter wonderland of my Midwestern upbringing, glints of sun poking through the fog occasionally danced off of the frost giving us some of the pre-Christmas feel that is so often absent here in the wet and dreary PNW. The trail out to the delta's far reaches is well-built but was flooded nonetheless given the yesterday's torrent.  We skirted, hopped and sidestepped most of the problem areas though eventually were blocked off as it was high tide and the rushing river had been pushed back across the normal route.
 
 Retreating to the raised platform, we found it a great perch to watch the eagles roasting in the dead trees and the ducks going about their daily routines.  Frost had also settled on the platform floor, causing a number of close calls from the adults and one epic wipe-out from the youngest. Only one handful of trail snacks were harmed in this incident. We hustled back through the gauntlet of puddles to the car as the near-freezing fog had chilled us to the bone.  En route, one boat was submerged and one diaper filled; the scene back at the car -- a frantic search for new socks and baby wipes amidst pleas for more snacks -- was chaotic, for sure, but nothing outside of our our standard road trip melee.  The new normal.       
 
@@ -269,9 +300,9 @@ For 24 hours it had rained, and rained hard. Here at our Airbnb in Hoodsport -- 
 
 <img src="images/waparks_pleasantharbor.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
-North of Hoodsport Highway 101 hugs the coastline, often with a steep hillside on your left and the beach on your right; the roadway forced into what space it could. After a storm like this one countless impromptu waterfalls dumped runoff on the road and in the nearby ditch.  A dozen or so recent and small landslides were visible as well. Many had been stopped by well-placed barriers but one had spilled onto the road and had required an early morning removal session by the local highway department. Mornings like these are a reminder of the constant battle that is waged to keep our roadways intact agasint Mother's Nature's continual barrage of wind and water.
+North of Hoodsport Highway 101 hugs the coastline, often with a steep hillside on your left and the beach on your right; the roadway forced into what space it could. After a storm like this one countless impromptu waterfalls dumped runoff on the road and in the nearby ditch.  A dozen or so recent and small landslides were visible as well. Many had been stopped by well-placed barriers but one had spilled onto the road and had required an early morning removal session by the local highway department. Mornings like these are a reminder of the constant battle that is waged to keep our roadways intact against Mother's Nature's continual barrage of wind and water.
 
-Pleasant Harbor looked small on the map and, not being in a boat, we came in with low expectations.  First we turned too early, into the local marina.  Then we turned too late and had to backtrack. The entrance to the park is not signed at all. Eventually, we found ourselves on a steep and poorly maintained one-lane road swith-backing toward the bay.  And by one-lane I mean there is absolutely no way for cars to pass each other; a meeting would require someone to back all the way out.  We arrived to find that the park was nothing more than two parking spots, a portable toilet and a dock.  Both spots were, oddly enough, full so we had to pull a U-turn in the neighboring marina's overflow lot and wait out the other two adventurers.  Soon enough we were able to grab our requisite photo of the signage.  This park is a well-kept secret, though a secret you shouldn't be too upset about not being in on.
+Pleasant Harbor looked small on the map and, not being in a boat, we came in with low expectations.  First we turned too early, into the local marina.  Then we turned too late and had to backtrack. The entrance to the park is not signed at all. Eventually, we found ourselves on a steep and poorly maintained one-lane road switch-backing toward the bay.  And by one-lane I mean there is absolutely no way for cars to pass each other; a meeting would require someone to back all the way out.  We arrived to find that the park was nothing more than two parking spots, a portable toilet and a dock.  Both spots were, oddly enough, full so we had to pull a U-turn in the neighboring marina's overflow lot and wait out the other two adventurers.  Soon enough we were able to grab our requisite photo of the signage.  This park is a well-kept secret, though a secret you shouldn't be too upset about not being in on.
 
 ---------------------------------------------------------------------------------------------------
 
@@ -352,13 +383,13 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Our past travels have included Fort Worden and Fort Casey; only Fort Flagler remained from the original [Triangle of Fire](https://www.historylink.org/File/7524) -- the three heavily-armed defensive fortifications originally built to protect Puget Sound. We arrived to steel gray skies and just enough wind to be uncomfortbable in the 40 degree weather.  Intent on heading straight to the battlements, ambiguous signage lead us astray, down to a small parking lot in the far southeast of the park. We followed this up with another mis-direction that landed us at the beach. We decided to stay here for a bit before working our way back up to the main attractions on the bluff.
+Our past travels have included Fort Worden and Fort Casey; only Fort Flagler remained from the original [Triangle of Fire](https://www.historylink.org/File/7524) -- the three heavily-armed defensive fortifications originally built to protect Puget Sound. We arrived to steel gray skies and just enough wind to be uncomfortable in the 40 degree weather.  Intent on heading straight to the battlements, ambiguous signage lead us astray, down to a small parking lot in the far southeast of the park. We followed this up with another mis-direction that landed us at the beach. We decided to stay here for a bit before working our way back up to the main attractions on the bluff.
 
 <img src="images/waparks_fortflagler.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 Exiting the car at the lonely beach parking lot, we were greeted by the smell of something dead and by the sight and sound of dozens of sea birds.  A large, decaying humpback whale carcass -- as the sign informed us -- lay not far away on the beach.  It had been a few days, at minimum, since it had washed up and by now was mostly a large pile of blubber.  The scavengers did not appreciate our presence.  Nor did the sea lion patrolling off-shore not far away.  On account of the cold weather and cold welcome, we retreated to the human designated area of the beach til the wind drove us back to the car and, finally, down the correct road to the parking lot for the fortifications.
 
-The batteries here are both less numerous and less decayed than those at Fort Worden.  Their design is notably different as well, with greater exposure of the lower levels.  Due to the improved lighting and overall cleanliness, the creepiness factor is much lower here; though, the experience still well worth the visit.  All told, Fort Worden has a bit more to offer in terms of the beach, the old buildings and the fortifications, though Fort Flagler isn't far behind and seems less visited as well. As we finished our snack atop a concrete pad that once held a massive rotary gun, the rain began.  We raced back to the car and, from there, to our accomodations in Port Townsend.  Three parks down this morning, two more to go in the afternoon.  
+The batteries here are both less numerous and less decayed than those at Fort Worden.  Their design is notably different as well, with greater exposure of the lower levels.  Due to the improved lighting and overall cleanliness, the creepiness factor is much lower here; though, the experience still well worth the visit.  All told, Fort Worden has a bit more to offer in terms of the beach, the old buildings and the fortifications, though Fort Flagler isn't far behind and seems less visited as well. As we finished our snack atop a concrete pad that once held a massive rotary gun, the rain began.  We raced back to the car and, from there, to our accommodations in Port Townsend.  Three parks down this morning, two more to go in the afternoon.  
 
 ---------------------------------------------------------------------------------------------------
 
@@ -398,7 +429,7 @@ Kinney Point park, though conveniently located, is not very accessible.  Physica
 
 <img src="images/waparks_mysterybay.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
-The trail to Kinney Point isn't on the map.  Nor is it well worn or signed.  The grasses, brambles, saplings and various other vegetation impeding the trail were wet from last night's rain.  The tide was high, further complicating the process. Pants and shoes were quickly soaked making for a cold adventurer.  A early fork in the path took one of us farther inland than we would have liked, but did ensure we were on park grounds.  Meanwhile, the Mystery Bay crew rolled into this tiny park just a few short minutes after our dropoff. The smallest of the group was underwhelmed by the scenery on Marrowstone Island and had fallen asleep.  Probably for the best as there isn't much going on at Mystery Bay.  A boat launch, a dock and a small beach.  Including the homes surrounding the bay, we were the only people in sight. A small apple tree saved the day, providing enough ammunition to keep us busy throwing small apples into the water to 'feed the fish'.  
+The trail to Kinney Point isn't on the map.  Nor is it well worn or signed.  The grasses, brambles, saplings and various other vegetation impeding the trail were wet from last night's rain.  The tide was high, further complicating the process. Pants and shoes were quickly soaked making for a cold adventurer.  A early fork in the path took one of us farther inland than we would have liked, but did ensure we were on park grounds.  Meanwhile, the Mystery Bay crew rolled into this tiny park just a few short minutes after our drop-off. The smallest of the group was underwhelmed by the scenery on Marrowstone Island and had fallen asleep.  Probably for the best as there isn't much going on at Mystery Bay.  A boat launch, a dock and a small beach.  Including the homes surrounding the bay, we were the only people in sight. A small apple tree saved the day, providing enough ammunition to keep us busy throwing small apples into the water to 'feed the fish'.  
 
 We then message of success came through from the Kinney Point party, those at Mystery Bay quickly packed up and raced backed to the rendezvous point.  Our timing was solid and soon we were a party of four again.  Neither park, as we visited them, provided much reward, though the level of efforts varied widely. 
 
@@ -423,7 +454,7 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Of all the parks we had visited before starting this challenge, Fort Worden was the one I most looked forward to returning to. I'm not sure what second place would be, maybe Deception Pass or Mount Pilchuck, but they are certaintly a distant second. The old buldings, the bunkers, the beach; Fort Worden truly has it all.
+Of all the parks we had visited before starting this challenge, Fort Worden was the one I most looked forward to returning to. I'm not sure what second place would be, maybe Deception Pass or Mount Pilchuck, but they are certainly a distant second. The old buildings, the bunkers, the beach; Fort Worden truly has it all.
 
 <img src="images/waparks_fortworden.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
@@ -457,7 +488,7 @@ We've had some good luck over the course of our State Parks travels to date.  We
 
 <img src="images/waparks_shinetidelands.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
-The very high tide limited our use of the park considerably, poor timing on our part. We were left with a foot of rapidly dissappearing beach, the badly potholed gravel parking lot and two lonesome picnic tables. A fisherman cast into the water nearby.  Large trucks rattled the Hood Canal bridge, just a few hundred feet away.  The gray sky hung low, merging with the water in the distance.  The scene quickly drained the excitement from our party. Snacks were the only thing that could save the situation.  We plied them liberally.
+The very high tide limited our use of the park considerably, poor timing on our part. We were left with a foot of rapidly disappearing beach, the badly potholed gravel parking lot and two lonesome picnic tables. A fisherman cast into the water nearby.  Large trucks rattled the Hood Canal bridge, just a few hundred feet away.  The gray sky hung low, merging with the water in the distance.  The scene quickly drained the excitement from our party. Snacks were the only thing that could save the situation.  We plied them liberally.
 
 After a bit of stick and rock throwing we exited back down the narrow drive.  Later, we would find out that we could have driven down to the other parking area which may of provided a better beach and more hiking.  The entire areas is rather poorly signed, perhaps on purpose as there are privately owned tidelands here as well and, being a rather fragile environment, it might be best to keep the hoards of shellfish collectors away via confusion and uncertainty.  This is our 75th park and possibly the least developed of them to date, barring those that are islands.  
 
@@ -511,13 +542,13 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Bridle Trails is one of the closet parks to our home; however, we'd been saving it for a cold winter weekend when it could be paired with other errands around town.  Translation: We had low expectations and were not going to make a special trip of it. Our pre-visit preparation -- a quick look at an aerial image -- revealed a large gravel parking lot, a variety of equestrian-related structures and powerlines running through the forest.  Not being horse-people, the primary focus of the park seemed lost on us.  Hopefully the forest would deliver.  Arriving mid-morning, later than normal our team, we found the parking lot filling.  Four-legged creatures abounded; dogs not horses.  
+Bridle Trails is one of the closet parks to our home; however, we'd been saving it for a cold winter weekend when it could be paired with other errands around town.  Translation: We had low expectations and were not going to make a special trip of it. Our pre-visit preparation -- a quick look at an aerial image -- revealed a large gravel parking lot, a variety of equestrian-related structures and power-lines running through the forest.  Not being horse-people, the primary focus of the park seemed lost on us.  Hopefully the forest would deliver.  Arriving mid-morning, later than normal our team, we found the parking lot filling.  Four-legged creatures abounded; dogs not horses.  
 
 <img src="images/waparks_bridletrails.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
-We wandered. First through the equestrian facilities, soggy and vacant.  Perhaps it was the cold weather or COVID which kept the horses away.  To be honest, it's not clear how often these training and showcasing facilities are used today. Urban development has surrounded the park, likely robbing it of many of its neighborhing riders. Everything appeared in working order, but the well-attended events shown on the signage were decades old. If this was a typical weekend, the chaps and boots crowd had given way to yoga pants and New Balances.    
+We wandered. First through the equestrian facilities, soggy and vacant.  Perhaps it was the cold weather or COVID which kept the horses away.  To be honest, it's not clear how often these training and showcasing facilities are used today. Urban development has surrounded the park, likely robbing it of many of its neighboring riders. Everything appeared in working order, but the well-attended events shown on the signage were decades old. If this was a typical weekend, the chaps and boots crowd had given way to yoga pants and New Balances.    
 
-We headed down a trail in search of the old-growth trees promised by the trailhead map.  It ended up being too far for the little legs in the group, but we did enjoy the wide flat trails lined with moss-covered trees and coated with big-leaf maples fallings as big as one's head.  Bridle Trails wasn't what exactly we expected but it was a fine walk in the woods and that was OK by us.  
+We headed down a trail in search of the old-growth trees promised by the trailhead map.  It ended up being too far for the little legs in the group, but we did enjoy the wide flat trails lined with moss-covered trees and coated with big-leaf maple fallings as big as one's head.  Bridle Trails wasn't what exactly we expected but it was a fine walk in the woods and that was OK by us.  
 
 &nbsp;
 
