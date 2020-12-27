@@ -164,14 +164,27 @@ Write-up in progress...
 &nbsp;
 &nbsp;
 
-Write-up in progress...
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
-<!-- * Afternoon of beach combing and stalling on the interpretive trail.   -->
-<!-- * Washout -->
-<!-- * Seal -->
-<!-- * Spiral oyster shell to keep the kids busy -->
-<!-- * Damp and cold even with the small rays of sun which ducked behind the hill around 3pm -->
+img <-
+  "images/map_potlatch.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
 
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Potlatch'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+The forecast had promised clear skies in the afternoon. The fog had other ideas and hung on in a patchy manner until sunset. The fickle fog drifted in and out over Potlatch State Park during our visit, offering windows of gorgeous views out over the Hood Canal as well as chilling, dark periods of an almost wet mist.  Par for the course during the 'wet'. 
+
+<img src="images/waparks_potlatch.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Potlatch is your standard ocean-front State Park. A public access beach and picnic area on the water side of the highway, with camping tucked in across the road in the higher elevations. It is a useful template that separates day use from the campers and allows for maximal public space near the water. It is also tends to blur one's memories of the parks given their similar design and appearance...unless that is just my advanced age beginning to show.  
+
+Its uniques attributes kept us busy for the afternoon. The new interpretative trail along the forested northern boundary captures a suprisingly large variety of native plant life given its short length, including nearly every berry we don't want the kids to eat as well as various mushrooms that had randomly colonized the area. To the kids it may have sounded like the trail of death, or perhaps, a walk entitled "How the forest can kill you".  Away from the poison plants, we found a large spriral design that someone had created out of oyster shells. It is possible it was sacred pagan art related to yesterday's winter solstice. Either way, it is unlikely that an explanation of such would have detered our children from treating it as a race course and we let them frolic atop it liberally, provided that we fix and then expand the project before we left. Content that we had done our part to add just a little bit more art to the world -- and not anger the local spirits -- we packed up and headed back to our rented home in Hoodsport.  
 
 ---------------------------------------------------------------------------------------------------
 
@@ -180,13 +193,27 @@ Write-up in progress...
 &nbsp;
 &nbsp;
 
-Write-up in progress...
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
-<!-- * Drive through operation -->
-<!-- * Impressive parking lot and boat launch, with a beach that was hidden by the tide. -->
-<!-- * Pivoted to Hamma Hamma to get some seafood and hike on the oyster piles -->
-<!-- * Maybe we should have gotten food then picnicked at Triton cove...but a bit cold for an open air picnic -->
+img <-
+  "images/map_tritoncove.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
 
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Triton Cove'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Triton Cove State Park is a very large boat launch and parking lot with an equally small beach area attached. It is very well maintained and likely a wonderful resource for the boating community along this stretch of the Hood Canal. It is not, however, the type of park that will still your soul nor that warrants removing the children from their car seats.  Our stop here was a more of a drive through, high tide having obscured most of the beach anyways.  We took in the sights -- severely limited by the lingering fog -- and noted the clean looking toilets in case of future needs along this stretch of Highway 101.  
+
+<img src="images/waparks_tritoncove.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+With the time saved from our short Triton Cove visit, we added a stop at [Hama Hama Oysters & Tree Farm](https://hamahamaoysters.com/). The kids enjoyed climbing the hills of oyster shells and stalking the resident waterfowl across the grounds.  For the adults it was chowder and smoked salmon pate. While COVID hasn't been kind to any businesses rely on food provision, Hama Hama's outdoor dining setup suggested they had adapted just fine to social distancing requirements. Yes, you can't enjoy your soup in the warm confines of their cozy headquarters but you can eat in an A-frame built atop discarded bi-valve remains.  The new experience seems a bit more authentic to me.  The fare, by the way, is as good as ever. 
+
+Earlier in our state parks quest we may have opted to take our Hama Hama order to Triton Cove for a picnic in order to make a more sustantial 'visit' of the park. As our quest has progressed, we've become more pragmatic. It was cold, we were hungry, one child was running on a single sock and the clock was edging toward nap time.  Prudency won out and, for that, we feel no shame.  
 
 ---------------------------------------------------------------------------------------------------
 
