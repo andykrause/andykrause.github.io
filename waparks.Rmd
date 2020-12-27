@@ -76,7 +76,7 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE}
+```{r, echo = FALSE, cache = TRUE}
 
   head_col <- '#9df18e'
   row_col <- "#edf5fc"
@@ -97,7 +97,7 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE}
+```{r, echo = FALSE, cache = TRUE}
 
   travel_df <- data.frame('Miles Driven' = summ_df$Measure[4],
                           'Miles Ferried' = summ_df$Measure[5],
@@ -134,7 +134,7 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 
 
-```{r lake_silvia, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r lake_silvia, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_lakesylvia.png" %>%
@@ -166,7 +166,7 @@ We learned about this family and more during our short hike up and over the dam 
 &nbsp;
 
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r schafer, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_schafer.png" %>%
@@ -196,7 +196,7 @@ It will come as no surprise that we were one of only two cars in the lot. A frig
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r potlatch, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_potlatch.png" %>%
@@ -225,7 +225,7 @@ Its unique attributes kept us busy for the afternoon. The new interpretative tra
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r triton_cove, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_tritoncove.png" %>%
@@ -254,7 +254,7 @@ Earlier in our state parks quest we may have opted to take our Hama Hama order t
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r dosewallips, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_dosewallips.png" %>%
@@ -283,7 +283,7 @@ Retreating to the raised platform, we found it a great perch to watch the eagles
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r pleasant_harbor, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_pleasantharbor.png" %>%
@@ -312,7 +312,7 @@ Pleasant Harbor looked small on the map and, not being in a boat, we came in wit
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r fort_townsend, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_forttownsend.png" %>%
@@ -342,7 +342,7 @@ As the tide receded, a sandy/mucky beach emerged.  Just the right consistency fo
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_andersonlake.png" %>%
@@ -370,7 +370,7 @@ Removing the lake and its accessories, Anderson Lake State Park is just a collec
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_fortflagler.png" %>%
@@ -399,7 +399,7 @@ The batteries here are both less numerous and less decayed than those at Fort Wo
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_kinneypoint.png" %>%
@@ -441,7 +441,7 @@ We then message of success came through from the Kinney Point party, those at My
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_fortworden.png" %>%
@@ -471,7 +471,7 @@ After the requisite loop through the fortifications -- including a stop at Batte
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_shinetidelands.png" %>%
@@ -500,7 +500,7 @@ After a bit of stick and rock throwing we exited back down the narrow drive.  La
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_kitsapmemorial.png" %>%
@@ -529,7 +529,7 @@ It was a cold, November morning and the emptiness of the park wasn't necessarily
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_bridletrails.png" %>%
@@ -560,7 +560,7 @@ We headed down a trail in search of the old-growth trees promised by the trailhe
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_rasar.png" %>%
@@ -591,7 +591,7 @@ While I scanned the horizon for angry ungulates, the eldest picked dandelions an
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_rockport.png" %>%
@@ -622,7 +622,7 @@ Our original plan had been a picnic lunch at Rockport State Park. The kids were 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_pearryginlake.png" %>%
@@ -655,7 +655,7 @@ Over the afternoon the beach slowly filled in. A few paddleboarders, another fam
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_bridgeport.png" %>%
@@ -690,7 +690,7 @@ The first half our challenge complete -- 68 more parks to go.
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_altalake.png" %>%
@@ -723,7 +723,7 @@ This early in the day it was too cold for a swim. We settled for a short hike to
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_lakechelan.png" %>%
@@ -754,7 +754,7 @@ We didn't stay long.  A quick trip to the beach to dip our toes and then a few r
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_twenty-fivemilecreek.png" %>%
@@ -785,7 +785,7 @@ Next to the marina is the creek. A small water course with driftwood and bubblin
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_bayview.png" %>%
@@ -816,7 +816,7 @@ Brush with the law over, we slowly pulled in and parked at Bay View State Park. 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_scenicbeach.png" %>%
@@ -847,7 +847,7 @@ The forecast had called for 10% chance of rain. Upon our arrival the rain began 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_yakimasportsman.png" %>%
@@ -882,7 +882,7 @@ We embarked on a short hike through the barren and ghostly campground, up and ov
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_sacajawea.png" %>%
@@ -917,7 +917,7 @@ Unfortunately, as is often the case in our travels, we were too early.  The gate
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_lewis&clarktrail.png" %>%
@@ -952,7 +952,7 @@ Back on the road as we, like the early explorers, inched ever closer to the migh
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_fieldsspring.png" %>%
@@ -987,7 +987,7 @@ The entrance to the park is discrete and we nearly missed it. Likewise, we could
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_lyonsferry.png" %>%
@@ -1022,7 +1022,7 @@ On this trip we were listening to an audio book, [Astoria](https://www.harpercol
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_palousefalls.png" %>%
@@ -1066,7 +1066,7 @@ The Falls are a treasure. An under-developed, under-advertised and under-visited
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_columbiaplateau.png" %>%
@@ -1101,7 +1101,7 @@ As we rolled on to our next park, we crossed over the trail.  We slowed and look
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_potholes.png" %>%
@@ -1138,7 +1138,7 @@ The forecast called for smoke to blow north from the massive fires in Oregon.  L
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_peshastinpinnacles.png" %>%
@@ -1173,7 +1173,7 @@ You might be asking if such a quick stop is in the spirit of our State Parks Cha
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_lincolnrock.png" %>%
@@ -1211,7 +1211,7 @@ The lone parking spot we could find was directly adjacent to the park's snack sh
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_daroga.png" %>%
@@ -1246,7 +1246,7 @@ We had chosen this swimming spot outside of cordoned beach mainly to provide som
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_steamboatrock.png" %>%
@@ -1284,7 +1284,7 @@ The beach here is fantastic.  Absolutely stunning in its beauty; the fine sand, 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_sunlakes-dryfalls.png" %>%
@@ -1321,7 +1321,7 @@ The inside of the Coulee is a village of its own -- a golf course, campgrounds, 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_wenatcheeconfluence.png" %>%
@@ -1356,7 +1356,7 @@ We feared a crowded beach, as Lake Wenatchee had been.  To our utmost surprise t
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_squilchuck.png" %>%
@@ -1391,7 +1391,7 @@ Oddly enough, our kids are big fans of a certain [video](https://www.youtube.com
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_lakewenatchee.png" %>%
@@ -1428,7 +1428,7 @@ As the crowd grew we made an escape for a hike down the lake's outlet -- the Wen
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_larrabee.png" %>%
@@ -1465,7 +1465,7 @@ A gentle breeze off the water made 58 feel chilly; for August. In short, it was 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_skagitisland.png" %>%
@@ -1502,7 +1502,7 @@ From our temporary post on the deserted beach it was a .25 mile paddle over to S
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_hopeisland(skagit).png" %>%
@@ -1537,7 +1537,7 @@ Despite the slack tide the 0.4 mile crossing to Hope Island wasn't easy. Dodging
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_penrosepoint.png" %>%
@@ -1572,7 +1572,7 @@ Rounding the point in this manner greets the intrepid with an amazing view of Mt
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_joemmabeach.png" %>%
@@ -1607,7 +1607,7 @@ We spent a bit of time scouring the beach for treasures for the kids. The oldest
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_cuttsisland.png" %>%
@@ -1647,7 +1647,7 @@ After a quick trip around the island and out to the exposed tombolo (formerly of
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_mcmickenisland.png" %>%
@@ -1682,7 +1682,7 @@ We had crossed from one island to another via a secret, underwater path: We were
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_jarrellcove.png" %>%
@@ -1717,7 +1717,7 @@ Both park docks were busy. One with boaters trading stories, the other with a do
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_twanoh.png" %>%
@@ -1752,7 +1752,7 @@ We didn't stay long -- we had upcoming adventures planned and a tight timeline -
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_belfair.png" %>%
@@ -1786,7 +1786,7 @@ After creeping on the campers, we took a quick tour of the beach. Mud flats, rea
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_kopachuck.png" %>%
@@ -1821,7 +1821,7 @@ Lunch, a brief swim and back to the car in time for naps on the ride home.  We m
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_manchester.png" %>%
@@ -1857,7 +1857,7 @@ Zone coverage on the two children wasn't working well, so we split up for a man-
 &nbsp;
 
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_illahee.png" %>%
@@ -1893,7 +1893,7 @@ By 9am it was evident it was going to be a great day for the beach. Blue sky, sl
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_clarkisland.png" %>%
@@ -1928,7 +1928,7 @@ We don't currently own a boat. This week's island trips have been courtesy of ou
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_poseyisland.png" %>%
@@ -1961,7 +1961,7 @@ Our stay on the island was measurable in seconds.  Our friends both were keeping
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_stuartisland.png" %>%
@@ -1994,7 +1994,7 @@ From the dock, we hiked up and over a ridge, along a cliff and down to a sand/ro
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_moran.png" %>%
@@ -2027,7 +2027,7 @@ Erin and I managed to slip in nice paddleboard trips across the lake to the wood
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_suciaisland.png" %>%
@@ -2061,7 +2061,7 @@ The beaches are ideal.  Very shallow slope with all manner of shells, sticks and
 &nbsp;
 
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_obstructionpass.png" %>%
@@ -2097,7 +2097,7 @@ Arriving straight from the ferry landing, we unloaded and packed up for a short 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_blakeisland.png" %>%
@@ -2136,7 +2136,7 @@ Donning our masks and backpacks, we unloaded the kids, unloosed their life-jacke
 &nbsp;
 
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_blindisland.png" %>%
@@ -2173,7 +2173,7 @@ Our trip from Jones and our eventual 'stop' here showed us the short-comings of 
 &nbsp;
 
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_jonesisland.png" %>%
@@ -2208,7 +2208,7 @@ There are some truly magnificent trees tucked into the valley in the middle of t
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_turnisland.png" %>%
@@ -2246,7 +2246,7 @@ On our last leg of the hike, we scared up two raccoons who appeared to have been
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_tolmie.png" %>%
@@ -2282,7 +2282,7 @@ We stayed long enough for a snack and a brief hunt for sea glass.  The tide was 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_millersylvania.png" %>%
@@ -2317,7 +2317,7 @@ Back at the car, the little one needed a drink, so Everett and I spent some time
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r lake_easton, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_lakeeaston.png" %>%
@@ -2352,7 +2352,7 @@ The smaller one got to roll around in the snow tucked into his hand-me down snow
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r gingko, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_ginkgo.png" %>%
@@ -2385,7 +2385,7 @@ Late morning on a Friday in February, we were the only visitors.  Perhaps in bus
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r olmstead_place, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_olmsteadplace.png" %>%
@@ -2419,7 +2419,7 @@ The stop was saved by the discovery of the small creek, now rushing and bubbling
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r palouse_to_cascades, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_palousetocascades.png" %>%
@@ -2453,7 +2453,7 @@ The Cedar River Watershed Education Center (CRWEC?) is surprisingly worthwhile v
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r olallie, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_olallie.png" %>%
@@ -2488,7 +2488,7 @@ The presence and proportion of old growth along the short Weeks Falls trail is a
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r joseph_whidbey, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_josephwhidbey.png" %>%
@@ -2522,7 +2522,7 @@ There was a delay getting into the park.  The main lot was full (6 spaces), but 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r fort_ebey, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_fortebey.png" %>%
@@ -2557,7 +2557,7 @@ After the hike, we eventually made our way to Fort Ebey.  Much larger in size, t
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r fort_casey, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_fortcasey.png" %>%
@@ -2593,7 +2593,7 @@ Erin is a lighthouse fanatic and was disappointed to find Fort Casey's covered i
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r south_whidbey, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_southwhidbey.png" %>%
@@ -2631,7 +2631,7 @@ Actually, we didn't do that...but the thought crossed my mind.
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r federation_forest, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_federationforest.png" %>%
@@ -2666,7 +2666,7 @@ The spongy flood plain maintained a hint of the week's earlier snowfall. Cold, b
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r nolte, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_nolte.png" %>%
@@ -2701,7 +2701,7 @@ Its a nice park.  The grounds are well kept, the facilities aged in that underfu
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r kanaskat_palmer, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_kanaskat-palmer.png" %>%
@@ -2736,7 +2736,7 @@ As with our earlier stop, we pretty much had the park to ourselves.  In the city
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r flaming_geyser, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_flaminggeyser.png" %>%
@@ -2769,7 +2769,7 @@ Geyser is a misnomer.  It is pipe drilled 1,300 feet into the ground originally 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r squak_mountain, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_squakmountain.png" %>%
@@ -2802,7 +2802,7 @@ Back at the parking lot the fun truly began for the younger generation.  Puddles
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r camano_island, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_camanoisland.png" %>%
@@ -2836,7 +2836,7 @@ Everett and I found a makeshift driftwood fort which we requisitioned and remode
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r cama_beach, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_camabeach.png" %>%
@@ -2869,7 +2869,7 @@ Being a holiday weekend, some of the cabins had been inhabited the night before 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r deception_pass, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_deceptionpass.png" %>%
@@ -2905,7 +2905,7 @@ The amphitheater had a compass rose stamped in the concrete.  Clever parent that
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r dash_point, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_dashpoint.png" %>%
@@ -2943,7 +2943,7 @@ Getting ready to leave the parking lot, there were three families preparing to d
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r saltwater, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_Saltwater.png" %>%
@@ -2979,7 +2979,7 @@ Despite this, our spirits were high and instead of heading home defeated we call
  
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r lake_sammammish, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_Lakesammamish.png" %>%
@@ -3011,7 +3011,7 @@ The weather had kept the crowds at bay and the massive parking lot was mostly em
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r saint_edward, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_saintedward.png" %>%
@@ -3046,7 +3046,7 @@ Post-hike, we entered the melee at the playground. Time was passed silently judg
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r spencer_spit, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_spencerspit.png" %>%

@@ -25,6 +25,8 @@ editor_options:
   boating_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('boating.RDS')))
   paddle_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('paddle.RDS')))
   boundaries_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('boundaries.RDS')))
+  stays_sf <- readRDS(file.path(getwd(), 'data', 'created', paste0('stays.RDS')))
+  
   
   Parks <- 
    points_sf %>% 
@@ -50,6 +52,7 @@ editor_options:
   `Boating` <- boating_sf
   `Hikes` <- hikes_sf
   `Paddled` <- paddle_sf
+  `Stays` <- stays_sf
 
   
 ```
@@ -83,21 +86,24 @@ editor_options:
     tm_lines(col = 'goldenrod', scale = 1.5, legend.lwd.show = FALSE) + 
     
   tm_shape(Parks, alpha = .8) +
-    tm_dots(col='State Parks', palette = c('forestgreen', 'gray20')) 
-  
+    tm_dots(col='State Parks', palette = c('forestgreen', 'gray20'))  
+
+  # tm_shape(Stays, alpha = .8) +
+  #   tm_symbols(col='gray50', scale = .5, shape = 17)
 
 
-```
-
-
-```{r}
-
-library(leaflet)
-
-visited_sf %>% 
-  mutate(label = paste("marvel at ", ParkCode, " and follow <a href = https://stackoverflow.com/>stack overflow</a>")) %>% 
-  leaflet() %>%
-  addTiles(group = "OSM") %>%
-  addCircleMarkers(popup = ~label)
 
 ```
+
+
+<!-- ```{r} -->
+
+<!-- library(leaflet) -->
+
+<!-- visited_sf %>%  -->
+<!--   mutate(label = paste("marvel at ", ParkCode, " and follow <a href = https://stackoverflow.com/>stack overflow</a>")) %>%  -->
+<!--   leaflet() %>% -->
+<!--   addTiles(group = "OSM") %>% -->
+<!--   addCircleMarkers(popup = ~label) -->
+
+<!-- ``` -->
