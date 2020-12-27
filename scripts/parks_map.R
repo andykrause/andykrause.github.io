@@ -82,7 +82,7 @@
   #for (k in 1:nrow(visited_sf)){
   for (k in 1:1){
       
-  
+
      i_sf <- visited_sf[k,]
      cat('Drawing: ', i_sf$ParkName, '\n')
      shortname <- tolower(i_sf$ParkName)

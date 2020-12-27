@@ -126,7 +126,125 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 &nbsp;
 
+---------------------------------------------------------------------------------------------------
 
+#### 87) [Lake Silvia](https://parks.state.wa.us/534/Lake-Sylvia): 
+
+&nbsp;
+&nbsp;
+
+Write-up in progress...
+
+<!-- * Busy for a cold Wed morning -->
+<!-- * Hike over the damn and loop back -->
+<!-- * Original mill steaders and their 13 kids.  -->
+<!-- * New Ranger STation -->
+<!-- * Derailed train on the way to the park -->
+
+---------------------------------------------------------------------------------------------------
+
+#### 86) [Schafer](https://parks.state.wa.us/580/Schafer): 
+
+&nbsp;
+&nbsp;
+
+Write-up in progress...
+
+<!-- * 32 and still with sun breaking though -->
+<!-- * Frost covered everything, making the ferns amazing -->
+<!-- * Camping area looks like the remnants of a clear cut -->
+<!-- * The stone building with the windows boarded up is a weird vibe -->
+<!-- * The river running high, no one around.  -->
+<!-- * Lake Arrowwood -->
+
+---------------------------------------------------------------------------------------------------
+
+#### 85) [Potlatch](https://parks.state.wa.us/569/Potlatch): 
+
+&nbsp;
+&nbsp;
+
+Write-up in progress...
+
+<!-- * Afternoon of beach combing and stalling on the interpretive trail.   -->
+<!-- * Washout -->
+<!-- * Seal -->
+<!-- * Spiral oyster shell to keep the kids busy -->
+<!-- * Damp and cold even with the small rays of sun which ducked behind the hill around 3pm -->
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 84) [Triton Cove](https://parks.state.wa.us/296/Triton-Cove): 
+
+&nbsp;
+&nbsp;
+
+Write-up in progress...
+
+<!-- * Drive through operation -->
+<!-- * Impressive parking lot and boat launch, with a beach that was hidden by the tide. -->
+<!-- * Pivoted to Hamma Hamma to get some seafood and hike on the oyster piles -->
+<!-- * Maybe we should have gotten food then picnicked at Triton cove...but a bit cold for an open air picnic -->
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 83) [Dosewallips](https://parks.state.wa.us/499/Dosewallips): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_dosewallips.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Dosewallips'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Fresh off our very short visit to Pleasant Harbor we arrived at Dosewallips State Park ready to get out and move around.  The recent rains had left the lawns pockmarked with puddles; the cold front that moved in over night had added thin geometric patterns of ice floating atop.  Smashing these would prove a favored task of both children.  
+
+<img src="images/waparks_dosewallips.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+The lower part of the park encompases the majority of the delta/estuary of the Dosewallips River.  Overnight, the cold air had sunk down and sat in these wetlands coating the plants with a brilliant veneer of frost. Hardly the winter wonderland of my Midwestern upbringing, glints of sun poking through the fog occasionally danced off of the frost giving us some of the pre-Christmas feel that is so often absent here in the wet and dreary PNW. The trail out to the delta's far reaches is well-built but was flooded nonetheless given the yesterday's torrent.  We skirted, hopped and sidestepped most of the problem areas though eventually were blocked off as it was high tide and the rushing river had been pushed back across the normal route.
+
+Retreating to the raised platform, we found it a great perch to watch the eagles roasting in the dead trees and the ducks going about their daily routines.  Frost had also settled on the platform floor, causing a number of close calls from the adults and one epic wipe-out from the youngest. Only one handful of trail snacks were harmed in this incident. We hustled back through the gauntlet of puddles to the car as the near-freezing fog had chilled us to the bone.  En route, one boat was submerged and one diaper filled; the scene back at the car -- a frantic search for new socks and baby wipes amidst pleas for more snacks -- was chaotic, for sure, but nothing outside of our our standard road trip melee.  The new normal.       
+
+---------------------------------------------------------------------------------------------------
+
+#### 82) [Pleasant Harbor](https://parks.state.wa.us/566/Pleasant-Harbor): 
+
+&nbsp;
+&nbsp;
+
+```{r, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_pleasantharbor.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, left = clipp, bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Pleasant Harbor'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+For 24 hours it had rained, and rained hard. Here at our Airbnb in Hoodsport -- near that drastic bend in the Hood Canal, the far SW of Puget Sound -- me missed out on the snow that eventually fell and accumulated in Seattle and northwards.  Instead, we awoke to a cold and blanketing fog with the temperature hovering right around freezing.  It was deathly still, a welcome calm from the winds earlier in the week.  
+
+<img src="images/waparks_pleasantharbor.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+North of Hoodsport Highway 101 hugs the coastline, often with a steep hillside on your left and the beach on your right; the roadway forced into what space it could. After a storm like this one countless impromptu waterfalls dumped runoff on the road and in the nearby ditch.  A dozen or so recent and small landslides were visible as well. Many had been stopped by well-placed barriers but one had spilled onto the road and had required an early morning removal session by the local highway department. Mornings like these are a reminder of the constant battle that is waged to keep our roadways intact agasint Mother's Nature's continual barrage of wind and water.
+
+Pleasant Harbor looked small on the map and, not being in a boat, we came in with low expectations.  First we turned too early, into the local marina.  Then we turned too late and had to backtrack. The entrance to the park is not signed at all. Eventually, we found ourselves on a steep and poorly maintained one-lane road swith-backing toward the bay.  And by one-lane I mean there is absolutely no way for cars to pass each other; a meeting would require someone to back all the way out.  We arrived to find that the park was nothing more than two parking spots, a portable toilet and a dock.  Both spots were, oddly enough, full so we had to pull a U-turn in the neighboring marina's overflow lot and wait out the other two adventurers.  Soon enough we were able to grab our requisite photo of the signage.  This park is a well-kept secret, though a secret you shouldn't be too upset about not being in on.
 
 ---------------------------------------------------------------------------------------------------
 

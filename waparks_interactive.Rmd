@@ -84,7 +84,20 @@ editor_options:
     
   tm_shape(Parks, alpha = .8) +
     tm_dots(col='State Parks', palette = c('forestgreen', 'gray20')) 
-    
+  
 
+
+```
+
+
+```{r}
+
+library(leaflet)
+
+visited_sf %>% 
+  mutate(label = paste("marvel at ", ParkCode, " and follow <a href = https://stackoverflow.com/>stack overflow</a>")) %>% 
+  leaflet() %>%
+  addTiles(group = "OSM") %>%
+  addCircleMarkers(popup = ~label)
 
 ```
