@@ -134,7 +134,7 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 
 
-```{r, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+```{r lake_silvia, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
   "images/map_lakesylvia.png" %>%
