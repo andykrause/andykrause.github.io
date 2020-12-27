@@ -140,7 +140,8 @@ img <-
   "images/map_lakesylvia.png" %>%
   magick::image_read() %>%
   cropp(right = clipp, top = clipp, 
-        left = clipp, bottom = clipp) %>%
+        left = clipp, 
+        bottom = clipp) %>%
   magick::image_scale(., '200')
 
 gridExtra::grid.arrange(rasterGrob(img), 
