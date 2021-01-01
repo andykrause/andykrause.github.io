@@ -115,7 +115,7 @@
   # Park Baoting
   stays_sf <- sf::st_read(file.path(getwd(), 'data','raw', 'waparks_stays.shp')) %>%
     sf::st_transform(4269)
-  saveRDS(stays_sf, file.path(getwd(), 'data','created', 'waparks_stays.RDS'))
+  saveRDS(stays_sf, file.path(getwd(), 'data','created', 'stays.RDS'))
   
   
   

@@ -128,6 +128,70 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 
 ---------------------------------------------------------------------------------------------------
 
+#### 89) [Birch Bay](https://parks.state.wa.us/170/Birch-Bay): 
+
+&nbsp;
+&nbsp;
+
+
+```{r birch_bay, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_birchbay.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Birch Bay'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+From the border, we meandered southwards along the coast.  First through downtown Blaine looking more desolate than most towns due to the decreased border traffic.  Then down past the seaside community of Birch Bay which was livelier than expected on a blustery winter day. Likely many owners had retreated to their seaside cabins for the holiday as most large family gathering had been cancelled. Eventually we arrived at Birch Bay State Park. Like [Joe Btfslpk](https://en.wikipedia.org/wiki/Joe_Btfsplk) the clouds followed us down to the beach as well.  
+
+<img src="images/waparks_birchbay.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+The wide, broad beach was hemmed in by the high winter tide. Childless, we parked and were quickly be on our way for a short hike along the water.  No collecting snacks and water bottles, no zipping jackets and tightening hats.  No whining. Just two adults out for a stroll along the ocean; our conversation focused mostly around planning for the new year and how we'll try to keep checking off parks through coming few wet and cold months.  
+
+Back on the road as we had a ferry to catch.  Our childcare hadn't agreed to an overnight session, unfortunately, and the only un-visited parks nearby required a boat to get to.  Birch Bay is almost certainly a better visit in the summer; today's stop didn't do it justice.  
+
+---------------------------------------------------------------------------------------------------
+
+#### 88) [Peace Arch](https://parks.state.wa.us/562/Peace-Arch): 
+
+&nbsp;
+&nbsp;
+
+
+```{r peach_arch, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_peacearch.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Peace Arch'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+All around us the skies were clearing, the sun peaking through on a chilled Tuesday late in December.  Except here.  Here above this muddy field the low clouds held tight and the wind blew in off the water. Over the past few weeks the rains had softened the ground while the abnormally high foot traffic turning it to an oozing mess. We were in this field because it is one of the 137 state parks that we are on a quest to visit.  Most of the others were here -- Peace Arch State Park -- because it is one of (the only?) place where Canadians and Americans can physically gather during the pandemic.  
+
+<img src="images/waparks_peacearch.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+And gather they did. Many for picnics, some just stomping through the mud and conversing, others engaged in more intimate exchanges in the dozens of tents set up across the higher ground. Outliers, we had come for the park not the people and for that, our visit was short. A quick wander to stare up at the actual Peach Arch then a lap of the aforementioned mud pit on the American side. A walk that took us past multiple border agents of both nations and likely dozens of hidden cameras.  
+
+Pandemic-version Peace Arch is a unique scene and certainly the most 'COVID-specific' thing we've seen in the nearly 90 parks visited to date. A geo-political oddity serving a necessary function -- that of maintaining human connection -- in a time of exceptional trying. We left with wet feet and muddy pants but also a renewed sense of hope for what cooperation and good intent might be able to accomplish in 2021. 
+
+---------------------------------------------------------------------------------------------------
+
 #### 87) [Lake Sylvia](https://parks.state.wa.us/534/Lake-Sylvia): 
 
 &nbsp;
