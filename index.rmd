@@ -13,9 +13,7 @@ output:
 
 <img src="images/andy.jpg" style="width:28%; border:10px solid; margin-right: 20px" align="left">
 
-I manage the Home Valuations (AI/Zestimate) Applied Science team at Zillow.  Our team focuses on research and development of novel data and techniques to improve our estimates of home values and rents as well as to provide novel and interpretable information to users. 
-
-We are a division of the larger Artificial Intelligence unit.  Our group blog is here: https://www.zillow.com/data-science/
+I lead new research and development for Zillow’s [Zestimate](https://www.zillow.com/how-much-is-my-home-worth/) and related home valuation products.  Prior to Zillow I taught research methods and data science to real estate students at the University of Melbourne and worked as a data scientist developing Automated Valuation Models for Greenfield Advisors, a valuation consulting firm.   My doctoral degree is in Urban Planning from the University of Washington and I try to remain active in academic conferences and publications.  My primary research and professional aim is to straddle the academic and applied sides of the valuation industry.  When not writing R code or staring at plots, I can be found hiking, biking and paddling with his family in the Pacific Northwest. 
 
 My full CV is available [here](files/krause_cv.pdf). 
 
