@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
 <title>WA State Parks Challenge</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -23,8 +24,18 @@
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -74,6 +85,7 @@ h6 {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -86,7 +98,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -235,6 +246,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -246,18 +258,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -308,19 +308,19 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="http://github.com/andykrause">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/andy-krause-7260ab17/">
-    <span class="fa fa-linkedin fa-lg"></span>
+    <span class="fas fa-linkedin fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/Andy_L_Krause">
-    <span class="fa fa-twitter fa-lg"></span>
+    <span class="fas fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -378,16 +378,16 @@ Total
 <tbody>
 <tr>
 <td style="text-align:right;">
-89
+93
 </td>
 <td style="text-align:right;">
-48
+44
 </td>
 <td style="text-align:right;">
 137
 </td>
 <td style="text-align:right;">
-65
+68
 </td>
 </tr>
 </tbody>
@@ -416,7 +416,7 @@ Miles Paddleboarded
 <tbody>
 <tr>
 <td style="text-align:right;">
-4715
+4905
 </td>
 <td style="text-align:right;">
 114
@@ -425,7 +425,7 @@ Miles Paddleboarded
 97
 </td>
 <td style="text-align:right;">
-54
+57
 </td>
 <td style="text-align:right;">
 5
@@ -441,11 +441,47 @@ Miles Paddleboarded
 <h3><strong>Trip Reports</strong></h3>
 <p>     </p>
 <hr />
+<div id="willapa-hills-trail" class="section level4">
+<h4>93) <a href="https://parks.state.wa.us/1023/Willapa-Hills-Trail">Willapa Hills Trail</a>:</h4>
+<p>   </p>
+<p><img src="waparks_files/figure-html/willapa%20hills-1.png" width="672" /></p>
+<p><img src="images/waparks_willapahills.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right"></p>
+<hr />
+</div>
+<div id="rainbow-falls" class="section level4">
+<h4>92) <a href="https://parks.state.wa.us/570/Rainbow-Falls">Rainbow Falls</a>:</h4>
+<p>   </p>
+<p><img src="waparks_files/figure-html/rainbow%20falls-1.png" width="672" /></p>
+<p><img src="images/waparks_rainbowfalls.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right"></p>
+<hr />
+</div>
+<div id="lewis-clark" class="section level4">
+<h4>91) <a href="https://parks.state.wa.us/538/Lewis-Clark">Lewis &amp; Clark</a>:</h4>
+<p>   </p>
+<p><img src="waparks_files/figure-html/lewis%20clark-1.png" width="672" /></p>
+<p>A stop on the historic northern spur of the Oregon trail, Lewis and Clark State Park is a dendrophiliac’s dream. Thick stands of remnant old growth forest. Miles of hiking trails, massive nurse logs and heaping ferns. Towering conifers and crooked deciduous varieties. Wetlands and meadows and more.</p>
+<p><img src="images/waparks_lewisandclark.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right"></p>
+<p>All of these things were denied us. The park was closed, not to open again until May 1. An odd closure for certain given the temperate climate in this part of the state. Luckily this park was more-or-less on our way back to our lodging so nothing much lost in the way of travel. Additionally, the rain had finally caught up to us as well and no sooner than we arrived at the shuttered gate that the sky opened up and water fell in a drenching cadence.</p>
+<p>A disappointing end to the day, no doubt, but it did save us the grind of a somewhat forced hike through the soggy ground amidst a substantial late winter rain. And, it could have been worse, after all. We could have been arriving in a covered wagon subsisting on old leather and rose hips and suffering from dysentery. A little perspective goes a long way at times. Next up, take out food and the hotel pool.</p>
+<hr />
+</div>
+<div id="ike-kinswa" class="section level4">
+<h4>90) <a href="https://parks.state.wa.us/519/Ike-Kinswa">Ike Kinswa</a>:</h4>
+<p>   </p>
+<p><img src="waparks_files/figure-html/ike%20kinswa-1.png" width="672" /></p>
+<p>We spent most of January and February locked down letting the worst of the weather and the pandemic pass before resuming our State Parks quest. It felt good to be back on the road, searching for those large brown signs beyond which lay beaches and trails, interpretive signage and parking lots, playgrounds and picnic shelters.</p>
+<p><img src="images/waparks_ikekinswa.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right"></p>
+<p>Ike Kinswa park occupies a sharp peninsula that juts out into Mayfield Lake. Formerly a high ridge between the confluence of the Tilton and Cowlitz rivers, the construction of the Mayfield Dam in 1963 turned this upland into a lowland. Soon after, the park was renamed from Mayfield Lake to Ike Kinswa to honor a local member of the Cowlitz tribe, prominent in the 1880s.</p>
+<p>A handful of RVs were sited in the one section of the park’s campground that wasn’t closed for the season. A dog walker here and a few others milling about over there. The standard off season emptiness of a State Park far from a population center.</p>
+<p>A short hike took us to the end of the peninsula and a few small beaches. As we threw rocks into the water, a fishing boat glided by. At the same time our eldest found some discarded fishing line, complete with swivel and leaded weight (sinker). For a good, long moment I was transported back to my youth. Countless weekends in a similar boat, casting similar lines in a similar lake. Fighting the cold breeze and the glare of the sun off the wave-tinted water. The occasional sun burn, the more occasional cold fingers and toes. String cheese and pretzels for snacks, a Pepsi or root beer to drink. The smell of dead bait and marine fuel at times, dying algae at others. Sometimes the fish were biting, often they were not. Grand old times with my dad and brother. A lifetime ago; a half continent away.</p>
+<p>We hiked out and over to another part of the park where mom led a small nature school. Class consisted of identifying various seed and cones while splayed out on a large rock to soak up a short sunburst. The skies to the west began to threaten and we soon packed up headed back to civilization, or Chehalis at the very least.</p>
+<hr />
+</div>
 <div id="birch-bay" class="section level4">
 <h4>89) <a href="https://parks.state.wa.us/170/Birch-Bay">Birch Bay</a>:</h4>
 <p>   </p>
 <p><img src="waparks_files/figure-html/birch_bay-1.png" width="672" /></p>
-<p>From the border, we meandered southwards along the coast. First through downtown Blaine looking more desolate than most towns due to the decreased border traffic. Then down past the seaside community of Birch Bay which was livelier than expected on a blustery winter day. Likely many owners had retreated to their seaside cabins for the holiday as most large family gathering had been cancelled. Eventually we arrived at Birch Bay State Park. Like <a href="https://en.wikipedia.org/wiki/Joe_Btfsplk">Joe Btfslpk</a> the clouds followed us down to the beach as well.</p>
+<p>From the border, we meandered southwards along the coast. First through downtown Blaine looking more desolate than most towns due to the decreased border traffic. Then down past the seaside community of Birch Bay which was livelier than expected on a blustery winter day. Likely many owners had retreated to their seaside cabins for the holiday as most large family gathering had been canceled. Eventually we arrived at Birch Bay State Park. Like <a href="https://en.wikipedia.org/wiki/Joe_Btfsplk">Joe Btfslpk</a> the clouds followed us down to the beach as well.</p>
 <p><img src="images/waparks_birchbay.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right"></p>
 <p>The wide, broad beach was hemmed in by the high winter tide. Childless, we parked and were quickly be on our way for a short hike along the water. No collecting snacks and water bottles, no zipping jackets and tightening hats. No whining. Just two adults out for a stroll along the ocean; our conversation focused mostly around planning for the new year and how we’ll try to keep checking off parks through coming few wet and cold months.</p>
 <p>Back on the road as we had a ferry to catch. Our childcare hadn’t agreed to an overnight session, unfortunately, and the only un-visited parks nearby required a boat to get to. Birch Bay is almost certainly a better visit in the summer; today’s stop didn’t do it justice.</p>
@@ -465,7 +501,7 @@ Miles Paddleboarded
 <h4>87) <a href="https://parks.state.wa.us/534/Lake-Sylvia">Lake Sylvia</a>:</h4>
 <p>   </p>
 <p><img src="waparks_files/figure-html/lake_silvia-1.png" width="672" /></p>
-<p>Entering Montesano we came upon a train derailment, the first of our State Park Challenge. This is big excitement for a four-year-old. We slowly took the marked detour, speculating widely on what had happened (six grain cars derailed due to a wash out of the tracks). No matter the quality of Lake Sylvia Park, it was likely to be a dissappointment to at least one of us.</p>
+<p>Entering Montesano we came upon a train derailment, the first of our State Park Challenge. This is big excitement for a four-year-old. We slowly took the marked detour, speculating widely on what had happened (six grain cars derailed due to a wash out of the tracks). No matter the quality of Lake Sylvia Park, it was likely to be a disappointment to at least one of us.</p>
 <p><img src="images/waparks_lakesylvia.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right"></p>
 <p>Up the winding road and perched above Montesano is Lake Sylvia Park. The lake is an artificial one, created by the damming of Sylvia Creek right above the natural waterfall. Back in the 1880s a homesteading family settled here, built a dam to power a sawmill and raised a family of 13 children on the property. While trying to keep our two children from falling into the water or eating wild mushrooms, the enormity of that task settled uncomfortably on us…though I guess they start to watch each other at some point. I can only imagine the fun those kids had at having their very own lake to fish and swim in, provided late 19th century frontier life left any time for leisurely pursuits such as this.</p>
 <p>We learned about this family and more during our short hike up and over the dam and through the surrounding forest. Many more miles of trails radiate from this park – down to town, up to the national forest and in every other direction. The park was busy, mostly with solo dog walker and hikers. We were the only group with kids (the playground is closed for COVID and swimming obviously out of season). We wondered about the uses of the very new building on the SE shore, but did not put in the effort of checking it out in person. Based on the parking, the signage and the built features, it seems Lake Sylvia is a popular summer hang out for Montesanoans (?).</p>
@@ -654,7 +690,7 @@ Miles Paddleboarded
 <p>   </p>
 <p><img src="waparks_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
 <p> </p>
-<p>On a calm, October Monday morning Alta Lake lay still. A single aluminium fishing craft trolling so slowly its wake didn’t upset the pane glass texture of the water. The parking lot was no busier. No bodies at the beach, the concession stand locked up for the season. After spending the weekend at Lake Chelan, the emptiness here was welcome.</p>
+<p>On a calm, October Monday morning Alta Lake lay still. A single aluminum fishing craft trolling so slowly its wake didn’t upset the pane glass texture of the water. The parking lot was no busier. No bodies at the beach, the concession stand locked up for the season. After spending the weekend at Lake Chelan, the emptiness here was welcome.</p>
 <p><img src="images/waparks_altalake.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right"></p>
 <p>Burn scars from the 2014 fire still show on the larger remaining trees. The vegetation is mostly quick growing, post-fire plants. The cold nights have turned the leaves all shades of vibrant colors, the reds and yellow striking against the pure blue water and the irrigated greens of the parks lawns. Around this natural palette brown hills form a bounding ring. Lest I wax too poetically about the natural scenery here, do note that much of the shoreline is privately owned and filled with modern homes, docks and boats.</p>
 <p>This early in the day it was too cold for a swim. We settled for a short hike to see the ghost trees down by the NW end of the lake and then spent a long episode at the swing set – which appeared to be the only playground equipment to have survived the fire. A simple design from generations ago – wrought iron, now rusted –it may have survived the past few fires. In fact, I wouldn’t be surprised if it was there when the first European settlers stumbled up the rim and looked down into the larger cavity containing the lake.</p>
@@ -1458,8 +1494,8 @@ After creeping on the campers, we took a quick tour of the beach. Mud flats, rea
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>This number could vary based on which types of parks and park properties you count. We’ve opted for all of those on the above mentioned banner, plus any other new parks that have their own website link on the WA State Parks website. Imperfect, I know, but objective at the least<a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>I use this term as a matter of official-ness, not a measure of capacity, ability or even motivation<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>This number could vary based on which types of parks and park properties you count. We’ve opted for all of those on the above mentioned banner, plus any other new parks that have their own website link on the WA State Parks website. Imperfect, I know, but objective at the least<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>I use this term as a matter of official-ness, not a measure of capacity, ability or even motivation<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 
@@ -1488,7 +1524,7 @@ After creeping on the campers, we took a quick tour of the beach. Mud flats, rea
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -1496,6 +1532,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

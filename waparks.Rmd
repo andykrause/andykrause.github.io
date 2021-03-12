@@ -76,7 +76,7 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = TRUE}
+```{r, echo = FALSE, cache = FALSE}
 
   head_col <- '#9df18e'
   row_col <- "#edf5fc"
@@ -97,7 +97,7 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = TRUE}
+```{r, echo = FALSE, cache = FALSE}
 
   travel_df <- data.frame('Miles Driven' = summ_df$Measure[4],
                           'Miles Ferried' = summ_df$Measure[5],
@@ -128,6 +128,127 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 
 ---------------------------------------------------------------------------------------------------
 
+#### 93) [Willapa Hills Trail](https://parks.state.wa.us/1023/Willapa-Hills-Trail): 
+
+&nbsp;
+&nbsp;
+
+
+```{r willapa hills, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_willapahills.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Willapa Hills'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+<img src="images/waparks_willapahills.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 92) [Rainbow Falls](https://parks.state.wa.us/570/Rainbow-Falls): 
+
+&nbsp;
+&nbsp;
+
+
+```{r rainbow falls, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_rainbowfalls.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Rainbow Falls'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+<img src="images/waparks_rainbowfalls.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+---------------------------------------------------------------------------------------------------
+
+#### 91) [Lewis & Clark](https://parks.state.wa.us/538/Lewis-Clark): 
+
+&nbsp;
+&nbsp;
+
+
+```{r lewis clark, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_lewis&clark.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Lewis & Clark'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+A stop on the historic northern spur of the Oregon trail, Lewis and Clark State Park is a dendrophiliac's dream. Thick stands of remnant old growth forest.  Miles of hiking trails, massive nurse logs and heaping ferns. Towering conifers and crooked deciduous varieties.  Wetlands and meadows and more. 
+
+<img src="images/waparks_lewisandclark.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+All of these things were denied us. The park was closed, not to open again until May 1.  An odd closure for certain given the temperate climate in this part of the state. Luckily this park was more-or-less on our way back to our lodging so nothing much lost in the way of travel. Additionally, the rain had finally caught up to us as well and no sooner than we arrived at the shuttered gate that the sky opened up and water fell in a drenching cadence.
+
+A disappointing end to the day, no doubt, but it did save us the grind of a somewhat forced hike through the soggy ground amidst a substantial late winter rain. And, it could have been worse, after all. We could have been arriving in a covered wagon subsisting on old leather and rose hips and suffering from dysentery. A little perspective goes a long way at times. Next up, take out food and the hotel pool.  
+
+---------------------------------------------------------------------------------------------------
+
+#### 90) [Ike Kinswa](https://parks.state.wa.us/519/Ike-Kinswa): 
+
+&nbsp;
+&nbsp;
+
+
+```{r ike kinswa, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_ikekinswa.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Ike Kinswa'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+We spent most of January and February locked down letting the worst of the weather and the pandemic pass before resuming our State Parks quest. It felt good to be back on the road, searching for those large brown signs beyond which lay beaches and trails, interpretive signage and parking lots, playgrounds and picnic shelters.  
+
+<img src="images/waparks_ikekinswa.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Ike Kinswa park occupies a sharp peninsula that juts out into Mayfield Lake. Formerly a high ridge between the confluence of the Tilton and Cowlitz rivers, the construction of the Mayfield Dam in 1963 turned this upland into a lowland. Soon after, the park was renamed from Mayfield Lake to Ike Kinswa to honor a local member of the Cowlitz tribe, prominent in the 1880s.  
+
+A handful of RVs were sited in the one section of the park's campground that wasn't closed for the season.  A dog walker here and a few others milling about over there.  The standard off season emptiness of a State Park far from a population center.  
+
+A short hike took us to the end of the peninsula and a few small beaches.  As we threw rocks into the water, a fishing boat glided by.  At the same time our eldest found some discarded fishing line, complete with swivel and leaded weight (sinker).  For a good, long moment I was transported back to my youth. Countless weekends in a similar boat, casting similar lines in a similar lake. Fighting the cold breeze and the glare of the sun off the wave-tinted water. The occasional sun burn, the more occasional cold fingers and toes. String cheese and pretzels for snacks, a Pepsi or root beer to drink. The smell of dead bait and marine fuel at times, dying algae at others. Sometimes the fish were biting, often they were not.  Grand old times with my dad and brother.  A lifetime ago; a half continent away. 
+
+We hiked out and over to another part of the park where mom led a small nature school.  Class consisted of identifying various seed and cones while splayed out on a large rock to soak up a short sunburst.  The skies to the west began to threaten and we soon packed up headed back to civilization, or Chehalis at the very least. 
+
+---------------------------------------------------------------------------------------------------
+
 #### 89) [Birch Bay](https://parks.state.wa.us/170/Birch-Bay): 
 
 &nbsp;
@@ -150,7 +271,7 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-From the border, we meandered southwards along the coast.  First through downtown Blaine looking more desolate than most towns due to the decreased border traffic.  Then down past the seaside community of Birch Bay which was livelier than expected on a blustery winter day. Likely many owners had retreated to their seaside cabins for the holiday as most large family gathering had been cancelled. Eventually we arrived at Birch Bay State Park. Like [Joe Btfslpk](https://en.wikipedia.org/wiki/Joe_Btfsplk) the clouds followed us down to the beach as well.  
+From the border, we meandered southwards along the coast.  First through downtown Blaine looking more desolate than most towns due to the decreased border traffic.  Then down past the seaside community of Birch Bay which was livelier than expected on a blustery winter day. Likely many owners had retreated to their seaside cabins for the holiday as most large family gathering had been canceled. Eventually we arrived at Birch Bay State Park. Like [Joe Btfslpk](https://en.wikipedia.org/wiki/Joe_Btfsplk) the clouds followed us down to the beach as well.  
 
 <img src="images/waparks_birchbay.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
@@ -214,7 +335,7 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Entering Montesano we came upon a train derailment, the first of our State Park Challenge. This is big excitement for a four-year-old. We slowly took the marked detour, speculating widely on what had happened (six grain cars derailed due to a wash out of the tracks). No matter the quality of Lake Sylvia Park, it was likely to be a dissappointment to at least one of us.  
+Entering Montesano we came upon a train derailment, the first of our State Park Challenge. This is big excitement for a four-year-old. We slowly took the marked detour, speculating widely on what had happened (six grain cars derailed due to a wash out of the tracks). No matter the quality of Lake Sylvia Park, it was likely to be a disappointment to at least one of us.  
 
 <img src="images/waparks_lakesylvia.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
@@ -770,7 +891,7 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 &nbsp;
 
-On a calm, October Monday morning Alta Lake lay still. A single aluminium fishing craft trolling so slowly its wake didn't upset the pane glass texture of the water.  The parking lot was no busier.  No bodies at the beach, the concession stand locked up for the season. After spending the weekend at Lake Chelan, the emptiness here was welcome. 
+On a calm, October Monday morning Alta Lake lay still. A single aluminum fishing craft trolling so slowly its wake didn't upset the pane glass texture of the water.  The parking lot was no busier.  No bodies at the beach, the concession stand locked up for the season. After spending the weekend at Lake Chelan, the emptiness here was welcome. 
 
 <img src="images/waparks_altalake.png" style="width:25%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
