@@ -177,7 +177,13 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
+During my childhood there was a nearby waterpark named Rainbow Falls (now defunct).  At least once a summer we'd pack in the station wagon and make a trip there to skin our knees on the bumpy water slides and narrowly avoid catching some communicable disease in the tepid waters of the lazy river.  As a kid, these are trivial matters of course. The opportunity to eat 1,000s of calories of processed sugars and act like a savage for an afternoon far outweighed any health concerns. 
+
 <img src="images/waparks_rainbowfalls.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+I couldn't help but recall those days as we now, some 30 years later, aimed our Subaru at the original (?) Rainbow Falls. True to form, it rained the entire drive only for the clouds to part upon our arrival and, lo and behold, a rainbow appear in the sky. A little magic on a wet Sunday morning. 
+
+Unlike the waterpark of yesteryear, this parking lot was empty. Totally empty.  We had the run of the place. A short hike down to the river and the eponymous falls revealed a small cataract of rushing water and the remnants of the old bridge that once crossed here. Shaded out by the overhanging trees it was too dark and damp of a spot for a morning picnic, but worth the rock scramble down nonetheless. 
 
 ---------------------------------------------------------------------------------------------------
 
