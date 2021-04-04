@@ -128,6 +128,460 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 
 ---------------------------------------------------------------------------------------------------
 
+#### 109) [Bottle Beach](https://parks.state.wa.us/479/Bottle-Beach): 
+
+&nbsp;
+&nbsp;
+
+&nbsp;
+&nbsp;
+
+```{r bottlebeach, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_bottlebeach.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Bottle Beach'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 108) [Westport Light](https://parks.state.wa.us/284/Westport-Light): 
+
+&nbsp;
+&nbsp;
+
+&nbsp;
+&nbsp;
+
+```{r westportlight, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_westportlight.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Westport Light'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 107) [Twin Harbors](https://parks.state.wa.us/292/Twin-Harbors): 
+
+&nbsp;
+&nbsp;
+
+&nbsp;
+&nbsp;
+
+```{r twinharbors, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_twinharbors.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Twin Harbors'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 106) [Grayland Beach](https://parks.state.wa.us/515/Grayland-Beach): 
+
+&nbsp;
+&nbsp;
+
+```{r graylandbeach, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_graylandbeach.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Grayland Beach'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 105) [Leadbetter Point](https://parks.state.wa.us/537/Leadbetter-Point): 
+
+&nbsp;
+&nbsp;
+
+&nbsp;
+&nbsp;
+
+```{r leadbetterpoint, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_leadbetterpoint.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Leadbetter Point'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 104) [Pacific Pines](https://parks.state.wa.us/558/Pacific-Pines): 
+
+&nbsp;
+&nbsp;
+
+&nbsp;
+&nbsp;
+
+```{r pacificpines, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_pacificpines.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Pacific Pines'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 103) [Cape Disappointment](https://parks.state.wa.us/486/Cape-Disappointment): 
+
+<!-- L & C's first siting of the pac ocean. long hike around to see both lighthouses and the rolling ocean.  Finished up with a hike up the sea stack on with LC finally saw the PO.  -->
+
+&nbsp;
+&nbsp;
+
+&nbsp;
+&nbsp;
+
+```{r capedisappointment, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_capedisappointment.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Cape Disappointment'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 102) [Fort Columbia](https://parks.state.wa.us/506/Fort-Columbia): 
+
+<!-- perched atop tunnel.  Trying to find lodging with limited cell coverage.   -->
+
+<!-- yellow buildings.  Not as well kept as Flagler and much smaller than Worden, but possibly a more beautiful setting.  Certainly wilder.  -->
+
+&nbsp;
+&nbsp;
+
+&nbsp;
+&nbsp;
+
+```{r fortcolumbia, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_fortcolumbia.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Fort Columbia'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 101) [Battle Ground Lake](https://parks.state.wa.us/472/Battle-Ground-Lake): 
+
+<!-- Battled through suburban traffic to get here. Insane traffic for the area.  Short visit as the park was packed and we had to get to the Coast. -->
+
+&nbsp;
+&nbsp;
+
+```{r battlegroundlake, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_battlegroundlake.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Battle Ground Lake'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 100) [Reed Island](https://parks.state.wa.us/572/Reed-Island): 
+
+<!-- Walk about to a sand bar (river was low).  Short .3 paddleboard across the shallow back channel of the Columbia.  Mucky landing.  Only had one SUP, so picnic and trade off.  -->
+
+&nbsp;
+&nbsp;
+
+```{r reedisland, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_reedisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Reed Island'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 99) [Beacon Rock](https://parks.state.wa.us/474/Beacon-Rock): 
+
+<!-- Every active portlander was here (11 am on the first sunny, warm weekend of the year)  Found a spot in the upper lot and did a quick walk around. CCC buildings.   -->
+
+&nbsp;
+&nbsp;
+
+```{r beaconrock, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_beaconrock.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Beacon Rock'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 98) [Klickitat Trail](https://parks.state.wa.us/869/Klickitat-Trail): 
+
+<!-- Rails to trails.  High above river, right in people's back yards.  Busy with  mountain bikers.   -->
+&nbsp;
+&nbsp;
+
+```{r klickitattrail, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_klickitat.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Klickitat'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 97) [Columbia Hills](https://parks.state.wa.us/489/Columbia-Hills): 
+
+&nbsp;
+&nbsp;
+
+```{r columbiahills, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_columbiahills.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Columbia Hills'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip report coming soon!
+
+<!-- Horsethief Butte.  Climbers.  Wind.  Flowers.  -->
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 96) [Goldendale Observatory](https://parks.state.wa.us/512/Goldendale-Observatory): 
+
+&nbsp;
+&nbsp;
+
+```{r goldendale, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_goldendaleobservatory.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Goldendale Observatory'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Continuing south on Highway 97, the trees again fade away -- many of which were severely burned a few years back -- and the land returns to the semi-arid conditions standard throughout the eastern half of the Columbia Gorge.  The views get better as well.  Mt. Hood is still over fifty miles away but feels like you could reach out and touch it.  
+
+<img src="images/waparks_goldendale.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+On a small plateau lies the town of Goldendale.  Surrounded by farmland, its downtown tells of a grander era when small family farmers and the loggers spent their hard earned money at the local businesses along Broadway Street.  Starting in the 1970s a large aluminum plant drove the local economy forward, but has since closed.  What remains are artifacts of this bygone era and a nearly ideal climate -- sunny but not as dry as the lower elevation areas along the river. The clear skies here initially attracted some astronomers a century ago and today on a hill above town lies the Goldendale Observatory.   
+
+Unfortunately for us, the Observatory is undergoing renovations and is currently closed to the public.  We drove up to the gate and parked.  The hill offers some great views and many hiking and mountain biking trails.  We took a short wander, enjoyed the fresh, cool air of morning and headed back down the hill and the down the slow grade toward the mighty Columbia.  
+
+---------------------------------------------------------------------------------------------------
+
+#### 95) [Brooks Memorial](https://parks.state.wa.us/482/Brooks-Memorial): 
+
+&nbsp;
+&nbsp;
+
+```{r brooks_memorial, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_brooksmemorial.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Brooks Memorial'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Aimed south, in the early morning we left the Yakima Valley on Highway 97, headed for the Columbia Gorge.  One quickly leaves the flat, endless fields for rolling hills of sagebrush and thin barbed wire fences.  Little to no development or evidence of human presence in this part of Tribal Lands.  Eventually you pass up and over onto the south face of the Simcoe Mountains.  The vegetation grows arboreal and the views open up, with the occasional sighting of Mt. Hood.
+
+<img src="images/waparks_brooksmemorial.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Soon after the change in the biome, we came upon Brooks Memorial.  Like Fort Simcoe, shuttered for the season.  We stopped to do our duty in making an official visit.  The air was crisp, only a few degrees above freezing.  It is higher and colder here than you might think and the reason for the winter closing showed its merit.
+
+We didn't stay long, many more parks awaited...and I wasn't dressed for the frost.  
+
+---------------------------------------------------------------------------------------------------
+
+#### 94) [Fort Simcoe](https://parks.state.wa.us/509/Fort-Simcoe): 
+
+&nbsp;
+&nbsp;
+
+```{r fort_simcoe, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_fortsimcoe.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, 'Fort Simcoe'),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+In our minds, Fort Simcoe was just outside of Yakima. In reality, it is a 45-minute crawl through bottom of the Yakima valley.  I say crawl, because after you've spent 2 hours going nearly 80 mph on the freeway, bumping along at 55 with frequent stop signs is. effectively, crawling.  But we were childless -- the grandparents had the kids for two nights -- and had nowhere to be exactly.  While the kids were, undoubtedly, waging a war to stretch the boundaries of normal bedtimes and snack consumption with the substitute parents, we worried little.  Regardless of the balance of power that was negotiated, all would survive the weekend with, likely, few long term scars.  
+<img src="images/waparks_fortsimcoe.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+The Yakima valley is irrigated farmland.  Not the corn and wheat of my native Midwest, but some fruit trees, vines and mostly hops. Miles and miles of hop trellises, bereft of any plants this early but still providing a hypnotic experience as you stare at the perfectly parallel poles fly by the car window. This is also Yakama Nation territory; the land use patterns suggesting that the normal market-driven, county-planned approach doesn't apply here.  An odd mishmash of the dominant agricultural producers and the residences of the native population. 
+
+We drove on. The early evening sun casting a stark silhouette on Mount Adams.  Only a few wispy clouds hung in the sky, while the thermometer read 65. Spring was here in the valley. We arrived to find Fort Simcoe closed for the season.  We knew this ahead of time, but this was our chance to check this park off the list and we had to take it. I captured the obligatory photo of the sign and we retreated to the car.  We paused for a bit to have a small picnic in the back of the Subaru.  Sun on our face, no small humans demanding things, few cares in the world.  We had missed the historical buildings of the park but had found a moment of peace. A worthwhile trade in our book.  
+
+---------------------------------------------------------------------------------------------------
+
 #### 93) [Willapa Hills Trail](https://parks.state.wa.us/1023/Willapa-Hills-Trail): 
 
 &nbsp;

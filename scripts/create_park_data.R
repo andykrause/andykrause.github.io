@@ -49,11 +49,11 @@
 
   # Park Table  
   data_df <- readr::read_csv(file.path(getwd(), 'data','created', 'final_parks_data.csv')) %>%
-    dplyr::filter(Challenge == 1) %>%
-    dplyr::mutate(Visited = as.factor(Visited)) %>%
-    dplyr::select(-c('Longitude', 'Latitude')) 
-  data_df$Longitude <- points_sf$Longitude[match(data_df$Abbrv, points_sf$Abbrv)]
-  data_df$Latitude <- points_sf$Latitude[match(data_df$Abbrv, points_sf$Abbrv)]
+    #dplyr::filter(Challenge == 1) %>%
+    dplyr::mutate(Visited = as.factor(Visited)) #%>%
+    #dplyr::select(-c('Longitude', 'Latitude')) 
+  #data_df$Longitude <- points_sf$Longitude[match(data_df$Abbrv, points_sf$Abbrv)]
+  #data_df$Latitude <- points_sf$Latitude[match(data_df$Abbrv, points_sf$Abbrv)]
   saveRDS(data_df, file.path(getwd(), 'data','created', 'data.RDS'))
   
  points_sf <- points_sf %>%
