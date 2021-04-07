@@ -384,7 +384,6 @@ Trip report coming soon!
 
 #### 100) [Reed Island](https://parks.state.wa.us/572/Reed-Island): 
 
-<!-- Walk about to a sand bar (river was low).  Short .3 paddleboard across the shallow back channel of the Columbia.  Mucky landing.  Only had one SUP, so picnic and trade off.  -->
 
 &nbsp;
 &nbsp;
@@ -405,11 +404,18 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Trip report coming soon!
+Our 100th park. It took us 451 days to make it to this point, including a three-month COVID-induced hiatus. Not the original one year we aimed for to see them all but still a decent pace.  Thirty-seven to go, which may not seem like a lot but it does include many of the most remote and difficult to access.  We've our work cut out for us this summer.   
+
+<img src="images/waparks_reedisland.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Looking at the aerial images, we weren't certain about the difficulty in getting to Reed Island. The river was quite low on arrival and we were able to carry our inflatable paddleboard out to a sandbar only a few hundred yards from the western end of the island.  The wind was low and the current on this side of the island non-existent.  It ended up being a short and easily little paddle over to the island.  Certainly easier than steering a dugout canoe full of supplies a la Lewis and Clark.    
+
+Once you get there -- at least on the western end -- there isn't a lot to do. We each took a turn making the short crossing as we had only brought a single board.  Both of us were barefoot from the paddleboard and didn't bring our shoes over so stamping around through the mucky shore or the forested interior wasn't much of an option.  We each stayed just long enough to enjoy being on an island in the middle of the great Columbia River with the sun beating down and, importantly, the grandparents watching the kids back in Seattle.  In the hustle of our state parks challenge, number 100 provided the right mix of adventure and relaxation...a fitting stop for this milestone in our quest.  
 
 ---------------------------------------------------------------------------------------------------
 
 #### 99) [Beacon Rock](https://parks.state.wa.us/474/Beacon-Rock): 
+
 
 <!-- Every active portlander was here (11 am on the first sunny, warm weekend of the year)  Found a spot in the upper lot and did a quick walk around. CCC buildings.   -->
 
@@ -432,13 +438,18 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Trip report coming soon!
+11am is not the time to arrive at Beacon Rock State Park on the first sunny Saturday of spring.  By this time, every adventurous Portlander or Hood Riverite with a Subaru and Prana pants has already secured a spot in the lower lot and was busy working their way up the hand holds on the big rock.  If you've read the earlier posts you know that this sort of behavior -- arriving late to a park -- is out of character for us and, in this case, purely an artifact of geography as we work our way through many parks today.  
+
+<img src="images/waparks_beaconrock.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+That all said, we were able to snag one of the last remaining spots at the upper Hamilton Mountain Trailhead.  No time for a long hike, but simply a short wander around the interpretive signage near the old CCC constructed shelters.  These old parks with the timber and stone structures are my favorite, so much history and mature vegetation that has reclaimed the grounds.  Its a grand look; one befitting our state parks.  
+
+By the time we left, the rangers had showed up to direct traffic -- mostly chase away latecomers to the party.  I'd love to return and partake in the climb up Beacon Rock.  Will make sure we get there early, preferably on a weekday.  
 
 ---------------------------------------------------------------------------------------------------
 
 #### 98) [Klickitat Trail](https://parks.state.wa.us/869/Klickitat-Trail): 
 
-<!-- Rails to trails.  High above river, right in people's back yards.  Busy with  mountain bikers.   -->
 &nbsp;
 &nbsp;
 
@@ -458,7 +469,13 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Trip report coming soon!
+It amazes me that back in 1900 someone from the Spokane, Portland and Seattle railway took a look at the canyon of the  Klickitat River and said, 'Yep, let's build a railroad in here'...all the way to Goldendale.  Completed in 1903 it was in use until 1980, so it appears to have been a winning investment.  Forty years later and thanks to a lot of hard work by locals and the larger Rails-to-Trails program we are all now beneficiaries of the flat, wide grade laid along this fast and sinuous river.  
+
+<img src="images/waparks_klickitattrail.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+The southernmost part of the trail beginning in Lyle, WA is the most developed and, judging by the full parking lot likely the most used section of the trail.  Spandex, knobby tires and clip-in shoes were everywhere.  We, mere hikers, were the outliers.  But our status didn't stop us from enjoying a sunny 40 minute walk up and back along the trail.  
+
+The old rail bed is high above the rushing water below.  A number of homes are tucked in between the river and the trail giving one the sense of walking right through their backyards.  It is hard to imagine that these homes were once that close to the rail line with trains flashing by just tens of meters from their front doors.  I would suspect cyclists and dog walkers are in improvement over train horns and that clickeddy-clack noise at all hours of the night, but not all owners may like the new human company.  
 
 ---------------------------------------------------------------------------------------------------
 
@@ -483,10 +500,13 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Trip report coming soon!
+We entered the Columbia Gorge and turned west, following gravity's path to the Pacific Ocean.  Highway 14 is the Lewis and Clark Memorial Highway, roughly following some portions of their eastward return route from the sea.  The signs denoting the Highway - and, by reference the journey of their Corps of Discovery -- maintain an odd juxtaposition next to the abundance of towns, counties, rivers and mountains with names derived from the Native populations.  
 
-<!-- Horsethief Butte.  Climbers.  Wind.  Flowers.  -->
+<img src="images/waparks_columbiahills.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
+The wind blew steady out of the west, as is to be expected this time of year. Still early, we found the trailhead at Horsethief Butte, in Columbia Hills State Park, empty but for a two other cars. Judging by the large foam mats that they were carrying on their backs, our company on the trail was limited to a few early morning novice climbers heading out to set up on the crags. 
+
+We were maybe a few weeks too soon for peak wildflowers; nonetheless, a few early bloomers had pushed up through the dry and cracked ground.  We scrambled up to the top of the Butte, then down into a protected nook where only the sun could get at us.  A few minutes basking like lizards, our zen moment interrupted by the train trucking past just a few hundred meters away.  A reminder that we, too, had to head west today.  On to more of the State's finest protect lands.  
 
 ---------------------------------------------------------------------------------------------------
 
