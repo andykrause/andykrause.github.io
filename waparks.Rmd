@@ -278,9 +278,6 @@ Trip report coming soon!
 &nbsp;
 &nbsp;
 
-&nbsp;
-&nbsp;
-
 ```{r bottlebeach, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
@@ -297,14 +294,15 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Trip report coming soon!
+The most interesting part of Bottle Beach State Park is what it never became.  At one point in the 1890s, this small area of beach was prepping to become the next great Pacific ocean port of Ocosta-by-the-Sea.  Land was plotted, a dock was built but eventually the harbor was judged to be insufficient and the railroad never came.  No railroad meant no boomtown and Ocosta-by-the-Sea slowly died away.  As it turns out, Ocosta was a bit of a pawn in a dispute between Aberdeen and the Northern Pacific Railway, its fortunes somewhat artificially hyped at great expense to speculators who lost their savings.  
+<img src="images/waparks_bottlebeach.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+If you zoom in to Bottle Beach with the standard Google Maps tiles you can still see the plotted roads as shown on the park boundaries.  Switching to satellite mode removes most of these indicators, but if you squint hard enough you can pick up a few places where the old city was located -- or at least planned to be.  As an urban planner by training, this form of 'archaeology' is incredibly appealing to me, though I do not suspect the average visitor finds as much pleasure in it.  
+The driving rain continued and our stay here was short.  Our sixth and last park of the morning.  We switched drivers and got comfortable for the three hour trip home.  I'm sure the kids will be happy to see us and the grandparents relieved to be able to return to their lives as childless retirees.   
 
 ---------------------------------------------------------------------------------------------------
 
 #### 108) [Westport Light](https://parks.state.wa.us/284/Westport-Light): 
-
-&nbsp;
-&nbsp;
 
 &nbsp;
 &nbsp;
@@ -325,14 +323,17 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Trip report coming soon!
+Erin is a lighthouse aficionado.  Thus, with great excitement we approached Westport Light State Park, home to the tallest light house in the state: Gray's Harbor Lighthouse, 107 feet tall, was originally constructed in 1897. 
+
+<img src="images/waparks_westportlight.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Unfortunately, we were a bit disappointed.  To begin with it was closed, so no internal visit, no climb to the top.  Next, it is located nearly three-forths of mile from the ocean, a siting that gives it the weird feeling of being a toy replica built for tourists, not a working lighthouse going about it day saving ships.  This wasn't always the case -- the construction of the jetty created tremendous beach growth over the past century leading to the lighthouse's current positioning -- nonetheless, the lack of a seaside views and sounds definitely takes away from the wonderment of a lighthouse. 
+
+We also drove around to the north end of the park (officially the Westhaven annex) and braved a short hike out to the beach mostly just to take a short video to show the kids the raw power of nature with it blowing wind and sand. Within a few minutes we were both soaked but also both very awake and alive, jolted by the adrenaline rush from having to fight to stay upright.  
 
 ---------------------------------------------------------------------------------------------------
 
 #### 107) [Twin Harbors](https://parks.state.wa.us/292/Twin-Harbors): 
-
-&nbsp;
-&nbsp;
 
 &nbsp;
 &nbsp;
@@ -353,7 +354,13 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Trip report coming soon!
+<img src="images/waparks_twinharbors.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Just a few miles from Grayland Beach is Twin Harbors State Park.  It is advertised as the 'classic Washington State Park experience'. Camping, Yurts, picnics areas, dunes and a near perfect beach. 
+
+Any sign of a harbor, let alone two, was absence however.  In protest of the misleading nomenclature -- and also due to the rapidly deteriorating weather -- we kept our visit short.  One could have easily imagined spending an entire day out on the beach letting our children run wild like the feral animals they can be. For two rain-soaked adults the expiration time is much less than that.
+
+
 
 ---------------------------------------------------------------------------------------------------
 
@@ -378,7 +385,13 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Trip report coming soon!
+At Grayland Beach we indulged in a quintessential Washington Coast activity -- driving right out onto the beach.  The hard pack sand here is so solid that it easily supports vehicle traffic.  The first time I did this back when I was a newbie to the Northwest it scared me a bit...perhaps an odd response from someone who grew up driving vehicles out onto frozen lakes for four months of the year. 
+
+<img src="images/waparks_graylandbeach.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Normally, one would get out and explore the beach.  Not today.  By this point the wind was blowing in from the southwest at a steady 30 miles per hour, sending small rivers of moving sand along the beach. The rain was coming down hard, driven sideways.  Everything was a shade of gray or brown, no color anywhere. With our car positioned directly into the wind it was difficult to open the doors and exit the vehicle.  Out here there is no protection, no shelter from Mother Nature's wrath.  At times like these it is amazing that any trees stand along the coast.  
+
+Safely back on Highway 105 and away from the open ocean, the weather was much more manageable. Just another blustery and rainy spring day in Southwest Washington.  
 
 ---------------------------------------------------------------------------------------------------
 
