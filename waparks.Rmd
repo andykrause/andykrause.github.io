@@ -134,9 +134,6 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 &nbsp;
 
-&nbsp;
-&nbsp;
-
 ```{r seaquest, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
@@ -153,7 +150,13 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Trip report coming soon!
+It was a perfectly clear day and from I-5 Mount St. Helens stood out sharply against the sky. The gaping hole where the peak once was a stark reminder of the fury that covered this valley just 41 years ago.  We rarely see the mountain this early in the year when snow covers it so completely. Actually, we Seattlites rarely see it at all unless we make our way south of Tacoma -- a trip fraught with traffic and usually generating a fair dose of condescension.  
+
+<img src="images/waparks_seaquest.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+En route to Seaquest our 4-year old became very excited about the prospect of a mountain that could explode and lose its top, though I don't think he fully bought into the idea that the entire top wasn't just laying somewhere, despite our best assurances. Unfortunately, the St. Helens visitor center that shares the grounds with Seaquest State Park was closed for COVID so we could not rely on the official interpretive displays to corroborate our story.  
+
+Instead of videos of explosions and relief maps showing the location of the lahars, we settled for a picnic lunch in the sun and walk around the one-mile loop out into the Silver Lake bog.  The views of the mountain from here were superb, as was the bird spotting...though truth be told none of us are really orinithologically-inclined and I think grainy live footage of lava would have held more intrigue for our entire crew.
 
 ---------------------------------------------------------------------------------------------------
 
@@ -178,7 +181,13 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Trip report coming soon!
+From Hood River, we crossed the very narrow and ancient toll bridge back to the Washington side of the river for our eventual drive back to Seattle, but not without a few state park stops. First on our list today was Spring Creek Hatchery.  The State Park portion of the complex is a bit of an add-on to the larger, nationally-run,  fish hatchery itself. A small park for sure.  
+
+<img src="images/waparks_springcreekhatchery.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+As is common, the wind was brisk and biting at 8am on an April morning.  Our hot coffees and warm coats weren't quite enough to feel comfortable down by the water. The park is favorite location for windsurfing and kiteboarding -- two activities that play particularly poorly with the responsibilities of raising small children, so a bit of non-amenity for our group.  This early Monday morning no other wind sport enthusiasts were to be found here either.  
+
+After finishing our adult, caffinated drinks and the kids first round of snack we bid adieu to the Malcolm-Michener family -- our Hood River adventure partners -- and both headed back to Seattle; them straight through, us with one more park to stop at. 
 
 ---------------------------------------------------------------------------------------------------
 
