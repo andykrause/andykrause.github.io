@@ -126,6 +126,130 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 &nbsp;
 
+---------------------------------------------------------------------------------------------------
+
+#### 119) [Ocean City](https://parks.state.wa.us/554/Ocean-City): 
+
+&nbsp;
+&nbsp;
+
+```{r oceancity, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_oceancity.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Ocean City"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip Report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 118) [Griffiths-Priday](https://parks.state.wa.us/516/Griffiths-Priday): 
+
+&nbsp;
+&nbsp;
+
+```{r griffithspriday, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_griffiths-priday.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Griffiths-Priday"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip Report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 117) [Pacific Beach](https://parks.state.wa.us/557/Pacific-Beach): 
+
+&nbsp;
+&nbsp;
+
+```{r pacificbeach, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_pacificbeach.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Pacific Beach"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip Report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 116) [Bogachiel](https://parks.state.wa.us/478/Bogachiel): 
+
+&nbsp;
+&nbsp;
+
+```{r bogachiel, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_bogachiel.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Bogachiel"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip Report coming soon!
+
+---------------------------------------------------------------------------------------------------
+
+#### 115) [Sequim Bay](https://parks.state.wa.us//582/Sequim-Bay): 
+
+&nbsp;
+&nbsp;
+
+```{r sequimbay, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_sequimbay.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Sequim Bay"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Trip Report coming soon!
 
 ---------------------------------------------------------------------------------------------------
 
