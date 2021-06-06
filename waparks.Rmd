@@ -224,7 +224,13 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Trip Report coming soon!
+We spent the night in Forks. Any surge in development and tourism that resulted from the Twilight Series and resulting vampiric hysteria appears to have subsided. Nor had the astronomical price of lumber created a second 'wood rush'.  No, Forks was just as sleepy and calm as ever.  
+
+<img src="images/waparks_bogachiel.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Like the fortunes of the town, we had an up and down stay.  It started poorly when our trip to La Push and Third Beach was derailed on account the reservation's closure.  We rebounded with a positively adventurous and fulfilling detour to Rialto Beach and it's massive driftwood, crashing waves and sentinel sea stacks.  Crashing back down to earth, a wallet was lost during the procurement of dinner, resulting in many phone calls and doubling back of our steps.  We each walked the streets of Forks between the restaurant and our hotel multiple times looking under planters, behind benches and in garbage cans.  No doubt providing some comic relief to the handful of store owners and locals milling about the dormant downtown. After eliminating the potential of it being in our car or our room, we concluded that someone had likely found it and, with the contact information in it, was quite unmotivated to find its rightful owner.  
+
+Tragedy behind us, we had a nice stay at the Pacific Inn and left early in the morning for points southward.  Our first stop was Bogachiel State Park.  We had a lot of driving to go, so we didn't linger.  Long enough to bask in the the aura of the place -- and take a peek around for our missing wallet; we were still in the search and find phase -- and then off to coast via 101 South. 
 
 ---------------------------------------------------------------------------------------------------
 
@@ -249,7 +255,14 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Trip Report coming soon!
+We, generally, as a rule, do not travel on holiday weekends. COVID appears to have dislodged that tenet from our collective minds.  The judiciousness of following it came rushing back to us upon arrival at the Edmonds ferry terminal early on the Saturday of Memorial Day weekend. The Olympic Peninsula a popular destination for many; many others who avoided the Friday rush only to meet with a similar fate the next morning.  Fewer RVs than one might expect, so perhaps we found ourselves in with the daytripper crowd.  Eventually we boarded the boat for Kingston; our wait rewarded with the sight of a pod of Orcas en route.  
+
+<img src="images/waparks_sequimbay.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Highway 104 to Highway 101 and then a sharp and sudden right turn into Sequim Bay State Park.  Orienting ourselves, we took the steep route straight down to the beach side picnic area.  The tide was out.  Way out.  -2.4 feet to be exact, about as low as it gets this time of year. This provided for a muddy, yet entertaining walk out in the bay.  
+
+Many crabs were deprived of their temporary shelters, but none permanently harmed. Empty oyster shells collected and discarded and collected again.  It was difficult to tell who had more fun, the kids stepping near the razor clams with the hope of eliciting a jet of upward water, or the clams themselves who claimed unsuspecting victims a few times, soaking shorts and shirts alike. We returned the car via the drier land route -- including a pass over the small wooden bridge and under the large metal one, a piece of the in-development [Olympic Discovery Trail](https://olympicdiscoverytrail.org/) (ODT).  After a short lunch we were on our way to Forks.  
+
 
 ---------------------------------------------------------------------------------------------------
 
