@@ -128,6 +128,37 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 
 ---------------------------------------------------------------------------------------------------
 
+#### 120) [Mount Pilchuck](https://parks.state.wa.us/548/Mount-Pilchuck): 
+
+&nbsp;
+&nbsp;
+
+```{r mountpilchuck, echo = FALSE, cache = TRUE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_mountpilchuck.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Mount Pilchuck"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+After setting aside our Parks quest for the summer -- mostly on account of a packed schedule and having knocked off most of the 'easy' parks to date -- we returned to take on the remaining eighteen.  Mount Pilchuck is the only park accessible solely by foot and only for part of the year.  Given fall is approaching, we needed to get this one done in the next few weeks or wait til June. And, while our kids like wandering around in the woods, the 6.3-mile round-trip hike is more than they are ready for at this stage. We had grandparents at the house, alas, we sanctioned this an adult-only venture. 
+
+<img src="images/waparks_mountpilchuck.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+We left the city at 6:30, and arrived at the trailhead just after 9am. The road from the highway has seen better days and the seven miles takes about 40 minutes to complete. While our Subaru was sufficient, a Jeep would have been welcome. The clouds were thick and low, but the morning drive teased us with blue sky far to the east and we hoped that the summit would peak through and offer views above.  A dozen or so other cars had beaten us to the start.  Pre-kids, we would have considered this a hit to our reputation of being the earliest hikers on the trail, but now we are just thankful to get in a child-free trek.  
+
+For the first few miles we were mired in the clouds.  A cool morning, but little wind so it was an ideal temperature for hiking. The trail isn't difficult in the sense of length or grade, but its very rocky and uneven so its a slower slog than a typical PNW hike of this character.  As we entered into the rocky, open valley to the north of the peak, we broke through the clouds and were greeted with views of all the other sky islands amidst the white puffy sea. From our vantage point here that was most Three Fingers in the foreground with Mt Baker and Glacier Peak looming large in the background.  The views only improved at the fire lookout on the top.  Here we had a 360 degree panorama of all the nearby peaks above about 4,500 feet, again with Mt. Rainier and others large in the distance. There was a fair bit of activity at the top and having been up here many times before we didn't linger long.  Soon were on our way back down into the clouds, to the car and then the long battle through potholes to the main road.  
+
+---------------------------------------------------------------------------------------------------
+
 #### 119) [Ocean City](https://parks.state.wa.us/554/Ocean-City): 
 
 &nbsp;
