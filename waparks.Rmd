@@ -128,6 +128,68 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 
 ---------------------------------------------------------------------------------------------------
 
+#### 122) [Hope Island (Mason)](https://parks.state.wa.us/517/Hope-Island---Mason): 
+
+&nbsp;
+&nbsp;
+
+```{r hopeislandmason, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_hopeisland(mason).png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Hope Island (Mason)"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+We packed the boat with beverages and snacks and were out of the Jarrell Cove State Park marina by 10am. Seven strong, we pushed south, our destination Hope Island State Park (the Mason County version).  Upon arrival we found the single mooring buoy occupied by a lone 14-ft aluminium boat.  Absent any means of locomotion and manned only by a single seagull, this was either a prop from a movie about a fisherman lost at sea or, more likely, some local boater 'reserving' this buoy for future use.  We likely had numbers, but any fracas caused by our appropriation of the space would only further the stereotype of north sounders in big boats.  Taking the virtuous path, we anchored nearby drastic reducing the distance to our landing point. 
+
+<img src="images/waparks_hopeislandmason.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+After two dinghy trips our motley crew was ashore, some in the well-placed Adirondack chairs greeting visitors on the southeastern corner of the island. Heading counter-clockwise, we took a side trip down through the old Schmidt family (Olympia Brewery) homestead -- now a park attendant residence -- down to the large park sign on the far southern tip of the island.  From there we hiked up through the center of the island, a landscape curiously wet, more akin to those small hollows on the western slopes of the Cascades than the Madrone covered shores of most Puget Sound islands.   
+
+We finished the loop, about a mile and half in length, and then worked again to ferry all party members back to the boat. Four trips with the small inflatable filled to capacity and not a single man overboard. It probably helped that very few libations had been consumed before this noon hour.  Speaking of a thirst, the walk had arisen one in most of us and from here we made the short trip south to Olympia to see what our State's fine capital had to offer in the way of lunch and brew. 
+
+---------------------------------------------------------------------------------------------------
+
+#### 121) [Eagle Island](https://parks.state.wa.us/501/Eagle-Island): 
+
+&nbsp;
+&nbsp;
+
+```{r eagleisland, echo = FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_eagleisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Eagle Island"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+According to the calendar it was autumn. After dumping much needed rain last weekend, Mother Nature had decided to give Seattle another taste of summer; perhaps its final of the season.  Perfect blue skies, little in the way of wind and temperatures expected near 70. Great timing for a scheduled day off of work.  
+
+<img src="images/waparks_eagleisland.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+We were at the marina just shy of 9am, prepared for a three-day, two-night trip on a friend's new boat. A celebration of another of us passing into middle age (40), it was to be an affair absent children and wives/partners.  Just a few guys, a boat, some board games and place to stay in the South Sound.  We filled the morning with a hike on Blake Island (#28) and lunch at Point Defiance.
+
+Our ride from Tacoma south proved eventful, multiple orca sightings, a pass under the Narrows bridge and close up view of Washington's own Alcatraz -- McNeil Island.  Tucked between McNeil and Anderson Islands is the postage stamp-sized Eagle Island Marine State Park. We found a mooring buoy on the west side and paddled the dinghy into the oncoming tide and up onto shore.  In short order, we circumambulated the island, finding little in the way of evidence of human habitation other than a single, sketchy looking rope swing -- of which an attempt to operate nearly resulted in an acute hernia.  With a building thirst and some tricky logistics ahead at our Harstine Island vacation home, we didn't linger.  Back to the boat and onward to our evening moorage at Jarrell Cove State Park (#40)  
+
+---------------------------------------------------------------------------------------------------
+
 #### 120) [Mount Pilchuck](https://parks.state.wa.us/548/Mount-Pilchuck): 
 
 &nbsp;
@@ -156,7 +218,7 @@ After setting aside our Parks quest for the summer -- mostly on account of a pac
 We left the city at 6:30, and arrived at the trailhead just after 9am. The road from the highway has seen better days and the seven miles takes about 40 minutes to complete. While our Subaru was sufficient, a Jeep would have been welcome. The clouds were thick and low, but the morning drive teased us with blue sky far to the east and we hoped that the summit would peak through and offer views above.  A dozen or so other cars had beaten us to the start.  Pre-kids, we would have considered this a hit to our reputation of being the earliest hikers on the trail, but now we are just thankful to get in a child-free trek.  
 
 For the first few miles we were mired in the clouds.  A cool morning, but little wind so it was an ideal temperature for hiking. The trail isn't difficult in the sense of length or grade, but its very rocky and uneven so its a slower slog than a typical PNW hike of this character.  As we entered into the rocky, open valley to the north of the peak, we broke through the clouds and were greeted with views of all the other sky islands amidst the white puffy sea. From our vantage point here that was most Three Fingers in the foreground with Mt Baker and Glacier Peak looming large in the background.  The views only improved at the fire lookout on the top.  Here we had a 360 degree panorama of all the nearby peaks above about 4,500 feet, again with Mt. Rainier and others large in the distance. There was a fair bit of activity at the top and having been up here many times before we didn't linger long.  Soon were on our way back down into the clouds, to the car and then the long battle through potholes to the main road.  
-
+ 
 ---------------------------------------------------------------------------------------------------
 
 #### 119) [Ocean City](https://parks.state.wa.us/554/Ocean-City): 
