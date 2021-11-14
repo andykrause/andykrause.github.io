@@ -11,7 +11,7 @@ output:
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/andy.jpg" style="width:28%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/headshot_2021.png" style="width:28%; border:10px solid; margin-right: 20px" align="left">
 
 I lead new research and development for Zillow’s [Zestimate](https://www.zillow.com/how-much-is-my-home-worth/) and related home valuation products.  Prior to Zillow I taught research methods and data science to real estate students at the University of Melbourne and worked as a data scientist developing Automated Valuation Models (AVMs) for Greenfield Advisors, a valuation consulting firm.   My doctoral degree is in Urban Planning from the University of Washington and I try to remain active in academic conferences and publications.  My primary research and professional aim is to straddle the academic and applied sides of the valuation industry.  When not writing R code or staring at plots, I can be found hiking, biking and paddling with my family in the Pacific Northwest. 
 
