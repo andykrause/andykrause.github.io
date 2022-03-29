@@ -149,13 +149,14 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
-Prior to our State Parks quest we had been to Wallace Falls many times; there was little here we had not seen before. Seasoned adventurers of the Skykomish River valley we knew to always arrive early to avoid the savage melee that is parking here at 10 am on a decent weekend morning.  It is University Village but without the gelato and shiny new MacBooks. Such scenes are an ill-match for my temperament. As such, we were parked and on the trail by 8:30...about the time the savage hordes were fueling up on lattes at their suburban Starbucks. 
+Prior to our State Parks quest we had been to Wallace Falls many times; there was little here we had not seen before. Seasoned adventurers of the Skykomish River valley we knew to always arrive early to avoid the savage melee that is parking here at 10 am on a decent weekend morning.  It is University Village but without the gelato and shiny new MacBooks. Such scenes are an ill-match for my temperament. As such, we were parked and on the trail by 8:30.
 
 <img src="images/waparks_wallacefalls.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 Though the snow melt and recent rains would have undoubtedly whipped the series of falls into a mist-spraying torrent, we opted for the longer, flatter and less scenic trip up the Greg Ball trail to Wallace Lake.  This decision was partly due to our appetite for the extra mileage and partly due to our disdain for dodging dog leashes and wayward hikers on the main falls trail. Being honest, mostly the latter. 
 
-We misanthropes were rewarded with a peaceful 4-mile hike up to the lake at which we took the requisite photo and bathroom break and promptly returned the same way. There were some magical stretches where the sun shone through the mist into entire swathes of trees coated in thick moss giving it a very Olympic-rain-forest-esque feeling. That said, a first-time visitor should definitely stay on the Woody Trail and see the falls; for those in search of solitude and uninterrupted trekking the lake remains the better option.  
+We misanthropes were rewarded with a peaceful 4-mile hike up to the lake at which we took the requisite photo and bathroom break and promptly returned the same way. There were some magical stretches where the sun shone through the mist into broad swathes of trees coated in thick moss giving it a very Olympic-rain-forest-esque feeling. That said, a first-time visitor should definitely stay on the Woody Trail and see the falls; for those in search of solitude and uninterrupted trekking the lake remains the better option. On our way home, a long line of Subarus were queued, waiting for a parking spot; we sold the rights to ours for $12 in cash, two warm White Claws and a pint of blood.
+
 
 
 
