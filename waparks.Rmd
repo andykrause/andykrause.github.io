@@ -126,6 +126,38 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 &nbsp;
 
+
+---------------------------------------------------------------------------------------------------
+
+#### 125) [Conconully](https://www.parks.wa.gov/491/Conconully): 
+
+&nbsp;
+&nbsp;
+
+```{r conconully, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_conconully.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Conconully"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+It could be said that Conconcully and its eponymous State Park are not on the way to anywhere.  While the road doesn't actually end there -- a few campgrounds and a winding road to Tiffany Mountain can be reached by going through town -- civilization more or less ceases to exist after this point.  This is the last stop for gas and beer. 
+
+<img src="images/waparks_conconully.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+On this dreary Thursday morning in May not much was stirring at the park. A few RVs were settled into the campground along with a lone tent.  The picnic tables, the day shelters, the large, well-adorned playground and the open field surrounded by massive, tired looking willow trees were all empty; mired in their winter slumber.  A low dark cloud hung tight on the surrounding mountain tops while sunlight peaked in from the clear skies to the east.  The lighting together with the complete absence of other people (but the evidence of their past presence) was acutely post-apocalyptic.  
+
+To test that feeling and the push my luck, I took at hike down into the lake bed so garishly exposed due to the low level of the waterbody.  Past rusted out wheel wells and a variety of sunken objects, I eventually made my way to the water's current edge.  To the west many previously waterfront homes now had long, dry docks and small watercraft beached upon the shore.  The mass and height of vegetation in the lake bed suggested it had been years since those boats had cut the water.  On my way back to the car I came upon a park ranger who had been cautiously watching my odd hiking route.  With the requisite nod I let him know I was good people.  I then backtracked to Okanogan and eventually Mazama for a weekend in the Methow...so, I guess, in some fashion Conconully was on the way to somewhere after all.     
+
 ---------------------------------------------------------------------------------------------------
 
 #### 124) [Doe Island](https://www.parks.wa.gov/498/Doe-Island): 
