@@ -13,13 +13,22 @@
 
 <title>Book Reviews</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -36,11 +45,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -53,32 +57,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 
@@ -89,10 +68,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -109,40 +84,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -170,7 +121,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -182,7 +133,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -192,11 +143,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -208,7 +176,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -275,7 +242,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -306,19 +273,19 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="http://github.com/andykrause">
-    <span class="fas fa-github fa-lg"></span>
+    <span class="fa fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/andy-krause-7260ab17/">
-    <span class="fas fa-linkedin fa-lg"></span>
+    <span class="fa fa-linkedin fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/Andy_L_Krause">
-    <span class="fas fa-twitter fa-lg"></span>
+    <span class="fa fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -330,7 +297,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -341,351 +308,1564 @@ $(document).ready(function () {
 
 <p>   </p>
 <div id="the-curve-of-time" class="section level4">
-<h4><a href="https://www.abebooks.com/9781552853511/Curve-Time-Blanchet-M-Wylie-1552853519/plp">The Curve of Time</a></h4>
+<h4><a
+href="https://www.abebooks.com/9781552853511/Curve-Time-Blanchet-M-Wylie-1552853519/plp">The
+Curve of Time</a></h4>
 <p> </p>
 <ul>
 <li>By : M. Wylie Blanchett</li>
 </ul>
 <p> </p>
-<p>To me, an adventurer conjured visions of travel; wild, far-ranging, occasionally dangerous and often spontaneous travel for the sake of new experiences. Capi Blanchett’s classic The Curve of Time vastly expanded my conception of what an adventurer is and can be. I’ll admit that as a parent I should never have had such a narrow definition, such a preconceived notion of what that term meant. Blanchett’s work shows that an adventurer can also traveling – with all the above adjectives – for the purpose of teaching resilience, testing her capacity for patience and calm and sharing her deep appreciation for nature, solitude and exploration with others.</p>
-<p>For Blanchett, adventure was taking her five young children out into the British Columbia coast each summer for months at a time in a small boat. Widowed by an accident on the very same boat, she turned the tragic vehicle into the centerpiece of their family. Being the late 1920s and early 1930s, it was very likely she was the only woman captaining a boat in the Strait of Georgia and certainly the only one doing it with herself and five kids sharing a sleeping area of 128 square feet. Beside the Herculean effort of just parenting such a brood on a boat, they had amazing, traditional adventures as well: climbing mountains, delivering postal messages, running rapids, breaking bones, tracing the paths of de Fuca and Vancouver, dodging bears and cougars and general marine challenges like avoiding summer storms and fixing broken parts. Occurring over many summers, any one of these trips would be a child’s greatest memory; the collection of them is testament both to the will of the Blanchett herself but also the malleability of children to fit their environment. It no doubt shaped the lives of the Blanchett children.</p>
-<p>Blanchett is a good writer, but the prose is not memorable. Their trials and tribulations are evident, but on their own not particularly noteworthy. There were no flashy accomplishments to speak of, no first summits or transits or circumnavigations. No, it is the fortitude and the grit that are truly impressive. The days spent waiting out a storm in a tiny space with five small, wiggly bodies. The weeks on end of eating fish and dried goods. The maintenance of inter-sibling relationships, hygiene and overall health while charting a small vessel through some precarious water in a world inhabited, then, mainly by indigenous communities, fur trappers, miners and logging parties. The will to go on, to do this every summer and to thrive while doing it.</p>
-<p>I shall, forever more, feel shame for losing my patience with the kids on a four-hour flight or for dreading the rainy afternoon trapped in the house with walls that seem to be closing in. I shall also seek to use the travel that we do undertake – travel not usually as ‘adventurous’ as Blanchett’s – as an opportunity to teach (and practice, myself) resilience, patience, calm and appreciation.</p>
+<p>To me, an adventurer conjured visions of travel; wild, far-ranging,
+occasionally dangerous and often spontaneous travel. Almost certainly
+travel for the sake of new experiences. Capi Blanchett’s classic The
+Curve of Time vastly expanded my conception of what an adventurer is and
+can be. I’ll admit that as a parent I should never have had such a
+narrow definition, such a preconceived notion of what that term meant.
+Blanchett’s work shows that an adventurer can also travel – with all the
+above adjectives – for the purpose of teaching resilience, testing her
+capacity for patience and calm and sharing her deep appreciation for
+nature, solitude and exploration with others.</p>
+<p>For Blanchett, adventure was taking her five young children out into
+the British Columbia coast each summer for months at a time in a small
+boat. Widowed by an accident on the very same boat, she turned the
+tragic vehicle into the centerpiece of their family. Being the late
+1920s and early 1930s, it was very likely she was the only woman
+captaining a boat in the Strait of Georgia and certainly the only one
+doing it with herself and five kids sharing a sleeping area of 128
+square feet. Beside the Herculean effort of just parenting such a brood
+on a boat, they had amazing, traditional adventures as well: climbing
+mountains, delivering postal messages, running rapids, breaking bones,
+tracing the paths of de Fuca and Vancouver, dodging bears and cougars
+and general marine challenges like avoiding summer storms and fixing
+broken parts. Occurring over many summers, any one of these trips would
+be a child’s greatest memory; the collection of them is testament both
+to the will of Blanchett herself but also the malleability of children
+to fit their environment. These adventures no doubt shaped the lives of
+the Blanchett children.</p>
+<p>Blanchett is a good writer, but the prose is not memorable. Their
+trials and tribulations are evident, but on their own not particularly
+noteworthy. There were no flashy accomplishments to speak of, no first
+summits or transits or circumnavigations. No, it is the fortitude and
+the grit that are truly impressive. The days spent waiting out a storm
+in a tiny space with five small, wiggly bodies. The weeks on end of
+eating fish and dried goods. The maintenance of inter-sibling
+relationships, hygiene and overall health while charting a small vessel
+through some precarious water in a world inhabited, then, mainly by
+indigenous communities, fur trappers, miners and logging parties. The
+will to go on, to do this every summer and to thrive while doing it.</p>
+<p>I shall, forever more, feel shame for losing my patience with the
+kids on a four-hour flight or for dreading the rainy afternoon trapped
+in the house with walls that seem to be closing in. I shall also seek to
+use the travel that we do undertake – travel not usually as
+‘adventurous’ as Blanchett’s – as an opportunity to teach (and practice,
+myself) resilience, patience, calm and appreciation.</p>
 <hr />
 <p>   </p>
 </div>
-<div id="freak-kingdom-hunter-s.-thompsons-manic-ten-year-crusade-against-american-fascism" class="section level4">
-<h4><a href="http://www.timdenevi.com/freak-kingdom">Freak Kingdom: Hunter S. Thompson’s Manic Ten-Year Crusade Against American Fascism</a></h4>
+<div
+id="freak-kingdom-hunter-s.-thompsons-manic-ten-year-crusade-against-american-fascism"
+class="section level4">
+<h4><a href="http://www.timdenevi.com/freak-kingdom">Freak Kingdom:
+Hunter S. Thompson’s Manic Ten-Year Crusade Against American
+Fascism</a></h4>
 <p> </p>
 <ul>
 <li>By : Timothy Denevi</li>
 </ul>
 <p> </p>
-<p>I spent much of my twenties reading, and often re-reading, Hunter Thompson’s work. My experience of him had always been through his writing; a view from his own eyes; through the Gonzo lens. Freak Kingdom, by Timothy Denevi, was my initial second hand taste of the madness that was Thompson. Denevi’s style does not match HST himself, few could, but it does an admirable job of separating the man from the myth and, of course, channeling the fear and the loathing of that age. And, while only a decade of Thompson’s career are chronicled here, the trajectory is clearly set and the eventual end should come as no surprise to even those unfamiliar with the Thompson’s story.</p>
-<p>At its heart, this is a story about a man’s search to understand his country at a time when the country itself was struggling with the same question. We find ourselves and our country in a not dissimilar position today. There are chilling parallels in this the book, for sure, despite the chasm of technological, political and societal differences between this age and that one. This book and this decade of Thompson’s life is also a story about drugs and politics and media and publishing and indecency and power. And what happens when you mix them all in a soup bowl the size of the U.S. and feed it to a tenacious, addiction-prone, self-style freak.</p>
-<p>This formative period in Thompson’s life begins in, what was then, humble Woody Creek, Colorado. Before Aspen became Aspen and Woody Creek home to 8-figure compounds with private landing strips masquerading as working ranches. Woody Creek; 1963: As the world stood still surrounding the assassination of JFK, Thompson saw the writing on the wall – the rise of LBJ – and a preternatural instinct to oppose ‘fascism’ and related tendencies kicked in, spurring him and his young family to uproot to California to be closer to the action. They landed in Sonoma, and while not finding it the center of the universe as Hunter had hoped, it changed his life forever; namely through his new found addition to Dexetrone. Not long after, the sheer magnetism of San Francisco in the 1960s pulled them south into the city…where he would find action-a-plenty.</p>
-<p>From here the pace quickens, the story begins to unfold. Thompson’s coverage of Goldwater’s nomination at the ’64 GOP convention confirms his belief that fascism is alive, well and threatening on our shores. Despite the action, his personal economic outlook remains bleak. To land a big story (and related paycheck) he falls in the with the Hells Angels. He meets and parties with Ken Kesey. He buys a motorcycle and goes on near suicidal rides. His pharmacological proclivities develop further, while his domestic life begins to unravel. For a hot moment, he empathizes with the Angels and how their pursuit of the American Dream is no different than that of the common man – both cast aside by our false meritocracy, our nepotism and 20th century serfdom by another name; in short the system. Thompson’s empathy and and understanding; however, is swiftly discarded as he witnesses the Angels attack an anti-war protest in Oakland. They, too, had become just another boot of the man, a group wielding violence for its own sake or, worse, that of some elite in an expensive suit and shined shoes.</p>
-<p>The Hells Angels piece becomes a book, a successful one at that, and launches Thompson to national fame, at least in journalistic circles. The embedded reporter who is part observer, part participant, a true Gonzo journalist for whom no length is too far and no rule too sacred to break in the name of telling the story right. As such, the book was brutally honest about the Angels and their shortcomings and, expectedly, earned him a beating later in life for it. This ends his first affair with San Francisco and with a bankroll he moves back to Woody Creek to set his life back in order.</p>
-<p>Enter Oscar Zeta Acosta. The ‘Brown Buffalo’. In Thompson’s own words: ‘God’s own prototype…too weird to live and too rare to die’. Acosta’s time with Thompson is short lived, here, at first as he quickly return to Los Angeles to continue his fight for Latino rights. Hunter heads to the opposite coast to begin covering the 1968 presidential election. The lead up to this election is electric. In a short year, RFK and MLK are killed, meanwhile LBJ decides not to run, setting the field wide open. Thompson ends up covering both parties in the primaries. As is his custom, he finds his way front and center to the action; first in back of limousine with Nixon talking pro football, then pinned against the glass of a Chicago hotel, his motorcycle helmet the only thing keeping him from a concussion at the hands of the CPD. His Chicago experience – the crushing brutality of the police at the Democratic Convention – would stay with him forever and with it, his hatred of Daley and Humphrey and establishment Democrats who shared tactics with the likes of Richard Milhous Nixon. ’68 would end poorly for Thompson: Nixon wins easily and Sandy has another unsuccessful attempt at a child, but it would also launch his own attempt at a political career.</p>
-<p>&lt;&lt;Reader’s Insert&gt;&gt; As someone born in the 80s and educated in a small town Midwestern public school system most of my historical knowledge about the sixties began and ended with Vietnam and Flower Power. While I knew about MLK, RFK and some of the high drama of the age, I was utterly shocked at the absolute shit storm, dumpster fire, ‘may you live in interesting times-ness’ of 1968. Foremost, the DNC convention, Nixon’s treason in Saigon, and the latino civil rights movement in LA and violence it brought. For many of my generation we confidently feel that that January 6th insurrection and ensuing melee were the apex of political crimes in this country…I now realize that is not the case.</p>
-<p>Stung by Nixon’s victory over the hapless Humphrey, Thompson retreated to Woody Creak in order to affect change locally. He nearly won the local sheriff’s race on the Freak Power ticket – attracting some dangerous attention from shady figures along the way. Following his loss, he turned away from politics for a few years. A few years that would produce two of his most famous works. First, his piece on the Kentucky Derby with illustrator Ralph Steadman. Til that time, no one had fully chronicled the carnal debauchery and outright drunkenness of the Derby. It was an assignment hand crafted for Hunter, one at which he flourished. A bit later, while in LA covering the Ruben Salazar case, he and Acosto took a seat-of-the-pants trip to Las Vegas to ‘get the hell out of LA for a weekend’ and to cover the Mint 500 race. A few weeks later they would return for the national District Attorney’s convention on controlled substances. Together, these two trips would form the material for Fear and Loathing in Las Vegas. The book would strain his relationship with Acosta terminally but would further cement HST’s journalistic stardom.</p>
-<p>With the 1972 election approaching, Rolling Stone would convince Thompson to give another year of his life to the circus of American presidential campaigns. And a circus this would deliver, with Thompson at the heart of it. Traveling down the coast in a bus Thompson develops a deep disgust with Ed Muskie and is implicit in unleashing Peter Sheridan on the Ed Muskie campaign. He is at the Watergate hotel when Nixon’s men break in to bug the Democrats’ rooms. He is there to help his chosen candidate McGovern briefly rise, only to falter once more. 1972 was no 1968, but it still had the attempted assassination of George Wallace (the man who was Trump before Trump was Trump) and the, (im) probable victory again of the conniving paper bag of a man known as Nixon. This election – and more directly the Watergate fallout from it shortly thereafter – would bring Thompson back to DC and bring him into a newfound habit, cocaine, and out of his relationship with a divorce from Sandy. The book ends here and so, too does Thompson’s rising star. He remained relevant, important and famous til his death in 2005 (suicide), but all of those – his relevancy, his importance, his fame and, critically, his ability to write – would decline steady over that period. From this book you wouldn’t know that as it end at the apex, but it is clear that no one has the stamina to overcome the abuse his body and mind took to create this magic decade of Gonzo Journalism. RIP.</p>
+<p>I spent much of my twenties reading, and often re-reading, Hunter
+Thompson’s work. My experience of him had always been through his
+writing; a view from his own eyes; through the Gonzo lens. Freak
+Kingdom, by Timothy Denevi, was my initial second hand taste of the
+madness that was Thompson. Denevi’s style does not match HST himself,
+few could, but it does an admirable job of separating the man from the
+myth and, of course, channeling the fear and the loathing of that age.
+And, while only a decade of Thompson’s career are chronicled here, the
+trajectory is clearly set and the eventual end should come as no
+surprise to even those unfamiliar with the Thompson’s story.</p>
+<p>At its heart, this is a story about a man’s search to understand his
+country at a time when the country itself was struggling with the same
+question. We find ourselves and our country in a not dissimilar position
+today. There are chilling parallels in this the book, for sure, despite
+the chasm of technological, political and societal differences between
+this age and that one. This book and this decade of Thompson’s life is
+also a story about drugs and politics and media and publishing and
+indecency and power. And what happens when you mix them all in a soup
+bowl the size of the U.S. and feed it to a tenacious, addiction-prone,
+self-style freak.</p>
+<p>This formative period in Thompson’s life begins in, what was then,
+humble Woody Creek, Colorado. Before Aspen became Aspen and Woody Creek
+home to 8-figure compounds with private landing strips masquerading as
+working ranches. Woody Creek; 1963: As the world stood still surrounding
+the assassination of JFK, Thompson saw the writing on the wall – the
+rise of LBJ – and a preternatural instinct to oppose ‘fascism’ and
+related tendencies kicked in, spurring him and his young family to
+uproot to California to be closer to the action. They landed in Sonoma,
+and while not finding it the center of the universe as Hunter had hoped,
+it changed his life forever; namely through his new found addition to
+Dexetrone. Not long after, the sheer magnetism of San Francisco in the
+1960s pulled them south into the city…where he would find
+action-a-plenty.</p>
+<p>From here the pace quickens, the story begins to unfold. Thompson’s
+coverage of Goldwater’s nomination at the ’64 GOP convention confirms
+his belief that fascism is alive, well and threatening on our shores.
+Despite the action, his personal economic outlook remains bleak. To land
+a big story (and related paycheck) he falls in the with the Hells
+Angels. He meets and parties with Ken Kesey. He buys a motorcycle and
+goes on near suicidal rides. His pharmacological proclivities develop
+further, while his domestic life begins to unravel. For a hot moment, he
+empathizes with the Angels and how their pursuit of the American Dream
+is no different than that of the common man – both cast aside by our
+false meritocracy, our nepotism and 20th century serfdom by another
+name; in short the system. Thompson’s empathy and and understanding;
+however, is swiftly discarded as he witnesses the Angels attack an
+anti-war protest in Oakland. They, too, had become just another boot of
+the man, a group wielding violence for its own sake or, worse, that of
+some elite in an expensive suit and shined shoes.</p>
+<p>The Hells Angels piece becomes a book, a successful one at that, and
+launches Thompson to national fame, at least in journalistic circles.
+The embedded reporter who is part observer, part participant, a true
+Gonzo journalist for whom no length is too far and no rule too sacred to
+break in the name of telling the story right. As such, the book was
+brutally honest about the Angels and their shortcomings and, expectedly,
+earned him a beating later in life for it. This ends his first affair
+with San Francisco and with a bankroll he moves back to Woody Creek to
+set his life back in order.</p>
+<p>Enter Oscar Zeta Acosta. The ‘Brown Buffalo’. In Thompson’s own
+words: ‘God’s own prototype…too weird to live and too rare to die’.
+Acosta’s time with Thompson is short lived, here, at first as he quickly
+return to Los Angeles to continue his fight for Latino rights. Hunter
+heads to the opposite coast to begin covering the 1968 presidential
+election. The lead up to this election is electric. In a short year, RFK
+and MLK are killed, meanwhile LBJ decides not to run, setting the field
+wide open. Thompson ends up covering both parties in the primaries. As
+is his custom, he finds his way front and center to the action; first in
+back of limousine with Nixon talking pro football, then pinned against
+the glass of a Chicago hotel, his motorcycle helmet the only thing
+keeping him from a concussion at the hands of the CPD. His Chicago
+experience – the crushing brutality of the police at the Democratic
+Convention – would stay with him forever and with it, his hatred of
+Daley and Humphrey and establishment Democrats who shared tactics with
+the likes of Richard Milhous Nixon. ’68 would end poorly for Thompson:
+Nixon wins easily and Sandy has another unsuccessful attempt at a child,
+but it would also launch his own attempt at a political career.</p>
+<p>&lt;&lt;Reader’s Insert&gt;&gt; As someone born in the 80s and
+educated in a small town Midwestern public school system most of my
+historical knowledge about the sixties began and ended with Vietnam and
+Flower Power. While I knew about MLK, RFK and some of the high drama of
+the age, I was utterly shocked at the absolute shit storm, dumpster
+fire, ‘may you live in interesting times-ness’ of 1968. Foremost, the
+DNC convention, Nixon’s treason in Saigon, and the latino civil rights
+movement in LA and violence it brought. For many of my generation we
+confidently feel that that January 6th insurrection and ensuing melee
+were the apex of political crimes in this country…I now realize that is
+not the case.</p>
+<p>Stung by Nixon’s victory over the hapless Humphrey, Thompson
+retreated to Woody Creak in order to affect change locally. He nearly
+won the local sheriff’s race on the Freak Power ticket – attracting some
+dangerous attention from shady figures along the way. Following his
+loss, he turned away from politics for a few years. A few years that
+would produce two of his most famous works. First, his piece on the
+Kentucky Derby with illustrator Ralph Steadman. Til that time, no one
+had fully chronicled the carnal debauchery and outright drunkenness of
+the Derby. It was an assignment hand crafted for Hunter, one at which he
+flourished. A bit later, while in LA covering the Ruben Salazar case, he
+and Acosto took a seat-of-the-pants trip to Las Vegas to ‘get the hell
+out of LA for a weekend’ and to cover the Mint 500 race. A few weeks
+later they would return for the national District Attorney’s convention
+on controlled substances. Together, these two trips would form the
+material for Fear and Loathing in Las Vegas. The book would strain his
+relationship with Acosta terminally but would further cement HST’s
+journalistic stardom.</p>
+<p>With the 1972 election approaching, Rolling Stone would convince
+Thompson to give another year of his life to the circus of American
+presidential campaigns. And a circus this would deliver, with Thompson
+at the heart of it. Traveling down the coast in a bus Thompson develops
+a deep disgust with Ed Muskie and is implicit in unleashing Peter
+Sheridan on the Ed Muskie campaign. He is at the Watergate hotel when
+Nixon’s men break in to bug the Democrats’ rooms. He is there to help
+his chosen candidate McGovern briefly rise, only to falter once more.
+1972 was no 1968, but it still had the attempted assassination of George
+Wallace (the man who was Trump before Trump was Trump) and the, (im)
+probable victory again of the conniving paper bag of a man known as
+Nixon. This election – and more directly the Watergate fallout from it
+shortly thereafter – would bring Thompson back to DC and bring him into
+a newfound habit, cocaine, and out of his relationship with a divorce
+from Sandy. The book ends here and so, too does Thompson’s rising star.
+He remained relevant, important and famous til his death in 2005
+(suicide), but all of those – his relevancy, his importance, his fame
+and, critically, his ability to write – would decline steady over that
+period. From this book you wouldn’t know that as it end at the apex, but
+it is clear that no one has the stamina to overcome the abuse his body
+and mind took to create this magic decade of Gonzo Journalism. RIP.</p>
 <hr />
 <p>   </p>
 </div>
-<div id="animal-vegetable-junk-a-history-of-food-from-sustainable-to-suicidal" class="section level4">
-<h4><a href="https://markbittman.com/avj">Animal, Vegetable, Junk: A History of Food from Sustainable to Suicidal</a></h4>
+<div
+id="animal-vegetable-junk-a-history-of-food-from-sustainable-to-suicidal"
+class="section level4">
+<h4><a href="https://markbittman.com/avj">Animal, Vegetable, Junk: A
+History of Food from Sustainable to Suicidal</a></h4>
 <p> </p>
 <ul>
 <li>By : Mark Bittman</li>
 </ul>
 <p> </p>
-<p>This a book about food. The food system, to be more precise. It is also a book about politics and public health, the environment and the economy, history and human biology and how the food system plays a central role in all of these and more. Bittman’s central thesis is that how we have grown to organize ourselves to both create and consume food is a (the?) driving factor in many of mankind’s greatest successes and nearly all of our current, existential issues. To focus attention on the structural nature of the problem, Bittman provides a simple construct; We used to grow food to provide adequate sustenance to people, over time we have pivoted to to growing food to create profit. And this change has made all the difference.</p>
-<p>Many an ancient history seminar begins with the invention of agriculture as humankind’s first step; our initial foray into civilization as we know it. This is not a wrong place to start. From agriculture spawned technology, cities, specialization and, importantly, population growth. On the flip side, the advent of agriculture also brought greater class and gender distinctions, injustice, slavery, increased disease, rules about property, wars about that property and, interestingly, an overall reduction in life span of the, now much larger, group of humans on the planet. As such, it could be argued – with myriad supporting evidence – that from day 1 agriculture may not have been contributing to the healthy sustenance of all humans; its woes span health, economy, ecology and society.</p>
-<p>Agriculture grew with civilization, or perhaps the other way around, with processes and theories from one mirroring the other. For example, following the dominant thinking of the mid-1800s , agriculture became reductionist. Its chief misstep here was in treating soil as a raw material to farming and not as an ecological partner in food production. It relegated the bounty of the earth’s soil to that of a stock to be exploited and not a flow to be maintained. Doing so offered incredible short term gains in productivity (yields). Population boomed, farmland expanded, fortunes were made and farming became Big Agriculture. We were now ‘scaled’ and ready to exponentially multiply our ability to support human life on the planet, learning nothing from earlier civilizations’ failures to overcome local soil depletion.</p>
-<p>Scaling Big Ag meant going global. Local markets could no longer handle the vast supplies of staple crops that were produced on the world’s premier farmlands. American cotton flooded Indian markets, American corn was forced upon Mexico and Asian wheat and rice brought to Africa. In the process local farmers were driven out of business due to dropping prices leading to famines and eventual migration crises. Big Ag also meant optimization and efficiency. The farm became a factory complete with tractors, machines elevators and electrical milking machines. On the one hand these saved farmers from hours of manual labor; on the other they brought crushing debts. Most of the money to be made in farming in the 20th century was in being a financier, seed supplier or tractor manufacturer.</p>
-<p>Factory make things, they don’t grow them. So too, our food began being ‘made’ and not grown on a farm, field or orchard nor hunted nor gathered. People, animals and plants became inputs to a mechanized process that used some combination of machinery, electricity and these inputs to produce food products. Along with this, nutrition became regarded as a game of numbers, just get some protein and fat and mostly carbohydrates and you’ll be fine. Additionally, as food became a factory good, agriculture became an industry complete with lobbyists, think tanks and multinational corporations. It became the domain of marketers and chemists, not cooks and farmers. With the advent of the supermarket, shoppers lost their connection to a local, knowledgeable grocer and were left to make nutrition decisions on their own, using nothing more than product labeling themselves…guided of course by the likes of industry-funded personalities like Betty Crocker. Despite the vast increase in total consumable calories, health decreased and, for example, many men signing up for duty in WWII were found to have vitamin deficiencies, many more than just 30 years prior in WWI.</p>
-<p>After WWII, the conventional story on food highlights the ‘Green Revolution’ and how we had lifted much of the entire world out of poverty via more technological farming. In reality, the Green Revolution was more of the same soil-degrading, petroleum-leveraged, high-yield, monocropping as before, with many similar nutritional impacts on local populations. Chicken and soy began to take over as the key protein components, mothers began to give up breast milk for formula and fast food joints flooded low income neighborhoods using federal grants. Farming yields continued to rise, while farmers went bankrupt, our topsoil eroded away and our western waistlines continued to expand.</p>
-<p>The US was a large beneficiary of the Green Revolution. It had (and still has) some of the best farmland in the world. Farmland which was practically given away to white European settlers in great midwestern land rushes. Additionally, unlike many agricultural producers in the colonial areas whose profits were extracted by the colonizers, the US was able to use its agricultural might to develop its economy, its country and eventually its military might. It is no exaggeration to say that its agricultural surplus was critical to its ascension as a super power. As the global power of food production increased, so too did its ability to be used as a political tool…a process the continues today as the US, EU and China vie for expanded global reach often through generous food grants.</p>
-<p>In sum, Bittman argues that to truly grasp the nature of the problem, we must shift our framing. Big agriculture, as currently practiced, is akin to mining. It takes from the soil and the water and the workers for short term gain ignoring any form of externalities. No process in a closed system like our planet can ignore externalities forever, eventual they will cripple it. He argues that our current system cannot survive; it is not sustainable. In its place is offered a human-centered, laborious system centered on ‘agroecology’ and regenerative farming. To get there we must change our personal decisions as well as the larger system; only fixing one variable in the equation will not solve this problem. And, to those who say a less ‘modern’ approach is too expensive, Bittman is quick to note that the current system was built on billions if not trillions of dollars of government subsidies; we can do the same to create a more sustainable and equitable future state.</p>
-<p>Animal, Vegetable, Junk is a fascinating, whirlwind tour of food production.It is not without its political leanings; though strongly evidenced and keenly argued. The growth of our western obesity epidemic, the global migration crises driven by out of work farmers and slow emergencies like the draining of the Ogallala are hard to ignore. Woven into the moving narrative are juicy bits of historical trivia like the story behind the rise of Heinz Ketchup, the Cherokee boycott of $20 bills and the doxing of Betty Crocker. It is an engaging book, but be forewarned that you may never look at your food the same way again…especially your ketchup.</p>
+<p>This a book about food. The food system, to be more precise. It is
+also a book about politics and public health, the environment and the
+economy, history and human biology and how the food system plays a
+central role in all of these and more. Bittman’s central thesis is that
+how we have grown to organize ourselves to both create and consume food
+is a (the?) driving factor in many of mankind’s greatest successes and
+nearly all of our current, existential issues. To focus attention on the
+structural nature of the problem, Bittman provides a simple construct;
+We used to grow food to provide adequate sustenance to people, over time
+we have pivoted to to growing food to create profit. And this change has
+made all the difference.</p>
+<p>Many an ancient history seminar begins with the invention of
+agriculture as humankind’s first step; our initial foray into
+civilization as we know it. This is not a wrong place to start. From
+agriculture spawned technology, cities, specialization and, importantly,
+population growth. On the flip side, the advent of agriculture also
+brought greater class and gender distinctions, injustice, slavery,
+increased disease, rules about property, wars about that property and,
+interestingly, an overall reduction in life span of the, now much
+larger, group of humans on the planet. As such, it could be argued –
+with myriad supporting evidence – that from day 1 agriculture may not
+have been contributing to the healthy sustenance of all humans; its woes
+span health, economy, ecology and society.</p>
+<p>Agriculture grew with civilization, or perhaps the other way around,
+with processes and theories from one mirroring the other. For example,
+following the dominant thinking of the mid-1800s , agriculture became
+reductionist. Its chief misstep here was in treating soil as a raw
+material to farming and not as an ecological partner in food production.
+It relegated the bounty of the earth’s soil to that of a stock to be
+exploited and not a flow to be maintained. Doing so offered incredible
+short term gains in productivity (yields). Population boomed, farmland
+expanded, fortunes were made and farming became Big Agriculture. We were
+now ‘scaled’ and ready to exponentially multiply our ability to support
+human life on the planet, learning nothing from earlier civilizations’
+failures to overcome local soil depletion.</p>
+<p>Scaling Big Ag meant going global. Local markets could no longer
+handle the vast supplies of staple crops that were produced on the
+world’s premier farmlands. American cotton flooded Indian markets,
+American corn was forced upon Mexico and Asian wheat and rice brought to
+Africa. In the process local farmers were driven out of business due to
+dropping prices leading to famines and eventual migration crises. Big Ag
+also meant optimization and efficiency. The farm became a factory
+complete with tractors, machines elevators and electrical milking
+machines. On the one hand these saved farmers from hours of manual
+labor; on the other they brought crushing debts. Most of the money to be
+made in farming in the 20th century was in being a financier, seed
+supplier or tractor manufacturer.</p>
+<p>Factory make things, they don’t grow them. So too, our food began
+being ‘made’ and not grown on a farm, field or orchard nor hunted nor
+gathered. People, animals and plants became inputs to a mechanized
+process that used some combination of machinery, electricity and these
+inputs to produce food products. Along with this, nutrition became
+regarded as a game of numbers, just get some protein and fat and mostly
+carbohydrates and you’ll be fine. Additionally, as food became a factory
+good, agriculture became an industry complete with lobbyists, think
+tanks and multinational corporations. It became the domain of marketers
+and chemists, not cooks and farmers. With the advent of the supermarket,
+shoppers lost their connection to a local, knowledgeable grocer and were
+left to make nutrition decisions on their own, using nothing more than
+product labeling themselves…guided of course by the likes of
+industry-funded personalities like Betty Crocker. Despite the vast
+increase in total consumable calories, health decreased and, for
+example, many men signing up for duty in WWII were found to have vitamin
+deficiencies, many more than just 30 years prior in WWI.</p>
+<p>After WWII, the conventional story on food highlights the ‘Green
+Revolution’ and how we had lifted much of the entire world out of
+poverty via more technological farming. In reality, the Green Revolution
+was more of the same soil-degrading, petroleum-leveraged, high-yield,
+monocropping as before, with many similar nutritional impacts on local
+populations. Chicken and soy began to take over as the key protein
+components, mothers began to give up breast milk for formula and fast
+food joints flooded low income neighborhoods using federal grants.
+Farming yields continued to rise, while farmers went bankrupt, our
+topsoil eroded away and our western waistlines continued to expand.</p>
+<p>The US was a large beneficiary of the Green Revolution. It had (and
+still has) some of the best farmland in the world. Farmland which was
+practically given away to white European settlers in great midwestern
+land rushes. Additionally, unlike many agricultural producers in the
+colonial areas whose profits were extracted by the colonizers, the US
+was able to use its agricultural might to develop its economy, its
+country and eventually its military might. It is no exaggeration to say
+that its agricultural surplus was critical to its ascension as a super
+power. As the global power of food production increased, so too did its
+ability to be used as a political tool…a process the continues today as
+the US, EU and China vie for expanded global reach often through
+generous food grants.</p>
+<p>In sum, Bittman argues that to truly grasp the nature of the problem,
+we must shift our framing. Big agriculture, as currently practiced, is
+akin to mining. It takes from the soil and the water and the workers for
+short term gain ignoring any form of externalities. No process in a
+closed system like our planet can ignore externalities forever, eventual
+they will cripple it. He argues that our current system cannot survive;
+it is not sustainable. In its place is offered a human-centered,
+laborious system centered on ‘agroecology’ and regenerative farming. To
+get there we must change our personal decisions as well as the larger
+system; only fixing one variable in the equation will not solve this
+problem. And, to those who say a less ‘modern’ approach is too
+expensive, Bittman is quick to note that the current system was built on
+billions if not trillions of dollars of government subsidies; we can do
+the same to create a more sustainable and equitable future state.</p>
+<p>Animal, Vegetable, Junk is a fascinating, whirlwind tour of food
+production.It is not without its political leanings; though strongly
+evidenced and keenly argued. The growth of our western obesity epidemic,
+the global migration crises driven by out of work farmers and slow
+emergencies like the draining of the Ogallala are hard to ignore. Woven
+into the moving narrative are juicy bits of historical trivia like the
+story behind the rise of Heinz Ketchup, the Cherokee boycott of $20
+bills and the doxing of Betty Crocker. It is an engaging book, but be
+forewarned that you may never look at your food the same way
+again…especially your ketchup.</p>
 <hr />
 </div>
 <div id="meditations" class="section level4">
-<h4><a href="https://www.thepaintedporch.com/products/philosophy15">Meditations</a></h4>
+<h4><a
+href="https://www.thepaintedporch.com/products/philosophy15">Meditations</a></h4>
 <p> </p>
 <ul>
 <li>By : Marcus Aurelius (translated by Gregory Hays)</li>
 </ul>
 <p> </p>
-<p>It takes minimal, if any, imagination to feel, to really feel, the author struggling with his own thoughts and actions. From the first word to the last, he is there with you willing himself to think and behave in a manner befitting his upbringing, his station and his philosophy. His words will leave you both inspired by their noble calling and embarrassed at your own trivialities and moral failings. But, be easy on yourself for you are reading, perhaps, the best example we have of Plato’s Philosopher King. A man of both power and introspection; of fame and wealth who is concerned for neither; a man who ruled over millions but struggled to rule over himself (as we all do) and admitted as much. These are his personal notes, his diary, his self-therapy, live-Tweet, stream of consciousness. In all likelihood no other historical or modern work has exceeded its intended audience (one) by such a large ratio (tens of millions).</p>
-<p>There is no plot, no progression of ideas, no true beginning or end. One could conceivable start reading from any one point and read in either direction and lose nothing. Ideas surface and re-surface, re-phrased or contextualized differently on different pages. Colored, no doubt, by his mood, the weather, recent interactions with the barbarian tribes on the Germanic front or the reports about scheming senators back in Rome. The places and people are contemporaries; however, replacing them with generic or modern ones would change nothing about the book. The repetition and re-statement begins as a mild annoyance but morphs into a comfort, a re-assurance that there are only a minimal set of principles on which to focus your efforts and around which to build a good life. And focus, you should.</p>
-<p>Distilled, Aurelius chides himself persistently to do the following:</p>
+<p>It takes minimal, if any, imagination to feel, to really feel, the
+author struggling with his own thoughts and actions. From the first word
+to the last, he is there with you willing himself to think and behave in
+a manner befitting his upbringing, his station and his philosophy. His
+words will leave you both inspired by their noble calling and
+embarrassed at your own trivialities and moral failings. But, be easy on
+yourself for you are reading, perhaps, the best example we have of
+Plato’s Philosopher King. A man of both power and introspection; of fame
+and wealth who is concerned for neither; a man who ruled over millions
+but struggled to rule over himself (as we all do) and admitted as much.
+These are his personal notes, his diary, his self-therapy, live-Tweet,
+stream of consciousness. In all likelihood no other historical or modern
+work has exceeded its intended audience (one) by such a large ratio
+(tens of millions).</p>
+<p>There is no plot, no progression of ideas, no true beginning or end.
+One could conceivable start reading from any one point and read in
+either direction and lose nothing. Ideas surface and re-surface,
+re-phrased or contextualized differently on different pages. Colored, no
+doubt, by his mood, the weather, recent interactions with the barbarian
+tribes on the Germanic front or the reports about scheming senators back
+in Rome. The places and people are contemporaries; however, replacing
+them with generic or modern ones would change nothing about the book.
+The repetition and re-statement begins as a mild annoyance but morphs
+into a comfort, a re-assurance that there are only a minimal set of
+principles on which to focus your efforts and around which to build a
+good life. And focus, you should.</p>
+<p>Distilled, Aurelius chides himself persistently to do the
+following:</p>
 <ul>
-<li>Take objective stock of what has happened. Assent to its occurrence regardless of your feelings for it.<br />
+<li>Take objective stock of what has happened. Assent to its occurrence
+regardless of your feelings for it.<br />
 </li>
-<li>Determine if a thing is within your control or not within your control. Ignore those that are not.</li>
-<li>In both your thoughts and actions, eliminate the noise. Put all your energy into the essential; those that are in your control.</li>
-<li>Do not desire, be content and instead imagine what it would be like to lose what you have.</li>
-<li>Do the hard work without complaint and let obstacles power you on your journey to put the world in order</li>
-<li>Think precise thoughts, say meaningful words, engage in intentional and unselfish actions all of which should focus on the collective good and on furthering justice.</li>
-<li>Treat others well and seek to understand them. Their actions have rationales just like your own.</li>
+<li>Determine if a thing is within your control or not within your
+control. Ignore those that are not.</li>
+<li>In both your thoughts and actions, eliminate the noise. Put all your
+energy into the essential; those that are in your control.</li>
+<li>Do not desire, be content and instead imagine what it would be like
+to lose what you have.</li>
+<li>Do the hard work without complaint and let obstacles power you on
+your journey to put the world in order</li>
+<li>Think precise thoughts, say meaningful words, engage in intentional
+and unselfish actions all of which should focus on the collective good
+and on furthering justice.</li>
+<li>Treat others well and seek to understand them. Their actions have
+rationales just like your own.</li>
 <li>Be present, it is all we have.</li>
-<li>A good life is one defined by virtue, not status or material things. Anyone in any situation can do this.</li>
+<li>A good life is one defined by virtue, not status or material things.
+Anyone in any situation can do this.</li>
 </ul>
-<p>High standards, no doubt. Meditations has become canon for Stoicism, an ancient Greek philosophy practiced by many Romans and making a comeback today. These principles, though, are not Stoicism’s alone. In some form many of them find their way into all manner of philosophies, religion, belief structures, coaching paradigms, inspirational posters and social media memes. A testament both to the timelessness of Marcus Aurelius’s ethos and the degree to which human nature and our interactions with others have changed so very little in the last 2,000 years.</p>
-<p>This work and the author, like any, are far from perfect. Fault can be found with his failure to acknowledge Roman’s strict class system as being antithetical to the common good. As well as with the dominating sense of determinism that pervades his thinking. Accepting such a state of affairs may be freeing for the most powerful man in the world – it removes any sense of responsibility for it – but suffocating to those of the lowest station, those suffering the injustice. We are all products of our environment, Roman Emperors, even good ones, no different.</p>
-<p>This is a deep book, yet one that can be consumed in bit-sized pieces. As such, it is no wonder such a far ranging set of influential people – Thomas Jefferson, Beatrice Webb, Wen Jiabao and Bill Clinton, to name a few – have noted its importance in their own journeys. The clear and concise guidance is well-suited to our modern age of short attention spans and 140 character limits. Being a collection of thoughts, there are dozens if not hundreds of ‘quote-worthy’ dicta. A selection (paraphrased) of my favorites to meditate on:</p>
+<p>High standards, no doubt. Meditations has become canon for Stoicism,
+an ancient Greek philosophy practiced by many Romans and making a
+comeback today. These principles, though, are not Stoicism’s alone. In
+some form many of them find their way into all manner of philosophies,
+religion, belief structures, coaching paradigms, inspirational posters
+and social media memes. A testament both to the timelessness of Marcus
+Aurelius’s ethos and the degree to which human nature and our
+interactions with others have changed so very little in the last 2,000
+years.</p>
+<p>This work and the author, like any, are far from perfect. Fault can
+be found with his failure to acknowledge Roman’s strict class system as
+being antithetical to the common good. As well as with the dominating
+sense of determinism that pervades his thinking. Accepting such a state
+of affairs may be freeing for the most powerful man in the world – it
+removes any sense of responsibility for it – but suffocating to those of
+the lowest station, those suffering the injustice. We are all products
+of our environment, Roman Emperors, even good ones, no different.</p>
+<p>This is a deep book, yet one that can be consumed in bit-sized
+pieces. As such, it is no wonder such a far ranging set of influential
+people – Thomas Jefferson, Beatrice Webb, Wen Jiabao and Bill Clinton,
+to name a few – have noted its importance in their own journeys. The
+clear and concise guidance is well-suited to our modern age of short
+attention spans and 140 character limits. Being a collection of
+thoughts, there are dozens if not hundreds of ‘quote-worthy’ dicta. A
+selection (paraphrased) of my favorites to meditate on:</p>
 <ul>
-<li>Stop whatever you are doing for a moment and ask yourself: ‘Am I afraid of death because I won’t be able to do this anymore?’</li>
-<li>If you find something better to pursue than truth, justice, temperance and courage then drop everything else and follow it. If not, then only make room for these things.</li>
-<li>Think only about important things. One should be ready to answer ‘what are you thinking about’ at all times proudly.</li>
+<li>Stop whatever you are doing for a moment and ask yourself: ‘Am I
+afraid of death because I won’t be able to do this anymore?’</li>
+<li>If you find something better to pursue than truth, justice,
+temperance and courage then drop everything else and follow it. If not,
+then only make room for these things.</li>
+<li>Think only about important things. One should be ready to answer
+‘what are you thinking about’ at all times proudly.</li>
 <li>One assembles their life action by action</li>
-<li>Aim to have a perpetual spring (infinite), not a cistern (finite), of virtue by practicing patience, honesty and humility</li>
+<li>Aim to have a perpetual spring (infinite), not a cistern (finite),
+of virtue by practicing patience, honesty and humility</li>
 <li>Do the work to put the world in order.</li>
 </ul>
 <hr />
 <p>   </p>
 </div>
-<div id="anti-fragile-things-that-gain-from-disorder" class="section level4">
-<h4><a href="https://www.penguinrandomhouse.com/books/176227/antifragile-by-nassim-nicholas-taleb/">Anti-Fragile: Things that gain from disorder</a></h4>
+<div id="anti-fragile-things-that-gain-from-disorder"
+class="section level4">
+<h4><a
+href="https://www.penguinrandomhouse.com/books/176227/antifragile-by-nassim-nicholas-taleb/">Anti-Fragile:
+Things that gain from disorder</a></h4>
 <p> </p>
 <ul>
 <li>By : Nassim Nicholas Taleb</li>
 </ul>
 <p> </p>
-<p>It is work to endure a dense narrative that questions the validity of many of your life choices, from higher education and data driven prediction, to 9-to-5 employment and travel planning. This wasn’t my first try here. Myriad dog-eared pages and underlined passages throughout the first few chapters attest to my prior failures to finish this book. This time, I would persevere, knowing full well what I had signed up for. Not being a serial entrepreneur, a starving artist, a best-selling author, a mobster or a Medici, i was prepared to be maligned. Others have it worse as names are named – mostly famous economists – and few punches held. Amidst Taleb’s bravado, the sophomoric metaphors and the choppy prose, however, there are some fresh and fundamentally sound ideas. Ideas that can help individuals and, more importantly, organizations think long and hard about risk, growth, volatility, ethics, and the meaning of freedom.</p>
-<p>Randomness and uncertainty, chaos and disorder, entropy and error: the many instantiations of volatility. They are everywhere. In fact, their presence is the rule and not exception. We tend to consider responses to volatility to be binary. Either something is robust to volatility, meaning that is not impacted or it is fragile to volatility, meaning that it is reduced, injured or otherwise worse off because of it. This binary framework, Taleb tells us, is wrong and this book is his attempt at explaining why. At the core of his argument and his very ethos is that there is a third category of response, that which gains from volatility. The English language doesn’t actually have a word for this, so Taleb gives us ‘anti-fragile’ to signal that it represents the exact opposite of fragility – that which loses from volatility. It lands, initially, as a foreign concept, but in reality we are surrounded by anti-fragility. Many natural things are anti-fragile: our bodies (weight lifting and fasting benefit us), ecological systems (evolution, mutations, food webs) and information itself (controversial ideas/books are best sellers). Few built or created things, however, are: political structures, economic systems, everyday home items, investment strategies, etc. are all usually fragile, or at their best robust. Broadly speaking, big, fast, efficient and concentrated things are fragile; small, slow, redundant and dispersed things can be anti-fragile. And, it should be noted that many (most) anti-fragile things need volatility or they will suffer with our bodies and our ecosystem being prime examples. <em>On no fewer than a half dozen occasions Taleb reminds us that most human ailments are caused by chronic stress injuries due to lack of variety in bodily movement.</em></p>
-<p>To be anti-fragile two conditions must exist, optionality and rationality. Optionality requires that there be a position such that one can act, but is not forced to act. Rationality requires a method of decision making (selection) that can identify when an event (a deviation from stasis) has made the situation better off than before. For the followers of Greek Mythology (of which the author is one), one needs be both a Dionysian (to generate options) and a Apollonion (to rationally choose among them). Simple, right? The key, of course, is in identifying situations where optionality exists. Optionality is borne from postive asymmetries, situations where you find yourself with more upside than downside. These asymmetries result from non-linearities in the response of a thing to an event, or, put another way, the difference between a thing and the function of a thing. If a thing can benefit greatly (mildly) but suffer a small (large) harm then it is convex (concave) to an event. Convexities represent anti-fragile situations for you; concave, fragile. It is crucial to understand that such situations rarely exists in ludic, or strictly rule-based situations (like a casino or game). On the other hand, when found they exist in the big, messy and complex ecological systems in which our environment, economy and politics operate. Importantly, when you are in an anti-fragile position, you want volatility…which, volatility being endemic, is a good thing.<br />
-The story of anti-fragility, however, is not just one of a few enlightened individuals, groups and societies leveraging asymmetries and optionality to create a gilded utopia. Two problems have arisen. First, we are much more connected, efficient, fast and big as a global society…meaning that we are also much more fragile than we used to be. Look no further than the 2008 global financial crisis or the recent COVID-based supply chains issues of 2020/21. Second, ethical issues arise from anti-fragility. A core part of the anti-fragility story is that of bad actors ‘stealing’ anti-fragility from others; generally, private individuals using un-ethical means to create optionality for themselves at the cost (fragility) of the public. These are violations of the first order, those I’d consider serious, punishable and worthy of efforts to regulate. Taleb also spends considerable ink discussing more minor infractions such as the giving of bad advice, most by academics and the media. Here, he advocates for the wise (the non-turkeys) to ignore any opinion in which there is not bona fide proof of ‘skin in the game’ on the account of the prognosticator. A worthy claim, no doubt, but ultimately tangential to the narrative. Such asides are a common trial for the reader.</p>
-<p>Practically, what does all this talk of convexities, the Dionysion and ludic systems boil down to?</p>
+<p>It is work to endure a dense narrative that questions the validity of
+many of your life choices, from higher education and data driven
+prediction, to 9-to-5 employment and travel planning. This wasn’t my
+first try here. Myriad dog-eared pages and underlined passages
+throughout the first few chapters attest to my prior failures to finish
+this book. This time, I would persevere, knowing full well what I had
+signed up for. Not being a serial entrepreneur, a starving artist, a
+best-selling author, a mobster or a Medici, i was prepared to be
+maligned. Others have it worse as names are named – mostly famous
+economists – and few punches held. Amidst Taleb’s bravado, the
+sophomoric metaphors and the choppy prose, however, there are some fresh
+and fundamentally sound ideas. Ideas that can help individuals and, more
+importantly, organizations think long and hard about risk, growth,
+volatility, ethics, and the meaning of freedom.</p>
+<p>Randomness and uncertainty, chaos and disorder, entropy and error:
+the many instantiations of volatility. They are everywhere. In fact,
+their presence is the rule and not exception. We tend to consider
+responses to volatility to be binary. Either something is robust to
+volatility, meaning that is not impacted or it is fragile to volatility,
+meaning that it is reduced, injured or otherwise worse off because of
+it. This binary framework, Taleb tells us, is wrong and this book is his
+attempt at explaining why. At the core of his argument and his very
+ethos is that there is a third category of response, that which gains
+from volatility. The English language doesn’t actually have a word for
+this, so Taleb gives us ‘anti-fragile’ to signal that it represents the
+exact opposite of fragility – that which loses from volatility. It
+lands, initially, as a foreign concept, but in reality we are surrounded
+by anti-fragility. Many natural things are anti-fragile: our bodies
+(weight lifting and fasting benefit us), ecological systems (evolution,
+mutations, food webs) and information itself (controversial ideas/books
+are best sellers). Few built or created things, however, are: political
+structures, economic systems, everyday home items, investment
+strategies, etc. are all usually fragile, or at their best robust.
+Broadly speaking, big, fast, efficient and concentrated things are
+fragile; small, slow, redundant and dispersed things can be
+anti-fragile. And, it should be noted that many (most) anti-fragile
+things need volatility or they will suffer with our bodies and our
+ecosystem being prime examples. <em>On no fewer than a half dozen
+occasions Taleb reminds us that most human ailments are caused by
+chronic stress injuries due to lack of variety in bodily
+movement.</em></p>
+<p>To be anti-fragile two conditions must exist, optionality and
+rationality. Optionality requires that there be a position such that one
+can act, but is not forced to act. Rationality requires a method of
+decision making (selection) that can identify when an event (a deviation
+from stasis) has made the situation better off than before. For the
+followers of Greek Mythology (of which the author is one), one needs be
+both a Dionysian (to generate options) and a Apollonion (to rationally
+choose among them). Simple, right? The key, of course, is in identifying
+situations where optionality exists. Optionality is borne from postive
+asymmetries, situations where you find yourself with more upside than
+downside. These asymmetries result from non-linearities in the response
+of a thing to an event, or, put another way, the difference between a
+thing and the function of a thing. If a thing can benefit greatly
+(mildly) but suffer a small (large) harm then it is convex (concave) to
+an event. Convexities represent anti-fragile situations for you;
+concave, fragile. It is crucial to understand that such situations
+rarely exists in ludic, or strictly rule-based situations (like a casino
+or game). On the other hand, when found they exist in the big, messy and
+complex ecological systems in which our environment, economy and
+politics operate. Importantly, when you are in an anti-fragile position,
+you want volatility…which, volatility being endemic, is a good
+thing.<br />
+The story of anti-fragility, however, is not just one of a few
+enlightened individuals, groups and societies leveraging asymmetries and
+optionality to create a gilded utopia. Two problems have arisen. First,
+we are much more connected, efficient, fast and big as a global
+society…meaning that we are also much more fragile than we used to be.
+Look no further than the 2008 global financial crisis or the recent
+COVID-based supply chains issues of 2020/21. Second, ethical issues
+arise from anti-fragility. A core part of the anti-fragility story is
+that of bad actors ‘stealing’ anti-fragility from others; generally,
+private individuals using un-ethical means to create optionality for
+themselves at the cost (fragility) of the public. These are violations
+of the first order, those I’d consider serious, punishable and worthy of
+efforts to regulate. Taleb also spends considerable ink discussing more
+minor infractions such as the giving of bad advice, most by academics
+and the media. Here, he advocates for the wise (the non-turkeys) to
+ignore any opinion in which there is not bona fide proof of ‘skin in the
+game’ on the account of the prognosticator. A worthy claim, no doubt,
+but ultimately tangential to the narrative. Such asides are a common
+trial for the reader.</p>
+<p>Practically, what does all this talk of convexities, the Dionysion
+and ludic systems boil down to?</p>
 <ul>
-<li><strong>Don’t predict; rank order your choices by (anti-)fragility.</strong> Instead of worrying about being overly smart with sophisticated predictions, spend your time identifying asymmetries and non-linearities and invest your time/money/effort where you have a big upside and a small downside.<br />
+<li><strong>Don’t predict; rank order your choices by
+(anti-)fragility.</strong> Instead of worrying about being overly smart
+with sophisticated predictions, spend your time identifying asymmetries
+and non-linearities and invest your time/money/effort where you have a
+big upside and a small downside.<br />
 </li>
-<li><strong>Stop solving every problem with addition:</strong> In many cases – health, politics, love, portfolio risk management, sports, gardening – a good outcome is usually just the absence of the bad. Focus first on removing bad (fragile) things before you add any new ones, what remains will often be the anti-fragile.<br />
+<li><strong>Stop solving every problem with addition:</strong> In many
+cases – health, politics, love, portfolio risk management, sports,
+gardening – a good outcome is usually just the absence of the bad. Focus
+first on removing bad (fragile) things before you add any new ones, what
+remains will often be the anti-fragile.<br />
 </li>
-<li><strong>Relish the old:</strong> If you must add something new, choose something that has been around a long time as these are the most are likely to remain; those that haven’t are likely to go away (Lindy’s Law of Non-Perishable Things). Time is greatest detector of fragility.</li>
-<li><strong>Think like a Roman Stoic:</strong> See the upside, devalue possessions and status, love fate and accept the challenges it brings by creating your own asymmetries. Will yourself to be anti-fragile to volatility by your attitude and your actions.</li>
+<li><strong>Relish the old:</strong> If you must add something new,
+choose something that has been around a long time as these are the most
+are likely to remain; those that haven’t are likely to go away (Lindy’s
+Law of Non-Perishable Things). Time is greatest detector of
+fragility.</li>
+<li><strong>Think like a Roman Stoic:</strong> See the upside, devalue
+possessions and status, love fate and accept the challenges it brings by
+creating your own asymmetries. Will yourself to be anti-fragile to
+volatility by your attitude and your actions.</li>
 </ul>
-<p>No lie, this is a tough book. And not just because the thesis runs counter to much of my path in life. It offers a deep and, at times, counter-intuitive argument presented in an unorthodox manner. However, it will change your thinking if you let it, though how much is ultimately up to you.</p>
+<p>No lie, this is a tough book. And not just because the thesis runs
+counter to much of my path in life. It offers a deep and, at times,
+counter-intuitive argument presented in an unorthodox manner. However,
+it will change your thinking if you let it, though how much is
+ultimately up to you.</p>
 <hr />
 <p>   </p>
 </div>
 <div id="the-color-of-law" class="section level4">
-<h4><a href="https://www.epi.org/publication/the-color-of-law-a-forgotten-history-of-how-our-government-segregated-america/">The Color of Law</a></h4>
+<h4><a
+href="https://www.epi.org/publication/the-color-of-law-a-forgotten-history-of-how-our-government-segregated-america/">The
+Color of Law</a></h4>
 <p> </p>
 <ul>
 <li>By : Richard Rothstein</li>
 </ul>
 <p> </p>
-<p>Racial segregation in the housing market was a present, but not central theme throughout my post-graduate education in Urban Planning . We discussed destructive measures – The Highway Act of 1956 and redlining – as well as some adjudicative ones – integrative busing and public housing projects. However, only after finishing Richard Rothstein’s ‘The Color of Law’ has the extent of the discriminatory actions perpetuated on and endured by African Americans in regards to housing been made clear to me.</p>
-<p>The central thesis of ‘The Color of Law’ is that racial segregation in America is the direct product of de jure (by law and policy) not de facto (occurring on its own) segregation. And, that African Americans were denied, unconstitutionally so, the right to integrate into middle-class neighborhoods for much of the 20th century. The evidence presented here in support of this argument is copious, well-documented, damning, and, at times, difficult to read.</p>
-<p>Redlining – the refusal of banks to provide mortgages within historically African-American neighborhoods – is the poster child for disgraceful and racist corporate action in housing. While a major player in the wrongs perpetuated on communities of color, it is far from the only or perhaps even the most severe obstacle facing integration. Significant and often illegal hurdles were erected (and supported by courts and law enforcement) across nearly every aspect of housing: Lending, Construction Funding, Taxes, Zoning, Courts, Income/Wealth Generation, Rental Markets, Policing, Real Estate Agents and Developers. Example of these include only offering low LTV loans to whites, the FHA only providing construction financing to white-only suburbs post WWII, the IRS failing to revoke tax exempt status for firms that discriminated (as the law required), the Supreme Court ruling (in 2007) in favor of a de facto explanation of current segregation, single-family only zoning throughout most of the country, government agencies refusing to enforce anti-segregationist hiring practices, police standing by as black homeowners in white neighborhoods were vandalized and real estate agents and developers coordinating to ‘blockbust’ transitioning neighborhoods for their own speculative gain. These are just a few of the policies and practices that were commonplace during the 20th Century in America.</p>
-<p>None of these discriminatory housing-related actions were by and alone responsible for our segregated cities, schools and, ultimately, lives. Labor policies – by limiting African American participation in growing industries – also contributed greatly to confining their communities. Rothstein cedes the point that some amount of segregation, or clustering of people with those like them is always bound to happen, but the sheer scale of the actions taken to keep African Americans away from whites and the fervor with which Blacks fought to break down these customs and regulations suggests that the amount of segregation both past and current is anything but the pure result of natural sorting.</p>
-<p>As a closing salvo, we are reminded that as opposed to previous segregated services or domains like busing, restaurants, businesses, theaters, sporting events, etc., housing has a history. Once you desegregate the busses, within a few weeks or months, everyone can fully enjoy the same quality services. Same with a restaurant or a theater. But housing has a deep structural legacy. It holds and imparts generational wealth. It helps build the foundational social networks that will help guide young adults to success (or failure). Health, both physical and mental, are shaped by housing. In short, where you live matters a great deal in this country; so too does where your parents lived and their parents before them. When those choices are heavily constrained, the consequences of those limitations are not easily erased. The structural legacy of racist housing policy has a long half-life and, as Rothstein reminds us here, we are still living through much of the fallout.</p>
+<p>Racial segregation in the housing market was a present, but not
+central theme throughout my post-graduate education in Urban Planning .
+We discussed destructive measures – The Highway Act of 1956 and
+redlining – as well as some adjudicative ones – integrative busing and
+public housing projects. However, only after finishing Richard
+Rothstein’s ‘The Color of Law’ has the extent of the discriminatory
+actions perpetuated on and endured by African Americans in regards to
+housing been made clear to me.</p>
+<p>The central thesis of ‘The Color of Law’ is that racial segregation
+in America is the direct product of de jure (by law and policy) not de
+facto (occurring on its own) segregation. And, that African Americans
+were denied, unconstitutionally so, the right to integrate into
+middle-class neighborhoods for much of the 20th century. The evidence
+presented here in support of this argument is copious, well-documented,
+damning, and, at times, difficult to read.</p>
+<p>Redlining – the refusal of banks to provide mortgages within
+historically African-American neighborhoods – is the poster child for
+disgraceful and racist corporate action in housing. While a major player
+in the wrongs perpetuated on communities of color, it is far from the
+only or perhaps even the most severe obstacle facing integration.
+Significant and often illegal hurdles were erected (and supported by
+courts and law enforcement) across nearly every aspect of housing:
+Lending, Construction Funding, Taxes, Zoning, Courts, Income/Wealth
+Generation, Rental Markets, Policing, Real Estate Agents and Developers.
+Example of these include only offering low LTV loans to whites, the FHA
+only providing construction financing to white-only suburbs post WWII,
+the IRS failing to revoke tax exempt status for firms that discriminated
+(as the law required), the Supreme Court ruling (in 2007) in favor of a
+de facto explanation of current segregation, single-family only zoning
+throughout most of the country, government agencies refusing to enforce
+anti-segregationist hiring practices, police standing by as black
+homeowners in white neighborhoods were vandalized and real estate agents
+and developers coordinating to ‘blockbust’ transitioning neighborhoods
+for their own speculative gain. These are just a few of the policies and
+practices that were commonplace during the 20th Century in America.</p>
+<p>None of these discriminatory housing-related actions were by and
+alone responsible for our segregated cities, schools and, ultimately,
+lives. Labor policies – by limiting African American participation in
+growing industries – also contributed greatly to confining their
+communities. Rothstein cedes the point that some amount of segregation,
+or clustering of people with those like them is always bound to happen,
+but the sheer scale of the actions taken to keep African Americans away
+from whites and the fervor with which Blacks fought to break down these
+customs and regulations suggests that the amount of segregation both
+past and current is anything but the pure result of natural sorting.</p>
+<p>As a closing salvo, we are reminded that as opposed to previous
+segregated services or domains like busing, restaurants, businesses,
+theaters, sporting events, etc., housing has a history. Once you
+desegregate the busses, within a few weeks or months, everyone can fully
+enjoy the same quality services. Same with a restaurant or a theater.
+But housing has a deep structural legacy. It holds and imparts
+generational wealth. It helps build the foundational social networks
+that will help guide young adults to success (or failure). Health, both
+physical and mental, are shaped by housing. In short, where you live
+matters a great deal in this country; so too does where your parents
+lived and their parents before them. When those choices are heavily
+constrained, the consequences of those limitations are not easily
+erased. The structural legacy of racist housing policy has a long
+half-life and, as Rothstein reminds us here, we are still living through
+much of the fallout.</p>
 <hr />
 <p>   </p>
 </div>
 <div id="down-the-great-unknown" class="section level4">
-<h4><a href="https://www.harpercollins.com/products/down-the-great-unknown-edward-dolnick?variant=32207941238818">Down the Great Unknown</a></h4>
+<h4><a
+href="https://www.harpercollins.com/products/down-the-great-unknown-edward-dolnick?variant=32207941238818">Down
+the Great Unknown</a></h4>
 <p> </p>
 <ul>
 <li>By : Edward Dolnick</li>
 </ul>
 <p> </p>
-<p>By 1869 the growing American nation had filled in the vast majority map between the Atlantic and the Pacific. The great remaining unknown was the Grand Canyon. Pioneers and cartographers knew what went into it and what came out, but what happened within it was a mystery to the leaders of this new(ish) nation-state. A one-armed Civil War veteran by the name of John Wesley Powell set out to change that.</p>
-<p>With the clarity of a century and half’s worth of hindsight, this endeavor could be rightfully considered ‘Powell’s Folly’. Yet, just over three months after pushing off from Green River, WY, six of the origin ten men emerged from the southern exit of the canyon; bruised and battered, harried and hungry, but triumphant. Dolnick’s account – based on a thorough review and interweaving of the various journals kept during the trip and penned afterwards – lays bare Powell’s faulty planning and tactics as well as his dedication to the geological goals of the mission and, importantly, his enduring positivity.</p>
-<p>Heaps of bacon and flour. A wide variety of scientific instruments. Ten men, one missing a hand. No maps. No life jackets. No experience on whitewater. And four boats built for the placid lakes of the Northeast. Such began the journey down the Grand Canyon. Well, actually, just getting down the Green River and through the middle Colorado would prove challenging enough, let alone the final act through the mysterious cleft in the earth. To say there were mishaps would be a gross understatement. It would be an injustice of a similar scale to attribute their success to luck alone. Their journals freely concede the ebb and flow of adventure. The highs of successfully running a rapid or a hunt that resulted in wild game for dinner. And the lows of days on end of lining rapids with the only reward a plate of unleavened bread and coffee. In the end, they not only finished the remarkable trek but also contributed greatly to the contemporaneous geological discussions by providing rich and compelling data that underlies some of our deepest understandings of the history of our planet.</p>
-<p>For all the glory, there is equivalent sadness. Three of the men lost their lives, not on the water but in hiking out to safety. The deaths are clouded in conspiracy, originally blamed on local tribes but without any evidence to support the claim. Equally, we can mourn the loss of the natural wonders of the Glen Canyon to its concrete jailer. We now live in an age where the un-mapped has been relegated to the deep sea or deep space, as such we struggle to grasp the both danger and pureness of it and the significance of its loss.</p>
-<p>This book can run lax at time, bordering on tedium, but also sparkles with interesting parallel tales of adventures, a quick course on modern whitewater rafting and an enticing thread on Powell, the scientist. It is a book you can put down, a book that will lull you, literally, to sleep at times, but also one that will leave you in awe of immensity of the gamble they took and display of grit needed to complete the task.</p>
+<p>By 1869 the growing American nation had filled in the vast majority
+map between the Atlantic and the Pacific. The great remaining unknown
+was the Grand Canyon. Pioneers and cartographers knew what went into it
+and what came out, but what happened within it was a mystery to the
+leaders of this new(ish) nation-state. A one-armed Civil War veteran by
+the name of John Wesley Powell set out to change that.</p>
+<p>With the clarity of a century and half’s worth of hindsight, this
+endeavor could be rightfully considered ‘Powell’s Folly’. Yet, just over
+three months after pushing off from Green River, WY, six of the origin
+ten men emerged from the southern exit of the canyon; bruised and
+battered, harried and hungry, but triumphant. Dolnick’s account – based
+on a thorough review and interweaving of the various journals kept
+during the trip and penned afterwards – lays bare Powell’s faulty
+planning and tactics as well as his dedication to the geological goals
+of the mission and, importantly, his enduring positivity.</p>
+<p>Heaps of bacon and flour. A wide variety of scientific instruments.
+Ten men, one missing a hand. No maps. No life jackets. No experience on
+whitewater. And four boats built for the placid lakes of the Northeast.
+Such began the journey down the Grand Canyon. Well, actually, just
+getting down the Green River and through the middle Colorado would prove
+challenging enough, let alone the final act through the mysterious cleft
+in the earth. To say there were mishaps would be a gross understatement.
+It would be an injustice of a similar scale to attribute their success
+to luck alone. Their journals freely concede the ebb and flow of
+adventure. The highs of successfully running a rapid or a hunt that
+resulted in wild game for dinner. And the lows of days on end of lining
+rapids with the only reward a plate of unleavened bread and coffee. In
+the end, they not only finished the remarkable trek but also contributed
+greatly to the contemporaneous geological discussions by providing rich
+and compelling data that underlies some of our deepest understandings of
+the history of our planet.</p>
+<p>For all the glory, there is equivalent sadness. Three of the men lost
+their lives, not on the water but in hiking out to safety. The deaths
+are clouded in conspiracy, originally blamed on local tribes but without
+any evidence to support the claim. Equally, we can mourn the loss of the
+natural wonders of the Glen Canyon to its concrete jailer. We now live
+in an age where the un-mapped has been relegated to the deep sea or deep
+space, as such we struggle to grasp the both danger and pureness of it
+and the significance of its loss.</p>
+<p>This book can run lax at time, bordering on tedium, but also sparkles
+with interesting parallel tales of adventures, a quick course on modern
+whitewater rafting and an enticing thread on Powell, the scientist. It
+is a book you can put down, a book that will lull you, literally, to
+sleep at times, but also one that will leave you in awe of immensity of
+the gamble they took and display of grit needed to complete the
+task.</p>
 <hr />
 <p>   </p>
 </div>
 <div id="desert-solitaire" class="section level4">
-<h4><a href="https://www.simonandschuster.com/books/Desert-Solitaire/Edward-Abbey/9780671695880">Desert Solitaire</a></h4>
+<h4><a
+href="https://www.simonandschuster.com/books/Desert-Solitaire/Edward-Abbey/9780671695880">Desert
+Solitaire</a></h4>
 <p> </p>
 <ul>
 <li>By : Edward Abbey</li>
 </ul>
 <p> </p>
-<p>Of the original 1960s renegade environmentalists, Edward Abbey may be the most controversial. Like him or not, Desert Solitaire, a tale of his summer as a ranger in Arches National Park, has become a canon of the early ‘eco’ movement. Now, more than fifty years later, Desert Solitaire remains as relevant as ever in an ecological-philosophical sense. His contribution in this space – both this book and his wider work – merits little disagreement. Abbey’s writing extends well beyond the bounds of environmental argument as well. Here in the political and cultural, his positions may lie at odds with many in the broader modern environmental movement. The misanthropic rants are, perhaps, forgivable, leveled more at the systems of human organization (the evils of culture and institutions) and not individuals themselves. His misogyny is more subdued, but evident nonetheless. Perhaps a parlance of his time or station, but readily re-enforced by his familial performance. Other prejudices lurk at times, but are also openly condemned at others. A multitude of opinions of Abbey, the man, could (and are) conceivably and rightfully be held. I want to avoid this route to the available extent, focusing on Abbey the ranger, the writer and the raconteur.</p>
-<p>Abbey would be terrified at today’s Arches National Park: Paved roads and pathways deep into the desert, gift shops full of kitsch and Coke machines, campgrounds littered with RVs and Teslas instead of canvas tents. Adventure replaced by tourism…everything he feared it would become. And not just Arches, most of our National Parks – save the far North; Alaska, Isle Royale, North Cascades, Voyageurs – have, too, pivoted to cater to the teeming masses. Underneath the cutting prose and occasional fits of anger, Abbey was also a highly skilled story teller. A fact that is no more evident in that you can find yourself in abject disagreement with a statement, hypothesis or the ethos of his and, yet, find his work deeply insightful.</p>
-<p>Desert Solitaire, arguably his finest work, is three threads woven together: Deed, Description and Doctrine. The things he did during his summer as a ranger (Deed), a rich explanation of the ecology of southeast Utah together with a general census of the region (Description) and a haphazard collection of his strongly held beliefs on public land policy, immigration and other tangential philosophical musings all roughly related to the ideal state of man in the modern world (Doctrine). No one of these dominates the book; a reader gets all three in heavy dose.</p>
-<p>What does an adventurous park ranger do during his days off around Moab? Quite a bit, actually: going on cattle drives, squatting in an abandoned mine camp in the Havasupai Canyon, exploring the remote and uncharted Maze formation, removing road survey markers, stalking a one-eyed, feral horse, climbing up Mt. Tukuhnikivatz, rafting down Glen Canyon (pre-dam), helping find a dead man and then nearly becoming one on a subsequent adventure. All this along with frequent trips to town to consume 3.2 beer with a Basque cowboy and others in one of Utah’s least Morman towns.</p>
-<p>For his summer’s work Abbey resided in a remote tin trailer many miles from the park’s headquarters. His neighbors the snakes and geckos, the juniper and cliffrose, the dust and sandstone. All are given their due, with details often bordering on encyclopedic. These deep asides into the natural environment form an import scaffolding for the thesis of the book and his larger ethos; as an arm-chair environmentalist my attention wandered unable to lean into a sprawling narrative on the mating habits of gopher snakes. I find fault mostly with the reader in this case.</p>
-<p>Sharing a campfire and a six-pack with Abbey would, no doubt, have resulted in few dull moments. He had many opinions, strongly held. Core to these were a deep hatred for bureaucracy and development, a not-so-uncommon position for a young man from meager means who endured a relatively unsuccessful military career. He found freedom in the desert, a freedom which ‘industrial tourism’ would threaten to end. Abbey’s track record is mixed. His ideas to fix the National Parks – centered around removing the automobile – have been slowly implemented and are likely to gain momentum as visitor numbers rise and infrastructure remains insufficient. In these, he is sage. His anti-immigration, anti-urban philosophy bears more checkered results. In this, Abbey offers a selfishness similar to that leveled at today’s wealthy, ecologically-minded adventurers. Namely that the parks (nature, really) belong to the able, both physical and financial. Missing from Abbey’s worldview is this acute fact that we can better save wilderness with a big-tent, consensus-building approach, driven mostly by the dominant population group – urbanites – that he so loved to malign. Hubris on his part, for sure, but also somewhat apropos for the time (the late 1960s). Our understanding of resource consumption, development and the larger human footprint in general have evolved considerably in the past 50 years, along with a doubling of the world’s population in that time.</p>
-<p>Desert Solitaire is not a story, per se, no linear progression of plot, nor any real character development. Its an extremely well-written journal of man’s summer in south-eastern Utah. A pre-industrial tourism, pre-big hydropower paean to the high desert. Enjoy it for that view, regardless of your position on the author and his wide ranging feelings on the ills of modern (wo)man.</p>
+<p>Of the original 1960s renegade environmentalists, Edward Abbey may be
+the most controversial. Like him or not, Desert Solitaire, a tale of his
+summer as a ranger in Arches National Park, has become a canon of the
+early ‘eco’ movement. Now, more than fifty years later, Desert Solitaire
+remains as relevant as ever in an ecological-philosophical sense. His
+contribution in this space – both this book and his wider work – merits
+little disagreement. Abbey’s writing extends well beyond the bounds of
+environmental argument as well. Here in the political and cultural, his
+positions may lie at odds with many in the broader modern environmental
+movement. The misanthropic rants are, perhaps, forgivable, leveled more
+at the systems of human organization (the evils of culture and
+institutions) and not individuals themselves. His misogyny is more
+subdued, but evident nonetheless. Perhaps a parlance of his time or
+station, but readily re-enforced by his familial performance. Other
+prejudices lurk at times, but are also openly condemned at others. A
+multitude of opinions of Abbey, the man, could (and are) conceivably and
+rightfully be held. I want to avoid this route to the available extent,
+focusing on Abbey the ranger, the writer and the raconteur.</p>
+<p>Abbey would be terrified at today’s Arches National Park: Paved roads
+and pathways deep into the desert, gift shops full of kitsch and Coke
+machines, campgrounds littered with RVs and Teslas instead of canvas
+tents. Adventure replaced by tourism…everything he feared it would
+become. And not just Arches, most of our National Parks – save the far
+North; Alaska, Isle Royale, North Cascades, Voyageurs – have, too,
+pivoted to cater to the teeming masses. Underneath the cutting prose and
+occasional fits of anger, Abbey was also a highly skilled story teller.
+A fact that is no more evident in that you can find yourself in abject
+disagreement with a statement, hypothesis or the ethos of his and, yet,
+find his work deeply insightful.</p>
+<p>Desert Solitaire, arguably his finest work, is three threads woven
+together: Deed, Description and Doctrine. The things he did during his
+summer as a ranger (Deed), a rich explanation of the ecology of
+southeast Utah together with a general census of the region
+(Description) and a haphazard collection of his strongly held beliefs on
+public land policy, immigration and other tangential philosophical
+musings all roughly related to the ideal state of man in the modern
+world (Doctrine). No one of these dominates the book; a reader gets all
+three in heavy dose.</p>
+<p>What does an adventurous park ranger do during his days off around
+Moab? Quite a bit, actually: going on cattle drives, squatting in an
+abandoned mine camp in the Havasupai Canyon, exploring the remote and
+uncharted Maze formation, removing road survey markers, stalking a
+one-eyed, feral horse, climbing up Mt. Tukuhnikivatz, rafting down Glen
+Canyon (pre-dam), helping find a dead man and then nearly becoming one
+on a subsequent adventure. All this along with frequent trips to town to
+consume 3.2 beer with a Basque cowboy and others in one of Utah’s least
+Morman towns.</p>
+<p>For his summer’s work Abbey resided in a remote tin trailer many
+miles from the park’s headquarters. His neighbors the snakes and geckos,
+the juniper and cliffrose, the dust and sandstone. All are given their
+due, with details often bordering on encyclopedic. These deep asides
+into the natural environment form an import scaffolding for the thesis
+of the book and his larger ethos; as an arm-chair environmentalist my
+attention wandered unable to lean into a sprawling narrative on the
+mating habits of gopher snakes. I find fault mostly with the reader in
+this case.</p>
+<p>Sharing a campfire and a six-pack with Abbey would, no doubt, have
+resulted in few dull moments. He had many opinions, strongly held. Core
+to these were a deep hatred for bureaucracy and development, a
+not-so-uncommon position for a young man from meager means who endured a
+relatively unsuccessful military career. He found freedom in the desert,
+a freedom which ‘industrial tourism’ would threaten to end. Abbey’s
+track record is mixed. His ideas to fix the National Parks – centered
+around removing the automobile – have been slowly implemented and are
+likely to gain momentum as visitor numbers rise and infrastructure
+remains insufficient. In these, he is sage. His anti-immigration,
+anti-urban philosophy bears more checkered results. In this, Abbey
+offers a selfishness similar to that leveled at today’s wealthy,
+ecologically-minded adventurers. Namely that the parks (nature, really)
+belong to the able, both physical and financial. Missing from Abbey’s
+worldview is this acute fact that we can better save wilderness with a
+big-tent, consensus-building approach, driven mostly by the dominant
+population group – urbanites – that he so loved to malign. Hubris on his
+part, for sure, but also somewhat apropos for the time (the late 1960s).
+Our understanding of resource consumption, development and the larger
+human footprint in general have evolved considerably in the past 50
+years, along with a doubling of the world’s population in that time.</p>
+<p>Desert Solitaire is not a story, per se, no linear progression of
+plot, nor any real character development. Its an extremely well-written
+journal of man’s summer in south-eastern Utah. A pre-industrial tourism,
+pre-big hydropower paean to the high desert. Enjoy it for that view,
+regardless of your position on the author and his wide ranging feelings
+on the ills of modern (wo)man.</p>
 <hr />
 <p>   </p>
 </div>
-<div id="disappointment-river-finding-and-losing-the-northwest-passage" class="section level4">
-<h4><a href="https://www.penguinrandomhouse.com/books/543135/disappointment-river-by-brian-castner/">Disappointment River: Finding and Losing the Northwest Passage</a></h4>
+<div id="disappointment-river-finding-and-losing-the-northwest-passage"
+class="section level4">
+<h4><a
+href="https://www.penguinrandomhouse.com/books/543135/disappointment-river-by-brian-castner/">Disappointment
+River: Finding and Losing the Northwest Passage</a></h4>
 <p> </p>
 <ul>
 <li>By : Brian Castner</li>
 </ul>
 <p> </p>
-<p>In the far southwestern corner of Great Slave Lake the Deh Cho river begins its 1,000 mile journey to the sea. The outlet flow west; west toward the Pacific. In the late 1800s such a course held infinite potential. Could it be the Northwest Passage? A riverine highway directly to Chinese markets where furs sold for ten times what they did in Montreal or London. Was the Deh Cho the river that would open up the far north of the continent? The river that would make men rich beyond their wildest dreams?</p>
-<p>A few hundred miles after leaving the lake, the Deh Cho makes a turn north and continues that direction eventually emptying into the icy Arctic Ocean. Alexander Mackenzie was the first European to traverse the great river – now bearing his name. The first of the fur trappers to fight the storms, the hunger, the bugs and the maze-like delta only to be rewarded with an ice-clogged sea providing access to precisely nowhere. His course in life would end up mirroring that of the river’s; beginning rich with potential only to end in disappointment. Not in tragedy but irrelevance. This is the story of that river, his life and the author’s own attempt to re-create Mackenzie’s journey.</p>
-<p>The tales of the parallel endeavors smoothly complement each other. Mackenzie’s story providing deep insight into the politics of the great trading companies of the north and the culture of the indigenous tribes of this immense land mass. Stoic to a fault, we get very few glimpses of the difficulty of Mackenzie’s undertaking from his journals. There are marked points about the shortcomings of his traveling companions, for sure, but not much that one would ascribe to pure complaint. He is mostly concerned with recording navigational and reconnaissance details, no doubt in hope that this information will help turn the river into the fur trader’s Silk Road. An optimistic reader of his account may be left with the impression that paddling the Mackenzie is simply a matter of patience in letting the river carry you to the sea.</p>
-<p>Here is where Castner’s own trip shines. His telling lays out the gory details of the struggles of running this river. How the wind creates three-foot waves in one-foot deep water. How one must search for hours to find a suitable sand bar to place a small tent. How the bugs can turn exposed skin into festering wounds in a matter of minutes. Don’t worry though, it is not all woe. Castner finds genuine bonds with his rotating cast of paddling partners and well as a number of the locals – primarily members of the remaining indigenous peoples. While the river may be uncaring, there is a personal element, even this far north. In that respect, Castner, like Mackenzie and like their fellow European adventures between them, relied on the good will of the native people for survival.</p>
-<p>If you are looking for intense, page-turning action scenes this book, like the river itself, will disappoint. There probably won’t be a film adaption. In neither story is there really excitement, only drudgery. But, you learn to appreciate the struggles, both mental and physical. Its a long, hard grind. Literally millions of paddle strokes (and Castner only went downstream, the easy way). It is 14-16 hours a day of monotony, followed by frantic searches for campsites before nightfall, or what amounts to it this far north in June. It is sitting all day, all week, looking at the same black spruce trees and gray water for time on end. A grand adventure no doubt, but one of discipline and endurance, not high action.</p>
-<p>The book is well done; a balanced mix of history and personal connection. It will quickly avail you of any sense of propriety surrounding your own daily troubles here in the modern world. The book, as published, is also inferiorating. There are no maps to guide you, no reference to traditional tribal land boundaries, no easy way to keep track of either party’s progress. I spent a good portion of my reading this trying to place the paddlers on Google Maps. In retrospect maybe, just maybe, this was intentional. To put you in Mackenzie’s shoes in heading into the unknown with nothing but poorly translated local wisdom to guide you.</p>
+<p>In the far southwestern corner of Great Slave Lake the Deh Cho river
+begins its 1,000 mile journey to the sea. The outlet flow west; west
+toward the Pacific. In the late 1800s such a course held infinite
+potential. Could it be the Northwest Passage? A riverine highway
+directly to Chinese markets where furs sold for ten times what they did
+in Montreal or London. Was the Deh Cho the river that would open up the
+far north of the continent? The river that would make men rich beyond
+their wildest dreams?</p>
+<p>A few hundred miles after leaving the lake, the Deh Cho makes a turn
+north and continues that direction eventually emptying into the icy
+Arctic Ocean. Alexander Mackenzie was the first European to traverse the
+great river – now bearing his name. The first of the fur trappers to
+fight the storms, the hunger, the bugs and the maze-like delta only to
+be rewarded with an ice-clogged sea providing access to precisely
+nowhere. His course in life would end up mirroring that of the river’s;
+beginning rich with potential only to end in disappointment. Not in
+tragedy but irrelevance. This is the story of that river, his life and
+the author’s own attempt to re-create Mackenzie’s journey.</p>
+<p>The tales of the parallel endeavors smoothly complement each other.
+Mackenzie’s story providing deep insight into the politics of the great
+trading companies of the north and the culture of the indigenous tribes
+of this immense land mass. Stoic to a fault, we get very few glimpses of
+the difficulty of Mackenzie’s undertaking from his journals. There are
+marked points about the shortcomings of his traveling companions, for
+sure, but not much that one would ascribe to pure complaint. He is
+mostly concerned with recording navigational and reconnaissance details,
+no doubt in hope that this information will help turn the river into the
+fur trader’s Silk Road. An optimistic reader of his account may be left
+with the impression that paddling the Mackenzie is simply a matter of
+patience in letting the river carry you to the sea.</p>
+<p>Here is where Castner’s own trip shines. His telling lays out the
+gory details of the struggles of running this river. How the wind
+creates three-foot waves in one-foot deep water. How one must search for
+hours to find a suitable sand bar to place a small tent. How the bugs
+can turn exposed skin into festering wounds in a matter of minutes.
+Don’t worry though, it is not all woe. Castner finds genuine bonds with
+his rotating cast of paddling partners and well as a number of the
+locals – primarily members of the remaining indigenous peoples. While
+the river may be uncaring, there is a personal element, even this far
+north. In that respect, Castner, like Mackenzie and like their fellow
+European adventures between them, relied on the good will of the native
+people for survival.</p>
+<p>If you are looking for intense, page-turning action scenes this book,
+like the river itself, will disappoint. There probably won’t be a film
+adaption. In neither story is there really excitement, only drudgery.
+But, you learn to appreciate the struggles, both mental and physical.
+Its a long, hard grind. Literally millions of paddle strokes (and
+Castner only went downstream, the easy way). It is 14-16 hours a day of
+monotony, followed by frantic searches for campsites before nightfall,
+or what amounts to it this far north in June. It is sitting all day, all
+week, looking at the same black spruce trees and gray water for time on
+end. A grand adventure no doubt, but one of discipline and endurance,
+not high action.</p>
+<p>The book is well done; a balanced mix of history and personal
+connection. It will quickly avail you of any sense of propriety
+surrounding your own daily troubles here in the modern world. The book,
+as published, is also inferiorating. There are no maps to guide you, no
+reference to traditional tribal land boundaries, no easy way to keep
+track of either party’s progress. I spent a good portion of my reading
+this trying to place the paddlers on Google Maps. In retrospect maybe,
+just maybe, this was intentional. To put you in Mackenzie’s shoes in
+heading into the unknown with nothing but poorly translated local wisdom
+to guide you.</p>
 <hr />
 <p>   </p>
 </div>
-<div id="astoria-astor-and-jeffersons-lost-pacific-empire" class="section level4">
-<h4><a href="https://www.harpercollins.com/products/astoria-peter-stark?variant=32122181812258">Astoria: Astor and Jefferson’s Lost Pacific Empire</a></h4>
+<div id="astoria-astor-and-jeffersons-lost-pacific-empire"
+class="section level4">
+<h4><a
+href="https://www.harpercollins.com/products/astoria-peter-stark?variant=32122181812258">Astoria:
+Astor and Jefferson’s Lost Pacific Empire</a></h4>
 <p> </p>
 <ul>
 <li>By : Peter Stark</li>
 </ul>
 <p> </p>
-<p>Astoria, Oregon is a sleepy town near the mouth of the Columbia River known mostly for its horrible weather and as the backdrop for Goonies, the 1980s cult classic. Founded in the early 1800s, its ambitions were once much grander – nothing less than to be the nexus of global trade in the Pacific and, possibly, the capital of a new democracy on the left coast of the continent. Peter Stark’s Astoria captivatingly explores the driving forces behind this ambitious goal, the idiosyncrasies of the main players and, ultimately, the reasons for their failed enterprise. The short answer is greed. And an inability to grasp the vastness of the continent as well as the psychological toll of isolation and exposure on the human spirit.</p>
-<p>From our nationalist point of view the settlement of the American West is often told in three parts:</p>
+<p>Astoria, Oregon is a sleepy town near the mouth of the Columbia River
+known mostly for its horrible weather and as the backdrop for Goonies,
+the 1980s cult classic. Founded in the early 1800s, its ambitions were
+once much grander – nothing less than to be the nexus of global trade in
+the Pacific and, possibly, the capital of a new democracy on the left
+coast of the continent. Peter Stark’s Astoria captivatingly explores the
+driving forces behind this ambitious goal, the idiosyncrasies of the
+main players and, ultimately, the reasons for their failed enterprise.
+The short answer is greed. And an inability to grasp the vastness of the
+continent as well as the psychological toll of isolation and exposure on
+the human spirit.</p>
+<p>From our nationalist point of view the settlement of the American
+West is often told in three parts:</p>
 <ol style="list-style-type: decimal">
-<li><p>Jefferson buys the better part of today’s central United States for a song from Napoleon, after which Lewis &amp; Clark’s Corps of Discovery have a grand adventure finding the Pacific Ocean paving the way for:</p></li>
-<li><p>The Oregon Trail which brought both settlers en masse as well a popular video game to the region which, eventually, led to;</p></li>
-<li><p>The California Gold Rush, the Railroads and the founding of wealthy cities all up and down the West Coast.</p></li>
+<li><p>Jefferson buys the better part of today’s central United States
+for a song from Napoleon, after which Lewis &amp; Clark’s Corps of
+Discovery have a grand adventure finding the Pacific Ocean paving the
+way for:</p></li>
+<li><p>The Oregon Trail which brought both settlers en masse as well a
+popular video game to the region which, eventually, led to;</p></li>
+<li><p>The California Gold Rush, the Railroads and the founding of
+wealthy cities all up and down the West Coast.</p></li>
 </ol>
-<p>Additionally, we are usually informed, that throughout these three acts the natives caused all manner of troubles, but in the end Manifest Destiny was too great of a force for the indigenous people.</p>
-<p>Of course this over-simplified treatment leaves out critical information about the who, the why, the where and the how of our nation’s march westward. In this book, Stark fills in key details about what happened after Lewis &amp; Clark had returned home, but before there was an Oregon Territory.</p>
-<p>In those years after the Louisiana Purchase the nascent United States was intent on expansion, both territorially and economically (often one in the same). Though the revolution was over and freedom won, the country’s long term independence was not assured. Lewis &amp; Clark’s successful expedition spawned uncountable grandiose visions in the heads of East Coast Americans. The fever reached the highest seats of power. The country’s most powerful politician, Thomas Jefferson, and its richest businessman, John Jacob Astor, hatched a plan to settle the West Coast. Jefferson, with the ambition of founding a sister democracy on the opposite coast to ensure the safety of the continent. Astor, with the ambition of a global fur trade empire that could efficiently move product from the inland rivers of North America to the Chinese markets where furs fetched astronomical prices. Two parties were dispatched on the mission: return to the mouth of the Columbia and establish a trading post which would grow into a capitol city. One by land and one by sea.</p>
-<p>Both reached their ultimate destination, though not on the aggressive time schedules envisioned. Nor were these journeys as comfortable and predictable as drawn up in a New York chamber room. But, perhaps, the biggest mis-step by the backers of this endeavor was their utmost reliance on the un-wavering focus and commitment of the men involved. Wars, weather and pure chance matter too, but any plan, like this one, that doesn’t leave enough contingency for simple human errors is bound to fail.</p>
-<p>Stark’s telling here is commendable. There is no hero worship, no misplaced nationalistic fervor or racial judgement. You root for some characters and against others, but only on their merits. You get his best researched facts in an approachable narrative. Sometimes, perhaps, too many of them, especially in the latter third of the book when geopolitics stir the already murky collection of events.</p>
-<p>There were two key takeaways for me. First, that it was Astor’s Overland Group that laid down most of what would become the Oregon Trail. By leaving the Missouri (for fear of the Blackfeet) they found a much easier set of passes leading to the Columbia Valley and, importantly, one that more readily handled covered wagons. Second, the extent to which early trappers, adventurers and settlers relied on the native people to both way-find and, often, simply survive. Without help from the Shoshone, Astor’s men (and one woman) would have surely died in Hells Canyon. Similarly, a number of Great Plains tribes helped them around the Bighorn Mountains and out into the Snake River plain. The Ocean Group benefited greatly from the Native Hawaiians as well. As interesting, or more so, as the white man’s wanderings are the varied manner in which the numerous tribes conducted relations with the explorers and how, in many cases, those interactions were driven by the on-going inter-tribal conflicts.</p>
-<p>Oh, and if you read this I dare you to find a bigger bad ass in all the world than Marie Dorian, the lone woman of the trip. I won’t spoil the details here but her story — just a bit part of this expansive drama — is simply astounding.</p>
+<p>Additionally, we are usually informed, that throughout these three
+acts the natives caused all manner of troubles, but in the end Manifest
+Destiny was too great of a force for the indigenous people.</p>
+<p>Of course this over-simplified treatment leaves out critical
+information about the who, the why, the where and the how of our
+nation’s march westward. In this book, Stark fills in key details about
+what happened after Lewis &amp; Clark had returned home, but before
+there was an Oregon Territory.</p>
+<p>In those years after the Louisiana Purchase the nascent United States
+was intent on expansion, both territorially and economically (often one
+in the same). Though the revolution was over and freedom won, the
+country’s long term independence was not assured. Lewis &amp; Clark’s
+successful expedition spawned uncountable grandiose visions in the heads
+of East Coast Americans. The fever reached the highest seats of power.
+The country’s most powerful politician, Thomas Jefferson, and its
+richest businessman, John Jacob Astor, hatched a plan to settle the West
+Coast. Jefferson, with the ambition of founding a sister democracy on
+the opposite coast to ensure the safety of the continent. Astor, with
+the ambition of a global fur trade empire that could efficiently move
+product from the inland rivers of North America to the Chinese markets
+where furs fetched astronomical prices. Two parties were dispatched on
+the mission: return to the mouth of the Columbia and establish a trading
+post which would grow into a capitol city. One by land and one by
+sea.</p>
+<p>Both reached their ultimate destination, though not on the aggressive
+time schedules envisioned. Nor were these journeys as comfortable and
+predictable as drawn up in a New York chamber room. But, perhaps, the
+biggest mis-step by the backers of this endeavor was their utmost
+reliance on the un-wavering focus and commitment of the men involved.
+Wars, weather and pure chance matter too, but any plan, like this one,
+that doesn’t leave enough contingency for simple human errors is bound
+to fail.</p>
+<p>Stark’s telling here is commendable. There is no hero worship, no
+misplaced nationalistic fervor or racial judgement. You root for some
+characters and against others, but only on their merits. You get his
+best researched facts in an approachable narrative. Sometimes, perhaps,
+too many of them, especially in the latter third of the book when
+geopolitics stir the already murky collection of events.</p>
+<p>There were two key takeaways for me. First, that it was Astor’s
+Overland Group that laid down most of what would become the Oregon
+Trail. By leaving the Missouri (for fear of the Blackfeet) they found a
+much easier set of passes leading to the Columbia Valley and,
+importantly, one that more readily handled covered wagons. Second, the
+extent to which early trappers, adventurers and settlers relied on the
+native people to both way-find and, often, simply survive. Without help
+from the Shoshone, Astor’s men (and one woman) would have surely died in
+Hells Canyon. Similarly, a number of Great Plains tribes helped them
+around the Bighorn Mountains and out into the Snake River plain. The
+Ocean Group benefited greatly from the Native Hawaiians as well. As
+interesting, or more so, as the white man’s wanderings are the varied
+manner in which the numerous tribes conducted relations with the
+explorers and how, in many cases, those interactions were driven by the
+on-going inter-tribal conflicts.</p>
+<p>Oh, and if you read this I dare you to find a bigger bad ass in all
+the world than Marie Dorian, the lone woman of the trip. I won’t spoil
+the details here but her story — just a bit part of this expansive drama
+— is simply astounding.</p>
 <hr />
 <p>   </p>
 </div>
 <div id="the-topeka-school" class="section level4">
-<h4><a href="https://us.macmillan.com/books/9780374277789">The Topeka School</a></h4>
+<h4><a href="https://us.macmillan.com/books/9780374277789">The Topeka
+School</a></h4>
 <p> </p>
 <ul>
 <li>By : Ben Lerner</li>
 </ul>
 <p> </p>
-<p>Come for the writing; stay for the story. Or maybe it is the other way around. You’ll find the presentation is not simple, nor linear. It begins in a bricolage of perspectives and story lines, but stick it out, the plot will narrow and you’ll be rewarded. Along the way you get Bob Dole, a Taipei brothel, crystal meth, Ivanka Trump, Westboro Church, those kids from your high school, that parent at the park, the patriarchal underbelly of every small community, remorse, anger, forgiveness and a little bit of laughter.</p>
-<p>The author (also the protagonist) is a white male, my age; a fellow product of the mid- to late-1990s Middle American mono-culture. While our similarities end there, the shared vintage of our adolescence conjured a number of not-so-comfortable memories from my own past. Peel away the personal history narratives – the book is primarily written in the ‘then’ – you find that this book is really about the ‘now’. It is a look at how language, its use, abuse and failure to master, are contributing to where we, America, find ourselves in 2020. Toxic masculinity is an principal theme, with information overload and abuse of privilege broached as well.</p>
-<p>Lerner’s high school debate history provides a core thread through the narrative. The stories are funny, the characters laughable, pitiable or hate-able, often all three. From these anecdotes, however, arise two key concepts – the ‘spread’ and the ‘hyperbolic descent.’ The former is the author’s term, and the more explored of the two. The latter is my own tagging of a maneuver (theme), one somewhat orthogonal to the former.</p>
-<p>The ‘spread’ is a debate move whereby one rapidly presents as many points of argument as quickly as humanly possible. Your opponent has a higher burden on duty in terms of refutation and, therefore, in the name of time, can only address some of the original points. The dropped or ignored points are considered as accepted and are scored as points for the first speaker. Lerner hints that this same process is writ large in today’s political world in which an abundance of rapid and successive lies and/or violations of laws, customs or norms cannot be properly refuted by your opponent and thus become either truth or are normalized. It is evident how effectively the current administration has utilized this technique to its own advantage. More broadly, this is also true outside the political realm where the average citizen is overwhelmed daily by social media misinformation, scam artists, needy charities, global and local catastrophes (current or impending) and personal economic and health challenges. What gets dropped (ignored) is taken by its progenitor to be accepted or allowed.</p>
-<p>Where the ‘spread’ is wide and shallow, the hyperbolic descent is narrow and deep. It works something like this. Your opponent offers a new policy, say, for an extended food stamp program. The response from hyperbolic descent is that such a program would create dependency on government, which leads to mass unemployment, which leads to the unraveling of society, which leads to decreased ability of America to defend itself internationally, which leads to nuclear war and the end of human civilization. Every policy or argued point leads directly – through a ridiculous linear progression – to the end of civilization. Higher gasoline taxes? Causes nuclear war. Lowering the retirement age? Nuclear war. Banning single use plastic bags? Yep, nuclear war. Mail-in voting? You got it, nuclear war. Every and anything your opponent offers is six steps or less from wiping out the entire human race. Sound familiar? You’ll find it in most any public comment section of a online article, if you so dare to venture into the comments.</p>
-<p>Lerner’s reflections on language, its power and its abuse are wrapped into an intriguing, but not quite riveting, coming of age story. The three additional character view points exist to support the drama of the protagonist’s, but each offer their own amusing and insightful contributions to the meta-themes of the book. Additionally, with Klaus, a minor character, holocaust survivor and oddball mystic, Lerner channels his deepest critique of what some in our generation, our country have become. Klaus suggests that our crisis of privilege, of finding hate, depression and self-loathing amidst utter abundance represents our desire for “adolescence without end.” For power and control and freedom without responsibility and commitment. For a free lunch.</p>
+<p>Come for the writing; stay for the story. Or maybe it is the other
+way around. You’ll find the presentation is not simple, nor linear. It
+begins in a bricolage of perspectives and story lines, but stick it out,
+the plot will narrow and you’ll be rewarded. Along the way you get Bob
+Dole, a Taipei brothel, crystal meth, Ivanka Trump, Westboro Church,
+those kids from your high school, that parent at the park, the
+patriarchal underbelly of every small community, remorse, anger,
+forgiveness and a little bit of laughter.</p>
+<p>The author (also the protagonist) is a white male, my age; a fellow
+product of the mid- to late-1990s Middle American mono-culture. While
+our similarities end there, the shared vintage of our adolescence
+conjured a number of not-so-comfortable memories from my own past. Peel
+away the personal history narratives – the book is primarily written in
+the ‘then’ – you find that this book is really about the ‘now’. It is a
+look at how language, its use, abuse and failure to master, are
+contributing to where we, America, find ourselves in 2020. Toxic
+masculinity is an principal theme, with information overload and abuse
+of privilege broached as well.</p>
+<p>Lerner’s high school debate history provides a core thread through
+the narrative. The stories are funny, the characters laughable, pitiable
+or hate-able, often all three. From these anecdotes, however, arise two
+key concepts – the ‘spread’ and the ‘hyperbolic descent.’ The former is
+the author’s term, and the more explored of the two. The latter is my
+own tagging of a maneuver (theme), one somewhat orthogonal to the
+former.</p>
+<p>The ‘spread’ is a debate move whereby one rapidly presents as many
+points of argument as quickly as humanly possible. Your opponent has a
+higher burden on duty in terms of refutation and, therefore, in the name
+of time, can only address some of the original points. The dropped or
+ignored points are considered as accepted and are scored as points for
+the first speaker. Lerner hints that this same process is writ large in
+today’s political world in which an abundance of rapid and successive
+lies and/or violations of laws, customs or norms cannot be properly
+refuted by your opponent and thus become either truth or are normalized.
+It is evident how effectively the current administration has utilized
+this technique to its own advantage. More broadly, this is also true
+outside the political realm where the average citizen is overwhelmed
+daily by social media misinformation, scam artists, needy charities,
+global and local catastrophes (current or impending) and personal
+economic and health challenges. What gets dropped (ignored) is taken by
+its progenitor to be accepted or allowed.</p>
+<p>Where the ‘spread’ is wide and shallow, the hyperbolic descent is
+narrow and deep. It works something like this. Your opponent offers a
+new policy, say, for an extended food stamp program. The response from
+hyperbolic descent is that such a program would create dependency on
+government, which leads to mass unemployment, which leads to the
+unraveling of society, which leads to decreased ability of America to
+defend itself internationally, which leads to nuclear war and the end of
+human civilization. Every policy or argued point leads directly –
+through a ridiculous linear progression – to the end of civilization.
+Higher gasoline taxes? Causes nuclear war. Lowering the retirement age?
+Nuclear war. Banning single use plastic bags? Yep, nuclear war. Mail-in
+voting? You got it, nuclear war. Every and anything your opponent offers
+is six steps or less from wiping out the entire human race. Sound
+familiar? You’ll find it in most any public comment section of a online
+article, if you so dare to venture into the comments.</p>
+<p>Lerner’s reflections on language, its power and its abuse are wrapped
+into an intriguing, but not quite riveting, coming of age story. The
+three additional character view points exist to support the drama of the
+protagonist’s, but each offer their own amusing and insightful
+contributions to the meta-themes of the book. Additionally, with Klaus,
+a minor character, holocaust survivor and oddball mystic, Lerner
+channels his deepest critique of what some in our generation, our
+country have become. Klaus suggests that our crisis of privilege, of
+finding hate, depression and self-loathing amidst utter abundance
+represents our desire for “adolescence without end.” For power and
+control and freedom without responsibility and commitment. For a free
+lunch.</p>
 <hr />
 <p>   </p>
 </div>
 <div id="the-deficit-myth" class="section level4">
-<h4><a href="https://www.publicaffairsbooks.com/titles/stephanie-kelton/the-deficit-myth/9781541736184/">The Deficit Myth</a></h4>
+<h4><a
+href="https://www.publicaffairsbooks.com/titles/stephanie-kelton/the-deficit-myth/9781541736184/">The
+Deficit Myth</a></h4>
 <p> </p>
 <ul>
 <li>By : Stephanie Kelton</li>
 </ul>
 <p> </p>
-<p>According to my Twitter feed, Stephanie Kelton’s The Deficit Myth would change the way that I thought about taxing and budgeting, about politics, about how our economy actually works. Those are bold claims; lofty expectations. The book delivered as promised.</p>
-<p>The thesis, simply put: If a county has monetary sovereignty then its spending is limited only by inflation and real resource constraints and not by deficits and debt. And, if that doesn’t spin your head quickly enough you’ll also discover that taxes don’t actually pay for spending at the Federal level. This all sounds like pure insanity. And in a way it is. Modern Monetary Theory (MMT) — the larger academic endeavor for which this book stands as a user-friendly manual — offers such a radical and abrupt departure from what passes for accepted tenets in the macro-economic policy world that you’ll find it crazy that we’ve gone so long, wasted so much economic growth, and stunted so many productive lives under these false pretenses.</p>
-<p>To better understand the above we must, oddly enough, begin with Richard Nixon. In 1971 Nixon canceled dollar-to-gold convertibility, a component of the original 1940s Bretton Woods agreement. The US dollar was now just paper. Fiat, plain and simple. Its value based on society’s acceptance of its worth in trade and nothing more. Interestingly enough, as Kelton lays out in this book, the free floating-ness of a fiat currency has a number of legitimate monetary and fiscal benefits.</p>
-<p>Having a fiat currency allows our government to pay off our debt whenever we want. Just print the money. Actually, it is even easier than that. Simply have the Fed buy back the Treasuries by digitally crediting the accounts of the bond holders. Done. No more national debt. The risk, of course, is inflation. Kelton spends the first half of the book meticulously guiding the reader through the logic of how a currency issuer (US government) can, and should, act differently from currency users (the rest of us). For a currency issuer, spending is not bad. In fact, it is the only way more money is ever added to an economy. When the government spends too much (little) a deficit (surplus) results for the currency issuer but everyone else faces a surplus (deficit). Surpluses in the non-federal government sector are good, that means all of us are getting wealthier, as a whole. But again, this is only desirable so long as it doesn’t cause too much inflation. The root of inflation is a situation where the group of currency users has more money then the real resources in the economy on which it can be spent. In such a case, demand outstrips supply, prices get bid up and you get undesirable inflation. The key here is the level of real resources — the products, services, jobs, natural resources, intellectual property, workers, etc. Where there are idle resources, say mass unemployment and warehouses of things that the unemployed can’t buy, there is enough ‘slack’ in the economy to handle more spending without causing inflation. Simply put, demand is too low to bid up prices. This is when the currency issuer should spend. Not doing so causes lost economic output, unmet potential and unnecessary human suffering. Imagine the economy as a half-filled balloon. A government deficit would put more air into the balloon, a surplus would take air out. So long as we don’t overfill the balloon (inflation) we get a better result with a deficit than a surplus.</p>
-<p>The spending side is easily grasped. What child hasn’t seen a video of a Treasury printing press and thought ‘why not just make more money?’. MMT’s thinking around taxes, however, is considerably thornier to wrap your head around. The belief that taxes pay for government services is a central tenet of both conservative and liberal ideologies. For liberals it’s the feel-good reason to send that check in knowing you are supporting a safety net for others; with conservatives this connection gives rise to the ‘no new taxes’ mantra, preferring to let private actors provide those social services. As Kelton argues that at a Federal level this simply isn’t true. We spend first, then tax later. So why then do the Feds tax at all. Instead of funding spending taxes encourage citizens to act in desirable ways (provide services, cease smoking, etc.), help control inflation and aid in balancing the distribution of economic resources thereby attempting to reign in the political power of the few. We spend to put money in and to direct economic growth, we tax to take money out (control inflation) and to direct citizen activities.</p>
-<p>There are three additional and important myths insidiously directing the action on Capital Hill. First, that the interest we pay on our national debt is bad. The reason we pay interest on the debt — by allowing holders of savings to buy treasuries — is to to support interest rates. So long as those interest rates (which since 2009, we now directly set) are less than the growth rate of the economy, the interest on the debt is sustainable. The second myth is that trade deficits are bad. Another way of thinking about a trade deficit is a ‘stuff surplus’. Its not a free lunch, however, as trade deficits can be bad if they are not covered by deficit spending and/or result in unemployment. It should also be noted that our trade deficits with developing nations provide them with the dollars necessary to buy critical necessities, technology and medicine in the global market. And, finally, there is the myth that many of our current entitlements — social security chief among them — are unsustainable. As you may have guessed from the section on spending, we can always find the money to pay for an entitlement (especially an ‘earned’ one such as social security), what’s actually lacking is the stated and ratified guarantee to do so. In other words, the problem is political not fiscal. Like all spending, we don’t need the taxes to cover it, only the ‘slack’ in the economy to spend without creating inflation.</p>
-<p>The myth-busting above exists, mostly, in a normative vacuum. It explains the mechanism by which we can spend more but not necessarily on what we should be spending. Kelton uses the final chapter of the book to lay out a plan, both on how MMT envisions handling the inflation risk while simultaneously building a better a better economy for all citizens. Ideally, an economy would have an automatic pressure relief valve that would release (reduce spending) as we ran up against the real resource limits beyond we’d see undesirable inflation. Kelton offer a federal job guarantee as a major component of this system. In times of poor economic conditions, spending would automatically occur as un- and under-employment citizens fell back on guaranteed federal jobs. This would stimulate spending and hasten the length of the downturn. As the economy returned, the private sector would bid workers away from the federal jobs and spending would decrease. A jobs guarantee program would obviate the need for many other forms of entitlement spending and would also create meaningful work products for the public. It would also be a convenient approach to setting a functional minimum wage without directly legislating one.</p>
-<p>The takeaway: By recognizing the advantages of monetary sovereignty we can begin to address the deficits that actually matter: a deficit of well-paying, meaningful jobs, a deficit of equal access to sufficient health care, a deficit of functioning public infrastructure, and a deficit of a sustainable relationship with the natural world. Kelton open our eyes to the fact that most of what lies between us and a better future is constrained by policy and politics and not by resources or money.</p>
+<p>According to my Twitter feed, Stephanie Kelton’s The Deficit Myth
+would change the way that I thought about taxing and budgeting, about
+politics, about how our economy actually works. Those are bold claims;
+lofty expectations. The book delivered as promised.</p>
+<p>The thesis, simply put: If a county has monetary sovereignty then its
+spending is limited only by inflation and real resource constraints and
+not by deficits and debt. And, if that doesn’t spin your head quickly
+enough you’ll also discover that taxes don’t actually pay for spending
+at the Federal level. This all sounds like pure insanity. And in a way
+it is. Modern Monetary Theory (MMT) — the larger academic endeavor for
+which this book stands as a user-friendly manual — offers such a radical
+and abrupt departure from what passes for accepted tenets in the
+macro-economic policy world that you’ll find it crazy that we’ve gone so
+long, wasted so much economic growth, and stunted so many productive
+lives under these false pretenses.</p>
+<p>To better understand the above we must, oddly enough, begin with
+Richard Nixon. In 1971 Nixon canceled dollar-to-gold convertibility, a
+component of the original 1940s Bretton Woods agreement. The US dollar
+was now just paper. Fiat, plain and simple. Its value based on society’s
+acceptance of its worth in trade and nothing more. Interestingly enough,
+as Kelton lays out in this book, the free floating-ness of a fiat
+currency has a number of legitimate monetary and fiscal benefits.</p>
+<p>Having a fiat currency allows our government to pay off our debt
+whenever we want. Just print the money. Actually, it is even easier than
+that. Simply have the Fed buy back the Treasuries by digitally crediting
+the accounts of the bond holders. Done. No more national debt. The risk,
+of course, is inflation. Kelton spends the first half of the book
+meticulously guiding the reader through the logic of how a currency
+issuer (US government) can, and should, act differently from currency
+users (the rest of us). For a currency issuer, spending is not bad. In
+fact, it is the only way more money is ever added to an economy. When
+the government spends too much (little) a deficit (surplus) results for
+the currency issuer but everyone else faces a surplus (deficit).
+Surpluses in the non-federal government sector are good, that means all
+of us are getting wealthier, as a whole. But again, this is only
+desirable so long as it doesn’t cause too much inflation. The root of
+inflation is a situation where the group of currency users has more
+money then the real resources in the economy on which it can be spent.
+In such a case, demand outstrips supply, prices get bid up and you get
+undesirable inflation. The key here is the level of real resources — the
+products, services, jobs, natural resources, intellectual property,
+workers, etc. Where there are idle resources, say mass unemployment and
+warehouses of things that the unemployed can’t buy, there is enough
+‘slack’ in the economy to handle more spending without causing
+inflation. Simply put, demand is too low to bid up prices. This is when
+the currency issuer should spend. Not doing so causes lost economic
+output, unmet potential and unnecessary human suffering. Imagine the
+economy as a half-filled balloon. A government deficit would put more
+air into the balloon, a surplus would take air out. So long as we don’t
+overfill the balloon (inflation) we get a better result with a deficit
+than a surplus.</p>
+<p>The spending side is easily grasped. What child hasn’t seen a video
+of a Treasury printing press and thought ‘why not just make more
+money?’. MMT’s thinking around taxes, however, is considerably thornier
+to wrap your head around. The belief that taxes pay for government
+services is a central tenet of both conservative and liberal ideologies.
+For liberals it’s the feel-good reason to send that check in knowing you
+are supporting a safety net for others; with conservatives this
+connection gives rise to the ‘no new taxes’ mantra, preferring to let
+private actors provide those social services. As Kelton argues that at a
+Federal level this simply isn’t true. We spend first, then tax later. So
+why then do the Feds tax at all. Instead of funding spending taxes
+encourage citizens to act in desirable ways (provide services, cease
+smoking, etc.), help control inflation and aid in balancing the
+distribution of economic resources thereby attempting to reign in the
+political power of the few. We spend to put money in and to direct
+economic growth, we tax to take money out (control inflation) and to
+direct citizen activities.</p>
+<p>There are three additional and important myths insidiously directing
+the action on Capital Hill. First, that the interest we pay on our
+national debt is bad. The reason we pay interest on the debt — by
+allowing holders of savings to buy treasuries — is to to support
+interest rates. So long as those interest rates (which since 2009, we
+now directly set) are less than the growth rate of the economy, the
+interest on the debt is sustainable. The second myth is that trade
+deficits are bad. Another way of thinking about a trade deficit is a
+‘stuff surplus’. Its not a free lunch, however, as trade deficits can be
+bad if they are not covered by deficit spending and/or result in
+unemployment. It should also be noted that our trade deficits with
+developing nations provide them with the dollars necessary to buy
+critical necessities, technology and medicine in the global market. And,
+finally, there is the myth that many of our current entitlements —
+social security chief among them — are unsustainable. As you may have
+guessed from the section on spending, we can always find the money to
+pay for an entitlement (especially an ‘earned’ one such as social
+security), what’s actually lacking is the stated and ratified guarantee
+to do so. In other words, the problem is political not fiscal. Like all
+spending, we don’t need the taxes to cover it, only the ‘slack’ in the
+economy to spend without creating inflation.</p>
+<p>The myth-busting above exists, mostly, in a normative vacuum. It
+explains the mechanism by which we can spend more but not necessarily on
+what we should be spending. Kelton uses the final chapter of the book to
+lay out a plan, both on how MMT envisions handling the inflation risk
+while simultaneously building a better a better economy for all
+citizens. Ideally, an economy would have an automatic pressure relief
+valve that would release (reduce spending) as we ran up against the real
+resource limits beyond we’d see undesirable inflation. Kelton offer a
+federal job guarantee as a major component of this system. In times of
+poor economic conditions, spending would automatically occur as un- and
+under-employment citizens fell back on guaranteed federal jobs. This
+would stimulate spending and hasten the length of the downturn. As the
+economy returned, the private sector would bid workers away from the
+federal jobs and spending would decrease. A jobs guarantee program would
+obviate the need for many other forms of entitlement spending and would
+also create meaningful work products for the public. It would also be a
+convenient approach to setting a functional minimum wage without
+directly legislating one.</p>
+<p>The takeaway: By recognizing the advantages of monetary sovereignty
+we can begin to address the deficits that actually matter: a deficit of
+well-paying, meaningful jobs, a deficit of equal access to sufficient
+health care, a deficit of functioning public infrastructure, and a
+deficit of a sustainable relationship with the natural world. Kelton
+open our eyes to the fact that most of what lies between us and a better
+future is constrained by policy and politics and not by resources or
+money.</p>
 <hr />
 <p>   </p>
 </div>
 <div id="war-of-art" class="section level4">
-<h4><a href="https://blackirishbooks.com/product/the-war-of-art/">War of Art</a></h4>
+<h4><a href="https://blackirishbooks.com/product/the-war-of-art/">War of
+Art</a></h4>
 <p> </p>
 <ul>
 <li>By : Steven Pressfield</li>
 </ul>
 <p> </p>
-<p>This is a self-help book. You may not like self-help books. Even so, you’ll probably like this book. It is short, easy to read and no bullshit. Pressfield’s thesis is this: self-generated resistance is what stands in the way of you becoming an artist, starting a business, losing weight, quitting smoking, showing political/emotional/social courage and/or loving. These un-lived lives of art, entrepreneurship, health, courage and love are what causes poverty, disease and un-happiness. His cure: do the work. Reject the immediate gratification in favor of the long term goal by doing the work. Cure your restlessness by doing the work. Show your contempt for failure by doing the work. Property, pampering and praise will not bring you joy; doing the work that you know you must will.</p>
-<p>Pressfield lays out four dualities. In each, one side will help you defeat resistance, the other aids and abets this destructive force. We begin with the artist and the fundamentalist. The fundamentalist believes the truth has already been revealed and, as such, cannot envision a future. With no horizon, fundamentalists are conquered, they retreat to the past and await the time for humanity to return to a prior, idealized state. The artist is centered on evolution, progress and self-mastery. The truth is there to be found; the artist will make their life a liberating quest toward it.</p>
-<p>Next, the professional and the amateur. The amateur dabbles. The amateur is present in good times and gone in bad. The amateur makes big plans and fails to deliver. The amateur engages for pleasure. Resistance crushes the amateur. The professional shows up, no matter what. Puts in the work, is realistic about deadlines and commitments and the realities of doing a thing right. The professional separates the important from the urgent. The professional is there for the work. Its OK to be an amateur, just not about things that matter.</p>
-<p>Third, the ego and the self. This was certainly the low point of the book for me. Pressfield’s duality here strays a bit too supernatural to support the thesis. He knows it too, as this section is caveated as such and attempts to offer the reader multiple paths of interpretation. The central argument is that the ego is a self-concerned realist while the self is a altruistic dreamer. The dreamer is, allegedly, better positioned to defeat resistance. Perhaps there is something in here…i didn’t see it.</p>
-<p>Pressfield closes with the distinction between hierarchy and territory. An individual (human or animal) whose identity is rooted in hierarchy sees themselves as their rank in the societal order. Their actions, their happiness, their motivation and their self-worth is all determined by their place in the hierarchy. Their rank is everything, and it generates a never-ending stream of resistance. The artist and the professional have no use for the hierarchy. They are concerned only with the territory, the domain, the field, the truth. For an artist or professional the territory provides all the needed motivation without external input. In fact, internally is the only way the territory can provide the drive to do the work. In a territory there are no short cuts, no cheating, no nepotism, no office politics. You simply must do the work and what you get out of it is directly proportional to what you put in.</p>
-<p>The efficacy of the advice in this book, of course, assumes the reader is in a position to exercise such freedom of action, of choice, over their life. It is written for an audience of, at the bare minimum, a measure of some privilege. The author admits as much. The advice here should not be dismissed because of it. Though ‘art’ is the primary exemplar throughout the text, the tools here are just as successful in fighting the resistance that keep us from altruistic aims, principled stands, political courage, habit eradication and/or empathetic action. Anything that isn’t easy, that isn’t self-serving and immediately gratifying elicits resistance. The advise here helps identify and defeat it. So, do the work to defeat your resistance.</p>
+<p>This is a self-help book. You may not like self-help books. Even so,
+you’ll probably like this book. It is short, easy to read and no
+bullshit. Pressfield’s thesis is this: self-generated resistance is what
+stands in the way of you becoming an artist, starting a business, losing
+weight, quitting smoking, showing political/emotional/social courage
+and/or loving. These un-lived lives of art, entrepreneurship, health,
+courage and love are what causes poverty, disease and un-happiness. His
+cure: do the work. Reject the immediate gratification in favor of the
+long term goal by doing the work. Cure your restlessness by doing the
+work. Show your contempt for failure by doing the work. Property,
+pampering and praise will not bring you joy; doing the work that you
+know you must will.</p>
+<p>Pressfield lays out four dualities. In each, one side will help you
+defeat resistance, the other aids and abets this destructive force. We
+begin with the artist and the fundamentalist. The fundamentalist
+believes the truth has already been revealed and, as such, cannot
+envision a future. With no horizon, fundamentalists are conquered, they
+retreat to the past and await the time for humanity to return to a
+prior, idealized state. The artist is centered on evolution, progress
+and self-mastery. The truth is there to be found; the artist will make
+their life a liberating quest toward it.</p>
+<p>Next, the professional and the amateur. The amateur dabbles. The
+amateur is present in good times and gone in bad. The amateur makes big
+plans and fails to deliver. The amateur engages for pleasure. Resistance
+crushes the amateur. The professional shows up, no matter what. Puts in
+the work, is realistic about deadlines and commitments and the realities
+of doing a thing right. The professional separates the important from
+the urgent. The professional is there for the work. Its OK to be an
+amateur, just not about things that matter.</p>
+<p>Third, the ego and the self. This was certainly the low point of the
+book for me. Pressfield’s duality here strays a bit too supernatural to
+support the thesis. He knows it too, as this section is caveated as such
+and attempts to offer the reader multiple paths of interpretation. The
+central argument is that the ego is a self-concerned realist while the
+self is a altruistic dreamer. The dreamer is, allegedly, better
+positioned to defeat resistance. Perhaps there is something in here…i
+didn’t see it.</p>
+<p>Pressfield closes with the distinction between hierarchy and
+territory. An individual (human or animal) whose identity is rooted in
+hierarchy sees themselves as their rank in the societal order. Their
+actions, their happiness, their motivation and their self-worth is all
+determined by their place in the hierarchy. Their rank is everything,
+and it generates a never-ending stream of resistance. The artist and the
+professional have no use for the hierarchy. They are concerned only with
+the territory, the domain, the field, the truth. For an artist or
+professional the territory provides all the needed motivation without
+external input. In fact, internally is the only way the territory can
+provide the drive to do the work. In a territory there are no short
+cuts, no cheating, no nepotism, no office politics. You simply must do
+the work and what you get out of it is directly proportional to what you
+put in.</p>
+<p>The efficacy of the advice in this book, of course, assumes the
+reader is in a position to exercise such freedom of action, of choice,
+over their life. It is written for an audience of, at the bare minimum,
+a measure of some privilege. The author admits as much. The advice here
+should not be dismissed because of it. Though ‘art’ is the primary
+exemplar throughout the text, the tools here are just as successful in
+fighting the resistance that keep us from altruistic aims, principled
+stands, political courage, habit eradication and/or empathetic action.
+Anything that isn’t easy, that isn’t self-serving and immediately
+gratifying elicits resistance. The advise here helps identify and defeat
+it. So, do the work to defeat your resistance.</p>
 <hr />
 <p>   </p>
 </div>
-<div id="range-why-generalists-triumph-in-a-specialized-world" class="section level4">
-<h4><a href="https://davidepstein.com/the-range/">Range: Why Generalists Triumph in a Specialized World</a>:</h4>
+<div id="range-why-generalists-triumph-in-a-specialized-world"
+class="section level4">
+<h4><a href="https://davidepstein.com/the-range/">Range: Why Generalists
+Triumph in a Specialized World</a>:</h4>
 <p> </p>
 <ul>
 <li>By : David Epstein</li>
 </ul>
 <p> </p>
-<p>The spoils of a graduate school education are myriad; a firm belief in the necessity of specialization chief among them. In this book, Epstein argues that our reliance on a deep and narrow pursuit of a solution is often misplaced. Our trust in and preference for the insight and opinions of siloed specialists is pervasive in our institutions, our relationships and often our own minds. But, there are situations – many of them, in fact – where greater specific knowledge leads to worse outcomes than broader and shallower understanding. It takes some un-learning to fully recognize and benefit from the power of generalized thinking.</p>
-<p>The key distinguishing factor is the context of the problem and its formative learning environment. Epstein marks these as either ‘kind’ or ‘wicked’. Kind problems and learning environments have stable and exhaustible rule sets. They are optimizable and easily simulated. You won’t be surprised to learn that in many of these cases, computers have caught and surpassed human ability. These are also the environments where deep specialization pays the greatest dividends. Take chess. Really, the only thing that helps with being a better chess player is more chess practice. Specialization is positively correlated with performance.</p>
-<p>The complement to kind problems are wicked ones. The rules here change frequently. So, too, do the inputs, the players and goals. Optimization is generally not possible; most decisions or choices in a wicked problem require trade-offs, unquantified and unquantifiable uncertainties, edge cases and exceptions, limited data and no chance for repetition. Here, specialization creates blinders; local minima from which escape is futile. Major life decisions, political policies, business ventures all originate in wicked learning environments…the things that shape our lives, our societies and our planet.</p>
-<p>Epstein’s position is not that specialization and specialists are necessarily the problem, rather that they need to be mixed with breadth and generalists in order to for truly successful decisions and innovative work to result. Key takeaways include:</p>
+<p>The spoils of a graduate school education are myriad; a firm belief
+in the necessity of specialization chief among them. In this book,
+Epstein argues that our reliance on a deep and narrow pursuit of a
+solution is often misplaced. Our trust in and preference for the insight
+and opinions of siloed specialists is pervasive in our institutions, our
+relationships and often our own minds. But, there are situations – many
+of them, in fact – where greater specific knowledge leads to worse
+outcomes than broader and shallower understanding. It takes some
+un-learning to fully recognize and benefit from the power of generalized
+thinking.</p>
+<p>The key distinguishing factor is the context of the problem and its
+formative learning environment. Epstein marks these as either ‘kind’ or
+‘wicked’. Kind problems and learning environments have stable and
+exhaustible rule sets. They are optimizable and easily simulated. You
+won’t be surprised to learn that in many of these cases, computers have
+caught and surpassed human ability. These are also the environments
+where deep specialization pays the greatest dividends. Take chess.
+Really, the only thing that helps with being a better chess player is
+more chess practice. Specialization is positively correlated with
+performance.</p>
+<p>The complement to kind problems are wicked ones. The rules here
+change frequently. So, too, do the inputs, the players and goals.
+Optimization is generally not possible; most decisions or choices in a
+wicked problem require trade-offs, unquantified and unquantifiable
+uncertainties, edge cases and exceptions, limited data and no chance for
+repetition. Here, specialization creates blinders; local minima from
+which escape is futile. Major life decisions, political policies,
+business ventures all originate in wicked learning environments…the
+things that shape our lives, our societies and our planet.</p>
+<p>Epstein’s position is not that specialization and specialists are
+necessarily the problem, rather that they need to be mixed with breadth
+and generalists in order to for truly successful decisions and
+innovative work to result. Key takeaways include:</p>
 <ul>
 <li>The importance of building teams with diverse backgrounds</li>
-<li>Encouraging or practicing periods of cross-pollination of ideas and opinions</li>
-<li>Including creative expression, not just error correction, in your practice</li>
-<li>When teaching, trading procedural-based pedagogy for one centered on concepts</li>
+<li>Encouraging or practicing periods of cross-pollination of ideas and
+opinions</li>
+<li>Including creative expression, not just error correction, in your
+practice</li>
+<li>When teaching, trading procedural-based pedagogy for one centered on
+concepts</li>
 </ul>
-<p>If the rise of machine learning and artificial intelligence (to date) have taught us anything it is that computers and humans are good at vastly different things (a form of Moravec’s Paradox). And, though the Age of the Renaissance (Wo)Man is firmly behind us, generalists are making a comeback due to their ability to tie together disparate threads of knowledge into unique and fascinating solutions for wicked problems. It just so turns out that hobbies, hunches and heuristics can offer promising leads where deep focus has failed us.</p>
+<p>If the rise of machine learning and artificial intelligence (to date)
+have taught us anything it is that computers and humans are good at
+vastly different things (a form of Moravec’s Paradox). And, though the
+Age of the Renaissance (Wo)Man is firmly behind us, generalists are
+making a comeback due to their ability to tie together disparate threads
+of knowledge into unique and fascinating solutions for wicked problems.
+It just so turns out that hobbies, hunches and heuristics can offer
+promising leads where deep focus has failed us.</p>
 <hr />
 <p>   </p>
 </div>
-<div id="american-nations-a-history-of-the-eleven-rival-regional-cultures-of-north-america" class="section level4">
-<h4><a href="https://www.penguinrandomhouse.com/books/306345/american-nations-by-colin-woodard/">American Nations: A History of the Eleven Rival Regional Cultures of North America</a>:</h4>
+<div
+id="american-nations-a-history-of-the-eleven-rival-regional-cultures-of-north-america"
+class="section level4">
+<h4><a
+href="https://www.penguinrandomhouse.com/books/306345/american-nations-by-colin-woodard/">American
+Nations: A History of the Eleven Rival Regional Cultures of North
+America</a>:</h4>
 <p> </p>
 <ul>
 <li>By : Colin Woodard</li>
 </ul>
 <p> </p>
-<p>It is commonplace today to hear that we, as a nation, are more divided than ever. Even in this Left Coast latte and laptop Liberal bubble, its hard to disagree with that sentiment. American Nations provides both a structural theory of why, but also, perhaps, a refutation of our calls for contemporary exceptionalism in the matter of partisanship. The central thesis is this:</p>
+<p>It is commonplace today to hear that we, as a nation, are more
+divided than ever. Even in this Left Coast latte and laptop Liberal
+bubble, its hard to disagree with that sentiment. American Nations
+provides both a structural theory of why, but also, perhaps, a
+refutation of our calls for contemporary exceptionalism in the matter of
+partisanship. The central thesis is this:</p>
 <ul>
-<li>Northern North America (basically everything north of Monterrey, Mexico) was founded by distinct nations and these nations still exist today, together with a handful of new nations that have developed over the past four hundred years. Each nation has its own set of values and the political movements of (mostly) the US can be explained by the shifting coalitions between these nations over time.</li>
+<li>Northern North America (basically everything north of Monterrey,
+Mexico) was founded by distinct nations and these nations still exist
+today, together with a handful of new nations that have developed over
+the past four hundred years. Each nation has its own set of values and
+the political movements of (mostly) the US can be explained by the
+shifting coalitions between these nations over time.</li>
 </ul>
-<p>Being a history book, the thesis is supported by plenty of facts. Woodard is a reporter, not an academic, so the story telling is solid, not amazing, but solid. This can be considered praise as there is only so much clean narrative you can weave through the tangled web of North American history. Certainly every PhD in US History has serious concerns about some aspect of this book, if for nothing else than it’s Euro-Centric approach. Woodard is very clear that he’s taken such a lens because this book is ultimately about the ebb and flow of regional (‘national’ in this sense) power dynamics and its an easier (and perhaps clearer) story to tell from the framework of the dominant culture.</p>
-<p>Allow me to attempt to distill the story into a moderately coherent and chronological synthesis. First came Spaniards up from Mexico to form El Norte. But, because they were far from European commerce, the land arid, the peoples brown, their story must wait. Then came Tidewater (Jamestown). Their hubris didn’t survive the winter and they ate each other. Then a flood. Yankeedom arrived in the north with their Puritan values; second sons of English gentry to the Deep South with their aristocratic mien. Scotch-Irish rebels came too, but quickly scattered to the interior to avoid being told how to live (Yankeedom) or put to work (Deep South). Tidewater recovered, bring better farmers and a more pragmatic aristocracy this time. Oh, and will the eastern seaboard of the US was being settled, New France was more or less peacefully existing (extracting natural resources) with the local indigenous populations. A rough and tumble commercial hub – a yang to the yin of the Holy city of Boston – New Netherlands (New York) developed its own Hanseatic ambitions. German farmers found a swath of land from Philadelphia due west to be both familiar in climate and soil and far enough from the virtues of Yankeedom and the vices of the Deep South to existing largely in peace as the Midlands nation.</p>
-<p>Much of the first few centuries of American political history represent a struggle between Yankeedom and the Deep South to pull the Midlands, Tidewater and, occasionally, New Netherlands into their coalition. The Civil War was more of the same. Contemporaneously, the Left Coast and Far West were being developed. Neither a full clone of an existing nation, the Left Coast evolved most from Yankeedom stock, and the Far West from Appalachia. The world wars and the end of American expansion (save Hawaii and Alaska) brought a tenuous truce as the federation (the US) turned to its external enemies. Post WWII social changes again pushed the nations apart: free love, drugs, the environmental movement, civil rights. The church stepped in to provide a rallying cry for the Deep South, Appalachia and Tidewater; collectively the Dixie Block. The religion of the free market pushed the Far West (perhaps the biggest receipt of government investment) away from Northern Alliance (Yankeedom, Left Coast and New Netherlands) communal beliefs, while rich Left Coasters doubled down on ‘liberal’ social and economic policy.</p>
-<p>In sum, Woodard argues that the divide between the Dixie Block and Northern Alliance remains the defining conflict in our society today. Further, he insists that what will hold it together, and what has always held it together, is a functioning and practical central government – a necessity that looks less present with every passing week. All told, it is a compelling argument, well presented. I’d add that there has evolved a second dimension: urban vs rural. I think this is especially so for rural areas in borderland zones that are not within the core of a nation and for dense urban areas the country around.</p>
-<p>Even if you don’t buy the relatively concise and simplistic theory of Woodard’s, you’ll pick up concerning revelations about your favorite historical American, a deeper distrust of people’s motives and greater appreciation for how tenuous the path from 13 English Colonies starving through a long winter to global superpower struggling with self-governance really was as well as the challenges that lie ahead.</p>
+<p>Being a history book, the thesis is supported by plenty of facts.
+Woodard is a reporter, not an academic, so the story telling is solid,
+not amazing, but solid. This can be considered praise as there is only
+so much clean narrative you can weave through the tangled web of North
+American history. Certainly every PhD in US History has serious concerns
+about some aspect of this book, if for nothing else than it’s
+Euro-Centric approach. Woodard is very clear that he’s taken such a lens
+because this book is ultimately about the ebb and flow of regional
+(‘national’ in this sense) power dynamics and its an easier (and perhaps
+clearer) story to tell from the framework of the dominant culture.</p>
+<p>Allow me to attempt to distill the story into a moderately coherent
+and chronological synthesis. First came Spaniards up from Mexico to form
+El Norte. But, because they were far from European commerce, the land
+arid, the peoples brown, their story must wait. Then came Tidewater
+(Jamestown). Their hubris didn’t survive the winter and they ate each
+other. Then a flood. Yankeedom arrived in the north with their Puritan
+values; second sons of English gentry to the Deep South with their
+aristocratic mien. Scotch-Irish rebels came too, but quickly scattered
+to the interior to avoid being told how to live (Yankeedom) or put to
+work (Deep South). Tidewater recovered, bring better farmers and a more
+pragmatic aristocracy this time. Oh, and will the eastern seaboard of
+the US was being settled, New France was more or less peacefully
+existing (extracting natural resources) with the local indigenous
+populations. A rough and tumble commercial hub – a yang to the yin of
+the Holy city of Boston – New Netherlands (New York) developed its own
+Hanseatic ambitions. German farmers found a swath of land from
+Philadelphia due west to be both familiar in climate and soil and far
+enough from the virtues of Yankeedom and the vices of the Deep South to
+existing largely in peace as the Midlands nation.</p>
+<p>Much of the first few centuries of American political history
+represent a struggle between Yankeedom and the Deep South to pull the
+Midlands, Tidewater and, occasionally, New Netherlands into their
+coalition. The Civil War was more of the same. Contemporaneously, the
+Left Coast and Far West were being developed. Neither a full clone of an
+existing nation, the Left Coast evolved most from Yankeedom stock, and
+the Far West from Appalachia. The world wars and the end of American
+expansion (save Hawaii and Alaska) brought a tenuous truce as the
+federation (the US) turned to its external enemies. Post WWII social
+changes again pushed the nations apart: free love, drugs, the
+environmental movement, civil rights. The church stepped in to provide a
+rallying cry for the Deep South, Appalachia and Tidewater; collectively
+the Dixie Block. The religion of the free market pushed the Far West
+(perhaps the biggest receipt of government investment) away from
+Northern Alliance (Yankeedom, Left Coast and New Netherlands) communal
+beliefs, while rich Left Coasters doubled down on ‘liberal’ social and
+economic policy.</p>
+<p>In sum, Woodard argues that the divide between the Dixie Block and
+Northern Alliance remains the defining conflict in our society today.
+Further, he insists that what will hold it together, and what has always
+held it together, is a functioning and practical central government – a
+necessity that looks less present with every passing week. All told, it
+is a compelling argument, well presented. I’d add that there has evolved
+a second dimension: urban vs rural. I think this is especially so for
+rural areas in borderland zones that are not within the core of a nation
+and for dense urban areas the country around.</p>
+<p>Even if you don’t buy the relatively concise and simplistic theory of
+Woodard’s, you’ll pick up concerning revelations about your favorite
+historical American, a deeper distrust of people’s motives and greater
+appreciation for how tenuous the path from 13 English Colonies starving
+through a long winter to global superpower struggling with
+self-governance really was as well as the challenges that lie ahead.</p>
 <hr />
 <p>   </p>
 </div>
-<div id="naked-statistics-stripping-the-dread-from-the-data" class="section level4">
-<h4><a href="https://www.goodreads.com/book/show/17986418-naked-statistics">Naked Statistics: Stripping the Dread from the Data</a>:</h4>
+<div id="naked-statistics-stripping-the-dread-from-the-data"
+class="section level4">
+<h4><a
+href="https://www.goodreads.com/book/show/17986418-naked-statistics">Naked
+Statistics: Stripping the Dread from the Data</a>:</h4>
 <p> </p>
 <ul>
 <li>By : Charles Wheelan</li>
 </ul>
 <p> </p>
-<p>About 50 pages into this book I thought to myself; ‘they should teach this in high school’; the ‘this’ being the general statistical literacy which the book is about. Very shortly thereafter the prescriptiveness and condescension of that statement hit me and and I thought better of sharing it openly with anyone. Also, it made me realize I’m old. My personal feelings aside, Whelan’s clarity of presentation and methodical march through the basics of applied statistics is broadly approachable. And funny, to boot. The standard examples like the Monty Hall problem and laughable reverse causality situations all make an appearance. And so do new ones, like the Schlitz Beer’s taste test ploy in the 1980s, which, though commendable, couldn’t save the brand.</p>
-<p>All humor and Stats 101 aside, there is deeper layer, a line of argument that should resonate with data and analytics professionals. It is that incorrect, misleading and malfeasant uses of statistics are not the fault of the math itself, but rather the application. In short, no amount of sophisticated modeling and analysis can overcome bad data, biased sampling, poor choices of variables and a faulty research design. More conceptually and, perhaps, normatively, Whelan argues that our thinking about how to use data has lagged seriously behind our ability to gather and analyze it. Put another way, we can put a lot of effort into building very precise models — getting the data, sampling and variables correct — only to find out later that they are not very ‘accurate’ in the sense of solving the problem we originally intended to.</p>
-<p>Whelan equates data to offensive lineman. As such, they are a necessary but not sufficient condition for creating an accurate, useful and honest statistical analysis. Machine learning as a discipline seems to be coming around to this view as well. Modeling improvements still matter, but rarely will they improve performance to same level as greatly increasing the size of the data. Amidst the continuous improvements in computing power, deep learning and AI in general, it can be easy to forget the importance of asking the right question and collecting the right data. This book is an enjoyable read that provides a gentle reminder of why we do analyses in the first place and how to ensure that the fundamentals — the lineman — are both efficiently operating and dutifully respected.</p>
+<p>About 50 pages into this book I thought to myself; ‘they should teach
+this in high school’; the ‘this’ being the general statistical literacy
+which the book is about. Very shortly thereafter the prescriptiveness
+and condescension of that statement hit me and and I thought better of
+sharing it openly with anyone. Also, it made me realize I’m old. My
+personal feelings aside, Whelan’s clarity of presentation and methodical
+march through the basics of applied statistics is broadly approachable.
+And funny, to boot. The standard examples like the Monty Hall problem
+and laughable reverse causality situations all make an appearance. And
+so do new ones, like the Schlitz Beer’s taste test ploy in the 1980s,
+which, though commendable, couldn’t save the brand.</p>
+<p>All humor and Stats 101 aside, there is deeper layer, a line of
+argument that should resonate with data and analytics professionals. It
+is that incorrect, misleading and malfeasant uses of statistics are not
+the fault of the math itself, but rather the application. In short, no
+amount of sophisticated modeling and analysis can overcome bad data,
+biased sampling, poor choices of variables and a faulty research design.
+More conceptually and, perhaps, normatively, Whelan argues that our
+thinking about how to use data has lagged seriously behind our ability
+to gather and analyze it. Put another way, we can put a lot of effort
+into building very precise models — getting the data, sampling and
+variables correct — only to find out later that they are not very
+‘accurate’ in the sense of solving the problem we originally intended
+to.</p>
+<p>Whelan equates data to offensive lineman. As such, they are a
+necessary but not sufficient condition for creating an accurate, useful
+and honest statistical analysis. Machine learning as a discipline seems
+to be coming around to this view as well. Modeling improvements still
+matter, but rarely will they improve performance to same level as
+greatly increasing the size of the data. Amidst the continuous
+improvements in computing power, deep learning and AI in general, it can
+be easy to forget the importance of asking the right question and
+collecting the right data. This book is an enjoyable read that provides
+a gentle reminder of why we do analyses in the first place and how to
+ensure that the fundamentals — the lineman — are both efficiently
+operating and dutifully respected.</p>
 <hr />
 <p>   </p>
 </div>
-<div id="how-to-absurd-scientific-advice-for-common-real-world-problems" class="section level4">
-<h4><a href="https://www.penguinrandomhouse.com/books/576760/how-to-by-randall-munroe/">How To: Absurd Scientific Advice for Common Real World Problems</a>:</h4>
+<div id="how-to-absurd-scientific-advice-for-common-real-world-problems"
+class="section level4">
+<h4><a
+href="https://www.penguinrandomhouse.com/books/576760/how-to-by-randall-munroe/">How
+To: Absurd Scientific Advice for Common Real World Problems</a>:</h4>
 <p> </p>
 <ul>
 <li>By : Randall Munroe</li>
 </ul>
 <p> </p>
-<p>A decade ago, around a campfire, after many beers, we pondered the horizontal pressure of an above ground swimming pool. How much force does the water exert and was it greater for a large but shallow pool or a tall, but small (in circumference) one? Related, is it more difficult to displace water in a small versus a large pool? While we did not answer those questions that night, we did successfully melt an aluminium can and boil water in a paper cup. If you’ve ever wondered these type of wonders or experimented these type of experiments then this is your kind of book (the pool question is covered, btw). Basically a ‘deeply-researched and somewhat obscene answers to questions you are usually too sober or too embarrassed to ask’ book.</p>
-<p>Munroe is the author of the XKCD comic strip; well known in some circles, likely unheard of in most. Here he presents legit science wrapped up in similar dry humor. There are equations, but if you skip them you won’t miss anything. There are also drawings, which shouldn’t be passed over. The formula is: 1) Insert somewhat innocuous question about how to do a standard human thing; 2) Take said question to the extreme; and 3) Supported extreme answer with math and jokes. And it works. Rare is the book that can handle Kant and Evil Knievel in successive chapters.</p>
-<p>What else is covered? Popular Culture: Is the dig at Oak Island worth it?; Popular Wisdom: Is ‘red at night’ really a delight?; and Popular Mechanics: How to best disable a flying drone? If you still aren’t convinced, you’ll learn how far you can actually throw a given object…and for that alone you should crack the cover.</p>
+<p>A decade ago, around a campfire, after many beers, we pondered the
+horizontal pressure of an above ground swimming pool. How much force
+does the water exert and was it greater for a large but shallow pool or
+a tall, but small (in circumference) one? Related, is it more difficult
+to displace water in a small versus a large pool? While we did not
+answer those questions that night, we did successfully melt an aluminium
+can and boil water in a paper cup. If you’ve ever wondered these type of
+wonders or experimented these type of experiments then this is your kind
+of book (the pool question is covered, btw). Basically a
+‘deeply-researched and somewhat obscene answers to questions you are
+usually too sober or too embarrassed to ask’ book.</p>
+<p>Munroe is the author of the XKCD comic strip; well known in some
+circles, likely unheard of in most. Here he presents legit science
+wrapped up in similar dry humor. There are equations, but if you skip
+them you won’t miss anything. There are also drawings, which shouldn’t
+be passed over. The formula is: 1) Insert somewhat innocuous question
+about how to do a standard human thing; 2) Take said question to the
+extreme; and 3) Supported extreme answer with math and jokes. And it
+works. Rare is the book that can handle Kant and Evil Knievel in
+successive chapters.</p>
+<p>What else is covered? Popular Culture: Is the dig at Oak Island worth
+it?; Popular Wisdom: Is ‘red at night’ really a delight?; and Popular
+Mechanics: How to best disable a flying drone? If you still aren’t
+convinced, you’ll learn how far you can actually throw a given
+object…and for that alone you should crack the cover.</p>
 <hr />
 <p>   </p>
 </div>
 <div id="the-subtle-art-of-not-giving-a-fuck" class="section level4">
-<h4><a href="https://www.audible.com/pd/The-Subtle-Art-of-Not-Giving-a-F-ck-Audiobook/B01I28NFEE?source_code=GPAGBSH0508140001&amp;ipRedirectOverride=true&amp;gclid=Cj0KCQiAxrbwBRCoARIsABEc9sgEbvYxvcrMBuVigWvPMwgCfZ6MiAdlQV7cC1R1Ss7UVd8vi-E0cFUaAk3OEALw_wcB&amp;gclsrc=aw.ds">The Subtle Art of Not Giving a Fuck</a>:</h4>
+<h4><a
+href="https://www.audible.com/pd/The-Subtle-Art-of-Not-Giving-a-F-ck-Audiobook/B01I28NFEE?source_code=GPAGBSH0508140001&amp;ipRedirectOverride=true&amp;gclid=Cj0KCQiAxrbwBRCoARIsABEc9sgEbvYxvcrMBuVigWvPMwgCfZ6MiAdlQV7cC1R1Ss7UVd8vi-E0cFUaAk3OEALw_wcB&amp;gclsrc=aw.ds">The
+Subtle Art of Not Giving a Fuck</a>:</h4>
 <p> </p>
 <ul>
 <li>By Mark Manson</li>
 </ul>
 <p> </p>
-<p>Online reviews of this book range from “Dude, totally best book ever” to “This book is a poorly done ‘Buddhism for Bros’”. I fall somewhere in the middle. It contains useful wisdom, wrapped, occasionally a bit overly so, in modern context and lexicon. The title — clearly a marketing win — sets the expectations of readers; which depending on how far down the self-help (or Psychology PhD) path one has trod could be a positive or negative push.</p>
-<p>I took the following from this book, presented in what I gathered was the author’s line of reasoning:</p>
+<p>Online reviews of this book range from “Dude, totally best book ever”
+to “This book is a poorly done ‘Buddhism for Bros’”. I fall somewhere in
+the middle. It contains useful wisdom, wrapped, occasionally a bit
+overly so, in modern context and lexicon. The title — clearly a
+marketing win — sets the expectations of readers; which depending on how
+far down the self-help (or Psychology PhD) path one has trod could be a
+positive or negative push.</p>
+<p>I took the following from this book, presented in what I gathered was
+the author’s line of reasoning:</p>
 <ul>
-<li>Stop worrying about unimportant things (giving a fuck). We all have a limited set of things we can care about, make yours count because:</li>
-<li>Everyone has problems. The goal of life should be to have good problems. ‘Good’ in the sense that you enjoy working on their solutions because:</li>
-<li>Human happiness stems not from having money/fame/power but from solving problems. To the extent that these things can help you solve good problems they are means, but not the end. <em>But I don’t choose my own problems…Wait, do I?</em></li>
-<li>Our values define our success metrics which in turn help determine which problems we encounter and are working (or maybe not) to overcome. Thus, set good values and good problems will result. <em>Ok, so what is a ‘good’ value?</em></li>
-<li>Good values have two features: 1) They are internally operable; they do not require external acceptance; and 2) They are process-oriented, not result-oriented (such values often violate #1). <em>Can I tell which of the values that meet these criteria I should pursue?</em></li>
-<li>What determines your success at fulfilling your values and solving their associated problems is whether or not you are willing to endure (enjoy) the suffering (work) it takes to express that value. Essentially, you need to envision what work it would take to achieve this value (to solve the problems associated with that value) and ask yourself very honestly if you enjoy the process, the practice, the suffering, the work — all of the negative aspects – that it would take to reach this goal. If not, you won’t be successful.</li>
-<li>In short: Stop chasing positive rewards, critically assess your values, learn to enjoy the negative (work) associated with solving problems and quit worrying about unimportant shit along the way.</li>
+<li>Stop worrying about unimportant things (giving a fuck). We all have
+a limited set of things we can care about, make yours count
+because:</li>
+<li>Everyone has problems. The goal of life should be to have good
+problems. ‘Good’ in the sense that you enjoy working on their solutions
+because:</li>
+<li>Human happiness stems not from having money/fame/power but from
+solving problems. To the extent that these things can help you solve
+good problems they are means, but not the end. <em>But I don’t choose my
+own problems…Wait, do I?</em></li>
+<li>Our values define our success metrics which in turn help determine
+which problems we encounter and are working (or maybe not) to overcome.
+Thus, set good values and good problems will result. <em>Ok, so what is
+a ‘good’ value?</em></li>
+<li>Good values have two features: 1) They are internally operable; they
+do not require external acceptance; and 2) They are process-oriented,
+not result-oriented (such values often violate #1). <em>Can I tell which
+of the values that meet these criteria I should pursue?</em></li>
+<li>What determines your success at fulfilling your values and solving
+their associated problems is whether or not you are willing to endure
+(enjoy) the suffering (work) it takes to express that value.
+Essentially, you need to envision what work it would take to achieve
+this value (to solve the problems associated with that value) and ask
+yourself very honestly if you enjoy the process, the practice, the
+suffering, the work — all of the negative aspects – that it would take
+to reach this goal. If not, you won’t be successful.</li>
+<li>In short: Stop chasing positive rewards, critically assess your
+values, learn to enjoy the negative (work) associated with solving
+problems and quit worrying about unimportant shit along the way.</li>
 </ul>
-<p>This is all, of course, aimed at well-to-do, existentially-confused young westerners whose problems do not include access to clean water, malaria, famine, war, despotism and other life threatening circumstances. It is a quick read and, for those of us lucky enough to have some say in what we ‘give a fuck about’, a worthwhile reminder of the importance of setting the right values and in putting in the work necessary to nurture, express and live those values.</p>
+<p>This is all, of course, aimed at well-to-do, existentially-confused
+young westerners whose problems do not include access to clean water,
+malaria, famine, war, despotism and other life threatening
+circumstances. It is a quick read and, for those of us lucky enough to
+have some say in what we ‘give a fuck about’, a worthwhile reminder of
+the importance of setting the right values and in putting in the work
+necessary to nurture, express and live those values.</p>
 <hr />
 </div>
 <div id="prisoners-of-geography" class="section level4">
-<h4><a href="https://www.audible.com/pd/Prisoners-of-Geography-Audiobook/B01MFBS0ZZ">Prisoners of Geography</a>:</h4>
+<h4><a
+href="https://www.audible.com/pd/Prisoners-of-Geography-Audiobook/B01MFBS0ZZ">Prisoners
+of Geography</a>:</h4>
 <p> </p>
 <ul>
 <li>By Tim Marshall</li>
 </ul>
 <p> </p>
-<p>Don’t let the title fool you, this is as much or more of a history book than a geography book. While the book is organized into chapters based on ’10 maps that explain the world’, with a few exceptions, there is almost a complete lack of interesting or useful maps to help the narrative. The ’10 maps’ are simply ten countries/regions of focus — each presented with a very standard political geography map. I spent no small amount of time referencing Google Maps during my reading and feel a sizable contribution of this book could have been in clearly locating (mapping) the forces driving each country’s decisions, both past and present.</p>
-<p>The tagline here should be ‘selected geopolitics of the 20th and early 21st century’. With that aim in mind, it is a successful book: approachable, yet detailed. An undergraduate modern world history seminar could do well by assigning this as a supplemental reader. A few notable themes that emerge: 1) The disastrous consequences of colonial powers drawing borders without regard for historical settlement patterns; 2) The extractive development of the Southern Hemisphere leading to large coastal capitals and underdeveloped hinterlands; and 3) The continued importance of proximity in diplomacy (Moscow is near, Washington is far).</p>
-<p>Many of the (assumed) political motivations are discussed under the umbrella of energy politics. Either I’m naive about the supremacy of energy in driving (geo)politics or this book takes an overly simplistic view. Truthfully, a mass market non-fiction book probably cannot do justice to the full suite of considerations; nonetheless, Marshall leaves the reader feeling as if the sole determinant of a state’s actions are oil and natural gas. Barring the final chapter on the Arctic, climate and ecological issues are given short shrift. Technological capital and labor markets are thinly discussed as well. Again, perhaps state machinations really are primarily driven by the quest for hydrocarbons…and if so, it would explain the world’s reluctance to address climate change and support alternative energy solutions.</p>
-<p>All in, it is a quick and worthwhile read. Many factoids and smaller points of information may surprise — ex. the British traded their overseas bases to the Americans for warships in 1940 — while the general themes are broad and, somewhat evident. I was left with a sense of foreboding; a collision between the US and China in the Pacific seems imminent as does Russia’s dominance of the Arctic. Geography may end up being a cruel jailer.</p>
+<p>Don’t let the title fool you, this is as much or more of a history
+book than a geography book. While the book is organized into chapters
+based on ’10 maps that explain the world’, with a few exceptions, there
+is almost a complete lack of interesting or useful maps to help the
+narrative. The ’10 maps’ are simply ten countries/regions of focus —
+each presented with a very standard political geography map. I spent no
+small amount of time referencing Google Maps during my reading and feel
+a sizable contribution of this book could have been in clearly locating
+(mapping) the forces driving each country’s decisions, both past and
+present.</p>
+<p>The tagline here should be ‘selected geopolitics of the 20th and
+early 21st century’. With that aim in mind, it is a successful book:
+approachable, yet detailed. An undergraduate modern world history
+seminar could do well by assigning this as a supplemental reader. A few
+notable themes that emerge: 1) The disastrous consequences of colonial
+powers drawing borders without regard for historical settlement
+patterns; 2) The extractive development of the Southern Hemisphere
+leading to large coastal capitals and underdeveloped hinterlands; and 3)
+The continued importance of proximity in diplomacy (Moscow is near,
+Washington is far).</p>
+<p>Many of the (assumed) political motivations are discussed under the
+umbrella of energy politics. Either I’m naive about the supremacy of
+energy in driving (geo)politics or this book takes an overly simplistic
+view. Truthfully, a mass market non-fiction book probably cannot do
+justice to the full suite of considerations; nonetheless, Marshall
+leaves the reader feeling as if the sole determinant of a state’s
+actions are oil and natural gas. Barring the final chapter on the
+Arctic, climate and ecological issues are given short shrift.
+Technological capital and labor markets are thinly discussed as well.
+Again, perhaps state machinations really are primarily driven by the
+quest for hydrocarbons…and if so, it would explain the world’s
+reluctance to address climate change and support alternative energy
+solutions.</p>
+<p>All in, it is a quick and worthwhile read. Many factoids and smaller
+points of information may surprise — ex. the British traded their
+overseas bases to the Americans for warships in 1940 — while the general
+themes are broad and, somewhat evident. I was left with a sense of
+foreboding; a collision between the US and China in the Pacific seems
+imminent as does Russia’s dominance of the Arctic. Geography may end up
+being a cruel jailer.</p>
 <hr />
 </div>
 
@@ -732,7 +1912,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
