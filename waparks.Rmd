@@ -129,6 +129,174 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 
 ---------------------------------------------------------------------------------------------------
 
+#### 133) [Curlew Lake](https://www.parks.wa.gov/522/James-Island): 
+
+&nbsp;
+&nbsp;
+
+```{r curlew_lake, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_curlewlake.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Curlew Lake"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 132) [Crawford](https://www.parks.wa.gov/522/James-Island): 
+
+&nbsp;
+&nbsp;
+
+```{r crawford, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_crawford.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Crawford"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 131) [Mount Spokane](https://www.parks.wa.gov/522/James-Island): 
+
+&nbsp;
+&nbsp;
+
+```{r mount_spokane, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_mountspokane.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Mount Spokane"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 130) [Spokane River Centennial Trail](https://www.parks.wa.gov/522/James-Island): 
+
+&nbsp;
+&nbsp;
+
+```{r Centennial_Trail, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_spokanerivercentennial.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Spokane River Centennial"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 129) [Riverside](https://www.parks.wa.gov/522/James-Island): 
+
+&nbsp;
+&nbsp;
+
+```{r riverside, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_riverside.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Riverside"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 128) [Steptoe Battlefield](https://www.parks.wa.gov/522/James-Island): 
+
+&nbsp;
+&nbsp;
+
+```{r steptoe_battlefield, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_steptoebattlefield.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Steptoe Battlefield"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+---------------------------------------------------------------------------------------------------
+
+#### 127) [Steptoe Butte](https://www.parks.wa.gov/592/Steptoe-Butte): 
+
+&nbsp;
+&nbsp;
+
+```{r steptoe_butte, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_steptoebutte.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Steptoe Butte"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+---------------------------------------------------------------------------------------------------
+
 #### 126) [James Island](https://www.parks.wa.gov/522/James-Island): 
 
 &nbsp;

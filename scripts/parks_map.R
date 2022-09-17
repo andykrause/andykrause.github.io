@@ -77,6 +77,12 @@
      dplyr::mutate(Date = as.Date(Date, '%m/%d/%y')) %>%
      dplyr::arrange(desc(Order))
   
+  saveRDS(visited_sf %>%
+            dplyr::left_join(., data_df %>%
+                               dplyr::select(Abbrv, Driven, Boated, Ferried, Hiked, Paddleboarded),
+                             by = 'Abbrv'),
+          file.path(getwd(), 'data', 'created', paste0('visited.RDS')))
+  
   ## Print Maps
   
   #for (k in 1:nrow(visited_sf)){
@@ -119,11 +125,6 @@
   
   saveRDS(summ_df, file.path(getwd(), 'data', 'created', paste0('summary.RDS')))
   
-  saveRDS(visited_sf %>%
-            dplyr::left_join(., data_df %>%
-                               dplyr::select(Abbrv, Driven, Boated, Ferried, Hiked, Paddleboarded),
-                             by = 'Abbrv'),
-          file.path(getwd(), 'data', 'created', paste0('visited.RDS')))
 
 #***************************************************************************************************
 #***************************************************************************************************
