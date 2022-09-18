@@ -38,6 +38,11 @@
     saveRDS(wa_sf, file.path(getwd(), 'data', 'created', 'county_boundaries.RDS'))
   }
   
+  # Park Data Table  
+  data_df <- readr::read_csv(file.path(getwd(), 'data','created', 'final_parks_data.csv')) %>%
+    dplyr::mutate(Visited = as.factor(Visited))
+  saveRDS(data_df, file.path(getwd(), 'data','created', 'data.RDS'))
+  
   # Points data (new Lat/Long)
   points_sf <- sf::st_read(file.path(getwd(), 'data', 'raw', 'waparks_points.shp')) %>%
     sf::st_transform(4269) 
@@ -47,15 +52,6 @@
   points_sf$Longitude <- points_xy$Longitude
   points_sf$Latitude <- points_xy$Latitude
 
-  # Park Table  
-  data_df <- readr::read_csv(file.path(getwd(), 'data','created', 'final_parks_data.csv')) %>%
-    #dplyr::filter(Challenge == 1) %>%
-    dplyr::mutate(Visited = as.factor(Visited)) #%>%
-    #dplyr::select(-c('Longitude', 'Latitude')) 
-  #data_df$Longitude <- points_sf$Longitude[match(data_df$Abbrv, points_sf$Abbrv)]
-  #data_df$Latitude <- points_sf$Latitude[match(data_df$Abbrv, points_sf$Abbrv)]
-  saveRDS(data_df, file.path(getwd(), 'data','created', 'data.RDS'))
-  
  points_sf <- points_sf %>%
     dplyr::inner_join(., data_df %>% dplyr::select(Abbrv, Visited, Weather), by = 'Abbrv')
   saveRDS(points_sf, file.path(getwd(), 'data','created', 'points.RDS'))
@@ -87,8 +83,7 @@
                      by = 'park')
   saveRDS(ferries_sf, file.path(getwd(), 'data','created', 'ferries.RDS'))
   
-  
-  # Park Baoting
+  # Park Boating
   boating_sf <- sf::st_read(file.path(getwd(), 'data','raw', 'waparks_boating.shp')) %>%
     sf::st_transform(4269) %>%
     dplyr::left_join(., data_df %>%
@@ -96,7 +91,7 @@
                      by = 'park')
   saveRDS(boating_sf, file.path(getwd(), 'data','created', 'boating.RDS'))
   
-  # Park Baoting
+  # Park Paddling
   paddle_sf <- sf::st_read(file.path(getwd(), 'data','raw', 'waparks_paddleboarding.shp')) %>%
     sf::st_transform(4269) %>%
     dplyr::left_join(., data_df %>%
@@ -104,7 +99,7 @@
                      by = 'park')
   saveRDS(paddle_sf, file.path(getwd(), 'data','created', 'paddle.RDS'))
   
-  # Park Baoting
+  # Park Hiking
   hikes_sf <- sf::st_read(file.path(getwd(), 'data','raw', 'waparks_hikes.shp')) %>%
     sf::st_transform(4269) %>%
     dplyr::left_join(., data_df %>%
@@ -112,12 +107,13 @@
                      by = 'park')
   saveRDS(hikes_sf, file.path(getwd(), 'data','created', 'hikes.RDS'))
   
-  # Park Baoting
+  # Park Stays
   stays_sf <- sf::st_read(file.path(getwd(), 'data','raw', 'waparks_stays.shp')) %>%
     sf::st_transform(4269)
   saveRDS(stays_sf, file.path(getwd(), 'data','created', 'stays.RDS'))
   
-  
+#***************************************************************************************************
+#***************************************************************************************************  
   
   
 

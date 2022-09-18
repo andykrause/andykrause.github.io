@@ -13,7 +13,7 @@
   library(tidyverse)
   library(tidycensus)
   library(sf)
-  library(OpenStreetMap)
+  #library(OpenStreetMap)
   library(ggmap)
 
   ## Load Custom Functions
@@ -24,10 +24,10 @@
   data_df <- readRDS(file.path(getwd(), 'data','created', 'data.RDS'))
   points_sf <- readRDS(file.path(getwd(), 'data','created', 'points.RDS'))
   boundaries_sf <- readRDS(file.path(getwd(), 'data','created', 'boundaries.RDS'))
-  #routes_sf <- readRDS(file.path(getwd(), 'data','created', 'routes.RDS'))
   drives_sf <- readRDS(file.path(getwd(), 'data','created', 'drives.RDS'))
   hikes_sf <- readRDS(file.path(getwd(), 'data','created', 'hikes.RDS'))
   paddle_sf <- readRDS(file.path(getwd(), 'data','created', 'paddle.RDS'))
+  stays_sf <- readRDS(file.path(getwd(), 'data','created', 'stays.RDS'))
   
   wa_sf <- readRDS(file.path(getwd(), 'data','created', 'county_boundaries.RDS'))
    
@@ -88,7 +88,6 @@
   #for (k in 1:nrow(visited_sf)){
   for (k in 1:1){
       
-
      i_sf <- visited_sf[k,]
      cat('Drawing: ', i_sf$ParkName, '\n')
      shortname <- tolower(i_sf$ParkName)
@@ -125,7 +124,6 @@
   
   saveRDS(summ_df, file.path(getwd(), 'data', 'created', paste0('summary.RDS')))
   
-
 #***************************************************************************************************
 #***************************************************************************************************
   

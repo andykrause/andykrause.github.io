@@ -151,6 +151,8 @@ gridExtra::grid.arrange(rasterGrob(img),
 ```
 
 
+<img src="images/waparks_curlewlake.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
 ---------------------------------------------------------------------------------------------------
 
 #### 132) [Crawford](https://www.parks.wa.gov/522/James-Island): 
@@ -175,6 +177,8 @@ gridExtra::grid.arrange(rasterGrob(img),
 ```
 
 
+<img src="images/waparks_crawford.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
 ---------------------------------------------------------------------------------------------------
 
 #### 131) [Mount Spokane](https://www.parks.wa.gov/522/James-Island): 
@@ -198,6 +202,7 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
+<img src="images/waparks_mtspokane.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 ---------------------------------------------------------------------------------------------------
 
@@ -222,6 +227,7 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
+<img src="images/waparks_centennialtrail.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 
 ---------------------------------------------------------------------------------------------------
@@ -247,6 +253,7 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
+<img src="images/waparks_riverside.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
 
 ---------------------------------------------------------------------------------------------------
@@ -272,6 +279,9 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
+<img src="images/waparks_steptoebattlefield.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+
 ---------------------------------------------------------------------------------------------------
 
 #### 127) [Steptoe Butte](https://www.parks.wa.gov/592/Steptoe-Butte): 
@@ -294,6 +304,11 @@ gridExtra::grid.arrange(rasterGrob(img),
                         nrow = 1,
                         as.table = TRUE)
 ```
+
+ 
+<img src="images/waparks_steptoebutte.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+ 
 
 ---------------------------------------------------------------------------------------------------
 

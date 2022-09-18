@@ -1,5 +1,3 @@
-
-
 #***************************************************************************************************
 #
 #  Functions to create park maps
@@ -49,7 +47,7 @@ plotPark <- function(abbr,
   basemap <- ggmap::get_stamenmap(bbox, zoom=zoom, maptype = map_type)
   
   base_plot <- 
-    ggmap(basemap) + 
+    ggmap::ggmap(basemap) + 
     geom_sf(data = park_sf, aes(fill = Name), inherit.aes = FALSE, color = park_color) +
     xlab('') + 
     ylab('') + 

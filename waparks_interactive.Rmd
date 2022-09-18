@@ -54,7 +54,6 @@ editor_options:
   `Paddled` <- paddle_sf
   `Stays` <- stays_sf
 
-  
 ```
 
 &nbsp;
@@ -86,10 +85,10 @@ editor_options:
     tm_lines(col = 'goldenrod', scale = 1.5, legend.lwd.show = FALSE) + 
     
   tm_shape(Parks, alpha = .8) +
-    tm_dots(col='State Parks', palette = c('forestgreen', 'gray20'))  
+    tm_dots(col='State Parks', palette = c('forestgreen', 'gray20')) # +
 
-  # tm_shape(Stays, alpha = .8) +
-  #   tm_symbols(col='gray50', scale = .5, shape = 17)
+  #tm_shape(Stays, alpha = .8) +
+     #tm_symbols(col='gray50', scale = .5, shape = 17)
 
 
 
