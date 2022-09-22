@@ -206,10 +206,12 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 ---------------------------------------------------------------------------------------------------
 
-#### 130) [Spokane River Centennial Trail](https://www.parks.wa.gov/522/James-Island): 
+#### 130) [Spokane River Centennial Trail](https://www.parks.wa.gov/487/Centennial-Trail): 
 
 &nbsp;
 &nbsp;
+
+We exited our Riverside State Park geocaching adventure -- one of two found -- directly onto the Centennial Trail.  Freshly paved, it was a quick 3/4 of a mile back to our car.  The asphalt radiated heat from the midday sun meaning we were almost certainly in a triple digit micro-climate. But its a dry heat, you know.   
 
 ```{r Centennial_Trail, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
@@ -229,6 +231,9 @@ gridExtra::grid.arrange(rasterGrob(img),
 
 <img src="images/waparks_centennialtrail.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
 
+My son asked if we could walk all the way to Idaho on the trail, I said 'yes, that is the amazing think about the five long distance State Park Trails in the state...' and as I went to provide more information he started to look a bit worried and then asked, 'but we aren't going to, right?'.  I think all of my enthusiasm over the the possibility of doing so had him envisioning a 38-mile death march in the sweltering heat. Not today, but maybe some day we'd bike the trail.  
+
+Back at the car we had a much deserved water break, created a special collection system for our hard-won geocache treasures and plotted our sinuous route across town to Mount Spokane.  We weren't five minutes out of the park and he had fallen fast asleep. The parks quest and geocaching make for a busy day. 
 
 ---------------------------------------------------------------------------------------------------
 
