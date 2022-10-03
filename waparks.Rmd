@@ -160,6 +160,7 @@ gridExtra::grid.arrange(rasterGrob(img),
 &nbsp;
 &nbsp;
 
+
 ```{r crawford, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
 img <-
@@ -176,8 +177,13 @@ gridExtra::grid.arrange(rasterGrob(img),
                         as.table = TRUE)
 ```
 
+Shortly after we made the poorly-researched decision to visit all of Washington's State Parks, I sat down to map them out. To see what sort of adventure we had signed ourselves up for.  Map in hand, one park scared us: Crawford.  Tucked neatly into the far north-eastern corner of the state, it is on the way to nowhere and, with good weather and traffic a six and half hour drive from Seattle. A good bit of this current road trip was planned to make the visit here as painless as possible. Despite that, my planning was still insufficient.  As it turns out, entering the cave itself is by reservation only and those spots are not available a few days in advance (more like a few weeks).  So, unfortunately, we'd be driving up all that way from Spokane without getting to climb down into the bowels of the earth.  
 
 <img src="images/waparks_crawford.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+As feared, the park truly is in the middle of nowhere.  We left Spokane early on a Friday morning -- but not too early as we still snuck in a quick swim in the heated hotel pool -- and headed due north toward Canada.  We made two pitstops for geocaches -- Davis Lake and Box Canyon Dam, both finds -- on our way and saw one small forest fire just outside of Calispel.  Other than that, the drive was long and uneventful.  
+
+We parked and hiked up a short but steep hill to the entrance to the cave.  Deep within, we could hear the tour guide and the small group of people who had been responsible enough to make reservations well in advance.  We could feel the cold, damp air from the cave -- the 3rd largest limestone cave in Washington -- slowly leaking out from within.  If my travel companion would have been really interested in going inside, I was prepared to wait until the next slot and try to beg our way along, but he showed little interest and a bit of fear so I let it pass, not mentioning this hastily crafted Plan B.  Plan A was to return to our car and search out the 'cache in the southern end of park.  Plan A was executed and we were off to our next stop: Curlew Lake.  
 
 ---------------------------------------------------------------------------------------------------
 
@@ -186,7 +192,7 @@ gridExtra::grid.arrange(rasterGrob(img),
 &nbsp;
 &nbsp;
 
-The route from narrow valley of the Spokane River to the peak of the same name is no straight shot.  In and out, up and down, left and right, stoplights, stop signs and a few roundabouts for good measure.  After an hour of detailed navigation and some white knuckle driving we found ourselves atop Mt. Spokane.   
+The route from the narrow valley of the Spokane River to the peak of the same name is no straight shot.  In and out, up and down, left and right, stoplights, stop signs and a few roundabouts for good measure.  After an hour of detailed navigation and some white knuckle driving we found ourselves atop Mt. Spokane.   
 
 ```{r mount_spokane, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
 
