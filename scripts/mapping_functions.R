@@ -106,3 +106,163 @@ makeTblx <- function(visited_sf,
   tableGrob(tblx, rows = NULL, theme = tt2)
   
 }
+
+
+plotDayGeos <- function(daygeos_,
+                        map_service = 'osm',
+                        map_type = 'terrain',
+                        legend_pos = 'none',
+                        line_size = 2,
+                        line_colors = c('purple', 'green4'),
+                        mask_color = 'white', 
+                        mask_fill = 'white',
+                        mask_alpha = 1,
+                        stay_size = 3
+){
+  
+  ## Set Buubox
+  # bbox <- c(left = daygeos_$coords$corners[1] - scale,
+  #           bottom = daygeos_$coords$corners[2] - scale/lscale,
+  #           right = daygeos_$coords$corners[3] + scale,
+  #           top = daygeos_$coords$corners[4] + scale/lscale)
+  # 
+  # coordbounds_cf <- data.frame(X = c(daygeos_$coords$corners[1] * .95,
+  #                                    daygeos_$coords$corners[3] * 1.05),
+  #                              Y = c(daygeos_$coords$corners[2] * .95,
+  #                                    daygeos_$coords$corners[4] * 1.05))
+  # 
+  # 
+  # coordbounds_cf <- data.frame(X = c(daygeos_$coords$corners[1] * .95,
+  #                                    daygeos_$coords$corners[3] * 1.05),
+  #                              Y = c(daygeos_$coords$corners[2] * .95,
+  #                                    daygeos_$coords$corners[4] * 1.05))
+  # 
+  # bbox <- coordbounds_cf %>% 
+  #   sf::st_as_sf(coords = c("X", "Y"), 
+  #                crs = 3857) #%>% 
+  #   #sf::st_bbox() %>% 
+  #   #sf::st_as_sfc()
+  # 
+  # bbox = daygeos_$mask %>%
+  #   sf::st_set_crs(., 3857)
+  # 
+  ## Grab basemap
+  #basemap <- ggmap::get_map(bbox, zoom=zoom, maptype = map_type)
+  basemap <- basemaps::basemap_ggplot(daygeos_$bbox%>%
+                                        sf::st_transform(., 3857),
+                                     map_service = map_service,
+                                     map_type = map_type)
+  
+  # Plot
+  basemap +  
+    theme(axis.line = element_blank(),
+          axis.text = element_blank(),
+          axis.ticks = element_blank(),
+          plot.margin = unit(c(0, 0, -1, -1), 'lines'),
+          legend.position = legend_pos) +
+    scale_color_manual(name = '', values = line_colors) + 
+    xlab('') +
+    ylab('') +
+    geom_sf(data = daygeos_$lines %>%
+              sf::st_transform(., 3857), 
+            aes(color = mode), size = line_size, inherit.aes = FALSE) +
+    geom_sf(data = daygeos_$mask %>%
+              sf::st_transform(., 3857), 
+            color = mask_color, 
+            fill = mask_fill, 
+            alpha = mask_alpha,
+            inherit.aes=FALSE)  +
+    geom_sf(data = daygeos_$stay%>%
+              sf::st_transform(., 3857),
+            color = 'red', 
+            shape = 16,
+            size = stay_size,
+            inherit.aes = FALSE)
+}
+
+
+
+createDayGeometry <- function(day_filter,
+                              lines_geos,
+                              stays_sf = stays_sf,
+                              buff_dist = 1000,
+                              ...){
+  
+  ## Combine lines
+  for (i in 1:length(lines_geos)){
+    day_sf <- lines_geos[[i]] %>%
+      dplyr::filter(day == day_filter)
+    if (i == 1){
+      lines_sf <- day_sf
+    } else {
+      lines_sf <- lines_sf %>%
+        dplyr::bind_rows(day_sf)
+    }
+  }
+  
+  ## Create Buffer
+  buff_sf <- sf::st_buffer(lines_sf, dist = buff_dist) %>%
+    sf::st_make_valid()
+  
+  buff_sf <- buff_sf %>%
+    sf::st_union() %>%
+    sf::st_make_valid() 
+  
+  if (! 'data.frame' %in% class(buff_sf)){
+    pc <- unlist(lapply(buff_sf, function(x) unlist(class(x)[2])))
+    buff_sf <- buff_sf[[which(pc == 'POLYGON')]] %>%
+      sf::st_sfc() %>%
+      sf::st_sf() %>%
+      sf::st_set_crs(., 4269)
+  }
+  
+  ## Create Mask
+  coords_cf <- data.frame(corners=as.vector(sf::st_bbox(buff_sf)))
+  x_dif <- abs(coords_cf$corners[3] - coords_cf$corners[1])
+  y_dif <- abs(coords_cf$corners[4] - coords_cf$corners[2])
+  
+  
+  coordbounds_cf <- data.frame(X = c(coords_cf$corners[1] - x_dif * .05,
+                                     coords_cf$corners[3] + x_dif * .05),
+                               Y = c(coords_cf$corners[2] - y_dif * .05,
+                                     coords_cf$corners[4] + y_dif * .05))
+  bounding_sf <- coordbounds_cf %>% 
+    sf::st_as_sf(coords = c("X", "Y"), 
+                 crs = 4269)
+  
+  poly_sf <- bounding_sf %>% 
+    sf::st_bbox() %>% 
+    sf::st_as_sfc()
+  
+  mask_sf <- sf::st_difference(poly_sf, buff_sf) 
+  
+  ## Create Stays
+  stay_sf <- stays_sf %>%
+    dplyr::filter(NightStart <= day_filter & NightEnd > day_filter)
+  
+  return(
+    list(bbox = bounding_sf,
+         lines = lines_sf,
+         mask = mask_sf,
+         stay = stay_sf,
+         coords = coords_cf))
+}
+
+
+
+flightPath <- function(airports, air_sf){
+  
+  path_name <- paste0(airports[1], "_", airports[2])
+  paths_sf <- air_sf[air_sf$Code %in% airports, c('X','Y')]
+  
+  path_sf <- geosphere::gcIntermediate(as.double(paths_sf[1, ])[1:2],  
+                                       as.double(paths_sf[2, ])[1:2], 
+                                       n=50, 
+                                       addStartEnd=TRUE, 
+                                       breakAtDateLine=T) %>%
+    as.data.frame()
+  path_sf$route = path_name
+  path_sf
+}
+
+
