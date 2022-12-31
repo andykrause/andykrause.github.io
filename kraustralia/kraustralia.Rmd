@@ -1,0 +1,87 @@
+---
+title: "Kraustralia"
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+editor_options: 
+  chunk_output_type: console
+---
+
+<link rel="stylesheet" href="kraustralia.css" type="text/css">
+
+
+<body>
+  <div class="content">
+
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com"> 
+     <img src="kraustralia_2015_jan_16.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     <!-- <figcaption>Let's Go Anywhere {2015-Jan-16}</figcaption> -->
+     </a>
+    </figure>
+
+<h3>Let's Go Anywhere </h3> <br/>
+<i>16 January 2015 </i> <br/>
+Seattle, WA <br/>
+<br/>
+With as little as we could imagine bringing to a new life halfway around the world, we are setting off to start our adventure in Melbourne Australia. Feel free to follow along as we share the highlights of our life Down Under
+   </p>
+  </content>
+<body>
+<br clear="all" />
+
+<!-------------------------------------------- -->
+<body>
+  <div class="content">
+
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com"> 
+     <img src="kraustralia_2015_jan_22.png" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Arrival in Melbourne </h3> <br/>
+<i>22 January 2015 </i> <br/>
+Melbourne, Vic <br/>
+<br/>
+A full twenty-four hours after leaving Seattle, and one unexpected refueling stop in Sydney, we arrived in Melbourne to 100F heat.  We promptly found our apartment, changed into our bathers, (apparently that is what we call them now), and headed down to the St. Kilda beach to showcase the whitest skin in Australia.
+   </p>
+  </content>
+<body>
+<br clear="all" />
+
+ 
+<!-------------------------------------------- -->
+<body>
+  <div class="content">
+
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com"> 
+     <img src="kraustralia_2015_jan_24.png" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>The Australian Open </h3> <br/>
+<i>24 January 2015 </i> <br/>
+Melbourne, Vic <br/>
+<br/>
+
+On a gorgeous, sunny Saturday with temperatures near 30C (86F), we headed out to the biggest event in town, the Australian Open.  The rest of the city was there as well.  Tickets to the two main courts were sold out so we settled for ground passes.  These allowed access to all other venues, including the very large Hisense Arena.  It, however, also meant that we'd miss Venus Williams' match.  Bummer, but by  <a href="http://www.andykrause.com/kraustralia_australian_open">... (click for more)</a>.
+
+<!-- arriving early we did get to see Serena practicing from up close. -->
+
+<!-- After watching a few others warm up, we hustled to Hisense. Many seats were available prior to the 11am first match.  A few hours later, the place was packed.  We endured two hours of sitting in direct sun, to see the spaniard, Muguruza down Bacsinszky of Switzerland in a hard fought women's singles match. A welcome relief as the shade enveloped us for match two. Here, the 8th ranked Montenegro-Canadian Milos Raonic used his 220+ km/h serve to breeze by the scrappy Benjamin Becker of Germany.   -->
+
+<!-- The grounds were full at this point and needing food and drink, we called it a day and left for home.  Along the way we made a pit stop at the Royal Croquet Club's (RCC) off-site Aussie Open extravaganza...basically a massive beer garden with food trucks, croquet courts and a DJ spinning house music.  Attendance was minimal, but judging by the size of the beer stands it would become a scene later in the evening.  We grabbed some food and two Hahn Lights and then made our way home.  A long day in the sun and among the crowds, but definitely worth the trip. -->      
+   </p> 
+  </content>
+<body>
+<br clear="all" />
+ 
+
+
+
