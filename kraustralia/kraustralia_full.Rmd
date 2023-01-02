@@ -14,9 +14,8 @@ editor_options:
 
 <body>
 <div class="content">
-
-<h3>[0] Let's Go Anywhere </h3> <br/>
 <a id="kraustralia_0"></a>
+<h3>[0] Let's Go Anywhere </h3> <br/>
 <i>16 January 2015 </i> <br/>
 Seattle, WA <br/>
 <br/>
