@@ -1,0 +1,317 @@
+---
+title: "Kraustralia"
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+editor_options: 
+  chunk_output_type: console
+---
+
+<link rel="stylesheet" href="kraustralia.css" type="text/css">
+
+<!-- Kraustralia 0 ----------------------------- --->  
+
+<body>
+<div class="content">
+
+<h3>[0] Let's Go Anywhere </h3> <br/>
+<a id="kraustralia_0"></a>
+<i>16 January 2015 </i> <br/>
+Seattle, WA <br/>
+<br/>
+
+We are setting off to start our our new life in Melbourne, Australia. With us on this adventure is as little as we could imagine bringing to a new home halfway around the world, . Two bags for each of us to last until our half container pod of remaining essentials (and some not so) are set to arrive 4-6 weeks after we do. 
+
+We bid adieu to Alley 24, our home for nearly four years, tossed our two bags into the Subaru for the last time and drove up to Ballard to crash in our friend's 4' by 7' TV room. This will be our cozy accommodations for four nights until our flight on the 20th. Sometime in that span we'll be selling our trusty steed and further shedding some last possessions that missed the boat but can't be justified in the checked luggage. 
+
+Now that we are unemployed, transient couch surfers the enormity of the move must be faced.  No more second guessing the decision, no more dreamy discussions. Now just real, live logistics -- an AirBnB, work visas, money transfers, international shipping manifestos, packing re-packing our luggage.  
+
+We'll be there soon and once we arrive we'll do our best to document our adventure here so feel free to follow along as we share the highlights of our life Down Under.
+
+</content>
+<body>
+<br clear="all" />
+
+
+
+
+<body>
+<div class="content">
+<h3>Arrival in Melbourne </h3> <br/>
+<i>22 January 2015 </i> <br/>
+Melbourne, Vic <br/>
+<br/>
+A full twenty-four hours after leaving Seattle, and one unexpected refueling stop in Sydney, we arrived in Melbourne to 100F heat.  We promptly found our apartment, changed into our bathers, (apparently that is what we call them now), and headed down to the St. Kilda beach to showcase the whitest skin in Australia.
+</content>
+<body>
+<br clear="all" />
+
+<!-- ----------------------------- --->  
+
+<body>
+<div class="content">
+<p>
+<h3>The Australian Open </h3> <br/>
+<i>24 January 2015 </i> <br/>
+Melbourne, Vic <br/>
+<br/>
+On a gorgeous, sunny Saturday with temperatures near 30C (86F), we headed out to the biggest event in town, the Australian Open.  The rest of the city was there as well.  Tickets to the two main courts were sold out so we settled for ground passes.  These allowed access to all other venues, including the very large Hisense Arena.  It, however, also meant that we'd miss Venus Williams' match.  Bummer, but by arriving early we did get to see Serena practicing from up close. 
+
+After watching a few others warm up, we hustled to Hisense. Many seats were available prior to the 11am first match.  A few hours later, the place was packed.  We endured two hours of sitting in direct sun, to see the spaniard, Muguruza down Bacsinszky of Switzerland in a hard fought women's singles match. A welcome relief as the shade enveloped us for match two. Here, the 8th ranked Montenegro-Canadian Milos Raonic used his 220+ km/h serve to breeze by the scrappy Benjamin Becker of Germany.
+
+The grounds were full at this point and needing food and drink, we called it a day and left for home.  Along the way we made a pit stop at the Royal Croquet Club's (RCC) off-site Aussie Open extravaganza...basically a massive beer garden with food trucks, croquet courts and a DJ spinning house music.  Attendance was minimal, but judging by the size of the beer stands it would become a scene later in the evening.  We grabbed some food and two Hahn Lights and then made our way home.  A long day in the sun and among the crowds, but definitely worth the trip.
+</p> 
+</content>
+<body>
+<br clear="all" />
+ 
+<!-- ----------------------------- --->  
+<body>
+<div class="content">
+<p>
+<h3>Market Day </h3> <br/>
+<i>26 January 2015 </i> <br/>
+Melbourne, Vic <br/>
+<br/>
+
+Yesterday we made a pilgrimage to the Queen Victoria Market where you can buy anything from a pallet of kangaroo pelts to a single egg.  We bought neither, and instead spent most of our time in the Delicatessen area debating which type of cured meat to purchase.
+
+
+Melbourne seems to have a flourishing coffee culture, and I have been able to find a variety of new favorite cafes to test out. Market Lane Coffee has a corner shop in the Vic Market and since I wasn't really sure what a flat white or a long black would end up as, I ordered a cappuccino like a pro, right up until I tried to pay for a $4 coffee with two 20 cent coins. (For some reason the smaller coins are larger amounts here)
+After Googling long black I decided it would be the closest to my Americano order back home and I can avoid looking like a complete dumbass next time.  (I am also adding this bit of information to save you all from Googling long black in the workplace )
+
+With Market bags in hand, we took the tram back to our temporary home in St. Kilda and had a sunny lunch on our patio. At some point we will stop acting like this is a vacation, and get on with the details of finding a house, but not quite yet...
+</p> 
+</content>
+<body>
+<br clear="all" />
+
+<!-- ----------------------------- --->  
+
+<body>
+<div class="content">
+<p>
+<h3>Back to Work</h3> <br/>
+<i>27 January 2015 </i> <br/>
+University of Melbourne, Victoria <br/>
+<br/>
+
+Reality is a cruel mistress.  I had to go to work today, which put an end to that vacation-y feeling that I had been enjoying the last few weeks.  Mind you I wasn't headed to the salt mines or anything resembling difficult physical labor, but a change nonetheless.
+
+I arrived to the brand new Melbourne School of Design (MSD) building and my 9:30 appointment to find that my name was not in the system so I could not be granted my ID card, login information, email, etc.  I was, however, awarded my complimentary kitchen set (with tea mug of my favorite color).  Priorities, people. 
+
+Due to some scheduling issues, there is a squatter in my current office for the next few weeks and I've been set up with a temporary space in a large group meeting-type room.  Nice place, but my office mates are a bit weird (quiet though).  
+
+I was starting to wonder if I actually had a job here, but in wandering the halls I did find a door with my name on it...so I guess that is good sign.  Hopefully, tomorrow I'll be able to commence my tenure at the University.  For now, i'm just a visitor. 
+
+</p> 
+</content>
+<body>
+<br clear="all" />
+
+<!-- ----------------------------- --->  
+
+<body>
+<div class="content">
+<p>
+<h3>Beach Boxes</h3> <br/>
+<i>30 January 2015 </i> <br/>
+Brighton, Melbourne, Victoria <br/>
+<br/>
+
+Currently, we spend most of our day searching for a place to live. This either means walking or taking the trams/trains to different neighborhoods around the city until we are exhausted or sunburnt or get waylaid by a frozen yogurt shop.
+
+Yesterday one of our stops was in the suburb of Brighton which is a just inland from a sparkling white beach. Like a crow drawn to shiny objects, I gravitate towards bright colors and patterns, so you can imagine how many thousands of pictures I took of the Brighton Beach Bath Boxes.
+
+The rental process here is odd. Open houses or inspections, as they are referred to, are 15 minute affairs, and unfurnished rentals don't come with a washer/dryer, dishwasher or refrigerator unless you are lucky.  So apparently, next time we move, we will be the proud owners of a bunch of big ass appliances. Two of the houses that we really like have inspection times tomorrow, unwittingly with overlapping 15 minute periods and across town from one another. We will divide and conquer, and hopefully trust the other's judgment....
+
+</p> 
+</content>
+<body>
+<br clear="all" />
+
+<!-- ----------------------------- --->  
+
+<body>
+<div class="content">
+<p>
+<h3>In Search of a Home</h3> <br/>
+<i>1 February 2015 </i> <br/>
+St. Kilda, Melbourne, Victoria <br/>
+<br/>
+
+Sadly, that is not our new home…at least not yet.  It is just one of hundreds that we’ve looked at online and one of a handful that we’ve inspected and applied for.  Our weekend consisted mostly of jumping on and off various trams to schlep around to various areas of the city in order to inspect homes or check out new neighborhoods.  It is tough work fighting the crowds (over 50 people showed up to a house Saturday morning), and gelato or frozen yogurt is often required to maintain our sanity.  I even convinced Erin to try her first (of many) Australian meat pies at our Sunday lunch.  She attempted to act excited, but her face just doesn’t lie.
+
+Overall, it is a difficult process, but a cloud with a silver lining for sure.  We are learning a good bit about the city, the trams and the various neighborhoods.  We also occasionally wind up in interesting little festivals and markets that we’d never see otherwise. 
+
+</p> 
+</content>
+<body>
+<br clear="all" />
+
+<!-- ----------------------------- --->  
+
+<body>
+<div class="content">
+<p>
+<h3>Not so Super Bowl</h3> <br/>
+<i>2 February 2015 </i> <br/>
+Prahran, Melbourne, Victoria <br/>
+<br/>
+
+We left for the bar bright and early at 9am, Monday morning.  A friend of a friend had invited us out to the College Lawn Hotel in Prahran neighborhood of Melbourne.  Entrance was pricey, but we did get all you could drink beers and wines and a wide variety of free bar foods.  Upon arrival, we noticed the 12th man flag in the window.  We had made a good choice.
+
+The place quickly filled up and there were about 200 people there by the time the game started.  Its a big place, with numerous outdoor beer gardens, separate rooms and bars, so it never really felt too crowded.  I'd guess it was about 50% Seahawks fans, 30% Patriots fans, 10% random NFL jerseys (Barry Sanders, an old Darrelle Revis Jets and Mark Chmura...ok, no Mark Chmura) with the balance made up of about 20 random Aussie dudes who didn't care much for the game, but couldn't seem to pass up all-you-could drink on a Monday morning.
+
+We met about a dozen people from Seattle or the surrounding area, including one ex-Seattleite whose name was, I kid you not, Erin Krause.  The people and the atmosphere were great, the beer was good and the food was, well, filling.  We'll stop there as nothing really needs to be said about the game itself....at least we had an ample selection of decent Australian microbrews (and Heineken) to kill the pain.
+
+</p> 
+</content>
+<body>
+<br clear="all" />
+
+<!-- ----------------------------- --->  
+
+<body>
+<div class="content">
+<p>
+<a id="link_test"><h3>How Ya Goin?</h3> <br/></a>
+<i>4 February 2015 </i> <br/>
+Albert Park, Melbourne, Victoria <br/>
+<br/>
+
+We finally secured a place to live.  It is a Victorian cottage in a neighborhood called Albert Park, which is a walk or short bike ride to the beach and a tram ride away from the University and downtown Melbourne.  We get the keys on Friday, so we will share more later in the week about the house, but I decided to do some early neighborhood reconnaissance today.
+
+Near our house I found another open air market, similar to the Victoria Market we visited last week. This market is much smaller, but it still has amazing variety and yet better prices.  The image above shows a stall in the market completely devoted to tea, called Tea Drop. It has Easter egg colored canisters stacked so high, it necessitated a ladder to reach them.   I thought the bookstore style ladder was just a trendy design detail until I ordered a tea on the highest shelf just to see if it was functional.  The Tea Man showed me.
+
+Slowly picking my way stall by stall through the market, I continued to come across the same issue I have had for the past two weeks of meeting and greeting friendly Aussies.  Instead of the G'day that everyone in America expects Australians to say, I almost always get some slurred version of 'How ya goin' or 'How're ya going?'
+
+This obviously means 'Hi, How are you doing?', and so I usually answer 'Good', but every single time I end up sounding unsure since I feel like I should be answering the question of where I'm going or how I got here, By tram? St. Kilda? I walked?
+
+</p> 
+</content>
+<body>
+<br clear="all" />
+
+<!-- ----------------------------- --->  
+
+<body>
+<div class="content">
+<p>
+<h3>Ikea-thon</h3> <br/>
+<i>8 February 2015 </i> <br/>
+Richmond, Victoria <br/>
+<br/>
+
+We have a house with nothing in it so we shopped...for what seemed like an eternity, but was actually only 48 hours.  Now being an impatient, function-over-form person with no design sense, furniture shopping is not high on my list of enjoyable activities.  In fact, It is somewhere down near the bottom with going to the dentist, watching period-piece dramas and line dancing.  All of this shopping was, however, book-ended by two outdoor festival-type events and fun pit stops along the way -- which is probably why we got through it in one piece. And, not only do I now know the difference between a left and right chaise lounge but I can spot pebble weave upholstery from 50 meters out….
+Our weekend went something like this:
+
+(Fri) Night market complete with delicious street paella.
+
+(Sat) Some suburban Ikea and Domain Housewares Mall (think Ron Swanson’s personal hell).
+
+Easy to get into...hard to get out of
+
+Near the suburban Ikea
+(Sun) West Elm, then urban Ikea (yes, multiple Ikeas in a weekend)
+
+Random Street Art along the way
+(Sun) The St. Kilda Festival with 300,000 of our fellow Melburnians…right in our back yard. 
+
+</p> 
+</content>
+<body>
+<br clear="all" />
+
+
+<!-- ----------------------------- --->  
+
+<body>
+<div class="content">
+<p>
+<h3>Moving In</h3> <br/>
+<i>14 February 2015 </i> <br/>
+Albert Park, Victora <br/>
+<br/>
+
+While I could tell you about the series of minor fails that we have had in the past week while moving into our new home, I will instead tell you about the few, but  crucial wins we have had...
+
+First: we are proud owners of a washing machine, dryer, and refrigerator.  After I got over the initial annoyance that we would have to buy these and consequently move them around to each place we will rent in the city, I have become quite attached to them.
+
+Since our shipping crate has been delayed until late March, we are trying to get by living minimally until then.  While temporarily living with 'just the essentials' seems simple enough, it really isn't as fun as it sounds to cook a full meal in one pot, of share one towel or sleep on a bed frame without the proper slats, therefore folding the mattress like a burrito, (one of many IKEA fails). So I broke down and just started buying things we needed.  As satisfying as it felt to start filling up the house, without a car, I was still the girl walking a mile and a half with a stainless steel garbage can balanced on her head, and then back a mile and a half to return it when I realized it didn't work with a plastic bag since, per the shopkeeper, you were just supposed to rinse out the plastic liner each time. (?)
+
+Okay, so in the end I did start talking about the fails...
+
+We also bought bikes this week. This affair took an entire afternoon but we ended up with two beautiful road bikes at a bargain and a new Lithuanian friend.
+
+Our test rides were a little horrific at first since biking on the wrong side of the road is only slightly less jarring than driving on the wrong side, but we caught on quick.  It took a little convincing our friend that I wasn't completely helpless on a bike, and in the end we both walked away with men's bikes. (I was informed this bike would fit me fine due to my "gentlemen's shoulders")
+
+</p> 
+</content>
+<body>
+<br clear="all" />
+
+<!-- ----------------------------- --->  
+
+<body>
+<div class="content">
+<p>
+<h3>Truman Compote & a Downtown Walkabout</h3> <br/>
+<i>15 February 2015 </i> <br/>
+Melbourne, Victoria <br/>
+<br/>
+
+Since I have spent quite a bit of time in cafes stealing wifi and drinking coffee with Melbournians, I have become familiar with the standard breakfast that is ordered to accompany a morning coffee.  The usual is a granola based dish with yogurt and some take on fruit compote.  Now that we have acquired a pot for our kitchen, I decided I should start making this simple breakfast dish at home instead of eating out so much.  We are in the middle of summer, and all the markets are selling stone fruit for crazy sales, so I bought 2 kilo of fruit, (which is much more than I thought and immediately regretted it since I would be carrying it home).  When Andy came home to a fruit poaching factory and asked what I was making, he heard ‘Truman Capote’ instead of ‘fruit compote’, so now every morning for breakfast, I sit down to a small, but satisfying bowl of yogurt and Truman compote.
+
+Yesterday we explored our city.  Starting with a trip to the State Library and ending at Federation Square, we took the least efficient and most interesting route through the downtown retail alleys and lanes, along the Yarra river walk and through a New Year’s festival.  I probably stopped to take more photos of activated streetscapes and sidewalk cafes than Andy cared to pause for, but this city is proving to be a designer’s dream and I can’t help but get swept up in it…
+
+</p> 
+</content>
+<body>
+<br clear="all" />
+
+<!-- ----------------------------- --->  
+
+<body>
+<div class="content">
+<p>
+<h3>A Little Slice of Home</h3> <br/>
+<i>21 February 2015 </i> <br/>
+Melbourne, Victoria <br/>
+<br/>
+
+In need of a vacuum, a year’s worth of toilet paper, some free samples and several other bulk items that can only be moved with a pallet jack, we took a short tram ride to Costco Australia located just outside of downtown Melbourne.  Rumor has it that the Melburnians were so pleased with the arrival of the big ‘C’ that they built a Ferris wheel in the parking lot.
+
+It was hot; 37 to be exact, which is about 99 if you are a Yankee.  But the inside of Costco was a comfortable 20 degrees.  It was also eerily similar to every Costco that I’ve been to in the States.  Kirkland signs everywhere, large families moving very slowly down every aisle and the smell of grilled meat.  We trolled the samples.  Erin hit up the Jelly Belly lady more times than is probably allowed. We ended up buying enough necessities that we had to catch a cab home as schlepping all of our goods on the tram would certainly have been poor form.   It was oddly comforting (or maybe no so oddly) to be in a place so familiar so far from home.  We’ll definitely make this a monthly outing…if for no other reason than to buy affordable American whiskey. 
+
+We went for a short walk to the Optus store to update our cell phone plans in the afternoon and on the way home were caught in a very heavy 15 minute downpour.  The sun was shining, the windy howling and massive raindrops pummeled the sidewalk.  It passed, but the heat did not abate so we grabbed some cheap beers and headed to the beach for sunset.  
+
+</p> 
+</content>
+<body>
+<br clear="all" />
+
+
+
+<!-- ----------------------------- ---> 
+
+
+<!-- ----------------------------- --->  
+
+<body>
+<div class="content">
+<p>
+<h3>Title</h3> <br/>
+<i>Date </i> <br/>
+Location <br/>
+<br/>
+
+xxx
+
+
+</p> 
+</content>
+<body>
+<br clear="all" />
+
