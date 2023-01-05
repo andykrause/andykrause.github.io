@@ -18,7 +18,7 @@ output:
 &nbsp;
 
 
-**Manager, Applied Science: [Zillow Group](www.zillow.com): 2019 - Present**
+**Manager/Senior Manager, Applied Science: [Zillow Group](www.zillow.com): 2019 - Present**
 
 Directing research initiatives aimed at improvement and development of new machine learning models to increase home valuation accuracy (Zestimate and Rent Zestimate). 
 

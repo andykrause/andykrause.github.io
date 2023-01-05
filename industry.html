@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>industry.utf8</title>
+<title>industry.knit</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -43,32 +57,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 
 
@@ -79,13 +69,8 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -99,40 +84,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -160,7 +121,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -172,7 +133,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -182,11 +143,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -198,7 +176,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -234,6 +211,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -245,18 +223,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -276,7 +242,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -331,7 +297,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -341,42 +307,95 @@ $(document).ready(function () {
 
 <p> </p>
 <div id="industry-experience-and-contributions" class="section level2">
-<h2><span style="color:#21618C"> Industry Experience and Contributions </span></h2>
+<h2><span style="color:#21618C"> Industry Experience and Contributions
+</span></h2>
 <p>   </p>
 <div id="employment-history" class="section level3">
 <h3><span style="color:#2E86C1"> Employment History </span></h3>
 <p> </p>
-<p><strong>Manager, Applied Science: <a href="www.zillow.com">Zillow Group</a>: 2019 - Present</strong></p>
-<p>Directing research initiatives aimed at improvement and development of new machine learning models to increase home valuation accuracy (Zestimate and Rent Zestimate).</p>
+<p><strong>Manager/Senior Manager, Applied Science: <a
+href="www.zillow.com">Zillow Group</a>: 2019 - Present</strong></p>
+<p>Directing research initiatives aimed at improvement and development
+of new machine learning models to increase home valuation accuracy
+(Zestimate and Rent Zestimate).</p>
 <p> </p>
-<p><strong>Senior Applied Scientist: <a href="www.zillow.com">Zillow Group</a>: 2018 - 2019</strong></p>
-<p>I work on prototyping new algorithms and machine learning tools for analyzing housing markets. I sit on the Home Valuations team, a sub-unit of Zillow’s Artificial Intelligence organization.</p>
+<p><strong>Senior Applied Scientist: <a href="www.zillow.com">Zillow
+Group</a>: 2018 - 2019</strong></p>
+<p>I work on prototyping new algorithms and machine learning tools for
+analyzing housing markets. I sit on the Home Valuations team, a sub-unit
+of Zillow’s Artificial Intelligence organization.</p>
 <p> </p>
-<p><strong>Principal Data Scientist: <a href="www.greenfieldadvisors.com">Greenfield Advisors</a>: 2017 - 2018</strong></p>
-<p>I split time between leading Greenfield’s valuation products group and assisting with the firm’s litigation consulting business. Currently, I’m heading up the effort to develop tools for assisting appraisers, assessors and lenders to better understand and evaluate real estate markets. I managed a team of eight data and analytics professionals. I also spend time providing litigation support regarding the statistical and computational performance of in-house automated valuation model(s).</p>
+<p><strong>Principal Data Scientist: <a
+href="www.greenfieldadvisors.com">Greenfield Advisors</a>: 2017 -
+2018</strong></p>
+<p>I split time between leading Greenfield’s valuation products group
+and assisting with the firm’s litigation consulting business. Currently,
+I’m heading up the effort to develop tools for assisting appraisers,
+assessors and lenders to better understand and evaluate real estate
+markets. I managed a team of eight data and analytics professionals. I
+also spend time providing litigation support regarding the statistical
+and computational performance of in-house automated valuation
+model(s).</p>
 <p> </p>
-<p><strong>Lecturer: <a href="https://msd.unimelb.edu.au/property">University of Melbourne</a>: 2015 - 2017</strong></p>
-<p>Research focused on house price indexes, rent-price ratios, Airbnb markets and relationship between public policy and housing markets. Taught Property Research Methods, Research Thesis and International Property Development classes at masters level. Supervised over 20 masters and 2 PhD theses. Provided R statistical language training through various campus programs.</p>
+<p><strong>Lecturer: <a
+href="https://msd.unimelb.edu.au/property">University of Melbourne</a>:
+2015 - 2017</strong></p>
+<p>Research focused on house price indexes, rent-price ratios, Airbnb
+markets and relationship between public policy and housing markets.
+Taught Property Research Methods, Research Thesis and International
+Property Development classes at masters level. Supervised over 20
+masters and 2 PhD theses. Provided R statistical language training
+through various campus programs.</p>
 <p> </p>
-<p><strong>Senior Data Scientist: <a href="www.zillow.com">Zillow</a> (Consultant): 2014 - 2015</strong></p>
-<p>Consultant to both the Data Science and Economic Research teams. Duties included developing new valuation and error diagnosis algorithms as well as producing economic reports for public dissemination.</p>
+<p><strong>Senior Data Scientist: <a href="www.zillow.com">Zillow</a>
+(Consultant): 2014 - 2015</strong></p>
+<p>Consultant to both the Data Science and Economic Research teams.
+Duties included developing new valuation and error diagnosis algorithms
+as well as producing economic reports for public dissemination.</p>
 <p> </p>
-<p><strong>Senior Analyst: <a href="www.greenfieldadvisors.com">Greenfield Advisors</a>: 2005 - 2014</strong></p>
-<p>Managed small teams to produce valuation reports used in litigation proceedings. Frequent client contact, oral presentation of results and the development and monitoring of budgets and project timelines. Developed and employed dozens of unique mass valuation models used in legal settlements. Assisted with deposition and trial preparation.</p>
+<p><strong>Senior Analyst: <a
+href="www.greenfieldadvisors.com">Greenfield Advisors</a>: 2005 -
+2014</strong></p>
+<p>Managed small teams to produce valuation reports used in litigation
+proceedings. Frequent client contact, oral presentation of results and
+the development and monitoring of budgets and project timelines.
+Developed and employed dozens of unique mass valuation models used in
+legal settlements. Assisted with deposition and trial preparation.</p>
 <p> </p>
 </div>
 <div id="patents" class="section level3">
 <h3><span style="color:#2E86C1"> Patents</span></h3>
 <p> </p>
-<p><strong>Krause, A. Lipscomb, C. A. &amp; Kilpatrick, J. A. Automated-valuation-model training-data optimization systems and methods.</strong> <a href="https://patents.google.com/patent/US9582819B2">U.S. Patent 9,582,819</a>, filed September 26, 2013, and issued February 28, 2017.</p>
-<p>To optimize training data used by a predictive real-estate valuation model, a search space having multiple dimensions may be defined. Each search dimension corresponds to a range of candidate values for a search criterion for selecting subsets of sales-transaction records. The multiple dimensions include a temporal dimension and a geographic dimension. An accuracy-optimized subset of a multiplicity of sales-transaction records is identified by evaluating points that vary along each dimension within the multi-dimension search space. A statistical measure of model accuracy is used to evaluate each candidate point. The accuracy-optimized subset of the multiplicity of sales-transaction records is provided to a predictive model to generate an automated value prediction for a subject real-estate property as of an effective date.</p>
+<p><strong>Krause, A. Lipscomb, C. A. &amp; Kilpatrick, J. A.
+Automated-valuation-model training-data optimization systems and
+methods.</strong> <a
+href="https://patents.google.com/patent/US9582819B2">U.S. Patent
+9,582,819</a>, filed September 26, 2013, and issued February 28,
+2017.</p>
+<p>To optimize training data used by a predictive real-estate valuation
+model, a search space having multiple dimensions may be defined. Each
+search dimension corresponds to a range of candidate values for a search
+criterion for selecting subsets of sales-transaction records. The
+multiple dimensions include a temporal dimension and a geographic
+dimension. An accuracy-optimized subset of a multiplicity of
+sales-transaction records is identified by evaluating points that vary
+along each dimension within the multi-dimension search space. A
+statistical measure of model accuracy is used to evaluate each candidate
+point. The accuracy-optimized subset of the multiplicity of
+sales-transaction records is provided to a predictive model to generate
+an automated value prediction for a subject real-estate property as of
+an effective date.</p>
 <p> </p>
 </div>
 <div id="industry-publications" class="section level3">
 <h3><span style="color:#2E86C1"> Industry Publications</span></h3>
 <p> </p>
-<p><strong>Krause, A. Winson-Geideman, K. &amp; Warren-Myers, G. <em>Does ’Big Data’ offer big potential to the property industry?</em> Australia and New Zealand Property Journal, July, 358-363.</strong></p>
-<p>With the growing hype around Big Data and its business applications, property firms must consider adapting to this new trend or face the consequences….</p>
+<p><strong>Krause, A. Winson-Geideman, K. &amp; Warren-Myers, G.
+<em>Does ’Big Data’ offer big potential to the property industry?</em>
+Australia and New Zealand Property Journal, July, 358-363.</strong></p>
+<p>With the growing hype around Big Data and its business applications,
+property firms must consider adapting to this new trend or face the
+consequences….</p>
 </div>
 </div>
 
@@ -405,7 +424,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -413,6 +432,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
