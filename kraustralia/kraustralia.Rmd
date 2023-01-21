@@ -7,32 +7,31 @@ output:
 editor_options: 
   chunk_output_type: console
 ---
-
 <link rel="stylesheet" href="kraustralia.css" type="text/css">
 
 <br/>
 <br/>
 <br/>
 
-<!---  Kraustralia 0 ----------------------------------------- -->
+<!--- 0 Let's Go Anywhere ----------------------------------------------------------------------------- -->
 
 <body>
   <div class="content">
-
    <p>
     <figure>
-     <a href="http://www.andykrause.com/kraustralia/kraustralia.html#kraustralia_0">
-     <img src="images/kraustralia_0_1.jpeg" align="left" width="250px" hspace="20" vspace="2">
+      <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_0">
+      <img src="images/kraustralia_0_1.jpeg" align="left" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
-<h3>Let's Go Anywhere </h3> <br/>
-<i>16 January 2015 </i> <br/>
-Seattle, WA <br/>
-<br/>
-We are setting off to start our our new life in Melbourne, Australia. With us on this adventure is as little as we could imagine bringing to a new home halfway around the world, . Two bags for each of us to last until our half container pod of remaining essentials (and some not so) are set to arrive 4-6 weeks after we do. 
+  <h3>Let's Go Anywhere </h3> <br/>
+  <i>16 January 2015 </i> <br/>
+     Seattle, WA <br/>
+   <br/>
 
-We bid adieu to Alley 24, our home for nearly four years, tossed our two bags into the Subaru for the last time and <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_0">... (click for more)</a>.
+   We are setting off to start our our new life in Melbourne, Australia. With us on this adventure is as little as we could imagine bringing to a new home halfway around the world, . Two bags for each of us to last until our half container pod of remaining essentials (and some not so) are set to arrive 4-6 weeks after we do. 
+
+  We bid adieu to Alley 24, our home for <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_0">... (click for more)</a>.
    </p>
   </content>
 <body>
@@ -53,7 +52,8 @@ We bid adieu to Alley 24, our home for nearly four years, tossed our two bags in
 <i>22 January 2015 </i> <br/>
 Melbourne, Vic <br/>
 <br/>
-A full twenty-four hours after leaving Seattle, and one unexpected refueling stop in Sydney, we arrived in Melbourne to 100F heat.  We promptly found our apartment, changed into our bathers, (apparently that is what we call them now), and headed down to the St. Kilda beach to showcase the whitest skin in Australia.
+A full twenty-four hours after leaving Seattle -- via our scheduled Los Angeles stop and our unscheduled Sydney one -- we arrived in Melbourne. Immigration and customs took a matter of minutes, either a nod to Australian efficiency or, possibly, apathy. Our journey to the taxi stand took us outside and into the heat, a very welcome 36C (97F) heat. As our cab headed into the city our fatigue and exhaustion melted away as our new home came into view out of the car <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_1">... (click for more)</a>.
+
    </p>
   </content>
 <body>
@@ -66,7 +66,7 @@ A full twenty-four hours after leaving Seattle, and one unexpected refueling sto
 
    <p>
     <figure>
-     <a href="http://www.andykrause.com"> 
+     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_2">
      <img src="images/kraustralia_2_0.jpg" align="left" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
@@ -76,7 +76,7 @@ A full twenty-four hours after leaving Seattle, and one unexpected refueling sto
 Melbourne, Vic <br/>
 <br/>
 
-On our first full day, we dove right into the culture with a cup of morning tea out on our deck.  The cool, marine breeze of the early morning soon gave way to summer heat. We took a long walk along the Bay Trail down to Point Ormond.  The way back was warm; the heat, the sweat, the sun on our skin all so wonderful after the last few months in wet and cool Pacific Northwest. 
+On our first full day, we dove right into the culture with a cup of morning tea out on our deck.  The cool, marine breeze of the early morning soon gave way to summer heat. We took a long walk along the Bay Trail down to Point Ormond.  The way back was warm; the heat, the sweat, the sun on our skin all so wonderful after the last few months in wet and cool Pacific Northwest. We live here now. 
 
 
 
@@ -86,51 +86,51 @@ On our first full day, we dove right into the culture with a cup of morning tea 
 
 
 
-<!---- Kraustralia 3 ---------------------------------------- -->
-<body>
-  <div class="content">
+<!-- <!---- Kraustralia 3 ---------------------------------------- -->  
+<!-- <body> -->
+<!--   <div class="content"> -->
 
-   <p>
-    <figure>
-     <a href="http://www.andykrause.com"> 
-     <img src="kraustralia_2015_jan_24.png" align="left" width="250px" hspace="20" vspace="2">
-     </a>
-    </figure>
+<!--    <p> -->
+<!--     <figure> -->
+<!--      <a href="http://www.andykrause.com">  -->
+<!--      <img src="kraustralia_2015_jan_24.png" align="left" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
 
-<h3>The Australian Open </h3> <br/>
-<i>24 January 2015 </i> <br/>
-Melbourne, Vic <br/>
-<br/>
+<!-- <h3>The Australian Open </h3> <br/> -->
+<!-- <i>24 January 2015 </i> <br/> -->
+<!-- Melbourne, Vic <br/> -->
+<!-- <br/> -->
 
-On a gorgeous, sunny Saturday with temperatures near 30C (86F), we headed out to the biggest event in town, the Australian Open.  The rest of the city was there as well.  Tickets to the two main courts were sold out so we settled for ground passes.  These allowed access to all other venues, including the very large Hisense Arena.  It, however, also meant that we'd miss Venus Williams' match.  Bummer, but by  <a href="http://www.andykrause.com/kraustralia_australian_open">... (click for more)</a>.
-<!-------------------------------------------- -->
-<body>
-  <div class="content">
+<!-- On a gorgeous, sunny Saturday with temperatures near 30C (86F), we headed out to the biggest event in town, the Australian Open.  The rest of the city was there as well.  Tickets to the two main courts were sold out so we settled for ground passes.  These allowed access to all other venues, including the very large Hisense Arena.  It, however, also meant that we'd miss Venus Williams' match.  Bummer, but by  <a href="http://www.andykrause.com/kraustralia_australian_open">... (click for more)</a>. -->
+<!-- <!-------------------------------------------- -->  
+<!-- <body> -->
+<!--   <div class="content"> -->
 
-   <p>
-    <figure>
-     <a href="http://www.andykrause.com"> 
-     <img src="kraustralia_2015_jan_24.png" align="left" width="250px" hspace="20" vspace="2">
-     </a>
-    </figure>
+<!--    <p> -->
+<!--     <figure> -->
+<!--      <a href="http://www.andykrause.com">  -->
+<!--      <img src="kraustralia_2015_jan_24.png" align="left" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
 
-<h3>The Australian Open </h3> <br/>
-<i>24 January 2015 </i> <br/>
-Melbourne, Vic <br/>
-<br/>
+<!-- <h3>The Australian Open </h3> <br/> -->
+<!-- <i>24 January 2015 </i> <br/> -->
+<!-- Melbourne, Vic <br/> -->
+<!-- <br/> -->
 
-On a gorgeous, sunny Saturday with temperatures near 30C (86F), we headed out to the biggest event in town, the Australian Open.  The rest of the city was there as well.  Tickets to the two main courts were sold out so we settled for ground passes.  These allowed access to all other venues, including the very large Hisense Arena.  It, however, also meant that we'd miss Venus Williams' match.  Bummer, but by  <a href="http://www.andykrause.com/kraustralia_australian_open">... (click for more)</a>.
+<!-- On a gorgeous, sunny Saturday with temperatures near 30C (86F), we headed out to the biggest event in town, the Australian Open.  The rest of the city was there as well.  Tickets to the two main courts were sold out so we settled for ground passes.  These allowed access to all other venues, including the very large Hisense Arena.  It, however, also meant that we'd miss Venus Williams' match.  Bummer, but by  <a href="http://www.andykrause.com/kraustralia_australian_open">... (click for more)</a>. -->
 
-<!-- arriving early we did get to see Serena practicing from up close. -->
+<!-- <!-- arriving early we did get to see Serena practicing from up close. -->  
 
-<!-- After watching a few others warm up, we hustled to Hisense. Many seats were available prior to the 11am first match.  A few hours later, the place was packed.  We endured two hours of sitting in direct sun, to see the spaniard, Muguruza down Bacsinszky of Switzerland in a hard fought women's singles match. A welcome relief as the shade enveloped us for match two. Here, the 8th ranked Montenegro-Canadian Milos Raonic used his 220+ km/h serve to breeze by the scrappy Benjamin Becker of Germany.   -->
+<!-- <!-- After watching a few others warm up, we hustled to Hisense. Many seats were available prior to the 11am first match.  A few hours later, the place was packed.  We endured two hours of sitting in direct sun, to see the spaniard, Muguruza down Bacsinszky of Switzerland in a hard fought women's singles match. A welcome relief as the shade enveloped us for match two. Here, the 8th ranked Montenegro-Canadian Milos Raonic used his 220+ km/h serve to breeze by the scrappy Benjamin Becker of Germany.   --> 
 
-<!-- The grounds were full at this point and needing food and drink, we called it a day and left for home.  Along the way we made a pit stop at the Royal Croquet Club's (RCC) off-site Aussie Open extravaganza...basically a massive beer garden with food trucks, croquet courts and a DJ spinning house music.  Attendance was minimal, but judging by the size of the beer stands it would become a scene later in the evening.  We grabbed some food and two Hahn Lights and then made our way home.  A long day in the sun and among the crowds, but definitely worth the trip. -->      
-   </p> 
-  </content>
-<body>
-<br clear="all" />
- 
+<!-- <!-- The grounds were full at this point and needing food and drink, we called it a day and left for home.  Along the way we made a pit stop at the Royal Croquet Club's (RCC) off-site Aussie Open extravaganza...basically a massive beer garden with food trucks, croquet courts and a DJ spinning house music.  Attendance was minimal, but judging by the size of the beer stands it would become a scene later in the evening.  We grabbed some food and two Hahn Lights and then made our way home.  A long day in the sun and among the crowds, but definitely worth the trip. -->       
+<!--    </p>  -->
+<!--   </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
 
 
 
