@@ -1,5 +1,6 @@
 ---
 title: "Kraustralia"
+subtitle: "The Detailed Version"
 output: 
   html_document:
     includes:
@@ -9,6 +10,9 @@ editor_options:
 ---
 
 <link rel="stylesheet" href="kraustralia.css" type="text/css">
+<br/>
+<br/>
+<br/>
 
 <!-- Kraustralia 0 ----------------------------- --->  
 
@@ -28,25 +32,135 @@ Now that we are unemployed, transient couch surfers the enormity of the move mus
 
 We'll be there soon and once we arrive we'll do our best to document our adventure here so feel free to follow along as we share the highlights of our life Down Under.
 
+ <figure>
+    <!-- <div style="width:image width px; font-size:80%; text-align:center"> -->
+      <img src="images/kraustralia_0_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+      <!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>  -->
+    <!-- </div>  -->
+ </figure>
+
 </content>
 <body>
 <br clear="all" />
 
-
-
+<!-- Kraustralia 1 ----------------------------- --->  
 
 <body>
 <div class="content">
+<a id="kraustralia_1"></a>
 <h3>Arrival in Melbourne </h3> <br/>
 <i>22 January 2015 </i> <br/>
 Melbourne, Vic <br/>
 <br/>
-A full twenty-four hours after leaving Seattle, and one unexpected refueling stop in Sydney, we arrived in Melbourne to 100F heat.  We promptly found our apartment, changed into our bathers, (apparently that is what we call them now), and headed down to the St. Kilda beach to showcase the whitest skin in Australia.
+
+A full twenty-four hours after leaving Seattle -- via our scheduled Los Angeles stop and our unscheduled Sydney one -- we arrived in Melbourne. Immigration and customs took a matter of minutes, either a nod to Australian efficiency or, possibly, apathy. Our journey to the taxi stand took us outside and into the heat, a very welcome 36C (97F) heat. As our cab headed into the city our fatigue and exhaustion melted away as our new home came into view out of the car windows.  We had made it. Our new lives here were a blank canvass waiting for us to fill them with memories of a lifetime. This blew a strong wind into our sails; ready we were to see what this continent has to offer. 
+
+After a few wrong turns down some tricky one-way alleys, our driver found our AirBNB flat <em>(apartment)</em> and set us free. We dumped our luggage, changed into our bathers <em>(swimsuits)</em> and headed down to the St. Kilda beach to showcase the whitest skin in all of Oz <em>(Australia)</em>, perhaps the Southern Hemisphere. In the mid-arvo  <em>(afternoon)</em>,our hunger pangs drove us from the beach to Fitzroy Street for a snack.  We cashed in our gift certificate to [Milk the Cow](https://milkthecow.com.au/), a wine and cheese shop near the beach. All manner of fancy spreads and cuts were brought our way; all consumed in short order.  We retired for our first night down under, but not before catching a few matches of The Tennis <em>(The Australian Open)</em> on The Tele <em>(TV)</em>. 
+
+ <figure>
+    <!-- <div style="width:image width px; font-size:80%; text-align:center"> -->
+      <img src="images/kraustralia_1_1.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+      <!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>  -->
+    <!-- </div>  -->
+ </figure>
+ 
+ <figure>
+    <!-- <div style="width:image width px; font-size:80%; text-align:center"> -->
+      <img src="images/kraustralia_1_2.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+      <!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>  -->
+    <!-- </div>  -->
+ </figure>
+ 
+  <figure>
+    <!-- <div style="width:image width px; font-size:80%; text-align:center"> -->
+      <img src="images/kraustralia_1_3.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+      <!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>  -->
+    <!-- </div>  -->
+ </figure>
+ 
+  <figure>
+    <!-- <div style="width:image width px; font-size:80%; text-align:center"> -->
+      <img src="images/kraustralia_1_4.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+      <!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>  -->
+    <!-- </div>  -->
+ </figure>
+ 
+  <figure>
+    <!-- <div style="width:image width px; font-size:80%; text-align:center"> -->
+      <img src="images/kraustralia_1_5.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+      <!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>  -->
+    <!-- </div>  -->
+ </figure>
+ 
+  <figure>
+    <!-- <div style="width:image width px; font-size:80%; text-align:center"> -->
+      <img src="images/kraustralia_1_6.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+      <!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>  -->
+    <!-- </div>  -->
+ </figure>
+ 
+  <figure>
+    <!-- <div style="width:image width px; font-size:80%; text-align:center"> -->
+      <img src="images/kraustralia_1_7.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+      <!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>  -->
+    <!-- </div>  -->
+ </figure>
+</content>
+<body>
+<br clear="all" />
+
+<!-- Kraustralia 2 ----------------------------- --->  
+
+<body>
+<div class="content">
+<h3>Settling In </h3> <br/>
+<i>23 January 2015 </i> <br/>
+Melbourne, Vic <br/>
+<br/>
+
+On our first full day, we dove right into the culture with a cup of morning tea out on our deck.  The cool, marine breeze of the early morning soon gave way to summer heat. We took a long walk along the Bay Trail down to Point Ormond.  The way back was warm; the heat, the sweat, the sun on our skin all so wonderful after the last few months in wet and cool Pacific Northwest. 
+
+
+ <figure>
+    <!-- <div style="width:image width px; font-size:80%; text-align:center"> -->
+      <img src="images/kraustralia_2_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+      <!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>  -->
+    <!-- </div>  -->
+ </figure>
+ 
+ <figure>
+    <!-- <div style="width:image width px; font-size:80%; text-align:center"> -->
+      <img src="images/kraustralia_2_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+      <!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>  -->
+    <!-- </div>  -->
+ </figure>
+ 
+  <figure>
+    <!-- <div style="width:image width px; font-size:80%; text-align:center"> -->
+      <img src="images/kraustralia_2_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+      <!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>  -->
+    <!-- </div>  -->
+ </figure>
+ 
 </content>
 <body>
 <br clear="all" />
 
 <!-- ----------------------------- --->  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <body>
 <div class="content">
@@ -301,7 +415,9 @@ We went for a short walk to the Optus store to update our cell phone plans in th
 <body>
 <div class="content">
 <p>
-<h3>Title</h3> <br/>
+<a id="kraustralia_x">
+  <h3>Title</h3> <br/>
+</a>
 <i>Date </i> <br/>
 Location <br/>
 <br/>
