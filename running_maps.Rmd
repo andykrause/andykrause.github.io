@@ -36,9 +36,13 @@ editor_options:
   ## Split into trail/road 
 
   trailruns_sf <- running_sf %>%
-    dplyr::filter(!is.na(type) & !is.na(state)) %>%
+    dplyr::filter(!is.na(type)) %>%
     dplyr::filter(type == 'trail') %>%
-    dplyr::select(name, state, type)
+    dplyr::select(name, type) %>%
+    group_by(name, type) %>% 
+    summarise(segments = dplyr::n()) %>% 
+    st_cast() %>%
+    dplyr::select(-segments)
 
   roadruns_sf <- running_sf %>%
     dplyr::filter(!is.na(type) & !is.na(state)) %>%
@@ -48,6 +52,9 @@ editor_options:
   `Trail Runs` <- trailruns_sf
   `Road Runs` <- roadruns_sf
 
+  trail_col <- 'red'
+  road_col <- 'plum'
+  
 ```
 
 &nbsp;
@@ -69,9 +76,9 @@ tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_sea) + 
   tm_basemap("Esri.WorldTopoMap") +
-  tm_lines(col = 'red', scale = 1, legend.lwd.show = TRUE) +
+  tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
   tm_shape(`Road Runs`, bbox = bbox_sea) + 
-    tm_lines(col = 'navajowhite2', scale = 1, legend.lwd.show = FALSE)
+    tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)
   
 
 
@@ -87,17 +94,17 @@ tm_shape(`Trail Runs`, bbox = bbox_sea) +
 ## San Juans
 bbox_sji <- st_bbox(trailruns_sf) # current bounding box
 bbox_sji[1] <- -123.17
-bbox_sji[2] <- 48.4
-bbox_sji[3] <- -122.59
-bbox_sji[4] <- 48.68
+bbox_sji[2] <- 48.39
+bbox_sji[3] <- -122.42
+bbox_sji[4] <- 48.74
 
 tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_sji) + 
   tm_basemap("Esri.WorldTopoMap") +
-  tm_lines(col = 'red', scale = 1, legend.lwd.show = TRUE) +
+  tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
   tm_shape(`Road Runs`, bbox = bbox_sji) + 
-  tm_lines(col = 'navajowhite2', scale = 1, legend.lwd.show = FALSE)
+  tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)
 
 ```
 
@@ -115,9 +122,9 @@ tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_maz) + 
   tm_basemap("Esri.WorldTopoMap") +
-  tm_lines(col = 'red', scale = 1, legend.lwd.show = TRUE) +
+  tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
   tm_shape(`Road Runs`) + 
-  tm_lines(col = 'navajowhite2', scale = 1, legend.lwd.show = FALSE)
+  tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)
 
 ```
 
@@ -135,9 +142,9 @@ tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_haw) + 
   tm_basemap("Esri.WorldTopoMap") +
-  tm_lines(col = 'red', scale = 1, legend.lwd.show = TRUE) +
+  tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
   tm_shape(`Road Runs`) + 
-  tm_lines(col = 'navajowhite2', scale = 1, legend.lwd.show = FALSE)
+  tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)
 
 ```
  

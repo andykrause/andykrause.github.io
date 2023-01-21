@@ -124,6 +124,14 @@ Melbourne, Vic <br/>
 
 On our first full day, we dove right into the culture with a cup of morning tea out on our deck.  The cool, marine breeze of the early morning soon gave way to summer heat. We took a long walk along the Bay Trail down to Point Ormond.  The way back was warm; the heat, the sweat, the sun on our skin all so wonderful after the last few months in wet and cool Pacific Northwest. We live here now. 
 
+
+ <figure>
+    <!-- <div style="width:image width px; font-size:80%; text-align:center"> -->
+      <img src="images/kraustralia_map_2.png" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+      <!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>  -->
+    <!-- </div>  -->
+ </figure>
+
  <figure>
     <!-- <div style="width:image width px; font-size:80%; text-align:center"> -->
       <img src="images/kraustralia_2_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
@@ -149,8 +157,43 @@ On our first full day, we dove right into the culture with a cup of morning tea 
 <body>
 <br clear="all" />
 
-<!-- ----------------------------- --->  
+<!-- Kraustralia 3 ----------------------------- --->  
 
+<body>
+<div class="content">
+<a id="kraustralia_3">
+  <h3>The Tennis</h3> <br/>
+</a>
+<i>24 January 2015 </i> <br/>
+Melbourne, Vic <br/>
+<br/>
+
+For three weeks in late January / early February all eyes -- in the tennis world at least -- are on Melbourne and the Australian Open.  Or, more affectionately referred to here on the ground as <em> The Tennis </em>. The cultural immersion program we had set for ourselves dictate that we attend, and that we did.  A gorgeous, sunny Saturday with temperatures near 30C (86F), we arrived early, as did the rest of the city. Tickets to the two main courts were sold out so we settled for ground passes. A ground pass allows access to all other venues but main courts, including the very large Hisense Arena. Our lacking of planning did mean we'd miss Venus Williams' match; however, our early did permit a showing of Serena practicing from up close, so not all was lost. It should not go unmentioned that the lines to enter the cultural events -- the beer and wine gardens -- stretched on to the far reaches of the grounds as Melbourne's 20-somethings shook off last night's hangover queued up for another run at it. No prom or gala in America had anything on this scene.     
+
+Serena's practice session sated our patriotic hunger; next on to Hisense and some actual matches. Prior to the opening 11am match seats were plentiful.  As rookies do, we made a rookie mistake and sat in the glaring sun, amazed at why such good seats were available when less optimal ones (shaded) were taken.  A few hours later, the place was packed and we were sweating through our clothes, the full power of antipodal sun baking our northern bodies. We endured two hours of roasting to see the Spaniard, Muguruza down Bacsinszky of Switzerland in a hard fought women's singles match. A welcome relief as the shade enveloped us for match two. Here, the 8th ranked Montenegro-Canadian Milos Raonic used his 220+ km/h serve to breeze by the scrappy Benjamin Becker of Germany. 
+
+The grounds were throbbing full at this point and, needing food and drink, we called it a day and left for home.  Our hunger and thirst pulled us into a pit stop at the Royal Croquet Club's (RCC) off-site Aussie Open extravaganza...basically a massive beer garden with food trucks, croquet courts and a DJ spinning house music.  Attendance was minimal -- it was early -- but judging by the size of the beer stands it would become a righteous rave later in the evening. Still jet lagged and a good decade older than the likely demographic, we could not muster the resolve to go on a day long drinking spree and, after a delicious snack and two Hahn Lights made our way home. Cultural immersion complete. 
+
+  <figure>
+      <img src="images/kraustralia_3_0.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  <figure>
+      <img src="images/kraustralia_3_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  <figure>
+      <img src="images/kraustralia_3_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  <figure>
+      <img src="images/kraustralia_3_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+   <figure>
+      <img src="images/kraustralia_3_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+ 
+ 
+</content>
+<body>
+<br clear="all" />
 
 
 
