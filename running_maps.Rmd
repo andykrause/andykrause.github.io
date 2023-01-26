@@ -45,9 +45,9 @@ editor_options:
     dplyr::select(-segments)
 
   roadruns_sf <- running_sf %>%
-    dplyr::filter(!is.na(type) & !is.na(state)) %>%
+    dplyr::filter(!is.na(type)) %>%
     dplyr::filter(type != 'trail') %>%
-    dplyr::select(name, state, type)
+    dplyr::select(name, type)
 
   `Trail Runs` <- trailruns_sf
   `Road Runs` <- roadruns_sf

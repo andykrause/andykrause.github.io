@@ -108,7 +108,29 @@ For three weeks in late January / early February all eyes -- in the tennis world
 <body>
 <br clear="all" />
 
+<!---- Kraustralia 4 Market Day ---------------------------------------- -->
 
+<body>
+  <div class="content">
+
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_4">
+     <img src="images/kraustralia_4_0.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Market Day</h3> <br/>
+<i>26 January 2015 </i> <br/>
+Melbourne, Vic <br/>
+<br/>
+
+The Queen Victoria Market is both a tourist trap full of fake Australian Outback hats and crocodile wallets as well as fully functional grocery store and mercantile. Where else can you buy a pallet of kangaroo pelts, mystery crystals, footie gear, toothpaste, antique collectibles and a dozen duck eggs all in the same place.  There is truly something for everyone.  We bought none of the above, <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_4">... (click for more)</a>.
+
+   </p>
+  </content>
+<body>
+<br clear="all" />
 
 
 

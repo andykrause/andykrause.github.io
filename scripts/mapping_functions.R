@@ -231,7 +231,7 @@ createDayGeometry <- function(day_filter,
   
   ## Create Stays
   stay_sf <- stays_sf %>%
-    dplyr::filter(NightStart == day_filter | NightEnd == day_filter) %>%
+    dplyr::filter(NightStart <= day_filter & NightEnd >= day_filter) %>%
     dplyr::arrange(NightEnd) %>%
     dplyr::mutate(NightOrder = 1:dplyr::n(),
                   StayColor = ifelse(NightOrder == 1, 'gray20', 'black'))
