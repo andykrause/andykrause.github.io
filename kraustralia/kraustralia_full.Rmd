@@ -205,11 +205,11 @@ The grounds were throbbing full at this point and, needing food and drink, we ca
 Melbourne, Vic <br/>
 <br/>
 
-The Queen Victoria Market is both a tourist trap full of fake Australian Outback hats and crocodile wallets as well as fully functional grocery store and mercantile. Where else can you buy a pallet of kangaroo pelts, mystery crystals, footie gear, toothpaste, antique collectibles and a dozen duck eggs all in the same place.  There is truly something for everyone.  We bought none of the above, instead spending most our time investigating the widest variety of cured meats we'd ever seen  to a single egg.  We bought neither, and instead spent most of our time in the Delicatessen area debating which type of cured meat to purchase.
+The Queen Victoria Market is both a tourist trap full of fake Australian Outback hats and crocodile wallets as well as fully functional grocery store and mercantile. Where else can you buy a pallet of kangaroo pelts, mystery crystals, footie gear, toothpaste, antique collectibles and a dozen duck eggs all in the same place? There is truly something for everyone.  We bought none of the above, instead spending most our time investigating the widest variety of cured meats we'd ever seen.
 
 [Erin] Being from Seattle, my expectations of coffee are high. Melbourne's reputation as having a world class coffee culture proceeds it. In the three days we've been here, I've found it to be as promised and have been been gleefully sampling from a variety of new favorite, local cafes. Market Lane Coffee has a corner shop in the Queen Vic Market and since I wasn't really sure what a flat white or a long black would end up as, I ordered a cappuccino like a pro, right up until I tried to pay for a $4 coffee with two 20 cent coins. (For some reason the smaller coins are larger amounts here). After Googling "long black" I decided it would be the closest to my Americano order back home and I can avoid looking like a complete dumbass next time.  I am also adding this bit of information to save you all from Googling long black in the workplace. 
 
-With Market bags in hand and caffeine needs met, we took the tram back to our temporary home in St. Kilda for a sunny lunch on our patio. At some point we will stop acting like this is a vacation, and get on with the details of finding a house, but not quite yet...
+With Market bags in hand and caffeine needs met, we took the tram back to our temporary home in St. Kilda for a sunny lunch on our patio. At some point we will stop acting like this is a vacation and get on with the details of finding a house, but not quite yet...
 
   <figure>
       <img src="images/kraustralia_4_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
@@ -235,7 +235,35 @@ With Market bags in hand and caffeine needs met, we took the tram back to our te
 <body>
 <br clear="all" />
 
+<!-- Kraustralia_5 ----------------------------- --->    
 
+<body>
+<div class="content">
+<a id="kraustralia_5">
+  <h3>'Stralia Day</h3> <br/>
+</a>
+<i>26 January 2015 </i> <br/>
+Melbourne, Vic <br/>
+<br/>
+
+Australia Day celebrates the landing of the British First Fleet in the Sydney Cove in 1788. We expected something like an Australian Fourth of July. The reality was something closer to a mix of Labor and Columbus Day.  
+
+  <figure>
+      <img src="images/kraustralia_5_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+      <img src="images/kraustralia_5_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+      <img src="images/kraustralia_5_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  
+</content>
+<body>
+<br clear="all" />
 
 <!-- <!-- ----------------------------- --->   
 
