@@ -224,10 +224,6 @@ With Market bags in hand and caffeine needs met, we took the tram back to our te
   </figure>
      
   <figure>
-      <img src="images/kraustralia_4_5.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
-  </figure>
-  
-  <figure>
       <img src="images/kraustralia_4_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
   </figure>
   
@@ -246,7 +242,9 @@ With Market bags in hand and caffeine needs met, we took the tram back to our te
 Melbourne, Vic <br/>
 <br/>
 
-Australia Day celebrates the landing of the British First Fleet in the Sydney Cove in 1788. We expected something like an Australian Fourth of July. The reality was something closer to a mix of Labor and Columbus Day.  
+Australia Day celebrates the 1788 landing of the British First Fleet in the Sydney Cove. We expected something like an Australian Fourth of July extravaganza. On account of souring public opinion over the ensuing treatment of the Aboriginal peoples, the reality of the holiday is something closer to a modest Columbus Day barbecue. As luck so had it, an old classmate of Erin's had recently moved to Melbourne and had extended to us an invite to a afternoon party out in Wattle Park, east of the city. On the (not to scale) Melbourne tram map, it looked close enough. Ignorant of the speed, or lack thereof, of the tram system, we jumped aboard the 16 east then north through St. Kilda East, Balacava, Caulfield North, Malvern, Kooyong and then Hawthorn where we transferred to the 70 where upon we crawled through  Hawthorn East, Camberwell, Surrey Hills and finally into Box Hill South, home to the Park of Wattle.  Along the way we were overtaken by many a cyclist, scooter, rickshaw, jitney, wheelchair, pram, stray dog; really anything wheeled or anyone particularly fleet of foot was bound to pass us eventually. 
+
+We arrived eventually, the beer that we purchased earlier now fully the temperature of the ambient air. The small fete was enjoyable, a good chance to meet some local people and test our new land's ability to through a bash. Marooned out here in the burbs, the only economically sensible thing to do was to ride the same slow pony back to town...at least we knew what to expect this time. We rewarded ourselves for our arduous travels with some of the world's greatest frozen yogurt, [Yo-Chi](https://yochi.com.au/). To walk off these excess calories, we ambled down to the beach to watch the sun dip below the gentle waves of Port Phillip Bay. 
 
   <figure>
       <img src="images/kraustralia_5_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
@@ -260,33 +258,65 @@ Australia Day celebrates the landing of the British First Fleet in the Sydney Co
       <img src="images/kraustralia_5_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
   </figure>
   
+  <figure>
+      <img src="images/kraustralia_5_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
   
 </content>
 <body>
 <br clear="all" />
 
-<!-- <!-- ----------------------------- --->   
+<!-- Kraustralia_6 Back to Work ----------------------------- --->    
 
-<!-- <body> -->
-<!-- <div class="content"> -->
-<!-- <p> -->
-<!-- <h3>Back to Work</h3> <br/> -->
-<!-- <i>27 January 2015 </i> <br/> -->
-<!-- University of Melbourne, Victoria <br/> -->
-<!-- <br/> -->
+<body>
+<div class="content">
+<a id="kraustralia_6">
+  <h3>Back to Work</h3> <br/>
+</a>
+<i>27 January 2015 </i> <br/>
+University of Melbourne, Vic <br/>
+<br/>
 
-<!-- Reality is a cruel mistress.  I had to go to work today, which put an end to that vacation-y feeling that I had been enjoying the last few weeks.  Mind you I wasn't headed to the salt mines or anything resembling difficult physical labor, but a change nonetheless. -->
+The fun had to end eventually, I was down here for a job after all. Mind you I wasn't headed to the salt mines or anything resembling difficult physical labor, but coming back to a schedule and being responsible to an employer was a unwelcome change nonetheless. 
 
-<!-- I arrived to the brand new Melbourne School of Design (MSD) building and my 9:30 appointment to find that my name was not in the system so I could not be granted my ID card, login information, email, etc.  I was, however, awarded my complimentary kitchen set (with tea mug of my favorite color).  Priorities, people.  -->
+I arrived to the brand new Melbourne School of Design (MSD) building and my 9:30 appointment to find that my name was not in the system.  As a result, I I could not be granted my ID card, login information, email, etc. Really anything that would permit me to do any actual work, administrative or otherwise. I was, however, awarded my complimentary kitchen set (with a tea mug of my favorite color). This is the warm welcome I had been expecting.
 
-<!-- Due to some scheduling issues, there is a squatter in my current office for the next few weeks and I've been set up with a temporary space in a large group meeting-type room.  Nice place, but my office mates are a bit weird (quiet though).   -->
+Additionally, due to some scheduling issues, there is a squatter in my current office for the next few weeks. I have been set up with with a temporary space in a large group meeting-type room (with adequate space for my tea set).  It is comfortable enough and my office mates are quite, albiet a bit weird.
 
-<!-- I was starting to wonder if I actually had a job here, but in wandering the halls I did find a door with my name on it...so I guess that is good sign.  Hopefully, tomorrow I'll be able to commence my tenure at the University.  For now, i'm just a visitor.  -->
+I was starting to wonder if I actually had a job here, but in wandering the halls I did locate a door with my name on it...so I guess that is a good sign.  Hopefully, tomorrow I'll be able to commence my tenure at the University.  For now, I'm just a visitor stuck in a room with mannequins busy balancing his spoon on his nose while shotgunning lukewarm, free tea.  Oh yeah, and every time I leave the room to go to the bathroom I need to place a chair in the door lest it close behind me and lock me out.  
 
-<!-- </p>  -->
-<!-- </content> -->
-<!-- <body> -->
-<!-- <br clear="all" /> -->
+  <figure>
+      <img src="images/kraustralia_6_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+      <img src="images/kraustralia_6_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+      <img src="images/kraustralia_6_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_6_5.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+      <img src="images/kraustralia_6_6.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+    <img src="images/kraustralia_6_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+</content>
+<body>
+<br clear="all" />
+
+
+
+
 
 <!-- <!-- ----------------------------- --->   
 
