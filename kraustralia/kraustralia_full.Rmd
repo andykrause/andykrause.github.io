@@ -315,69 +315,115 @@ I was starting to wonder if I actually had a job here, but in wandering the hall
 <br clear="all" />
 
 
+<!-- Kraustralia_7 Beach Boxes ----------------------------- --->    
+
+<body>
+<div class="content">
+<a id="kraustralia_7">
+  <h3>Beach Boxes</h3> <br/>
+</a>
+<i>30 January 2015 </i> <br/>
+Brighton, Vic <br/>
+<br/>
+
+When not outside basking in the glorious January weather, we are busy on [Domain.com.au](https://www.domain.com.au/) searching for a place to live. This either means walking or taking the trams/trains to different neighborhoods around the city until we are exhausted or sunburned, often both. Our standard operating procedure once in such a condition is to find refuge and relief in a gelato or frozen yogurt shop. I dare you to judge us. 
+
+Recently we found ourselves in Brighton touring a home for which we didn't really have the budget to rent.  Brighton is a beautiful, higher end location just inland from a sparkling white beach. Like a crow drawn to shiny objects, Erin gravitates towards bright colors and patterns.  Our visit to the famous Brighton Beach Bath Boxes was no short affair. 
+
+Sticking our toes in the sand and watching the tourists (ourselves not included; we are locals after all) was a needed distraction from the stress of finding a home. The rental process here is, well, odd. Open houses or inspections, as they are referred to, are 15 minute affairs, and unfurnished rentals don't come with a washer/dryer, dishwasher or refrigerator unless you are lucky. As a result, the next time we move, we will be the proud owners of a bunch of big ass appliances. Two of the houses that we really like have inspection times tomorrow, unwittingly with overlapping 15 minute periods and across town from one another. We will divide and conquer, and hopefully trust the other's judgment...but for now, we worry not about this and relax on the beach dreaming of our next cool, sugary treat. 
+
+  <figure>
+      <img src="images/kraustralia_7_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+      <img src="images/kraustralia_7_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+      <img src="images/kraustralia_7_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_7_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+</content>
+<body>
+<br clear="all" />
+
+<!-- Kraustralia_8 In Search of a Home ----------------------------- --->    
+
+<body>
+<div class="content">
+<a id="kraustralia_8">
+  <h3>In Search of a Home</h3> <br/>
+</a>
+<i>1 February 2015 </i> <br/>
+Melbourne, Vic <br/>
+<br/>
+
+We are still vagabonds, living off of takeout at our small, but comfortable AirBnB in the heart of St. Kilda. We put in an application for the small brick homes in the photo below.  There are no guarantees here in this 'lottery for a rental home' system. It is just one of hundreds that we’ve looked at online and one of a handful that we’ve inspected and applied for. We feel like we have a good chance here because it isn't the in the hip, cool neighborhoods north of the city, but in a quieter, family-ish area to the south.  All the better for us as we prefer beaches and parks to bars and brunches anyways. 
+
+This process has been, well, exhausting.  Our past weekend consisted mostly of jumping on and off various trams to schlep around to far-flung areas of the city in order to inspect homes or check out new neighborhoods. At some of the more glamorously located places, the crowds are insane; over 50 people showed up to a house Saturday morning. All this bandying about has its benefits -- we stumbled on a wild Chinese New Year celebration, have found some of the city's best architecture, sampled even more frozen yogurt and gelato shops and even procured Erin her first (likely of many) Australian meat pies. We know some tram routes by heart and now have a pretty good sense of what is overpriced.  All this local knowledge should also help me in the classroom where my first day of teaching is soon approaching. 
+
+  <figure>
+      <img src="images/kraustralia_8_1.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+      <img src="images/kraustralia_8_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+      <img src="images/kraustralia_8_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_8_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+</content>
+<body>
+<br clear="all" />
+
+<!-- Kraustralia_9 In Search of a Home ----------------------------- --->    
+
+<body>
+<div class="content">
+<a id="kraustralia_9">
+  <h3>Not So Super Bowl</h3> <br/>
+</a>
+<i>2 February 2015 </i> <br/>
+Prahran, Vic <br/>
+<br/>
+
+9am Monday morning and we are headed to a bar. A friend of a friend had invited us out to the College Lawn Hotel in Prahran neighborhood.  Entrance was pricey, but we did get all you could drink beers and wines and a wide variety of free bar foods.  Upon arrival, we noticed the 12th man flag in the window.  We had made a good choice. 
+
+The place filled quickly and there were about 200 people jammed in by the time the game started.  Its a big place, with numerous outdoor beer gardens, separate rooms and bars, so it never really felt too crowded.  I'd guess it was about 50% Seahawks fans, 30% Patriots fans, 10% random NFL jerseys (Barry Sanders, an old Darrelle Revis Jets and Mark Chmura...ok, no Mark Chmura) with the balance made up of about 20 odd Aussie dudes who didn't care much for the game, but couldn't seem to pass up all-you-could drink event on a Monday morning. 
+
+We met about a dozen people from Seattle or the surrounding area, including one ex-Seattleite whose name was, I kid you not, Erin Krause.  The people and the atmosphere were great, the beer was good and the food was, well, filling.  We'll stop there as nothing really needs to be said about the game itself....at least we had an ample selection of decent Australian microbrews (and Heineken) to kill the pain.
+
+  <figure>
+     <img src="images/kraustralia_9_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+  <figure>
+     <img src="images/kraustralia_9_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+  <figure>
+     <img src="images/kraustralia_9_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+  <figure>
+     <img src="images/kraustralia_9_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
 
 
-
-<!-- <!-- ----------------------------- --->   
-
-<!-- <body> -->
-<!-- <div class="content"> -->
-<!-- <p> -->
-<!-- <h3>Beach Boxes</h3> <br/> -->
-<!-- <i>30 January 2015 </i> <br/> -->
-<!-- Brighton, Melbourne, Victoria <br/> -->
-<!-- <br/> -->
-
-<!-- Currently, we spend most of our day searching for a place to live. This either means walking or taking the trams/trains to different neighborhoods around the city until we are exhausted or sunburnt or get waylaid by a frozen yogurt shop. -->
-
-<!-- Yesterday one of our stops was in the suburb of Brighton which is a just inland from a sparkling white beach. Like a crow drawn to shiny objects, I gravitate towards bright colors and patterns, so you can imagine how many thousands of pictures I took of the Brighton Beach Bath Boxes. -->
-
-<!-- The rental process here is odd. Open houses or inspections, as they are referred to, are 15 minute affairs, and unfurnished rentals don't come with a washer/dryer, dishwasher or refrigerator unless you are lucky.  So apparently, next time we move, we will be the proud owners of a bunch of big ass appliances. Two of the houses that we really like have inspection times tomorrow, unwittingly with overlapping 15 minute periods and across town from one another. We will divide and conquer, and hopefully trust the other's judgment.... -->
-
-<!-- </p>  -->
-<!-- </content> -->
-<!-- <body> -->
-<!-- <br clear="all" /> -->
-
-<!-- <!-- ----------------------------- --->   
-
-<!-- <body> -->
-<!-- <div class="content"> -->
-<!-- <p> -->
-<!-- <h3>In Search of a Home</h3> <br/> -->
-<!-- <i>1 February 2015 </i> <br/> -->
-<!-- St. Kilda, Melbourne, Victoria <br/> -->
-<!-- <br/> -->
-
-<!-- Sadly, that is not our new home…at least not yet.  It is just one of hundreds that we’ve looked at online and one of a handful that we’ve inspected and applied for.  Our weekend consisted mostly of jumping on and off various trams to schlep around to various areas of the city in order to inspect homes or check out new neighborhoods.  It is tough work fighting the crowds (over 50 people showed up to a house Saturday morning), and gelato or frozen yogurt is often required to maintain our sanity.  I even convinced Erin to try her first (of many) Australian meat pies at our Sunday lunch.  She attempted to act excited, but her face just doesn’t lie. -->
-
-<!-- Overall, it is a difficult process, but a cloud with a silver lining for sure.  We are learning a good bit about the city, the trams and the various neighborhoods.  We also occasionally wind up in interesting little festivals and markets that we’d never see otherwise.  -->
-
-<!-- </p>  -->
-<!-- </content> -->
-<!-- <body> -->
-<!-- <br clear="all" /> -->
-
-<!-- <!-- ----------------------------- --->    
-
-<!-- <body> -->
-<!-- <div class="content"> -->
-<!-- <p> -->
-<!-- <h3>Not so Super Bowl</h3> <br/> -->
-<!-- <i>2 February 2015 </i> <br/> -->
-<!-- Prahran, Melbourne, Victoria <br/> -->
-<!-- <br/> -->
-
-<!-- We left for the bar bright and early at 9am, Monday morning.  A friend of a friend had invited us out to the College Lawn Hotel in Prahran neighborhood of Melbourne.  Entrance was pricey, but we did get all you could drink beers and wines and a wide variety of free bar foods.  Upon arrival, we noticed the 12th man flag in the window.  We had made a good choice. -->
-
-<!-- The place quickly filled up and there were about 200 people there by the time the game started.  Its a big place, with numerous outdoor beer gardens, separate rooms and bars, so it never really felt too crowded.  I'd guess it was about 50% Seahawks fans, 30% Patriots fans, 10% random NFL jerseys (Barry Sanders, an old Darrelle Revis Jets and Mark Chmura...ok, no Mark Chmura) with the balance made up of about 20 random Aussie dudes who didn't care much for the game, but couldn't seem to pass up all-you-could drink on a Monday morning. -->
-
-<!-- We met about a dozen people from Seattle or the surrounding area, including one ex-Seattleite whose name was, I kid you not, Erin Krause.  The people and the atmosphere were great, the beer was good and the food was, well, filling.  We'll stop there as nothing really needs to be said about the game itself....at least we had an ample selection of decent Australian microbrews (and Heineken) to kill the pain. -->
-
-<!-- </p>  -->
-<!-- </content> -->
-<!-- <body> -->
-<!-- <br clear="all" /> -->
+</content>
+<body>
+<br clear="all" />
 
 <!-- <!-- ----------------------------- --->   
 

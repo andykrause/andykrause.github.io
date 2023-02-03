@@ -46,7 +46,7 @@ rails_sf <- sf::st_read(file.path(file_path, 'kraustralia_rails.shp')) %>%
   
   
   
-  daygeo_ <- createDayGeometry(day = 5,
+  daygeo_ <- createDayGeometry(day = 7,
                                lines_geos = list(drives_sf, walks_sf, rails_sf),
                                stays_sf = stays_sf,
                                buff_dist = 1200)
