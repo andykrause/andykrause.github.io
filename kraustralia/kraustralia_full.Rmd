@@ -468,35 +468,66 @@ Knowing that we'd soon be leaving our St.Kilda apartment we spent our evening wi
 <body>
 <br clear="all" />
 
-<!-- <!-- ----------------------------- --->   
+<!-- Kraustralia_11 Ikea-a-thon ----------------------------- --->    
 
-<!-- <body> -->
-<!-- <div class="content"> -->
-<!-- <p> -->
-<!-- <h3>Ikea-thon</h3> <br/> -->
-<!-- <i>8 February 2015 </i> <br/> -->
-<!-- Richmond, Victoria <br/> -->
-<!-- <br/> -->
+<body>
+<div class="content">
+<a id="kraustralia_11">
+  <h3>Ikea-a-thon</h3> <br/>
+</a>
+<i>8-9 February 2015 </i> <br/>
+Richmond, Vic <br/>
+<br/>
 
-<!-- We have a house with nothing in it so we shopped...for what seemed like an eternity, but was actually only 48 hours.  Now being an impatient, function-over-form person with no design sense, furniture shopping is not high on my list of enjoyable activities.  In fact, It is somewhere down near the bottom with going to the dentist, watching period-piece dramas and line dancing.  All of this shopping was, however, book-ended by two outdoor festival-type events and fun pit stops along the way -- which is probably why we got through it in one piece. And, not only do I now know the difference between a left and right chaise lounge but I can spot pebble weave upholstery from 50 meters out…. -->
-<!-- Our weekend went something like this: -->
+We now have a house. It is filled with exactly nothing as all we own here are the bags we brought on the plane (and the various suncreens Andy has hoarded in the past two weeks) and those are still at the Airbnb we have for a few more days.  So we went shopping.  Furniture shopping -- the seventh level of hell for one of us. In fact, Andy might prefer any of the following over furniture shopping: going to the dentist, watching period-piece dramas and line dancing.  All of this shopping was, however, book-ended by two outdoor festival-type events and fun pit stops along the way -- which is probably why we got through it in one piece. And, not only does Andy now know the difference between a left and right chaise lounge but he can spot pebble weave upholstery from 50 meters out…. 
 
-<!-- (Fri) Night market complete with delicious street paella. -->
+All of the things that we couldn't physically carry out of the store will be delivered to our home sometime in the next week.  Hopefully our number of days of sleeping on the floor will be exactly zero. 
 
-<!-- (Sat) Some suburban Ikea and Domain Housewares Mall (think Ron Swanson’s personal hell). -->
+Overall, our weekend went something like this: 
 
-<!-- Easy to get into...hard to get out of -->
+* (Fri) South Melbourne Market night market complete with delicious street paella. 
 
-<!-- Near the suburban Ikea -->
-<!-- (Sun) West Elm, then urban Ikea (yes, multiple Ikeas in a weekend) -->
+* (Sat) Some suburban Ikea and Domain Housewares Mall (think Ron Swanson’s personal hell).
 
-<!-- Random Street Art along the way -->
-<!-- (Sun) The St. Kilda Festival with 300,000 of our fellow Melburnians…right in our back yard.  -->
+* (Sun AM) West Elm, then urban Ikea (yes, multiple Ikeas in a weekend) 
 
-<!-- </p>  -->
-<!-- </content> -->
-<!-- <body> -->
-<!-- <br clear="all" /> -->
+* (Sun PM) The St. Kilda Festival with 300,000 of our fellow Melburnians…right in our back yard.  
+
+  <figure>
+     <img src="images/kraustralia_11_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+  <figure>
+     <img src="images/kraustralia_11_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_11_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_11_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_11_5.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_11_6.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+</content>
+<body>
+<br clear="all" />
+
+
+
+
+
+
+
+
 
 
 <!-- <!-- ----------------------------- --->   
