@@ -574,11 +574,53 @@ Our new wheels allowed us to explore farther and faster than before.  This offer
 <body>
 <br clear="all" />
 
+<!-- Kraustralia_13 A Downtown Walkabout ----------------------------- --->    
+
+<body>
+<div class="content">
+<a id="kraustralia_13">
+  <h3>A Downtown Walkabout</h3> <br/>
+</a>
+<i>14 February 2015 </i> <br/>
+Melbourne, Vic <br/>
+<br/>
+
+To celebrate St. Valentine (Valentino in the large Italian sector of Melbourne) we explored our city -- a long date filled with many cultural institutions and ice creams.  We began with a trip to the State Library and concluded at Federation Square, connecting these two iconic places via the least efficient and most interesting route possible. Down alleyways and up lanes, along the Yarra river walk and through a New Year’s festival. Erin paused to capture more photos of activated street-scapes and sidewalk cafes than Andy cared to, but this city is proving to be a designer’s dream and she can’t help but get swept up in it. 
+
+Over the past few weeks, Erin has spent considerable time in cafes stealing wifi and drinking coffee with Melbournians. She's become familiar with the standard breakfast that is ordered to accompany a morning coffee.  The usual is a granola-based dish (occasionally bircher) with yogurt and some take on fruit compote.  Now that we have acquired a pot for our kitchen, she has decided she should start making this simple breakfast dish at home instead of eating out so much.  We are in the middle of summer, and all the markets are selling stone fruit for crazy sales, so recently she lugged home 2 kilos of it -- which is, as she learned, considerably more than two pounds and not that easy to carry home. When Andy came home to a fruit poaching factory and asked what I was making, he heard ‘Truman Capote’ instead of ‘fruit compote’, so now every morning for breakfast, I sit down to a small, but satisfying bowl of yogurt and Truman compote. 
+
+ <figure>
+     <img src="images/kraustralia_13_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+ <figure>
+     <img src="images/kraustralia_13_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+   <figure>
+     <img src="images/kraustralia_13_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+ <figure>
+     <img src="images/kraustralia_13_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+ <figure>
+     <img src="images/kraustralia_13_5.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+ <figure>
+     <img src="images/kraustralia_13_6.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+ <figure>
+     <img src="images/kraustralia_13_7.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
 
 
-
-
-
+</content>
+<body>
+<br clear="all" />
 
 
 

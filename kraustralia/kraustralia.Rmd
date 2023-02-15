@@ -326,3 +326,27 @@ This entire blog post could be about nothing more than the series of minor failu
 <body>
 <br clear="all" />
 
+<!---- Kraustralia 13 Walk Around Downtown ---------------------------------------- -->
+
+<body>
+  <div class="content">
+
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_13">
+     <img src="images/kraustralia_13_0.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>A Downtown Walkabout</h3> <br/>
+<i>14 February 2015 </i> <br/>
+Melbourne, Vic <br/>
+<br/>
+
+To celebrate St. Valentine (Valentino in the large Italian sector of Melbourne) we explored our city -- a long date filled with many cultural institutions and ice creams.  We began with a trip to the State Library and concluded at Federation Square, connecting these two iconic places via the least efficient <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_12">... (click for more)</a>.
+
+   </p>
+  </content>
+<body>
+<br clear="all" />
+
