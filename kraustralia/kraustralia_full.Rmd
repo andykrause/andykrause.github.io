@@ -622,73 +622,45 @@ Over the past few weeks, Erin has spent considerable time in cafes stealing wifi
 <body>
 <br clear="all" />
 
+<!-- Kraustralia_14 A Little Slice of Home ----------------------------- --->    
+
+<body>
+<div class="content">
+<a id="kraustralia_14">
+  <h3>A Little Slice of Home</h3> <br/>
+</a>
+<i>21 February 2015 </i> <br/>
+Melbourne, Vic <br/>
+<br/>
+
+In need of a vacuum, a year’s worth of toilet paper, three liters of barbecue sauce, a kilo and half of haloumi and several other bulk items that can only be moved with a pallet jack, we took a short tram ride to Costco Australia, conveniently located just north of downtown Melbourne. Rumor has it that the Melburnians were so pleased with the arrival of the big ‘C’ that they built a Ferris wheel in the parking lot. 
+
+It was hot; 37C to be exact, which is about 99F if you are a Yank.  Inside of Costco -- a Costco nearly identical in shape, layout, color and smell to those back home -- was a comfortable 20 degrees. There were Kirkland signs everywhere, large families moving very slowly down every aisle and the pervasive odor (aroma?) of grilled meats. We trolled the samples; Erin hitting up the Jelly Belly lady more times than is likely allowed. Our cart swelled, we had purchased enough necessities that we had to catch a cab home as schlepping all of our goods on the tram would have been poor form. It was oddly comforting (or maybe no so oddly) to be in a place so familiar so far from home.  We’ll definitely make this a monthly outing…if for no other reason than to buy affordable American whiskey.
+
+In the afternoon, we took a short walk to the Optus store to update our cell phone plans. On the way home we were caught in a very heavy 15-minute downpour.  The sun was shining, the windy howling and massive raindrops pummeled the sidewalk.  It passed, but the heat did not abate so we grabbed some cheap beers and headed to the beach for sunset.  Sundowners on the beach just a ten minute walk from home.  This is a life one can get used to.    
+
+ <figure>
+     <img src="images/kraustralia_14_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+ <figure>
+     <img src="images/kraustralia_14_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+ <figure>
+     <img src="images/kraustralia_14_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+ <figure>
+     <img src="images/kraustralia_14_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+ <figure>
+     <img src="images/kraustralia_14_5.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+ <figure>
+     <img src="images/kraustralia_14_6.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+</content>
+<body>
+<br clear="all" />
 
 
-
-
-
-<!-- <!-- ----------------------------- --->    
-
-<!-- <body> -->
-<!-- <div class="content"> -->
-<!-- <p> -->
-<!-- <h3>Truman Compote & a Downtown Walkabout</h3> <br/> -->
-<!-- <i>15 February 2015 </i> <br/> -->
-<!-- Melbourne, Victoria <br/> -->
-<!-- <br/> -->
-
-<!-- Since I have spent quite a bit of time in cafes stealing wifi and drinking coffee with Melbournians, I have become familiar with the standard breakfast that is ordered to accompany a morning coffee.  The usual is a granola based dish with yogurt and some take on fruit compote.  Now that we have acquired a pot for our kitchen, I decided I should start making this simple breakfast dish at home instead of eating out so much.  We are in the middle of summer, and all the markets are selling stone fruit for crazy sales, so I bought 2 kilo of fruit, (which is much more than I thought and immediately regretted it since I would be carrying it home).  When Andy came home to a fruit poaching factory and asked what I was making, he heard ‘Truman Capote’ instead of ‘fruit compote’, so now every morning for breakfast, I sit down to a small, but satisfying bowl of yogurt and Truman compote. -->
-
-<!-- Yesterday we explored our city.  Starting with a trip to the State Library and ending at Federation Square, we took the least efficient and most interesting route through the downtown retail alleys and lanes, along the Yarra river walk and through a New Year’s festival.  I probably stopped to take more photos of activated streetscapes and sidewalk cafes than Andy cared to pause for, but this city is proving to be a designer’s dream and I can’t help but get swept up in it… -->
-
-<!-- </p>  -->
-<!-- </content> -->
-<!-- <body> -->
-<!-- <br clear="all" /> -->
-
-<!-- <!-- ----------------------------- --->   
-
-<!-- <body> -->
-<!-- <div class="content"> -->
-<!-- <p> -->
-<!-- <h3>A Little Slice of Home</h3> <br/> -->
-<!-- <i>21 February 2015 </i> <br/> -->
-<!-- Melbourne, Victoria <br/> -->
-<!-- <br/> -->
-
-<!-- In need of a vacuum, a year’s worth of toilet paper, some free samples and several other bulk items that can only be moved with a pallet jack, we took a short tram ride to Costco Australia located just outside of downtown Melbourne.  Rumor has it that the Melburnians were so pleased with the arrival of the big ‘C’ that they built a Ferris wheel in the parking lot. -->
-
-<!-- It was hot; 37 to be exact, which is about 99 if you are a Yankee.  But the inside of Costco was a comfortable 20 degrees.  It was also eerily similar to every Costco that I’ve been to in the States.  Kirkland signs everywhere, large families moving very slowly down every aisle and the smell of grilled meat.  We trolled the samples.  Erin hit up the Jelly Belly lady more times than is probably allowed. We ended up buying enough necessities that we had to catch a cab home as schlepping all of our goods on the tram would certainly have been poor form.   It was oddly comforting (or maybe no so oddly) to be in a place so familiar so far from home.  We’ll definitely make this a monthly outing…if for no other reason than to buy affordable American whiskey.  -->
-
-<!-- We went for a short walk to the Optus store to update our cell phone plans in the afternoon and on the way home were caught in a very heavy 15 minute downpour.  The sun was shining, the windy howling and massive raindrops pummeled the sidewalk.  It passed, but the heat did not abate so we grabbed some cheap beers and headed to the beach for sunset.   -->
-
-<!-- </p>  -->
-<!-- </content> -->
-<!-- <body> -->
-<!-- <br clear="all" /> -->
-
-
-
-<!-- <!-- ----------------------------- --->  
-
-
-<!-- <!-- ----------------------------- --->   
-
-<!-- <body> -->
-<!-- <div class="content"> -->
-<!-- <p> -->
-<!-- <a id="kraustralia_x"> -->
-<!--   <h3>Title</h3> <br/> -->
-<!-- </a> -->
-<!-- <i>Date </i> <br/> -->
-<!-- Location <br/> -->
-<!-- <br/> -->
-
-<!-- xxx -->
-
-
-<!-- </p>  -->
-<!-- </content> -->
-<!-- <body> -->
-<!-- <br clear="all" /> -->
-
+ 
