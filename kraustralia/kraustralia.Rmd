@@ -374,3 +374,26 @@ In need of a vacuum, a year’s worth of toilet paper, three liters of barbecue 
 <body>
 <br clear="all" />
 
+<!---- Kraustralia 15 Furniture and F1 ------------------------------- -->
+<body>
+  <div class="content">
+
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_15">
+     <img src="images/kraustralia_15_0.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Furniture and F1</h3> <br/>
+<i>25 February 2015 </i> <br/>
+Albert Park, Vic <br/>
+<br/>
+
+Big week for us. We bought a grill (*barbie*), our couch and desk were delivered (installed incorrectly) and our internet was finally installed (with speeds near that of Andy's early 2000s dorm room...). After tethering our cell phones to our computers in order to get work done and sitting on the floor for 2 weeks, this was a big improvement.  That said, we are coming <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_15">... (click for more)</a>.
+
+   </p>
+  </content>
+<body>
+<br clear="all" />
+ 

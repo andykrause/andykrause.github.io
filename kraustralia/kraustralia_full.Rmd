@@ -663,4 +663,39 @@ In the afternoon, we took a short walk to the Optus store to update our cell pho
 <br clear="all" />
 
 
- 
+<!-- Kraustralia_15 A Little Slice of Home ----------------------------- --->    
+
+<body>
+<div class="content">
+<a id="kraustralia_14">
+  <h3>Furniture and F1</h3> <br/>
+</a>
+<i>25 February 2015 </i> <br/>
+Albert Park, Vic <br/>
+<br/>
+
+Big week for us. We bought a grill (*barbie*), our couch and desk were delivered (installed incorrectly) and our internet was finally installed (with speeds near that of Andy's early 2000s dorm room...). After tethering our cell phones to our computers in order to get work done and sitting on the floor for 2 weeks, this was a big improvement.  That said, we are coming around to the minimalist approach. Here, here, Marie Kondo. By the time our shipping crate arrives -- now scheduled for early April -- we may wonder why we thought we needed all the stuff we brought from Seattle. We will also have to find a place for our bikes which are currently stored in our second bedroom with all of the giant boxes from our appliances. Our recycling bin is small so each week Erin carefully cuts down the huge boxes into smaller pieces to jam into the tiny bin. We may have emptied that room out by mid-April, it will be tight. We've considered an illegal bonfire in the middle of street some night, but the Aussies as a whole are a bit jumpy about potential bush fires.  
+
+We are riding our bikes every day and it almost feels OK to be riding on the wrong (left) side of the road.  After we moved in to the neighborhood we realized that the Melbourne Grand Prix course takes up residence here as well every March.  Although the races don’t actually start until the 12th of March, the course has been under construction since we have been here.  The course is a loop road around Albert Park Lake and until they fully shut the road down our new evening ritual is to take laps around the course. It is actually quite fun whipping around the F1 course with no cars on it. Apparently it is going to be incredibly loud in our little village, but it seems like it will be entertaining. A lady in Erin's boxing class said she heads to the coast every year at this time since the neighborhood becomes “overrun with Bogans” (Australian term for 'redneck'). It was good to hear that some things are internationally true…
+
+ <figure>
+     <img src="images/kraustralia_15_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+ <figure>
+     <img src="images/kraustralia_15_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+ <figure>
+     <img src="images/kraustralia_15_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+ <figure>
+     <img src="images/kraustralia_15_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_15_5.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  
+</content>
+<body>
+<br clear="all" />
