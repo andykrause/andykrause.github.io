@@ -8,6 +8,12 @@ editor_options:
   chunk_output_type: console
 ---
 
+<link rel="stylesheet" href="kraustralia/kraustralia.css" type="text/css">
+
+<br/>
+<br/>
+<br/>
+
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
  ## Load libraries
   library(sf)
@@ -52,8 +58,9 @@ editor_options:
   `Trail Runs` <- trailruns_sf
   `Road Runs` <- roadruns_sf
 
-  trail_col <- 'red'
-  road_col <- 'plum'
+  trail_col <- 'springgreen3'
+  road_col <- 'burlywood4'
+  basemap <- leaflet::providers$CartoDB.DarkMatter
   
 ```
 
@@ -75,12 +82,10 @@ bbox_sea[4] <- 47.8
 tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_sea) + 
-   tm_basemap("Esri.WorldTopoMap") +
-  #tm_basemap(leaflet::providers$CartoDB.DarkMatter)+
-  #tm_basemap(leaflet::providers$HERE)+
-  tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
-  tm_shape(`Road Runs`, bbox = bbox_sea) + 
-    tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)
+   tm_basemap(basemap) +
+   tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
+   tm_shape(`Road Runs`, bbox = bbox_sea) + 
+     tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)
   
 
 
@@ -103,7 +108,7 @@ bbox_sji[4] <- 48.74
 tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_sji) + 
-  tm_basemap("Esri.WorldTopoMap") +
+  tm_basemap(basemap) +
   tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
   tm_shape(`Road Runs`, bbox = bbox_sji) + 
   tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)
@@ -123,7 +128,7 @@ bbox_maz[4] <- 48.66
 tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_maz) + 
-  tm_basemap("Esri.WorldTopoMap") +
+  tm_basemap(basemap) +
   tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
   tm_shape(`Road Runs`) + 
   tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)
@@ -143,7 +148,7 @@ bbox_haw[4] <- 20.06
 tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_haw) + 
-  tm_basemap("Esri.WorldTopoMap") +
+  tm_basemap(basemap) +
   tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
   tm_shape(`Road Runs`) + 
   tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)
