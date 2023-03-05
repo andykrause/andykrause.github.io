@@ -18,7 +18,7 @@ editor_options:
   library(tmap)
 
  ## Source Custom Functions
-  source("~/projects/andykrause.github.io/scripts/mapping_functions.R")
+  source("~/projects/andykrause.github.io/functions/mapping_functions.R")
 
  ## Set Paths
 
@@ -75,7 +75,9 @@ bbox_sea[4] <- 47.8
 tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_sea) + 
-  tm_basemap("Esri.WorldTopoMap") +
+   tm_basemap("Esri.WorldTopoMap") +
+  #tm_basemap(leaflet::providers$CartoDB.DarkMatter)+
+  #tm_basemap(leaflet::providers$HERE)+
   tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
   tm_shape(`Road Runs`, bbox = bbox_sea) + 
     tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)

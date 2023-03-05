@@ -663,11 +663,11 @@ In the afternoon, we took a short walk to the Optus store to update our cell pho
 <br clear="all" />
 
 
-<!-- Kraustralia_15 A Little Slice of Home ----------------------------- --->    
+<!-- Kraustralia_15 Furniture and F1 ----------------------------- --->    
 
 <body>
 <div class="content">
-<a id="kraustralia_14">
+<a id="kraustralia_15">
   <h3>Furniture and F1</h3> <br/>
 </a>
 <i>25 February 2015 </i> <br/>
@@ -699,3 +699,161 @@ We are riding our bikes every day and it almost feels OK to be riding on the wro
 </content>
 <body>
 <br clear="all" />
+
+<!-- Kraustralia_16  ----------------------------- --->    
+
+<body>
+<div class="content">
+<a id="kraustralia_16">
+  <h3>A Walk in the City, A Walk in the Bush</h3> <br/>
+</a>
+<i>2 March 2015 </i> <br/>
+Melbourne + Belgrave, Vic <br/>
+<br/>
+
+We are getting to know our new city bit by bit and day by day.  Whether by suggestions from new friends, places we have read about on local websites or curiosities stumbled upon while lost, we end up on weekly field trips to discover little city gems.
+Whilst wandering the city, one of the most pleasant surprises is volume and diversity of street art in Melbourne.  This weekend we decided to specifically search out some of the downtown alleys and lanes that have been transformed to destinations.  While at first we were reminded of the Gum Wall in Pike Place Market -- the alleys smelled appropriately of warm garbage and small packs of people were milling around and taking pictures -- the colorful and character-filled alleys won us over and our hunt for the best hidden murals took most of the afternoon. 
+
+Before we moved here, we made it a priority each weekend get out of the city to hike or camp.  We realized it had been five weeks of living in Melbourne and we hadn't gotten out of town so we decided to take the train 1.5 hours east to the end of the line and spend some time hiking in the Dandendong Ranges National Park. The Ranges are hills, not mountains, but no matter, nature is nature. We hiked through massive Eucalyptus forests and other than an unruly and incredibly loud swarm of parrots, we didn't run into any wildlife, poisonous or otherwise. The smell of the Eucalyptus forests are intoxicating; an aroma that will no doubt stick with us for the rest of our days.  Erin did see a small red ant on Andy's back on the walk back to the train station which she immediately overreacted to and yelled "Fire Ant!"  before swatting at repeatedly.  The veracity of the ant sighting remains in doubt by one of our party. 
+
+  <figure>
+     <img src="images/kraustralia_16_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  <figure>
+     <img src="images/kraustralia_16_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  <figure>
+     <img src="images/kraustralia_16_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  <figure>
+     <img src="images/kraustralia_16_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  <figure>
+     <img src="images/kraustralia_16_5.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  
+</content>
+<body>
+<br clear="all" />
+
+
+
+<!-- Kraustralia_17  ----------------------------- --->    
+
+<body>
+<div class="content">
+<a id="kraustralia_17">
+  <h3>Classroom Debut</h3> <br/>
+</a>
+<i>8 March 2015 </i> <br/>
+Parkville, Vic <br/>
+<br/>
+
+The students returned to campus this week, which meant the peacefulness Andy had been enjoying at work was suddenly shattered. It was easy to forget hat a scene a thriving 40,000 student campus could become. Added to this was the fact that we were housed in a brand new building, the likes of which the students hadn't seen yet, so much gawking, pointing and general malaise in way-finding occurred.  The start of the school year also meant that Andy had to teach.
+
+In terms of week one, well, Andy survived.  His class lost a few minutes being locked out of our room and he undoubtedly used a number of American terms that they have no idea the meaning of.  To date, no official complaints were lodged with administration.  We'll see how many students show up this coming week.  While the students were focused on finding their classes, Andy sneaked away one afternoon to read in the sun on the surprisingly empty cricket grounds. 
+
+After we accepted the job here and realized we would be moving to Melbourne, we spent a good bit of time poking around on Google Earth to check out our new city.  Once we came upon the small town of Ferntree Gully, we knew we had to pay it a visit.  I mean, it just sounds mystical, right?  The weather on Saturday was cloudy, but pleasant so we hopped a train bound for this -- assumed to be -- magical place.
+
+The town is located at the edge of the Dandenong Ranges National Park, and hiking is the main attraction.  While it wasn't the easiest place to get into, the hike proved quite steep, challenging and full of massive eucalyptus (gum) trees and very little undergrowth.  A really nice, though busy, place for an afternoon hike.  Also, today we learned that there is an Upper (but no lower) Ferntree Gully; the Upper also containing a chocolate factory.     
+
+On Sunday morning, we went for a short bike ride along the beach, cleaned up the back yard and then, when the sun came out, went back to the beach to relax.  We caught the end of a co-ed beach volleyball tournament -- that with a bit of practice -- we figured we could have been competitive in.  Next year....
+
+We are settling in to a rhythm, a life less driven by hectic home searching and appliance shopping and more on finding a calmer, healthier routine than we had back in the States.  
+
+  <figure>
+     <img src="images/kraustralia_17_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  <figure>
+     <img src="images/kraustralia_17_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  <figure>
+     <img src="images/kraustralia_17_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  <figure>
+     <img src="images/kraustralia_17_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+</content>
+<body>
+<br clear="all" />
+
+<!-- Kraustralia_18  ----------------------------- --->    
+
+<body>
+<div class="content">
+<a id="kraustralia_18">
+  <h3>Experimental Cooking</h3> <br/>
+</a>
+<i>18 March 2015 </i> <br/>
+Parkville, Vic <br/>
+<br/>
+
+[Erin] Growing up, whenever my mom would try a meal outside of her wheelhouse, she would always preface the meal with the  descriptive warning that it was ‘experimental’. Carrying this over into my adult life, I have begun to refer to Andy’s enthusiastic use of flavors and discretionary attention to recipes as ‘experimental cooking’ and now whenever we try something new, it gets the ‘experimental’ disclaimer. 
+
+Food is culture.  And there are a lot of new flavors in Melbourne for us to audition.  Lamb shows up in places it would never been seen in the U.S. There is a new palette of seafood and an incredible amount of beetroot. Some foods just have different names, like Capsicums (bell peppers), Lollies (sweets), PawPaw (Papaya), hundreds and thousands (candy sprinkles).  When I go to the market, I often spend a lot of time wandering around finding new things to try out in recipes.  The latest experiment involved a can of Duck Fat I found at the market.  Although this sounds absolutely disgusting, and honestly doesn’t look much better, I roasted baby potatoes and sage with duck fat and it was delicious.  I am pretty sure we will always be fully stocked with a gross little can of Duck fat in our pantry from now on. 
+
+We remain with our shipment of goods and I refuse to buy a bunch of kitchen tools/dishes since we have all of our stuff ‘on-the-way’, we are rolling with just the essentials right now. This means 1 pot, 1 pitcher, 2 sets of cutlery, 2 plates/bowls and a variety of Shark Reef Knives that we got for Christmas and had to check in our baggage. Remarkably, one can do a lot with one pot.  Just today with said pot,  I made tea, poached two eggs, toasted some pepitas, trapped a large bee-fly and transported it outside, cooked a chili pork ragu, and cooked and then roasted a cheesy polenta. Of course this usually means it takes twice the amount of time that any normal cooking process might take, but it usually gives me twice the satisfaction. Plus, Australia is an island and everyone here is on some form of Island time...might as well join the crowd. 
+
+Today’s Experiment:  Chili Pork Ragu over Cheesy Polenta and Kale Salad with Fennel and Apple.  
+
+In adventure news, we rigged a setup to allow our hammock in the backyard (garden) and took a nice long bike ride down the Yarra River Trail, stopping only 'intermittently' to photograph interesting landscape design. 
+
+  <figure>
+     <img src="images/kraustralia_18_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_18_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_18_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_18_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_18_5.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_18_6.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_18_7.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_18_8.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+</content>
+<body>
+<br clear="all" />
+
+<!-- Kraustralia_19  ----------------------------- --->    
+
+<!-- To the Mornington Peninsula -->
+<!-- MARCH 20, 2015 -->
+<!-- For Erin's upcoming birthday we decided to finally leave the comforts of the big city and venture into rural Victoria -- the Mornington Peninsula to be precise.  To do so meant renting a car and driving. Not just any driving, but driving on the left hand side of the road...or basically unlearning everything that you've been consciously (and sometimes not so) doing for the past 15-20 years.   -->
+<!-- We picked up our small Toyota at 9am on Friday morning, managed to convince the salesman that we knew what we were doing, entered the car on the correct side and managed to get out of the rental lot without hitting anything or anyone.  The first 15 minutes are weird.  It is very hard to estimate the extents of your vehicle and we took a slow, circuitous route home to pick up our luggage and were off.  The next 45 minutes are a bit less weird and finally after about an hour or so of driving it starts to feel somewhat natural.   -->
+<!-- Out of the city, we continued on the Nepean highway to the little town of Mornington and stopped for breakfast.  From there we took the bay side road all the way to the Nepean Point National Park.  The parking lot was located in the old hospital and quarantine grounds that were used to offload passengers from British ships and stop the spread of typhus or whatever other diseases the Brits were bringing this way.   -->
+<!-- ““ -->
+<!-- The old quarantine building -->
+
+<!-- From there, we hiked the coast all the way to the end of the Peninsula and the former Fort Nepean.  Along the we checked out many of the bunkers, though for fear of snakes and poisonous spiders elected to remain on the exterior.   The threat of unexploded ordnance, however, couldn't quite keep our adventurous spirits in check.  -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- Fort Nepean -->
+<!-- We took the road on the way back and ran into our first large native monotreme, an echidna. Despite Erin's attempts to get a selfie with our new friend, he remained completely oblivious to us and cared only about sucking ants up out of the ground. -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- After our hike, we drove down to the Cape Schanck lighthouse, our intended accommodation for the evening.  Upon arrival, we were notified that they were full and that they had not received our reservation details from Expedia.  After 90 minutes of phone calls to various parties we were able to wrangle a refund from Expedia (or so we've been promised).  Each side blamed the other and tried to set us up elsewhere, but we just took the money and ran.  Most places were full on a Friday night but we were able to grab a room at the Lindenderry Farm and Winery up on Red Hill.  We slept comfortably after a long day of beach hikes, driving and phone calls with various customer service representatives. -->
+<!-- This was our first trip out to the open ocean (as Melbourne is on Port Philip Bay) and it is every bit as wild, windy and rugged as imagined.   -->
+
