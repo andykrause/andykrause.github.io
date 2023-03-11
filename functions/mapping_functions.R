@@ -175,45 +175,49 @@ plotDayGeos <- function(daygeos_,
 
 
 
-createDayGeometry <- function(day_filter,
-                              lines_geos,
-                              stays_sf = stays_sf,
+createDayGeometry <- function(day_nbr,
+                              line_geos,
+                              stays_sf,
                               buff_dist = 1000,
+                              crs = 4269,
                               ...){
   
+  cat('Building data for blog #: ', day_nbr, '\n')
+  
   ## Combine lines
-  for (i in 1:length(lines_geos)){
-    day_sf <- lines_geos[[i]] %>%
-      dplyr::filter(day == day_filter)
+  for (i in 1:length(line_geos)){
+    line_sf <- line_geos[[i]] %>%
+      dplyr::filter(day == day_nbr)
     if (i == 1){
-      lines_sf <- day_sf
+      lines_sf <- line_sf
     } else {
       lines_sf <- lines_sf %>%
-        dplyr::bind_rows(day_sf)
+        dplyr::bind_rows(line_sf)
     }
   }
   
+  # If not lines on that day
+  if(nrow(lines_sf) == 0) return(NULL)
+  
   ## Create Buffer
   buff_sf <- sf::st_buffer(lines_sf, dist = buff_dist) %>%
-    sf::st_make_valid()
-  
-  buff_sf <- buff_sf %>%
+    sf::st_make_valid() %>%
     sf::st_union() %>%
     sf::st_make_valid() 
   
+  # Ensure Buffer is valid SF object
   if (! 'data.frame' %in% class(buff_sf)){
     pc <- unlist(lapply(buff_sf, function(x) unlist(class(x)[2])))
     buff_sf <- buff_sf[[which(pc == 'POLYGON')]] %>%
       sf::st_sfc() %>%
       sf::st_sf() %>%
-      sf::st_set_crs(., 4269)
+      sf::st_set_crs(., crs)
   }
   
   ## Create Mask
-  coords_cf <- data.frame(corners=as.vector(sf::st_bbox(buff_sf)))
+  coords_cf <- data.frame(corners = as.vector(sf::st_bbox(buff_sf)))
   x_dif <- abs(coords_cf$corners[3] - coords_cf$corners[1])
   y_dif <- abs(coords_cf$corners[4] - coords_cf$corners[2])
-  
   
   coordbounds_cf <- data.frame(X = c(coords_cf$corners[1] - x_dif * .05,
                                      coords_cf$corners[3] + x_dif * .05),
@@ -231,14 +235,14 @@ createDayGeometry <- function(day_filter,
   
   ## Create Stays
   stay_sf <- stays_sf %>%
-    dplyr::filter(NightStart <= day_filter & NightEnd >= day_filter) %>%
+    dplyr::filter(NightStart <= day_nbr & NightEnd >= day_nbr) %>%
     dplyr::arrange(NightEnd) %>%
     dplyr::mutate(NightOrder = 1:dplyr::n(),
                   StayColor = ifelse(NightOrder == 1, 'gray20', 'black'))
   
-  
   return(
-    list(bbox = bounding_sf,
+    list(entry = day_nbr,
+         bbox = bounding_sf,
          lines = lines_sf,
          mask = mask_sf,
          stay = stay_sf,

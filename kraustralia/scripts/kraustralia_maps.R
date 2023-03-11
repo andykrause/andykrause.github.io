@@ -17,6 +17,9 @@
   
   # Set CRS
   k_crs <- 4269
+  
+  # Set mask buffer width
+  k_buffer <- 1000
 
 ### Setup ------------------------------------------------------------------------------------------
 
@@ -66,95 +69,24 @@
 
 ### Prepare Data -----------------------------------------------------------------------------------  
   
-  line_geos = list(walks_sf, drives_sf, rails_sf)
+  day_geos <- purrr::map(.x = as.list(1:kraustralia_days),
+                         .f = createDayGeometry,
+                         line_geos = list(walks_sf, drives_sf, rails_sf),
+                         stays_sf = stays_sf,
+                         buff_dist = k_buffer,
+                         crs = k_crs) %>%
+    purrr::set_names(., paste0('blog_', 1:kraustralia_days))
   
-  createDayGeometry <- function(day_nbr,
-                                line_geos,
-                                point_geos,
-                                buff_dist = 1000,
-                                crs = 4269,
-                                ...){
-    
-    ## Combine lines
-    for (i in 1:length(line_geos)){
-      line_sf <- line_geos[[i]] %>%
-        dplyr::filter(day == day_nbr)
-      if (i == 1){
-        lines_sf <- line_sf
-      } else {
-        lines_sf <- lines_sf %>%
-          dplyr::bind_rows(line_sf)
-      }
-    }
-    
-    ## Create Buffer
-    buff_sf <- sf::st_buffer(lines_sf, dist = buff_dist) %>%
-      sf::st_make_valid()
-    
-    buff_sf <- buff_sf %>%
-      sf::st_union() %>%
-      sf::st_make_valid() 
-    
-    if (! 'data.frame' %in% class(buff_sf)){
-      pc <- unlist(lapply(buff_sf, function(x) unlist(class(x)[2])))
-      buff_sf <- buff_sf[[which(pc == 'POLYGON')]] %>%
-        sf::st_sfc() %>%
-        sf::st_sf() %>%
-        sf::st_set_crs(., crs)
-    }
-    
-    ## Create Mask
-    coords_cf <- data.frame(corners = as.vector(sf::st_bbox(buff_sf)))
-    x_dif <- abs(coords_cf$corners[3] - coords_cf$corners[1])
-    y_dif <- abs(coords_cf$corners[4] - coords_cf$corners[2])
-    
-    
-    coordbounds_cf <- data.frame(X = c(coords_cf$corners[1] - x_dif * .05,
-                                       coords_cf$corners[3] + x_dif * .05),
-                                 Y = c(coords_cf$corners[2] - y_dif * .05,
-                                       coords_cf$corners[4] + y_dif * .05))
-    bounding_sf <- coordbounds_cf %>% 
-      sf::st_as_sf(coords = c("X", "Y"), 
-                   crs = 4269)
-    
-    poly_sf <- bounding_sf %>% 
-      sf::st_bbox() %>% 
-      sf::st_as_sfc()
-    
-    mask_sf <- sf::st_difference(poly_sf, buff_sf) 
-    
-    ## Create Stays
-    stay_sf <- stays_sf %>%
-      dplyr::filter(NightStart <= day_filter & NightEnd >= day_filter) %>%
-      dplyr::arrange(NightEnd) %>%
-      dplyr::mutate(NightOrder = 1:dplyr::n(),
-                    StayColor = ifelse(NightOrder == 1, 'gray20', 'black'))
-    
-    
-    return(
-      list(bbox = bounding_sf,
-           lines = lines_sf,
-           mask = mask_sf,
-           stay = stay_sf,
-           coords = coords_cf))
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  daygeo_ <- createDayGeometry(day = 2,
-                               lines_geos = list(drives_sf, walks_sf, rails_sf),
-                               stays_sf = stays_sf,
-                               buff_dist = 1200)
-  
+### Create Maps ------------------------------------------------------------------------------------  
 
+  
+  
+  
+  
+  
+  
+  
+ 
  # daygeo_$stay <- NULL
   day_plot <- plotDayGeos(daygeo_, mask_alpha = .7, map_service = 'osm_stamen',
                           map_type = 'terrain')
