@@ -923,4 +923,41 @@ We spent the remainder of the day driving along the coast from small town to sma
   <figure>
      <img src="images/kraustralia_20_5.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
   </figure>
-  
+
+</content>
+<body>
+<br clear="all" />
+
+ 
+<!-- Kraustralia_21 Bachelor Life ----------------------------- --->    
+
+<body>
+<div class="content">
+<a id="kraustralia_21">
+  <h3>Bachelor Life</h3> <br/>
+</a>
+<i>31 March 2015 </i> <br/>
+Albert Park, Vic <br/>
+<br/>
+ 
+[Andy] A few weeks ago, you heard about Erin’s daily routine of one-pot cooking,  sun-bathing and trips to the market.  With Erin in Hawaii and me living the bachelor life, I’ll provide some insight into my own daily exploits. 
+
+I teach on Tuesday and generally have meetings, class prep and other administrative duties on Monday and Thursdays.  On those days, I take the leisurely 80-meter walk to our nearby stop and grab one of the #1 trams all the way to the University.  While a slow and often cramped ride, it drops me off less than a block from our new Melbourne School of Design building.  These old beasts are usually full of business people and students and do, somewhat sadly, lack the ‘socio-economic experience’ of riding the bus through downtown Seattle.
+
+My office (shared) is in the far northwest corner of the top floor of our new MSD building.  It afford regional views and abundant sunlight.   Wednesdays and Fridays are work-at-home research days whenever possible.  Weather permitting, they begin with a long, exploratory bike ride somewhere around the city.  Melbourne has an amazing number of bike trails and lanes which make navigating in the city very easy.  I’ve stumbled across many charming new neighborhoods and interesting acts of graffiti.
+
+With Erin gone, I get the hammock to myself and have been eating a variety of grilled meats and simple greens.  Little in the way of laundry or unnecessary cleaning has been done. 
+
+  <figure>
+     <img src="images/kraustralia_21_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+  <figure>
+     <img src="images/kraustralia_21_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+</content>
+<body>
+<br clear="all" />
+
+

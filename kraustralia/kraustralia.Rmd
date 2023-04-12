@@ -513,4 +513,27 @@ Our last minute lodging at the Lindenderry Farm and Vineyards proved restful and
 <body>
 <br clear="all" />
  
-        
+<!---- Kraustralia 20 Mornington, Day 2  ------------------------------- -->
+<body>
+  <div class="content">
+
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_21">
+     <img src="images/kraustralia_21_0.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Bachelor Life</h3> <br/>
+<i>31 March 2015 </i> <br/>
+Albert Park, Vic <br/>
+<br/>
+
+[Andy] A few weeks ago, you heard about Erin’s daily routine of one-pot cooking,  sun-bathing and trips to the market.  With Erin in Hawaii and me living the bachelor life, I’ll provide some insight into my own daily exploits. I teach on Tuesday and generally have meetings, class prep and other administrative duties  <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_21">... (click for more)</a>.
+
+   </p>
+  </content>
+<body>
+<br clear="all" />
+ 
+             
