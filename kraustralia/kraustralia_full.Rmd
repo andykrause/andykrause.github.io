@@ -887,25 +887,40 @@ This was our first trip out to the open ocean (as Melbourne is on Port Philip Ba
 <body>
 <br clear="all" />
 
+<!-- Kraustralia_20 Mornington, Day 2  ----------------------------- --->    
 
-<!-- Kraustralia_19  ----------------------------- --->    
+<body>
+<div class="content">
+<a id="kraustralia_20">
+  <h3>Mornington, Day 2</h3> <br/>
+</a>
+<i>21 March 2015 </i> <br/>
+Mornington Peninsula, Vic <br/>
+<br/>
 
-<!-- To the Mornington Peninsula -->
-<!-- MARCH 20, 2015 -->
-<!-- For Erin's upcoming birthday we decided to finally leave the comforts of the big city and venture into rural Victoria -- the Mornington Peninsula to be precise.  To do so meant renting a car and driving. Not just any driving, but driving on the left hand side of the road...or basically unlearning everything that you've been consciously (and sometimes not so) doing for the past 15-20 years.   -->
-<!-- We picked up our small Toyota at 9am on Friday morning, managed to convince the salesman that we knew what we were doing, entered the car on the correct side and managed to get out of the rental lot without hitting anything or anyone.  The first 15 minutes are weird.  It is very hard to estimate the extents of your vehicle and we took a slow, circuitous route home to pick up our luggage and were off.  The next 45 minutes are a bit less weird and finally after about an hour or so of driving it starts to feel somewhat natural.   -->
-<!-- Out of the city, we continued on the Nepean highway to the little town of Mornington and stopped for breakfast.  From there we took the bay side road all the way to the Nepean Point National Park.  The parking lot was located in the old hospital and quarantine grounds that were used to offload passengers from British ships and stop the spread of typhus or whatever other diseases the Brits were bringing this way.   -->
-<!-- ““ -->
-<!-- The old quarantine building -->
+Our last minute lodging at the Lindenderry Farm and Vineyards proved restful and we woke before sunrise to head to the Mornington Peninsula Hot Springs. With over twenty mineral pools to dip and soak in, we thought it would be the perfect morning activity. As the first people through the door, hustled up the hill to stake our claim in the aptly named Hilltop pool.  Doing so enabled us to catch sunrise with a 360 degree views all to ourselves. As other guests started to show up to the best pool in the land, we made our way down the hill to try out each of the different mineral pools.
 
-<!-- From there, we hiked the coast all the way to the end of the Peninsula and the former Fort Nepean.  Along the we checked out many of the bunkers, though for fear of snakes and poisonous spiders elected to remain on the exterior.   The threat of unexploded ordnance, however, couldn't quite keep our adventurous spirits in check.  -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- Fort Nepean -->
-<!-- We took the road on the way back and ran into our first large native monotreme, an echidna. Despite Erin's attempts to get a selfie with our new friend, he remained completely oblivious to us and cared only about sucking ants up out of the ground. -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- After our hike, we drove down to the Cape Schanck lighthouse, our intended accommodation for the evening.  Upon arrival, we were notified that they were full and that they had not received our reservation details from Expedia.  After 90 minutes of phone calls to various parties we were able to wrangle a refund from Expedia (or so we've been promised).  Each side blamed the other and tried to set us up elsewhere, but we just took the money and ran.  Most places were full on a Friday night but we were able to grab a room at the Lindenderry Farm and Winery up on Red Hill.  We slept comfortably after a long day of beach hikes, driving and phone calls with various customer service representatives. -->
-<!-- This was our first trip out to the open ocean (as Melbourne is on Port Philip Bay) and it is every bit as wild, windy and rugged as imagined.   -->
+Erin loves lighthouses. There is something romantically lonely and tragic about them and they are always anchored on some patch of wild coastline like a brave little pawn. The Cape Schanck Lighthouse was no different, and even though we weren't able to spend the night there as planned...we did return today to hike along the coastal trails of the National Park. Although the weather was hot and sunny, the wind made the temperature feel quite brisk, and after walking down the many stairs from lighthouse, we tucked in to this little cove and stretched out on the warm rocks before the steep hike back up the cliffs.
 
+We spent the remainder of the day driving along the coast from small town to small town.  We stopped at a beach outside of Flinders to watch the surf competition that was in progress and next, in the town of Sorrento, at the sports fields to watch an ongoing game of Australian Rules Football. We had apparently parked in the equivalent of the endzone and our rental card got hit a few times by the ball. We probably could not have been less obvious as outsiders if we been sprinting around draped in a house-sized American flag.  To finish the day, we met up with some of our new friends at a particularly photogenic beach cove in the town of Portsea for 'sun-downers'. With our new mates, local wine and our toes buried in the sand, we toasted to the weekend.
+
+ <figure>
+     <img src="images/kraustralia_20_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_20_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_20_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_20_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+  <figure>
+     <img src="images/kraustralia_20_5.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
