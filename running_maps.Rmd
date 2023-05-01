@@ -121,8 +121,8 @@ tm_shape(`Trail Runs`, bbox = bbox_sji) +
 
 bbox_maz <- st_bbox(trailruns_sf)  
 bbox_maz[1] <- -120.53
-bbox_maz[2] <- 48.50
-bbox_maz[3] <- -120.28
+bbox_maz[2] <- 48.40
+bbox_maz[3] <- -120.08
 bbox_maz[4] <- 48.66
 
 tmap_mode("view")
