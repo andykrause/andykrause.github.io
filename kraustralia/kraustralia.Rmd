@@ -560,4 +560,28 @@ The city is a ghost town.  It is Easter weekend, a national holiday, and it woul
  </content>
 <body>
 <br clear="all" />
+
+<!---- Kraustralia 23 Mornington, Day 2  ------------------------------- -->
+<body>
+  <div class="content">
+
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_23">
+     <img src="images/kraustralia_23_0.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Grampians National Park</h3> <br/>
+<i>6-7 April 2015 </i> <br/>
+Halls Gap, Vic <br/>
+<br/>
+ 
+Toward our effort to explore our new state of Victoria, we took a quick two-day trip out for some bushwalking in the [Grampians National Park](https://www.visitgrampians.com.au/discover-the-region). The Grampians Mountain Range, or Gariwerd as known to the local Aboriginals, is a photogenic sandstone range that runs north-south cutting through the Victorian plains. <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_23">... (click for more)</a>.
+
+  </p>
+ </content>
+<body>
+<br clear="all" />
+             
              

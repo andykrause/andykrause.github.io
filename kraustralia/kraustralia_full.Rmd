@@ -971,7 +971,7 @@ With Erin gone, I get the hammock to myself and have been eating a variety of gr
 Melbourne, Vic <br/>
 <br/>
 
-The city is a ghost town.  It is easter weekend, a national holiday, and it would appear that most of our neighborhood and a fair bit of the city are off for a final summer's weekend someplace else.  
+The city is a ghost town.  It is Easter weekend, a national holiday, and it would appear that most of our neighborhood and a fair bit of the city are off for a final summer's weekend someplace else.  
 
 That included the shop owners and retail clerks.  As everything was closed up tight, we walked to the Royal Botanic Gardens which are open every day free of charge. The Gardens were established in 1846 on a swampy site near the Yarra River.  As the city expanded around the garden, the 38 hectares, (or 93 acres if you constantly forget what a hectare is like I do), remained, and continued to develop into the verdant treasure it is today.
 
@@ -993,17 +993,44 @@ That included the shop owners and retail clerks.  As everything was closed up ti
 <body>
 <br clear="all" />
 
+<!-- Kraustralia_23 Grampians ----------------------------- --->    
 
+<body>
+<div class="content">
+<a id="kraustralia_23">
+  <h3>Grampians National Park</h3> <br/>
+</a>
+<i>6-7 April 2015 </i> <br/>
+Halls Gap, Vic <br/>
+<br/>
 
+Toward our effort to explore our new state of Victoria, we took a quick two-day trip out for some bushwalking in the [Grampians National Park](https://www.visitgrampians.com.au/discover-the-region). The Grampians Mountain Range, or Gariwerd as known to the local Aboriginals, is a photogenic sandstone range that runs north-south cutting through the Victorian plains. The park is about 160 miles west of Melbourne, so we set out early Monday morning in our little rental car with two goals: 1) To keep to the left side of the road; and 2) To see some kangaroos in their natural habitat. 
 
-<!-- Day 23 -->
-<!-- Grampians NP -->
-<!-- In efforts to explore our new state of Victoria, we took a quick two day trip out for some bushwalking in the Grampians National Park.  The Grampians Mountain Range, or Gariwerd as named by the local Aboriginals, is a photogenic sandstone range that runs north-south cutting through the Victorian plains.  Grampians National Park is about 160 miles west of Melbourne, so we set out early Monday morning in our little rental car with a goal to stay on the left side of the road and finally see some Kangaroos. -->
-<!--  We reached the small town of Hall’s Gap at the base of the National Park and despite the windy and overcast conditions, we spent the day exploring the waterfalls, lookouts and canyons. -->
-<!-- ““ -->
-<!-- That afternoon as we drove back through Hall’s Gap on the way to our hotel, we realized that there were dozens of Kangaroos scattered in every field we passed.  Since moving to Australia, we went from a Kangaroo count of zero to over three hundred in one day.  -->
-<!-- ““ -->
-<!-- On Tuesday morning we left the hotel early in order to tackle one of the parks more popular hikes, The Pinnacle.  We needn’t have worried, since it was lightly showering and extremely windy. We were the only car at the trailhead both when we arrived and left, so we had the hike all to ourselves.  The solitude coupled with the dramatic weather made the summit of the Pinnacle eerie, and even though we didn’t get the sweeping views that hike normally promises, it was well worth the scramble. -->
+We reached the small town of Hall’s Gap at the base of the National Park in the mid-morning.  The weather was very Pacific Northwest-y, but we braved the windy and overcast conditions to spend the better part of the day exploring waterfalls, lookouts and canyons.
+
+That afternoon as we drove back through Hall’s Gap on the way to our hotel, we realized that there were dozens of Kangaroos scattered in every field we passed.  Since moving to Australia, we went from a Kangaroo count of zero to over three hundred in one day.  
+
+On Tuesday morning we left the [Grampians Motel](https://grampiansmotel.com.au/) early in order to ensure a parking spot as we undertook one of the parks more popular hikes, The Pinnacle. We needn’t have worried, as it was lightly showering and extremely windy we were the only car at the trailhead both when we arrived and left. The solitude coupled with the dramatic weather made the summit of the Pinnacle eerie, and even though we didn’t get the sweeping views that hike normally promises, it was well worth the scramble. 
+
+ <figure>
+     <img src="images/kraustralia_23_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+ <figure>
+     <img src="images/kraustralia_23_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+ <figure>
+     <img src="images/kraustralia_23_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+ <figure>
+     <img src="images/kraustralia_23_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+</content>
+<body>
+<br clear="all" />
+
 
 <!-- Day 24 -->
 <!-- A Game of 'Footy' -->
