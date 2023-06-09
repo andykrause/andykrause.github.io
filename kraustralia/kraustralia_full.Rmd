@@ -1362,3 +1362,40 @@ I continued my walk to Federation Square, but instead of stopping at the festive
 </content>
 <body>
 <br clear="all" />
+
+
+<!-- Kraustralia_32 Heide Art Museum --->    
+
+<body>
+<div class="content">
+<a id="kraustralia_32">
+  <h3>Heide Art Museum</h3> <br/>
+</a>
+<i>22 July 2015 </i> <br/>
+Heidelberg, Vic <br/>
+<br/>
+
+[Erin] Earlier this week, on a day that promised to have 0% chance of rain, I took a bike ride out of town to visit the Heide Museum of Modern Art. A 20 kilometer bike ride from the city, the Heide sits within 15 acres of parklands.  The land was purchased by John and Sunday Reed in 1934. And what was initially their home of a farm house, (Heide I) and kitchen garden, evolved into a bohemian refuge for young artists and creative visionaries of the time.  With a great appreciation of modern art, John and Sunday helped to establish the Gallery of Contemporary Art, later evolving into the Museum of Modern Art of Australia. After they outgrew the small farmhouse in the mid-1960’s, the Reeds commissioned the modernist architect David McGlashan to design another house, (Heide II), or as they envisioned, ‘a gallery to be lived in’.Today, along with the Reed’s two previous houses Heide I and Heide II, the museum has a new wing housing revolving exhibits, a café supported by the produce grown in the two sprawling kitchen gardens and acres of sculpture park.  I was inspired by such early vision in support of grass roots food culture, literature, architecture and art and fell in love with the museum.
+
+The museum itself was lovely… the bike ride there and back, not so much.
+In total, I ended up biking 45 kilometers, 5 of those because I got lost, the other 40 because I was a little aggressive on my goals for the day.  Most of the ride was on busy city streets where the Aussie drivers are perhaps aware rules do exist, but nevertheless, decide to ignore them.  In hopes of taking a back-road to get on the main trail system that runs along the Yarra River and leads to the museum, I found myself halfway down a freeway on-ramp before wildly aborting off the ramp into the bush.  Only in Australia can you accidentally find yourself bicycling onto a freeway.
+
+Once I found my way along the Yarra River, I had the trail all to myself, peaceful and fragrant with blooming Wattle and Eucalyptus trees. The bike ride home was less enjoyable since the trusty Melbourne weather report had changed dramatically and started to rain.  At least I took care not to get lost on the way home.
+Note to other potential Museum visitors: In order not to look like a jackass straight off, Heide is an affectionate abbreviation of the nearby suburb of 'Heidelberg' (in my experience, Australian's love to shorten all words, or lengthen them if they are already manageably short).  So I would recommend pronouncing 'Heide' similarly to the blonde girl from the Alps, not Hide and Seek, if you don't want the Museum patron to throw a considerable amount of shade.
+
+ <figure>
+     <img src="images/kraustralia_32_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+ <figure>
+     <img src="images/kraustralia_32_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+ <figure>
+     <img src="images/kraustralia_32_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+  
+</content>
+<body>
+<br clear="all" />
