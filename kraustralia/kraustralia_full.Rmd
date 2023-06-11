@@ -1399,3 +1399,45 @@ Note to other potential Museum visitors: In order not to look like a jackass str
 </content>
 <body>
 <br clear="all" />
+
+<!-- Kraustralia_33 Blind Date ------------>    
+
+<body>
+<div class="content">
+<a id="kraustralia_33">
+  <h3>Blind Date</h3> <br/>
+</a>
+<i>10 August 2015 </i> <br/>
+Frankston, Vic <br/>
+<br/>
+
+One perk of moving to a large, international city is that many of our friends, family and colleagues have connections here in Melbourne.  As a result, from time to time we get set up for, what could only be called, blind dates.  This Sunday was such an occasion.  One of Erin’s childhood friends had studied in New Zealand and knew a girl who happened to be living in the Melbourne area at the moment.  After a few emails and texts back and forth, we were set to visit them at 2pm on Sunday.  They lived in a suburb (exurb, really) known as Frankston.
+
+When our other friends were informed that we were headed to Frankston on Sunday, we were met with beguiled looks and subdued excitement, culminating in comments such as “Well, at least the beach is nice.”  My trainer at the gym was a bit more up-front (in a classic Aussie way):  “Mate, it’s a bit rough down there.”  Undaunted, we boarded the tram bound for Frankston.  Due to construction we had to transfer to a train and then to a bus; arriving in Frankston 2 hours later.
+ASIDE:  Australia definitely has some interesting taste sensations gracing the supermarket shelves.  The Frankston Safeway to be especially good fodder in our on-going search to located the finest (strangest) local flavours.  Today’s finds included Hot Dog flavoured potato chips (or crisps), the Grapetiser, a carbonated purple drink and Doritos Roulette (one in seven chips is especially spicy).  We purchased none of these items, but can do so on request if/when you, dear reader, decide to visit. 
+
+As promised, Frankston represented a segment of society rather absent from our current neighbourhood and much of Melbourne in general.  The area proximate to the train station where we waited for our blind date to pick us up was especially captivating.  Ten minutes in, a man approached us and asked if we were the Americans waiting for a ride.  It was Damien, the husband of Erin’s friend’s friend.  After answering in the affirmative, he said: “I knew it. You were the only people around here wearing shoes.”  This was quickly followed by:  “Are you Mormons?”  When we answered in the negative, he seemed visually relieved and said “Good, because I feel like having a few beers this afternoon.”  This sounded promising. 
+
+A short drive down the highway we arrived at their place which was very nicely located in the best part of town. Bridie, Damien’s pregnant wife, greeted us at their home.  A very nice lunch was preceded by, continued through and eventually capped off by adult beverages and good conversation.   Damien, after being diagnosed with gluten intolerance a few months back, ordered, in his words, ‘a few cases of hard cider’ so as to still be able to ‘crack a cold one’ from time to time.  Upon our tour of the home we discovered that ‘a few’ meant 200.  Cases.  His basement man-cave has over 4,500 bottles of cider waiting to be consumed.  We put, but a small dent in that.  The truly sad (funny?) part of the story is that he was mis-diagnosed and it is actually a fructose allergy that he has and should not be drinking cider at all. 
+
+Bridie drove us all back to the train station and our trip home commenced.  But not without a case of cider to go and a few open ‘roaddies’ for the 30 minute ride back to the Mordialloc station.  One of our best blind dates yet.  If invited back, we’ll definitely make the trip to Frankston again. 
+
+ <figure>
+     <img src="images/kraustralia_33_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+   <figure>
+     <img src="images/kraustralia_33_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+   <figure>
+     <img src="images/kraustralia_33_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+   <figure>
+     <img src="images/kraustralia_33_4.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+
+</content>
+<body>
+<br clear="all" />
