@@ -103,7 +103,7 @@ bbox_sji <- st_bbox(trailruns_sf) # current bounding box
 bbox_sji[1] <- -123.17
 bbox_sji[2] <- 48.39
 bbox_sji[3] <- -122.42
-bbox_sji[4] <- 48.74
+bbox_sji[4] <- 48.75
 
 tmap_mode("view")
 
