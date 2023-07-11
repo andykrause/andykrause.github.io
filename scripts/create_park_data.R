@@ -15,7 +15,7 @@
   library(sf)
 
   ## Load Custom Functions
-  source(file.path(getwd(), 'scripts', 'mapping_functions.R'))
+  source(file.path(getwd(), 'functions', 'mapping_functions.R'))
 
 ### Create Data ---------------------------------------------------------------------------------
 

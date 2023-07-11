@@ -25,7 +25,7 @@ editor_options:
  
  ## Source Files
   
-  source(file.path(getwd(), 'scripts', 'mapping_functions.R'))
+  source(file.path(getwd(), 'functions', 'mapping_functions.R'))
 
  ## Set Parameters
   
@@ -126,6 +126,67 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 &nbsp;
 
+---------------------------------------------------------------------------------------------------
+
+#### 135) [Matia Island](https://www.parks.wa.gov/544/Matia-Island): 
+
+&nbsp;
+&nbsp;
+
+```{r matia_island, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_matiaisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Matia Island"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Three years ago we pulled into the little bay on the west side of Matia Island, intent on docking and hiking the island.  No moorage was available and, staying nearby on the north shore of Orcas we decided to return again the next day, opting for a trip to Sucia instead.  We did not return that trip and Matia Island has remained 'the one that got away' for the past three years.  Now, camping at Sucia, we decided to not make that mistake again.  
+
+<img src="images/waparks_matiaisland.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+We packed up camps early on a Sunday morning. After two nights with kids, the three families were ready to be home and clean and settled...and mostly no longer laboring to keep eight kids all under the age of eight from killing themselves on sharp rocks or drowning in the frigid waters of the Salish Sea.  Matia was, more or less, on the way home and given that it got away last time and that we were so close to finishing, our gracious captain found a way to make it happen. 
+
+Pulling into the bay, we found room on the dock.  In a hurry to get back to Lopez to make our ferry, we didn't stay long.  Just enough time for Andy to run up the dock and onto the island, snap the requisite picture and then run back down. To the few bystanders it must have made a strange site; who comes all the way to this remote island to take a picture of a simple metal sign? Someone on a quest; a quest that has only two of 137 State parks remaining to visit.  That same someone who is also sharing a boat with a set of tired parents and impatient kids, all with hours of travel remaining today.   
+
+---------------------------------------------------------------------------------------------------
+
+#### 134) [Patos Island](https://www.parks.wa.gov/561/Patos-Island): 
+
+&nbsp;
+&nbsp;
+
+```{r patos_island, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_patosisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Patos Island"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+With only islands left, our Parks challenge had withered on the vine. Just four left yet ten months had gone by and no progress made. Lacking a boat, some islands are just hard to get to.  Fortune, however, found us on Sucia Island for two nights and, importantly, alongside a friend with a boat.   
+
+<img src="images/waparks_patosisland.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+Early on a calm Saturday morning we paddle the inflatable kayaks out to the boat, a 2021 Axopar moored in Shallow Bay. Fifteen short minutes later we were dropping anchor in Active Cove nestled between Patos and Little Patos Islands.  It is a tight little space and all that amounts to a protected bay on this, the farthest northwest corner of the San Juans. We beach the inflatable next to some legitimate sea kayaks and, surprisingly, three jet skis which are illegal in the county.  
+
+The trail to the lighthouse -- Patos' most famous artifact -- is well marked and in short order we came upon a sidewalk in the woods. Narrow and old, but in much better condition than many of those in Seattle.  We followed this remnant of another era all the way to the lighthouse. A once vital marker for safe sea travel, it is now a shuttered, but picturesque, building guarding only our history.  We basked in the sunlight and drank in the views (you can see all the way to the Vancouver skyline) while speculating as to the where all the additional offshoots of the sidewalk once led. Then quickly back to the boat and reverse course to our campsite. 
 
 ---------------------------------------------------------------------------------------------------
 

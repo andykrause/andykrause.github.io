@@ -18,7 +18,7 @@
 
   ## Load Custom Functions
   source(file.path(getwd(), 'scripts', 'create_park_data.R'))
-  source(file.path(getwd(), 'scripts', 'mapping_functions.R'))
+  source(file.path(getwd(), 'functions', 'mapping_functions.R'))
  
   ## Load Data
   data_df <- readRDS(file.path(getwd(), 'data','created', 'data.RDS'))
