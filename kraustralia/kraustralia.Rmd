@@ -13,7 +13,7 @@ editor_options:
 <br/>
 <br/>
 
-<!--- 0 Let's Go Anywhere ----------------------------------------------------------------------------- -->
+#<!--- 0 Let's Go Anywhere ----------------------------------- -->
 
 <body>
   <div class="content">
@@ -37,7 +37,7 @@ editor_options:
 <body>
 <br clear="all" />
 
-<!--- Kraustralia 1  ------------------------------------------ -->
+#<!--- 1 Arrival in Melbourne  ------------------------------------------ -->
 <body>
   <div class="content">
 
@@ -918,5 +918,72 @@ Eric and Erin ventured out to the Heide Museum of Modern Art for a late lunch in
  </content>
 <body>
 <br clear="all" /> 
+
+# <!---- 39 Mornington Day Trip ------------------------------------------- -->
+<body>
+  <div class="content">
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_39">
+     <img src="images/kraustralia_39_0.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Mornington Day Trip</h3> <br/>
+<i>12 September 2015 </i> <br/>
+Portsea, Vic <br/>
+<br/>
+
+The weather called for 0% chance of rain so we decided to drive down to the Mornington Peninsula for the day. Naturally it started raining on us as we reached our first stop at the Cranbourne Royal Botanical Gardens.  These gardens were magnificent.  We can only imagine that the designers that got to work on this job were in heaven.  Within the featured Australian Garden, there were twenty or so individual <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_39">... (click for more)</a>.
+
+  </p>
+ </content>
+<body>
+<br clear="all" /> 
+
+# <!---- 40 And they are off... ------------- -->
+<body>
+  <div class="content">
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_40">
+     <img src="images/kraustralia_40_0.jpg" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>And they are off...</h3> <br/>
+<i>14 September 2015 </i> <br/>
+Flemington, Vic <br/>
+<br/>
+
+Horse racing in Victoria still maintains a measure of cultural and social importance.  Or, in other words, still offers members of polite society a chance to dress up and remind themselves that they are still members of polite society. The horses themselves are a bit of an afterthought.  Being two immigrants and a tourist, we first checked the style guide – no jodhpurs, cravats, <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_40">... (click for more)</a>.
+
+  </p>
+ </content>
+<body>
+<br clear="all" /> 
+
+# <!---- 41 Last Hurrah (for Eric) ------------- -->
+<body>
+  <div class="content">
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_41">
+     <img src="images/k41_0.jpg" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Last Hurrah (for Eric)</h3> <br/>
+<i>16 September 2015 </i> <br/>
+Halls Gap, Vic <br/>
+<br/>
+
+Eric's time with us was quickly coming to an end.  A successful first time for us hosting a fellow Yank. With the glorious spring weather, we snuck in one last little trip -- a one night excursion to the Grampians -- before Eric was set to return to America.  We had been to the <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_23"> Grampians before </a> but still had plenty to explore. <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_41">... (click for more)</a>.
+
+  </p>
+ </content>
+<body>
+<br clear="all" /> 
+
 
 

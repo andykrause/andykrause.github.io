@@ -14,7 +14,7 @@ editor_options:
 <br/>
 <br/>
 
-<!-- Kraustralia 0 ----------------------------- --->  
+#<!-- Kraustralia 0 ----------------------------- --->  
 
 <body>
 <div class="content">
@@ -44,7 +44,9 @@ We'll be there soon and once we arrive we'll do our best to document our adventu
 <body>
 <br clear="all" />
 
-<!-- Kraustralia 1 ----------------------------- --->  
+
+
+#<!-- Kraustralia 1 ----------------------------- ---> 
 
 <body>
 <div class="content">
@@ -111,7 +113,8 @@ After a few wrong turns down some tricky one-way alleys, our driver found our Ai
 <body>
 <br clear="all" />
 
-<!-- Kraustralia 2 ----------------------------- --->  
+
+#<!-- Kraustralia 2 ----------------------------- --->  
 
 <body>
 <div class="content">
@@ -157,7 +160,7 @@ On our first full day, we dove right into the culture with a cup of morning tea 
 <body>
 <br clear="all" />
 
-<!-- Kraustralia 3 ----------------------------- --->  
+#<!-- Kraustralia 3 ----------------------------- --->  
 
 <body>
 <div class="content">
@@ -1658,7 +1661,7 @@ With Eric as our first guest, we are relishing the position of being tourists ag
 
 <body>
 <div class="content">
-<a id="kraustralia_37">
+<a id="kraustralia_38">
   <h3>Heide Sculpture Garden</h3> <br/>
 </a>
 <i>10 September 2015 </i> <br/>
@@ -1680,3 +1683,151 @@ Erin's favorite part about the entire place was a small commissioned garden near
 </content>
 <body>
 <br clear="all" />
+
+
+# <!-- 39: Mornington Adventure ------------>    
+
+<body>
+<div class="content">
+<a id="kraustralia_38">
+  <h3>Mornington Day Trip</h3> <br/>
+</a>
+<i>12 September 2015 </i> <br/>
+Portsea, Vic <br/>
+<br/>
+
+The weather called for 0% chance of rain so we decided to drive down to the Mornington Peninsula for the day. Naturally it started raining on us as we reached our first stop at the Cranbourne Royal Botanical Gardens.  These gardens were magnificent.  We can only imagine that the designers that got to work on this job were in heaven.  Within the featured Australian Garden, there were twenty or so individual exhibition gardens highlighting the varied Australian plant communities.  Erin took hundreds fewer pictures than she would have liked and tried to keep up with Andy and Eric.
+
+The weather cleared up as we reached the seaside town of Sorrento where we stopped for lunch.  Sorrento has a mellow downtown with a lazy summer vacation feel.  Since all of the views look like the below photos it is likely that everyone who lives here is actually staying at their second or third home, so we could actually be correct about the vacation vibe.  We ate at a café called Cakes & Ale, and although we sampled neither of their namesake edibles, we were all extremely satisfied with our orders.
+
+At the end of the road, we arrived at Point Nepean National Park and we started our hike along a new track that we hadn't previously explored.  Previously a military base, the park is part historical site, part ecological preserve.  Left to be covered by sand and taken over by native vegetation after WWII, the military bunkers and tunnels were carefully excavated in 1988 when the point was designated a National Park.  The bunkers, barracks and gun emplacements were built into the sandy slopes of Point Nepean which made for hours of exploring.  After hiking out to the Fort at the end of the point, we followed each hidden tunnel and staircase before returning back.
+
+Heading back to the city just before sunset, we stopped at a viewpoint that looked back over the peninsula that we had spent the day exploring.   Instead of marveling at the sunset, we ended up spending most of our time taking pictures of the huge pack of kangaroos that were grazing in the park.  Most of the kangaroos paid no attention to us excitable tourists, but one overly large and aggressive male kept an eye on us the entire time, making kangaroo grunt noises and seemingly trying to outflank us on our path back to the car.  We tactfully took our leave in order to avoid a confrontation.
+
+ <figure>
+     <img src="images/kraustralia_39_1.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+   <figure>
+     <img src="images/kraustralia_39_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+   <figure>
+     <img src="images/kraustralia_39_3.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+   <figure>
+     <img src="images/kraustralia_39_4.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+   <figure>
+     <img src="images/kraustralia_39_5.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+   <figure>
+     <img src="images/kraustralia_39_6.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+   <figure>
+     <img src="images/kraustralia_39_7.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+   <figure>
+     <img src="images/kraustralia_39_8.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+</content>
+<body>
+<br clear="all" />
+
+# <!-- 40: And they are off... ------------>    
+
+<body>
+<div class="content">
+<a id="kraustralia_40">
+  <h3>And they are off...</h3> <br/>
+</a>
+<i>14 September 2015 </i> <br/>
+Flemington, Vic <br/>
+<br/>
+
+Horse racing in Victoria still maintains a measure of cultural and social importance.  Or, in other words, still offers members of polite society a chance to dress up and remind themselves that they are still members of polite society. The horses themselves are a bit of an afterthought.  Being two immigrants and a tourist, we first checked the style guide – no jodhpurs, cravats, safari suits, leggings worn as pants, pants tucked into socks, anoraks(?), beanies, midriff,  playsuits, scuffs, gumboots, Drizabone jackets or dilapidated footwear – put on our Saturday bests and made our way to Flemington Racecourse.  NOTE:  Foreign visitors are allowed to wear the “formal national dress of their country”…for Americans would that be an NFL jersey and sweatpants? 
+
+Dressed ‘smartly’, we arrived and errantly entered the Victoria Racing Club (VRC) Members-Only area.  Lacking any Rolex or Botox, it was obvious we were in the wrong place. After a bit of confusion and a discussion with an equally confused Lithuanian security guard we found our way to the General Admission section.  Down two escalators and up a set of stairs to find our people.  Well, mostly hardened track degenerates waving yellowed racing forums and about six dozen buck and hen (bachelor/bachelorette) parties.  The lawn area in front was littered with families who had staked various claims and spread out with veritable buffets of food and drink.  All carry-ins (except alcohol) are allowed, though security was so lax we probably could have rolled in with a keg of beer strapped to the back of an elephant and no one would have said a word (such is Australia’s adherence to the established rules).
+
+The middle (and best) seats in the grandstand are reserved for the VRC; we plebs were relegated to the aforementioned lawn or an area to the right of the grandstand near the finish line.  All in all, not bad seats.   To the very far right (and out of sight of the grandstand) is the VRC wine garden - an area where the 20-something sons and daughters of the VRC members can properly misbehave beyond the watchful eye of mum and dad.  I assume, by no mere coincidence, the general admission area is located between these two pillars of rot and mirth.  We had the joy of watching down-on-their luck young socialites traversing back and forth to replenish their coin purses from the family vault (or maybe just to use the toilets, hard to say).  All said, the track is a scene that can be enjoyed by all walks of life.  The gorgeous day and Melbourne skyline in the backdrop merely add to the experience.
+
+By some miracle we all ended up ahead on the day.  Erin by notching small victories with solid horses, Eric by meticulously analyzing his racing forum and Andy by hitting big on a long shot exacta box.  Granted, our wins were small and certainly not enough to cover the train fare and a round of beers, but winning is winning.  Our victorious day was made only more so by scoring the last available table at Hutong Dumpling House on the way home. Arguably, the best dumplings in the city.
+
+<figure>
+     <img src="images/kraustralia_40_1.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+<figure>
+     <img src="images/kraustralia_40_2.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+<figure>
+     <img src="images/kraustralia_40_3.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+<figure>
+     <img src="images/kraustralia_40_4.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+<figure>
+     <img src="images/kraustralia_40_5.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+<figure>
+     <img src="images/kraustralia_40_6.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure>
+  
+</content>
+<body>
+<br clear="all" />
+
+# <!-- 41: Last Hurrah ------------>    
+
+<body>
+<div class="content">
+<a id="kraustralia_41">
+  <h3>Last Hurrah (for Eric)</h3> <br/>
+</a>
+<i>16 September 2015 </i> <br/>
+Halls Gap, Vic <br/>
+<br/>
+ 
+Eric's time with us was quickly coming to an end.  A successful first time for us hosting a fellow Yank. With the glorious spring weather, we snuck in one last little trip -- a one night excursion to the Grampians -- before Eric was set to return to America.  We had been to the <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_23"> Grampians before </a> but still had plenty to explore.
+
+We arrived in the afternoon and took the long, windy road up to the lookout at Mount William.  While the views were worth the time, the most memorable part of this drive was listening to the Footy game on the radio.  One of the commentators was absolutely 'mad' and made no attempt to hide his preferred team, the absolute rottenness of the opponents and the lack of brain cells possessed by the officiating crew.  He was an old chap, thick accent; true Aussie bloke.  You could practically taste the Carlton Draught he most certainly had been drinking and was likely spilling down the front of his shirt (no sleeves) as he gesticulated wildly.  This is how footy ought to be experienced.  
+
+We retired to the Grampians Motel, our favorite, uncomfortable place to stay in th park.  We arose early -- well as early as Eric would let us -- did another rock scramble up a local peak and then made haste back to Melbs.  Eric flew out the next day; the nearly two weeks went by quickly.  Much was seen with nearly all the major dining destinations checked off of our big list.  We eagerly await our next visitor(s).  
+
+
+ 
+ <figure>
+     <img src="images/k41_1.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure> 
+ 
+ <figure>
+     <img src="images/k41_2.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure> 
+ 
+ <figure>
+     <img src="images/k41_3.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure> 
+ 
+ <figure>
+     <img src="images/k41_4.jpg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure> 
+ 
+ <figure>
+     <img src="images/k41_5.jpeg" align="left" width="250px" hspace="20" vspace="2" style="padding-bottom:0.5em">
+  </figure> 
+ 
+</content>
+<body>
+<br clear="all" />
+  
+
