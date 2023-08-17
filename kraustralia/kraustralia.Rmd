@@ -13,67 +13,71 @@ editor_options:
 <br/>
 <br/>
 
-#<!--- 0 Let's Go Anywhere ----------------------------------- -->
+# <!--- 0 Let's Go Anywhere ----------------------------------- -->
 
 <body>
   <div class="content">
    <p>
     <figure>
-      <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_0">
-      <img src="images/kraustralia_0_1.jpeg" align="left" width="250px" hspace="20" vspace="2">
+      <img src="images/kr_0.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
   <h3>Let's Go Anywhere </h3> <br/>
   <i>16 January 2015 </i> <br/>
      Seattle, WA <br/>
-   <br/>
+  <br/>
 
-   We are setting off to start our our new life in Melbourne, Australia. With us on this adventure is as little as we could imagine bringing to a new home halfway around the world, . Two bags for each of us to last until our half container pod of remaining essentials (and some not so) are set to arrive 4-6 weeks after we do. 
+We are setting off to start our new life in Melbourne, Australia. With us on this adventure is as little as we could imagine bringing to a new home halfway around the world. Two bags for each of us to last until our half container pod of remaining essentials (and some not so) are set to arrive 4-6 weeks after we do. 
 
-  We bid adieu to Alley 24, our home for <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_0">... (click for more)</a>.
-   </p>
+On a steel gray January morning we bid adieu to Alley 24, our home for nearly four years, tossed our two bags into the Subaru for the last time and drove up to Ballard to crash in our friend's 4' by 7' TV room. This will be our cozy accommodations for four nights until our flight on the 20th. Sometime in that span we'll be selling our trusty steed and further shedding some last possessions that missed the boat but can't be justified in the checked luggage. 
+
+Now that we are unemployed, transient couch surfers the enormity of the move must be faced.  No more second guessing the decision, no more dreamy discussions. Now just real, live logistics -- an AirBnB, work visas, money transfers, international shipping manifestos, packing re-packing our luggage.  
+
+We'll be there soon and once we arrive we'll do our best to document our adventure here so feel free to follow along as we share the highlights of our life Down Under.
+
+  </p>
   </content>
 <body>
 <br clear="all" />
 
-#<!--- 1 Arrival in Melbourne  ------------------------------------------ -->
+# <!--- 1 Arrival in a Strange Land ------------------------------------------ -->
 <body>
   <div class="content">
 
    <p>
     <figure>
-     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_x">
-     <img src="images/kraustralia_1_4.jpg" align="left" width="250px" hspace="20" vspace="2">
+     <img src="images/kr_1.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
-<h3>Arrival in Melbourne </h3> <br/>
+<h3>Arrival in a Strange Land </h3> <br/>
 <i>22 January 2015 </i> <br/>
 Melbourne, Vic <br/>
 <br/>
-A full twenty-four hours after leaving Seattle -- via our scheduled Los Angeles stop and our unscheduled Sydney one -- we arrived in Melbourne. Immigration and customs took a matter of minutes, either a nod to Australian efficiency or, possibly, apathy. Our journey to the taxi stand took us outside and into the heat, a very welcome 36C (97F) heat. As our cab headed into the city our fatigue and exhaustion melted away as our new home came into view out of the car <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_1">... (click for more)</a>.
+
+A full twenty-four hours after leaving Seattle -- via our scheduled Los Angeles stop and our unscheduled Sydney one -- we arrived in Melbourne. Immigration and customs took a matter of minutes, either a nod to Australian efficiency or, possibly, apathy. Our journey to the taxi stand took us outside and into the heat, a very welcome 36C (97F) heat. As our cab headed into the city our fatigue and exhaustion melted away as our new home came into view out of the car windows.  We had made it. Our new lives here were a blank canvass waiting for us to fill them with memories of a lifetime. This blew a strong wind into our sails; ready we were to see what this continent has to offer. 
+
+After a few wrong turns down some tricky one-way alleys, our driver found our AirBNB flat <em>(apartment)</em> and set us free. We dumped our luggage, changed into our bathers <em>(swimsuits)</em> and headed down to the St. Kilda beach to showcase the whitest skin in all of Oz <em>(Australia)</em>, perhaps the Southern Hemisphere. In the mid-arvo  <em>(afternoon)</em>,our hunger pangs drove us from the beach to Fitzroy Street for a snack.  We cashed in our gift certificate to [Milk the Cow](https://milkthecow.com.au/), a wine and cheese shop near the beach. All manner of fancy spreads and cuts were brought our way; all consumed in short order.  We retired for our first night down under, but not before catching a few matches of The Tennis <em>(The Australian Open)</em> on The Tele <em>(TV)</em>. 
 
    </p>
   </content>
 <body>
 <br clear="all" />
 
-<!---- Kraustralia 2 ---------------------------------------- -->
+# <!--- 2 Settling In ----------------------------------------- -->
 
 <body>
   <div class="content">
-
    <p>
     <figure>
-     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_2">
-     <img src="images/kraustralia_2_0.jpg" align="left" width="250px" hspace="20" vspace="2">
+     <img src="images/kr_2.jpeg" align="left" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
 <h3>Settling In </h3> <br/>
 <i>23 January 2015 </i> <br/>
-Melbourne, Vic <br/>
+St. Kilda, Vic <br/>
 <br/>
 
 On our first full day, we dove right into the culture with a cup of morning tea out on our deck.  The cool, marine breeze of the early morning soon gave way to summer heat. We took a long walk along the Bay Trail down to Point Ormond.  The way back was warm; the heat, the sweat, the sun on our skin all so wonderful after the last few months in wet and cool Pacific Northwest. We live here now. 
@@ -986,4 +990,96 @@ Eric's time with us was quickly coming to an end.  A successful first time for u
 <br clear="all" /> 
 
 
+# <!---- 42 Perth, then North ------------- -->
+<body>
+  <div class="content">
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_42">
+     <img src="images/k42_0.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Perth, then North</h3> <br/>
+<i>3-4 October 2015 </i> <br/>
+Perth(ish), Western Australia <br/>
+<br/>
+
+While our west coast trip was meant to get us out of the city, we did dedicate a morning to a small walkabout in central Perth.  It is a nice city, complete with multiple pedestrian zones, flashy new buildings and all the requisite retail chains, high end restaurants and tourist shops.  And when we say ‘nice’, we are hinting at <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_42">... (click for more)</a>.
+
+  </p>
+ </content>
+<body>
+<br clear="all" /> 
+
+
+# <!---- 43 Rotto ------------- -->
+<body>
+  <div class="content">
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_43">
+     <img src="images/k43_0.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Rotto</h3> <br/>
+<i>4 October 2015 </i> <br/>
+Rottnest Island, Western Australia <br/>
+<br/>
+
+While most of Australia was making its way to Melbourne to watch the Australian Football League Grand Finals, (the Aussie Superbowl), we were happily tucked into our small AirBnB in Fremantle, a suburb of Perth. After an evening of exploring town we booked morning tickets on the boat to <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_43">... (click for more)</a>.
+
+  </p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!---- 44 The Race that Stops a Nation ------------- -->
+<body>
+  <div class="content">
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_44">
+     <img src="images/k44_0.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>The Race that Stops a Nation</h3> <br/>
+<i>4 November 2015 </i> <br/>
+Melbourne, Victoria <br/>
+<br/>
+
+Tuesday was Melbourne Cup Day. It is the biggest race day of the 8-day Spring Carnival and a public holiday for all, except us lowly University employees.  This may seem a bit excessive for a horse race, but this is a country where gambling is as much of <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_44">... (click for more)</a>.
+
+  </p>
+ </content>
+<body>
+<br clear="all" />
+
+
+# <!---- 45 Things I'm Loving about Melbourne ------------- -->
+<body>
+  <div class="content">
+   <p>
+    <figure>
+     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_45">
+     <img src="images/k45_0.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Things I'm Loving about Melbourne</h3> <br/>
+<i>17 November 2015 </i> <br/>
+Melbourne, Victoria <br/>
+<br/>
+
+**ART & DESIGN EVERYWHERE**
+
+From government commissioned graffiti to land sculptures to temporary installations, this city supports art that will amaze you and engage you.
+Also, I’m pretty sure it is someone’s full time job to cover our neighborhood sidewalks with cheery chalk drawings. <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_44">... (click for more)</a>.
+
+  </p>
+ </content>
+<body>
+<br clear="all" />
 
