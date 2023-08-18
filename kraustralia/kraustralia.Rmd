@@ -71,7 +71,7 @@ After a few wrong turns down some tricky one-way alleys, our driver found our Ai
   <div class="content">
    <p>
     <figure>
-     <img src="images/kr_2.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     <img src="images/kr_2.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
@@ -80,7 +80,9 @@ After a few wrong turns down some tricky one-way alleys, our driver found our Ai
 St. Kilda, Vic <br/>
 <br/>
 
-On our first full day, we dove right into the culture with a cup of morning tea out on our deck.  The cool, marine breeze of the early morning soon gave way to summer heat. We took a long walk along the Bay Trail down to Point Ormond.  The way back was warm; the heat, the sweat, the sun on our skin all so wonderful after the last few months in wet and cool Pacific Northwest. We live here now. 
+On our first full day we dove right into the culture with a lazy cup of morning tea ([Twinnings] (https://twinings.com.au/), of course) on the deck.  The cool, marine breeze of the early morning quickly gave way to summer heat. Inspired to experience this new place we took a long walk along the [Bay Trail](https://en.wikipedia.org/wiki/Bay_Trail_(Australia)) down to Point Ormond. This is a truly fantastic trail. Kilometers upon kilometers of pricey coast real estate dedicated solely to public use. We will undoubtedly spend considerable time moving to and fro on non-vehicular thoroughfare. Bikes must be purchased and soon.  Andy is keen on rollerblades; Erin not so much so.  
+
+The walk back was warm; the heat, the sweat, the sun on our skin all so wonderful after the last few months in wet and cool Pacific Northwest. We live here now. 
 
    </p>
   </content>
@@ -88,15 +90,14 @@ On our first full day, we dove right into the culture with a cup of morning tea 
 <br clear="all" />
 
 
-<!---- Kraustralia 3 ---------------------------------------- -->
+# <!--- 3 The Tennis ----------------------------------------- -->
 
 <body>
   <div class="content">
 
    <p>
     <figure>
-     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_3">
-     <img src="images/kraustralia_3_0.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     <img src="images/kr_3.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
@@ -105,22 +106,27 @@ On our first full day, we dove right into the culture with a cup of morning tea 
 Melbourne, Vic <br/>
 <br/>
 
-For three weeks in late January / early February all eyes -- in the tennis world at least -- are on Melbourne and the Australian Open.  Or, more affectionately referred to here on the ground as <em> The Tennis </em>. The cultural immersion program we had set for ourselves dictate that we attend, and that we did.  A gorgeous, sunny Saturday with temperatures near 30C (86F), we arrived early, as did the rest of <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_3">... (click for more)</a>.
+For three weeks in late January and early February all eyes -- in the tennis world at least -- are on Melbourne and the [Australian Open](https://ausopen.com/).  Or, more affectionately referred to here on the ground as <em> The Tennis </em>. The cultural immersion program we had set for ourselves dictated that we attend.  
+
+On a gorgeous, sunny Saturday with temperatures near 30C (86F) we arrived early, as did the rest of the city. Tickets to the two main courts were sold out so we settled for ground passes. A ground pass allows access to all other venues but main courts, including the very large Hisense Arena. Our lack of planning did mean we'd miss Venus Williams' match; however, our early arrival permitted a viewing of Serena practicing from up close, so not all was lost. It should not go unmentioned that the lines to enter the cultural events -- the beer and wine gardens -- stretched on to the far reaches of the grounds as Melbourne's 20-somethings shook off last night's hangover and queued up for another run at it. No prom or gala in America had anything on this scene.
+
+Serena's practice session sated our patriotic hunger; next on to Hisense for some live matches. Prior to the opening 11am match seats were plentiful.  As rookies do, we made a rookie mistake and sat in the glaring sun, amazed at why such good seats were available when less optimal ones (shaded) were taken.  A few hours later, the place was packed and we were sweating through our clothes, the full power of antipodal sun baking our pale northern bodies. We endured two hours of roasting to see the Spaniard, Muguruza, down Bacsinszky of Switzerland in a hard fought women's singles match. A welcome relief as the shade enveloped us for match two. Here, the 8th ranked Montenegro-Canadian Milos Raonic used his 220+ km/h serve to breeze by the scrappy Benjamin Becker of Germany.
+
+The grounds were throbbing full at this point and, needing food and drink, we called it a day and left for home.  Our hunger and thirst pulled us into a pit stop at the Royal Croquet Club's (RCC) off-site Aussie Open extravaganza...basically a massive beer garden with food trucks, croquet courts and a DJ spinning house music. Attendance was thin -- it was early -- but judging by the size of the beer stands it would become a righteous rave later in the evening. Still jet-lagged and a good decade older than the intended demographic we could not muster the resolve to go on a day-long drinking spree and, after a delicious snack and two Hahn Lights, made our way home. Cultural immersion complete for today.
 
    </p>
   </content>
 <body>
 <br clear="all" />
 
-<!---- Kraustralia 4 Market Day ---------------------------------------- -->
+# <!--- 4 Market Day ----------------------------------------- -->
 
 <body>
   <div class="content">
 
    <p>
     <figure>
-     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_4">
-     <img src="images/kraustralia_4_0.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     <img src="images/kr_4.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
@@ -129,31 +135,36 @@ For three weeks in late January / early February all eyes -- in the tennis world
 Melbourne, Vic <br/>
 <br/>
 
-The Queen Victoria Market is both a tourist trap full of fake Australian Outback hats and crocodile wallets as well as fully functional grocery store and mercantile. Where else can you buy a pallet of kangaroo pelts, mystery crystals, footie gear, toothpaste, antique collectibles and a dozen duck eggs all in the same place.  There is truly something for everyone.  We bought none of the above, <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_4">... (click for more)</a>.
+The [Queen Victoria Market](https://qvm.com.au/) is both a tourist trap full of fake Australian Outback hats and crocodile wallets as well as fully functional grocery store and mercantile. In what other seven hectare space upon the face of this earth can you buy a pallet of kangaroo pelts, powerful mystery crystals, Footie gear, a 55-gallon drum of raw almonds, Crest toothpaste, collectible dolls, antique hunting knives and a dozen fresh duck eggs? Any form of great quest can be outfitted from here; same too for fulfilling the needs of most eccentric among us. There is truly something for everyone. We bought none of the above, instead spending most our time investigating the widest variety of cured meats we'd ever seen. 
+
+[Erin] Being from Seattle, my expectations of coffee are high. Melbourne's reputation as having a world class coffee culture proceeds it. In the three days we've been here, I've found it to be as promised and have been been gleefully sampling from a variety of new favorite, local cafes. [Market Lane Coffee](https://marketlane.com.au/pages/south-melbourne-cafe) has a corner shop in the Queen Vic Market and since I wasn't really sure what a flat white or a long black would end up as, I ordered a cappuccino like a pro, right up until I tried to pay for a $4 coffee with two 20 cent coins. (For some reason the smaller coins are larger amounts here). After Googling "long black" I decided it would be the closest to my Americano order back home and I can avoid looking like a complete dumbass next time.  I am also adding this bit of information to save you all from Googling "long black" in the workplace.
+
+With Market bags in hand and caffeine needs met, we took the tram back to our temporary home in St. Kilda for a sunny lunch on our patio. At some point we will stop acting like this is a vacation and get on with the details of finding a permanent dwelling, communicating with family, preparing for work, being responsible adults, but not quite yet...after all, we are still wearing fresh, clean clothes from our suitcases.  Life doesn't really start until laundry calls. 
 
    </p>
   </content>
 <body>
 <br clear="all" />
 
-<!---- Kraustralia 5 'Stralia Day ---------------------------------------- -->
+# <!--- 'Stralia Day ---------------------------------------- -->
 
 <body>
   <div class="content">
 
    <p>
     <figure>
-     <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_5">
-     <img src="images/kraustralia_5_0.jpeg" align="left" width="250px" hspace="20" vspace="2">
+     <img src="images/kr_5.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
 <h3>'Stralia Day</h3> <br/>
 <i>26 January 2015 </i> <br/>
-Melbourne, Vic <br/>
+Burwood, Vic <br/>
 <br/>
 
-Australia Day celebrates the 1788 landing of the British First Fleet in the Sydney Cove. We expected something like an Australian Fourth of July extravaganza. On account of souring public opinion over the ensuing treatment of the Aboriginal peoples, the reality of the holiday is something closer to a modest Columbus Day barbecue. As luck so had it, an old classmate of Erin's had recently moved to Melbourne <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_5">... (click for more)</a>.
+Australia Day celebrates the 1788 landing of the British First Fleet at Sydney Cove. We expected something like an Australian Fourth of July extravaganza. However, on account of souring public opinion over the ensuing treatment of the Aboriginal peoples, the reality of the holiday is something closer to a modest Columbus Day barbecue. As luck so had it, an old classmate of Erin's had recently moved to Melbourne and had extended to us an invite to a afternoon party out in [Wattle Park](https://www.parks.vic.gov.au/places-to-see/parks/wattle-park), east of the city. On the (not to scale) Melbourne tram map, it looked close enough. Ignorant of the speed, or lack thereof, of the tram system we jumped aboard the 16 Tram headed east then north through St. Kilda East, Balacava, Caulfield North, Malvern, Kooyong and then Hawthorn where we transferred to the 70 Tram whereupon we crawled through Hawthorn East, Camberwell, Surrey Hills and finally into Burwood, home to the Park of Wattle.  Along the way we were overtaken by many cyclists, scooters, rickshaws, jitneys, wheelchairs, mums with prams, stray dogs; really anything wheeled or anyone particularly fleet of foot was bound to pass us eventually.  
+
+Ninety or so minutes later we arrived. The beer that we purchased at the beginning of our journey was now fully the temperature of the ambient air. The small fete was enjoyable, a good chance to meet some local people and test our new land's ability to throw a bash. Marooned out here in the burbs, the only economically sensible thing to do was to ride the same slow pony back to town...at least we knew what to expect this time. We rewarded ourselves for our arduous travels with some of the world's greatest frozen yogurt, [Yo-Chi](https://yochi.com.au/). To walk off these excess calories, we ambled down to the beach to watch the sun dip below the gentle waves of Port Phillip Bay.
 
    </p>
   </content>
