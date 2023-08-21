@@ -56,9 +56,26 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 <img src="images/spacer.png" style="height:116%; border:0px solid; margin-right: 24px; margin-bottom:15px" align="left">
 &nbsp;&nbsp;
 
+### Epilogue
+
+&nbsp;
+&nbsp;
+
+At around 10:12 am on Saturday August 19th, 2023 we pulled our rented boat up onto the seaweed-strewn shore of Saddlebag Island, thus completing our State Parks Challenge. 1,331 days since we started on December 27, 2019. 
+
+No cheering crowds awaited, no State Parks director to shake our hands, no local news coverage, no Ed McMahon to hand us an over-sized check. And though we told the kids multiple times, they had forgotten about it the minute they stepped ashore, lured by the myriad treasures that secluded beaches hold for children (and adults, alike). Their ambivalence to the accomplishment, upon reflection, is actually exactly what we came to realize was the point of all of this. Looking back from the finish we acknowledge that it was not the result but the process, not the destination but the journey, that was the true reward. 
+
+We embarked on this quest to force ourselves out of the rut -- sometimes comfortable sometimes constraining -- that can be having small children and busy lives. And, we wanted to instill a love of nature in our children. We wanted to learn to travel lite (ish) and be ready to go at short notice. Along the way we learned many new things about native plants, peoples and the history of places; found new hobbies like geocaching and created memories too many to list.  As expected we also saw parts of the state that few venture to and now have a deeper appreciation of the wonders Washington has to offer.  In addition to the quality family time, we also nurtured an important life skill: that of getting used to the fact that many (most?) events and places and things are mediocre. Average is the norm. Life exists in that middle space.  But, critically, you must learn, you must work to find joy and creativity and excitement in them, mediocre or not. It is your response to things, places and events that matter more than the things, places and events themselves.  And nowhere is this more true than in parenting. This was the true lesson of this challenge. 
+
+We don't know what odd things we'll dream up next -- we are still basking in the glory and reflecting on the lessons of this one -- but rest assured we'll go into knowing that the some of it will exceed our expectations and most of it won't...and that it our job -- if we want to get the most of it -- to find ways to enjoy it all. 
+
+&nbsp;
+&nbsp;
+
+
 ---------------------------------------------------------------------------------------------------
 
-### **Progress**
+### **Maps and Stats**
 
 &nbsp;
 &nbsp;
@@ -125,6 +142,71 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 &nbsp;
 &nbsp;
+
+
+---------------------------------------------------------------------------------------------------
+
+#### 137) [Saddlebag Island](https://www.parks.wa.gov/576/Saddlebag-Island): 
+
+&nbsp;
+&nbsp;
+
+```{r saddlebag, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_saddlebagisland.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Saddlebag Island"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Saddlebag Island is uninhabited, but not far from civilization.  We had gazed upon it multiple times from various other parks and our trips through Anacortes, not to mentioned the hours Andy spent scheming about ways to get here via paddleboard, kayak or boat shuttle. Yet, Saddlebag remained elusive. Now it was the only one left. Looking to finish this quest off this summer, we finally bit the bullet and decided to ent a proper boat and motor out there. It is not clear what the demand for renting small powerboats is, but we can say with some certainty that the supply is definitely lacking.  There are many large, expensive yachts to charter and smaller sailboats to take on multiple day adventures, but the options for a family of four looking to self-navigate to small local island are basicall non-existent. After much scouring we found a small boat -- a 15' Whaler -- named Crab Lips that could be had for a day for what couldn't be called a princely sum, but also shouldn't be labeled a good deal.    
+
+<img src="images/waparks_saddlebagisland.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+We arrived at 9am sharp at the Anacortes Marina (just a few miles from Saddlebag) to check in for our rental.  After some paper work and idle chat with some 'boat guys' who were just hanging around the marina office drinking free Folgers, we had the keys.  The catch was that the boat was at the Skyline Marina on the far end of town (and much farther from Saddlebag) and that we had to locate a man named Barney to get it. This was shaping up to be more of an illicit narcotics deal than a standard commercial transaction. Ten minutes later, at the Skyline Marina the parking situation was a mess, likely intentionally so, and after driving into and out of a half dozen different lots, we gave up and parked right in front in an employee-only area. After a broken phone call and some wondering around various Marine building (all in good shape, but poorly signed) Barney turned out to the be the older gentleman working the main front desk and, in fact, he had a boat for us. Little Crab Lips sat ready for our use.  She had seen better days, but Barney assured us she was fully functional. He spent longer than necessary in our minds explaining the emergency radio, but safe if better than sorry. After some more forms and Barney's last minute engine checkup we were off.  
+
+Things started poorly as we gently rammed the dock in front of us when Andy switched it into drive and not reverse (in his defense, forward and reverse were opposite of every boat he'd ever driven).  We righted the vessel, aimed for the exit and cleared the marina without damaging any other boats.  Out on the Sound the first few miles of calm water gave way to rough chop once we hit the Anacortes Channel.  We were never in danger, but the waves plus the larger boat traffic were enough to toss our modest vessel to and fro. We were happy to find the lee up against Gueymas and continue our journey east in calmer seas. We were once again exposed to a rough patch between Gueymas and Saddlebag but that too was short-lived and soon we were nosing into the southern cove of Saddlebag Island.  It isn't a picturesque beach.  More mud and seaweed and barnacles than sand.  Making land the feeling of finality washed over us.  We had done it. We had visited all of the State's parks.  In slightly longer than we had expected but also with less disruptions to our lives than a one-year version would have caused.  
+
+Twas calm in the southern bay, protected from the consistent north wind.  After a snack, we ambled along the outer island path, coming upon a few groups huddled on the north bay, evidently much colder than we were.  We fished from the rocks, chased crabs and wonder about the possibilities of wading over to nearby Dot Island given it was low tide.  After a few hours, we packed up and headed back.  Again across two significant areas of rough water and then back to the calm bay south-west of Anacortes.  With a few more hours to spare, we made a side trip to Burroughs Island, a former State Park.  Just a little bonus to add to our accomplishment.  Crab Lips performed admirally, Barney a man of his word and our quest complete. 
+
+---------------------------------------------------------------------------------------------------
+
+#### 136) [Lime Kiln Point](https://www.parks.wa.gov/540/Lime-Kiln-Point): 
+
+&nbsp;
+&nbsp;
+
+```{r lime_kiln_point, echo =FALSE, cache = FALSE, fig.height = 2.2, message = FALSE, comment = FALSE}
+
+img <-
+  "images/map_limekilnpoint.png" %>%
+  magick::image_read() %>%
+  cropp(right = clipp, top = clipp, 
+        left = clipp, 
+        bottom = clipp) %>%
+  magick::image_scale(., '200')
+
+gridExtra::grid.arrange(rasterGrob(img), 
+                        makeTblx(visited_sf, "Lime Kiln Point"),
+                        nrow = 1,
+                        as.table = TRUE)
+```
+
+Our ferry was running late. But we were seated on an exposed rock over-looking the shimmering waters of the Salish Sea and the San Juan archipelogo.  There are worse places to be stuck.  And we could be thankful that this boat was running at all.  Our intended earlier sailing was scratched altogether on account of a lack of crew. Such is the San Juan Ferry system these days.  Might as well enjoy the fresh air and the scenery. 
+
+<img src="images/waparks_limekilnpoint.png" style="width:15%; border:1px solid; margin-left:20px; margin-right: 20px" align="right">
+
+We were headed to San Juan from Lopez.  It is an inter-island trek we rarely make. Friends had a place on the south end of the island that we were to crash at for a night.  And, importantly, we had plans to meet first at Lime Kiln Point State Park, one of two remaining parks for us to visit. Once our boat finally arrived and we boarded we were greeted with an open table containing a lighthouse-themed puzzle desperately in need of putting together.  The 40-minute crossing was too quick, though we did manage to get the edge pieces compiled and the border assembled. *Note: There are few things Andy enjoys more than a good puzzle and Erin has a special fondness for lighthouse.* We, the parents, were so engrossed in the work at hand that we let the kids run feral within the boat. One child ended up lodged under a vending machine while 'looking for money'. Other than a large grease spot on his leg no injuries occurred. Seventeen cents were found.   
+
+We disembarked about ninety minutes later than expected (3.5 hours if you count the first cancelled boat) but were in high spirits on account of the puzzle and the successful escape from the clutches of the numbered snack dispensary. The drive across the island is fabulous and we found the the parking lot at Lime Kiln Point surprisingly empty on this lovely Saturday afternoon. Our friends were prompt and the nine of descended to the hike the length of the waterfront, ending up in some nice tide pools complete with crabs and anenomes. The view west to Canada was fantastic as kayakers and motor boat raced up and down the Haro Strait.  Among the five kids only a single crying episode occurred and no blood was drawn.  Pro tip:  Deadman's Cove just mile south of the park offer an amazing beach if you are willing to park somewhat creatively along the side of the windy road and endure a steep, but short hike down the embankment. 
 
 ---------------------------------------------------------------------------------------------------
 

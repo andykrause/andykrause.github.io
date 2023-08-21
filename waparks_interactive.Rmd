@@ -41,10 +41,10 @@ editor_options:
     dplyr::filter(Abbrv %in% visited_sf$Abbrv) %>%
     dplyr::select(-c(Order, Weather))
   
-  `Parks To Do` <- boundaries_sf %>%
-    dplyr::filter(!Abbrv %in% visited_sf$Abbrv) %>%
-    dplyr::left_join(., data_df %>% dplyr::select(Abbrv, URL = WebPage), by = 'Abbrv') %>%
-    dplyr::select(-c(Order, Weather))
+  # `Parks To Do` <- boundaries_sf %>%
+  #   dplyr::filter(!Abbrv %in% visited_sf$Abbrv) %>%
+  #   dplyr::left_join(., data_df %>% dplyr::select(Abbrv, URL = WebPage), by = 'Abbrv') %>%
+  #   dplyr::select(-c(Order, Weather))
   
 
   `Drives` <- drives_sf
@@ -66,9 +66,9 @@ editor_options:
   tm_shape(`Visited Parks`) + 
     tm_polygons(col = 'darkgreen', alpha = .48) +
     
-  tm_shape(`Parks To Do`) + 
-    tm_polygons(col = 'black', alpha = .4) +
-  
+  # tm_shape(`Parks To Do`) + 
+  #   tm_polygons(col = 'black', alpha = .4) +
+  # 
    tm_shape(Drives, alpha = .8) + 
     tm_lines(col = 'burlywood4', scale = 1, legend.lwd.show = TRUE) + 
     
