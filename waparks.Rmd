@@ -61,7 +61,7 @@ There are a lot of state parks in Washington State, 137^[This number could vary 
 &nbsp;
 &nbsp;
 
-<img src="images/waparks.png" style="width:12%; border:0px solid; margin-right: 24px; margin-bottom:15px" align="left">
+<img src="images/waparks_done.png" style="width:12%; border:0px solid; margin-right: 24px; margin-bottom:15px" align="left">
 
 At around 10:12 am on Saturday August 19th, 2023 we pulled our small rental boat up onto the seaweed-strewn shore of Saddlebag Island, thereby completing our State Parks Challenge. It had been 1,331 days since we started this quest on December 27, 2019 at Spencer Spit State Park not far west of here.  
 
