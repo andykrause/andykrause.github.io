@@ -1161,7 +1161,7 @@ By some miracle we all ended up ahead on the day.  Erin by notching small victor
   <div class="content">
    <p>
     <figure>
-     <img src="images/k41_0.jpg" align="right" width="250px" hspace="20" vspace="2">
+     <img src="images/kr_41.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
@@ -1188,7 +1188,7 @@ We retired to the Grampians Motel, our favorite, uncomfortable place to stay in 
   <a id="kr42">
    <p>
     <figure>
-      <img src="images/k42_0.jpeg" align="right" width="250px" hspace="20" vspace="2">
+      <img src="images/kr_42.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
@@ -1221,7 +1221,7 @@ Stop 3: Random sand dune on the side of the road.  Finally, on the way home we p
    <a id="kr43">
    <p>
     <figure>
-     <img src="images/k43_0.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     <img src="images/kr_43.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
@@ -1252,7 +1252,7 @@ Since we had biked to the most remote area on the island, and we caught the red 
    <a id="kr44">
    <p>
     <figure>
-     <img src="images/k44_0.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     <img src="images/kr_44.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
@@ -1275,12 +1275,13 @@ As Andy rode home from the University around 6pm later that evening the city was
 <br clear="all" />
 
 # <!---- 45 Things I'm Loving about Melbourne ------------- -->
+
 <body>
   <div class="content">
   <a id="kr45">
    <p>
     <figure>
-      <img src="images/k45_0.jpeg" align="right" width="250px" hspace="20" vspace="2">
+      <img src="images/kr_45.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
