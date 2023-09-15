@@ -641,6 +641,7 @@ That included the shop owners and retail clerks.  As everything was closed up ti
 
 <body>
   <div class="content">
+   <a id="kr23"> 
    <p>
     <figure>
       <img src="images/kr_23.jpeg" align="right" width="250px" hspace="20" vspace="2">
@@ -1155,119 +1156,167 @@ By some miracle we all ended up ahead on the day.  Erin by notching small victor
 <body>
 <br clear="all" /> 
 
-<!-- # <!---- 41 Last Hurrah (for Eric) ------------- --> -->
-<!-- <body> -->
-<!--   <div class="content"> -->
-<!--    <p> -->
-<!--     <figure> -->
-<!--      <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_41"> -->
-<!--      <img src="images/k41_0.jpg" align="left" width="250px" hspace="20" vspace="2"> -->
-<!--      </a> -->
-<!--     </figure> -->
+# <!--- 41 Last Hurrah (for Eric) ------------- -->
+<body>
+  <div class="content">
+   <p>
+    <figure>
+     <img src="images/k41_0.jpg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
 
-<!-- <h3>Last Hurrah (for Eric)</h3> <br/> -->
-<!-- <i>16 September 2015 </i> <br/> -->
-<!-- Halls Gap, Vic <br/> -->
-<!-- <br/> -->
+<h3>Last Hurrah (for Eric)</h3> <br/>
+<i>16 September 2015 </i> <br/>
+Halls Gap, Vic <br/>
+<br/>
 
-<!-- Eric's time with us was quickly coming to an end.  A successful first time for us hosting a fellow Yank. With the glorious spring weather, we snuck in one last little trip -- a one night excursion to the Grampians -- before Eric was set to return to America.  We had been to the <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_23"> Grampians before </a> but still had plenty to explore. <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_41">... (click for more)</a>. -->
+Eric's time with us was quickly coming to an end.  A successful first time for us hosting a fellow Yank. With the glorious spring weather, we snuck in one last little trip -- a one night excursion to the Grampians -- before Eric was set to return to America.  We had been to the <a href="https://www.andykrause.com/kraustralia/kraustralia.html#kr23"> Grampians previously </a> but still had plenty to explore.
 
-<!--   </p> -->
-<!--  </content> -->
-<!-- <body> -->
-<!-- <br clear="all" />  -->
+We arrived in the afternoon and took the long, windy road up to the lookout at Mount William.  While the views were worth the time, the most memorable part of this drive was listening to the Footy game on the radio.  One of the commentators was absolutely 'mad' and made no attempt to hide his preferred team, the absolute rottenness of the opponents and the lack of brain cells possessed by the officiating crew.  He was an old chap, thick accent, a true Aussie bloke.  You could practically taste the [Carlton Draught](https://www.carltondraught.com.au/) he most certainly had been drinking and was likely spilling down the front of his shirt (no sleeves) as he gesticulated wildly.  This is how footy ought to be experienced.
 
+We retired to the Grampians Motel, our favorite, uncomfortable place to stay in the park.  We arose early -- well as early as Eric would let us -- did another rock scramble up a local peak and then made haste back to Melbs.  Eric flew out the next day; the nearly two weeks went by quickly.  Much was seen with nearly all the major dining destinations checked off of our big list.  We eagerly await our next visitor(s).
 
-<!-- # <!---- 42 Perth, then North ------------- --> -->
-<!-- <body> -->
-<!--   <div class="content"> -->
-<!--    <p> -->
-<!--     <figure> -->
-<!--      <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_42"> -->
-<!--      <img src="images/k42_0.jpeg" align="left" width="250px" hspace="20" vspace="2"> -->
-<!--      </a> -->
-<!--     </figure> -->
+  </p>
+ </content>
+<body>
+<br clear="all" />
 
-<!-- <h3>Perth, then North</h3> <br/> -->
-<!-- <i>3-4 October 2015 </i> <br/> -->
-<!-- Perth(ish), Western Australia <br/> -->
-<!-- <br/> -->
+# <!---- 42 Perth, then North ------------- -->
 
-<!-- While our west coast trip was meant to get us out of the city, we did dedicate a morning to a small walkabout in central Perth.  It is a nice city, complete with multiple pedestrian zones, flashy new buildings and all the requisite retail chains, high end restaurants and tourist shops.  And when we say ‘nice’, we are hinting at <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_42">... (click for more)</a>. -->
+<body>
+  <div class="content">
+  <a id="kr42">
+   <p>
+    <figure>
+      <img src="images/k42_0.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
 
-<!--   </p> -->
-<!--  </content> -->
-<!-- <body> -->
-<!-- <br clear="all" />  -->
+<h3>Perth, then North</h3> <br/>
+<i>3-4 October 2015 </i> <br/>
+Perth(ish), Western Australia <br/>
+<br/>
 
+While this West Coast trip was meant to get us out of the city, we felt it would have been unfair to entirely skip out on seeing the urban delights of Perth. As such, we dedicated a morning to a small walkabout in the central city.  It is a nice city, complete with multiple pedestrian zones, flashy new buildings and all the requisite retail chains, high end restaurants and tourist shops.  And when we say ‘nice’, we are hinting at ‘ordinary’.  Which is alright, because the natural surrounds and the weather are what really shine here.  As part of our wandering we explored the famous Kings Park with its views of downtown, the Swan River waterfront and even managed to find a trendy renovated garage restaurant for a decent breakfast.  (Note: Hip restaurants in Australia must, by law, serve bircher, poached eggs, hand-made chutney, smashed ‘avo’(cado) on toast and regular pork sausages referred to by a foreign word meaning ‘tube of meat’).
 
-<!-- # <!---- 43 Rotto ------------- --> -->
-<!-- <body> -->
-<!--   <div class="content"> -->
-<!--    <p> -->
-<!--     <figure> -->
-<!--      <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_43"> -->
-<!--      <img src="images/k43_0.jpeg" align="left" width="250px" hspace="20" vspace="2"> -->
-<!--      </a> -->
-<!--     </figure> -->
+Urban experience complete, the next day we headed north up the Great Indian Ocean Road to check a few more Australian national parks off of our list.  En route, and with great merriment, we spotted a number of feral emus galloping (?) across the scrub bush plains.  Many kangaroos dotted the landscape, as did one lone (and invasive) red fox.  Finally, to take in more wildlife, we stopped at [Lake Thetis](https://exploreparks.dbca.wa.gov.au/site/lake-thetis), home to one of the world’s only blistering bacteria mats (stromatolites)…a true family attraction.
 
-<!-- <h3>Rotto</h3> <br/> -->
-<!-- <i>4 October 2015 </i> <br/> -->
-<!-- Rottnest Island, Western Australia <br/> -->
-<!-- <br/> -->
+Content with our dosage of fauna, we spent the remainder of the day looking at plants, rocks and sand.
 
-<!-- While most of Australia was making its way to Melbourne to watch the Australian Football League Grand Finals, (the Aussie Superbowl), we were happily tucked into our small AirBnB in Fremantle, a suburb of Perth. After an evening of exploring town we booked morning tickets on the boat to <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_43">... (click for more)</a>. -->
+Stop 1:  [Pinnacles Desert, Namburg National Park](https://en.wikipedia.org/wiki/The_Pinnacles_(Western_Australia)).  The Pinnacles Desert is a small, but rewarding, stop whereby one can drive and hike through thousands of small pinnacles now exposed by the drifting sand dunes of the area.  They are no more than a few metres tall, but the sheer number of them gives the area an eerily feeling.  As it was still early (we are early risers), the park was mostly empty, so we were able to run and bound through the area at our leisure.  Erin peed behind a pinnacle.  Otherwise, we left no trace except footprints that would be quickly blown over.  The sand here was coarse and orange in colour.
 
-<!--   </p> -->
-<!--  </content> -->
-<!-- <body> -->
-<!-- <br clear="all" /> -->
+Stop 2: [Leseuer National Park](https://exploreparks.dbca.wa.gov.au/park/lesueur-national-park).  Next, we continued north to the wildflower capital of Western Australia.  Andy is not one much for wildflowers, but even he agreed that this park was rather enjoyable. In any given 10 square meters there are upwards of 80 different species, all of which were flowering during our visit.  If you happen to ever find yourself 250 km north of Perth in early October it is definitely worth the stop.
 
-<!-- # <!---- 44 The Race that Stops a Nation ------------- --> -->
-<!-- <body> -->
-<!--   <div class="content"> -->
-<!--    <p> -->
-<!--     <figure> -->
-<!--      <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_44"> -->
-<!--      <img src="images/k44_0.jpeg" align="left" width="250px" hspace="20" vspace="2"> -->
-<!--      </a> -->
-<!--     </figure> -->
+Stop 3: Random sand dune on the side of the road.  Finally, on the way home we pulled off the road next to a large, exposed and perfectly white sand dune to do a bit of exploring.  Dark clouds were gathering, giving the area a surreal contrast of colours and shades.  The sand here was white and ulta-fine and felt like running through the largest imaginable pile of flour.  Remnants of the cardboard sleds that others had used to descend the dunes littered some of the low points between dunes. Being good citizens, we commented on the shame of the previous litterers, enjoyed our moral superiority for a moment and then left them there for future dune sledders.
 
-<!-- <h3>The Race that Stops a Nation</h3> <br/> -->
-<!-- <i>4 November 2015 </i> <br/> -->
-<!-- Melbourne, Victoria <br/> -->
-<!-- <br/> -->
+  </p>
+ </content>
+<body>
+<br clear="all" />
 
-<!-- Tuesday was Melbourne Cup Day. It is the biggest race day of the 8-day Spring Carnival and a public holiday for all, except us lowly University employees.  This may seem a bit excessive for a horse race, but this is a country where gambling is as much of <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_44">... (click for more)</a>. -->
+# <!---- 43 Rotto ------------- -->
 
-<!--   </p> -->
-<!--  </content> -->
-<!-- <body> -->
-<!-- <br clear="all" /> -->
+<body>
+  <div class="content">
+   <a id="kr43">
+   <p>
+    <figure>
+     <img src="images/k43_0.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
 
+<h3>Rotto</h3> <br/>
+<i>4 October 2015 </i> <br/>
+Rottnest Island, Western Australia <br/>
+<br/>
 
-<!-- # <!---- 45 Things I'm Loving about Melbourne ------------- --> -->
-<!-- <body> -->
-<!--   <div class="content"> -->
-<!--    <p> -->
-<!--     <figure> -->
-<!--      <a href="http://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_45"> -->
-<!--      <img src="images/k45_0.jpeg" align="left" width="250px" hspace="20" vspace="2"> -->
-<!--      </a> -->
-<!--     </figure> -->
+While most of Australia was making its way to Melbourne to watch the Australian Football League Grand Finals, (the Aussie Superbowl), we were happily tucked into our small AirBnB in Fremantle, a suburb of Perth. After an evening of exploring town we booked morning tickets on the boat to [Rottnest Island](https://www.rottnestisland.com/) (or more commonly, Rotto, as is the Aussie custom of shortening all words and adding an ‘o’).
 
-<!-- <h3>Things I'm Loving about Melbourne</h3> <br/> -->
-<!-- <i>17 November 2015 </i> <br/> -->
-<!-- Melbourne, Victoria <br/> -->
-<!-- <br/> -->
+The small island (only 14K in length) received its lovely name from the first European visitors to land on the island.  Mistaking the native marsupials that colonized the island for rats, the Dutch sailors called the island ‘Rotte nest’, remarking that the island was overrun by “rats as big as a common cat”.  [Quokkas](https://en.wikipedia.org/wiki/Quokka), as the original Aboriginal inhabitants named them, are small marsupials that have become a major tourist draw since Rotto is one of the few areas in the world where the quokka can be found.  With the butt of a large rabbit and the head of a guinea pig, they laze around the island in the shade, trying to the ignore masses of eager tourists who have made it their mission to get an oddly on-trend quokka selfie.
 
-<!-- **ART & DESIGN EVERYWHERE** -->
+After the initial European and minor settlement, the island was converted to an Aboriginal prison and later during WWI and WWII temporarily used as a military base.  In perhaps one of the most unexpected transitions possible, in the early 1900’s, the government decided to transform the former penal colony into a holiday resort destination.  With this kind of weird-ass history and unique natural environment, we thought it was a perfect day trip adventure.
 
-<!-- From government commissioned graffiti to land sculptures to temporary installations, this city supports art that will amaze you and engage you. -->
-<!-- Also, I’m pretty sure it is someone’s full time job to cover our neighborhood sidewalks with cheery chalk drawings. <a href="https://www.andykrause.com/kraustralia/kraustralia_full.html#kraustralia_44">... (click for more)</a>. -->
+The island is a short ferry ride from the city and vehicles are not permitted on the island, so we rented a few bicycles and spent the remainder of the day circumnavigating the island. We rode all the way out to the west end of the island to search for whales and sea lions, but had to be satisfied with the dozens of King skinks we almost ran over with our bikes.  We also came across our first poisonous snake in this so-called lethal land. There were plenty of signs warning us of the highly poisonous Dugite snake, so we were a little wary of hiking off trail.  Luckily it was on the road and easy to spot, (and swiftly outmaneuver if need be).  Erin really wanted a picture and suggested poking at it with a stick, but Andy vetoed that super fun idea. (Imagine a creepy snake photograph here).
 
-<!--   </p> -->
-<!--  </content> -->
-<!-- <body> -->
-<!-- <br clear="all" /> -->
+Since we had biked to the most remote area on the island, and we caught the red eye ferry to the island, (shocking, I know), we rarely ran into any other visitors and felt like we had the island all to ourselves. Twelve amazing beach coves, two lighthouses, a handful of wayfinding mishaps and sixteen miles later we made our way back to the ferry for the boat ride back to the mainland.
+
+  </p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!---- 44 The Race that Stops a Nation ------------- -->
+
+<body>
+  <div class="content">
+   <a id="kr44">
+   <p>
+    <figure>
+     <img src="images/k44_0.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>The Race that Stops a Nation</h3> <br/>
+<i>4 November 2015 </i> <br/>
+Melbourne, Victoria <br/>
+<br/>
+
+Tuesday was [Melbourne Cup](https://en.wikipedia.org/wiki/Melbourne_Cup) Day. It is the biggest race day of the 8-day Spring Carnival and a public holiday for all, except us lowly University employees.  This may seem a bit excessive for a horse race, but this is a country where gambling is as much of the national ethos as surfing, meat pies and Steve Irwin.  The university even had sanctioned (and highly encouraged) wagering on the race.  In truth, it is also a good reason to engage in day drinking on a random Tuesday in spring.  Hard to argue with that.
+
+We were very close to scoring some members-only tickets to Flemington Racecourse on the big day, but ended up settling for a lower-class (and lower cost) affair by joining the plebian masses to watch it on the big screen at Federation Square.  As 3pm approached, the place filled with anxious punters (gamblers), onlookers and others too cheap or busy to spend the entire day drinking champagne at the race track.
+
+At 3:02 the gates opened and for the next three and half minutes the crowd was transfixed as a pack of 24 horses circled the track.  It is quite hard to tell what is going on and the screen only showed the top three, so for the first three minutes or so everyone is lulled into complacency and the re-filling of wine glasses.  Over the last 500 meters, the field opened up and the horses made their final push.  The longest shot in the field, [Prince of Penzance](https://www.livinglegends.org.au/blog/our-legends/prince-of-penzance/) (started the day at 101:1 odds) pushed to the front and won by a length.  One very excited gambler erupted in absolute joy down near the front; the odds were good and he must have made a small fortune.  It should be noted that this was also the first time a female jockey, [Michelle Payne](https://en.wikipedia.org/wiki/Michelle_Payne), had won the Cup.  
+
+As Andy rode home from the University around 6pm later that evening the city was full of well-dressed and completely drunk people.  It was probably the most dangerous biking experienced he had here to date with pedestrians stumbling out into the streets and bike lanes.  Not bad for a Tuesday.
+
+  </p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!---- 45 Things I'm Loving about Melbourne ------------- -->
+<body>
+  <div class="content">
+  <a id="kr45">
+   <p>
+    <figure>
+      <img src="images/k45_0.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Things I'm Loving about Melbourne</h3> <br/>
+<i>17 November 2015 </i> <br/>
+Melbourne, Victoria <br/>
+<br/>
+
+**ART & DESIGN EVERYWHERE**
+
+From government commissioned graffiti to land sculptures to temporary installations, this city supports art that will amaze you and engage you. Also, I’m pretty sure it is someone’s full time job to cover our neighborhood sidewalks with cheery chalk drawings.
+
+**"IT'S ANDY'S SHOUT"**
+
+Instead of saying I will get your drink, or so-and-so is buying us beers, etc. here, you use the phrase, "it’s (insert name here)'s shout". I love it so much. I go out of my way to ask if things are my shout, or feel extremely pleased when I can naturally fit it into a sentence with locals.
+
+Speaking of drinks, the portions and names are different here. Different than the States, but also, it seems different bar to bar.  A pint, a schooner, a pot and a jug are the usual suspects, but I am never really sure what name applies to what size. The first time I asked for clarification, the bartender answered me, (naturally), in millilitres, which I still hadn’t really worked out, but wasn’t going to admit to, so I just asked for a pint and looked it up later. When I finally thought I had it down, we went to Perth in Western Australia, and apparently there is a completely separate naming system there, and so I just asked for a pint and figured I would drink whatever was placed in front of me.  As writing this, I have doubled checked and they are as follows:<br/>
+
+* Jug – 40 oz)<br/>
+* Pint – 20 oz (Although some places serve an Imperial Pint which is 16 oz.)<br/>
+* Schooner/Middy –15 oz<br/>
+* Pot – 10 oz<br/>
+* Glass – 7 oz<br/>
+
+When in doubt, ask for a pint.<br/>
+
+**SPRING**
+
+I love that the flower shops have in-season peonies and sweet pea blossoms in November.  Instead of buying gourds at the market, I am buying cherries, a sun hat instead of a rain jacket. The other day I excitedly pointed out to Andy that my tiny backyard garden had produced its inaugural flower, his comment was "I thought that was a piece of paper stuck in that tree".  So perhaps not everyone is as enchanted with Spring's riches as I am.
+
+**A STRONG WIND**
+
+Normally this wouldn't be on my list of favorites, but my run along the waterfront is far more entertaining when I am in the good company of sailboats, kiteboards and parachutes.
+
+  </p>
+ </content>
+<body>
+<br clear="all" />
 
