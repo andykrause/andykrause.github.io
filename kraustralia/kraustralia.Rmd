@@ -1328,7 +1328,7 @@ Normally this wouldn't be on my list of favorites, but my run along the waterfro
   <a id="kr46">
    <p>
     <figure>
-      <!-- <img src="images/kr_46.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+      <img src="images/kr_46.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
 
@@ -1355,7 +1355,7 @@ It rained for the first three hours (15km) of our hike.  We rarely slowed down, 
   <a id="kr47">
    <p>
     <figure>
-      <!-- <img src="images/kr_47.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+      <img src="images/kr_47.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
     
@@ -1385,7 +1385,7 @@ The following morning we woke with the surfers to pack up camp, secretly wishing
   <a id="kr48">
    <p>
     <figure>
-      <!-- <img src="images/kr_48.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+      <img src="images/kr_48.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
     
@@ -1397,7 +1397,6 @@ Albert Park, Victoria <br/>
 [Erin] I write this blog post partly to share our Australian Thanksgiving experience, and partly as a reminder for next year when I will undoubtedly think about making another Thanksgiving feast by myself.
 
 For our first Thanksgiving in Oz, we had invited our good friends Jodie and Paul over to introduce them to the holiday. Heavy on ambition, light on reason, I sketched out the planned menu to help wrap my head around the grocery list/level of insanity. 
-
 During the three days of preparation, I dearly missed my mixer and food processor, cursing voltage differences while hand-whisking cream, chopping ginger nut cookies into a crumble for my cheesecake, and cutting butter into my tart dough with a pastry scraper. I had some seasonal and cultural disconnects as well, the only cranberries I could find for my chutney were frozen, they apparently don’t have canned pureed pumpkin in this country and our oven is the size of a small gas can. Excuse me, petrol can.
 
 I tried to tell myself that scratch cooking would bring me much more personal satisfaction, but when I was pureeing fresh pumpkin in our shitty blender at midnight, I wanted to break up with Australia, or at least Thanksgiving.
@@ -1416,8 +1415,6 @@ It was comforting to come together with a community of Thanksgiving orphans, and
 <body>
 <br clear="all" />
 
-
-
 # <!--- 49 Morningside Farm ------------- -->
 
 <body>
@@ -1425,7 +1422,7 @@ It was comforting to come together with a community of Thanksgiving orphans, and
   <a id="kr49">
    <p>
     <figure>
-      <!-- <img src="images/kr_49.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+      <img src="images/kr_49.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
     
@@ -1436,7 +1433,7 @@ Nagambie, Victoria <br/>
 
 To outsiders, Australia is often advertised as a land of beaches and deserts, koalas and kangaroos, sparkling harbours, poisonous spiders and beer-swilling men in cut-offs shorts. While these all certainly exist in good number, a sizable portion of the eastern half of the country is farmland.  Acres and acres (OK, hectares and hectares) of paddocks, pastures and cropland.  Our friend Paul’s father is the proud owner of one such farm about 90 minutes north of the city.  We took a short drive to see this ‘other side’ of Australia. 
 
-Morningside Farm, located on the Goulburn River just north of Nagambie, Victoria, is less ‘farm’ in the sense of a traditional Midwest dairy farm and more ‘ranch’ as in something out of the high plains of Texas or eastern Montana.  It is home to a few hundred Wagyu cattle, a few dozen thoroughbred horses and countless kangaroos that pay the simple paddock fences no mind.  
+Morningside Farm, located on the Goulburn River just north of [Nagambie, Victoria](https://en.wikipedia.org/wiki/Nagambie), is less ‘farm’ in the sense of a traditional Midwest dairy farm and more ‘ranch’ as in something out of the high plains of Texas or eastern Montana.  It is home to a few hundred Wagyu cattle, a few dozen thoroughbred horses and countless kangaroos that pay the simple paddock fences no mind.  
 
 We stopped in the small town of Nagambie to stock up on fruits, vegetables and beer along the way.  Meat, in the form of prime Wagyu steak, was well stocked at the ranch and required no purchase.  After arrival and unpacking we took an evening stroll, drinks in hand, to observe and discuss the finer points of cattle breeding and general animal husbandry.  A particularly unfortunate previous member of their herd provided a delicious main course later that night.  It is hard to beat local Wagyu on the ‘barbie’.    
 
@@ -1447,8 +1444,6 @@ The next morning we took a leisurely tour of the grounds, stopping by the river 
 <body>
 <br clear="all" />
 
-
-
 # <!--- 50 Kaikoura and Christchurch ------------- -->
 
 <body>
@@ -1456,7 +1451,7 @@ The next morning we took a leisurely tour of the grounds, stopping by the river 
   <a id="kr50">
    <p>
     <figure>
-      <!-- <img src="images/kr_50.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+      <img src="images/kr_50.jpeg" align="right" width="250px" hspace="20" vspace="2">
      </a>
     </figure>
     
@@ -1464,219 +1459,362 @@ The next morning we took a leisurely tour of the grounds, stopping by the river 
 <i>18 December 2015 </i> <br/>
 Kaikoura, New Zealand
 
-We had three days to burn before our friends Luke and Sara arrived in Christchurch from the US, so we headed north.  Kaikoura is a coastal town about 180 km north of Christchurch.  With New Zealand's narrow and windy roads, it is a two and half hour drive at best.  
+We arrived in New Zealand three days ahead of our friends Luke and Sara. To pass the time, we headed north from Christchurch about 180KM to the coastal town of [Kaikoura](https://www.kaikoura.co.nz/). With New Zealand's narrow and windy roads, this amounted to a two and half hour drive.  
 
-We arrived to a sunny, but windy day.  Checked in to our modest seaside hotel and set off on foot to circumambulate the Kaikoura Peninsula. On our journey we stopped at a roadside seafood barbecue for a cheap and satisfying lunch. We then encountered a colony of seals, one of which found the elevated walkway to be its favored sunning spot. After the seal colony, the path climbed up the bluff and the next hour of walking provided amazing views of the coast below and the snow-peaked Kaikoura Range
+We arrived to a sunny, but windy day.  Checked in to our [modest seaside hotel](https://www.anchorinn.co.nz/) and set off on foot to circumambulate the Kaikoura Peninsula. On our journey we stopped at a [roadside seafood barbecue](https://www.facebook.com/thekaikouraseafoodbbq/) -- little more than a small shack with some picnic tables out front -- for a cheap and satisfying lunch. We then encountered a colony of seals, one of which found the elevated walkway to be its favored sunning spot. After the seal colony, the path climbed up the bluff and the next hour of walking provided amazing views of the coast below and the snow-capped Kaikoura Range.
 
-On day two, the weather turned a bit sour, windy with rain threatening.  Undaunted, we set out for a hike up Mt. Fyffe just out of town.  The trail proved steep as it was an old forest road that took the shortest (steepest) possible route up the ridge.  At about half way, we entered the clouds.  Though we trekked on, hoping for a clearing and the magnificent views of the town and the coast, the clouds did not pass and the views were minimal.  The hike proved to be a good a training run for later hikes on this trip.  As an added bonus we hiked down with an American couple who had quit their jobs and had been traveling for the past six months.  They had good tips for places to see at some of our upcoming locations.  
+On day two, the weather turned a bit sour, windy with rain threatening.  Undaunted, we set out for a hike up [Mt. Fyffe](https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/ka-whata-tu-o-rakihouia-clarence/things-to-do/tracks/mt-fyffe-and-the-seaward-kaikoura-range/) just north west of town.  The trail proved to be a real thigh-burner as it was an old forest road that took the shortest (steepest) possible route up the ridge.  At about half way, we entered the clouds.  Though we trekked on, hoping for a clearing and the magnificent views of the town and the coast, the clouds did not pass and the views were minimal. At least the hike would likely prove to be good training for later treks on this trip. As an added bonus we hiked down with an American couple who had quit their jobs and had been traveling for the past six months.  They had good tips for places to see at some of our upcoming locations.  
 
-For dinner, we stopped at the road side mussel stand near our hotel.  I misread the menu and ordered what I thought was a Whitefish Sammie.  What I actually ordered was a 'Whitebait Sammie'.  What I got was a handfull of small minnows cooked into an omelette of sorts, topped with a huge chunk of butter and placed between two pieces of Wonderbread. Apparently a local delicacy.  It wasn't actually too bad (due to the butter) if you didn't look at what you were eating.   
+For dinner, we stopped at the road side mussel stand near our hotel.  I misread the menu and ordered what I thought was a Whitefish Sammie.  What I actually ordered was a 'Whitebait Sammie'.  What I got was a handful of [small minnows](https://www.thespruceeats.com/classic-fried-whitebait-with-aioli-1300842) cooked into an omelette of sorts, topped with a huge chunk of butter and placed between two pieces of Wonderbread. Apparently a local delicacy.  It wasn't actually too bad (due to the butter) if you didn't look at what you were eating.   
 
-
-We tried unsuccessfully to hire (rent) kayaks the next morning and then decided to head down to the Banks Peninsula for the day before picking up Luke and Sara much later that evening. The drive from Christchurch to Akaroa (the center of the Banks Peninsula) was incredibly windy but also very picturesque.  The quaint town of Akaroa is set in a large bay with steep, sheep-covered hills on all sides.  A good side trip and a relaxing end to our first three days in New Zealand. 
+We tried unsuccessfully to hire (rent) kayaks the next morning and then decided to head down to the [Banks Peninsula](https://en.wikipedia.org/wiki/Banks_Peninsula) for the day before picking up Luke and Sara much later that evening. The drive from Christchurch to Akaroa (the center of the Banks Peninsula) was incredibly windy but also very picturesque.  The quaint town of Akaroa is set in a large bay with steep, sheep-covered hills on all sides. A good side trip and a relaxing end to our first three days in New Zealand. 
 
  </p>
  </content>
 <body>
 <br clear="all" />
 
+# <!--- 51 Over and Through the Southern Alps ------------- -->
 
-<!-- Over and through the Southern Alps -->
-<!-- DECEMBER 22, 2015 -->
-<!-- ““ -->
-<!-- After picking up our travel companions, the next destination along the NZ road trip was the small city of Hokitika, clear across the south island, east coast to west coast in one day.  To split up the drive, we decided to stop mid-morning at Hanmer Springs, to relax and soak in the series of hot springs and thermal pools.   -->
-<!-- ““ -->
-<!-- We lasted a few hours, but eventually the combination of hot weather and hot pools nudged us in the direction of the nearby brew pub.  We enjoyed a massive lunch and cold drinks before hopping back on the road towards the mountain pass.  Sara and I promptly fell asleep for the next few hours while the guys navigated towards Hokitika. We drove through several small towns with enticing attractions such as Rosie’s house of ill-repute, a scale model of NZ’s largest gold nugget, and a replica of the biplane that made the first solo trans-Tasman flight and then crashed in a field nearby.  Also, millions of sheep. Despite the draw, we kept driving and reached Hokitika just in time to search for drinks and dinner.  -->
-<!-- ““ -->
-<!-- The weather felt like we were back on the Washington Coast, but we tramped along the beach for a bit and wandered the town looking for the following day’s provisions.  Our AirBnb accommodation for the evening, aptly called ‘The Villa’, was huge and comfortable.  We had a mellow evening, relaxing by the wood stove, which was fitting, as Andy’s normally ironclad stomach failed him, and he was down for the night with what I imagine was food poisoning or a light case of Ebola. -->
-<!-- Rested and somewhat recovered from the previous day, we journeyed south and just inland to visit the Franz Joseph Glacier.  One of the many glaciers in New Zealand’s Southern Alps, Franz Joseph is one of the few glaciers that flows almost to sea level.  -->
-<!-- ““ -->
-<!-- The valley walls rise up around a wide glacial-fed river, which we followed along a path to the bottom of the glacier.  Rocks covered in a verdant green moss and a bright rust lichen surround the path, which I embraced as an unintended celebration of Christmas. -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- Although the clouds refused to move from their position covering the mountain peaks, we were able to see the cloudy blue tail of the glacier from the lookout point and the end of our trek.  As soon as we left and continued our pilgrimage through the Southern Alps, the sun cleared and four hours later when we reached the town of Wanaka, we elbowed our way through the masses of local adventure guides to a sunny table by the lake, enjoying cold beers in the hot sun. -->
-<!-- ““ -->
-<!-- After wandering the town and having the world’s slowest Mexican meal, finished the evening at our B&B lodge with drinks in the hot tub. -->
-<!-- For brekkie at the lodge we were introduced to the local fare, sweet corn fritters.  This cultural delicacy went over much better than the Whitebait mentioned in a previous blog entry.  As we had a steep climb ahead of us to get to our mountain hut lodging near Mount Cook, we didn’t have much time to relax in Wanaka the next morning but did manage to get in a quick paddle before hitting the road. -->
+<body>
+  <div class="content">
+  <a id="kr51">
+   <p>
+    <figure>
+      <img src="images/kr_51.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Through the Southern Alps</h3> <br/>
+<i>22 December 2015 </i> <br/>
+Hokitika, New Zealand
 
+After picking up our travel companions late in the night, the next destination along the NZ road trip was the small city of Hokitika.  It is clear across the south island, east coast to west coast in one day.  To split up the drive, we decided to stop mid-morning at [Hanmer Springs](https://hanmersprings.co.nz/), to relax and soak in the series of hot springs and thermal pools.
 
+While beautiful surrounds, we lasted just a few hours as eventually the combination of hot weather and hot pools nudged us in the direction of the nearby [brew pub](https://www.mbbh.co.nz/).  We enjoyed a massive lunch and cold drinks before hopping back on the road towards the mountain pass.  Sara and Erin promptly fell asleep for the next few hours while the guys navigated towards Hokitika. We drove through several small towns with enticing attractions such as Rosie’s house of ill-repute, a scale model of NZ’s largest gold nugget, and a replica of the biplane that made the first solo trans-Tasman flight and then crashed in a field nearby.  Also, millions of sheep. Despite the draw, we kept driving and reached Hokitika just in time to search for drinks and dinner.
 
+The weather felt like we were back on the Washington Coast, but we tramped along the beach for a bit and wandered the town looking for the following day’s provisions.  Our AirBnb accommodation for the evening, aptly called ‘The Villa’, was huge and comfortable.  We had a mellow evening, relaxing by the wood stove, which was fitting, as Andy’s normally ironclad stomach failed him, and he was down for the night with what we imagine was food poisoning or a light case of Ebola. 
 
-<!-- Mueller Hut - Day 1 -->
-<!-- DECEMBER 23, 2015 -->
-<!-- ““ -->
-<!-- Most of our holiday has been about the destinations, but part of it is purely based on enjoying the beauty we see out our windows as we drive the short distances but long hours on the one-lane, curvy New Zealand roads. On the road to Mount Cook, is one of the most dramatic lakes I have ever seen. Lake Pukaki is a massive glacial-fed lake that gets its unnaturally blue color from, as one particularly frisky guide book mentioned, years of rock-on-rock action.  Similar to some of the glacial lakes we have visited in the Canadian Rockies, I could have stopped here all day to take photos. -->
-<!-- ““ -->
-<!--  Our lodging for the night was 1800 meters up in the Sealy Range of the Southern Alps.  The Mueller Hut is one of the many climber’s huts located around NZ providing rustic shelter for adventurers high in the mountains.  We had reserved four bunks for the evening, and we set off with packs on our backs on the hunt of 360-degree views among New Zealand’s highest peaks.  The hike itself was quite short in distance, just over 3 miles but with just above 3600 feet in elevation gain. The first half mile from the car park is relatively flat until you reach a set of stairs that worms up the mountain. 1,807 steps up to the halfway point at Sealy Tarns.  Stairs is a generous description, I would use the word ladder, as that is what it felt like when lugging a backpack up them. Still it was hard to complain as each new view was more magnificent than the next. -->
-<!-- ““ -->
-<!-- From Sealy Tarns, the remainder of the hike was up loose scree with orange poles marking the suggested trail.  The last 1K turned the corner of the mountain face we had been climbing and towards the Hut which was tucked just under the summit of Mount Ollivier, the first mountain that Sir Edmund Hillary climbed. -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- We reached the hut in high spirits, and quickly realized we were the last group arriving and would not have choice of the bunks.  Not that having your choice of bunks really matters as either way you are still stuck in a bunk house with twenty-four strangers, not counting the mountain hobos who don’t make reservations and yet still use the ‘kitchen’ and ‘toilets’ and start a sing-along late at night before heading outside to their tents.  As you may tell from my tone, our group didn’t get much sleep. Most likely due to the family of tweens that had perfected the shout-whisper and continued to go outside to take moon photographs with their iPad or the antics of the aforementioned mountain hobos. -->
-<!--  I thought about toning down this rant after re-reading it, but despite all of this, it was still a memorable and amazing experience, and I would do it again in a second.  Mount Cook was crisp and wicked in the sun, and we spent the afternoon watching for the massive avalanches across the valley from us, too far to ever do any damage, but chilling and powerful all the same. My bunk was in front of a huge window, so I didn’t sleep a wink with the bright moon, but I was able to see the Southern Cross arc over Mount Ollivier, as I counted the hours to daylight and descent. -->
+Rested and somewhat recovered from the previous day, we journeyed south and just inland to visit the [Franz Joseph Glacier](https://www.newzealand.com/int/franz-josef-glacier/).  One of the many glaciers in New Zealand’s Southern Alps, Franz Joseph is one of the few glaciers in sub arctic latitudes that flows almost to sea level.
 
+The valley walls rise up around a wide glacial-fed river, which we followed along a path to the bottom of the glacier.  Rocks covered in a verdant green moss and a bright rust lichen surround the path, which we embraced as an unintended celebration of Christmas.
 
+Although the clouds refused to move from their position covering the mountain peaks, we were able to see the cloudy blue tail of the glacier from the lookout point and the end of our trek.  As soon as we left and continued our pilgrimage through the Southern Alps, the sun cleared and four hours later when we reached the town of [Wanaka](https://www.lakewanaka.co.nz/). We elbowed our way through the masses of local adventure guides to a sunny table by the lake, enjoying cold beers in the hot sun.
 
+After wandering the town and having the world’s [slowest Mexican meal](https://amigos.co.nz/), finished the evening at our [B&B lodge](https://tewanaka.co.nz/) with drinks in the hot tub. For brekkie at the lodge we were introduced to the local fare, sweet corn fritters.  This cultural delicacy went over much better than the Whitebait mentioned in a previous blog entry.  As we had a steep climb ahead of us to get to our mountain hut lodging near Mount Cook, we didn’t have much time to relax in Wanaka the next morning but did manage to get in a quick paddle before hitting the road.
 
+</p>
+ </content>
+<body>
+<br clear="all" />
 
-<!-- Mueller Hut - Day 2 -->
-<!-- DECEMBER 24, 2015 -->
-<!-- ““ -->
-<!-- After a night of light sleep, we awoke with the sun to begin our descent back to the parking lot.  Quickly packing and enjoying a breakfast of trail mix and stale hut air, we were out the door at 5:45.   -->
-<!-- ““ -->
-<!-- It had frozen overnight, so the snow was much easier to navigate on our way down.  The wind was blowing straight off of the nearby glacier and both Erin and I cursed ourselves for failing to bring gloves.  Watching the sun come up over the valley below was incredibly beautiful and deathly quiet. Leaving early had it perks.  An hour in, we had made it down to the Sealy Tarns and the start of the maintained trail (the dreaded stairs).   -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- Two hours, ten minutes and one fall by Erin later we were at our car.  Smelly, tired but in good spirits.  We changed, packed the car and started on the three and a half hour drive down to Gibbston...but not without stopping to admire some invasive species along the way. -->
+# <!--- 52 Mueller Hut -- Day 1 ------------- -->
 
+<body>
+  <div class="content">
+  <a id="kr52">
+   <p>
+    <figure>
+      <img src="images/kr_52.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Mt Cook, Day 1</h3> <br/>
+<i>23 December 2015 </i> <br/>
+Mt. Cook Village, New Zealand
 
+Most of our holiday has been about the destinations, but part of it is purely based on enjoying the beauty we see out our windows as we drive the short distances but long hours on the one-lane, curvy New Zealand roads. En route to Mount Cook, lies one of the most dramatic lakes we've have ever seen. [Lake Pukaki](https://en.wikipedia.org/wiki/Lake_Pukaki) is a massive glacial-fed lake that gets its unnaturally blue color from, as one particularly frisky guide book mentioned, years of rock-on-rock action.  Similar to some of the glacial lakes we have visited in the Canadian Rockies, Erin could have stopped here all day to take photos.
 
+Our lodging for the night was 1,800 meters (5,900 feet or over one vertical mile) up in the Sealy Range of the Southern Alps.  The [Mueller Hut](https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/huts/mueller-hut/) is one of the many climber’s huts located around NZ providing rustic shelter for adventurers high in the mountains.  We had reserved four bunks for the evening, and we set off with packs on our backs on the hunt of 360-degree views among New Zealand’s highest peaks.  The hike itself was quite short in distance, just over 3 miles but with just above 3600 feet in elevation gain. The first half mile from the car park is relatively flat until you reach a set of stairs that worms up the mountain. It is exactly 1,807 steps up to the halfway point at Sealy Tarns.  Stairs is a generous description, more like "ladders", as that is what it felt like when lugging a backpack up them. Still it was hard to complain as each new view was more magnificent than the next.
 
-<!--  Christmas down under -->
-<!-- DECEMBER 26, 2015 -->
-<!-- After our whirlwind of driving and hiking the past three days, we were anxious to settle in for a bit.  We had booked an AirBNB home at a vineyard in Gibbston – 25km east of Queenstown -- for the 24th, 25th and 26th.  We arrived too early and headed into town for supplies while our hosts finished cleaning.  The grocery store was a madhouse.  Every single person with a holiday home in the area must have arrived at the same moment we did.  With little sleep and having just done a long drive, tensions were high but we made it out without inflicting (or even verbally threatening) bodily harm to anyone.  Win.   Too tired to cook dinner, we walked down the road to the ‘Impossibly Cute’ Gibbston Tavern for a pizza and pint.  Early to bed for all on Christmas Eve.  -->
-<!-- ““ -->
-<!-- We had little planned for Christmas Day.   Much of the morning was spent hanging out on our deck enjoying the scenery, the calm and the sun.  Late morning we drove to Queenstown for a wander about town.  On the way back we stopped in Arrowtown, an old mining town a few miles off the highway.  Lazy tourist type activities never felt so good.  -->
-<!-- We returned home and took lunch and few beers down to the river beach on the property where we were staying.  Despite a few sand flies, it was a perfect afternoon spent taking in some sun, skipping stones and napping down by the bright blue (and very cold and fast) water of the Kawarau River.  -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- In the evening we made a pit stop at the trampoline (never too old for a trampoline) before cooking up a large dinner on the grill, complete with a few bottles of wine from our hosts.  As it cooled,  we stoked the campfire and watched the sun go down over the valley.   The full moon rose up over the ridge around 10:40, ushering us all to bed.  -->
+From Sealy Tarns, the remainder of the hike was up loose scree with orange poles marking the suggested trail.  In the last 1 KM you turn the corner of the mountain face and head towards the Hut which was tucked just under the summit of Mount Ollivier, the first mountain that [Sir Edmund Hillary](https://en.wikipedia.org/wiki/Edmund_Hillary) climbed.
+
+We reached the hut in high spirits, and quickly realized we were the last group arriving and would not have choice of the bunks.  Not that having your choice of bunks really matters as either way you are still stuck in a bunk house with twenty-four strangers, not counting the mountain hobos who don’t make reservations and yet still use the ‘kitchen’ and ‘toilets’ and start a sing-along late at night before heading outside to their tents. 
 
 
+[Erin] As you may tell from my tone, our group didn’t get much sleep. Most likely due to the family of tweens that had perfected the shout-whisper and continued to go outside to take moon photographs with their iPad or the antics of the aforementioned mountain hobos.
+I thought about toning down this rant after re-reading it, but despite all of this, it was still a memorable and amazing experience, and I would do it again in a second.  Mount Cook was crisp and wicked in the sun, and we spent the afternoon watching for the massive avalanches across the valley from us, too far to ever do any damage, but chilling and powerful all the same. My bunk was in front of a huge window, so I didn’t sleep a wink with the bright moon, but I was able to see the Southern Cross arc over Mount Ollivier, as I counted the hours to daylight and descent.
 
+[Andy] I drew the lucky straw and was situated on the one remaining bottom bunk spot (the other three were up above) and did manage a few hours of sleep as the lower bunk is were the tired, olds mostly slept.  I too, rued the mountain hobos who added only noise and congestion to the existant melee.  
 
+</p>
+ </content>
+<body>
+<br clear="all" />
 
-<!-- Fiordlands -->
-<!-- DECEMBER 30, 2015 -->
-<!-- ““ -->
-<!-- Our last full day in New Zealand we made the long and roundabout drive from Queenstown to Fiordlands National Park.  Only 50 or so direct kilometres away from Queenstown, the sound is a four-hour drive...and that is if you don't mind speeding a bit. Fourteen fiords span 215 kilometres of the southwest coast of New Zealand and although we could have spent days here exploring, with limited time, we decided to visit the main attraction of Milford Sound. -->
-<!-- ““ -->
-<!-- From the head of the fiord to the open ocean, Milford Sound is sixteen kilometres long, a perfect distance for a 2 hour boat trip to the mouth of the fiord and back.  According to Maori legend, the Fiordlands were created by the demi-god Tu-te-raki-whanoa, who carved the sheer granite walls with a titanic adze.  I can understand the origins of the legend when faced with the beauty, scale and architecture of Milford Sound.  Sheer cliffs rise up 1500 metres  straight from the ocean.  Waterfalls plunge hundreds of feet directly into the sound.  Photos do not do it justice.  -->
-<!-- ““ -->
-<!-- Sunny but with a crisp wind, we stayed bundled up on the top deck of the boat and were able to see New Zealand fur seals as well as the more rare Bottlenose dolphins.  The best seats on the top deck are right behind the kitchen exhaust fan (the boat serves a cafeteria lunch, which we avoided).  As such, our beautiful and ever changing view was met with an equally diverse set of aromatic sensations.  Sesame chicken, roast pork, burnt coffee, something with too much garlic followed by something that could have used some more.   -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- It was a long day's drive, but all four took their turn at the wheel.  Radio stations were sparse, but when we did find one it was inevitably playing either Adele or Bieber.  We stopped home, tidied up and headed out for our last New Zealand dinner in the small village of Arrowtown. Andy had a rabbit pie while Luke downed a massive set of barbeque ribs.  The ladies went with more sensible options.  Another gorgeous day in Aotearoa (New Zealand in Maori).  -->
+# <!--- 53 Mueller Hut -- Day 2 ------------- -->
 
+<body>
+  <div class="content">
+  <a id="kr53">
+   <p>
+    <figure>
+      <img src="images/kr_53.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Mt Cook, Day 2</h3> <br/>
+<i>24 December 2015 </i> <br/>
+Mt. Cook Village, New Zealand
 
+After a night of light (no) sleep, we awoke with the sun to begin our descent back to the parking lot.  Quickly packing and enjoying a breakfast of trail mix and stale hut air, we were out the door of the cramped and just stirring Red Hut at 5:45.
 
-<!-- Jacobs in Melbourne -->
-<!-- JANUARY 13, 2016 -->
-<!-- ““ -->
-<!-- The elder Jacobs contingent arrived earlier this week.  Fresh off a brief, and somewhat rainy, stopover in Fiji, Kurt and Kathie were ready for life in the big city.  As is becoming the custom for our visitors, we took them to an opening night sunset (complete with wine and snacks) out at the Brighton Beach boxes.  There are few better places in the city to enjoy a warm summer's evening.   -->
-<!-- ““ -->
-<!-- No stay in Melbourne is complete without a breakfast experience.  In the above, we are eagerly awaiting our meal at Chez Dre in South Melbourne.  Only Erin chose the local favourite of smashed avocado, toast and eggs.  We made it through breakfast without me spilling on my myself, Kurt telling any bad jokes to the staff or Kathie questioning any of the neighbouring patrons.  A successful morning.   -->
-<!-- ““ -->
-<!-- The Australian Open was in town, so we trekked to the grounds during one of the mid-week days to avoid the crowds.  Little good that did as the place was still packed, which did make for a good viewing experience.  We were lucky (unlucky?) enough to have been seated directly behind a rowdy collection of self-styled tennis hooligans and a group of high classmates of one of Australians youngest, rising stars.  Complete with painted faces, sporting chants and smuggled booze, they definitely livened up the event.   -->
+It had frozen overnight, so the snow was much easier to navigate on our way down.  The wind was blowing straight off of the nearby glacier and both of us cursed ourselves for failing to bring gloves.  Watching the sun come up over the valley below was incredibly beautiful and deathly quiet. Leaving early had it perks...though we likely missed some bad guitar breakfast music.  An hour in, we had made it down to the Sealy Tarns and the start of the maintained trail (the dreaded stairs).
 
-<!-- Mornington Peninsula -->
-<!-- JANUARY 15, 2016 -->
-<!-- ““ -->
-<!-- Being 8,000 miles from home often means that you can get away with not sending Christmas presents home due to the cost of international shipping.  However, when family members come visit it is then time to pay the proverbial piper.  For Kurt and Kathie this meant treating them to a day on the Mornington Peninsula.  We began with a stop for an early lunch at Foxey's Hangout, a small winery near Red Hill.  No time is too early for a tasty Pinot for Kurt and I was also happy to indulge, so it was a good start to the day (Wine not pictured here, but a ghost woman in the window is).   -->
-<!-- ““ -->
-<!-- We spent the afternoon driving to the various beaches, sampling at a few more vineyards and chasing the nearly tame Kangaroos at Arthur's Seat National Park.  Gift giving can be quite painless if done properly.  -->
+Two hours, ten minutes and one fall by Erin later we were at our car.  Smelly, tired but in good spirits.  We changed, packed the car and started on the three and a half hour drive down to Gibbston...but not without stopping to admire some invasive species along the way.
 
+</p>
+ </content>
+<body>
+<br clear="all" />
 
+# <!--- 54 Christmas Down Under ------------- -->
 
+<body>
+  <div class="content">
+  <a id="kr54">
+   <p>
+    <figure>
+      <img src="images/kr_54.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Christmas Down Under</h3> <br/>
+<i>25-27 December 2015 </i> <br/>
+Gibbston, New Zealand
 
+After our whirlwind of driving and hiking the past three days, we were anxious to settle in for a bit.  We had booked an AirBNB home at [Pagan Vines](https://www.airbnb.com/rooms/1160770) in Gibbston – 25km east of Queenstown -- for the 24th, 25th and 26th.  We arrived too early and headed into town for supplies while our hosts finished cleaning.  The grocery store was a madhouse.  Every single person with a holiday home in the area must have arrived at the same moment we did.  With little sleep and having just done a long drive, tensions were high but we made it out without inflicting (or even verbally threatening) bodily harm to anyone.  Win.  Too tired to cook dinner, we walked down the road to the ‘Impossibly Cute’ [Gibbston Tavern](https://www.gibbstontavern.co.nz/) for a pizza and pint.  Early to bed for all on Christmas Eve.
 
-<!-- Tasmania -->
-<!-- JANUARY 26, 2016 -->
-<!-- ““ -->
-<!-- Tasmania's weather is notoriously fickle, though January offers the best chance at clear and sunny.  Playing the odds, we joined Erin's parents for a five-day adventure to Australia's southernmost state.  It is a quick 45 minute flight from Melbourne to Hobart, the capital.  Upon landing, the smell of smoke was obvious; Tasmania had been suffering from some of its worst bushfires (wildfires) in memory.  Usually too cold and damp, the dry spring and summer had turned its hills into a tinderbox.   -->
-<!-- Upon landing, we grabbed our car and headed off to the Museum of Old and New Art (MONA), just north of Hobart.  Built by a billionaire gambler looking to tax shelter some of his winnings, the gallery/winery/cafe/park is now open to the public.  The art itself, well, it is mostly quite modern and not for the squeamish or shy.  Definitely a cultural experience and something we'd recommend doing...though i wouldn't take your kids or your parents.   -->
-<!-- After checking in to our AirBNB, we drove the 18 windy kilometers up to the top of Mt. Wellington for some fabulous, though hazy, views of the city and surrounds below.  The weather was pleasant, but cool.  On the way down, we made a call at the Cascade Brewery for some liquid refreshment.   -->
-<!-- ““ -->
-<!-- Looking down on Hobart from Mt. Wellington -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- That evening we returned to the MONA for the sunset light show.  The 'show' is a quasi-permanent installation by noted light artist James Turrell.  The structure slowly changes colors (there is probably a better word for it) via projected lights over the course of a few hours.  Contrasting the light against the changing sky through the rectangular hole in the roof is mesmerizing.  Well worth the trip back.  Our only regret is that we didn't bring a bottle of wine or two (as a number of the more experienced spectators had done).   -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- The famous Salamanca Market was our first stop on Day 2.  Truly a lively affair.  The entire length of the street is packed with vendors of all sorts.  With a backdrop of the old wharf buildings, one is easily reminded of what Hobart was like 80 or 100 years ago....minus the skinny jeans and man-buns that proliferate amongst the hipster vendors.  This market is also home to the second best breakfast sandwich in Australia, as evidenced by my ongoing and highly unscientific study.   -->
-<!-- ““ -->
-<!-- A short drive and a shorter ferry ride later, we found ourselves on sleepy Bruny Island.  Mostly home to sheep, kangaroos and gravel roads, we spent the afternoon exploring small beach coves and eating local fare.  Kurt made an adventurous lunch order -- a wallaby burger -- the rest of found something less exotic to sate our hunger pangs.   -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- The famous 'neck' on Bruny Island -->
-<!-- Day 3, we headed up the east coast of Tassy en route to our next AirBNB near Launceston.  Definitely the scenic route, we spent much of the day at 70kmh stuck behind caravans and large trucks.  The coast, however, did not disappoint.  Strange rock formations, crystal clear waters, small coastal towns, plenty of animal life (dead and alive) and few people.  There is little in the way of services so pack a lunch, turn off your mobile phone and just enjoy the drive.   -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- From Launceston we took our fourth day to explore Cradle Mountain National Park.   The drive took us through some very thick smoke from worst of the fires.  This particular area hasn't burned in human memory and losses include some stands of trees nearly 1,000 years old.  Tragic.  -->
-<!-- Home of the famous Wonderland Track, the scenery here is certainly unique.  A scaled down and highly weathered version of some parts of Banff-Jasper would be the best way to describe it.  Dozens of plants found nowhere else in the world.   The hiking trails are abundant and well marked.  It is tough drive getting to the park and we left wishing we had another day to explore.   -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- The Lewis and Clark party invade Tasmania -->
-<!-- The weather had been nearly perfect our entire time in Tasmania...too good in fact.  The locals desperately needed rain to quell the fires.  As we stopped at one last lighthouse on our way to the airport, the clouds were building and rain was on its way.  Our flight got out before the approaching storm.  It rained for a few days straight after our departure and put an end to the fires, for now.  -->
+We had little planned for Christmas Day.   Much of the morning was spent hanging out on our deck enjoying the scenery, the calm and the sun.  Late morning we drove to [Queenstown](https://www.queenstownnz.co.nz/) for a wander about town.  On the way back we stopped in Arrowtown, an old mining town a few miles off the highway.  Lazy tourist type activities never felt so good.  We returned home and took lunch and few beers down to the river beach on the property where we were staying.  Despite a few sand flies, it was a perfect afternoon spent taking in some sun, skipping stones and napping down by the bright blue (and very cold and fast) water of the Kawarau River.
 
+In the evening we made a pit stop at the trampoline (never too old for a trampoline) before cooking up a large dinner on the grill, complete with a few bottles of wine from our hosts.  As it cooled,  we stoked the campfire and watched the sun go down over the valley. The full moon rose up over the ridge around 10:40, ushering us all to bed.
 
+</p>
+ </content>
+<body>
+<br clear="all" />
 
+# <!--- 55 Fiordlands ------------- -->
 
-<!-- Janie's trip to Australia -->
-<!-- FEBRUARY 20, 2016 -->
-<!-- ““ -->
-<!-- Janie escaped the frigid Midwest for a 12-day visit.  Fresh off 30 hours of travel, we gave her little rest as we packed in a busy day trip to the Mornington Peninsula on her first full day here.  First stop was the Moonlight Sanctuary.  While, in general, I'm a bit sceptical of much of what passes for sanctuaries here in Australia, this place is really well done and takes in mostly injured animals that have no hope of re-release into the wild.  Along with the standard kangaroos, wallabies and koalas they had a massive emu, one small wombat and a pair of dingoes.  -->
-<!-- After the sanctuary, we hit up a number of secluded beaches, including Bushrangers Bay which required an hour hike each way to reach.  The hike is well worth it.  We soon had the beach to ourselves and I took my first swim in the open, southern ocean.   A brief encounter with a large and unidentified snake on the walk back raised everyone's heartrate significantly.   -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- Bushrangers Bay -->
-<!-- ““ -->
-<!-- After spending the week exploring the sites in the city, we grabbed a rental car and embarked on a Great Ocean Road -> Grampians -> Ballarat loop.  Following the long, sinuous Great Ocean Road we made a number of stops such as the cairn beach, the koalas on Grey Road and a variety of overlooks and pull-offs.  This was the first time we had been through the area after the disastrous December fires.  While most of the towns were saved, the fire torched much of the forest all the way down to the ocean.  An eerie sight.  -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- Having fought the afternoon tourist buses at The 12 Apostles and Loch Ard Gorge on a number of occasions, we decided to check into our cottage in Peterborough first and return for the evening showing.  While the crowds were still plentiful, it was much more manageable and the clouds had broken and gave us excellent light.  We've now been here morning,  afternoon and evening and it has looked so very different each time.   -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- Next up, the Grampians.  It rained all day on our drive up from Peterborough.  Sensing the poor weather we took a lunch detour to the Timboon Distillery.  If I'm going to hike in the rain, I'd at least like a drink or two first.  The rain had slowed to a drizzle by the time we arrived in Halls Gap, the underwhelming town at the center of the amazing national park.  We fought through the damp to do a small hike down to MacKenzie Falls, partially to check out the falls but mostly to examine the very interestingly designed and built trail.   -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- Landscape architecture site visit -->
-<!-- As the sun forced its way through, we hit up another short but rewarding hike.  Named the 'Grand Canyon' you won't confuse it with that much larger hole in the ground in Arizona, but it was a nice walk up a steep gully in the heavily eroded sandstone prevalent in this part of the world.  A bit of amateur rock scrambling topped off an adventurous day.   -->
-<!-- ““ -->
-<!-- On our way out of town in the morning, we hiked it up to the every popular Pinnacle lookout. Beating the crowds we had the place to ourselves.   -->
-<!-- ““ -->
-<!-- ““ -->
+<body>
+  <div class="content">
+  <a id="kr55">
+   <p>
+    <figure>
+      <img src="images/kr_55.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Fiordlands</h3> <br/>
+<i>30 December 2015 </i> <br/>
+Te Anau, New Zealand
 
+Our last full day in New Zealand we made the long and roundabout drive from Queenstown to [Fiordlands National Park](https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/?tab-id=50578).  Only 50 or so direct kilometres away from Queenstown, the sound is a four-hour drive...and that is if you don't mind speeding a bit. Fourteen fiords span 215 kilometres of the southwest coast of New Zealand and although we could have spent days here exploring, with limited time, we decided to visit the main attraction of [Milford Sound](https://en.wikipedia.org/wiki/Milford_Sound).
 
+From the head of the fiord to the open ocean, Milford Sound is sixteen kilometres long, a perfect distance for a 2-hour boat trip to the mouth of the fiord and back.  According to Maori legend, the Fiordlands were created by the demi-god Tu-te-raki-whanoa, who carved the sheer granite walls with a titanic adze.  I can understand the origins of the legend when faced with the beauty, scale and architecture of Milford Sound.  Sheer cliffs rise up 1500 metres straight from the ocean.  Waterfalls plunge hundreds of feet directly into the sound.  Photos do not do it justice.
 
+Sunny but with a crisp wind, we stayed bundled up on the top deck of the boat and were able to see New Zealand fur seals as well as the more rare Bottlenose dolphins.  The best seats on the top deck are right behind the kitchen exhaust fan (the boat serves a cafeteria lunch, which we avoided).  As such, our beautiful and ever changing view was met with an equally diverse set of aromatic sensations.  Sesame chicken, roast pork, burnt coffee, something with too much garlic followed by something that could have used some more.
 
-<!-- Diamond Days of Summer -->
-<!-- FEBRUARY 26, 2016 -->
-<!-- ““ -->
-<!-- My only stolen base of the season.   -->
-<!-- The Victorian Summer Baseball League season ('comp' in Australian) has come to a close.  Being near the bottom of the standings ('ladder') meant that we won't be playing in the playoffs ('finals').  It is a long season, 26 games, and our Port Melbourne Mariners had our share of trials and tribulations both on the field and off.  Overall, it was great to get back to the game after eight years away.  It took me some time to get my swing back as well as my control on the mound, but that is to be expected for a 35 year old.  Things are looking up heading into the winter season.  Yes, they play all year round here.   -->
-<!-- ““ -->
-<!-- Just before a clean single to left field. -->
+It was a long day's drive, but all four took their turn at the wheel.  Radio stations were sparse, but when we did find one it was inevitably playing either Adele or Bieber.  We stopped home, tidied up and headed out for our last New Zealand dinner in the small village of Arrowtown ([Slow Cuts](https://slowcuts.co.nz/)). Andy had a rabbit pie while Luke downed a massive set of barbeque ribs.  The ladies went with more sensible options.  Another gorgeous day in Aotearoa (New Zealand in Maori).
 
+</p>
+ </content>
+<body>
+<br clear="all" />
 
+# <!--- 56 Jacobs in Melbourne ------------- -->
 
+<body>
+  <div class="content">
+  <a id="kr56">
+   <p>
+    <figure>
+      <img src="images/kr_56.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Jacobs in Melbourne</h3> <br/>
+<i>13 January 2016 </i> <br/>
+Albert Park, VIC
 
-<!-- Short Sydney Trip -->
-<!-- FEBRUARY 26, 2016 -->
-<!-- For Janie's last two days, she and I made a short trip up to Sydney.  I had a work meeting there on Monday, so it made for a well-time excursion.  We arrived on an early Sunday morning flight after a late night at Melbourne's White Night festival.  A bit tired, we spent the morning exploring Darling Harbour while they prepared our room.  We checked in as early as possible and managed to grab a quick nap.   -->
-<!-- The weather had improved, so we jumped a ride out to Manly beach and back during the afternoon.  Upon our return, we spent an hour or so wandering around the Opera House and the Rocks neighborhood.  Touristy, yes, but a satisfying way to spend a sunny Sunday afternoon.   Requisite pictures of Opera House below.   -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- My meeting ended early, so we spent Monday afternoon sampling a variety of Sydney's Happy Hours...which I must say are a better deal than those in Melbourne.  Janie received an initiation into global cuisine with her first Korean BBQ that evening.   -->
-<!-- We nearly had to spend the night again as our delayed flight left the tarmac at 10:59:45..exactly 15 seconds before the 11pm Sydney Airport curfew would have taken effect.  We had been given advanced warning that it was going to be close and all 211 passengers boarded the plane in less than 15 minutes, proving that provided the right incentives loading a plane doesn't have to be the most frustrating and inefficient activity in modern life. -->
+The elder Jacobs contingent arrived earlier this week.  Fresh off a brief, and somewhat rainy, stopover in Fiji, Kurt and Kathie were ready for life in the big city.  As is becoming the custom for our visitors, we took them to an opening night sunset (complete with wine and snacks) out at the Brighton Beach boxes.  There are few better places in the city to enjoy a warm summer's evening.
 
+No stay in Melbourne is complete without a breakfast experience.  This time, we did [Chez Dre](https://chezdre.au/) in South Melbourne.  Only Erin chose the local favourite of smashed avocado, toast and eggs.  We made it through breakfast without and spilling on my myself, Kurt telling any bad jokes to the staff or Kathie questioning any of the neighbouring patrons.  A successful morning.
 
-<!-- Autumn at the University -->
-<!-- APRIL 07, 2016 -->
-<!-- ““ -->
-<!-- With both of us teaching at the University this semester, life in Melbourne has been full on.  We are just now halfway through the Autumn/Winter Semester and we have finally settled in to a bit of a rhythm.  It took me 2 weeks to get Uni wifi, 3 weeks to learn about the printers and I still don't know if I am filling my timesheet out correctly, but I am slowly worming my way into the system.  I am teaching a Landscape Architecture design studio focusing on Sustainable Urbanism as well as tutoring (the U.S. equivalent of a teaching assistant) for a Property Environments class.  Although I had my first taste in teaching/tutoring last year, this Semester is much more time consuming but also rewarding.  After trading a busy, sometimes flat out frantic workplace environment in a firm, to a much more relaxed and solitary desk in a home office, I had missed the energy of a studio design environment.  -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- The University of Melbourne has a beautiful campus, mirroring the city itself, it has a mix of historical architecture and bold modern design, each with their own hipster coffee shop catering to the masses of the early-twenties crowd in culottes and crop top regalia... and me.  For a while I was able to float along in the comfortable denial that I was blending in with the student population until one day standing in my recently and resentfully purchased maternity outfit, I looked around and realized things done changed.  -->
-<!-- Notwithstanding this slap of reality, I have found teaching incredibly enjoyable.  Bringing some of the studio exercises back to life that inspired me while in school, encouraging students to sketch, think conceptually and get out and explore has reminded me how much I love design.  Plus, a few rainy site visits made me think of home sweet Seattle. -->
+The [Australian Open](https://ausopen.com/) was in town, so we trekked to the grounds during one of the mid-week days to avoid the crowds.  Little good that did as the place was still packed, which did make for a good viewing experience.  We were lucky (unlucky?) enough to have been seated directly behind a rowdy collection of self-styled tennis hooligans and a group of high classmates of one of Australians youngest, rising stars.  Complete with painted faces, sporting chants and smuggled booze, they definitely livened up the event.
 
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 57 Mornington Peninsula ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr57">
+   <p>
+    <figure>
+      <img src="images/kr_57.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Mornington Peninsula</h3> <br/>
+<i>15 January 2016 </i> <br/>
+Mornington Peninsula, VIC
+
+Being 8,000 miles from home often means that you can get away with not sending Christmas presents home due to the cost of international shipping.  However, when family members come visit it is then time to pay the proverbial piper.  For Kurt and Kathie this meant treating them to a day on the Mornington Peninsula.  We began with a stop for an early lunch at [Foxey's Hangout](https://www.foxeys-hangout.com.au/), a small winery near Red Hill.  No time is too early for a tasty Pinot for Kurt and we were also happy to indulge, so it was a good start to the day.
+
+We spent the afternoon driving to the various beaches, sampling at a few more vineyards and chasing the nearly tame Kangaroos at Arthur's Seat National Park.  Gift giving can be quite painless if done properly.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 58 Tasmania ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr58">
+   <p>
+    <figure>
+      <img src="images/kr_58.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Tasmania</h3> <br/>
+<i>15 January 2016 </i> <br/>
+Tasmania
+
+Tasmania's weather is notoriously fickle, though January offers the best chance at clear and sunny.  Playing the odds, we joined Erin's parents for a five-day adventure to Australia's southernmost state.  It is a quick 45 minute flight from Melbourne to Hobart, the capital.  Upon landing, the smell of smoke was obvious; Tasmania had been suffering from some of its worst bushfires (wildfires) in memory.  Usually too cold and damp, the dry spring and summer had turned its hills into a tinderbox.
+
+Upon landing, we grabbed our car and headed off to the [Museum of Old and New Art (MONA)](https://mona.net.au/), just north of Hobart.  Built by a billionaire gambler looking to tax shelter some of his winnings, the gallery/winery/cafe/park is now open to the public.  The art itself, well, it is mostly quite modern and not for the squeamish or shy.  Definitely a cultural experience and something we'd recommend doing...though I wouldn't take your kids or your parents.
+
+After checking in to our [AirBNB](https://www.airbnb.com/rooms/6338877), we drove the 18 windy kilometers up to the top of [Mt. Wellington](https://en.wikipedia.org/wiki/Mount_Wellington_(Tasmania)) for some fabulous, though hazy, views of the city and surrounds below.  The weather was pleasant, but cool.  On the way down, we made a call at the [Cascade Brewery](https://www.cascadebreweryco.com.au/) for some liquid refreshment.
+
+That evening we returned to the MONA for the sunset light show.  The 'show' is a [quasi-permanent installation by noted light artist James Turrell](https://mona.net.au/stuff-to-do/james-turrell-amarna).  The structure slowly changes colors (there is probably a better word for it) via projected lights over the course of a few hours.  Contrasting the light against the changing sky through the rectangular hole in the roof is mesmerizing.  Well worth the trip back.  Our only regret is that we didn't bring a bottle of wine or two (as a number of the more experienced spectators had done).
+
+The famous [Salamanca Market](https://www.salamancamarket.com.au/Home) was our first stop on Day 2.  Truly a lively affair.  The entire length of the street is packed with vendors of all sorts.  With a backdrop of the old wharf buildings, one is easily reminded of what Hobart was like 80 or 100 years ago....minus the skinny jeans and man-buns that proliferate amongst the hipster vendors.  This market is also home to the second best breakfast sandwich in Australia, as evidenced by my ongoing and highly unscientific study.
+
+A short drive and a shorter ferry ride later, we found ourselves on sleepy [Bruny Island](https://www.brunyisland.org.au/).  Mostly home to sheep, kangaroos and gravel roads, we spent the afternoon exploring small beach coves and eating local fare.  Kurt made an adventurous lunch order -- a wallaby burger -- the rest of found something less exotic to sate our hunger pangs.
+
+Day 3, we headed up the east coast of Tassy en route to our next [AirBNB near Launceston](https://www.airbnb.com/rooms/5983149).  Definitely the scenic route, we spent much of the day at 70kmh stuck behind caravans and large trucks.  The coast, however, did not disappoint.  Strange rock formations, crystal clear waters, small coastal towns, plenty of animal life (dead and alive) and few people.  There is little in the way of services so pack a lunch, turn off your mobile phone and just enjoy the drive.
+
+From Launceston we took our fourth day to explore [Cradle Mountain National Park](https://parks.tas.gov.au/explore-our-parks/cradle-mountain).   The drive took us through some very thick smoke from worst of the fires.  This particular area hadn't burned in human memory and losses include some stands of trees nearly 1,000 years old.  Tragic.  Home of the famous [Overland Track](https://parks.tas.gov.au/explore-our-parks/cradle-mountain/overland-track), the scenery here is certainly unique.  A scaled down and highly weathered version of some parts of Banff-Jasper would be the best way to describe it.  Dozens of plants found nowhere else in the world.   The hiking trails are abundant and well marked.  It is a tough drive getting to the park and we left wishing we had another day to explore.
+
+The weather had been nearly perfect our entire time in Tasmania...too good in fact.  The locals desperately needed rain to quell the fires.  As we stopped at one last [lighthouse](https://enjoytasmania.com.au/things-to-do/low-head/lighthouse/) on our way to the airport, the clouds were building and rain was on its way.  Our flight got out before the approaching storm.  It rained for a few days straight after our departure and put an end to the fires, for now.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 59 Janie's Trip to Australia ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr59">
+   <p>
+    <figure>
+      <img src="images/kr_59.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Janie in OZ</h3> <br/>
+<i>20 February 2016 </i> <br/>
+Melbourne and Surrounds
+
+Janie escaped the frigid Midwest for a 12-day visit.  Fresh off 30 hours of travel, we gave her little rest as we packed in a busy day trip to the Mornington Peninsula on her first full day here.  First stop was the [Moonlit Sanctuary](https://moonlitsanctuary.com.au/).  While, in general, I'm a bit skeptical of much of what passes for sanctuaries here in Australia, this place is really well done and takes in mostly injured animals that have no hope of re-release into the wild.  Along with the standard kangaroos, wallabies and koalas they had a massive emu, one small wombat and a pair of dingoes.
+
+After the sanctuary, we hit up a number of secluded beaches, including [Bushrangers Bay](https://www.visitmelbourne.com/regions/mornington-peninsula/see-and-do/nature-and-wildlife/beaches-and-coastlines/bushrangers-bay) which required an hour hike each way to reach.  The hike is well worth it.  We soon had the beach to ourselves and I took my first swim in the open, southern ocean.   A brief encounter with a large and unidentified snake on the walk back raised everyone's heartrate significantly.
+
+After spending the week exploring the sites in the city, we grabbed a rental car and embarked on a Great Ocean Road -> Grampians -> Ballarat loop.  Following the long, sinuous Great Ocean Road we made a number of stops such as the cairn beach, the koalas on Grey Road and a variety of overlooks and pull-offs.  This was the first time we had been through the area after the disastrous December fires.  While most of the towns were saved, the fire torched much of the forest all the way down to the ocean.  An eerie sight.
+
+Having fought the afternoon tourist buses at The 12 Apostles and Loch Ard Gorge on a number of occasions, we decided to check into our cottage in Peterborough first and return for the evening showing.  While the crowds were still plentiful, it was much more manageable and the clouds had broken and gave us excellent light.  We've now been here morning,  afternoon and evening and it has looked so very different each time.
+
+Next up, the Grampians.  It rained all day on our drive up from Peterborough.  Sensing the poor weather we took a lunch detour to the [Timboon Distillery](https://www.timboondistillery.com.au/).  If I'm going to hike in the rain, I'd at least like a drink or two first.  The rain had slowed to a drizzle by the time we arrived in Halls Gap, the underwhelming town at the center of the amazing national park.  We fought through the damp to do a small hike down to MacKenzie Falls, partially to check out the falls but mostly to examine the very interestingly designed and built trail.
+
+As the sun forced its way through, we hit up another short but rewarding hike.  Named the 'Grand Canyon' you won't confuse it with that much larger hole in the ground in Arizona, but it was a nice walk up a steep gully in the heavily eroded sandstone prevalent in this part of the world.  A bit of amateur rock scrambling topped off an adventurous day. On our way out of town in the morning, we hiked it up to the every popular Pinnacle lookout. Beating the crowds we had the place to ourselves.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 60 Diamond Days of Summer ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr60">
+   <p>
+    <figure>
+      <img src="images/kr_60.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Diamond Days of Summer</h3> <br/>
+<i>24 February 2016 </i> <br/>
+Melbourne and Surrounds
+
+The [Victorian Summer Baseball League](https://baseballvictoria.com.au/victorian-summer-baseball-league/) season ('comp' in Australian) has come to a close.  Being near the bottom of the standings ('ladder') meant that we won't be playing in the playoffs ('finals').  It is a long season, 26 games, and our [Port Melbourne Mariners](https://www.portmariners.com/) had our share of trials and tribulations both on the field and off.  Overall, it was great to get back to the game after eight years away.  It took me some time to get my swing back as well as my control on the mound, but that is to be expected for a 35-year old.  Things are looking up heading into the winter season.  Yes, they play all year round here. 
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 61 Short Sydney Trip ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr61">
+   <p>
+    <figure>
+      <img src="images/kr_61.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Two Days in Sydney</h3> <br/>
+<i>26 February 2016 </i> <br/>
+Sydney, NSW
+
+For Janie's last two days, she and Andy made a short trip up to Sydney.  He had a work meeting there on Monday, so it made for a well-time excursion.  We arrived on an early Sunday morning flight after a late night at Melbourne's [White Night festival](https://whitenight.com.au/).  A bit tired, we spent the morning exploring Darling Harbour while they prepared our room.  We checked in as early as possible and managed to grab a quick nap. The weather had improved, so we jumped a ride out to [Manly Beach](https://int.sydney.com/things-to-do/beach-lifestyle/manly-beach) and back during the afternoon.  Upon our return, we spent an hour or so wandering around the Opera House and the Rocks neighborhood.  Touristy, yes, but a satisfying way to spend a sunny Sunday afternoon.  
+
+My meeting ended early, so we spent Monday afternoon sampling a variety of Sydney's Happy Hours...which I must say are a better deal than those in Melbourne.  Janie received an initiation into global cuisine with her first Korean BBQ that evening.
+
+We nearly had to spend the night again as our delayed flight left the tarmac at 10:59:45..exactly 15 seconds before the 11pm Sydney Airport curfew would have taken effect.  We had been given advanced warning that it was going to be close and all 211 passengers boarded the plane in less than 15 minutes, proving that provided the right incentives loading a plane doesn't have to be the most frustrating and inefficient activity in modern life.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 62 Autumn at Uni ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr62">
+   <p>
+    <figure>
+      <img src="images/kr_62.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Autumn at UniMelb</h3> <br/>
+<i>7 April 2016 </i> <br/>
+Parkville, VIC
+
+[Erin] With both of us teaching at the University this semester, life in Melbourne has been full on.  We are just now halfway through the Autumn/Winter Semester and we have finally settled in to a bit of a rhythm.  It took me 2 weeks to get Uni wifi, 3 weeks to learn about the printers and I still don't know if I am filling out her timesheet out correctly, but I am slowly worming my way into the system. I am teaching a Landscape Architecture design studio focusing on Sustainable Urbanism as well as tutoring (the U.S. equivalent of a teaching assistant) for a Property Environments class.  Although I had my first taste in teaching/tutoring last year, this Semester is much more time consuming but also rewarding.  After trading a busy, sometimes flat out frantic workplace environment in a firm, to a much more relaxed and solitary desk in a home office, I had missed the energy of a studio design environment.
+
+The University of Melbourne has a beautiful campus, mirroring the city itself, it has a mix of historical architecture and bold modern design, each with their own hipster coffee shop catering to the masses of the early-twenties crowd in culottes and crop top regalia... and me.  For a while I was able to float along in the comfortable denial that I was blending in with the student population until one day standing in my recently and resentfully purchased maternity outfit, I looked around and realized things done changed.
+
+Notwithstanding this slap of reality, I have found teaching incredibly enjoyable.  Bringing some of the studio exercises back to life that inspired me while in school, encouraging students to sketch, think conceptually and get out and explore has reminded me how much I love design.  Plus, a few rainy site visits made me think of home sweet Seattle.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
 
 
 <!-- Werribee Gorge State Park -->
