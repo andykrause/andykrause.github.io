@@ -1816,124 +1816,1207 @@ Notwithstanding this slap of reality, I have found teaching incredibly enjoyable
 <body>
 <br clear="all" />
 
+# <!--- 63 Werribee Gorge State Park ------------- -->
 
-<!-- Werribee Gorge State Park -->
-<!-- APRIL 11, 2016 -->
-<!-- ““ -->
-<!-- Not long after moving to Melbourne, Andy and I started scouting out all the nearby hikes we wanted to explore, trying to maintain some level of hiking fitness despite being an ocean away from our beloved Pacific Northwest mountains. -->
-<!-- We have been faithfully checking each hike off the list and revisiting some of our favourites.  Undoubtedly, whenever we discuss which hike to set out for over the weekend, Andy always suggests Werribee Gorge State Park, and I always shoot the idea down.  Gorge hikes don’t really interest me as you usually have to descend first, finishing a long hike with an uphill climb, (a pet peeve of mine), and there is often a lack of epic views or dangerous conditions which are some of my main hiking attractions.  I finally and begrudgingly gave in to this hike and we set off on a sunny Autumn day to explore the Gorge. -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- The Werribee gorge is home to a bevy of native Australian animals including the reclusive platypus, and although we didn’t see any, we spent a fair amount of time down by the river watching for bubbles and duckbills.  The trail started off with a series of scrambles around a rock face while holding on to a metal cable, which immediately improved my outlook on the hike.    -->
-<!-- ““ -->
-<!-- After a few miles along the river, we carved up and out of the gorge, climbing up to the ridge with views down to the oxbow below and 360 degree views of the surrounding bush. -->
-<!-- ““ -->
-<!-- Front pack and Backpack... -->
-<!-- ““ -->
-<!-- With sun shining and a slight warm breeze, we continued along our 10km loop back to the river, through open Eucalypt forests, down and back up a few steep gullies, but by that time, I had already admitted to a considerably smug Andy, that Werribee Gorge was one of my new favourites. -->
+<body>
+  <div class="content">
+  <a id="kr63">
+   <p>
+    <figure>
+      <img src="images/kr_63.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Werribee Gorge State Park</h3> <br/>
+<i>11 April 2016 </i> <br/>
+Pentland Hills, VIC
 
+[Erin] Not long after moving to Melbourne, Andy and I started scouting out all the nearby hikes we wanted to explore, trying to maintain some level of hiking fitness despite being an ocean away from our beloved Pacific Northwest mountains.
 
-<!-- Weekend in Bright -->
-<!-- APRIL 28, 2016 -->
-<!-- ““ -->
-<!-- About 300km northeast of Melbourne one finds the Australian Alps.  To many, us Pacific Northwesterns included, using the term 'Alps' to refer to these ranges registers a touch on the side of wishful thinking.  Foothills would be a more appropriate moniker.  Nonetheless, they are a welcome departure from the coastal plains of Melbourne.  I think we've both realized that too much time staring at flat horizons leaves us wanting (and weak in the thighs). -->
-<!-- Being the middle of Autumn, a road trip to Alpine Country would also permit us the opportunity to catch the fall colours.  Many of valleys and riverbeds in this part of the state have been planted with aspens, beech, elm and other deciduous trees that, against their own good judgement and whatever passes for floral biological instinct, turn all shades and drop their leaves...in April.  A holiday weekend, every other family from the state had the same idea so not only were the road littered with amateur photographers parking any place that offered a shot of a bright red tree, but the hotels and restaurants were full as well.  As with most U.S. National Parks, a mile walk down a trail will distance you from 99% of the masses, and this proved no exception.   -->
-<!-- ““ -->
-<!-- Failing to find an open table in the busy town of Bright, we settled for quick lunch in the tiny village of Harrietsville. Sated, we took a long, sinuous drive up to Mt. Hotham village and did our first hikes up above the tree line, or at least what had been the tree line prior to a bush fire wiping out all the trees in the area a few years ago.   -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- On the way back down the mountain and to our hotel we managed to secure a table and had a quick drink at the Bright Brewery.  Our lodging for the night was 80km due north in the town Albury, NSW, located along the mighty Murray River.  Exhausted from a long day's drive, we ate snacks for dinner and fell asleep early.  If you never make it to Albury, NSW, I wouldn't harbour any regrets.  -->
-<!-- The next morning we headed south, this time to Mt. Buffalo on the east side of Bright.  The hiking here is much less exposed and feels more like a bit of Tasmania or New Zealand transplanted into the middle of Australia, with a nice little lake tucked into the mountain top.    -->
-<!-- ““ -->
-<!-- On the way of out town we made a number of stops to take some photographs of the very unique and well-kept agricultural buildings in the region.  Nearly every farm had a collection of 'kilns' which appeared to be used to slowly dry out hay or hops.   -->
+We have been faithfully checking each hike off the list and revisiting some of our favourites.  Undoubtedly, whenever we discuss which hike to set out for over the weekend, Andy always suggests [Werribee Gorge State Park](https://www.parks.vic.gov.au/places-to-see/parks/werribee-gorge-state-park), and I always shoot the idea down.  Gorge hikes don’t really interest me as you usually have to descend first, finishing a long hike with an uphill climb, (a pet peeve of mine), and there is often a lack of epic views or dangerous conditions which are some of my main hiking attractions.  I finally and begrudgingly gave in to this hike and we set off on a sunny Autumn day to explore the Gorge.
 
-<!-- Adventures in Wisconsin -->
-<!-- JUNE 06, 2016 -->
-<!-- The Dairy State was the first stop of our three-week American tour.  We arrived at Milwaukee's General Mitchell Airport at 6pm on the evening of May 31st.  Tired, from our 25 hour MEL -> LAX -> MKE journey, but excited to be back in the motherland...and not just any state, but the home of cheese curds, Pabst Beer, the typewriter, Harry Houdini and Laura Ingalls Wilder.  Our hire car (rental car) in tow, we drove the two hours (on the wrong side of the road) to the place of my birth, Navarino, WI.   -->
-<!-- ““ -->
-<!-- The next morning we made the short drive to Green Bay for a personal tour of the hallowed grounds of Lambeau Field.  Escorted by his uncle, Matt, baby boy Krause set foot on the field for the first of what will hopefully be many appearances on a professional sporting stage.   Our next stop was a visit to the world famous Tundra Lodge, managed by Aunt Janie.   -->
-<!-- ““ -->
-<!-- On Friday, all of the siblings skipped work for the first annual Krause Family Wolf River kayak tour.  The one hour float (time for 3 beers) terminated at Matt's new house, which was followed by a family party at the shared lake cottage a few minutes away.  -->
-<!-- ““ -->
-<!-- The rest of the trip was spent relaxing by the lake, learning to weave rugs or combing through old family photo albums.  Apparently I was both a Raiders and a Seahawks fan in my youth...the pull of the west coast began at an early age for me.  -->
+The Werribee gorge is home to a bevy of native Australian animals including the reclusive platypus, and although we didn’t see any, we spent a fair amount of time down by the river watching for bubbles and duckbills.  The trail started off with a series of scrambles around a rock face while holding on to a metal cable, which immediately improved my outlook on the hike.
+
+After a few miles along the river, we carved up and out of the gorge, climbing up to the ridge with views down to the oxbow below and 360 degree views of the surrounding bush.
+
+With sun shining and a slight warm breeze, we continued along our 10km loop back to the river, through open Eucalypt forests, down and back up a few steep gullies, but by that time, I had already admitted to a considerably smug Andy, that Werribee Gorge was one of my new favourites.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
 
 
+# <!--- 64 Fall Weekend in Bright ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr64">
+   <p>
+    <figure>
+      <img src="images/kr_64.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Fall Weekend in Bright</h3> <br/>
+<i>28 April 2016 </i> <br/>
+Bright, VIC
+
+About 300km northeast of Melbourne one finds the Australian Alps.  To many, us Pacific Northwesterners included, using the term 'Alps' to refer to these ranges registers a touch on the side of wishful thinking.  Foothills would be a more appropriate moniker. Nonetheless, they are a welcome departure from the coastal plains of Melbourne. I think we've both realized that too much time staring at flat horizons leaves us wanting (and weak in the thighs).
+
+Being the middle of Autumn, a road trip to Alpine Country would also permit us the opportunity to catch the fall colours.  Many of valleys and riverbeds in this part of the state have been planted with aspens, beech, elm and other deciduous trees that, against their own good judgement and whatever passes for floral biological instinct, turn all shades and drop their leaves...in April. A holiday weekend, every other family from the state had the same idea so not only were the roads littered with amateur photographers parking any place that offered a shot of a bright red tree, but the hotels and restaurants were full as well.  As with most U.S. National Parks, a mile walk down a trail will distance you from 99% of the masses, and this proved no exception.
+
+Failing to find an open table in the busy town of Bright, we settled for quick lunch in the tiny village of Harrietsville. Sated, we took a long, sinuous drive up to [Mt. Hotham Village](https://www.mthotham.com.au/) and did our first hike up above the Australian tree line, or at least what had been the tree line prior to a bush fire wiping out all the trees in the area a few years ago.
+
+On the way back down the mountain and to our hotel we managed to secure a table and had a quick drink at the [Bright Brewery](https://brightbrewery.com.au/).  Our lodging for the night was 80km due north in the town Albury, NSW, located along the mighty Murray River.  Exhausted from a long day's drive, we ate snacks for dinner and fell asleep early.  If you never make it to Albury, NSW, I wouldn't harbour any regrets.
+
+The next morning we headed south, this time to [Mt. Buffalo](https://www.parks.vic.gov.au/places-to-see/parks/mount-buffalo-national-park) on the east side of Bright.  The hiking here is much less exposed and feels more like a bit of Tasmania or New Zealand transplanted into the middle of Australia, with a nice little lake tucked into the mountain top.
+
+On the way of out town we made a number of stops to take some photographs of the very unique and well-kept agricultural buildings in the region.  Nearly every farm had a collection of 'kilns' which appeared to be used to slowly dry out hay or hops.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 65 Bellarine Peninsula ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr65">
+   <p>
+    <figure>
+      <img src="images/kr_65.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Bellarine Peninsula</h3> <br/>
+<i>15 August 2016 </i> <br/>
+Queenscliff, VIC
+
+We took advantage of the sunny and warm mid-winter day to get out of the city and head down to the [Bellarine Peninsula](https://www.visitmelbourne.com/regions/geelong-and-the-bellarine).  The city of Melbourne sits on the top of Port Philip Bay while the Bellarine Peninsula and the Mornington Peninsula, divided by just a thin kiss of sea known as The Rip, separate the Bay from the Bass Strait.  This is the only shipping access into Melbourne and so the 3.5 km stretch between the two peninsulas is crowded with vessels bound for the port most of the day.  We have explored the Mornington Peninsula many times since moving here, but hadn't spent much time out on the more mellow, less touristy Bellarine.  A drive along the coast side of the Peninsula runs parallel to a large swath of rugged and windblown dunes. Every 1 km or so, there is a parking lot packed with surfers perched on top of their vans, taking videos or photos with cameras triple the cost of said vans,  and scouting the next set of waves.  The bay side of the Peninsula, has small towns that cater to the seasonal visitors coming down from the city.  Along the shore drive, beautiful old hotels anchor each little town with names like 'Indented Head' and 'Moolap'.  Either through tourism or recreation, the towns still support a tiny maritime community, and countless piers with lightly-brined fishermen, both young and ancient, reach out into the bay.
+
+[Erin] Instead of a usual trek along the coast or some kind of vigorous sporting activity, our pace is a bit slower at the moment, so we spent the day doing retiree activities such as visiting lighthouses, botanic gardens, shipwrecks, and hunting for odd Aussie treasures at vintage warehouses.  With just a few more weeks to go before this baby is born, I am more than ready to be done serving my purpose as a house.  Andy recently told me that he didn't remember a time when I wasn't pregnant, and although I wasn't really sure how I should take that comment, I completely agreed with the sentiment.  I am grateful that I have had a healthy pregnancy thus far, and I am sure, (sort of), I will look back and treasure the experience, however, I would still like to vote for the option of laying an egg and having Andy sit on it for months on end.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 66 Last of Winter, First of Spring ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr66">
+   <p>
+    <figure>
+      <img src="images/kr_66.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Last of Winter, First of Spring</h3> <br/>
+<i>6 September 2016 </i> <br/>
+Melbourne, VIC
+
+[Erin] As we move into the final days (weeks?) of my pregnancy, we also transition from winter to spring in the Southern Hemisphere.  In actuality, Spring doesn’t officially start until the Equinox on September 22 this year, however, we found out last year that Australians consider September 1st the beginning of Spring and celebrate it joyfully.
+
+Also arriving with the warmer season, are my parents.  The intent was for them to be here just a bit before the baby is born, and then after to help us as we flail around as new parents, but at this point, the ‘after’ time period is slowing waning as the baby continues to stay put.
+
+Since this is their second visit to Melbourne, we have focused less on the must-see tourist attractions, and more on the day-to-day pleasures that make this city the ‘most livable in the world’ 6 years running.  In the last week we have attended that last of the [Winter Night Markets](https://winternightmarket.com.au/) at the Queen Vic market, tried out a new café each day, tested various routes to and from the hospital, attended a footy game, and sent them off on their own to museums and shops to explore.
+
+Each day we go for walks to enjoy the sunshine along the beach promenade, also with the plan of shaking the baby out.  It hasn’t worked yet, but I can only hope it will soon.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 67 Macedon Ranges ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr67">
+   <p>
+    <figure>
+      <img src="images/kr_67.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Macedon Ranges</h3> <br/>
+<i>11 September 2016 </i> <br/>
+Trentham, VIC
+
+[Erin] In hopes that the baby would upset some well-laid plans, we decided to take a day trip just a couple hours outside of town to the Macedon Ranges.  Starting out in the cool and semi-dreary weather, our first stop was the [Organ Pipes National Park](https://www.parks.vic.gov.au/places-to-see/parks/organ-pipes-national-park).  The linear basalt columns giving the park its name, rise 70 metres from the banks of Jackson Creek creating a vision of nature’s cathedral.  We strolled down from the parking lot and huffed it back up the canyon – me moving at a remarkably slower pace than normal.
+
+Next stop was the [Hanging Rock Reserve](https://www.visitmacedonranges.com/see-do/hanging-rock-macedon-ranges/), home to Mount Diogenes. This Reserve is one of the best places in the world to see an example of a Mamelon, or the geologic feature that occurs when thick lava pushes through a narrow vent in the bedrock.  We hiked up through the rock formations and then clambered about at the top, (as much as a 9-month pregnant woman can clamber), taking in the views to the surrounding country.
+
+For lunch we visited the [Redbeard Bakery](https://www.redbeardbakery.com.au/) in the small town and foodie destination of Trentham. Famous for their wood fired sourdoughs, the bakery is using the same Scotch Oven from 1891, although now the bakery has been expanded to include an inviting café and small foodstore stocked with local preserves, honey and other goods.
+
+Similar to the wonderful Holly B’s Bakery located in my hometown, this bakery seemed to serve as both local community hub and beloved destination for visitors and tourists. We left happy and sated with a backpack full of baked goods.
+
+The nearby Trentham Falls was our last stop before finishing up the loop and heading back to Melbourne.  Previously spoiled by the glorious waterfalls of the PNW, Andy and I have found ourselves underwhelmed by the waterfall destinations we have visited in Australia.  The last few days of heavy rains made it a perfect time to view the [Trentham Falls](https://www.parks.vic.gov.au/places-to-see/parks/coliban-river-scenic-reserve/attractions/trentham-falls), and this time we were not disappointed. The day ended uneventfully, with, unfortunately for my current level of comfort, no trip to the hospital.  Quickly approaching my due date, I can only hope this baby is ready very soon.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
 
 
-<!-- Kraustralians in Washington State -->
-<!-- JUNE 20, 2016 -->
+# <!--- 68 Everett Arrives ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr68">
+   <p>
+    <figure>
+      <img src="images/kr_68.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+    
+<h3>Everett Arrives</h3> <br/>
+<i>12 September 2016 </i> <br/>
+Parkville, VIC
+
+[Andy] I awoke to ‘Oh shit, my waters are breaking!’  Six hours later little Everett Tasman Krause was wriggling and wailing on mom’s chest. I had two jobs in this drama: 1) Driving to the hospital, which I managed with only one illegal turn and 2) Cutting the umbilical cord, which I completed with all the skill of a kindergartner who, after eating a stick of paste and drinking two Mountain Dews, decides to make a paper snowflake. It took me four snips, one of which missed. It is a damn good thing we only play a small role in this process.
+Erin was a hero (or heroine), condensing the whole process into a short six-hour window and whinging oh so little along the way.  The little guy weighed in at 3,370 grams -- it sounds so much more grand in metric -- or 7lbs almost 7oz.  Everyone is healthy and happy and ready for the challenge ahead.  More photos in the posts that follow.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 69 Everett's First Outing ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr69">
+   <p>
+    <figure>
+      <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Everett's First Outing</h3> <br/>
+<i>17 September 2016 </i> <br/>
+Port Melbourne, VIC
+
+Every 3rd Saturday a farmers market is held at one of the nearby parks in our neighborhood. The park is named [Gasworks Arts Park](https://www.gasworks.org.au/), making us nostalgic for Seattle.  The park has a set of old factory ruins surrounding a central green space, an area which has been repurposed for art studios, community uses, and cafes.  Carts and stalls set up here early, varying from Lebanese wraps, to hand cut sprouted greens, fresh dairy, in-season fruit and veg, bagels, cider and beer, native flowers and hot pies.
+
+The weather was sunny and warm, so we packed Everett up in his pram, gathered up enough gear and essentials to raise him until he was 10, and set out on his first outing. Less than a week old, he didn't do much except wriggle out of his hat every 5 minutes, so we were able to eat lunch, purchase groceries for dinner, and soak in the sun at our leisure.
+While he was still asleep, we continued on our walk, stopping at the nearby cricket oval to watch the local team training, and then finally vectored home to unpack our purchases and newborn baby.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 70 From 5 to 3 ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr70">
+   <p>
+    <figure>
+      <img src="images/kr_70.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>From 5 to 3</h3> <br/>
+<i>7 October 2016 </i> <br/>
+Around Melbourne, VIC
+
+As September turned to October we prepared for the departure of Kurt and Kathie.  Gone would be our dedicated cleaner, handy-man, grocer-getter and baby-handlers.  LIttle Everett will probably miss all of the attention as well.
+
+October also means the beginning of the summer baseball season.  Erin will likely continue to be our most dedicated fan, and Everett the youngest.  We've already suffered a number of injuries and legal mishaps so it might another tough season for the Port Melbourne Mariners.
+
+Finally, we took advantage of the free childcare one last time to have an adult meal at one of our favourite places in the Windsor neighbourhood, [The Thai on Chapel](https://www.facebook.com/people/The-Thai-on-Chapel/100063766982364/).  En route, we detoured through one of Melbourne's many alleyways covered by amazingly detailed, constantly changing and not always kid-friendly street art.  
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 71 You Yang Ranges ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr71">
+   <p>
+    <figure>
+      <img src="images/kr_71.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>You Yang Ranges</h3> <br/>
+<i>17 October 2016 </i> <br/>
+Little River VIC
+
+This spring has been particularly wet, windy and cold.  Luckily, this past Sunday was a welcome exception.  To celebrate we took little E out for his first bush walk (hike).  Both of us are a bit out of hiking shape and we didn't know how long he would last in the Ergo-Baby carrier, so we chose a short and nearby tramp though the [You Yang Ranges](https://www.parks.vic.gov.au/places-to-see/parks/you-yangs-regional-park).  The one-hour hike offered plenty of good views down to Port Phillip Bay and the surrounding fields turned green by the wet weather.   Everett slept most of the way and appeared to rather enjoy being bounced up, down, over and around the well worn rocks along the trail.   Mom and dad got in some moderate climbing which was enough for our-now weak thighs.  What flat-landers we have become.
+
+After the hike, we discussed the animals that we had seen on the trip in one of his infant books.  While he didn't quite pick out the correct answers, at least he pointed to animals on the right continent.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 72 Yarra Valley ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr72">
+   <p>
+    <figure>
+      <img src="images/kr_72.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Yarra Valley</h3> <br/>
+<i>31 October 2016 </i> <br/>
+Yarra Valley, VIC
+
+Northeast of the city, the flat lands of Melbourne gradually transition into the rolling hills of the Yarra Valley. Known for its stellar wines, farmstand produce, art galleries and other trappings of a bougie weekend - the valley also is also an easy day trip for a newborn and his parents who are still trying to maintain some sense of adventure.
+
+We took the back roads to Yarra Glen, stopping first at the [Hargreaves Hills Brewery](https://hargreaveshill.com.au/) - sat in sun and enjoyed a beer and delicious food from locally sourced ingredients. From there we continued to the [Tarrawarra Museum of Art](https://www.twma.com.au/) farther up valley - impressively passing by both a chocolaterie and a distillery without stopping -  being parents has certainly streamlined our adventures somewhat...
+
+The art museum is set in to a hillside with a prospect out to the Yarra valley beyond. A modern building stretches out horizontally along the hill - concrete, glass and rammed earth. In addition to the art museum, the property is home to a winery complete with cellar door tasting room, outdoor sculpture garden and a restaurant.  The weather was perfect as the afternoon warmed up and visitors lay on the grass enjoying the sun and the views.
+
+[Erin] I fell in love with the outdoor museum café - a simple tiered deck with bright tables and chairs under a grove of Pepper trees, perfect for espresso or wine in the afternoon heat.
+
+Everett wasn't that impressed with the art, views or cafe and instead slept in a little ball in dad's arms while mom ran around taking dorky design photographs of construction details and plants.
+
+We have been trying to get Everett accustomed to longer hikes, so on this trip we shrugged him in the front pack and took him hiking at the [Sugarloaf Reservoir](https://www.parks.vic.gov.au/places-to-see/parks/sugarloaf-reservoir-park). Ever watchful for snakes, we trekked under the canopies of massive Eucalyptus trees and down along the water's edge.
+
+Out in the country, surrounded by bush vegetation, the heat intensifies the smell of the eucalyptus and wattle - such a different scent than our Pacific Northwest evergreens - foreign and yet now becoming familiar as we have been Kraustralians for almost two years now.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 73 Mornington with SarahB ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr73">
+   <p>
+    <figure>
+      <img src="images/kr_73.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Mornington with SarahB</h3> <br/>
+<i>5 November 2016 </i> <br/>
+Red Hill, VIC
+
+The Mornington Peninsula is the day-trip of choice with visitors when the weather cooperates.  The beauty of it is that no matter how many times you go you always find something new to do.  This would also be Everett's first trip here as well, though try as we did, it is doubtful he'll remember much of it.
+
+It was a gorgeous, mostly sunny 27 degrees so our first stop was the beach in the eponymous town of Mornington.  It was getting a bit warm for Everett in his capsule (car seat) so we took him into the water for his first swim in the sea.  Being mid-spring the water is cold and when a wave rolled in he decided, quite quickly, that cold salt water wasn't the thing for him...at least not yet.  Mornington's beach has dozens of small, colored beach boxes as well, always a fun adventure for the design-minded.
+
+Apart from its scenic splendor, the peninsula has a burgeoning artisan food industry.  A fine destination for our visitor who once ran a popular Seattle food blog.  Stops included [Johnny Ripe's gourmet pie shop](https://www.parks.vic.gov.au/places-to-see/parks/sugarloaf-reservoir-park), [Flinders Chocolaterie](https://www.mpchoc.com.au/), [Red Hill Brewery](https://www.redhillbrewery.com.au/), [Ten Minutes by Tractor Winery](https://www.tenminutesbytractor.com.au/) and [Main Ridge Dairy](https://www.mainridgedairy.com.au/).  We had no less than five small lunches during the day, as well as a few beers and glasses of wine, strategically spread between driving and feeding duties.
+
+We ended the day as always, with a dusk trip to [Arthur's Seat Park](https://www.parks.vic.gov.au/places-to-see/parks/arthurs-seat-state-park) for some kangaroo viewing.  The little guy performed well on his first long day trip.  Only one small episode of 'crackin it' (unnecessary and inconsolable crying) and multiple naps in his capsule.  We want to train him to be 'road-ready' from an early age.  The first try was a success.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 74 To Horsham by way of Grampians ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr74">
+   <p>
+    <figure>
+      <img src="images/kr_74.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>To Horsham by way of Grampians</h3> <br/>
+<i>9 November </i> <br/>
+Horsham, VIC
+
+We began our four-day road trip with a stop in the Grampians.  A near perfect, mid-week day meant that the park was much emptier than normal.  Being with small child and a visitor recovering from a ankle injury our hikes were short and sweet, mostly 20-minute affairs from the various carparks.
+
+Mobile phone coverage is spotty throughout the park, a usual annoyance which today, Election Day in the US, had the effect of putting us in great suspense as the votes tallied up.  When we got to the lookout below our phones came to life and all the beauty of the world in front of us did little to obscure the ugliness from home. It was a quite ride to our [small, farm shack accommodation](https://www.airbnb.com/rooms/3585391) just outside of Horsham that evening.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 75 Little Desert National Park to Robe ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr75">
+   <p>
+    <figure>
+      <img src="images/kr_75.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Little Desert National Park to Robe</h3> <br/>
+<i>10 November 2016 </i> <br/>
+Robe, South Australia
+
+We started Day two of our road trip with fresh eggs from the chickens and smashed avo on toast. What we have found to be the quintessential Aussie brekkie.
+
+[Erin] Back on the road, the route from the mountains to the coast didn’t hold many attractions - so most of our day was spent on lonely roads through farmlands and bush. We did stop at [Little Desert National Park](https://www.parks.vic.gov.au/places-to-see/parks/little-desert-national-park) for a quick bush walk through the spring wildflowers.  Andy packed the bub, Sarah swatted wildly (known here as the Australian Salute) at the persistent swarm of flies, and I took a few hundred plant photos, marveling at the rusts, pinks, golds and countless tones of green.
+
+A couple hours of driving later, we crossed from the State of Victoria into the State of South Australia and reached the coastal town of Kingston.  This small town provided an opportunity to stretch our legs, but mostly an excuse to visit the town’s claim to fame, a massive steel and fiberglass lobster.  [The Big Lobster](https://en.wikipedia.org/wiki/Big_Lobster) is an incredibly literal and large advertisement for the the town’s bounty of crustaceans, and one in the collection of the country’s subtly named attractions ‘[Australia’s Big Things](https://en.wikipedia.org/wiki/Big_things_(Australia)’.  Apparently there are hundreds of **Big** structures all over the country, part novelty, part kitsch. Most often the themes originate from the area’s history or specialty, (Big Ned Kelly, Big Avocado, Big Kookaburra), they can also be oddly oversized and intentionally gonzo artifacts intended as an tourist draw, (Big Poo, [Big Bogan](https://en.wikipedia.org/wiki/The_Big_Bogan), Big Rubik’s Cube).
+
+From Kingston, we drove the coast highway east to our destination for the evening in the small town of [Robe](https://southaustralia.com/destinations/limestone-coast/places/robe).  While Robe is certainly busy during the hot summer months, it wasn’t so during our visit and most of the shops and cafes closed down at 4pm. After a quick walk to the beach, we finished the evening at the local pub – happily surrounded by the din of locals, a cricket game on the TV and a crackle from the wood fire – only in Australia would a fire be necessary on a day reaching the low 70 degrees.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 76 Robe to Port Fairy ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr76">
+   <p>
+    <figure>
+      <img src="images/kr_76.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Robe to Port Fairy</h3> <br/>
+<i>11 November 2016 </i> <br/>
+Port Fairy, VIC
+
+Starting Day 3 of our roadtrip, Andy and I woke early – me because I was protecting our son from the blood-sucking mozzies in our room and Andy because I was thrashing around wildly.
+After the pest crisis was solved, we took advantage of having a willing babysitter and drove out to a for a sunrise walk along the coast from the old Gaol (jail) to a picturesque obelisk, (read as primitive lighthouse).
+
+We took off from Robe after breakfast and as the weather was already heating up, our route stayed along the coastline to take advantage of the breezes.  We climbed over a few massive and scrub-covered dunes to reach the long stretch of beach at [Canunda National Park](https://www.parks.sa.gov.au/parks/canunda-national-park) before continuing along the coast to [Cape Nelson Lighthouse](http://www.capenelsonlighthouse.com.au/).
+
+Our drive continued east along the coast, through fields of windmills and emus,  back across the state border into Victoria. We spent the evening in the town of [Port Fairy](https://portfairyaustralia.com.au/). Despite threatening weather, we walked into town and stopped at [Coffin Sally](http://coffin-sally.squarespace.com/) to pick up some amazing pumpkin, and goat cheese pizza. The ‘restaurant’ was so small it was practically a kiosk – with a table and stools on the sidewalk for customers – Sarah and I could barely squeeze into the doorway area to order.  Luckily, the pizza was far more ample than the real estate, and we had delicious leftovers for breakfast.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 77 Port Fairy to Home ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr77">
+   <p>
+    <figure>
+      <img src="images/kr_77.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Port Fairy to Home</h3> <br/>
+<i>12 November 2016 </i> <br/>
+Great Ocean Road, VIC
+
+We made some last minute changes on Day 4 of our road trip as the weather called for a series of rainstorms washing across the coastline – and directly over our path of travel for the day.
+
+[Erin] We hustled to visit some of the main attractions early, [Loch Ard Gorge](https://greatoceanroadmelbournetours.com.au/attractions/loch-ard-gorge/) and the [12 Apostles](https://www.parks.vic.gov.au/places-to-see/parks/port-campbell-national-park/things-to-do/twelve-apostles) – before the storms and the crowds.  Andy and I have visited this area several times now by ourselves and each time guests come to visit and the experience is different. The seasons, the weather, the tides all affecting the colors, access and light. This particular morning, attendance was low, we practically had the place to ourselves. The light was also low, with the storm sitting just over the horizon it was hard to see the sky and sea as distinct. Although the color of the water is absolutely brilliant on a clear and sunny day, this may have been one of my favorite visits, a moody light, a crisp breeze and the lack of selfie sticks.
+ 
+We finished up our roadtrip by taking Sarah to a couple of our Koala-spotting locations, stopping in a few small towns for snacks and sundries and made it back to Melbourne by the evening. Everett was a total champ on the trip, sleeping when we drove, eating when we stopped, happily packed around in an assortment of transportation devices.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 78 Thanksgiving ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr78">
+   <p>
+    <figure>
+      <img src="images/kr_78.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Thanksgiving</h3> <br/>
+<i>1 December 2016 </i> <br/>
+Port Melbourne, VIC
+
+For our second Thanksgiving in Australia, Everett’s first Thanksgiving ever, I wanted to make everything perfect.  Andy made me rein back the menu a bit from last year by ordering a turkey and having our guests bring a dish, so I kept most of my sanity and it ended up being a fantastic feast.
+
+We invited four of our Aussie friends – in the spirit of spreading American traditions, thanks, and calories.  Quite coincidentally, my cousin Michael was visiting from San Francisco, so it was wonderful to have him there as well.  
+
+With dishes going in and out of the tiny oven and last minute food prep, I forgot to take a picture of our table filled with food and surrounded by friends, but I did manage to capture our counter covered in food before we tucked in.  If you can imagine 7 adults and 2 babies in a small living room/ kitchen gathered around a tall desk and a small picnic table, some standing, some sitting, some worming around on the floor, drinking, eating, laughing and drooling – then you get the idea.
+
+The following day, we attended another Thanksgiving meal this time with a group of new expat friends I have met through the yoga studio I attend.  A delightful group of half Americans, half Australians – we had an amazing spread including all of the Thanksgiving classics but with a gourmet Aussie spin.
+
+Everyone ate outside on the back porch in the sun – sharing recipes and stories.  We finished the meal with pie and homemade Butter Pecan ice cream – a flavor that hasn’t made it to Australia yet, so it tastes 100% like the USA. Through both boisterous events – Everett was content being passed from arms to arms, or quieting studying the different sounds and intently smelling the different scents.  We are, as always, thankful for family, friends, and good health – but this year, we are especially thankful for our little pip.
+
+One of our guests made the comment that they weren't returning this year if I didn't make the Pumpkin Cheesecake again, so I made extra this year to send home as leftovers.  This also means having baby cheesecakes for brekkie - my person Thanksgiving ritual.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 79 Calm Before the Storm ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr79">
+   <p>
+    <figure>
+      <img src="images/kr_79.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Calm Before the Storm</h3> <br/>
+<i>5 December 2016 </i> <br/>
+Port Melbourne, VIC
+
+Over the next three months we will have visitors for most of the time and will be travelling to all parts of the country with them, so we took the opportunity to do a few things around the city on this last weekend by ourselves. Friday was a cool, crisp spring day and we made our way down to the new park in Port Melbourne.  It is reclaimed from part of an industrial pier and offers great views from the observation deck back to city.  Everett was not as excited as we were and slept through most of it.
+
+[Andy] On Saturday, we stopped by the [Big Design Market](https://melbourne.thebigdesignmarket.com/) expo at the very old and ornate Melbourne Exhibition Hall.  It was a bit of melee and had one too many artisan soap sellers for my liking, but I did manage to cross off a few Christmas gifts from my list and purchase myself a much needed leather belt. Erin left without kicking and screaming, but I know she really wanted a few more hours inside.
+
+Needing some fresh air, we headed to the Dandenong Ranges for a short bushwalk on Sunday.  We found an interesting botanical gardens ([RJ Hamer Arboretum](https://www.parks.vic.gov.au/places-to-see/parks/rj-hamer-arboretum)) that consisted of various groves of North American and Asian tree species. Much to Erin's delight, she was able to give Everett and me the full Latin names for most of the trees we walked by.  I'm not sure which of us was more impressed.  Luckily, the little guy enjoys bopping around the woods in his Ergo carrier because there will be plenty of that in his future.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 80 Kata Tjutta National Park ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr80">
+   <p>
+    <figure>
+      <img src="images/kr_80.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Kata Tjuta National Park</h3> <br/>
+<i>13 December 2016 </i> <br/>
+Yulara, NT 
+
+We took advantage of some cheap airfares to do a 24-hour in-and-out trip to the Red Centre to see some big rock formations.  It was Everett's first plane ride so we didn't really know what to expect, but he was a champion, sleeping most of the 3-hour flight on the way there and when he wasn't sleeping he was charming the young female backpackers sitting near us (some behavior, it would seem, is genetic).  Flying with an infant requires more gear than an Antarctic mission so it was nice to have the grandparents along as porters.
+
+We exited the plane stairs onto the tarmac to enjoy that sweet smell of desert air and a comforting 41C/106F heat.  We grabbed our bags and rental car and at the fork in the road headed west to [Kata Tjuta](https://northernterritory.com/us/en/uluru-and-surrounds/destinations/kata-tjuta-the-olgas), Uluru's less famous and nearly as impressive cousin.
+
+Besides the heat, the flies are real bad in this part of the world...but moving quickly between attractions seemed to help.  After sprinting about 100m to a view point overlook I was momentarily inspired to do more long distance running when I returned home.  That feeling quickly faded to a desire for multiple ice cold beers.
+
+Normally, we'd do a fair bit of hiking here, but with the little guy and the intense sun we, somewhat begrudgingly, became your standard tourists driving from one parking lot to the next.  In Australia, sometimes it is safer to stay on the beaten path.  And the beaten path here was, extreme heat and flies notwithstanding, truly amazing.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 81 Uluru National Park ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr81">
+   <p>
+    <figure>
+      <img src="images/kr_81.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Uluru National Park</h3> <br/>
+<i>14 December 2016 </i> <br/>
+Yulara, NT 
+
+Kata Tjuta rock formation and the better known [Uluru](https://parksaustralia.gov.au/uluru/) are actually within the same National Park boundary, but Uluru gets all the attention.  Both are spectacular, but Uluru, its sheer mass grounded to such a flat plane seems like something out of a dream or a sci-fi movie. It is hard to capture in photos, but magical in person. The rock has a mutable quality, changing with levels of light, heat and variation of cloud cover.  Each time we drove by, heading from one viewing point or lookout to the next, the scene changed.  Over the two days of our visit, we saw clear bluebird skies, a heavy rising moon, a fraction of a rainbow, raked cloud cover and a rain drizzle over Uluru. Each painting the rock with a different set of shadows and colors – reinventing the experience from minute to minute.
+
+On day two, we were up before the sun, hustling back to the park in hopes that the light would sneak under the cloud cover to shine on Uluru. We were not disappointed. As the sun slowly ascended, the colors became more saturated and peaked with a bright vermillion before evening out to shades of red, purple and brown as the daylight brightened.
+
+Everett wasn’t as impressed as we were and he continued to sleep through the sunrise and our circumambulation of the rock. The temperatures had dropped drastically overnight so we were able to take him out of an air-conditioned car or hotel room and allowing him to take in some of the desert views.  He was once again back asleep as we boarded the airplane and returned to Melbourne, already a seasoned traveler and a pro at sleeping on the go.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 82 Sorrento Holiday ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr82">
+   <p>
+    <figure>
+      <img src="images/kr_82.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Sorrento Holiday</h3> <br/>
+<i>24 December 2016 </i> <br/>
+Sorrento, VIC 
+
+
+With the Jacobs 4 and the Krause 2 all squeezed in our modest Melbourne home, we retreated to an Airbnb for some sun, sand and space.  Our destination: Sorrento, a small but lively town on the Mornington Peninsula about 90 minutes drive from Melbourne.  On a cloudy Monday morning we loaded the hired (rented) trailer, packed into the car a bit like sardines and off we went.
+
+Sorrento is located near the very tip of the peninsula and offers beaches on both the cold and breezy ocean side as well as the warmer and calmer bay side.  Our [rented home](https://www.airbnb.com/rooms/11852089) was located very near the ocean side, giving us walking access to the numerous, very picturesque and often deserted, beaches.
+
+Most of our time was spent with our feet in the water or in the welcoming hot tub back at the house.  With three (ok two) capable baby-sitters, Erin and I managed to sneak away for a long bike ride out to [Nepean Point](https://www.parks.vic.gov.au/places-to-see/parks/point-nepean-national-park).   A wonderful ride through old military bunkers and scenic panoramas; all without the bother of motorized vehicles.  It was Erin's first time back on the bike after the bub, so someone was a bit sore the next day.
+
+Our four days at the house went by much too fast, but at least we had Christmas in summer to look forward to.  Much to my surprise, I only made a single visit to Sorrento's gourmet ice cream shop during our stay.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 83 Christmas in Summer ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr83">
+   <p>
+    <figure>
+      <img src="images/kr_83.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Christmas in Summer</h3> <br/>
+<i>25 December 2016 </i> <br/>
+Port Melbourne, VIC 
+
+For Northern Hemispherers(ites?), a warm Christmas with long, sunny days is certainly odd.  We passed on getting an actual Christmas tree (high fire risk) and opted for the use of local plants -- Eucalyptus wreaths and bouquets -- to add some holiday cheer. With the Family Jacobs in town, there was no shortage of gifts to be opened.  But first, the beach.
+
+Christmas Eve was a sweltering 37C/98F, so on to the water for some relief.  Everett was quite happy with his dip in the warm bay water, especially since mom and dad were there to help. A friend of Erin's from high school also happened to be in town, so we had an entire section of the beach dedicated to Yanks with strange accents and stranger customs.  
+
+Christmas Day was even warmer, hitting 100F.  We left the house for a family photo and quickly retreated back inside.  In true Aussie fashion, our Christmas meal was done on the grill; shrimp, fish and lamb. Cold drinks closed out a wonderful, though too warm, day with family.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 84 Torquay ------------- -->
+
+<body>
+  <div class="content">
+  <a id="kr84">
+   <p>
+    <figure>
+      <img src="images/kr_84.jpeg" align="right" width="250px" hspace="20" vspace="2">
+     </a>
+    </figure>
+
+<h3>Torquay</h3> <br/>
+<i>28 December 2016 </i> <br/>
+Torquay, VIC 
+
+Post-Christmas we had the pleasure (luck?) of being tasked with house-sitting for one of my work colleagues.  Her home is located in [Torquay](https://en.wikipedia.org/wiki/Torquay,_Victoria), a famous beach town renown for it's surf beaches and culture.  The weather wasn't the most cooperative, but we managed a number of beach hikes and short road trips down the Great Ocean Road and around the Bellarine Peninsula during our time there.  Again, it was nice to have the added space and cool ocean breezes.
+
+One afternoon, a strong northerly breeze blew in seriously hot and dry air from the Outback.  A thirst arose among the group. [Blackman's Brewery](https://www.blackmansbrewery.com.au/) in town held the cure for our ails.   Everett enjoyed the multi-colored tasting paddles that we ordered, well, visually at least. The rest of us enjoyed them in the proper fashion.
+
+On our return from Torquay we made a slight diversion to visit the [Ballarat Wildlife Park](https://wildlifepark.com.au/).  For a modest price, one can walk among some of Australia's friendlier native and get a close up, caged looked at some of it's fiercest.  In addition to the kangaroos and emus that wander the grounds, there are all many of snakes, koalas, quolls, wombats, Tasmanian devils and assorted avian species in pens and glass cases.  While the snakes are frightening, the star of the show is the 15-foot look saltwater crocodile names 'Crunch'.  At first glance he appears to be a model replica of some terror from the Jurassic, but with time he slowly moves, eyes often following a human walk past his adequately secure enclosure.  Simply being in that large room with him makes you question your assumed position at the top of the food chain.
+
+After the park, we left the grandparents in Ballarat for a one-night stay of their own and Erin, Eric, Everett and I headed back to Melbourne.  A few days later Eric would head back
+for school and work.  Then there were five.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+
+<!-- Great Aussie Road Trip - The Long Way North -->
+<!-- JANUARY 15, 2017 -->
 <!-- ““ -->
-<!-- The Seattle Wheel -->
-<!-- Being back in the Northwest feels foreign and unchanged all at once.  In between working or meeting with our previous employers, lunches and happy hours with friends, Andy and I spent time wandering around Seattle visiting old haunts and exploring all of the new developments.  It felt easy to slip back into a life in Seattle, even if briefly.  -->
+<!-- The car was full to brim, including luggage on most people's laps, as we took Kurt and Kathie to the airport for their long journey home.  After their departure we would head north for the first leg of our Great Aussie Road Trip.  The abundance of gear was due to the first law of modern parenting which states that the amount of things you need to bring to support your child varies inversely with the weight of that child.   -->
 <!-- ““ -->
-<!-- Westward on Lake Union -->
+<!-- We would head nearly due north for three days until we arrived in Noosa to stay with our friends Jodie and Paul. We'll be taking the A39 highway most of the way.  After a few hours rolling through grain fields on a narrow and poorly maintained 2-lane highway, we quickly admitted a vastly increased appreciation of the U.S. interstate system.   -->
+<!-- With Everett, we try to time the driving to coincide with his naps and then stop and take him out to play in a park of some sorts between.  It makes for slow going, but does allow one to appreciate the small town scattered across the vast Australian plain.  This is farm country.  Straight, flat roads filled with semi-trucks.  Limited trees and wildlife.  Flies. many flies.   -->
 <!-- ““ -->
-<!-- Preggies -->
-<!-- We made sure to do all the important things such as appointments at the dentist, eating at our favorite restaurants, gazing longingly at mountains, using super-fast internet, but most of all, we spent time reconnecting with friends.  Friends that first welcomed Andy to Seattle over a decade ago and still remain a foundation for him and now me, friends that started as co-workers and became so much more, friends from childhood and college and friends that accompany us on adventures far and near.  Besides the aforementioned fast internet, cheap craft beer and mountains, we are reminded that we miss our friends and family the most. -->
+<!-- Our first stop was in the town of Parkes.  A regional center, we oddly had a hard time finding a hotel room on a Wednesday night.  As we learned later, the largest Elvis festival in Australia was happening this coming weekend and over 25,000 people would descend on the town. Unfortunately for them and for us, they were in the midst of an intense heat wave.  Temps were pushing 42C/107F when we arrived.   -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- At least Ev likes his carseat... -->
+<!-- The next day we awoke and drove through much of west-central Victoria.  The mercury continued to rise, so our stop were short and consisted of finding an air-conditioned McDonalds or public building in which to feed Everett.  At our lunch stop in Narrabri, our vehicle's thermometer registered 46C (115F).  Rolling into Goondiwindi that night to stay, it had dropped to 41.  Nonetheless, our rooms AC was a welcome amenity.   -->
+<!-- Finally, half way through day three, the landscape changed from tree-less, pastoral expanses to thick vegetation and rolling hills.  We had crossed the Great Divide into tropical Queensland.  The temperature dropped and the humidity rose.  In place of cows and wheat were people and swimming pools.  A bit tired, we arrived at Jodie + Pauls around 3pm.  A cold beer or two was enjoyed.   -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- Hotel Burns-Phillips (Noosa) -->
+<!-- JANUARY 17, 2017 -->
+<!-- ““ -->
+<!-- After three long, hot days and 1,907 kilometers of rolling wheat fields, road trains and record setting heat we found ourselves in Noosa, our northern most port of call on the journey.  It was hotter than usual here to, so the unpacking of the car was put on hold while a few cold beverages were consumed.  A medical necessity.  We'd be spending three nights at our friends Paul and Jodie's new home in Noosa Heads. -->
+<!-- ““ -->
+<!-- Some famous male models...i think -->
+<!-- ““ -->
+<!-- On day one, the weather was splendid.  A perfect opportunity to test out Paul's new beach tent.  The water here is much warmer than down in Melbourne, a fact that was not lost on Everett as he took his first dip in the tropical Pacific Ocean.  No crying this time.   Due to Queensland's refusal to employ daylight savings, the sun goes down early here and we spent the the evening enjoying free meat on the grill and watching the full moon rise out over the sea. Day two brought a break to the heat and scattered thunderstorms.  An ideal day for a leisurely stroll through the farmer's market and a long nap.   -->
+<!-- ““ -->
+<!-- We left Noosa early Monday and began the great journey back south, this time along the coast.  Jodie and Paul would be joining us for the first leg, from Noosa to Byron Bay, about 3.5 hours south.  Along the way we made a few pit stops, one in the Gold Coast and another at Coolangatta to watch the surfer's attack the famous rip.  The surf was down, but the weather was ideal.  Everett seems not to mind being back on the road again.    -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+
+<!-- Byron Bay -->
+<!-- JANUARY 19, 2017 -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- Byron Bay is, arguably, one of the most beautiful and inspiring places on the eastern coast of Australia.  It holds something for surfers, shoppers and seekers, beach-goers, backpackers and bums.  And they are all here, all of the time.  What used to be a small, quiet beach town is now a bustling little hub of all things tourist-y.  The natural beauty of it suffers very little, thankfully, from man's encroachment.   -->
+<!-- ““ -->
+<!-- Having booked a bit late, we were only able to find lodging in Brunswick Heads, a small town about 10 minutes drive from Byron.  Brunswick Heads is probably what Byron was like in the 1970s; small local restaurants and shops, uncrowded beaches and an easy time finding parking.  While the action is in Byron, the authenticity remains in Brunswick.  From the local pub to the Mexican restaurant, you feel less like a tourist and more like a regular.   -->
+<!-- ““ -->
+<!-- The Brunswick Heads street scene -->
+<!-- ““ -->
+<!-- On our last morning, Erin, Everett and I awoke early and parted ways with Jodie and Paul.  We made for Wategos Beach to beat the throngs that would descend later in the day.  Swimming in the impossibly blue waters, a school of dolphins approached and appeared to be riding the breaking waves and performing for the early morning crowd.  While we were quite a distance away and by no means 'swam with the dolphins', it remained a magical moment in a magical place.   Wishing we had another day, we packed up and headed south.  Next up:  Sydney.  -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- Sydney -->
+<!-- JANUARY 22, 2017 -->
+<!-- ““ -->
+<!-- Sydney.  Melbourne's bigger, louder cousin.  We arrived midday after a two-day trip down from Byron.   Excited to get out of the car and onto our feet for two days, we were lucky enough to get an early check-in, unpacked and hit the town.  Traveling with a landscape architect means that public parks and open spaces are always high on the list.  After a bit of a walk through the tourist throngs of Darling Harbour, we found ourselves at the newly opened Bangaroo Park.  An old port/industrial facility, it has been transformed into an amazingly fresh and open park right in the heart of the city.   -->
+<!-- From the park, we walked up through the old stone buildings of The Rocks neighborhood.  Dehydrated from the long walk on our feet we ducked into the Lord Byron Hotel for a quick pint.  Advertised as Australia's old brewery, the scene was just picking up with happy hour revellers as we made our exit.  The small child beast we were carting around the city had awoken and his hunger trumped our thirst.  Erin and said beast hustled back to the hotel while I make a slight detour through Haymarket to get us some Thai food for the evening.  Total walked distance: 7.4 miles.  -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- Up early on day 2, we took the first ferry from Darling Harbour out to Manly beach.   By virtue of our earliness we were the only people on the boat, the stunning view of the harbor all to ourselves.  in going out to Manly the journey itself is at least half of the reward.  The wind was blowing in hard off the water, so we grabbed a quick breakfast and ambled along the shore for a bit before return to the city, via Circular Quay. -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- Back in the city proper, we followed the crowds to the Opera House.  The weather threatened and shortly after the selfie below the rain began.  We fought through the initial sprinkles to catch lunch at the street market, but after the food the skies opened up and we plodded back to the hotel in a downpour.   -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- After waiting out the rain, we made a short circuit around Darling Harbour and nearby sites.  A long day on our feet, but a good one despite the rain.  Total distance walked:  11.23 miles.  Even Everett looked knackered and he didn't take a single step.  -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- Bondi Beach -->
+<!-- JANUARY 23, 2017 -->
+<!-- ““ -->
+<!-- I fell in love with Bondi Beach. Part California coast with the flair of the Italian Riviera - Art Deco and Malibu pastels all soaked in sun and perfect for people-watching.  We started the day with a fancy brekkie at a packed beachside café. Everett stared at all the Aussies in their bathers as they strutted by, Andy and I tried to stare a little less obviously. -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- Before the heat became overwhelming, we started the coast walk that connects Bondi Beach to the less famous, but equally striking Bronte Beach. The trail snakes along the sandstone coast, transitioning from boardwalk to stone staircases, up and around the headlands with panoramic views.  Like many other places in Australia, they have managed to keep much of the shoreline and beachfront areas accessible to the public, so instead of massive homes stacked side by side, there is a wonderful expanse of public amenity.  -->
+<!-- ““ -->
+<!-- The Iceberg Pools at Bondi - incredibly photogenic - saltwater, views and protected from the creatures -->
+<!-- ““ -->
+<!-- Andy and Everett turned back part way as we are terrified of Everett getting a sunburn.  I walked on along the coast until I had my fill of the heat and the views and then returned for one final lap along the beach. On our way out of town, we made a last stop to the first lighthouse built in Australia, a bright white beauty that faces east, high above the sea below. -->
+<!-- Although we still had a couple more days of driving home from Sydney, this was our final day to explore and be tourists, the final days were mostly spent driving in 3 hours chunks during naps and finding small playgrounds to let Ev roll around in the grass.  The Great Australian Road Trip may not have been as epic as our pre-bub explorations, it certainly felt like quite the adventure... -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- Day Trip with M+K -->
+<!-- FEBRUARY 06, 2017 -->
+<!-- Matt and Kathy survived the 29-hour marathon trip from Green Bay, WI to Melbourne.  After giving them a few days to orient themselves (and beat the jet lag), we took off for a  day trip to the Mornington Peninsula.  We left Melbourne before dawn so we could arrive at the Peninsula Hot Springs as they opened.  The first ones through the door, we headed straight for the pool at the top of the hill and the view over to the rising sun.   -->
+<!-- Throughout the morning we worked our way through the various hot pools.  Everett enjoys bath time, so for him this was just an extended two-hour bath with his whole family in the tub with him.   -->
+<!-- ““ -->
+<!-- For the middle of summer, it wasn't a particularly warm day.  A cool breeze blew from the south and the clouds slowly built throughout the day.  Before grabbing lunch in Flinders, we stopped at the Cape Schanck Lighthouse for a short, but steep hike down to the water and back.  The wind blew fiercely here and one is easily reminded that the next dry land beyond that point is Antarctica (if you steer around the edge of Tasmania).   -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- Travelling with a five-month old means that day trips have to be fairly short or someone gets upset.  After a brief stop Arthurs Seat for a view of the bay and a few odd kangaroos we headed home to the city. -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- A Night of Footy -->
+<!-- FEBRUARY 08, 2017 -->
+<!-- No trip to Melbourne is complete without catching at least one Australian Rules Football game.  Footy for short.  The men's season had not yet started, but luckily for us the women were in full swing.  In an effort to increase the fan base there were free tickets to the game.  We arrived 30 minutes before the start and were one of the last few hundred to be let in as it was a capacity crowd.   -->
+<!-- These women hit just as hard as the men and there were some good fights and tussles as well as a few nice goals.   -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- Rural Victoria Loop -->
+<!-- FEBRUARY 13, 2017 -->
+<!-- ““ -->
+<!-- Having spent their first week in the city, we decided to head out to rural Victoria to give Matt and Kathy a taste of the quieter side of Australia.  Our first stop was the old mining town of Castlemaine.   An old wool mill that is now a brewery/antique shop/dairy/ice creamery/cafe was our first stop.  Good beer, respectable food and sizeable collection of Australiana's best. The temperature was pushing 40C (104F) so, in the name of decency, we had ice cream to go.  -->
+<!-- ““ -->
+<!-- That night we made our home in Bendigo, in a nice little Airbnb opposite the railway station from downtown.  After a brief stop at a local hotel (pub) to cool us down, we retired to the air-conditioned house for an evening of Australian television...always a treat.    -->
+<!-- ““ -->
+<!-- Day two we drove across a few hundred miles of farmland to reach the Little Desert National Park, just outside of the aptly named town of Nhill.  The temperature had only risen and was now pushing 44C / 111F. Arriving at the Little Desert Nature Lodge -- our attempt to give our guests the most 'Outback' experience possible within a day's drive of Melbourne -- we immediately retired to our air-conditioned rooms to wait out the heat of the day.  We managed get in a few small hikes around the national park, hustling from shade to shade.  At dusk, the yard filled with kangaroos and the resident emu.    -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- After an amazing sunrise we beat the heat and took a longer walk into the National Park.  From there it was a three-hour drive through to the Grampians.  A few stops at the major lookouts and hikes had everyone hungry for our picnic lunch in Halls Gap.   -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- That night we stayed in the small town of Dunkeld, at the southern entrance to the Grampians.  We were fortunate enough to catch a local game of adult league cricket.  While we didn't really know what was going on, the presence of full cooler of beer and the backdrop of Mt. Sturgeon made for a welcoming afternoon.  That evening we dined at the pub of the famous Royal Milk Hotel.  The foreigners had their first taste of Chicken Parma, the Australian mainstay pub meal, and loved it.   -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- The rain the following morning ruined our plans of long hike in the Grampians.  We made our way to the wildlife park in Ballarat instead for some up close and personal time with kangaroos, koalas and a 16-foot saltwater crocodile.  -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- Around Town with the Krause Siblings -->
+<!-- FEBRUARY 15, 2017 -->
+<!-- ““ -->
+<!-- Janie arrived near the end of Matt and Kathy's stay.  Amidst the full house, Everett was never without a playmate.  He'll be in for quite a surprise when it is down to just mom and dad in a few weeks time.   -->
+<!-- To keep us from getting too claustrophobic with 5 adults and child in our tiny home, we made a number of little day trips out and around town.  Checking out the amazing collection of plants at the botanical gardens or the edgy street art in some of the grittier neighborhoods were good fun for everyone.   -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- Kathy came down with a stomach virus and Erin volunteered to watch Evo for the day so the Krause siblings could do a day of adventure on their own.  We started with a late morning hike in the rain forest-y Dandenong National Park east of the city.  The 1,000 steps trail had all of us flatlanders looking for breath by the top.  After a long lunch with beers at Bell's Tavern in Belgrave we made a stop by the Brighton Beach boxes for one last bit of sun and beach before Matt and Kathy return to February in Wisconsin.   -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- NZ with Janie: Christchurch to Aoraki -->
+<!-- FEBRUARY 22, 2017 -->
+<!-- ““ -->
+<!-- Our late Sunday night flight landed around midnight, Everett having slept through nearly all of it.  A brief debacle leaving Australia on account of Everett's non-existent visa and a slight skirmish at NZ customs due to my poor hand-writing had me 0-2 on the day. There is certainly now a mark near my name in a database somewhere. Luckily the hotel shuttle arrived and we finally crawled to bed around 2am.  After picking up the car we made straight for the hills, well mountains really.  Out of the clouds of Christchurch and up into the sunny skies of central Canterbury.    -->
+<!-- Our first real stop was at Lake Tekapo.  One of the many aquamarine alpine lakes east of the NZ alps, it was a bit overrun with tour busses, but we found some time to play in the clear and not too cold water.  That night we made our home at a small chalet in Twizel.   -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- We arose early and made the 45-minute drive down the length of Lake Pukaki to Mt. Cook village at the foot of Aoraki (Mt. Cook).  This drive rivals the trip from Jasper to Banff as my all-time favorite drives.  The water is an impossible blue, the hills bright shades of yellow and green and Aoraki standing in front of you, a perfect white pyramid defying the moisture laden air rolling over its flanks from the wet side of the island.  Photos truly do not do it justice.   -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- Our first stop was up the Tasman Valley for a short, but steep hike to see the Tasman Glacier and the lake and river that flow out of it.  Everett's middle name is Tasman, mostly due to the beauty of this valley.  He honored this eponymous hike with a severe wetting of his pants at the top, necessitating a high altitude diaper change.  Overall, I think he was pleased with his namesake glacier, dirty and receding as it may be this far down the mountain.   -->
+<!-- After a brief foray into the Hooker Valley on foot the clouds moved in and the views rapidly diminshed.  We retreated to the gift shop to grab some keepsakes for the bub.  Everett slept most of the three hour trip to Wanaka, our home for the next three days.  -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- ““ -->
+
+<!-- NZ with Janie: Wanaka and Surrounds -->
+<!-- FEBRUARY 26, 2017 -->
+<!-- ““ -->
+<!-- Wanaka has always been the step-sister to the much more popular Queenstown nearly an hour away.  I think the residents like it that way.  And so did we.  Absent the Louis Vuitton stores and Jet Boat rides, Wanaka just gets on with providing a relaxing place to stay amidst the natural splendor of New Zealand's alpine lakes and towering peaks.   The downtown lakefront is such a great place to relax, have a beer and watch the sun go down.  We spent every night here, usually with a burrito from one of the delicious food trucks in town.  That qualifies as partying when you have a 5-month old.  -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- We took a day trip between the lakes, over the crest and through the woods to the wet western side of the island.  In the span of an hour you go from high, dry plains to temperate rain forest.  What are not pictured above and below are the vicious sand flies which made our hike to the Blue Pools both short and painful.     -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- Our final day in Wanaka we drove the tenuous road through the Cardona Valley to Queenstown.  It was high season and it was hard to find space for the pram on the sidewalk, let alone parking.  We retreated to quaint Arrowtown for lunch and returned home via the more sensible highway route.   -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- NZ with Janie: Mountains to Coast and Home -->
+<!-- MARCH 01, 2017 -->
+<!-- Leaving Wanaka, we drove the scenic route down to the coast.  Through towns like Ranfurly, Ophir and Inch Valley we had finally found ourselves off of the tourist track.  Miles and miles of rolling hills, burnt yellow by the summer sun.  We finally arrived at the coast near Moeraki, a small town famous for its boulders.  But first lunch.   -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- Erin had found a small boathouse turned famous restaurant where we dined on all manner of creatures only recently pulled from the surrounding waters.  We then made our way to the aformentioned boulders.  Strange orbs dotting the coast for about a fifty-meter stretch, they proved worthy of the slight diversion.  -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- That night we stayed in the quirky little town of Oamaru.  Famous for its Victorian buildings and Steampunk culture, it did not disappoint.  While there, we stumbled on an amazing bookstore dedicated solely to travel and adventure books, a movie* being filmed and a great little brewery.  If you are at all nostalgic or a fan of architecturally interesting, yet enduringly practical construction Oamaru is worth a day or two of your time.    -->
+<!-- *Note that for a few hours we though the movie in question was going to be the one starting Oprah and Mindy Kaling (which was filming in NZ at the time).  It was not.   -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- We had a late flight out of Christchurch that next evening.  There was trouble again at immigration, but a few phone calls and a bit of waiting and Everett was allowed onto the plane and back into Australia.   -->
+<!-- A whirlwind trip of late night flights, 1,200kms of driving and minding the arsenal of goods required to travel with a five-month old (even one as well behaved as Everett was on this trip) can leave you exhausted. But a place like NZ refreshes the internal vigor and provides the perspective one needs as life races forward.  Courtesy of that amazing little bookstore in Oamaru, we leave you with some eternal wisdom from one of America's greatest: -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- A few things I am currently loving about Melbourne -->
+<!-- MARCH 26, 2017 -->
+<!-- ““ -->
+<!-- DESIGN - The mix of old and new architecture in Melbourne continues to impress me. An old brick wool factory will be next door to a modern design, a decrepit shack abbuting a multimillion dollar estate.   -->
+<!-- ““ -->
+<!-- LANEWAYS - Every week we live here, we explore a little more, and now, over two years into this adventure, we have gotten to know the city quite well. That being said, each time we go out for a walk or meal in a different neighborhood, we seem to find a new hidden laneway or alley. Most of them are mere pedestrian connections thru to the next block, but they almost always are blanketed in dramatic street art or hiding a speakeasy, or covered in hanging plants.  Many cities have large tourist draws, must-see destinations to marvel at, like the Sydney Opera House, the Seattle Space Needle, the Roma Coliseum... With Melbourne, we always take visitors on walks through these city-wide series of laneways, since they may not hold the same level of wonderment, but they do provide an equal level of delight, and capture the essence of what makes Melbourne so special. -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- NEIGHBORHOOD STREETS - I love these tree-lined streets in our neighborhood, making walks in the blistering heat just a little more comfortable... -->
+<!-- ““ -->
+<!-- COFFEE CULTURE - Perhaps finding a level above Seattle in coffee snobbery, Melbourne also has the goods to back up the bluster.  No meal is complete with out a flat white, or a long black or a cold filter.  If you order a chai latte, you will almost always be served with what amounts to an entire kitchen of cups and saucers and spoons and there is a high tea level ritual to the process. Sometimes I will order one just for the fuss of it.  Also, I recently learned that if you order an 'Iced Coffee' you will end up with a scoop of ice cream in with your espresso and topped with whipped cream. The newest hipster coffee trend here is the Golden Latte which is a spiced concoction of turmeric and ginger, cinnamon, milk and espresso... while I usually stick with a simple coffee, I love all the options.. -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ROOFTOP & HIDDEN BARS - Sometimes through a secret bookshelf door, a hot dog deli freezer door, a back alley staircase or simply a subtle elevator - you find yourself transported to an entire new side to Melbourne.  It is impossible not to get caught up in the excitement of a secret bar, even if half of the city also knows about it, deeming it not as secret as you thought. Still, the speakeasy vibe to many of the bars around Melbourne make a good excuse to head out for a drink. Being that we are often carting around a miniature +1and all of his many accessories, we prefer the pram-friendly, open-in-the-afternoon 'hidden' bars... -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- ““ -->
+<!-- The beginning of the end -->
+<!-- APRIL 21, 2017 -->
+<!-- With a heavy heart, Erin and I have decided that we’ll be moving back to the States at the end of May.  While we are most certainly excited about returning to the homeland, there many, many things that we’ll truly and dearly miss about Melbourne.  Over on Instagram we are doing a blitz of things we’ll long for once gone.  Check it out at #thingswewillmissaboutMelbourne.   -->
+<!-- Just 40 days remaining.  Sometimes it seems like we’ve been here a lifetime, but at others I vividly remember that cab ride into the city after we landed for the first time and it feels like yesterday.   -->
+<!-- This now is the last week of calm before our lives get very busy with a five-week sprint including a short out-of-state weekend, my conference in Chicago, Erin and I finishing up teaching, packing, cleaning and moving.  As a result, we (along with Sarah B. for 13 glorious days) have been using this past month to simply enjoy the small everyday pleasures of being in the world’s most livable city (as voted by The Economist).  Hiking. Frequenting local pubs.  Playing in park.  Wandering the town. Listening to Raffi.  Basking in the Antipodean autumnal sun.  Parenting.  You know, life.  -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- Byron Bay Long Weekend -->
+<!-- MAY 02, 2017 -->
+<!-- ““ -->
+<!-- Between the packing, teaching and Andy's travel we were able to carve out one last weekend for an out-of-town trip.  Cheap flights and a desire to see what we missed on our last stop sent us back to Byron Bay and the Northern Rivers region of New South Wales.   We brought baby-sitters this time (Kurt and Kathie in tow), so mom and dad might get some more 'beers on the beach' time.    -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- Being a bit older, Everett had a lot more fun in the water and the sand.  He thoroughly enjoyed the hikes around the headland, digging tiny holes with his toes and eating the seed pods in the park.  We enjoyed being able to leave the house for a swim with the dolphins at Wategos Beach, sans child.   -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- ““ -->
+<!-- The weather did not disappoint as it was mid 20s (low 70s) and sunny nearly every day.  Our Airbnb was right downtown Byron so we had a chance to see a bit of the night life (until about 8pm) and sample some of the finer smoothies and gelatos on the coast.  On the last day we did a long drive through the hinterlands to see all the small town that are prospering by being in Byron's wake.  As our plane departed, it was sad to leave knowing it might be a decade or more before we return.  -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- Moving Out -->
+<!-- MAY 17, 2017 -->
+<!-- ““ -->
+<!-- Our time at 7 Spring Street has come to an end.  Once the empty boxes arrived from the moving company, the fact that we are leaving Australia at the end of this month hit home.  When we made the decision 7 months ago it seemed so far off.  Now its a matter of days.   -->
+<!-- Kurt and Kathie are down to help with the move and to make a few stops in Fiji, Sydney and Hawaii.  Their service in packing has been invaluable.  As a reward, they get to watch the child while we go about working, cataloguing and completing the hundred other little things that go with preparing for an international move.   -->
+<!-- Everett has picked a good time to become very mobile as there is no lack of things to climb over, under and through -- as most of the household goods are strewn about in anticipation of being boxed up.   The movers come the morning of the 19th and after that point it is living out of our suitcases for 45-60 days while our things ride the slow boat to Seattle.  Of the things traveling with us on the plane, i'd venture a guess that at least half are for the smallest member of the family.     -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- City Living -->
+<!-- MAY 29, 2017 -->
+<!-- ““ -->
+<!-- For our last 12 days in Australia we booked an Airbnb in the heart of downtown, near the corner of Lonsdale and Russell to be exact. Closer to work, restaurants and many of the attractions we want to see one last time, we are hoping for a relaxing end to our Antipodean Odyssey...if such a thing is possible with small child.  -->
+<!-- Using the proceeds from our Gumtree (Craigslist) fire-sale of Australian appliances and household goods too bothersome to ship, we lived heavy on high quality take-out food.  By no coincidence, our place borders both Chinatown and Little Athens, two of the better ethnic food neighborhoods in downtown.   -->
+<!-- There are three major parks within a ten minute walk.  Most afternoons Everett and I have ventured to them to dig our toes into the grass and, mostly, to eat as many of the falling leaves as possible.  The little guy especially likes the night time walks around the bars and restaurants with their milling crowds and flashy lights.  He bores easily inside, but seems to really relish the action of city life.   -->
+<!-- We are also using our central location to set up as many 'good-bye' lunches, drinks and walks as possible.  Good-byes are hard.  And they don't seem to get any easier with age.   -->
+
+<!-- </p> -->
+<!--  </content> -->
+<!-- <body> -->
+<!-- <br clear="all" /> -->
+
+<!-- # <!--- 69 Everett's First Outing ------------- --> -->
+
+<!-- <body> -->
+<!--   <div class="content"> -->
+<!--   <a id="kr69"> -->
+<!--    <p> -->
+<!--     <figure> -->
+<!--       <img src="images/kr_69.jpeg" align="right" width="250px" hspace="20" vspace="2"> -->
+<!--      </a> -->
+<!--     </figure> -->
+
+<!-- <h3>Everett's First Outing</h3> <br/> -->
+<!-- <i>17 September 2016 </i> <br/> -->
+<!-- Parkville, VIC -->
+
+<!-- The End -->
+<!-- MAY 29, 2017 -->
+<!-- It is hard to believe it's been nearly two and half years since we first landed in Melbourne; tired, but ready for an adventure.  We certainly had one.  We didn't see and do everything we set out to, but we experienced many things and places we had no idea existed.  And we are the better for it.   -->
+<!-- We now leave with an addition to our family, an appreciation of this strange culture and beautiful land and a deeper understanding of ourselves, our relationship, our goals and our dreams.     -->
+<!-- Thank you Australia, and Melbourne, and Friends.   -->
+<!-- THE END -->
 
 
 
-<!-- Opposite Ends of the Earth -->
-<!-- JUNE 28, 2016 -->
-<!-- We could scarcely be in more different island locations.  Erin on bucolic Lopez and I on bustling Hong Kong.  I'm accompanying a group of Masters student on a 4-week, six-city tour of Asian cities under the guise of studying international property development.  Erin is avoiding the cold, short days of Melbourne winter and staying on with her parents for a few weeks while i'm in Asia.    -->
-<!-- Though Hong Kong is everything it is promised to be in reputation - big, busy, dirty, expensive, efficient, capitalist and crowded - it also offers easy escape into the many parks and natural areas surrounding the city.  A ten-minute walk from our hotel can take you into the complete wilderness of Victoria Peak.  So while i was surrounded by 7 million people and Erin by 700, we both were able to go for long walks in nature each day....only the views from the top differ slightly.   -->
-<!-- ““ -->
-<!-- The city from the Victoria Peak climb.  -->
-<!-- ““ -->
-<!-- Hong Kong from the Lion Rock trail in Kowloon -->
-<!-- ““ -->
-<!-- Definitely Not Hong Kong -->
-<!-- I would not recommend visiting Hong Kong in summer.   It is a sauna, complete with aromas of dried fish, boiled eggs and burnt cooking oil.  Oh, it is a lovely city -- great food, shopping, parks and culture -- just make sure you time your stay wisely.  On the other hand, visiting Lopez Island, WA in the summer is a splendid thing to do. -->
-
-<!-- Bellarine Peninsula -->
-<!-- AUGUST 15, 2016 -->
-<!-- ““ -->
-<!-- We took advantage of the sunny and warm mid-winter day to get out of the city and head down to the Bellarine Peninsula.  The city of Melbourne sits on the top of Port Philip Bay and the Bellarine Peninsulaand the Mornington Peninsula, divided by just a thin kiss of sea known as The Rip, separate the Bay from the Bass Strait.  This is the only shipping access into Melbourne and so the 3.5 km stretch between the two peninsulas is crowded with vessels bound for the port most of the day.  We have explored the Mornington Peninsula many times since moving here, but hadn't spent much time out on the more mellow, less touristy Bellarine.  A drive along the coast side of the Peninsula runs parallel to a large swath of rugged and windblown dunes. Every 1 km or so, there is a parking lot packed with surfers perched on top of their vans, taking videos or photos with cameras triple the cost of said vans,  and scouting the next set of waves.  The bay side of the Peninsula, has small towns that cater to the seasonal visitors coming down from the city.  Along the shore drive, beautiful old hotels anchor each little town with names like 'Indented Head' and 'Moolap'.  Either through tourism or recreation, the towns still support a tiny maritime community, and countless piers with lightly brined fishermen, both young and ancient, reach out into the bay.  -->
-<!-- ““ -->
-<!-- ““ -->
-<!--  Instead of a usual trek along the coast or some kind of vigorous sporting activity, our pace is a bit slower at the moment, so we spent the day doing retiree activities such as visiting lighthouses, botanic gardens, shipwrecks, and hunting for odd Aussie treasures at vintage warehouses.  With just a few more weeks to go before this baby is born, I am more than ready to be done serving my purpose as a house.  Andy recently told me that he didn't remember a time when I wasn't pregnant, and although I wasn't really sure how I should take that comment, I completely agreed with the sentiment.  I am grateful that I have had a healthy pregnancy thus far, and I am sure, (sort of), I will look back and treasure the experience, however, I would still like to vote for the option of laying an egg and having Andy sit on it for months on end.    -->
-
-
-<!-- Last of Winter, First of Spring -->
-<!-- SEPTEMBER 06, 2016 -->
-<!-- ““ -->
-<!-- Queen Victoria Night Market -->
-<!-- As we move into the final days (weeks?) of my pregnancy, we also transition from winter to spring in the Southern Hemisphere.  In actuality, Spring doesn’t officially start until the Equinox on September 22 this year, however, we found out last year that Australians consider September 1st the beginning of Spring and celebrate it joyfully. -->
-<!-- Also arriving with the warmer season, are my parents.  The intent was for them to be here just a bit before the baby is born, and then after to help us as we flail around as new parents, but at this point, the ‘after’ time period is slowing waning as the baby continues to stay put. -->
-<!-- ““ -->
-<!-- Port Phillip Beach -->
-<!-- ““ -->
-<!-- Port Phillip Beach -->
-<!-- ““ -->
-<!-- Awkward Family Selfie -->
-<!-- Since this is their second visit to Melbourne, we have focused less on the must-see tourist attractions, and more on the day-to-day pleasures that make this city the ‘most livable in the world’ 6 years running.  In the last week we have attended that last of the Winter Night Markets at the Queen Vic market, tried out a new café each day, tested various routes to and from the hospital, attended a footy game, and sent them off on their own to museum’s and shops to explore. -->
-<!-- Each day we go for walks to enjoy the sunshine along the beach promenade, also with the plan of shaking the baby out.  It hasn’t worked yet, but I can only hope it will soon. -->
 
 
 
 
-<!-- Macedon Ranges -->
-<!-- SEPTEMBER 11, 2016 -->
-<!-- ““ -->
-<!-- In hopes that the baby would upset some well-laid plans, we decided to take a day trip just a couple hours outside of town to the Macedon Ranges.  Starting out in the cool and semi-dreary weather, our first stop was to the Organ Pipes National Park.  The linear basalt columns giving the park its name, rise 70 metres from the banks of the Jackson creek, creating a vision of nature’s cathedral.  We strolled down from the parking lot and huffed it back up the canyon – me moving at a remarkably slower pace than normal. -->
-<!-- ““ -->
-<!-- Next stop was the Hanging Rock Reserve, home to Mount Diogenes. This Reserve is one of the best places in the world to see an example of a Mamelon, or the geologic feature that occurs when thick lava pushes through a narrow vent in the bedrock.  We hiked up through the rock formations and then clambered about at the top, (as much as a 9 month pregnant woman can clamber), taking in the views to the surrounding country. -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- For lunch we visited the Redbeard Bakery in the small town and foodie destination of Trentham. Famous for their wood fired sourdoughs, the bakery is using the same Scotch Oven from 1891, although now the bakery has been expanded to include an inviting café and small foodstore stocked with local preserves, honey and other goods. -->
-<!-- Similar to the wonderful Holly B’s Bakery located in my hometown, this bakery seemed to serve as both local community hub and beloved destination for visitors and tourists. We left happy and sated with a backpack full of baked goods. -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- ““ -->
-<!-- The nearby Trentham Falls was our last stop before finishing up the loop and heading back to Melbourne.  Previously spoiled by the glorious waterfalls of the PNW, Andy and I have found ourselves underwhelmed by the waterfall destinations we have visited in Australia.  The last few days of heavy rains made it a perfect time to view the Trentham Falls, and this time we were not disappointed.  -->
-<!-- The day ended uneventfully, with, unfortunately for my current level of comfort, no trip to the hospital.  Quickly approaching my due date, I can only hope this baby is ready very soon. -->
 
 
-<!-- Everett Arrives -->
-<!-- SEPTEMBER 12, 2016 -->
-<!-- I awoke to ‘Oh shit, my waters are breaking!’  Six hours later little Everett Tasman Krause was wriggling and wailing on mom’s chest. I had two jobs in this drama: 1) Driving to the hospital, which I managed with only one illegal turn and 2) Cutting the umbilical cord, which I completed with all the skill of a kindergartener who, after eating a stick of paste and drinking two Mountain Dews, decides to make a paper snowflake. It took me four snips, one of which missed. It is a damn good thing we only play a small role in this process. -->
-<!-- Erin was a hero (or heroine), condensing the whole process into a short six-hour window and whinging oh so little along the way.  The little guy weighed in at 3,370 grams -- it sounds so much more grand in metric -- or 7lbs almost 7oz.  Everyone is healthy and happy and ready for the challenge ahead.  More photos in the posts that follow.     -->
+
+
+
+
+
 
 
 
