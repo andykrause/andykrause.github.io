@@ -40,6 +40,18 @@ I used to read a lot of books. I still do, though they are now focused on Dr. Su
 &nbsp;
 ---------------------------------
 
+<a style="font-weight:bold;font-size:24px" href="kraustralia/kraustralia.html">Kraustralia</a>
+
+&nbsp;
+
+<img src="images/aus.png" style="width:15%; margin-left:20px; margin-right: 20px" align="left">
+
+&nbsp;
+
+From January 2015 to May 2017, we lived in the amazing city of Melbourne Australia.  At that time we kept a blog -- Kraustralia.com.  While we've given up the website, I've resurrected the blog, mostly in text form, here for my own memory.  
+
+&nbsp;
+
 <!-- <a style="font-weight:bold;font-size:24px" href="on-being-fair.html">On Being Fair</a> -->
 
 <!-- &nbsp; -->
