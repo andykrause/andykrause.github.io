@@ -14,15 +14,15 @@ editor_options:
 <br/>
 <br/>
 
-I like maps.  I like doing fun things with spatial data in R.  Recently, I've taken up running and, when given the chance trail running.  Running through the woods is my Zen.  
+I like maps.  I like doing fun things with spatial data in R.  Recently, I've taken up running and, when given the chance, trail running.  Running through the woods is my Zen.  
 
-I prefer new trails to ones I've done before.  To push me to explore more trails, I took on the challenge of running across King Count (East-West direction) in 2023. From the Lighthouse at Discovery Park to the warming shed at Snoqualmie Pass/Hyak. And to do so by taking trails whenever possible, with a priority for non-paved.  Roads were used only when no reasonable trail option existed. This was maid a lot easier by the [Palouse to Cascades State Park Trail](https://parks.wa.gov/find-parks/state-parks/palouse-cascades-state-park-trail).  
+I prefer new trails to ones I've done before.  To push me to explore more trails, I took on the challenge of running across King Count (East-West direction) in 2023. From the Lighthouse at Discovery Park to the warming shed at Snoqualmie Pass/Hyak. And to do so by taking trails whenever possible, with a priority for non-paved.  Roads were used only when no reasonable trail option existed (unpaved Forest Service Road count as trails). This was made a lot easier by the [Palouse to Cascades State Park Trail](https://parks.wa.gov/find-parks/state-parks/palouse-cascades-state-park-trail).  
 
-It wasn't always fun or easy.  There are some odd, ugly and difficult trails needed to tie all this together.  I got lost a few times despite my GPS.  I ran through some snow, some rain and a the occasional overgrown trail full of devil's club.  I saw two Elk, many vestiges of last century's industrial prowess and -- despite a few places on Cougar, Tiger, Rattlesnake and my city runs -- relatively few other runners.  
+It wasn't always fun or easy.  There are some odd, ugly and difficult trails needed to tie all this together.  I got lost a few times despite my GPS.  I ran through some snow, some rain and a the occasional overgrown trail full of devil's club.  I saw two Elk, many vestiges of last century's industrial prowess and -- other than a few places on Cougar, Tiger, Rattlesnake and my city runs -- relatively few other runners.  
 
 99 Miles, 85 of them on trails.  Many hours of fun in they woods and some in the city. 
 
-Next up? North-South? Kittitas?  Washington?  
+Next up? North-South? Kittitas County?  Washington?  
 
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
  ## Load libraries
@@ -39,7 +39,6 @@ Next up? North-South? Kittitas?  Washington?
  ## Set Paths
 
   file_path <- '~/documents/_travel/america'
-  image_path <- 'x'
 ```
 
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
@@ -57,7 +56,6 @@ Next up? North-South? Kittitas?  Washington?
                             quiet=TRUE) %>%
     sf::st_transform(4269) 
   
-
   ## Split into trail/road 
 
   trailruns_sf <- running_sf %>%
@@ -73,20 +71,39 @@ Next up? North-South? Kittitas?  Washington?
     dplyr::filter(!is.na(type)) %>%
     dplyr::filter(type != 'trail') %>%
     dplyr::select(name, type)
+  
+  trailruns_tf <- traverse_sf %>%
+    dplyr::filter(!is.na(type)) %>%
+    dplyr::filter(type == 'trail') %>%
+    dplyr::select(name, type) %>%
+    group_by(name, type) %>% 
+    summarise(segments = dplyr::n()) %>% 
+    st_cast() %>%
+    dplyr::select(-segments)
+  
+  roadruns_tf <- traverse_sf %>%
+    dplyr::filter(!is.na(type)) %>%
+    dplyr::filter(type != 'trail') %>%
+    dplyr::select(name, type) %>%
+    group_by(name, type) %>% 
+    summarise(segments = dplyr::n()) %>% 
+    st_cast() %>%
+    dplyr::select(-segments)
+  
 
   `Trail Runs` <- trailruns_sf
   `Road Runs` <- roadruns_sf
-  `King County Traverse` <- traverse_sf
+  `King County Traverse: Trail` <- trailruns_tf
+  `King County Traverse: Road` <- roadruns_tf
   `King County` <- boundary_sf
 
-  trail_col <- 'springgreen3'
+  trail_col <- 'yellow'
   road_col <- 'burlywood4'
   basemap <- leaflet::providers$CartoDB.DarkMatter
   
   ttable <- traverse_sf %>%
     dplyr::group_by(type) %>%
     dplyr::summarize(dist = sum(Length/1600))
-  
   
 ```
 
@@ -110,8 +127,10 @@ tm_shape(`Trail Runs`, bbox = bbox_sea) +
    tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE, alpha=.2) +
    tm_shape(`Road Runs`, bbox = bbox_sea) + 
      tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE, alpha=.2)+
-   tm_shape(`King County Traverse`, bbox = bbox_sea) + 
+   tm_shape(`King County Traverse: Trail`, bbox = bbox_sea) + 
      tm_lines(col = 'red', scale = 2, legend.lwd.show = FALSE)+
+   tm_shape(`King County Traverse: Road`, bbox = bbox_sea) + 
+     tm_lines(col = 'indianred4', scale = 2, legend.lwd.show = FALSE)+
    tm_shape(`King County`, bbox = bbox_sea) + 
      tm_borders(col = 'gray50')
 
