@@ -116,9 +116,9 @@ Next up? North-South? Kittitas County?  Washington?
 
 bbox_sea <- st_bbox(trailruns_sf) # current bounding box
 bbox_sea[1] <- -122.45
-bbox_sea[2] <- 47.3
+bbox_sea[2] <- 47.26
 bbox_sea[3] <- -121.67
-bbox_sea[4] <- 47.8
+bbox_sea[4] <- 47.77
 
 tmap_mode("view")
 
