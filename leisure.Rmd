@@ -52,6 +52,20 @@ From January 2015 to May 2017, we lived in the amazing city of Melbourne Austral
 
 &nbsp;
 
+---------------------------------
+
+<a style="font-weight:bold;font-size:24px" href="king_county_traverse.html">King County Traverse</a>
+
+&nbsp;
+
+<img src="images/trail.png" style="width:15%; margin-left:20px; margin-right: 20px" align="left">
+
+&nbsp;
+
+In 2023, I'm attempting to run across King County (WA), E-W.  Here is my progress.  
+
+&nbsp;
+
 <!-- <a style="font-weight:bold;font-size:24px" href="on-being-fair.html">On Being Fair</a> -->
 
 <!-- &nbsp; -->
