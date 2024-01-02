@@ -1,0 +1,204 @@
+---
+title: "Kangaroos and Kiwis"
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+editor_options: 
+  chunk_output_type: console
+---
+<link rel="stylesheet" href="kangaroos_and_kiwis.css" type="text/css">
+
+<br/>
+<br/>
+<br/>
+
+# <!--- 1 The Longest Day (or Three) ------------- -->
+
+<body>
+  <div class="content">
+
+<h3>The Longest Day (or Three)</h3> <br/>
+<h4>09 October 2007 </i> <br/>
+Suva, Fiji</h4>
+
+  <p>
+    <figure>
+      <img src="kangaroos_and_kiwis/kk_1.jpeg" align="right" width="250px" hspace="20" vspace="2">
+    </figure>
+
+This adventure begins early in the morning of October 9th in central Tucson on the couch of a friend (thanks Justin.  The flight from Tucson to LA was uneventful, ninety minutes of floating above the bone dry of SW Arizona and SE California, puncuated briefly by that accidental oasis, the Salton Sea. Then over the mountains and down into Los Angeles. After gathering my baggage and bussing it to the Bradley Terminal, I was immediately accosted by a group of Mormon missionaries upon entering the food court.  I was hungry for novelty and nature not Evangelism, so I quickly slipped from their eschatalogical grip.  Better luck on your mission. 
+
+Fortuitously, my flight to Fiji was not full and I found an empty seat between me and my rowmate, Rahim. Heading into the unknown solo, I broke my taboo against starting up conversation with fellow seatmates. I'll have to be more outgoing to make the most of this. Rahim is a native Fijian who works as a shelf stocker for Costco in Oakland six months out of the year.  The other half he spends back in Fiji with his family. He was a friendly, older man. His mien turned very sour when his meal did not honor is food preferences; taking it out on the flight attendant who was certainly not at fault in the matter. To solve this, another kind soul offered their meal to calm the ruckus. 
+
+I ate ravenous -- the food palatable but not great -- and the slept on and off for about half of the flight. This was my first time on a double decker 747 and the leg room was plenty adequate. The media options were rather poor, but the service was excellent. We crossed the equator southwest of Hawaii at 2:46 local time (whatever time zone we were in). A few hours later we crossed the International Date Line, and my nearly non-existent Wednesday, October 10th passed into the dark ocean night.
+
+We landed in Nadi, Fiji at 5:10 local time. Stepping out of the plane I was greeted by the rising sun and perfectly still, warm, heavy tropical air. Inside the terminal a band of Fijian men in skirts struck up a tune for us. I lay down on the floor of the airport for a quick nap thus ending one of the longest days of my life.
+
+TIL: *Bula is Fijian for Hello, Danaka for Thank You*
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+
+# <!--- 2 Touchdown in Oz ------------- -->
+
+<body>
+  <div class="content">
+
+<h3>Touchdown in Oz</h3> <br/>
+<h4>11 October 2007<br/>
+Brisbane, Australia</h4>
+
+  <p>
+  <figure>
+    <img src="kangaroos_and_kiwis/kk_2.jpeg" align="right" width="250px" hspace="20" vspace="2">
+  </figure>
+
+We landed in Brisbane around 11:30 local time and, with no ado, I was free from the rigors of customs by noon. Stepping outside was that of stepping into a sauna. It felt like New Orleans in June, minus the pervasive smell of stale urine and sour milk. A man on the train told me that they’ve been getting some torrential rains the last few weeks, which has led to the uncustomarily high level of humidity. I hope he’s right and that this isn't the usual climate. [The Brisbane City Backpacker’s Hostel]() was about a ¼ mile walk from the train station. Half way there I was properly drenched. The evaporative cooling powers of sweat are greatly minimized when the relative humidity hits 90%.
+
+I checked into my room to find the two inhabitants already there busy speaking German. I waited for a while, to make sure they weren’t talking about how they hate dirty Americans, and then calmly asked them in German where the shower was. Looks of pleasant surprise fell over their faces, especially when they learned that I was an American. I think they were amazed that anyone from the States knew German. After swapping stories, it turns out one of them was from Poland, the other from Germany. Our final roommate showed, a Czech named Vladimir, who also spoke German. Though in the end, English won out, likely due to mine and Vlad’s poor Deutsch. Everyone went their separate ways, with me heading back to the train station to get an AC adapter. The voltage in Australia is the same; it is just that the top two prongs are turned at 45 degree angles.  In all of my preparation for this trip, I never found the time to figure out my electricty needs. 
+
+Upon returning to the hostel, I promptly crashed and slept until 6pm. Quite a surprise to me, the sun was setting at the 6 o’clock hour as I awoke. I took a walk downtown to find some cheap food. While Brisbane is most certainly a 20th century, automobile-centric city, the traffic is beautifully quiet. In over an hour of walking, I heard one or two horns at the most and not a single siren. I eventually ran into the [Queens Street pedestrian mall](). Imagine a packed mall, three blocks long, full of bars in the middle and stores on the outside, all exposed to the great outdoors. Needless to say, a great place for a stroll and some people watching. I eventually found a grocery store in the underground level of the mall. Prices were somewhat similar to back home, though it seems meat is bit pricier and the selection of fruit isn’t quite as expansive. I settled on bananas and the old travelers' standby, granola bars (or muesli bars).
+
+Sated, I returned to the hostel and headed to the lounge to return some emails and work on this blog. The room was packed with most of the inhabitants were mesmerized by the Simpsons. The bar downstairs was full, but not overly so. As much as I desired to find my roommates and have a beer or six, it was already 9pm, I could hardly keep my eyes open, was over my $50 per diem, and really needed a good sleep (Monday night was my most recent horizontal sleep.), so I headed to bed around 10pm…there will be plenty of opportunities in the next six months to belly up to a bar, that and I am due at the volunteer office at 10 tomorrow morning. All told, a pretty calm first day, a day which I needed. The jet lag isn't as bad as flying to Europe, but I still feel a bit off.
+
+TIL: *It is tough to jaywalk in a place where the cars are coming from the wrong direction. I probably crossed 35 crosswalks in my travels today and I still look the wrong way for traffic every time. Thus, in the name of safety, I’ve taken to waiting for the little green man.*
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 3 Meeting the Team ------------- -->
+
+<body>
+  <div class="content">
+
+<h3>Meeting the Team</h3> <br/>
+<h4>12 October 2007  <br/>
+Brisbane, Australia </h4>
+
+ <p>
+  <figure>
+   <img src="kangaroos_and_kiwis/kk_3.jpeg" align="right" width="250px" hspace="20" vspace="2">
+  </figure>
+
+I awoke early today, my circadian rhythm still believing my body to be someplace far east of here. Caught up on my online life, I checked out of the Brisbane City Backpackers around 9 am and headed east over the William Jolly Bridge to the South Bank, and eventually on to the Conservation Volunteers’ Home Office. We were to arrive at 11am, I showed at 9:30 and they weren’t quite ready for me, so I dropped my pack and took a wander through the [South Bank Parklands](), a verdant, beach-ish park along the south bank of the Brisbane River. I came upon a pedestrian bridge over the river to the [City Botanical Gardens]() on the north bank near downtown. A beautiful city park, no doubt. By far the most interesting part was the elevated boardwalk through a partially-submerged mangrove forest.
+
+Having made my way back to the office by 10:45 I found two of my fellow volunteers had arrived; the first, Mandy, a mid to late 30s, British woman from a little town near Manchester. I came to find out that she sold all of her belongings in April and has been traveling the world volunteering ever since. The other prompt team member was Peter (Hu Wuan), a mathematics student from South Korea. Minutes later, our fourth and final member of our group, Daniel, a mid-20s fellow also from England, showed. We were painfully subjected to the obligatory safety video and orientation session and then broke for lunch to get to know each other a little bit. My first actual meal in Australia was a delicious salmon/chickpea sandwich with cream cheese. At first, $10 AUS might seem a bit pricey for a sandwich, but once you figure that tax is already included and tips are not expected, it seems fairly reasonable…now if only the dollar weren’t so weak – the Europeans definitely have an advantage over here. We returned and were whisked away to the volunteer house, our place of lodging while we weren’t out in the field. FYI: The first time you ride in a right side driver’s car, especially in the front seat, is a bit of a scare.
+
+Our shared are located in Albion, a northern suburb, about 5 train stops from downtown. The place is an old Queensland house (which meant nothing to me until I saw it) consisting of an amalgamation of rooms and covered porches that appear to have been added in the most haphazard of manners over the past 100 years. The 12-foot ceilings, decorative woodworking, and maze-like floor plan do offer a certain bit of charm, however. It lacks air-conditioning and insulation of any kind, so the days are hot and the nights cool as wind seems to blow straight through the windows and up from the floor boards. The house consists of two women’s rooms, two men’s rooms, a caretaker’s room, kitchen, two baths, a laundry, and various lounges and dens. The back yard has a small courtyard. I am rooming with Daniel and Peter this week, though as volunteers come and go we’ve been warned that room assignments are likely to change.
+
+Around 3pm the other crew of volunteers returned from their weekly assignment in Noosa. In this group were Matt, a 31-year old from Wales, Aaron a 19-year old student from New Hampshire, Jana (pronounced Yana), a 20-year old from Berlin, Germany, Anna a youngster from Tasmania, and Lena, a mid-40s women from somewhere that I didn't quite catch, though judging by her misappropriation of pronouns and poor verb conjugation, somewhere English is not the primary language. Apparently a few more souls will be filtering in over the weekend.
+
+Our volunteer program is set up so that we spend the weekends here in Brisbane and each Monday, or sometimes Sunday, we are put into groups and taken to our place of work. We stay at the volunteer work site until Friday afternoons and then return to Brisbane for the weekend. The best part is that we can leave things at the house during the week, so we do not need to haul all of our possessions out into the wild. While at the house, they provide all the food, all we have to do is cook it and clean up after ourselves. We’ve received our first assignment already; this Sunday, Daniel, Aaron, Jana, Mandy and Glen(?) and I leave at 8am on Sunday morning for a 6 hour drive to [Expedition National Park]() on the other side of the mountains in what is considered the Queensland Outback. We’ll be camping out in the wild until Friday morning, so for anyone reading this, you’ll likely not get another update from me until next Friday at the earliest.
+
+After some time chatting with the new volunteers, or volleys as we are known, Matt, Aaron, Jana, and I took off for Cambridge Street to do a bit of shopping and grab a pint or two. Cambridge Street is a bit of a poor man’s Queen’s Street Pedestrian Mall. The shops are dirtier and cheaper, the pubs more abundant and every block a few peep shows tuck themselves into small nooks and upstairs spaces. After the young kids grabbed some smokes, we settled on [The Elephant and Wheelbarrow](), advertised as a traditional English Pub. Having never been into a traditional English Pub, who was I to argue with this proclamation? I had two pints of Toohey’s, which tasted a bit like Leinenkugel’s Original.
+
+On the return trip I had my first run in with the Aussie law. Earlier I had errantly purchased an off-peak train ticket, which means it was not good from 3pm to 7pm. We boarded the train back to the house at 6:58 and wouldn’t you know it, immediately two transit officers stepped on board to check our tickets. When he saw mine and said “This is an off-peak ticket”, I responded in my best confused tourist, American accent “you mean it isn’t 7pm?”. He looked at his watch and said, “you are two minutes early, don’t worry about and don’t do it again.”
+
+TIL: *Confusion is a power alibi*
+
+  </p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 4 Prepping for Adventure ------------- -->
+
+<body>
+  <div class="content">
+  
+<h3>Prepping for Adventure</h3> <br/>
+<h4>13 October 2007 <br/>
+Albion, Australia </h4>
+
+ <p>
+  <figure>
+    <img src="kangaroos_and_kiwis/kk_4.jpeg" align="right" width="250px" hspace="20" vspace="2">
+  </figure>
+
+Still not quite on Aussie time, I awoke with sun at 5:30 am. No sense wasting a beautiful morning lying in bed and listening to the trains roll through Albion Station, so I got up and went for a walk. I headed east and found the little shopping center technically called Woolowin. It has a grocery store, a Bi-Lo (whatever the hell that is), a Blockbuster, numerous real estate offices, but most importantly, a St. Vincent de Paul’s. I’ll be headed there later today to buy some work shirts and a large sun hat, plus whatever other cheap garb I can get my hands on.
+
+Later on, my trip to St. Vinnie’s was a total bust. Some very nice \$6 dress shirts were plentiful. There were also four racks of women’s belts, a whole bin of cassette tapes for \$1, and special section of stuffed animals, but anything remotely resembling a men’s work quality shirt was nowhere to be found. Unfortunately, I returned to the house empty handed. After lunch, Peter and I jumped the train to downtown to try to find some free internet at one of the libraries and for me to finish my shopping. (Note: The ticket men at the Albion station could be the most unhappy people on the planet, I guess calling out “The Shorncliffe Line will be arriving on Platform 4 in three minutes” all day really takes its toll.)
+
+The city library on the north bank, though a beautiful building, was useless to a tourist. One needed a library card to do anything, including going to the bathroom. Across the river the [State Library]() proved quite a bit more useful. The information center on the first floor was packed with people on laptops and others waiting in the queues for a free 20 minute online session on the provided desktop computers. While the wireless was free, it was terribly slow, and though I was able to answer some email and post a blog entry, I could not upload photos nor view any such content. What should have taken me 30 minutes, took 3 hours. I need to find a better place to get a free connection, or just break down and pay for it somewhere.
+
+We then headed to Target in the Queen’s Street Mall underground. Within 2 minutes of being in the store I had lost Peter, not an easy thing to do considering the tall, skinny Korean was wearing a black and white Where’s Waldo-ish hat. After a few laps I gave up on him, figuring he had either went his own way or been decapitated by the samurai clad man who was hanging out in Housewares section. Either way, I could have been no further help, so I carried on with my afternoon. I felt a bit bad, because his English is marginal and he got lost yesterday and had to take a cab home, but I got over it. I eventually found some suitable work shirts at the Big W on sale for \$10. A pretty good deal considering, my little tube of Carmex cost me \$4.75. My advice to anyone coming to Australia: stock up on cosmetics, they are double or triple the price over here.
+
+Returning home, I did a bit of reading and then took a nap. In the evening we had a large communal spaghetti dinner. Afterwards everyone took their turn emptying their camera memory cards onto my computer. We are going to get some DVDs this week so I can burn everyone a disk at the end of the volunteer session. Most people, like myself, are staying over here for at least a few months, some more, and photos seem to accumulate pretty quickly in a beautiful place like this. Turns out my laptop will be a savior to more people than just myself.
+
+TIL: *Spending a day with someone whose English isn’t the greatest teaches you to clean up your vernacular slang and habits of poor enunciation. I don’t know how many times with Peter I had to rephrase something because I was speaking in Midwest slang or uttering nonsense out of the corner of my mouth.* 
+
+PS: Speaking of language issues...yesterday Matt from Wales, was telling a story about him and his brother’s trip around New South Wales and Victoria in a camper van, when he managed to use the words Wanker, Tosser, and Bloody Fucking Bollocks all in the same sentence. Classic Welshman.
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 5 In Search of Reedy Creek ------------- -->
+
+<body>
+  <div class="content">
+
+<h3>In Search of Reedy Creek</h3> <br/>
+<i>14 October 2007 </i> <br/>
+Taroom, Australia
+
+   <p>
+    <figure>
+      <img src="kangaroos_and_kiwis/kk_5.jpeg" align="right" width="250px" hspace="20" vspace="2">
+    </figure>
+
+Our team leader John arrived around 7 o’clock this morning to begin packing up the troupee (basically a modified Jeep with seating for eight in the rear) and the trailer for our long haul to [Expedition National Park](). Involved with myself in this week long adventure were Daniel, Jana, Aaron, Mandy, Glen, our leader John and an illegal sidekick Brian. Glen turned out to be a local guy whose conservation studies mandated 80 hours of volunteer work. Twenty something, with a Mohawk and army fatigue pants, Glen cast himself as a bit of a harrowing character at first glance, however, after meeting him, his smile gave away his true nature; that of a quiet, hard-working fellow. Team Leader John, was an ex-oil geologist turned outdoorsman, who could have been old man Jackl’s twin, in both looks and demeanor. Brian, our stowaway, on the other hand, was quite the opposite, a Jeckl to John’s Hyde. Numerous tattoos, including BEER – one letter on each of the four fingers of his left hand – and a few scars spoke of a misspent youth that carried over a bit too far into adulthood. He was rather small and gaunt, about 5’5”, 150 pounds soaking wet, and had a manner of speech and movement incredibly similar to John Diemel. 
+
+After hearing the first dozen stories out of his mouth, I decided that was exactly what he was: an Australian version of my hometown neighbor, Mr. Diemel. The reason I say Brian was an illegal sidekick is that though he is a usual team leader about six months ago he was weed-eating when he took off his glasses to wipe some sweat and the end of the weed-eater hit the ground and kick a piece of metal directly into his eye. It went through the front and lodged itself in the retina. Four surgeries later, he is still wearing a patch, is on limited duty and isn’t supposed to be working, but boredom has got the best of him so he decided to ride along for free.
+
+Introductions and packing finished, we hid the road for what was to be an estimated six-hour drive. The first hour and half was spent climbing the range up to the city of [Toowoomba]. On our climb up the steep grade we passed an old, bright pink car carrying two young girls struggling up the hill. Glancing over we spotted a large plastic dildo glued to the dashboard. The girls looked up, smiled and waved. We nearly drove in the ditch from laughter. Home of Queenstown University (or something like that), Toowoomba is a nice little college town perched on the edge of a plateau. We stopped for a quick stretch. The seats in the back of the troupee will numb even the most ample of asses in the first thirty minutes. After Toowoomba, the terrain levels out quickly. This is cattle country. Were we not driving on the left side of the road, one could fall asleep, awake and think you were smack dab in the center of Nebraska. A small town dots the map every 50 to 70 miles, all of them identical to the one before it. Around noon, we pulled off in the town of [Chinchilla]() for lunch and our first taste of the coming annoyance known as harvest flies. A notch smaller than the common American housefly, what they lack in size they more than make up for in tenacity. A strange casual observation: each of these small farm towns has a skate park, and not one of them was in use.
+
+At [Miles](), we turned north towards [Taroom](). The table-flat farmland began to give way to rolling hills, some pasture, most in their native scrub grass and savanna-like foliage. A few kilometers past Taroom we hung a left onto Robinson Creek Road, a narrow, red dirt pathway. This would be the last time we would see pavement (or bitumen as the Aussies call it) for days. For about a 100 KMs we bounced along in the back of the troupee dodging potholes, branches and the occasional kangaroo or wallaby. We came upon a fork in the road, and as Yogi Berra suggested, we took it. Actually, we hung a left, following (rather errantly as we would soon discover) the sign pointing toward Expedition National Park. Fifty kilometers later the end of the road appeared, with the [Starkvite Campground]() to the right. Not where we were scheduled to stay. Upon thieving a map from the campground, it was discovered that the directions we had been given were wrong and we had taken a left when we should have went right. 
+
+About two hours, three more turnarounds, one blue refrigerator and one bleached out road sign later, we arrived at the Reedy Creek Ranch, our intended destination. The trip took nine hours, eight of them on the road...much too long in the back of the troupee. As it was already dusk, John cooked a quick meal of jammers and mashies (hot dogs and mashed potatoes). The place is off the grid and the generator goes off at nine, so we unpacked our sleeping bags and headed to sleep on the veranda. Under "bush rules" the girls were allowed to sleep inside, us men were stuck under the stars.
+
+TIL: *Those of us who live in cities are missing out on one of the world’s great wonders: the night sky. Here at Reedy Creek Ranch, miles from any light pollution, the full breadth of the stars are on display. Though it is not the northern sky that I am so familiar with, its magnificence is not in the least bit diminished. I fear that there are many among us who have never truly seen the night sky in all its splendor, and what a shame that is.*
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
+# <!--- 6 Cat's Claw Fever ------------- -->
+
+<body>
+  <div class="content">
+
+<h3>Cat's Claw Fever</h3> <br/>
+<i>15 October 2007 </i> <br/>
+Taroom, Australia
+
+   <p>
+    <figure>
+      <img src="kangaroos_and_kiwis/kk_6.jpeg" align="right" width="250px" hspace="20" vspace="2">
+    </figure>
+
+As the sun rose, so did I. Along my morning walk, I kicked up numerous wallabies and two large grey kangaroos who had come near the homestead in order to drink from the retaining pond located near the creek. Attempts to accurately photograph these paradigmatic antipodean creatures were futile.
+
+The Reedy Creek Ranch is an interesting place. First settled in the late 1800s by an Irish family, the property has seen numerous owners in the past forty years. In the 1970s it was a thriving Jackaroo ranch (basically a training ranch for wannabe cowboys). After that it spent some time as a bed and breakfast. Shortly thereafter most of the land was sold to the state. Currently it is being run as a viable cattle ranch, with most of the pasture land leased back from the state. This abbreviated history of the ranch was told to us by Adrian, the current owner. A portly, balding man in his early 60s, Adrian looks more like a retired insurance agent that the operator of a massive ranch in the middle of the Queensland bush. Later in the day we met Stan, the man who runs the day-to-day operations. Stan looks, acts, and speaks the part of a rancher, ten gallon hat and all. The ranch buildings are aging and in desperate need of paint job. The actual homestead is a conglomeration of buildings added to each other as the principal use of the ranch changed over the years. The crowning achievement of this piecemeal construction project is the wide veranda that surrounds the entire place. This glorified porch would be our home for five days.
+
+The date was April 14, 1871 and Eliza Presho, fresh returned from a week in the newly thriving port of Brisbane, decided to plant a small creeping vine (the seeds of which were shipped in from London) at the base of her wooden entrance arch at the Reedy Creek Ranch. Fast forward 136 years. This seemingly harmless plant, named Cat’s Claw (*Uncaria tomentosa* a native of the Amazon), jumped to the creek bottom and has spread four kilometers downstream. Cat’s Claw, when properly maintained, remains small and produces lovely yellow flowers.  It is also rumored to be a cure for hemorrhoids, Alzheimer's and herpes -- a true wonder drug.  However, when released unchecked into a fragile environment it turns into a monster. The vine engulfs entire trees choking off their roots and leaves and ultimately killing them. As the trees fall into the creek, the vine spreads downstream to the next victim. Our job would be to cut the vines and spray the ends of them with Roundup. These vines grow up to an inch thick and a single tree can have fifty or so vines surrounding it’s trunk. Added to this, once you cut the Cat’s Claw, you have 15 seconds to spray the live end until the plant secrets a clotting serum that protects it until it can regenerate. The joys of invasive species.
+
+Armed with pruners and spray bottles, this proved to be very tough work. The creek bed is steep, though vacant at the time of water, and temperatures hovered near 90 with nary a breath of wind. Around noon, two rangers from the Taroom Station, Tasha and Nathanial, showed up. This was quite the pair. Tasha was a wildly friendly woman who was never at a loss for words. Nathanial, on the other hand, was a behemoth of a man who barely uttered a sound. Having experience with Cat’s Claw, they showed up with serrated, folding saws, which were an absolute godsend, especially on the thicker, more entrenched vines.
+
+We returned to the veranda around 3pm after a long day in the creek bed. Any sort of progress was difficult to measure, as we had started our Sisyphean task at the absolute epicenter of the outbreak. Morale was waning, but a delicious chili dinner helped to bring spirits up. Post dinner, we played some cards; Jana teaching us a German version of President/Asshole and Daniel introducing a British game he and his mates called Shithead (a cross between Uno and Texas Hold ‘Em). The sun sets at 6:30. By the time the generator went out, we were all properly knackered and sleep was welcome.
+
+TIL: Undoing is often harder than doing. 
+
+</p>
+ </content>
+<body>
+<br clear="all" />
+
