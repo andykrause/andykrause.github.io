@@ -24,12 +24,13 @@ editor_options:
   library(tmap)
 
  ## Source Custom Functions
-  source("~/projects/andykrause.github.io/functions/mapping_functions.R")
+  source(file.path(getwd(), "functions/mapping_functions.R"))
 
  ## Set Paths
 
-  file_path <- '~/documents/_travel/america'
+  file_path <- '~/dropbox/andy/_travel/america'
   image_path <- 'x'
+  
 ```
 
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
@@ -55,11 +56,12 @@ editor_options:
     dplyr::filter(type != 'trail') %>%
     dplyr::select(name, type)
 
+  trail_col <- 'springgreen3'
+  road_col <- 'burlywood4'
+   
   `Trail Runs` <- trailruns_sf
   `Road Runs` <- roadruns_sf
 
-  trail_col <- 'springgreen3'
-  road_col <- 'burlywood4'
   basemap <- leaflet::providers$CartoDB.DarkMatter
   
 ```
@@ -81,14 +83,13 @@ bbox_sea[4] <- 47.8
 
 tmap_mode("view")
 
+
 tm_shape(`Trail Runs`, bbox = bbox_sea) + 
    tm_basemap(basemap) +
-   tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
+   tm_lines(col = trail_col) +
    tm_shape(`Road Runs`, bbox = bbox_sea) + 
-     tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)
+     tm_lines(col = road_col)
   
-
-
 ```
 
 &nbsp;
@@ -109,9 +110,9 @@ tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_sji) + 
   tm_basemap(basemap) +
-  tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
+  tm_lines(col = trail_col) +
   tm_shape(`Road Runs`, bbox = bbox_sji) + 
-  tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)
+  tm_lines(col = road_col)
 
 ```
 
@@ -129,9 +130,9 @@ tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_maz) + 
   tm_basemap(basemap) +
-  tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
+  tm_lines(col = trail_col) +
   tm_shape(`Road Runs`) + 
-  tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)
+  tm_lines(col = road_col)
 
 ```
 
@@ -149,9 +150,9 @@ tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_haw) + 
   tm_basemap(basemap) +
-  tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE) +
+  tm_lines(col = trail_col) +
   tm_shape(`Road Runs`) + 
-  tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE)
+  tm_lines(col = road_col)
 
 ```
  
