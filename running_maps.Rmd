@@ -28,7 +28,7 @@ editor_options:
 
  ## Set Paths
 
-  file_path <- '~/dropbox/andy/_travel/america'
+  data_path <- '~/dropbox/andy/data/where/america'
   image_path <- 'x'
   
 ```
@@ -36,7 +36,7 @@ editor_options:
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
 
   ## Load Running Shapefile
-  running_sf <- sf::st_read(file.path(file_path, 'running.shp'),
+  running_sf <- sf::st_read(file.path(data_path, 'running.shp'),
                             quiet=TRUE) %>%
     sf::st_transform(4269) 
 
