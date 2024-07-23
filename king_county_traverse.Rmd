@@ -34,25 +34,25 @@ Next up? North-South? Kittitas County?  Washington?
   library(tmap)
 
  ## Source Custom Functions
-  source("~/projects/andykrause.github.io/functions/mapping_functions.R")
+  source(file.path(getwd(), "/functions/mapping_functions.R"))
 
  ## Set Paths
 
-  file_path <- '~/documents/_travel/america'
+ data_path <- '~/dropbox/andy/data'
 ```
 
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
 
   ## Load Running Shapefile
-  running_sf <- sf::st_read(file.path(file_path, 'running.shp'),
+  running_sf <- sf::st_read(file.path(data_path, 'where', 'america', 'running.shp'),
                             quiet=TRUE) %>%
     sf::st_transform(4269) 
 
-  traverse_sf <- sf::st_read(file.path(file_path, '_events', 'king_county_traverse.shp'),
+  traverse_sf <- sf::st_read(file.path(data_path, 'where', 'events', 'king_county_traverse.shp'),
                             quiet=TRUE) %>%
     sf::st_transform(4269) 
   
-   boundary_sf <- sf::st_read(file.path(file_path, '_events', 'king_county_boundary.shp'),
+   boundary_sf <- sf::st_read(file.path(data_path, 'base', 'administrative', 'king_county_boundary.shp'),
                             quiet=TRUE) %>%
     sf::st_transform(4269) 
   
@@ -124,13 +124,13 @@ tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_sea) + 
    tm_basemap(basemap) +
-   tm_lines(col = trail_col, scale = 1, legend.lwd.show = TRUE, alpha=.2) +
+   tm_lines(col = trail_col, lwd = 1, col_alpha=.2) +
    tm_shape(`Road Runs`, bbox = bbox_sea) + 
-     tm_lines(col = road_col, scale = 1, legend.lwd.show = FALSE, alpha=.2)+
+     tm_lines(col = road_col, lwd = 1, col_alpha=.2)+
    tm_shape(`King County Traverse: Trail`, bbox = bbox_sea) + 
-     tm_lines(col = 'red', scale = 2, legend.lwd.show = FALSE)+
+     tm_lines(col = 'red', lwd = 2)+
    tm_shape(`King County Traverse: Road`, bbox = bbox_sea) + 
-     tm_lines(col = 'indianred4', scale = 2, legend.lwd.show = FALSE)+
+     tm_lines(col = 'indianred4', lwd = 2)+
    tm_shape(`King County`, bbox = bbox_sea) + 
      tm_borders(col = 'gray50')
 
