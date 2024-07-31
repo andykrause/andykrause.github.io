@@ -14,62 +14,10 @@ editor_options:
 <br/>
 <br/>
 
-```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
- ## Load libraries
-  library(sf)
-  library(geosphere)
-  library(tidyverse)
-  library(basemaps)
-  library(maps)
-  library(tmap)
-
- ## Source Custom Functions
-  source(file.path(getwd(), "functions/mapping_functions.R"))
-
- ## Set Paths
-
-  file_path <- '~/dropbox/andy/_travel/america'
-  image_path <- 'x'
-  
-```
-
-```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
-
-  ## Load Running Shapefile
-  cutthroat_sf <- sf::st_read(file.path(file_path, '_events',
-                                        'cutthroat_classic.shp'),
-                            quiet=TRUE) %>%
-    sf::st_transform(4269) 
-
-  basemap <- leaflet::providers$CartoDB.DarkMatter
-  
-  elev_dem <- raster::raster("~/dropbox/andy/data/base/elevation/washington_pass.dem")
-  https://gis.ess.washington.edu/data/raster/tenmeter/byquad/concrete/index.html
-  xx <- "https://gis.ess.washington.edu/data/raster/tenmeter/byquad/concrete/q436.zip"
-  temp <- tempfile()
-  download.file(xx,temp)
-  unzip(zipfile = temp, exdir = "~/downloads/")
-
-
-  #  elmat = rayshader::raster_to_matrix(elev_dem)
-  # elmat %>%
-  #    rayshader::sphere_shade(texture = "desert") %>%
-  #    rayshader::plot_map()
-  # 
-  # elmat %>%
-  #   sphere_shade(texture = "desert") %>%
-  #    add_water(detect_water(elmat), color = "desert") %>%
-  #    add_shadow(ray_shade(elmat, zscale = 3), 0.5) %>%
-  #    add_shadow(ambient_shade(elmat), 0) %>%
-  #    plot_3d(elmat, zscale = 10, fov = 0, theta = 135, zoom = 0.75, phi = 45, windowsize = c(1000, 800))
-  # 
-  
-```
-
 &nbsp;
 &nbsp;
 
-## Cutthroat Classic
+## Cutthroat Classic - 9/9/2023
 
 [Race Website](https://methowtrails.org/events/cutthroat-classic)
 &nbsp;
@@ -91,37 +39,86 @@ Elevation Gain to Pass: 1,965
 &nbsp;
 &nbsp;
 
-```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 6, fig.height = 4}
+<img src="images/cutthroat_plot.png" style="width:38%; border:10px solid; margin-right: 20px" align="left">
 
-## Seattle Area
+<br/>
 
-bbox_cc <- st_bbox(cutthroat_sf) # current bounding box
-bbox_cc[1] <- -120.75
-bbox_cc[2] <- 48.5
-bbox_cc[3] <- -120.645
-bbox_cc[4] <- 48.6
+&nbsp;
 
-tmap_mode("view")
+<br/>
 
-tm_shape(cutthroat_sf, bbox = bbox_cc) + 
-   tm_basemap(basemap) +
-   tm_lines(col = 'red') 
-  
-```
+&nbsp;
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 &nbsp;
 &nbsp;
 
-## Lord Hill
+## Lord Hill 
 
-## Orcas Half (Destination)
+[Race Website](https://www.evergreentrailruns.com/lord-hill/)
+&nbsp;
+&nbsp;
+
+[Results](https://runsignup.com/Race/Results/68860#resultSetId-439600;perpage:100)
+&nbsp;
+&nbsp;
+
+Time: 1:33.00 -- (1st/9th)
+-- First in brunch run, but 9th if I had run the morning 10 miler
+&nbsp;
+&nbsp;
+
+Distance: 10 Miles
+&nbsp;
+&nbsp;
+
+Cumulative Gain: 1,800
+&nbsp;
+&nbsp;
+
+<img src="images/lord_hill_plot.png" style="width:38%; border:10px solid; margin-right: 20px" align="left">
+
+<br/>
+
+&nbsp;
+
+<br/>
+
+&nbsp;
+
+## Orcas Half
+
+[Race Website](https://www.destinationtrailrun.com/orcas-island)
+&nbsp;
+&nbsp;
+
+[Results](https://ultrasignup.com/results_event.aspx?did=108474)
+&nbsp;
+&nbsp;
+
+Time: 2:23.25 -- (7th)
+&nbsp;
+&nbsp;
+
+Distance: 14 Miles
+&nbsp;
+&nbsp;
+
+Cumulative Gain: 3,600
+&nbsp;
+&nbsp;
+
+<img src="images/mount_constitution_plot.png" style="width:38%; border:10px solid; margin-right: 20px" align="left">
+
+<br/>
+
+&nbsp;
+
+<br/>
+
+&nbsp;
+
+
 
 ## Bigfoot 20
-
- https://www.rayshader.com/
- 
- 
- loadzip = tempfile() 
-download.file("https://tylermw.com/data/dem_01.tif.zip", loadzip)
-localtif = raster::raster(unzip(loadzip, "dem_01.tif"))
-unlink(loadzip)
