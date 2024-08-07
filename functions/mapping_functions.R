@@ -266,8 +266,182 @@ flightPath <- function(airports, air_sf){
   path_sf
 }
  
+createTrackData <- function(track_name,
+                            shp_path){
+  
+  track_name_x <- tolower(gsub(' ', '_', track_name))
+  
+  ## Load Shapefile
+  cat('\n Loading track for: ', track_name, '\n')
+  track_sf <- sf::st_read(file.path(shp_path, paste0(track_name_x, '.shp')),
+                          quiet = TRUE) %>%
+    sf::st_transform(4326)
+  
+  # Get Elevation Data
+  if (!file.exists(file.path(shp_path, 
+                             paste0(track_name_x, '_elevation.shp')))){
+    cat('\n Downloading elevation data\n')
+    track_esf <- getElev(track_sf) %>%
+      sf::st_transform(4326)
+    
+    sf::st_write(track_esf,
+                 file.path(shp_path, 
+                           paste0(track_name_x, '_elevation.shp')),
+                 append = FALSE,
+                 quiet = TRUE)
+    
+  } else {
+    
+    cat('\n Loading elevation data\n')
+    
+    track_esf <- sf::st_read(file.path(shp_path, 
+                                       paste0(track_name_x, 
+                                              '_elevation.shp')),
+                             quiet = TRUE) %>%
+      sf::st_transform(4326)
+    
+  }
+  
+  list(bbox = sf::st_bbox(track_sf),
+       track = track_sf,
+       elevation = track_esf)
+  
+}
 
 
+createTopoData <- function(track_obj,
+                           elev_index_sf,
+                           elev_path,
+                           texture,
+                           track_buffer = .01,
+                           water_col = 'desert',
+                           ray_z = 3,
+                           shadow_z = 0.5, 
+                           custom_bbox = NULL){   
+  
+   if (is.null(custom_bbox)){
+     bbox_poly <- bbox_to_poly(track_obj$track,
+                               buffer = track_buffer)
+   } else {
+     bbox_poly <- custom_bbox
+   }
+  
+  ## Identify the DEMs to load
+  id <- sf::st_intersects(elev_index_sf, bbox_poly)
+  idx <- which(lapply(id, length) > 0)
+  idx_df <- elev_index_sf[idx, ]
+  
+  ## Load DEM and transform
+  topo_ <- list()
+  for (i in 1:nrow(idx_df)){
+    cat('\n Loading topography for: ', idx_df$name[i], '\n')
+    topo_[[i]] <- raster::raster(file.path(elev_path, 
+                                           paste0(idx_df$name[i], '.grd'))) %>%
+      raster::projectRaster(., crs=4326)
+  }
+  
+  # Combine 
+  if (length(topo_) == 1) {
+    topo_elev <- topo_[[1]]
+  } else {
+    topo_elev <- topo_[[1]]
+    for (k in 2:length(topo_)){
+      topo_elev <- alignRasters(topo_elev, topo_[[k]])
+    }
+  }
+  
+  topo_elev <- raster::crop(topo_elev, bbox_poly)
+  
+  # Create elevation matrix
+  topo_mat <- rayshader::raster_to_matrix(topo_elev)
+  
+  # Convert to rayshader matrix
+  cat('\n Converting to ray-shaded DEM \n')
+  topo_mat %>%
+    sphere_shade(texture = texture) %>%
+    add_water(detect_water(topo_mat), color = water_col) %>%
+    add_shadow(ray_shade(topo_mat, zscale = ray_z), shadow_z) %>%
+    add_shadow(ambient_shade(topo_mat), 0) ->
+    topo_rsm
+  
+  
+  list(bbox = bbox_poly,
+       elev = topo_elev,
+       mat = topo_mat,
+       rsm = topo_rsm)
+  
+}    
+
+bbox_to_poly <- function(sf_obj,
+                         buffer = NULL){
+  
+  bbox_poly <- as(
+    extent(sf::st_bbox(sf_obj)), 'SpatialPolygons') 
+  crs(bbox_poly) <- crs(sf_obj)
+  bbox_poly <- bbox_poly %>% sf::st_as_sf()
+  
+  if (!is.null(buffer)){
+    bbox_poly <- bbox_poly %>% sf::st_buffer(., buffer)
+  } 
+  
+  bbox_poly
+}
+
+
+alignRasters <- function(rast_1, rast_2, ...){
+
+  # #template is an empty raster that has the projected extent of r2 but is 
+  # aligned with r1 (i.e. same resolution, origin, and crs of r1)
+  
+  blank_template <- raster::projectRaster(from = rast_2, to = rast_1, 
+                                          alignOnly = TRUE)
+  aligned_rast_2 <- raster::projectRaster(from = rast_2, to = blank_template)
+  merged_rasters <- raster::merge(rast_1, aligned_rast_2)
+  
+  return(merged_rasters)
+  
+  # If any overlap, take the mean
+  #mosaic(rast_1)
+  # r2_aligned<- projectRaster(from = ydem, to= template)
+  # r_merged<- merge(xdem,r2_aligned) 
+  # r_merged2<- mosaic(xdem,r2_aligned, fun=mean, na.rm=TRUE)
+}
+
+
+if (F){
+  g <- sf::st_bbox(track_obj$track)
+  b <- as(extent(g), 'SpatialPolygons')
+  crs(b) <- crs(track_obj$track)
+  bb <- st_as_sf(b) # convert polygons to 'sf' object
+   plot(rb)  
+  topo_mat <- rayshader::raster_to_matrix(rb)
+  
+  # Convert to rayshader matrix
+  cat('\n Converting to ray-shaded DEM \n')
+  topo_mat %>%
+    sphere_shade(texture = texture) %>%
+    add_water(detect_water(topo_mat), color = water_col) %>%
+    add_shadow(ray_shade(topo_mat, zscale = ray_z), shadow_z) %>%
+    add_shadow(ambient_shade(topo_mat), 0) ->
+    topo_rsm
+  
+  topo_rsm %>%
+    plot_3d(topo_obj$mat, 
+            zscale = plot_z, 
+            fov = 0, 
+            theta = 315, 
+            zoom = .65, 
+            phi = 37, 
+            windowsize = c(1000, 800))
+  
+}  
+  
+  
+  
+  
+  
+  
+  
 ## Set Buubox
 # bbox <- c(left = daygeos_$coords$corners[1] - scale,
 #           bottom = daygeos_$coords$corners[2] - scale/lscale,
