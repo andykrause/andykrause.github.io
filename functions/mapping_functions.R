@@ -436,7 +436,67 @@ if (F){
   
 }  
   
+createRSplot <- function(track_name,
+                         elev_index,
+                         path_configs,
+                         track_configs,
+                         plot_configs,
+                         overwrite = TRUE){
   
+  # Create Plot Name
+  plot_name <- paste0(tolower(gsub(' ', '_', track)), '.png')
+  
+  # Check if existss
+  if (overwrite == FALSE & 
+      file.exists(file.path(image_path, plot_name))){
+    
+    cat('Plot named ', plot_name, ' at location: ', image_path, 
+        ' already exists.  Use overwrite = TRUE to replace.\n')
+    
+    return(NULL)
+  }
+  
+  
+  cat('\nCreating: ', plot_name, '\n')
+  
+  # Create Track Data
+  track_obj <- createTrackData(track_name = track_name,
+                               shp_path = path_configs$track)
+  
+  # Create Race Data  
+  topo_obj <- createTopoData(track_obj = track_obj,
+                             elev_index_sf = elev_index,
+                             elev_path = path_configs$elev,
+                             texture = plot_configs$texture,
+                             track_buffer = track_configs$buffer)
+  
+  ## Make base 3dPlot
+  topo_obj$rsm %>%
+    plot_3d(topo_obj$mat, 
+            zscale = plot_configs$z_scale, 
+            fov = plot_configs$fov, 
+            theta = plot_configs$theta, 
+            zoom = plot_configs$zoom, 
+            phi = plot_configs$phi, 
+            windowsize = plot_configs$window_size)
+  
+  ## Add track
+  render_path(extent = st_bbox(topo_obj$elev),
+              lat = unlist(track_obj$elevation$lat),
+              long = unlist(track_obj$elevation$lon),
+              altitude = unlist(track_obj$elevation$elevation) * 
+                track_configs$elev_multiplier,
+              zscale = plot_configs$z_scale,
+              color = track_configs$color,
+              antialias = plot_configs$antialias)
+  
+  # Save Image
+  cat('\n Saving Image as: ', image_path, '/', plot_name, '.png\n')
+  rgl::rgl.snapshot(file.path(image_path, plot_name), fmt = 'png')
+  
+  return('Success')
+}
+
   
   
   
