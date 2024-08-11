@@ -10,10 +10,16 @@ editor_options:
 
 ```{r include=FALSE}
   library(magrittr)
+  library(magick)
+  library(gridExtra)
+  library(png)
+  library(grid)
+  source(file.path(getwd(), 'functions', 'mapping_functions.R'))
+
 
 ```
 
-<link rel="stylesheet" href="basic.css" type="text/css">
+<link rel="stylesheet" href="trailraces.css" type="text/css">
 
 <br/>
 <br/>
@@ -22,61 +28,107 @@ editor_options:
 &nbsp;
 &nbsp;
 
-## Cutthroat Classic - 9/9/2023
+## Bigfoot 20 - 8/9/2024
 
-<img src="images/cutthroat_classic_plot.png" style="width:38%; border:0px solid; margin-right: 20px" align="right">
 
-[Race Website](https://methowtrails.org/events/cutthroat-classic)
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+<img src="images/bigfoot_20_plot.png" style="width:38%; border:0px solid; margin-right: 20px" align="left">
 
-[Results](https://results.raceroster.com/v2/en-US/results/aruguf2ankx7bx75/results)
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+<font color="black"> .</font>
 
-`Time`: 1:34.18 -- (17th)
+<font color="black"> .</font>
+
+
+`Time`: 3:40.45 (2nd Place)
 &nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
 
-`Distance`: 10.5 Miles
+`Distance`: 19.8 Miles
 &nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
 
-`Elevation Gain to Pass`: 1,965
+`Cumulative Gain`: 3,684 feet
 &nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
 
+<font color="black"> .</font>
+
+<font color="black"> .</font>
+
+[Race Website](https://www.destinationtrailrun.com/bigfoot-20m)
+&nbsp;
+&nbsp;
 &nbsp;
 &nbsp;
 
-<br/><br/>
+[Results](https://ultrasignup.com/entrants_event.aspx?did=107531)
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+<font color="black"> .</font>
+
+<font color="black"> .</font>
+
+<font color="black"> .</font>
 
 ---------------
 
+## Orcas Island Half - 4/28/2024
+
+
+<img src="images/mount_constitution_half_plot.png" style="width:38%; border:0px solid; margin-right: 20px" align="left">
+
+<font color="black"> .</font>
+
+<font color="black"> .</font>
+
+`Time`: 2:23.25 -- (7th)
 &nbsp;
 &nbsp;
 
-## Lord Hill -- 2/24/24
-
-<img src="images/lord_hill_plot.png" style="width:38%; border:0px solid; margin-right: 20px" align="right">
-
-[Race Website](https://www.evergreentrailruns.com/lord-hill/)
+`Distance`: 14 Miles
 &nbsp;
 &nbsp;
 
-[Results](https://runsignup.com/Race/Results/68860#resultSetId-439600;perpage:100)
+`Cumulative Gain`: 3,600 feet
 &nbsp;
 &nbsp;
+
+<font color="black"> .</font>
+
+<font color="black"> .</font>
+
+[Race Website](https://www.destinationtrailrun.com/orcas-island)
+&nbsp;
+&nbsp;
+
+[Results](https://ultrasignup.com/results_event.aspx?did=108474)
+&nbsp;
+&nbsp;
+
+<font color="black"> .</font>
+
+<font color="black"> .</font>
+
+<font color="black"> .</font>
+
+
+---------------
+
+## Lord Hill 10M -- 2/24/24
+
+<img src="images/lord_hill_plot.png" style="width:38%; border:0px solid; margin-right: 20px" align="left">
+
+<font color="black"> .</font>
+
+<font color="black"> .</font>
 
 `Time`: 1:33.00 -- (1st/9th)
 -- 1st in brunch run; 9th Overall
@@ -91,79 +143,71 @@ editor_options:
 &nbsp;
 &nbsp;
 
+<font color="black"> .</font>
+
+<font color="black"> .</font>
+
+[Race Website](https://www.evergreentrailruns.com/lord-hill/)
 &nbsp;
 &nbsp;
 
-<br/><br/>
+[Results](https://runsignup.com/Race/Results/68860#resultSetId-439600;perpage:100)
+&nbsp;
+&nbsp;
+
+<font color="black"> .</font>
+
+<font color="black"> .</font>
+
+<font color="black"> .</font>
+---------------
+
+## Cutthroat Classic - 9/9/2023
+
+<img src="images/cutthroat_classic_plot.png" style="width:38%; border:0px solid; margin-right: 20px" align="left">
+
+<font color="black"> .</font>
+
+<font color="black"> .</font>
+
+`Time`: 1:34.18 -- (17th)
+&nbsp;
+&nbsp;
+
+`Distance`: 10.5 Miles
+&nbsp;
+&nbsp;
+
+`Elevation Gain to Pass`: 1,965
+&nbsp;
+&nbsp;
+
+<font color="black"> .</font>
+
+<font color="black"> .</font>
+
+[Race Website](https://methowtrails.org/events/cutthroat-classic)
+&nbsp;
+&nbsp;
+
+[Results](https://results.raceroster.com/v2/en-US/results/aruguf2ankx7bx75/results)
+&nbsp;
+&nbsp;
+
+<font color="black"> .</font>
+
+<font color="black"> .</font>
+
+<font color="black"> .</font>
 
 ---------------
 
-## Orcas Half
 
-[Race Website](https://www.destinationtrailrun.com/orcas-island)
-&nbsp;
-&nbsp;
-
-[Results](https://ultrasignup.com/results_event.aspx?did=108474)
-&nbsp;
-&nbsp;
-
-Time: 2:23.25 -- (7th)
-&nbsp;
-&nbsp;
-
-Distance: 14 Miles
-&nbsp;
-&nbsp;
-
-Cumulative Gain: 3,600
-&nbsp;
-&nbsp;
-
-<img src="images/mount_constitution_plot.png" style="width:38%; border:10px solid; margin-right: 20px" align="left">
-
-<br/>
-
-&nbsp;
-
-<br/>
-
-&nbsp;
+ 
 
 
 
-## Bigfoot 20
-
-[Race Website](https://www.destinationtrailrun.com/bigfoot-20m)
-&nbsp;
-&nbsp;
-
-[Results](https://ultrasignup.com/entrants_event.aspx?did=107531)
-&nbsp;
-&nbsp;
-
-Time: 
-&nbsp;
-&nbsp;
-
-Distance: 21.3 Miles
-&nbsp;
-&nbsp;
-
-Cumulative Gain: 
-&nbsp;
-&nbsp;
-
-<img src="images/bigfoot_20_plot.png" style="width:38%; border:10px solid; margin-right: 20px" align="left">
-
-<br/>
-
-&nbsp;
-
-<br/>
-
-&nbsp;
-
+ 
 
 
 <!-- ```{r, echo = FALSE} -->

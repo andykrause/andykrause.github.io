@@ -12,7 +12,12 @@ body {
 
 h1 {
   background-color: black;
-  color: lightsteelblue;
+  color: green;
+}
+
+h2 {
+  background-color: black;
+  color: steelblue;
 }
 
 h3 {
