@@ -491,7 +491,8 @@ createRSplot <- function(track_name,
             theta = plot_configs$theta, 
             zoom = plot_configs$zoom, 
             phi = plot_configs$phi, 
-            windowsize = plot_configs$window_size)
+            windowsize = plot_configs$window_size,
+            background="black")
   
   ## Add track
   render_path(extent = st_bbox(topo_obj$elev),
