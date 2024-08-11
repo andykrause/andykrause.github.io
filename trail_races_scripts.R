@@ -35,7 +35,7 @@
 ## Configs & Parameters --------------------------------------------------------
   
   # Set Default Path Configs
-  path_configs <- list(track = file.path(file_path, 'events'),
+  path_configs <- list(track = file.path(event_path),
                        elev = elev_path,
                        image = image_path)
  
@@ -53,6 +53,7 @@
   
    # Combined COnfigs
    plot_configs <- list(texture = rs_texture,
+                        shade_height = TRUE,
                         z_scale = 10,
                          fov = 0, 
                          theta = 315, 
@@ -60,7 +61,9 @@
                          phi = 37, 
                          window_size = c(1000, 800),
                          antialias = TRUE,
-                         tmap_base = leaflet::providers$CartoDB.DarkMatter )
+                         tmap_base = leaflet::providers$CartoDB.DarkMatter,
+                        start_end_colors = c('white', 'black'),
+                        start_end_size = 10)
     
 ### Load shared data -----------------------------------------------------------  
   
@@ -71,7 +74,12 @@
 
    track <- 'Cutthroat Classic'
    
-   create_rs_plot(track_name = track,
+   # Plot Changes
+   plot_configs$shade_height = TRUE
+   track_configs$color = 'darkred'
+   
+   
+   createRSplot(track_name = track,
                   elev_index = elev_index_sf,
                   path_configs = path_configs,
                   track_configs = track_configs,
@@ -82,7 +90,7 @@
   
   track <- 'Lord Hill'
    
-  create_rs_plot(track_name = track,
+  createRSplot(track_name = track,
                   elev_index = elev_index_sf,
                   path_configs = path_configs,
                   track_configs = track_configs,
@@ -93,7 +101,7 @@
   
   track <- 'Mount Constitution Half'
   
-  create_rs_plot(track_name = track,
+  createRSplot(track_name = track,
                  elev_index = elev_index_sf,
                  path_configs = path_configs,
                  track_configs = track_configs,
@@ -104,7 +112,7 @@
   
   track <- 'Bigfoot 20'
   
-  create_rs_plot(track_name = track,
+  createRSplot(track_name = track,
                  elev_index = elev_index_sf,
                  path_configs = path_configs,
                  track_configs = track_configs,
@@ -120,10 +128,12 @@ if (F){
   # we can reference it easily later.
   pal <- "Demuth"
   colors <- met.brewer(pal)
-  
-  https://spencerschien.info/post/data_viz_how_to/high_quality_rayshader_visuals/
-
-  https://spencerschien.info/post/data_viz_how_to/high_quality_rayshader_visuals/
+  # 
+  # https://spencerschien.info/post/data_viz_how_to/high_quality_rayshader_visuals/
+  # 
+  # https://spencerschien.info/post/data_viz_how_to/high_quality_rayshader_visuals/
+  # https://rallydatajunkie.com/visualising-rally-stages/introducing-3d-rayshader-models.html
+  # 
 
   # # Create some simple elevation plots
   # elev_df <- elev_df %>%
@@ -133,7 +143,15 @@ if (F){
   #        aes(x = order, y = elevation)) +
   #   geom_line()
   # 
+  topo_mat %>%
+  rayshader::height_shade( ) %>%
+  #add_water(detect_water(topo_mat), color = water_col) %>%
+  add_shadow(ray_shade(topo_mat, zscale = 10), .5) %>%
+  add_shadow(ambient_shade(topo_mat), 0) %>%
+  rayshader::plot_3d(., topo_mat, zscale = 10)
+  #rayshader::plot_map()
   
+
     topo_obj$mat |>
          height_shade(texture = grDevices::colorRampPalette(colors)(256)) |>
          plot_3d(heightmap = topo_obj$mat,
