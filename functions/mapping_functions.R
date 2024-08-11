@@ -313,6 +313,7 @@ createTopoData <- function(track_obj,
                            elev_index_sf,
                            elev_path,
                            texture,
+                           shade_height = FALSE,
                            track_buffer = .01,
                            water_col = 'desert',
                            ray_z = 3,
@@ -357,8 +358,15 @@ createTopoData <- function(track_obj,
   
   # Convert to rayshader matrix
   cat('\n Converting to ray-shaded DEM \n')
-  topo_mat %>%
-    sphere_shade(texture = texture) %>%
+  if (shade_height){
+    shade_obj <- topo_mat %>%
+      height_shade()
+  } else {
+    shade_obj <- topo_mat %>%
+      sphere_shade(texture = texture)
+  }
+  
+    shade_obj %>%
     add_water(detect_water(topo_mat), color = water_col) %>%
     add_shadow(ray_shade(topo_mat, zscale = ray_z), shadow_z) %>%
     add_shadow(ambient_shade(topo_mat), 0) ->
@@ -444,7 +452,7 @@ createRSplot <- function(track_name,
                          overwrite = TRUE){
   
   # Create Plot Name
-  plot_name <- paste0(tolower(gsub(' ', '_', track)), '.png')
+  plot_name <- paste0(tolower(gsub(' ', '_', track_name)), '_plot.png')
   
   # Check if existss
   if (overwrite == FALSE & 
@@ -458,16 +466,21 @@ createRSplot <- function(track_name,
   
   
   cat('\nCreating: ', plot_name, '\n')
+  dir_name <- file.path(getwd(), 'data', tolower(gsub(' ', '_', track_name)))
+  
+  dir.create(dir_name)
   
   # Create Track Data
   track_obj <- createTrackData(track_name = track_name,
                                shp_path = path_configs$track)
+  
   
   # Create Race Data  
   topo_obj <- createTopoData(track_obj = track_obj,
                              elev_index_sf = elev_index,
                              elev_path = path_configs$elev,
                              texture = plot_configs$texture,
+                             shade_height = plot_configs$shade_height,
                              track_buffer = track_configs$buffer)
   
   ## Make base 3dPlot
@@ -490,9 +503,29 @@ createRSplot <- function(track_name,
               color = track_configs$color,
               antialias = plot_configs$antialias)
   
+  ## Add points
+  idx <- c(1, nrow(track_obj$elevation))
+  
+  render_points(extent = st_bbox(topo_obj$elev),
+              lat = unlist(track_obj$elevation$lat[idx]),
+              long = unlist(track_obj$elevation$lon[idx]),
+              altitude = unlist(track_obj$elevation$elevation[idx]) * 
+                track_configs$elev_multiplier * 1.01,
+              zscale = plot_configs$z_scale,
+              color = plot_configs$start_end_colors,
+              size = plot_configs$start_end_size)
+  
+  #Save Data
+  saveRDS(list(track_obj = track_obj,
+               topo_obj = topo_obj,
+               plot_configs = plot_configs,
+               track_configs = track_configs),
+          file = file.path(dir_name, '3dmapdata.rds'))
+  
   # Save Image
-  cat('\n Saving Image as: ', image_path, '/', plot_name, '.png\n')
-  rgl::rgl.snapshot(file.path(image_path, plot_name), fmt = 'png')
+  cat('\n Saving Image as: ', image_path, '/', plot_name, '\n')
+  rgl::rgl.snapshot(file.path(image_path, plot_name), 
+                    fmt = 'png')
   
   return('Success')
 }
