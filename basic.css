@@ -1,0 +1,21 @@
+div.wrap {
+    width:800px;
+    margin:0 auto;
+}
+
+div.content { width: 960px }
+
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  background-color: black;
+  color: lightsteelblue;
+}
+
+h3 {
+  background-color: black;
+  color: lightsteelblue;
+}
