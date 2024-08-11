@@ -8,7 +8,12 @@ editor_options:
   chunk_output_type: console
 ---
 
-<link rel="stylesheet" href="kraustralia/kraustralia.css" type="text/css">
+```{r include=FALSE}
+  library(magrittr)
+
+```
+
+<link rel="stylesheet" href="basic.css" type="text/css">
 
 <br/>
 <br/>
@@ -19,37 +24,46 @@ editor_options:
 
 ## Cutthroat Classic - 9/9/2023
 
+<img src="images/cutthroat_classic_plot.png" style="width:38%; border:0px solid; margin-right: 20px" align="right">
+
 [Race Website](https://methowtrails.org/events/cutthroat-classic)
+&nbsp;
+&nbsp;
 &nbsp;
 &nbsp;
 
 [Results](https://results.raceroster.com/v2/en-US/results/aruguf2ankx7bx75/results)
 &nbsp;
 &nbsp;
-
-Time: 1:34.18 -- (17th)
 &nbsp;
 &nbsp;
 
-Distance: 10.5 Miles
+`Time`: 1:34.18 -- (17th)
+&nbsp;
+&nbsp;
 &nbsp;
 &nbsp;
 
-Elevation Gain to Pass: 1,965
+`Distance`: 10.5 Miles
+&nbsp;
+&nbsp;
 &nbsp;
 &nbsp;
 
-<img src="images/cutthroat_plot.png" style="width:38%; border:10px solid; margin-right: 20px" align="left">
-
-<br/>
-
+`Elevation Gain to Pass`: 1,965
+&nbsp;
+&nbsp;
+&nbsp;
 &nbsp;
 
-<br/>
+
 
 &nbsp;
+&nbsp;
 
------------------------------------------------------------------------------------------------------------------------------------------------
+<br/><br/>
+
+---------------
 
 &nbsp;
 &nbsp;
@@ -122,3 +136,82 @@ Cumulative Gain: 3,600
 
 
 ## Bigfoot 20
+
+[Race Website](https://www.destinationtrailrun.com/bigfoot-20m)
+&nbsp;
+&nbsp;
+
+[Results](https://ultrasignup.com/entrants_event.aspx?did=107531)
+&nbsp;
+&nbsp;
+
+Time: 
+&nbsp;
+&nbsp;
+
+Distance: 21.3 Miles
+&nbsp;
+&nbsp;
+
+Cumulative Gain: 
+&nbsp;
+&nbsp;
+
+<img src="images/bigfoot_20_plot.png" style="width:38%; border:10px solid; margin-right: 20px" align="left">
+
+<br/>
+
+&nbsp;
+
+<br/>
+
+&nbsp;
+
+
+
+<!-- ```{r, echo = FALSE} -->
+
+  <!-- # library(raster) -->
+  <!-- # library(sp) -->
+  <!-- # library(sf) -->
+  <!-- # library(rayshader) -->
+  <!-- # options(rgl.useNULL = TRUE) -->
+  <!-- # rgl::setupKnitr(autoprint = TRUE) -->
+
+<!--   track_name = 'cutthroat_classic' -->
+<!--   datax <- readRDS(file = file.path(getwd(), 'data', track_name, '3dmapdata.rds')) -->
+
+<!--   idx <- c(1, nrow(datax$track_obj$elevation)) -->
+
+<!--   rgl::open3d() -->
+<!--   rgl::bg3d('black') -->
+
+<!--   datax$topo_obj$rsm %>% -->
+<!--    rayshader::plot_3d(datax$topo_obj$mat, -->
+<!--             zscale = datax$plot_configs$z_scale, -->
+<!--             fov = datax$plot_configs$fov, -->
+<!--             theta = datax$plot_configs$theta, -->
+<!--             zoom = datax$plot_configs$zoom, -->
+<!--             phi = datax$plot_configs$phi, -->
+<!--             windowsize = datax$plot_configs$window_size, -->
+<!--             background="black") -->
+<!--     rayshader::render_path(extent = sf::st_bbox(datax$topo_obj$elev), -->
+<!--               lat = unlist(datax$track_obj$elevation$lat), -->
+<!--               long = unlist(datax$track_obj$elevation$lon), -->
+<!--               altitude = unlist(datax$track_obj$elevation$elevation) *  -->
+<!--                datax$track_configs$elev_multiplier, -->
+<!--               zscale = datax$plot_configs$z_scale, -->
+<!--               color = datax$track_configs$color, -->
+<!--               antialias = datax$plot_configs$antialias) -->
+<!--   rayshader::render_points(extent = sf::st_bbox(datax$topo_obj$elev), -->
+<!--               lat = unlist(datax$track_obj$elevation$lat[idx]), -->
+<!--               long = unlist(datax$track_obj$elevation$lon[idx]), -->
+<!--               altitude = unlist(datax$track_obj$elevation$elevation[idx]) *  -->
+<!--                 datax$track_configs$elev_multiplier * 1.01, -->
+<!--               zscale = datax$plot_configs$z_scale, -->
+<!--               color = datax$plot_configs$start_end_colors, -->
+<!--               size = datax$plot_configs$start_end_size) -->
+
+<!--  rgl::rglwidget() -->
+
+<!-- ``` -->

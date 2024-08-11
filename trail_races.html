@@ -299,24 +299,22 @@ $(document).ready(function () {
 </div>
 
 
-<p><link rel="stylesheet" href="kraustralia/kraustralia.css" type="text/css"></p>
+<p><link rel="stylesheet" href="basic.css" type="text/css"></p>
 <p><br/> <br/> <br/></p>
 <p>   </p>
 <div id="cutthroat-classic---992023" class="section level2">
 <h2>Cutthroat Classic - 9/9/2023</h2>
+<p><img src="images/cutthroat_classic_plot.png" style="width:38%; border:0px solid; margin-right: 20px" align="right"></p>
 <p><a href="https://methowtrails.org/events/cutthroat-classic">Race
-Website</a>    </p>
+Website</a>        </p>
 <p><a
 href="https://results.raceroster.com/v2/en-US/results/aruguf2ankx7bx75/results">Results</a>
-   </p>
-<p>Time: 1:34.18 – (17th)    </p>
-<p>Distance: 10.5 Miles    </p>
-<p>Elevation Gain to Pass: 1,965    </p>
-<p><img src="images/cutthroat_plot.png" style="width:38%; border:10px solid; margin-right: 20px" align="left"></p>
-<p><br/></p>
-<p> </p>
-<p><br/></p>
-<p> </p>
+       </p>
+<p><code>Time</code>: 1:34.18 – (17th)        </p>
+<p><code>Distance</code>: 10.5 Miles        </p>
+<p><code>Elevation Gain to Pass</code>: 1,965        </p>
+<p>   </p>
+<p><br/><br/></p>
 <hr />
 <p>   </p>
 </div>
@@ -355,6 +353,56 @@ href="https://ultrasignup.com/results_event.aspx?did=108474">Results</a>
 </div>
 <div id="bigfoot-20" class="section level2">
 <h2>Bigfoot 20</h2>
+<p><a href="https://www.destinationtrailrun.com/bigfoot-20m">Race
+Website</a>    </p>
+<p><a
+href="https://ultrasignup.com/entrants_event.aspx?did=107531">Results</a>
+   </p>
+<p>Time:    </p>
+<p>Distance: 21.3 Miles    </p>
+<p>Cumulative Gain:    </p>
+<p><img src="images/bigfoot_20_plot.png" style="width:38%; border:10px solid; margin-right: 20px" align="left"></p>
+<p><br/></p>
+<p> </p>
+<p><br/></p>
+<p> </p>
+<!-- ```{r, echo = FALSE} -->
+<p><!-- # library(raster) --> <!-- # library(sp) -->
+<!-- # library(sf) --> <!-- # library(rayshader) -->
+<!-- # options(rgl.useNULL = TRUE) -->
+<!-- # rgl::setupKnitr(autoprint = TRUE) --></p>
+<!--   track_name = 'cutthroat_classic' -->
+<!--   datax <- readRDS(file = file.path(getwd(), 'data', track_name, '3dmapdata.rds')) -->
+<!--   idx <- c(1, nrow(datax$track_obj$elevation)) -->
+<!--   rgl::open3d() -->
+<!--   rgl::bg3d('black') -->
+<!--   datax$topo_obj$rsm %>% -->
+<!--    rayshader::plot_3d(datax$topo_obj$mat, -->
+<!--             zscale = datax$plot_configs$z_scale, -->
+<!--             fov = datax$plot_configs$fov, -->
+<!--             theta = datax$plot_configs$theta, -->
+<!--             zoom = datax$plot_configs$zoom, -->
+<!--             phi = datax$plot_configs$phi, -->
+<!--             windowsize = datax$plot_configs$window_size, -->
+<!--             background="black") -->
+<!--     rayshader::render_path(extent = sf::st_bbox(datax$topo_obj$elev), -->
+<!--               lat = unlist(datax$track_obj$elevation$lat), -->
+<!--               long = unlist(datax$track_obj$elevation$lon), -->
+<!--               altitude = unlist(datax$track_obj$elevation$elevation) *  -->
+<!--                datax$track_configs$elev_multiplier, -->
+<!--               zscale = datax$plot_configs$z_scale, -->
+<!--               color = datax$track_configs$color, -->
+<!--               antialias = datax$plot_configs$antialias) -->
+<!--   rayshader::render_points(extent = sf::st_bbox(datax$topo_obj$elev), -->
+<!--               lat = unlist(datax$track_obj$elevation$lat[idx]), -->
+<!--               long = unlist(datax$track_obj$elevation$lon[idx]), -->
+<!--               altitude = unlist(datax$track_obj$elevation$elevation[idx]) *  -->
+<!--                 datax$track_configs$elev_multiplier * 1.01, -->
+<!--               zscale = datax$plot_configs$z_scale, -->
+<!--               color = datax$plot_configs$start_end_colors, -->
+<!--               size = datax$plot_configs$start_end_size) -->
+<!--  rgl::rglwidget() -->
+<!-- ``` -->
 </div>
 
 &nbsp;
