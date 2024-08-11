@@ -111,6 +111,7 @@
 ### RACE -- Big Foot 20 -----------------------------------------------
   
   track <- 'Bigfoot 20'
+  track_configs$buffer = 1850
   
   createRSplot(track_name = track,
                  elev_index = elev_index_sf,

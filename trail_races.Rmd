@@ -56,8 +56,6 @@ editor_options:
 &nbsp;
 &nbsp;
 
-
-
 &nbsp;
 &nbsp;
 
@@ -68,7 +66,9 @@ editor_options:
 &nbsp;
 &nbsp;
 
-## Lord Hill 
+## Lord Hill -- 2/24/24
+
+<img src="images/lord_hill_plot.png" style="width:38%; border:0px solid; margin-right: 20px" align="right">
 
 [Race Website](https://www.evergreentrailruns.com/lord-hill/)
 &nbsp;
@@ -78,28 +78,25 @@ editor_options:
 &nbsp;
 &nbsp;
 
-Time: 1:33.00 -- (1st/9th)
--- First in brunch run, but 9th if I had run the morning 10 miler
+`Time`: 1:33.00 -- (1st/9th)
+-- 1st in brunch run; 9th Overall
 &nbsp;
 &nbsp;
 
-Distance: 10 Miles
+`Distance`: 10 Miles
 &nbsp;
 &nbsp;
 
-Cumulative Gain: 1,800
+`Cumulative Gain`: 1,800 feet
 &nbsp;
 &nbsp;
 
-<img src="images/lord_hill_plot.png" style="width:38%; border:10px solid; margin-right: 20px" align="left">
-
-<br/>
-
+&nbsp;
 &nbsp;
 
-<br/>
+<br/><br/>
 
-&nbsp;
+---------------
 
 ## Orcas Half
 
