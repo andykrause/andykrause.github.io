@@ -314,6 +314,7 @@ createTopoData <- function(track_obj,
                            elev_path,
                            texture,
                            shade_height = FALSE,
+                           elev_range = NULL,
                            track_buffer = .01,
                            water_col = 'desert',
                            ray_z = 3,
@@ -360,7 +361,7 @@ createTopoData <- function(track_obj,
   cat('\n Converting to ray-shaded DEM \n')
   if (shade_height){
     shade_obj <- topo_mat %>%
-      height_shade()
+      height_shade(range = elev_range)
   } else {
     shade_obj <- topo_mat %>%
       sphere_shade(texture = texture)
@@ -379,6 +380,30 @@ createTopoData <- function(track_obj,
        rsm = topo_rsm)
   
 }    
+
+matrix_to_rayshade <- function(){
+  
+  # Create elevation matrix
+  topo_mat <- rayshader::raster_to_matrix(topo_elev)
+  
+  # Convert to rayshader matrix
+  cat('\n Converting to ray-shaded DEM \n')
+  if (shade_height){
+    shade_obj <- topo_mat %>%
+      height_shade(range = elev_range)
+  } else {
+    shade_obj <- topo_mat %>%
+      sphere_shade(texture = texture)
+  }
+  
+  shade_obj %>%
+    add_water(detect_water(topo_mat), color = water_col) %>%
+    add_shadow(ray_shade(topo_mat, zscale = ray_z), shadow_z) %>%
+    add_shadow(ambient_shade(topo_mat), 0)
+  
+  
+}
+
 
 bbox_to_poly <- function(sf_obj,
                          buffer = NULL){
@@ -468,7 +493,7 @@ createRSplot <- function(track_name,
   cat('\nCreating: ', plot_name, '\n')
   dir_name <- file.path(getwd(), 'data', tolower(gsub(' ', '_', track_name)))
   
-  dir.create(dir_name)
+  if(!dir.exists(dir_name)) dir.create(dir_name)
   
   # Create Track Data
   track_obj <- createTrackData(track_name = track_name,
@@ -481,6 +506,7 @@ createRSplot <- function(track_name,
                              elev_path = path_configs$elev,
                              texture = plot_configs$texture,
                              shade_height = plot_configs$shade_height,
+                             elev_range = plot_configs$elev_range,
                              track_buffer = track_configs$buffer)
   
   ## Make base 3dPlot
