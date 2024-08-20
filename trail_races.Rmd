@@ -16,7 +16,6 @@ editor_options:
   library(grid)
   source(file.path(getwd(), 'functions', 'mapping_functions.R'))
 
-
 ```
 
 <link rel="stylesheet" href="trailraces.css" type="text/css">
@@ -29,7 +28,6 @@ editor_options:
 &nbsp;
 
 ## Bigfoot 20 - 8/9/2024
-
 
 <img src="images/bigfoot_20_plot.png" style="width:38%; border:0px solid; margin-right: 20px" align="left">
 
