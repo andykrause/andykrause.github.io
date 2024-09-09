@@ -409,8 +409,8 @@ bbox_to_poly <- function(sf_obj,
                          buffer = NULL){
   
   bbox_poly <- as(
-    extent(sf::st_bbox(sf_obj)), 'SpatialPolygons') 
-  crs(bbox_poly) <- crs(sf_obj)
+    raster::extent(sf::st_bbox(sf_obj)), 'SpatialPolygons') 
+  raster::crs(bbox_poly) <- raster::crs(sf_obj)
   bbox_poly <- bbox_poly %>% sf::st_as_sf()
   
   if (!is.null(buffer)){
@@ -558,7 +558,37 @@ createRSplot <- function(track_name,
 }
 
   
+if(F){
   
+### Create Elevation Project
+  
+track_obj
+  
+elev_sf <- track_obj$elevation
+
+dist_matrix <- sf::st_distance(elev_sf, elev_sf) %>% 
+  as.data.frame()
+
+ ## Get piecewise distances
+dist_ <- list()
+
+for(i in 1:(nrow(dist_matrix) - 1)){
+  dist_[[i]] <- dist_matrix[i, i + 1]
+}
+dist_delta <- c(0, unlist(dist_))
+dist_sum <- cumsum(dist_delta)
+
+elev <- elev_sf$elevation
+elev_delta <- c(0, elev[-1] - elev[-length(elev)])
+elev_sum <- cumsum(elev_delta)
+
+
+
+
+  
+  
+  
+}  
   
   
   
