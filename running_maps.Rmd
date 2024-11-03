@@ -14,47 +14,37 @@ editor_options:
 <br/>
 <br/>
 
-```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
+```{r prep_data, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
+
  ## Load libraries
-  library(sf)
-  library(geosphere)
-  library(tidyverse)
   library(basemaps)
   library(maps)
   library(tmap)
+  library(sf)
+
+
+ ## Source Prep Function
+ # source(file.path(getwd(), 'running_maps_prep.R')) %>%
+ # suppressMessages() %>%
+ # suppressWarnings()
 
  ## Source Custom Functions
   source(file.path(getwd(), "functions/mapping_functions.R"))
 
- ## Set Paths
+  ## Data Path
+  data_path <- '~/dropbox/andy/data/projects/running_maps/'
 
-  data_path <- '~/dropbox/andy/data/where/america'
-  image_path <- 'x'
+  ## Load Data
+  trailruns_sf <- sf::st_read(file.path(data_path, 'trail_runs.shp'),
+                            quiet=TRUE) %>%
+    sf::st_transform(4269) 
   
+  roadruns_sf <- sf::st_read(file.path(data_path, 'road_runs.shp'),
+                            quiet=TRUE) %>%
+    sf::st_transform(4269) 
 ```
 
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
-
-  ## Load Running Shapefile
-  running_sf <- sf::st_read(file.path(data_path, 'running.shp'),
-                            quiet=TRUE) %>%
-    sf::st_transform(4269) 
-
-  ## Split into trail/road 
-
-  trailruns_sf <- running_sf %>%
-    dplyr::filter(!is.na(type)) %>%
-    dplyr::filter(type == 'trail') %>%
-    dplyr::select(name, type) %>%
-    group_by(name, type) %>% 
-    summarise(segments = dplyr::n()) %>% 
-    st_cast() %>%
-    dplyr::select(-segments)
-
-  roadruns_sf <- running_sf %>%
-    dplyr::filter(!is.na(type)) %>%
-    dplyr::filter(type != 'trail') %>%
-    dplyr::select(name, type)
 
   trail_col <- 'springgreen3'
   road_col <- 'burlywood4'
@@ -71,7 +61,7 @@ editor_options:
 
 ## Seattle Area
 
-```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 6, fig.height = 4}
+```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 8, fig.height = 6}
 
 ## Seattle Area
 
@@ -97,7 +87,7 @@ tm_shape(`Trail Runs`, bbox = bbox_sea) +
 
 ## San Juan Islands 
 
-```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 6, fig.height = 4}
+```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 8, fig.height = 6}
 
 ## San Juans
 bbox_sji <- st_bbox(trailruns_sf) # current bounding box
@@ -118,7 +108,7 @@ tm_shape(`Trail Runs`, bbox = bbox_sji) +
 
 ## Methow Valley
 
-```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 6, fig.height = 4}
+```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 8, fig.height = 6}
 
 bbox_maz <- st_bbox(trailruns_sf)  
 bbox_maz[1] <- -120.6
@@ -138,7 +128,7 @@ tm_shape(`Trail Runs`, bbox = bbox_maz) +
 
 ## Hawaii
 
-```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 6, fig.height = 4}
+```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 8, fig.height = 6}
 
 bbox_haw <- st_bbox(trailruns_sf)  
 bbox_haw[1] <- -156.10
@@ -156,3 +146,13 @@ tm_shape(`Trail Runs`, bbox = bbox_haw) +
 
 ```
  
+ 
+```{r, echo = FALSE}
+
+
+
+
+```
+
+#Create <1000 segment files for GAIA import
+
