@@ -61,7 +61,7 @@ editor_options:
 
 ## Seattle Area
 
-```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 8, fig.height = 6}
+```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 6, fig.height = 4}
 
 ## Seattle Area
 
@@ -87,7 +87,7 @@ tm_shape(`Trail Runs`, bbox = bbox_sea) +
 
 ## San Juan Islands 
 
-```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 8, fig.height = 6}
+```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 6, fig.height = 4}
 
 ## San Juans
 bbox_sji <- st_bbox(trailruns_sf) # current bounding box
@@ -108,7 +108,7 @@ tm_shape(`Trail Runs`, bbox = bbox_sji) +
 
 ## Methow Valley
 
-```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 8, fig.height = 6}
+```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 6, fig.height = 4}
 
 bbox_maz <- st_bbox(trailruns_sf)  
 bbox_maz[1] <- -120.6
@@ -128,7 +128,7 @@ tm_shape(`Trail Runs`, bbox = bbox_maz) +
 
 ## Hawaii
 
-```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 8, fig.height = 6}
+```{r, echo = FALSE, cache = FALSE, comment = FALSE, warning = FALSE, message = FALSE, fig.width = 6, fig.height = 4}
 
 bbox_haw <- st_bbox(trailruns_sf)  
 bbox_haw[1] <- -156.10
