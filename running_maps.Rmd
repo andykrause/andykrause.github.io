@@ -154,5 +154,3 @@ tm_shape(`Trail Runs`, bbox = bbox_haw) +
 
 ```
 
-#Create <1000 segment files for GAIA import
-
