@@ -590,7 +590,21 @@ elev_sum <- cumsum(elev_delta)
   
 }  
   
+
+pointToBbox <- function(x, y, offset = .05){
   
+  x1 <- xy_cdf$x[i] - offset
+  x2 <- xy_cdf$x[i] + offset
+  y1 <- xy_cdf$y[i] - offset
+  y2 <- xy_cdf$y[i] + offset
+  
+  c(xmin = x1, 
+    ymin = y1, 
+    xmax = x2, 
+    ymax = y2)
+}
+
+
   
 ## Set Buubox
 # bbox <- c(left = daygeos_$coords$corners[1] - scale,
