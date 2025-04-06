@@ -125,6 +125,22 @@
                  plot_configs = plot_configs,
                  overwrite = TRUE)    
   
+  
+### RACE -- Ancient Lakes 25k -----------------------------------------------
+  
+  track <- 'Ancient Lakes 25k'
+  track_configs$buffer = 1850  
+  plot_configs$elev_range = NULL
+  
+  createRSplot(track_name = track,
+               elev_index = elev_index_sf,
+               path_configs = path_configs,
+               track_configs = track_configs,
+               plot_configs = plot_configs,
+               overwrite = TRUE)    
+  
+  
+  
 ### EXTRA Code -----------------------------------------------------------------   
    
 if (F){

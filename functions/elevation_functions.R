@@ -122,7 +122,32 @@ getElev <- function(x_sf){
     dplyr::mutate(lon = sf::st_coordinates(.)[,1],
                   lat = sf::st_coordinates(.)[,2]) 
   
-  elevatr::get_elev_point(xy_sf, src = "epqs") 
+  xy_sf$order <- 1:nrow(xy_sf)
+  
+  xy_sf <- elevatr::get_elev_point(xy_sf, src = "epqs") 
+
+  if (any(is.na(xy_sf$elevation))){
+    
+    xy <- list()
+    cnt <- 2
+        
+    xy[[1]] <- xy_sf[!is.na(xy_sf$elevation), ]
+    bad_sf <- xy_sf[is.na(xy_sf$elevation), ]
+    
+    while(cnt <= 10){
+      bad_sf <- elevatr::get_elev_point(bad_sf, src = "epqs", overwrite=TRUE) 
+      xy[[cnt]] <- bad_sf[!is.na(bad_sf$elevation), ]
+      bad_sf <- bad_sf[is.na(bad_sf$elevation), ]
+      cnt <- cnt + 1
+    }
+    
+  xy_sf <- do.call(rbind,xy) %>%
+    dplyr::arrange(order) %>%
+    dplyr::select(-order)
+    
+  }
+
+  xy_sf
 }
 
 
