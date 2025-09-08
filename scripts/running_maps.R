@@ -15,7 +15,7 @@
   library(tmap)
 
  ## Source Custom Functions
-  source("~/projects/andykrause.github.io/scripts/mapping_functions.R")
+  source("~/projects/andykrause.github.io/functions/mapping_functions.R")
 
  ## Set Paths
 
