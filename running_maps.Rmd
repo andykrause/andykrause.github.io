@@ -46,8 +46,8 @@ editor_options:
 
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
 
-  trail_col <- 'springgreen3'
-  road_col <- 'burlywood4'
+  trail_col <- 'green4'
+  road_col <- 'lightsteelblue4'
    
   `Trail Runs` <- trailruns_sf
   `Road Runs` <- roadruns_sf
@@ -76,9 +76,9 @@ tmap_mode("view")
 
 tm_shape(`Trail Runs`, bbox = bbox_sea) + 
    tm_basemap(basemap) +
-   tm_lines(col = trail_col) +
+   tm_lines(col = trail_col, size = 2) +
    tm_shape(`Road Runs`, bbox = bbox_sea) + 
-     tm_lines(col = road_col)
+     tm_lines(col = road_col, fill_alpha = .8, size = 1.5)
   
 ```
 
