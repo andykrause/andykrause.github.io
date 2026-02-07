@@ -24,8 +24,9 @@ library(magrittr)
 library(tmap)
 require(leaflet)
 library(mapgl)
-
+library(htmltools)
 library(sf)
+library(osrm)
 
 # Create a data frame with your locations
 locations <- data.frame(
@@ -48,11 +49,18 @@ locations_xsf <- sf::st_as_sf(locations,
                          coords = c("longitude", "latitude"),
                          crs = 4326)  # WGS84 coordinate system
 
+ route1 <- osrm::osrmRoute(src = locations_xsf[1,], dst = locations_xsf[2, ])
+ route2 <- osrm::osrmRoute(src = locations_xsf[2,], dst = locations_xsf[3, ])
+ route3 <- osrm::osrmRoute(src = locations_xsf[3,], dst = locations_xsf[4, ])
+ route4 <- osrm::osrmRoute(src = locations_xsf[4,], dst = locations_xsf[1, ])
+ route_lsf <- dplyr::bind_rows(list(route1, route2, route3, route4))
+ route_lsf$leg <- 1:4
+ 
 ```
 
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
 
- maplibre(style = maptiler_style("winter"),
+ map <- maplibre(style = maptiler_style("winter"),
          bounds = locations_xsf,
          zoom = 3,
          pitch = 50,
@@ -62,8 +70,26 @@ locations_xsf <- sf::st_as_sf(locations,
     source = locations_xsf,
     circle_color = "green",
     circle_radius = 8,
-    circle_stroke_color = "white",
-    circle_stroke_width = 2
-  ) 
+    circle_stroke_color = "green",
+    circle_stroke_width = 2,
+    popup = 'name') |>
+  add_line_layer(
+    id = 'leg',
+    source = route_lsf,
+    line_color = 'purple',
+    line_width = 3
+  )
 
+  htmltools::browsable(tagList(
+  tags$style(HTML("
+    .maplibregl-popup-content {
+      background-color: green !important;
+      color: white !important;
+    }
+    .maplibregl-popup-tip {
+      border-top-color: green !important;
+    }
+  ")),
+  map
+))
 ```
