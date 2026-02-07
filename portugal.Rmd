@@ -30,10 +30,14 @@ library(osrm)
 
 # Create a data frame with your locations
 locations <- data.frame(
-  name = c("Liboans", 
+  name = c("Lisboans", 
            "Monte da Vilarinha Hotel", 
            "Conversas de Alpendre", 
            "Limehome Rue de Machede 61"),
+  links = c('https://thelisboans.com/',
+            'https://www.booking.com/hotel/pt/monte-da-vilarinha.html',
+            'https://conversasdealpendre.com/',
+            'https://www.limehome.com/suites?property=417&guests=1&rooms=1'),
   # dates = c(as.Date('2026-04-09'), 
   #           as.Date('2026-04-12'), 
   #           as.Date('2026-04-13'), 
@@ -42,12 +46,18 @@ locations <- data.frame(
   longitude = c(-9.134904, -8.857999, -7.568046, -7.903608)
 )
 
-
+bbox <- locations
+bbox$latitude[3] <- 36.75
 
 # Convert to sf object
 locations_xsf <- sf::st_as_sf(locations, 
                          coords = c("longitude", "latitude"),
                          crs = 4326)  # WGS84 coordinate system
+
+bbox_xsf <- sf::st_as_sf(bbox, 
+                         coords = c("longitude", "latitude"),
+                         crs = 4326)  # WGS84 coordinate system
+
 
  route1 <- osrm::osrmRoute(src = locations_xsf[1,], dst = locations_xsf[2, ])
  route2 <- osrm::osrmRoute(src = locations_xsf[2,], dst = locations_xsf[3, ])
@@ -55,16 +65,28 @@ locations_xsf <- sf::st_as_sf(locations,
  route4 <- osrm::osrmRoute(src = locations_xsf[4,], dst = locations_xsf[1, ])
  route_lsf <- dplyr::bind_rows(list(route1, route2, route3, route4))
  route_lsf$leg <- 1:4
+
+ locations_xsf <-
+   locations_xsf %>%
+    dplyr::mutate(link_tooltip = paste0(
+      "<b>Name:</b> ", name, "<br>",
+      "<a href='", links, "' target='_blank; padding: 5px;'>Visit Website</a>"))
+
  
 ```
 
 ```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
 
  map <- maplibre(style = maptiler_style("winter"),
-         bounds = locations_xsf,
+         bounds = bbox_xsf,
          zoom = 3,
-         pitch = 50,
+         pitch = 30,
          bearing = 55) |>
+  add_line_layer(
+    id = 'leg',
+    source = route_lsf,
+    line_color = 'purple',
+    line_width = 3) |>
   add_circle_layer(
     id = "locations",
     source = locations_xsf,
@@ -72,13 +94,16 @@ locations_xsf <- sf::st_as_sf(locations,
     circle_radius = 8,
     circle_stroke_color = "green",
     circle_stroke_width = 2,
-    popup = 'name') |>
-  add_line_layer(
-    id = 'leg',
-    source = route_lsf,
-    line_color = 'purple',
-    line_width = 3
-  )
+    #popup = 'name',
+    popup = 'link_tooltip',
+    hover_options = list(
+        fill_color = "yellow")
+    ) |>
+
+  add_navigation_control(position = "top-left") |>  # Zoom & rotation controls
+  add_fullscreen_control(position = "top-right")
+
+
 
   htmltools::browsable(tagList(
   tags$style(HTML("
