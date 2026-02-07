@@ -54,7 +54,8 @@
     dplyr::summarise(xy_count = dplyr::n()) %>%
     dplyr::arrange(desc(xy_count)) %>%
     dplyr::inner_join(xy_df %>%
-                        dplyr::distinct(x, y, xy))
+                        dplyr::distinct(x, y, xy),
+                      by = 'xy')
   
   # Debug Reporting
   head(xy_cdf)
@@ -95,7 +96,10 @@
     dplyr::arrange(desc(area))
   asd(polys_sf, 3)
   
- ## Prepare Route OSM data  
+
+####------------  
+  
+   ## Prepare Route OSM data  
   
   # Select to needed fields
   routes_sf <- path_osm@lines %>%
@@ -108,7 +112,7 @@
                                    ifelse(access %in% 
                                             c('customers', 'no', 
                                               'permissive', 'private'), 
-                                          0, 1)) %>%
+                                          0, 1))) %>%
     dplyr::select(name, highway, private, paved, geometry)
   head(routes_sf)
   

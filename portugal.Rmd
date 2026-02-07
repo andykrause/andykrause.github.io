@@ -1,0 +1,69 @@
+---
+title: "Portugal"
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+editor_options: 
+  chunk_output_type: console
+---
+
+<link rel="stylesheet" href="kraustralia/kraustralia.css" type="text/css">
+
+<br/>
+<br/>
+<br/>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r prep_data, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
+
+library(magrittr)
+library(tmap)
+require(leaflet)
+library(mapgl)
+
+library(sf)
+
+# Create a data frame with your locations
+locations <- data.frame(
+  name = c("Liboans", 
+           "Monte da Vilarinha Hotel", 
+           "Conversas de Alpendre", 
+           "Limehome Rue de Machede 61"),
+  # dates = c(as.Date('2026-04-09'), 
+  #           as.Date('2026-04-12'), 
+  #           as.Date('2026-04-13'), 
+  #           as.Date('2026-04-16')),
+  latitude = c(38.710608, 37.169143, 37.173402, 38.571930),
+  longitude = c(-9.134904, -8.857999, -7.568046, -7.903608)
+)
+
+
+
+# Convert to sf object
+locations_xsf <- sf::st_as_sf(locations, 
+                         coords = c("longitude", "latitude"),
+                         crs = 4326)  # WGS84 coordinate system
+
+```
+
+```{r, echo = FALSE, message = FALSE, warning=FALSE, comment = FALSE}
+
+ maplibre(style = maptiler_style("winter"),
+         bounds = locations_xsf,
+         zoom = 3,
+         pitch = 50,
+         bearing = 55) |>
+  add_circle_layer(
+    id = "locations",
+    source = locations_xsf,
+    circle_color = "green",
+    circle_radius = 8,
+    circle_stroke_color = "white",
+    circle_stroke_width = 2
+  ) 
+
+```
