@@ -38,6 +38,10 @@ locations <- data.frame(
             'https://www.booking.com/hotel/pt/monte-da-vilarinha.html',
             'https://conversasdealpendre.com/',
             'https://www.limehome.com/suites?property=417&guests=1&rooms=1'),
+  days = c('Th, F, S',
+           'Su',
+           'M, T, W',
+           'Th, F, S'),
   # dates = c(as.Date('2026-04-09'), 
   #           as.Date('2026-04-12'), 
   #           as.Date('2026-04-13'), 
@@ -46,11 +50,27 @@ locations <- data.frame(
   longitude = c(-9.134904, -8.857999, -7.568046, -7.903608)
 )
 
+pois <- data.frame(name = c('Sagres Lighthouse',
+                            'Praia de Cavaiero',
+                            'Castle of Evoramonte',
+                            'Praia de Faro',
+                            'Porto Covo',
+                            'Monsaraz'),
+                  link = c(''),
+                  latitude = c(36.993952, 37.096216, 38.771358, 37.007465,
+                               37.850770, 38/4432),
+                  longitude = c(-8.949362, -8.471925, -7.715587, -7.995174,
+                                -8.79443, -7380857))
+
 bbox <- locations
 bbox$latitude[3] <- 36.75
 
 # Convert to sf object
 locations_xsf <- sf::st_as_sf(locations, 
+                         coords = c("longitude", "latitude"),
+                         crs = 4326)  # WGS84 coordinate system
+
+pois_xsf <- sf::st_as_sf(pois, 
                          coords = c("longitude", "latitude"),
                          crs = 4326)  # WGS84 coordinate system
 
@@ -70,8 +90,14 @@ bbox_xsf <- sf::st_as_sf(bbox,
    locations_xsf %>%
     dplyr::mutate(link_tooltip = paste0(
       "<b>Name:</b> ", name, "<br>",
+      "<b>Days:</b> ", days, "<br>",
       "<a href='", links, "' target='_blank; padding: 5px;'>Visit Website</a>"))
 
+ pois_xsf <-
+   pois_xsf %>%
+    dplyr::mutate(link_tooltip = paste0(
+      "<b>Name:</b> ", name, "<br>"))#,
+      #"<a href='", links, "' target='_blank; padding: 5px;'>Visit Website</a>"))
  
 ```
 
@@ -99,7 +125,17 @@ bbox_xsf <- sf::st_as_sf(bbox,
     hover_options = list(
         fill_color = "yellow")
     ) |>
-
+  add_circle_layer(
+    id = 'poi',
+    source = pois_xsf,
+    circle_color = 'darkorange',
+    circle_radius = 3,
+    circle_stroke_color = 'darkorange',
+    circle_stroke_width = 1,
+    popup = 'link_tooltip',
+    hover_options = list(
+      fill_color = 'yellow')
+  ) |>
   add_navigation_control(position = "top-left") |>  # Zoom & rotation controls
   add_fullscreen_control(position = "top-right")
 
@@ -108,8 +144,8 @@ bbox_xsf <- sf::st_as_sf(bbox,
   htmltools::browsable(tagList(
   tags$style(HTML("
     .maplibregl-popup-content {
-      background-color: green !important;
-      color: white !important;
+      background-color: gray !important;
+      color: black !important;
     }
     .maplibregl-popup-tip {
       border-top-color: green !important;
