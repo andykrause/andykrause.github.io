@@ -1,0 +1,1766 @@
+[
+  {
+    "date": "2026-03-24",
+    "puzzleNumber": 1,
+    "startTitle": "Robert Koch",
+    "endTitle": "Giza pyramid complex",
+    "optimalPath": [
+      "Robert Koch",
+      "Black Death",
+      "Byzantine Empire",
+      "Ancient Egypt",
+      "Giza pyramid complex"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Black Death"
+    ],
+    "eventSummary": "On this day in 1882: Robert Koch announces the discovery of Mycobacterium tuberculosis, the bacterium responsible for tuberculosis.",
+    "fallbackStart": "Robert Koch"
+  },
+  {
+    "date": "2026-03-25",
+    "puzzleNumber": 2,
+    "startTitle": "Bulletin de la Fédération jurassienne",
+    "endTitle": "Medicine",
+    "optimalPath": [
+      "Bulletin de la Fédération jurassienne",
+      "Karl Marx",
+      "Age of Enlightenment",
+      "Biology",
+      "Medicine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Karl Marx"
+    ],
+    "eventSummary": "On this day in 1878: Last issue of the Bulletin de la Fédération jurassienne, the first or one of the first anarchist newspapers.",
+    "fallbackStart": "Bulletin de la Fédération jurassienne"
+  },
+  {
+    "date": "2026-03-26",
+    "puzzleNumber": 3,
+    "startTitle": "Paris Commune",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Paris Commune",
+      "Albert Einstein",
+      "Nobel Prize",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Albert Einstein"
+    ],
+    "eventSummary": "On this day in 1871: The elections of Commune council of the Paris Commune are held.",
+    "fallbackStart": "Paris Commune"
+  },
+  {
+    "date": "2026-03-27",
+    "puzzleNumber": 4,
+    "startTitle": "Emilio Aguinaldo",
+    "endTitle": "Medicine",
+    "optimalPath": [
+      "Emilio Aguinaldo",
+      "Franklin D. Roosevelt",
+      "Albert Einstein",
+      "Nobel Prize",
+      "Medicine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Franklin D. Roosevelt"
+    ],
+    "eventSummary": "On this day in 1899: Emilio Aguinaldo leads Filipino forces for the only time during the Philippine–American War at the Battle of Marilao River.",
+    "fallbackStart": "Emilio Aguinaldo"
+  },
+  {
+    "date": "2026-03-28",
+    "puzzleNumber": 5,
+    "startTitle": "American Civil War",
+    "endTitle": "Theory of relativity",
+    "optimalPath": [
+      "American Civil War",
+      "Abraham Lincoln",
+      "Benjamin Franklin",
+      "History",
+      "Theory of relativity"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Abraham Lincoln"
+    ],
+    "eventSummary": "On this day in 1862: American Civil War: In the Battle of Glorieta Pass, Union forces stop the Confederate invasion of the New Mexico Territory. The battle began on March 26.",
+    "fallbackStart": "American Civil War"
+  },
+  {
+    "date": "2026-03-29",
+    "puzzleNumber": 6,
+    "startTitle": "Knights of Columbus",
+    "endTitle": "Alan Turing",
+    "optimalPath": [
+      "Knights of Columbus",
+      "Ancient Rome",
+      "Age of Enlightenment",
+      "René Descartes",
+      "Alan Turing"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Ancient Rome"
+    ],
+    "eventSummary": "On this day in 1882: The Knights of Columbus is established.",
+    "fallbackStart": "Knights of Columbus"
+  },
+  {
+    "date": "2026-03-30",
+    "puzzleNumber": 7,
+    "startTitle": "Commission on Isotopic Abundances and Atomic Weights",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Commission on Isotopic Abundances and Atomic Weights",
+      "China",
+      "Mesopotamia",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "China"
+    ],
+    "eventSummary": "On this day in 1899: German Society of Chemistry issues an invitation to other national scientific organizations to appoint delegates to the International Committee on Atomic Weights.",
+    "fallbackStart": "Commission on Isotopic Abundances and Atomic Weights"
+  },
+  {
+    "date": "2026-03-31",
+    "puzzleNumber": 8,
+    "startTitle": "Philippine–American War",
+    "endTitle": "Electromagnetism",
+    "optimalPath": [
+      "Philippine–American War",
+      "Cold War",
+      "Africa",
+      "Electricity",
+      "Electromagnetism"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Cold War"
+    ],
+    "eventSummary": "On this day in 1899: Philippine–American War: Malolos, capital of the First Philippine Republic, is captured by American forces.",
+    "fallbackStart": "Philippine–American War"
+  },
+  {
+    "date": "2026-04-01",
+    "puzzleNumber": 9,
+    "startTitle": "White Star Line",
+    "endTitle": "Norse mythology",
+    "optimalPath": [
+      "White Star Line",
+      "British Empire",
+      "Africa",
+      "Myth",
+      "Norse mythology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "British Empire"
+    ],
+    "eventSummary": "On this day in 1873: The White Star steamer SS Atlantic sinks off Nova Scotia, killing 547 in one of the worst marine disasters of the 19th century.",
+    "fallbackStart": "White Star Line"
+  },
+  {
+    "date": "2026-04-02",
+    "puzzleNumber": 10,
+    "startTitle": "Third Battle of Petersburg",
+    "endTitle": "Alexander the Great",
+    "optimalPath": [
+      "Third Battle of Petersburg",
+      "Abraham Lincoln",
+      "American Revolution",
+      "Bible",
+      "Alexander the Great"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Abraham Lincoln"
+    ],
+    "eventSummary": "On this day in 1865: American Civil War: Defeat at the Third Battle of Petersburg forces the Army of Northern Virginia and the Confederate government to abandon Richmond, Virginia.",
+    "fallbackStart": "Third Battle of Petersburg"
+  },
+  {
+    "date": "2026-04-03",
+    "puzzleNumber": 11,
+    "startTitle": "Defamation",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Defamation",
+      "Christianity",
+      "Mesopotamia",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Christianity"
+    ],
+    "eventSummary": "On this day in 1895: The trial in the libel case brought by Oscar Wilde begins, eventually resulting in his imprisonment on charges of homosexuality.",
+    "fallbackStart": "Defamation"
+  },
+  {
+    "date": "2026-04-04",
+    "puzzleNumber": 12,
+    "startTitle": "Alexander II of Russia",
+    "endTitle": "Nikola Tesla",
+    "optimalPath": [
+      "Alexander II of Russia",
+      "American Civil War",
+      "Cold War",
+      "Internet",
+      "Nikola Tesla"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Civil War"
+    ],
+    "eventSummary": "On this day in 1866: Alexander II of Russia narrowly escapes an assassination attempt by Dmitry Karakozov in the city of Saint Petersburg.",
+    "fallbackStart": "Alexander II of Russia"
+  },
+  {
+    "date": "2026-04-05",
+    "puzzleNumber": 13,
+    "startTitle": "Bolivia",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Bolivia",
+      "Agriculture",
+      "Biology",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Agriculture"
+    ],
+    "eventSummary": "On this day in 1879: Bolivia declares war on Chile, and Chile declares war on Peru, starting the War of the Pacific.",
+    "fallbackStart": "Bolivia"
+  },
+  {
+    "date": "2026-04-06",
+    "puzzleNumber": 14,
+    "startTitle": "Athens",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Athens",
+      "Alexander the Great",
+      "Mesopotamia",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Alexander the Great"
+    ],
+    "eventSummary": "On this day in 1896: In Athens, the opening of the first modern Olympic Games is celebrated, 1,500 years after the original games are banned by Roman emperor Theodosius I.",
+    "fallbackStart": "Athens"
+  },
+  {
+    "date": "2026-04-07",
+    "puzzleNumber": 15,
+    "startTitle": "Thomas D'Arcy McGee",
+    "endTitle": "Romeo and Juliet",
+    "optimalPath": [
+      "Thomas D'Arcy McGee",
+      "British Empire",
+      "English language",
+      "William Shakespeare",
+      "Romeo and Juliet"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "British Empire"
+    ],
+    "eventSummary": "On this day in 1868: Thomas D'Arcy McGee, one of the Canadian Fathers of Confederation, is assassinated by a Fenian activist.",
+    "fallbackStart": "Thomas D'Arcy McGee"
+  },
+  {
+    "date": "2026-04-08",
+    "puzzleNumber": 16,
+    "startTitle": "Pollock v. Farmers' Loan & Trust Co.",
+    "endTitle": "Antibiotic",
+    "optimalPath": [
+      "Pollock v. Farmers' Loan & Trust Co.",
+      "American Civil War",
+      "Napoleonic Wars",
+      "Black Death",
+      "Antibiotic"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Civil War"
+    ],
+    "eventSummary": "On this day in 1895: In Pollock v. Farmers' Loan & Trust Co. the Supreme Court of the United States declares unapportioned income tax to be unconstitutional.",
+    "fallbackStart": "Pollock v. Farmers' Loan & Trust Co."
+  },
+  {
+    "date": "2026-04-09",
+    "puzzleNumber": 17,
+    "startTitle": "American Civil War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "American Civil War",
+      "Napoleonic Wars",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Napoleonic Wars"
+    ],
+    "eventSummary": "On this day in 1865: American Civil War: Robert E. Lee surrenders the Army of Northern Virginia (26,765 troops) to Ulysses S. Grant at Appomattox Court House, Virginia, effectively ending the war.",
+    "fallbackStart": "American Civil War"
+  },
+  {
+    "date": "2026-04-10",
+    "puzzleNumber": 18,
+    "startTitle": "Easter",
+    "endTitle": "Geology",
+    "optimalPath": [
+      "Easter",
+      "Age of Enlightenment",
+      "Age of Discovery",
+      "Geology"
+    ],
+    "pathLength": 3,
+    "hintLinks": [
+      "Age of Enlightenment"
+    ],
+    "eventSummary": "On this day in 1887: On Easter Sunday, Pope Leo XIII authorizes the establishment of the Catholic University of America.",
+    "fallbackStart": "Easter"
+  },
+  {
+    "date": "2026-04-11",
+    "puzzleNumber": 19,
+    "startTitle": "Luton Town F.C.",
+    "endTitle": "Genetics",
+    "optimalPath": [
+      "Luton Town F.C.",
+      "World War I",
+      "Adolf Hitler",
+      "Charles Darwin",
+      "Genetics"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "World War I"
+    ],
+    "eventSummary": "On this day in 1885: Luton Town F.C. is founded.",
+    "fallbackStart": "Luton Town F.C."
+  },
+  {
+    "date": "2026-04-12",
+    "puzzleNumber": 20,
+    "startTitle": "United Kingdom",
+    "endTitle": "Giza pyramid complex",
+    "optimalPath": [
+      "United Kingdom",
+      "Age of Discovery",
+      "Ancient Egypt",
+      "Giza pyramid complex"
+    ],
+    "pathLength": 3,
+    "hintLinks": [
+      "Age of Discovery"
+    ],
+    "eventSummary": "On this day in 1877: The United Kingdom annexes the Transvaal.",
+    "fallbackStart": "United Kingdom"
+  },
+  {
+    "date": "2026-04-13",
+    "puzzleNumber": 21,
+    "startTitle": "Colfax massacre",
+    "endTitle": "Quantum mechanics",
+    "optimalPath": [
+      "Colfax massacre",
+      "Abraham Lincoln",
+      "Benjamin Franklin",
+      "Isaac Newton",
+      "Quantum mechanics"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Abraham Lincoln"
+    ],
+    "eventSummary": "On this day in 1873: The Colfax massacre: More than 60 to 150 black men are murdered in Colfax, Louisiana, while surrendering to a mob of former Confederate soldiers and members of the Ku Klux Klan.",
+    "fallbackStart": "Colfax massacre"
+  },
+  {
+    "date": "2026-04-14",
+    "puzzleNumber": 22,
+    "startTitle": "Film",
+    "endTitle": "Ecology",
+    "optimalPath": [
+      "Film",
+      "Africa",
+      "Amazon rainforest",
+      "Climate change",
+      "Ecology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Africa"
+    ],
+    "eventSummary": "On this day in 1894: The first ever commercial motion picture house opens in New York City, United States. It uses ten Kinetoscopes, devices for peep-show viewing of films.",
+    "fallbackStart": "Film"
+  },
+  {
+    "date": "2026-04-15",
+    "puzzleNumber": 23,
+    "startTitle": "General Electric",
+    "endTitle": "Romeo and Juliet",
+    "optimalPath": [
+      "General Electric",
+      "New York City",
+      "France",
+      "William Shakespeare",
+      "Romeo and Juliet"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "New York City"
+    ],
+    "eventSummary": "On this day in 1892: The General Electric Company is formed.",
+    "fallbackStart": "General Electric"
+  },
+  {
+    "date": "2026-04-16",
+    "puzzleNumber": 24,
+    "startTitle": "Dodge City, Kansas",
+    "endTitle": "Genetics",
+    "optimalPath": [
+      "Dodge City, Kansas",
+      "Christianity",
+      "Age of Discovery",
+      "Ancient Egypt",
+      "Genetics"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Christianity"
+    ],
+    "eventSummary": "On this day in 1881: In Dodge City, Kansas, Bat Masterson fights his last gun battle.",
+    "fallbackStart": "Dodge City, Kansas"
+  },
+  {
+    "date": "2026-04-17",
+    "puzzleNumber": 25,
+    "startTitle": "Treaty of Shimonoseki",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Treaty of Shimonoseki",
+      "China",
+      "Mesopotamia",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "China"
+    ],
+    "eventSummary": "On this day in 1895: The Treaty of Shimonoseki between China and Japan is signed. This marks the end of the First Sino-Japanese War, and the defeated Qing Empire is forced to renounce its claims on Korea and to concede the southern portion of the Fengtian province, Taiwan and the Penghu to Japan.",
+    "fallbackStart": "Treaty of Shimonoseki"
+  },
+  {
+    "date": "2026-04-18",
+    "puzzleNumber": 26,
+    "startTitle": "Greco-Turkish War (1897)",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Greco-Turkish War (1897)",
+      "Europe",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Europe"
+    ],
+    "eventSummary": "On this day in 1897: The Greco-Turkish War is declared between Greece and the Ottoman Empire.",
+    "fallbackStart": "Greco-Turkish War (1897)"
+  },
+  {
+    "date": "2026-04-19",
+    "puzzleNumber": 27,
+    "startTitle": "American Civil War",
+    "endTitle": "Theory of relativity",
+    "optimalPath": [
+      "American Civil War",
+      "Abraham Lincoln",
+      "Benjamin Franklin",
+      "History",
+      "Theory of relativity"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Abraham Lincoln"
+    ],
+    "eventSummary": "On this day in 1861: American Civil War: Baltimore riot of 1861: A pro-Secession mob in Baltimore attacks United States Army troops marching through the city.",
+    "fallbackStart": "American Civil War"
+  },
+  {
+    "date": "2026-04-20",
+    "puzzleNumber": 28,
+    "startTitle": "William McKinley",
+    "endTitle": "Romeo and Juliet",
+    "optimalPath": [
+      "William McKinley",
+      "Asia",
+      "Greek mythology",
+      "William Shakespeare",
+      "Romeo and Juliet"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: U.S. President William McKinley signs a joint resolution to Congress for declaration of war against Spain, beginning the Spanish–American War.",
+    "fallbackStart": "William McKinley"
+  },
+  {
+    "date": "2026-04-21",
+    "puzzleNumber": 29,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: The United States Navy begins a blockade of Cuban ports. When the U.S. Congress issued a declaration of war on April 25, it declared that a state of war had existed from this date.",
+    "fallbackStart": "Spanish–American War"
+  },
+  {
+    "date": "2026-04-22",
+    "puzzleNumber": 30,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: President William McKinley calls for 125,000 volunteers to join the National Guard and fight in Cuba, while Congress more than doubles regular Army forces to 65,000.",
+    "fallbackStart": "Spanish–American War"
+  },
+  {
+    "date": "2026-04-23",
+    "puzzleNumber": 31,
+    "startTitle": "University of Notre Dame",
+    "endTitle": "Norse mythology",
+    "optimalPath": [
+      "University of Notre Dame",
+      "Colosseum",
+      "Athens",
+      "Greek mythology",
+      "Norse mythology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Colosseum"
+    ],
+    "eventSummary": "On this day in 1879: Fire burns down the second main building and dome of the University of Notre Dame, which prompts the construction of the third, and current, Main Building with its golden dome.",
+    "fallbackStart": "University of Notre Dame"
+  },
+  {
+    "date": "2026-04-24",
+    "puzzleNumber": 32,
+    "startTitle": "Joshua Slocum",
+    "endTitle": "Theory of relativity",
+    "optimalPath": [
+      "Joshua Slocum",
+      "Brazil",
+      "Charles Darwin",
+      "Isaac Newton",
+      "Theory of relativity"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Brazil"
+    ],
+    "eventSummary": "On this day in 1895: Joshua Slocum, the first person to sail single-handedly around the world, sets sail from Boston, Massachusetts aboard the sloop Spray.",
+    "fallbackStart": "Joshua Slocum"
+  },
+  {
+    "date": "2026-04-25",
+    "puzzleNumber": 33,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Romeo and Juliet",
+    "optimalPath": [
+      "Spanish–American War",
+      "American Revolution",
+      "Bible",
+      "William Shakespeare",
+      "Romeo and Juliet"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Revolution"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: The United States Congress declares that a state of war between the U.S. and Spain has existed since April 21, when an American naval blockade of the Spanish colony of Cuba began.",
+    "fallbackStart": "Spanish–American War"
+  },
+  {
+    "date": "2026-04-26",
+    "puzzleNumber": 34,
+    "startTitle": "Union (American Civil War)",
+    "endTitle": "Radio",
+    "optimalPath": [
+      "Union (American Civil War)",
+      "Abraham Lincoln",
+      "Benjamin Franklin",
+      "Socialism",
+      "Radio"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Abraham Lincoln"
+    ],
+    "eventSummary": "On this day in 1865: Union cavalry troopers corner and shoot dead John Wilkes Booth, assassin of President Abraham Lincoln, in Virginia.",
+    "fallbackStart": "Union (American Civil War)"
+  },
+  {
+    "date": "2026-04-27",
+    "puzzleNumber": 35,
+    "startTitle": "President of the United States",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "President of the United States",
+      "Martin Luther King Jr.",
+      "Nobel Prize",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Martin Luther King Jr."
+    ],
+    "eventSummary": "On this day in 1861: American President Abraham Lincoln suspends the writ of habeas corpus.",
+    "fallbackStart": "President of the United States"
+  },
+  {
+    "date": "2026-04-28",
+    "puzzleNumber": 36,
+    "startTitle": "Prussian Secret Police",
+    "endTitle": "Theory of relativity",
+    "optimalPath": [
+      "Prussian Secret Police",
+      "Germany",
+      "Age of Enlightenment",
+      "History",
+      "Theory of relativity"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Germany"
+    ],
+    "eventSummary": "On this day in 1887: A week after being arrested by the Prussian Secret Police, French police inspector Guillaume Schnaebelé is released on order of William I, German Emperor, defusing a possible war.",
+    "fallbackStart": "Prussian Secret Police"
+  },
+  {
+    "date": "2026-04-29",
+    "puzzleNumber": 37,
+    "startTitle": "American Civil War",
+    "endTitle": "Theory of relativity",
+    "optimalPath": [
+      "American Civil War",
+      "Abraham Lincoln",
+      "Benjamin Franklin",
+      "History",
+      "Theory of relativity"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Abraham Lincoln"
+    ],
+    "eventSummary": "On this day in 1862: American Civil War: The Capture of New Orleans by Union forces under David Farragut.",
+    "fallbackStart": "American Civil War"
+  },
+  {
+    "date": "2026-04-30",
+    "puzzleNumber": 38,
+    "startTitle": "J. J. Thomson",
+    "endTitle": "Norse mythology",
+    "optimalPath": [
+      "J. J. Thomson",
+      "Electromagnetism",
+      "Ancient Greece",
+      "Greek mythology",
+      "Norse mythology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Electromagnetism"
+    ],
+    "eventSummary": "On this day in 1897: J. J. Thomson of the Cavendish Laboratory announces his discovery of the electron as a subatomic particle, over 1,800 times smaller than a proton (in the atomic nucleus), at a lecture at the Royal Institution in London.",
+    "fallbackStart": "J. J. Thomson"
+  },
+  {
+    "date": "2026-05-01",
+    "puzzleNumber": 39,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: Battle of Manila Bay: The Asiatic Squadron of the United States Navy destroys the Pacific Squadron of the Spanish Navy after a seven-hour battle. Spain loses all seven of its ships, and 381 Spanish sailors die. There are no American vessel losses or combat deaths.",
+    "fallbackStart": "Spanish–American War"
+  },
+  {
+    "date": "2026-05-02",
+    "puzzleNumber": 40,
+    "startTitle": "Menelik II",
+    "endTitle": "Thermodynamics",
+    "optimalPath": [
+      "Menelik II",
+      "Communism",
+      "Age of Enlightenment",
+      "Chemistry",
+      "Thermodynamics"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Communism"
+    ],
+    "eventSummary": "On this day in 1889: Menelik II, Emperor of Ethiopia, signs the Treaty of Wuchale, giving Italy control over Eritrea.",
+    "fallbackStart": "Menelik II"
+  },
+  {
+    "date": "2026-05-03",
+    "puzzleNumber": 41,
+    "startTitle": "William Walker (filibuster)",
+    "endTitle": "Norse mythology",
+    "optimalPath": [
+      "William Walker (filibuster)",
+      "American Civil War",
+      "Atlantic Ocean",
+      "Greek mythology",
+      "Norse mythology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Civil War"
+    ],
+    "eventSummary": "On this day in 1855: American adventurer William Walker departs from San Francisco with about 60 men to conquer Nicaragua.",
+    "fallbackStart": "William Walker (filibuster)"
+  },
+  {
+    "date": "2026-05-04",
+    "puzzleNumber": 42,
+    "startTitle": "Haymarket affair",
+    "endTitle": "Writing",
+    "optimalPath": [
+      "Haymarket affair",
+      "American Civil War",
+      "World War I",
+      "Mesopotamia",
+      "Writing"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Civil War"
+    ],
+    "eventSummary": "On this day in 1886: Haymarket affair: In Chicago, United States, a homemade bomb is thrown at police officers trying to break up a labor rally, killing one officer. Ensuing gunfire leads to the deaths of a further seven officers and four civilians.",
+    "fallbackStart": "Haymarket affair"
+  },
+  {
+    "date": "2026-05-05",
+    "puzzleNumber": 43,
+    "startTitle": "Carnegie Hall",
+    "endTitle": "Johannes Gutenberg",
+    "optimalPath": [
+      "Carnegie Hall",
+      "New York City",
+      "American Revolution",
+      "Bible",
+      "Johannes Gutenberg"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "New York City"
+    ],
+    "eventSummary": "On this day in 1891: The Music Hall in New York City (later known as Carnegie Hall) has its grand opening and first public performance, with Tchaikovsky as the guest conductor.",
+    "fallbackStart": "Carnegie Hall"
+  },
+  {
+    "date": "2026-05-06",
+    "puzzleNumber": 44,
+    "startTitle": "Eiffel Tower",
+    "endTitle": "Thermodynamics",
+    "optimalPath": [
+      "Eiffel Tower",
+      "French Revolution",
+      "Age of Enlightenment",
+      "Chemistry",
+      "Thermodynamics"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "French Revolution"
+    ],
+    "eventSummary": "On this day in 1889: The Eiffel Tower is officially opened to the public at the Universal Exposition in Paris.",
+    "fallbackStart": "Eiffel Tower"
+  },
+  {
+    "date": "2026-05-07",
+    "puzzleNumber": 45,
+    "startTitle": "Saint Petersburg",
+    "endTitle": "Alan Turing",
+    "optimalPath": [
+      "Saint Petersburg",
+      "Architecture",
+      "Aristotle",
+      "René Descartes",
+      "Alan Turing"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Architecture"
+    ],
+    "eventSummary": "On this day in 1895: In Saint Petersburg, Russian scientist Alexander Stepanovich Popov demonstrates to the Russian Physical and Chemical Society his invention, the Popov lightning detector—a primitive radio receiver. In some parts of the former Soviet Union the anniversary of this day is celebrated as Radio Day.",
+    "fallbackStart": "Saint Petersburg"
+  },
+  {
+    "date": "2026-05-08",
+    "puzzleNumber": 46,
+    "startTitle": "Italian football league system",
+    "endTitle": "Alan Turing",
+    "optimalPath": [
+      "Italian football league system",
+      "Italy",
+      "Age of Enlightenment",
+      "René Descartes",
+      "Alan Turing"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Italy"
+    ],
+    "eventSummary": "On this day in 1898: The first games of the Italian football league system are played.",
+    "fallbackStart": "Italian football league system"
+  },
+  {
+    "date": "2026-05-09",
+    "puzzleNumber": 47,
+    "startTitle": "Mihail Kogălniceanu",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Mihail Kogălniceanu",
+      "Ancient Rome",
+      "Mesopotamia",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Ancient Rome"
+    ],
+    "eventSummary": "On this day in 1877: Mihail Kogălniceanu reads, in the Chamber of Deputies, the Declaration of Independence of Romania. The date will become recognised as the Independence Day of Romania.",
+    "fallbackStart": "Mihail Kogălniceanu"
+  },
+  {
+    "date": "2026-05-10",
+    "puzzleNumber": 48,
+    "startTitle": "Carol I of Romania",
+    "endTitle": "Marie Curie",
+    "optimalPath": [
+      "Carol I of Romania",
+      "Greece",
+      "Age of Enlightenment",
+      "Chemistry",
+      "Marie Curie"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Greece"
+    ],
+    "eventSummary": "On this day in 1881: Carol I is crowned the King of the Romanian Kingdom.",
+    "fallbackStart": "Carol I of Romania"
+  },
+  {
+    "date": "2026-05-11",
+    "puzzleNumber": 49,
+    "startTitle": "Pullman Strike",
+    "endTitle": "Antibiotic",
+    "optimalPath": [
+      "Pullman Strike",
+      "Socialism",
+      "Age of Discovery",
+      "Black Death",
+      "Antibiotic"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Socialism"
+    ],
+    "eventSummary": "On this day in 1894: Four thousand Pullman Palace Car Company workers go on a wildcat strike.",
+    "fallbackStart": "Pullman Strike"
+  },
+  {
+    "date": "2026-05-12",
+    "puzzleNumber": 50,
+    "startTitle": "Ottoman Tunisia",
+    "endTitle": "Charles Darwin",
+    "optimalPath": [
+      "Ottoman Tunisia",
+      "Byzantine Empire",
+      "Age of Discovery",
+      "Aristotle",
+      "Charles Darwin"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Byzantine Empire"
+    ],
+    "eventSummary": "On this day in 1881: In North Africa, Tunisia becomes a French protectorate.",
+    "fallbackStart": "Ottoman Tunisia"
+  },
+  {
+    "date": "2026-05-13",
+    "puzzleNumber": 51,
+    "startTitle": "Lei Áurea",
+    "endTitle": "Great Wall of China",
+    "optimalPath": [
+      "Lei Áurea",
+      "American Civil War",
+      "Cold War",
+      "China",
+      "Great Wall of China"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Civil War"
+    ],
+    "eventSummary": "On this day in 1888: With the passage of the Lei Áurea (\"Golden Law\"), the Empire of Brazil abolishes slavery.",
+    "fallbackStart": "Lei Áurea"
+  },
+  {
+    "date": "2026-05-14",
+    "puzzleNumber": 52,
+    "startTitle": "Indian indenture system",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Indian indenture system",
+      "Africa",
+      "Mesopotamia",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Africa"
+    ],
+    "eventSummary": "On this day in 1879: The first group of 463 Indian indentured laborers arrives in Fiji aboard the Leonidas.",
+    "fallbackStart": "Indian indenture system"
+  },
+  {
+    "date": "2026-05-15",
+    "puzzleNumber": 53,
+    "startTitle": "Pope Leo XIII",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Pope Leo XIII",
+      "Age of Enlightenment",
+      "Biology",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Age of Enlightenment"
+    ],
+    "eventSummary": "On this day in 1891: Pope Leo XIII defends workers' rights and property rights in the encyclical Rerum novarum, the beginning of modern Catholic social teaching.",
+    "fallbackStart": "Pope Leo XIII"
+  },
+  {
+    "date": "2026-05-16",
+    "puzzleNumber": 54,
+    "startTitle": "Nikola Tesla",
+    "endTitle": "Norse mythology",
+    "optimalPath": [
+      "Nikola Tesla",
+      "Galileo Galilei",
+      "Aristotle",
+      "Greek mythology",
+      "Norse mythology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Galileo Galilei"
+    ],
+    "eventSummary": "On this day in 1888: Nikola Tesla delivers a lecture describing the equipment which will allow efficient generation and use of alternating currents to transmit electric power over long distances.",
+    "fallbackStart": "Nikola Tesla"
+  },
+  {
+    "date": "2026-05-17",
+    "puzzleNumber": 55,
+    "startTitle": "International Telecommunication Union",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "International Telecommunication Union",
+      "China",
+      "Mesopotamia",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "China"
+    ],
+    "eventSummary": "On this day in 1865: The International Telegraph Union (later the International Telecommunication Union) is established in Paris.",
+    "fallbackStart": "International Telecommunication Union"
+  },
+  {
+    "date": "2026-05-18",
+    "puzzleNumber": 56,
+    "startTitle": "Supreme Court of the United States",
+    "endTitle": "Romeo and Juliet",
+    "optimalPath": [
+      "Supreme Court of the United States",
+      "American Revolution",
+      "Bible",
+      "William Shakespeare",
+      "Romeo and Juliet"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Revolution"
+    ],
+    "eventSummary": "On this day in 1896: The United States Supreme Court rules in Plessy v. Ferguson that the \"separate but equal\" doctrine is constitutional.",
+    "fallbackStart": "Supreme Court of the United States"
+  },
+  {
+    "date": "2026-05-19",
+    "puzzleNumber": 57,
+    "startTitle": "Buffalo Bill",
+    "endTitle": "Geology",
+    "optimalPath": [
+      "Buffalo Bill",
+      "American Civil War",
+      "Atlantic Ocean",
+      "Age of Discovery",
+      "Geology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Civil War"
+    ],
+    "eventSummary": "On this day in 1883: Buffalo Bill's first Buffalo Bill's Wild West opens in Omaha, Nebraska.",
+    "fallbackStart": "Buffalo Bill"
+  },
+  {
+    "date": "2026-05-20",
+    "puzzleNumber": 58,
+    "startTitle": "History of film",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "History of film",
+      "Age of Enlightenment",
+      "Biology",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Age of Enlightenment"
+    ],
+    "eventSummary": "On this day in 1891: History of cinema: The first public display of Thomas Edison's prototype kinetoscope.",
+    "fallbackStart": "History of film"
+  },
+  {
+    "date": "2026-05-21",
+    "puzzleNumber": 59,
+    "startTitle": "American Red Cross",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "American Red Cross",
+      "Italy",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Italy"
+    ],
+    "eventSummary": "On this day in 1881: The American Red Cross is established by Clara Barton in Dansville, New York.",
+    "fallbackStart": "American Red Cross"
+  },
+  {
+    "date": "2026-05-22",
+    "puzzleNumber": 60,
+    "startTitle": "Reconstruction era",
+    "endTitle": "Genetics",
+    "optimalPath": [
+      "Reconstruction era",
+      "Abraham Lincoln",
+      "Benjamin Franklin",
+      "History",
+      "Genetics"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Abraham Lincoln"
+    ],
+    "eventSummary": "On this day in 1872: Reconstruction Era: President Ulysses S. Grant signs the Amnesty Act into law, restoring full civil and political rights to all but about 500 Confederate sympathizers.",
+    "fallbackStart": "Reconstruction era"
+  },
+  {
+    "date": "2026-05-23",
+    "puzzleNumber": 61,
+    "startTitle": "North-West Mounted Police",
+    "endTitle": "Medicine",
+    "optimalPath": [
+      "North-West Mounted Police",
+      "British Empire",
+      "Africa",
+      "Mesopotamia",
+      "Medicine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "British Empire"
+    ],
+    "eventSummary": "On this day in 1873: The Canadian Parliament establishes the North-West Mounted Police, the forerunner of the Royal Canadian Mounted Police.",
+    "fallbackStart": "North-West Mounted Police"
+  },
+  {
+    "date": "2026-05-24",
+    "puzzleNumber": 62,
+    "startTitle": "Brooklyn Bridge",
+    "endTitle": "Romeo and Juliet",
+    "optimalPath": [
+      "Brooklyn Bridge",
+      "Cold War",
+      "Liberalism",
+      "William Shakespeare",
+      "Romeo and Juliet"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Cold War"
+    ],
+    "eventSummary": "On this day in 1883: The Brooklyn Bridge in New York City is opened to traffic after 14 years of construction.",
+    "fallbackStart": "Brooklyn Bridge"
+  },
+  {
+    "date": "2026-05-25",
+    "puzzleNumber": 63,
+    "startTitle": "Oscar Wilde",
+    "endTitle": "Norse mythology",
+    "optimalPath": [
+      "Oscar Wilde",
+      "Dante Alighieri",
+      "Aristotle",
+      "Greek mythology",
+      "Norse mythology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Dante Alighieri"
+    ],
+    "eventSummary": "On this day in 1895: Playwright, poet and novelist Oscar Wilde is convicted of \"committing acts of gross indecency with other male persons\" and sentenced to serve two years in prison.",
+    "fallbackStart": "Oscar Wilde"
+  },
+  {
+    "date": "2026-05-26",
+    "puzzleNumber": 64,
+    "startTitle": "Nicholas II",
+    "endTitle": "Nikola Tesla",
+    "optimalPath": [
+      "Nicholas II",
+      "Communism",
+      "Age of Enlightenment",
+      "Galileo Galilei",
+      "Nikola Tesla"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Communism"
+    ],
+    "eventSummary": "On this day in 1896: Nicholas II is crowned as the last Tsar of Imperial Russia.",
+    "fallbackStart": "Nicholas II"
+  },
+  {
+    "date": "2026-05-27",
+    "puzzleNumber": 65,
+    "startTitle": "Fujita scale",
+    "endTitle": "Writing",
+    "optimalPath": [
+      "Fujita scale",
+      "United Kingdom",
+      "Christianity",
+      "Mesopotamia",
+      "Writing"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "United Kingdom"
+    ],
+    "eventSummary": "On this day in 1896: The F4-strength St. Louis–East St. Louis tornado hits in St. Louis, Missouri, and East St. Louis, Illinois, killing at least 255 people and causing over $10 million in damage.",
+    "fallbackStart": "Fujita scale"
+  },
+  {
+    "date": "2026-05-28",
+    "puzzleNumber": 66,
+    "startTitle": "San Francisco",
+    "endTitle": "Norse mythology",
+    "optimalPath": [
+      "San Francisco",
+      "Climate change",
+      "Africa",
+      "Myth",
+      "Norse mythology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Climate change"
+    ],
+    "eventSummary": "On this day in 1892: In San Francisco, John Muir organizes the Sierra Club.",
+    "fallbackStart": "San Francisco"
+  },
+  {
+    "date": "2026-05-29",
+    "puzzleNumber": 67,
+    "startTitle": "Pharmacist",
+    "endTitle": "Norse mythology",
+    "optimalPath": [
+      "Pharmacist",
+      "Biology",
+      "Ancient Greece",
+      "Greek mythology",
+      "Norse mythology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Biology"
+    ],
+    "eventSummary": "On this day in 1886: The pharmacist John Pemberton places his first advertisement for Coca-Cola, which appeared in The Atlanta Journal.",
+    "fallbackStart": "Pharmacist"
+  },
+  {
+    "date": "2026-05-30",
+    "puzzleNumber": 68,
+    "startTitle": "Brooklyn Bridge",
+    "endTitle": "Norse mythology",
+    "optimalPath": [
+      "Brooklyn Bridge",
+      "Cold War",
+      "Africa",
+      "Myth",
+      "Norse mythology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Cold War"
+    ],
+    "eventSummary": "On this day in 1883: In New York City, 12 people are killed in a stampede on the recently opened Brooklyn Bridge.",
+    "fallbackStart": "Brooklyn Bridge"
+  },
+  {
+    "date": "2026-05-31",
+    "puzzleNumber": 69,
+    "startTitle": "Plymouth",
+    "endTitle": "Electromagnetism",
+    "optimalPath": [
+      "Plymouth",
+      "British Empire",
+      "Africa",
+      "Electricity",
+      "Electromagnetism"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "British Empire"
+    ],
+    "eventSummary": "On this day in 1884: The arrival at Plymouth of Tāwhiao, King of Maoris, to claim the protection of Queen Victoria.",
+    "fallbackStart": "Plymouth"
+  },
+  {
+    "date": "2026-06-01",
+    "puzzleNumber": 70,
+    "startTitle": "United States Census Bureau",
+    "endTitle": "Giza pyramid complex",
+    "optimalPath": [
+      "United States Census Bureau",
+      "American Civil War",
+      "Atlantic Ocean",
+      "Africa",
+      "Giza pyramid complex"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Civil War"
+    ],
+    "eventSummary": "On this day in 1890: The United States Census Bureau begins using Herman Hollerith's tabulating machine to count census returns.",
+    "fallbackStart": "United States Census Bureau"
+  },
+  {
+    "date": "2026-06-02",
+    "puzzleNumber": 71,
+    "startTitle": "Guglielmo Marconi",
+    "endTitle": "Martin Luther",
+    "optimalPath": [
+      "Guglielmo Marconi",
+      "Albert Einstein",
+      "Adolf Hitler",
+      "Martin Luther"
+    ],
+    "pathLength": 3,
+    "hintLinks": [
+      "Albert Einstein"
+    ],
+    "eventSummary": "On this day in 1896: Guglielmo Marconi applies for a patent for his wireless telegraph.",
+    "fallbackStart": "Guglielmo Marconi"
+  },
+  {
+    "date": "2026-06-03",
+    "puzzleNumber": 72,
+    "startTitle": "Electric power transmission",
+    "endTitle": "Genetics",
+    "optimalPath": [
+      "Electric power transmission",
+      "New York City",
+      "Beijing",
+      "Chemistry",
+      "Genetics"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "New York City"
+    ],
+    "eventSummary": "On this day in 1889: The first long-distance electric power transmission line in the United States is completed, running 14 miles (23 km) between a generator at Willamette Falls and downtown Portland, Oregon.",
+    "fallbackStart": "Electric power transmission"
+  },
+  {
+    "date": "2026-06-04",
+    "puzzleNumber": 73,
+    "startTitle": "Henry Ford",
+    "endTitle": "Amazon rainforest",
+    "optimalPath": [
+      "Henry Ford",
+      "Adolf Hitler",
+      "Alexander the Great",
+      "Asia",
+      "Amazon rainforest"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Adolf Hitler"
+    ],
+    "eventSummary": "On this day in 1896: Henry Ford completes the Ford Quadricycle, his first gasoline-powered automobile and also gives it a successful test run.",
+    "fallbackStart": "Henry Ford"
+  },
+  {
+    "date": "2026-06-05",
+    "puzzleNumber": 74,
+    "startTitle": "Orient Express",
+    "endTitle": "Marie Curie",
+    "optimalPath": [
+      "Orient Express",
+      "Athens",
+      "Aristotle",
+      "Galileo Galilei",
+      "Marie Curie"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Athens"
+    ],
+    "eventSummary": "On this day in 1883: The first regularly scheduled Orient Express departs Paris.",
+    "fallbackStart": "Orient Express"
+  },
+  {
+    "date": "2026-06-06",
+    "puzzleNumber": 75,
+    "startTitle": "List of governors of Colorado",
+    "endTitle": "Telephone",
+    "optimalPath": [
+      "List of governors of Colorado",
+      "American Civil War",
+      "Cold War",
+      "Internet",
+      "Telephone"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Civil War"
+    ],
+    "eventSummary": "On this day in 1894: Governor Davis H. Waite orders the Colorado state militia to protect and support the miners engaged in the Cripple Creek miners' strike.",
+    "fallbackStart": "List of governors of Colorado"
+  },
+  {
+    "date": "2026-06-07",
+    "puzzleNumber": 76,
+    "startTitle": "Fenian raids",
+    "endTitle": "Stonehenge",
+    "optimalPath": [
+      "Fenian raids",
+      "American Civil War",
+      "Atlantic Ocean",
+      "Europe",
+      "Stonehenge"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Civil War"
+    ],
+    "eventSummary": "On this day in 1866: One thousand eight hundred Fenian raiders are repelled back to the United States after looting and plundering the Saint-Armand and Frelighsburg areas of Canada East.",
+    "fallbackStart": "Fenian raids"
+  },
+  {
+    "date": "2026-06-08",
+    "puzzleNumber": 77,
+    "startTitle": "Herman Hollerith",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Herman Hollerith",
+      "France",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "France"
+    ],
+    "eventSummary": "On this day in 1887: Herman Hollerith applies for US patent #395,781 for the 'Art of Compiling Statistics', which was his punched card calculator.",
+    "fallbackStart": "Herman Hollerith"
+  },
+  {
+    "date": "2026-06-09",
+    "puzzleNumber": 78,
+    "startTitle": "Battle of Brandy Station",
+    "endTitle": "Alexander the Great",
+    "optimalPath": [
+      "Battle of Brandy Station",
+      "American Civil War",
+      "American Revolution",
+      "Bible",
+      "Alexander the Great"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Civil War"
+    ],
+    "eventSummary": "On this day in 1863: American Civil War: The Battle of Brandy Station in Virginia, the largest cavalry battle on American soil, ends Confederate cavalry dominance in the eastern theater.",
+    "fallbackStart": "Battle of Brandy Station"
+  },
+  {
+    "date": "2026-06-10",
+    "puzzleNumber": 79,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Romeo and Juliet",
+    "optimalPath": [
+      "Spanish–American War",
+      "American Revolution",
+      "Bible",
+      "William Shakespeare",
+      "Romeo and Juliet"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Revolution"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: In the Battle of Guantánamo Bay, U.S. Marines begin the American invasion of Spanish-held Cuba.",
+    "fallbackStart": "Spanish–American War"
+  },
+  {
+    "date": "2026-06-11",
+    "puzzleNumber": 80,
+    "startTitle": "Limelight Department",
+    "endTitle": "Great Wall of China",
+    "optimalPath": [
+      "Limelight Department",
+      "Christianity",
+      "Age of Discovery",
+      "Marco Polo",
+      "Great Wall of China"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Christianity"
+    ],
+    "eventSummary": "On this day in 1892: The Limelight Department, one of the world's first film studios, is officially established in Melbourne, Australia.",
+    "fallbackStart": "Limelight Department"
+  },
+  {
+    "date": "2026-06-12",
+    "puzzleNumber": 81,
+    "startTitle": "American Civil War",
+    "endTitle": "Theory of relativity",
+    "optimalPath": [
+      "American Civil War",
+      "Abraham Lincoln",
+      "Benjamin Franklin",
+      "History",
+      "Theory of relativity"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Abraham Lincoln"
+    ],
+    "eventSummary": "On this day in 1864: American Civil War, Overland Campaign: Battle of Cold Harbor: Ulysses S. Grant gives the Confederate forces under Robert E. Lee a victory when he pulls his Union troops from their position at Cold Harbor, Virginia and moves south.",
+    "fallbackStart": "American Civil War"
+  },
+  {
+    "date": "2026-06-13",
+    "puzzleNumber": 82,
+    "startTitle": "Grover Cleveland",
+    "endTitle": "Giza pyramid complex",
+    "optimalPath": [
+      "Grover Cleveland",
+      "American Civil War",
+      "Atlantic Ocean",
+      "Africa",
+      "Giza pyramid complex"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Civil War"
+    ],
+    "eventSummary": "On this day in 1893: Grover Cleveland notices a rough spot in his mouth and on July 1 undergoes secret, successful surgery to remove a large, cancerous portion of his jaw; the operation was not revealed to the public until 1917, nine years after the president's death.",
+    "fallbackStart": "Grover Cleveland"
+  },
+  {
+    "date": "2026-06-14",
+    "puzzleNumber": 83,
+    "startTitle": "White Rajahs",
+    "endTitle": "Alan Turing",
+    "optimalPath": [
+      "White Rajahs",
+      "Europe",
+      "Age of Enlightenment",
+      "René Descartes",
+      "Alan Turing"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Europe"
+    ],
+    "eventSummary": "On this day in 1888: The White Rajahs territories become the British protectorate of Sarawak.",
+    "fallbackStart": "White Rajahs"
+  },
+  {
+    "date": "2026-06-15",
+    "puzzleNumber": 84,
+    "startTitle": "American Civil War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "American Civil War",
+      "Napoleonic Wars",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Napoleonic Wars"
+    ],
+    "eventSummary": "On this day in 1864: American Civil War: The Second Battle of Petersburg begins.",
+    "fallbackStart": "American Civil War"
+  },
+  {
+    "date": "2026-06-16",
+    "puzzleNumber": 85,
+    "startTitle": "Republic of Hawaii",
+    "endTitle": "Geology",
+    "optimalPath": [
+      "Republic of Hawaii",
+      "English language",
+      "British Empire",
+      "Age of Discovery",
+      "Geology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "English language"
+    ],
+    "eventSummary": "On this day in 1897: A treaty annexing the Republic of Hawaii to the United States is signed; the Republic would not be dissolved until a year later.",
+    "fallbackStart": "Republic of Hawaii"
+  },
+  {
+    "date": "2026-06-17",
+    "puzzleNumber": 86,
+    "startTitle": "Hospital corpsman",
+    "endTitle": "Electromagnetism",
+    "optimalPath": [
+      "Hospital corpsman",
+      "Korean War",
+      "Franklin D. Roosevelt",
+      "Albert Einstein",
+      "Electromagnetism"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Korean War"
+    ],
+    "eventSummary": "On this day in 1898: The United States Navy Hospital Corps is established.",
+    "fallbackStart": "Hospital corpsman"
+  },
+  {
+    "date": "2026-06-18",
+    "puzzleNumber": 87,
+    "startTitle": "Reinsurance Treaty",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Reinsurance Treaty",
+      "Europe",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Europe"
+    ],
+    "eventSummary": "On this day in 1887: The Reinsurance Treaty between Germany and Russia is signed.",
+    "fallbackStart": "Reinsurance Treaty"
+  },
+  {
+    "date": "2026-06-19",
+    "puzzleNumber": 88,
+    "startTitle": "Maximilian I of Mexico",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Maximilian I of Mexico",
+      "Age of Enlightenment",
+      "Biology",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Age of Enlightenment"
+    ],
+    "eventSummary": "On this day in 1867: Maximilian I of the Second Mexican Empire is executed by a firing squad in Querétaro, Querétaro.",
+    "fallbackStart": "Maximilian I of Mexico"
+  },
+  {
+    "date": "2026-06-20",
+    "puzzleNumber": 89,
+    "startTitle": "Kiel Canal",
+    "endTitle": "Thermodynamics",
+    "optimalPath": [
+      "Kiel Canal",
+      "Adolf Hitler",
+      "Charles Darwin",
+      "Natural selection",
+      "Thermodynamics"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Adolf Hitler"
+    ],
+    "eventSummary": "On this day in 1895: The Kiel Canal, crossing the base of the Jutland peninsula and the busiest artificial waterway in the world, is officially opened.",
+    "fallbackStart": "Kiel Canal"
+  },
+  {
+    "date": "2026-06-21",
+    "puzzleNumber": 90,
+    "startTitle": "Capture of Guam",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Capture of Guam",
+      "Christopher Columbus",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Christopher Columbus"
+    ],
+    "eventSummary": "On this day in 1898: The United States captures Guam from Spain. The few warning shots fired by the U.S. naval vessels are misinterpreted as salutes by the Spanish garrison, which was unaware that the two nations were at war.",
+    "fallbackStart": "Capture of Guam"
+  },
+  {
+    "date": "2026-06-22",
+    "puzzleNumber": 91,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: In a chaotic operation, 6,000 men of the U.S. Fifth Army Corps begins landing at Daiquirí, Cuba, about 16 miles (26 km) east of Santiago de Cuba. Lt. Gen. Arsenio Linares y Pombo of the Spanish Army outnumbers them two-to-one, but does not oppose the landings.",
+    "fallbackStart": "Spanish–American War"
+  },
+  {
+    "date": "2026-06-23",
+    "puzzleNumber": 92,
+    "startTitle": "International Olympic Committee",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "International Olympic Committee",
+      "Beijing",
+      "Chemistry",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Beijing"
+    ],
+    "eventSummary": "On this day in 1894: The International Olympic Committee is founded at the Sorbonne in Paris, at the initiative of Baron Pierre de Coubertin.",
+    "fallbackStart": "International Olympic Committee"
+  },
+  {
+    "date": "2026-06-24",
+    "puzzleNumber": 93,
+    "startTitle": "Assassination of Sadi Carnot",
+    "endTitle": "Thermodynamics",
+    "optimalPath": [
+      "Assassination of Sadi Carnot",
+      "Capitalism",
+      "Age of Enlightenment",
+      "Chemistry",
+      "Thermodynamics"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Capitalism"
+    ],
+    "eventSummary": "On this day in 1894: Assassination of the French President, Sadi Carnot by Sante Caserio during the Ère des attentats (1892–1894).",
+    "fallbackStart": "Assassination of Sadi Carnot"
+  }
+]
