@@ -266,25 +266,6 @@
     "fallbackStart": "Athens"
   },
   {
-    "date": "2026-04-07",
-    "puzzleNumber": 15,
-    "startTitle": "Thomas D'Arcy McGee",
-    "endTitle": "Romeo and Juliet",
-    "optimalPath": [
-      "Thomas D'Arcy McGee",
-      "British Empire",
-      "English language",
-      "William Shakespeare",
-      "Romeo and Juliet"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "British Empire"
-    ],
-    "eventSummary": "On this day in 1868: Thomas D'Arcy McGee, one of the Canadian Fathers of Confederation, is assassinated by a Fenian activist.",
-    "fallbackStart": "Thomas D'Arcy McGee"
-  },
-  {
     "date": "2026-04-08",
     "puzzleNumber": 16,
     "startTitle": "Pollock v. Farmers' Loan & Trust Co.",
@@ -416,25 +397,6 @@
     "fallbackStart": "Film"
   },
   {
-    "date": "2026-04-15",
-    "puzzleNumber": 23,
-    "startTitle": "General Electric",
-    "endTitle": "Romeo and Juliet",
-    "optimalPath": [
-      "General Electric",
-      "New York City",
-      "France",
-      "William Shakespeare",
-      "Romeo and Juliet"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "New York City"
-    ],
-    "eventSummary": "On this day in 1892: The General Electric Company is formed.",
-    "fallbackStart": "General Electric"
-  },
-  {
     "date": "2026-04-16",
     "puzzleNumber": 24,
     "startTitle": "Dodge City, Kansas",
@@ -511,25 +473,6 @@
     "fallbackStart": "American Civil War"
   },
   {
-    "date": "2026-04-20",
-    "puzzleNumber": 28,
-    "startTitle": "William McKinley",
-    "endTitle": "Romeo and Juliet",
-    "optimalPath": [
-      "William McKinley",
-      "Asia",
-      "Greek mythology",
-      "William Shakespeare",
-      "Romeo and Juliet"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "Asia"
-    ],
-    "eventSummary": "On this day in 1898: U.S. President William McKinley signs a joint resolution to Congress for declaration of war against Spain, beginning the Spanish–American War.",
-    "fallbackStart": "William McKinley"
-  },
-  {
     "date": "2026-04-21",
     "puzzleNumber": 29,
     "startTitle": "Spanish–American War",
@@ -604,25 +547,6 @@
     ],
     "eventSummary": "On this day in 1895: Joshua Slocum, the first person to sail single-handedly around the world, sets sail from Boston, Massachusetts aboard the sloop Spray.",
     "fallbackStart": "Joshua Slocum"
-  },
-  {
-    "date": "2026-04-25",
-    "puzzleNumber": 33,
-    "startTitle": "Spanish–American War",
-    "endTitle": "Romeo and Juliet",
-    "optimalPath": [
-      "Spanish–American War",
-      "American Revolution",
-      "Bible",
-      "William Shakespeare",
-      "Romeo and Juliet"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "American Revolution"
-    ],
-    "eventSummary": "On this day in 1898: Spanish–American War: The United States Congress declares that a state of war between the U.S. and Spain has existed since April 21, when an American naval blockade of the Spanish colony of Cuba began.",
-    "fallbackStart": "Spanish–American War"
   },
   {
     "date": "2026-04-26",
@@ -1043,25 +967,6 @@
     "fallbackStart": "International Telecommunication Union"
   },
   {
-    "date": "2026-05-18",
-    "puzzleNumber": 56,
-    "startTitle": "Supreme Court of the United States",
-    "endTitle": "Romeo and Juliet",
-    "optimalPath": [
-      "Supreme Court of the United States",
-      "American Revolution",
-      "Bible",
-      "William Shakespeare",
-      "Romeo and Juliet"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "American Revolution"
-    ],
-    "eventSummary": "On this day in 1896: The United States Supreme Court rules in Plessy v. Ferguson that the \"separate but equal\" doctrine is constitutional.",
-    "fallbackStart": "Supreme Court of the United States"
-  },
-  {
     "date": "2026-05-19",
     "puzzleNumber": 57,
     "startTitle": "Buffalo Bill",
@@ -1155,25 +1060,6 @@
     ],
     "eventSummary": "On this day in 1873: The Canadian Parliament establishes the North-West Mounted Police, the forerunner of the Royal Canadian Mounted Police.",
     "fallbackStart": "North-West Mounted Police"
-  },
-  {
-    "date": "2026-05-24",
-    "puzzleNumber": 62,
-    "startTitle": "Brooklyn Bridge",
-    "endTitle": "Romeo and Juliet",
-    "optimalPath": [
-      "Brooklyn Bridge",
-      "Cold War",
-      "Liberalism",
-      "William Shakespeare",
-      "Romeo and Juliet"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "Cold War"
-    ],
-    "eventSummary": "On this day in 1883: The Brooklyn Bridge in New York City is opened to traffic after 14 years of construction.",
-    "fallbackStart": "Brooklyn Bridge"
   },
   {
     "date": "2026-05-25",
@@ -1328,24 +1214,6 @@
     "fallbackStart": "United States Census Bureau"
   },
   {
-    "date": "2026-06-02",
-    "puzzleNumber": 71,
-    "startTitle": "Guglielmo Marconi",
-    "endTitle": "Martin Luther",
-    "optimalPath": [
-      "Guglielmo Marconi",
-      "Albert Einstein",
-      "Adolf Hitler",
-      "Martin Luther"
-    ],
-    "pathLength": 3,
-    "hintLinks": [
-      "Albert Einstein"
-    ],
-    "eventSummary": "On this day in 1896: Guglielmo Marconi applies for a patent for his wireless telegraph.",
-    "fallbackStart": "Guglielmo Marconi"
-  },
-  {
     "date": "2026-06-03",
     "puzzleNumber": 72,
     "startTitle": "Electric power transmission",
@@ -1477,25 +1345,6 @@
     ],
     "eventSummary": "On this day in 1863: American Civil War: The Battle of Brandy Station in Virginia, the largest cavalry battle on American soil, ends Confederate cavalry dominance in the eastern theater.",
     "fallbackStart": "Battle of Brandy Station"
-  },
-  {
-    "date": "2026-06-10",
-    "puzzleNumber": 79,
-    "startTitle": "Spanish–American War",
-    "endTitle": "Romeo and Juliet",
-    "optimalPath": [
-      "Spanish–American War",
-      "American Revolution",
-      "Bible",
-      "William Shakespeare",
-      "Romeo and Juliet"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "American Revolution"
-    ],
-    "eventSummary": "On this day in 1898: Spanish–American War: In the Battle of Guantánamo Bay, U.S. Marines begin the American invasion of Spanish-held Cuba.",
-    "fallbackStart": "Spanish–American War"
   },
   {
     "date": "2026-06-11",
@@ -1876,25 +1725,6 @@
     ],
     "eventSummary": "On this day in 1892: The Homestead Strike begins near Pittsburgh, Pennsylvania.",
     "fallbackStart": "Homestead strike"
-  },
-  {
-    "date": "2026-07-01",
-    "puzzleNumber": 100,
-    "startTitle": "Spanish–American War",
-    "endTitle": "Romeo and Juliet",
-    "optimalPath": [
-      "Spanish–American War",
-      "American Revolution",
-      "Bible",
-      "William Shakespeare",
-      "Romeo and Juliet"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "American Revolution"
-    ],
-    "eventSummary": "On this day in 1898: Spanish–American War: The Battle of San Juan Hill is fought in Santiago de Cuba, Cuba.",
-    "fallbackStart": "Spanish–American War"
   },
   {
     "date": "2026-07-02",
@@ -2332,25 +2162,6 @@
     "fallbackStart": "Reconstruction era"
   },
   {
-    "date": "2026-07-25",
-    "puzzleNumber": 124,
-    "startTitle": "Spanish–American War",
-    "endTitle": "Romeo and Juliet",
-    "optimalPath": [
-      "Spanish–American War",
-      "American Revolution",
-      "Bible",
-      "William Shakespeare",
-      "Romeo and Juliet"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "American Revolution"
-    ],
-    "eventSummary": "On this day in 1898: Spanish–American War: The American invasion of Spanish-held Puerto Rico begins, as United States Army troops under General Nelson A. Miles land and secure the port at Guánica.",
-    "fallbackStart": "Spanish–American War"
-  },
-  {
     "date": "2026-07-26",
     "puzzleNumber": 125,
     "startTitle": "Ulises Heureaux",
@@ -2406,25 +2217,6 @@
     ],
     "eventSummary": "On this day in 1896: The city of Miami is incorporated.",
     "fallbackStart": "Miami"
-  },
-  {
-    "date": "2026-07-29",
-    "puzzleNumber": 128,
-    "startTitle": "Hague Conventions of 1899 and 1907",
-    "endTitle": "Romeo and Juliet",
-    "optimalPath": [
-      "Hague Conventions of 1899 and 1907",
-      "United States",
-      "English language",
-      "William Shakespeare",
-      "Romeo and Juliet"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "United States"
-    ],
-    "eventSummary": "On this day in 1899: The First Hague Convention is signed.",
-    "fallbackStart": "Hague Conventions of 1899 and 1907"
   },
   {
     "date": "2026-07-30",
@@ -2654,25 +2446,6 @@
     "fallbackStart": "American Civil War"
   },
   {
-    "date": "2026-08-11",
-    "puzzleNumber": 141,
-    "startTitle": "Spanish–American War",
-    "endTitle": "Romeo and Juliet",
-    "optimalPath": [
-      "Spanish–American War",
-      "American Revolution",
-      "Bible",
-      "William Shakespeare",
-      "Romeo and Juliet"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "American Revolution"
-    ],
-    "eventSummary": "On this day in 1898: Spanish–American War: American troops enter the city of Mayagüez, Puerto Rico.",
-    "fallbackStart": "Spanish–American War"
-  },
-  {
     "date": "2026-08-12",
     "puzzleNumber": 142,
     "startTitle": "Flag of Hawaii",
@@ -2898,5 +2671,232 @@
     ],
     "eventSummary": "On this day in 1866: The Austro-Prussian War ends with the Treaty of Prague.",
     "fallbackStart": "Austro-Prussian War"
+  },
+  {
+    "date": "2026-04-07",
+    "puzzleNumber": 142,
+    "startTitle": "Thomas D'Arcy McGee",
+    "endTitle": "Medicine",
+    "optimalPath": [
+      "Thomas D'Arcy McGee",
+      "British Empire",
+      "Africa",
+      "Mesopotamia",
+      "Medicine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "British Empire"
+    ],
+    "eventSummary": "On this day in 1868: Thomas D'Arcy McGee, one of the Canadian Fathers of Confederation, is assassinated by a Fenian activist.",
+    "fallbackStart": "Thomas D'Arcy McGee"
+  },
+  {
+    "date": "2026-04-15",
+    "puzzleNumber": 143,
+    "startTitle": "General Electric",
+    "endTitle": "Norse mythology",
+    "optimalPath": [
+      "General Electric",
+      "New York City",
+      "Athens",
+      "Greek mythology",
+      "Norse mythology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "New York City"
+    ],
+    "eventSummary": "On this day in 1892: The General Electric Company is formed.",
+    "fallbackStart": "General Electric"
+  },
+  {
+    "date": "2026-04-20",
+    "puzzleNumber": 144,
+    "startTitle": "William McKinley",
+    "endTitle": "Telephone",
+    "optimalPath": [
+      "William McKinley",
+      "American Civil War",
+      "Cold War",
+      "Internet",
+      "Telephone"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Civil War"
+    ],
+    "eventSummary": "On this day in 1898: U.S. President William McKinley signs a joint resolution to Congress for declaration of war against Spain, beginning the Spanish–American War.",
+    "fallbackStart": "William McKinley"
+  },
+  {
+    "date": "2026-04-25",
+    "puzzleNumber": 145,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: The United States Congress declares that a state of war between the U.S. and Spain has existed since April 21, when an American naval blockade of the Spanish colony of Cuba began.",
+    "fallbackStart": "Spanish–American War"
+  },
+  {
+    "date": "2026-05-18",
+    "puzzleNumber": 146,
+    "startTitle": "Supreme Court of the United States",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Supreme Court of the United States",
+      "Judaism",
+      "Philosophy",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Judaism"
+    ],
+    "eventSummary": "On this day in 1896: The United States Supreme Court rules in Plessy v. Ferguson that the \"separate but equal\" doctrine is constitutional.",
+    "fallbackStart": "Supreme Court of the United States"
+  },
+  {
+    "date": "2026-05-24",
+    "puzzleNumber": 147,
+    "startTitle": "Brooklyn Bridge",
+    "endTitle": "Norse mythology",
+    "optimalPath": [
+      "Brooklyn Bridge",
+      "Cold War",
+      "Africa",
+      "Myth",
+      "Norse mythology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Cold War"
+    ],
+    "eventSummary": "On this day in 1883: The Brooklyn Bridge in New York City is opened to traffic after 14 years of construction.",
+    "fallbackStart": "Brooklyn Bridge"
+  },
+  {
+    "date": "2026-06-02",
+    "puzzleNumber": 148,
+    "startTitle": "Guglielmo Marconi",
+    "endTitle": "Gravity",
+    "optimalPath": [
+      "Guglielmo Marconi",
+      "Albert Einstein",
+      "Electromagnetism",
+      "Gravity"
+    ],
+    "pathLength": 3,
+    "hintLinks": [
+      "Albert Einstein"
+    ],
+    "eventSummary": "On this day in 1896: Guglielmo Marconi applies for a patent for his wireless telegraph.",
+    "fallbackStart": "Guglielmo Marconi"
+  },
+  {
+    "date": "2026-06-10",
+    "puzzleNumber": 149,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: In the Battle of Guantánamo Bay, U.S. Marines begin the American invasion of Spanish-held Cuba.",
+    "fallbackStart": "Spanish–American War"
+  },
+  {
+    "date": "2026-07-01",
+    "puzzleNumber": 150,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: The Battle of San Juan Hill is fought in Santiago de Cuba, Cuba.",
+    "fallbackStart": "Spanish–American War"
+  },
+  {
+    "date": "2026-07-25",
+    "puzzleNumber": 151,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: The American invasion of Spanish-held Puerto Rico begins, as United States Army troops under General Nelson A. Miles land and secure the port at Guánica.",
+    "fallbackStart": "Spanish–American War"
+  },
+  {
+    "date": "2026-07-29",
+    "puzzleNumber": 152,
+    "startTitle": "Hague Conventions of 1899 and 1907",
+    "endTitle": "Theory of relativity",
+    "optimalPath": [
+      "Hague Conventions of 1899 and 1907",
+      "Abraham Lincoln",
+      "Benjamin Franklin",
+      "History",
+      "Theory of relativity"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Abraham Lincoln"
+    ],
+    "eventSummary": "On this day in 1899: The First Hague Convention is signed.",
+    "fallbackStart": "Hague Conventions of 1899 and 1907"
+  },
+  {
+    "date": "2026-08-11",
+    "puzzleNumber": 153,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: American troops enter the city of Mayagüez, Puerto Rico.",
+    "fallbackStart": "Spanish–American War"
   }
 ]
