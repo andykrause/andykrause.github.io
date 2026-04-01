@@ -16,7 +16,17 @@
       "Black Death"
     ],
     "eventSummary": "On this day in 1882: Robert Koch announces the discovery of Mycobacterium tuberculosis, the bacterium responsible for tuberculosis.",
-    "fallbackStart": "Robert Koch"
+    "fallbackStart": "Robert Koch",
+    "quiz": {
+      "question": "In what year did Robert Koch win the Nobel Prize in Physiology or Medicine?",
+      "choices": [
+        "1895",
+        "1905",
+        "1915",
+        "1925"
+      ],
+      "answer": "1905"
+    }
   },
   {
     "date": "2026-03-25",
@@ -35,7 +45,17 @@
       "Karl Marx"
     ],
     "eventSummary": "On this day in 1878: Last issue of the Bulletin de la Fédération jurassienne, the first or one of the first anarchist newspapers.",
-    "fallbackStart": "Bulletin de la Fédération jurassienne"
+    "fallbackStart": "Bulletin de la Fédération jurassienne",
+    "quiz": {
+      "question": "In which Swiss locations was the Bulletin de la Fédération jurassienne published during its run from 1872 to 1878?",
+      "choices": [
+        "Sonvilier, Le Locle, and La Chaux-de-Fonds",
+        "Geneva, Bern, and Zurich",
+        "Sonvilier, Basel, and La Chaux-de-Fonds",
+        "Le Locle, Lausanne, and La Chaux-de-Fonds"
+      ],
+      "answer": "Sonvilier, Le Locle, and La Chaux-de-Fonds"
+    }
   },
   {
     "date": "2026-03-26",
@@ -54,7 +74,17 @@
       "Albert Einstein"
     ],
     "eventSummary": "On this day in 1871: The elections of Commune council of the Paris Commune are held.",
-    "fallbackStart": "Paris Commune"
+    "fallbackStart": "Paris Commune",
+    "quiz": {
+      "question": "During which time period did the Paris Commune control parts of Paris?",
+      "choices": [
+        "18 March 1871 to 28 May 1871",
+        "September 1870 to March 1871",
+        "18 March 1870 to 28 May 1870",
+        "28 May 1871 to September 1871"
+      ],
+      "answer": "18 March 1871 to 28 May 1871"
+    }
   },
   {
     "date": "2026-03-27",
@@ -73,7 +103,17 @@
       "Franklin D. Roosevelt"
     ],
     "eventSummary": "On this day in 1899: Emilio Aguinaldo leads Filipino forces for the only time during the Philippine–American War at the Battle of Marilao River.",
-    "fallbackStart": "Emilio Aguinaldo"
+    "fallbackStart": "Emilio Aguinaldo",
+    "quiz": {
+      "question": "According to the article, Emilio Aguinaldo led Philippine forces against how many different powers during his military career?",
+      "choices": [
+        "Two different powers",
+        "Three different powers",
+        "Four different powers",
+        "Five different powers"
+      ],
+      "answer": "Three different powers"
+    }
   },
   {
     "date": "2026-03-28",
@@ -92,7 +132,17 @@
       "Abraham Lincoln"
     ],
     "eventSummary": "On this day in 1862: American Civil War: In the Battle of Glorieta Pass, Union forces stop the Confederate invasion of the New Mexico Territory. The battle began on March 26.",
-    "fallbackStart": "American Civil War"
+    "fallbackStart": "American Civil War",
+    "quiz": {
+      "question": "According to the article, in what year was the Confederacy formed?",
+      "choices": [
+        "1859",
+        "1861",
+        "1865",
+        "1863"
+      ],
+      "answer": "1861"
+    }
   },
   {
     "date": "2026-03-29",
@@ -111,7 +161,17 @@
       "Ancient Rome"
     ],
     "eventSummary": "On this day in 1882: The Knights of Columbus is established.",
-    "fallbackStart": "Knights of Columbus"
+    "fallbackStart": "Knights of Columbus",
+    "quiz": {
+      "question": "According to the article, who founded the Knights of Columbus?",
+      "choices": [
+        "Blessed Michael J. McGivney",
+        "Patrick E. Kelly",
+        "Pope Leo XIII",
+        "James Gibbons"
+      ],
+      "answer": "Blessed Michael J. McGivney"
+    }
   },
   {
     "date": "2026-03-30",
@@ -130,7 +190,17 @@
       "China"
     ],
     "eventSummary": "On this day in 1899: German Society of Chemistry issues an invitation to other national scientific organizations to appoint delegates to the International Committee on Atomic Weights.",
-    "fallbackStart": "Commission on Isotopic Abundances and Atomic Weights"
+    "fallbackStart": "Commission on Isotopic Abundances and Atomic Weights",
+    "quiz": {
+      "question": "Since what year has the Commission on Isotopic Abundances and Atomic Weights been entrusted with evaluating atomic weights of chemical elements?",
+      "choices": [
+        "1899",
+        "1920",
+        "1945",
+        "1971"
+      ],
+      "answer": "1899"
+    }
   },
   {
     "date": "2026-03-31",
@@ -149,7 +219,17 @@
       "Cold War"
     ],
     "eventSummary": "On this day in 1899: Philippine–American War: Malolos, capital of the First Philippine Republic, is captured by American forces.",
-    "fallbackStart": "Philippine–American War"
+    "fallbackStart": "Philippine–American War",
+    "quiz": {
+      "question": "According to the article, when did Philippine nationalists proclaim independence?",
+      "choices": [
+        "December 1898",
+        "January 1899",
+        "June 1898",
+        "February 1899"
+      ],
+      "answer": "June 1898"
+    }
   },
   {
     "date": "2026-04-01",
@@ -168,7 +248,17 @@
       "British Empire"
     ],
     "eventSummary": "On this day in 1873: The White Star steamer SS Atlantic sinks off Nova Scotia, killing 547 in one of the worst marine disasters of the 19th century.",
-    "fallbackStart": "White Star Line"
+    "fallbackStart": "White Star Line",
+    "quiz": {
+      "question": "According to the article, what did the White Star Line prioritize in their shipping services, unlike many of their competitors?",
+      "choices": [
+        "Speed and quick delivery times",
+        "Comfortable passages for passengers",
+        "Low prices for cargo transport",
+        "Advanced steam engine technology"
+      ],
+      "answer": "Comfortable passages for passengers"
+    }
   },
   {
     "date": "2026-04-02",
@@ -187,7 +277,17 @@
       "Abraham Lincoln"
     ],
     "eventSummary": "On this day in 1865: American Civil War: Defeat at the Third Battle of Petersburg forces the Army of Northern Virginia and the Confederate government to abandon Richmond, Virginia.",
-    "fallbackStart": "Third Battle of Petersburg"
+    "fallbackStart": "Third Battle of Petersburg",
+    "quiz": {
+      "question": "According to the article, what Union victory immediately preceded the Third Battle of Petersburg and exposed the Confederate right flank?",
+      "choices": [
+        "Battle of Five Forks on April 1, 1865",
+        "Battle of Appomattox on March 31, 1865",
+        "Battle of Dinwiddie Courthouse on March 30, 1865",
+        "Battle of the Crater on July 30, 1864"
+      ],
+      "answer": "Battle of Five Forks on April 1, 1865"
+    }
   },
   {
     "date": "2026-04-03",
@@ -206,7 +306,17 @@
       "Christianity"
     ],
     "eventSummary": "On this day in 1895: The trial in the libel case brought by Oscar Wilde begins, eventually resulting in his imprisonment on charges of homosexuality.",
-    "fallbackStart": "Defamation"
+    "fallbackStart": "Defamation",
+    "quiz": {
+      "question": "According to the Wikipedia article on Defamation, what is a key characteristic of how defamation is defined across different countries?",
+      "choices": [
+        "The legal definition is identical in every country",
+        "The precise legal definition varies from country to country",
+        "It only applies to written statements, not spoken ones",
+        "It is exclusively limited to false assertions about reputation"
+      ],
+      "answer": "The precise legal definition varies from country to country"
+    }
   },
   {
     "date": "2026-04-04",
@@ -225,7 +335,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1866: Alexander II of Russia narrowly escapes an assassination attempt by Dmitry Karakozov in the city of Saint Petersburg.",
-    "fallbackStart": "Alexander II of Russia"
+    "fallbackStart": "Alexander II of Russia",
+    "quiz": {
+      "question": "Why is Alexander II known as 'Alexander the Liberator'?",
+      "choices": [
+        "Because he freed Russia from foreign occupation",
+        "Because of his historic Edict of Emancipation, which abolished Russian serfdom in 1861",
+        "Because he granted the Russian people a constitution and parliament",
+        "Because he liberated Poland from Russian control"
+      ],
+      "answer": "Because of his historic Edict of Emancipation, which abolished Russian serfdom in 1861"
+    }
   },
   {
     "date": "2026-04-05",
@@ -244,7 +364,17 @@
       "Agriculture"
     ],
     "eventSummary": "On this day in 1879: Bolivia declares war on Chile, and Chile declares war on Peru, starting the War of the Pacific.",
-    "fallbackStart": "Bolivia"
+    "fallbackStart": "Bolivia",
+    "quiz": {
+      "question": "According to the article, which city serves as the constitutional capital of Bolivia and is the seat of the judiciary?",
+      "choices": [
+        "La Paz",
+        "Sucre",
+        "Santa Cruz de la Sierra",
+        "Cochabamba"
+      ],
+      "answer": "Sucre"
+    }
   },
   {
     "date": "2026-04-06",
@@ -263,7 +393,46 @@
       "Alexander the Great"
     ],
     "eventSummary": "On this day in 1896: In Athens, the opening of the first modern Olympic Games is celebrated, 1,500 years after the original games are banned by Roman emperor Theodosius I.",
-    "fallbackStart": "Athens"
+    "fallbackStart": "Athens",
+    "quiz": {
+      "question": "According to the article, what is the approximate population of Athens's urban area?",
+      "choices": [
+        "Over 3.6 million",
+        "643,452",
+        "Over 5 million",
+        "Over 2 million"
+      ],
+      "answer": "Over 3.6 million"
+    }
+  },
+  {
+    "date": "2026-04-07",
+    "puzzleNumber": 15,
+    "startTitle": "Thomas D'Arcy McGee",
+    "endTitle": "Medicine",
+    "optimalPath": [
+      "Thomas D'Arcy McGee",
+      "British Empire",
+      "Africa",
+      "Mesopotamia",
+      "Medicine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "British Empire"
+    ],
+    "eventSummary": "On this day in 1868: Thomas D'Arcy McGee, one of the Canadian Fathers of Confederation, is assassinated by a Fenian activist.",
+    "fallbackStart": "Thomas D'Arcy McGee",
+    "quiz": {
+      "question": "According to the article, what year did Thomas D'Arcy McGee flee to the United States?",
+      "choices": [
+        "1845",
+        "1848",
+        "1851",
+        "1854"
+      ],
+      "answer": "1848"
+    }
   },
   {
     "date": "2026-04-08",
@@ -282,7 +451,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1895: In Pollock v. Farmers' Loan & Trust Co. the Supreme Court of the United States declares unapportioned income tax to be unconstitutional.",
-    "fallbackStart": "Pollock v. Farmers' Loan & Trust Co."
+    "fallbackStart": "Pollock v. Farmers' Loan & Trust Co.",
+    "quiz": {
+      "question": "What constitutional amendment in 1913 superseded the Pollock v. Farmers' Loan & Trust Co. decision by allowing Congress to levy income taxes without apportioning them among the states?",
+      "choices": [
+        "The Fifteenth Amendment",
+        "The Sixteenth Amendment",
+        "The Seventeenth Amendment",
+        "The Eighteenth Amendment"
+      ],
+      "answer": "The Sixteenth Amendment"
+    }
   },
   {
     "date": "2026-04-09",
@@ -301,7 +480,17 @@
       "Napoleonic Wars"
     ],
     "eventSummary": "On this day in 1865: American Civil War: Robert E. Lee surrenders the Army of Northern Virginia (26,765 troops) to Ulysses S. Grant at Appomattox Court House, Virginia, effectively ending the war.",
-    "fallbackStart": "American Civil War"
+    "fallbackStart": "American Civil War",
+    "quiz": {
+      "question": "According to the article, in what year was the Confederacy formed?",
+      "choices": [
+        "1859",
+        "1860",
+        "1861",
+        "1865"
+      ],
+      "answer": "1861"
+    }
   },
   {
     "date": "2026-04-10",
@@ -319,7 +508,17 @@
       "Age of Enlightenment"
     ],
     "eventSummary": "On this day in 1887: On Easter Sunday, Pope Leo XIII authorizes the establishment of the Catholic University of America.",
-    "fallbackStart": "Easter"
+    "fallbackStart": "Easter",
+    "quiz": {
+      "question": "According to the article, how many days of fasting, prayer, and penance make up the period of Lent that precedes Easter?",
+      "choices": [
+        "30 days",
+        "40 days",
+        "50 days",
+        "7 days"
+      ],
+      "answer": "40 days"
+    }
   },
   {
     "date": "2026-04-11",
@@ -338,7 +537,17 @@
       "World War I"
     ],
     "eventSummary": "On this day in 1885: Luton Town F.C. is founded.",
-    "fallbackStart": "Luton Town F.C."
+    "fallbackStart": "Luton Town F.C.",
+    "quiz": {
+      "question": "Since what year have Luton Town F.C. played their home games at Kenilworth Road?",
+      "choices": [
+        "1895",
+        "1905",
+        "1915",
+        "1925"
+      ],
+      "answer": "1905"
+    }
   },
   {
     "date": "2026-04-12",
@@ -356,7 +565,17 @@
       "Age of Discovery"
     ],
     "eventSummary": "On this day in 1877: The United Kingdom annexes the Transvaal.",
-    "fallbackStart": "United Kingdom"
+    "fallbackStart": "United Kingdom",
+    "quiz": {
+      "question": "According to the article, which of the following is the capital city of Scotland?",
+      "choices": [
+        "Edinburgh",
+        "Cardiff",
+        "Belfast",
+        "London"
+      ],
+      "answer": "Edinburgh"
+    }
   },
   {
     "date": "2026-04-13",
@@ -375,7 +594,17 @@
       "Abraham Lincoln"
     ],
     "eventSummary": "On this day in 1873: The Colfax massacre: More than 60 to 150 black men are murdered in Colfax, Louisiana, while surrendering to a mob of former Confederate soldiers and members of the Ku Klux Klan.",
-    "fallbackStart": "Colfax massacre"
+    "fallbackStart": "Colfax massacre",
+    "quiz": {
+      "question": "On what date did the Colfax massacre occur?",
+      "choices": [
+        "Easter Sunday, April 13, 1873",
+        "Easter Sunday, April 13, 1872",
+        "Good Friday, April 13, 1873",
+        "Easter Sunday, April 20, 1873"
+      ],
+      "answer": "Easter Sunday, April 13, 1873"
+    }
   },
   {
     "date": "2026-04-14",
@@ -394,7 +623,46 @@
       "Africa"
     ],
     "eventSummary": "On this day in 1894: The first ever commercial motion picture house opens in New York City, United States. It uses ten Kinetoscopes, devices for peep-show viewing of films.",
-    "fallbackStart": "Film"
+    "fallbackStart": "Film",
+    "quiz": {
+      "question": "According to the article extract, since when have films generally been synchronized with sound?",
+      "choices": [
+        "Since the 1920s",
+        "Since the 1930s",
+        "Since the 1940s",
+        "Since the 1950s"
+      ],
+      "answer": "Since the 1930s"
+    }
+  },
+  {
+    "date": "2026-04-15",
+    "puzzleNumber": 23,
+    "startTitle": "General Electric",
+    "endTitle": "Norse mythology",
+    "optimalPath": [
+      "General Electric",
+      "New York City",
+      "Athens",
+      "Greek mythology",
+      "Norse mythology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "New York City"
+    ],
+    "eventSummary": "On this day in 1892: The General Electric Company is formed.",
+    "fallbackStart": "General Electric",
+    "quiz": {
+      "question": "In what year was General Electric Company (GE) founded?",
+      "choices": [
+        "1882",
+        "1892",
+        "1902",
+        "1912"
+      ],
+      "answer": "1892"
+    }
   },
   {
     "date": "2026-04-16",
@@ -413,7 +681,17 @@
       "Christianity"
     ],
     "eventSummary": "On this day in 1881: In Dodge City, Kansas, Bat Masterson fights his last gun battle.",
-    "fallbackStart": "Dodge City, Kansas"
+    "fallbackStart": "Dodge City, Kansas",
+    "quiz": {
+      "question": "What was Fort Dodge, after which Dodge City was named, named in honor of?",
+      "choices": [
+        "Grenville Dodge",
+        "Buffalo Bill Cody",
+        "Wyatt Earp",
+        "Wild Bill Hickok"
+      ],
+      "answer": "Grenville Dodge"
+    }
   },
   {
     "date": "2026-04-17",
@@ -432,7 +710,17 @@
       "China"
     ],
     "eventSummary": "On this day in 1895: The Treaty of Shimonoseki between China and Japan is signed. This marks the end of the First Sino-Japanese War, and the defeated Qing Empire is forced to renounce its claims on Korea and to concede the southern portion of the Fengtian province, Taiwan and the Penghu to Japan.",
-    "fallbackStart": "Treaty of Shimonoseki"
+    "fallbackStart": "Treaty of Shimonoseki",
+    "quiz": {
+      "question": "According to the article, who signed the Treaty of Shimonoseki on behalf of China?",
+      "choices": [
+        "Li Hongzhang and his son Li Jingfang",
+        "Count Itō Hirobumi and Viscount Mutsu Munemitsu",
+        "The Qing Emperor and his military general",
+        "Li Hongzhang and Count Itō Hirobumi"
+      ],
+      "answer": "Li Hongzhang and his son Li Jingfang"
+    }
   },
   {
     "date": "2026-04-18",
@@ -451,7 +739,17 @@
       "Europe"
     ],
     "eventSummary": "On this day in 1897: The Greco-Turkish War is declared between Greece and the Ottoman Empire.",
-    "fallbackStart": "Greco-Turkish War (1897)"
+    "fallbackStart": "Greco-Turkish War (1897)",
+    "quiz": {
+      "question": "What was the immediate cause of the Greco-Turkish War of 1897?",
+      "choices": [
+        "The status of the Ottoman province of Crete and its desire for union with Greece",
+        "A trade dispute between Greek and Ottoman merchants",
+        "The Ottoman Empire's expansion into Greek territories in the Balkans",
+        "A conflict over control of the Aegean Sea islands"
+      ],
+      "answer": "The status of the Ottoman province of Crete and its desire for union with Greece"
+    }
   },
   {
     "date": "2026-04-19",
@@ -470,7 +768,46 @@
       "Abraham Lincoln"
     ],
     "eventSummary": "On this day in 1861: American Civil War: Baltimore riot of 1861: A pro-Secession mob in Baltimore attacks United States Army troops marching through the city.",
-    "fallbackStart": "American Civil War"
+    "fallbackStart": "American Civil War",
+    "quiz": {
+      "question": "According to the article, what event triggered the formation of the Confederacy in 1861?",
+      "choices": [
+        "The election of Abraham Lincoln and the growing abolitionist movement in the North",
+        "The Union's invasion of Southern states",
+        "The passage of the Emancipation Proclamation",
+        "A trade dispute between Northern and Southern states"
+      ],
+      "answer": "The election of Abraham Lincoln and the growing abolitionist movement in the North"
+    }
+  },
+  {
+    "date": "2026-04-20",
+    "puzzleNumber": 28,
+    "startTitle": "William McKinley",
+    "endTitle": "Telephone",
+    "optimalPath": [
+      "William McKinley",
+      "American Civil War",
+      "Cold War",
+      "Internet",
+      "Telephone"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "American Civil War"
+    ],
+    "eventSummary": "On this day in 1898: U.S. President William McKinley signs a joint resolution to Congress for declaration of war against Spain, beginning the Spanish–American War.",
+    "fallbackStart": "William McKinley",
+    "quiz": {
+      "question": "Which of the following territories was NOT annexed by the United States during William McKinley's presidency?",
+      "choices": [
+        "Cuba",
+        "Hawaii",
+        "Puerto Rico",
+        "Guam"
+      ],
+      "answer": "Cuba"
+    }
   },
   {
     "date": "2026-04-21",
@@ -489,7 +826,17 @@
       "Asia"
     ],
     "eventSummary": "On this day in 1898: Spanish–American War: The United States Navy begins a blockade of Cuban ports. When the U.S. Congress issued a declaration of war on April 25, it declared that a state of war had existed from this date.",
-    "fallbackStart": "Spanish–American War"
+    "fallbackStart": "Spanish–American War",
+    "quiz": {
+      "question": "Which of the following territories did the United States acquire sovereignty over as a result of the Spanish–American War?",
+      "choices": [
+        "Puerto Rico, Guam, and the Philippines",
+        "Cuba, Puerto Rico, and Guam",
+        "The Philippines, Hawaii, and Puerto Rico",
+        "Guam, Cuba, and the Virgin Islands"
+      ],
+      "answer": "Puerto Rico, Guam, and the Philippines"
+    }
   },
   {
     "date": "2026-04-22",
@@ -508,7 +855,17 @@
       "Asia"
     ],
     "eventSummary": "On this day in 1898: Spanish–American War: President William McKinley calls for 125,000 volunteers to join the National Guard and fight in Cuba, while Congress more than doubles regular Army forces to 65,000.",
-    "fallbackStart": "Spanish–American War"
+    "fallbackStart": "Spanish–American War",
+    "quiz": {
+      "question": "Which of the following territories did the United States NOT acquire sovereignty over as a result of the Spanish–American War?",
+      "choices": [
+        "Puerto Rico",
+        "Cuba",
+        "Guam",
+        "The Philippines"
+      ],
+      "answer": "Cuba"
+    }
   },
   {
     "date": "2026-04-23",
@@ -527,7 +884,17 @@
       "Colosseum"
     ],
     "eventSummary": "On this day in 1879: Fire burns down the second main building and dome of the University of Notre Dame, which prompts the construction of the third, and current, Main Building with its golden dome.",
-    "fallbackStart": "University of Notre Dame"
+    "fallbackStart": "University of Notre Dame",
+    "quiz": {
+      "question": "What is the size of the University of Notre Dame's main campus?",
+      "choices": [
+        "1,261 acres",
+        "892 acres",
+        "1,500 acres",
+        "2,100 acres"
+      ],
+      "answer": "1,261 acres"
+    }
   },
   {
     "date": "2026-04-24",
@@ -546,7 +913,46 @@
       "Brazil"
     ],
     "eventSummary": "On this day in 1895: Joshua Slocum, the first person to sail single-handedly around the world, sets sail from Boston, Massachusetts aboard the sloop Spray.",
-    "fallbackStart": "Joshua Slocum"
+    "fallbackStart": "Joshua Slocum",
+    "quiz": {
+      "question": "In what year did Joshua Slocum publish his book 'Sailing Alone Around the World'?",
+      "choices": [
+        "1898",
+        "1900",
+        "1905",
+        "1909"
+      ],
+      "answer": "1900"
+    }
+  },
+  {
+    "date": "2026-04-25",
+    "puzzleNumber": 33,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: The United States Congress declares that a state of war between the U.S. and Spain has existed since April 21, when an American naval blockade of the Spanish colony of Cuba began.",
+    "fallbackStart": "Spanish–American War",
+    "quiz": {
+      "question": "Which of the following territories did the United States NOT acquire as a direct result of winning the Spanish–American War?",
+      "choices": [
+        "Puerto Rico",
+        "Guam",
+        "Cuba",
+        "The Philippines"
+      ],
+      "answer": "Cuba"
+    }
   },
   {
     "date": "2026-04-26",
@@ -565,7 +971,17 @@
       "Abraham Lincoln"
     ],
     "eventSummary": "On this day in 1865: Union cavalry troopers corner and shoot dead John Wilkes Booth, assassin of President Abraham Lincoln, in Virginia.",
-    "fallbackStart": "Union (American Civil War)"
+    "fallbackStart": "Union (American Civil War)",
+    "quiz": {
+      "question": "According to the article, what event triggered the formation of the Confederate States of America?",
+      "choices": [
+        "The election of Abraham Lincoln as president in 1860",
+        "The passage of the Emancipation Proclamation",
+        "The attack on Fort Sumter in April 1861",
+        "The election of Jefferson Davis as Confederate president"
+      ],
+      "answer": "The election of Abraham Lincoln as president in 1860"
+    }
   },
   {
     "date": "2026-04-27",
@@ -584,7 +1000,17 @@
       "Martin Luther King Jr."
     ],
     "eventSummary": "On this day in 1861: American President Abraham Lincoln suspends the writ of habeas corpus.",
-    "fallbackStart": "President of the United States"
+    "fallbackStart": "President of the United States",
+    "quiz": {
+      "question": "According to the article, which of the following is NOT listed as a role of the President of the United States?",
+      "choices": [
+        "Head of state and head of government",
+        "Commander-in-chief of the United States Armed Forces",
+        "Chief Justice of the Supreme Court",
+        "Director of the executive branch of the federal government"
+      ],
+      "answer": "Chief Justice of the Supreme Court"
+    }
   },
   {
     "date": "2026-04-28",
@@ -603,7 +1029,17 @@
       "Germany"
     ],
     "eventSummary": "On this day in 1887: A week after being arrested by the Prussian Secret Police, French police inspector Guillaume Schnaebelé is released on order of William I, German Emperor, defusing a possible war.",
-    "fallbackStart": "Prussian Secret Police"
+    "fallbackStart": "Prussian Secret Police",
+    "quiz": {
+      "question": "During which time period did the Prussian Secret Police operate?",
+      "choices": [
+        "The 19th and early 20th centuries",
+        "The 18th and 19th centuries",
+        "The early 20th and mid-20th centuries",
+        "The late 17th and 18th centuries"
+      ],
+      "answer": "The 19th and early 20th centuries"
+    }
   },
   {
     "date": "2026-04-29",
@@ -622,7 +1058,17 @@
       "Abraham Lincoln"
     ],
     "eventSummary": "On this day in 1862: American Civil War: The Capture of New Orleans by Union forces under David Farragut.",
-    "fallbackStart": "American Civil War"
+    "fallbackStart": "American Civil War",
+    "quiz": {
+      "question": "According to the article, in what year was the Confederacy formed?",
+      "choices": [
+        "1859",
+        "1861",
+        "1865",
+        "1863"
+      ],
+      "answer": "1861"
+    }
   },
   {
     "date": "2026-04-30",
@@ -641,7 +1087,17 @@
       "Electromagnetism"
     ],
     "eventSummary": "On this day in 1897: J. J. Thomson of the Cavendish Laboratory announces his discovery of the electron as a subatomic particle, over 1,800 times smaller than a proton (in the atomic nucleus), at a lecture at the Royal Institution in London.",
-    "fallbackStart": "J. J. Thomson"
+    "fallbackStart": "J. J. Thomson",
+    "quiz": {
+      "question": "In what year did J. J. Thomson discover that cathode rays were composed of negatively charged particles?",
+      "choices": [
+        "1897",
+        "1906",
+        "1895",
+        "1902"
+      ],
+      "answer": "1897"
+    }
   },
   {
     "date": "2026-05-01",
@@ -660,7 +1116,17 @@
       "Asia"
     ],
     "eventSummary": "On this day in 1898: Spanish–American War: Battle of Manila Bay: The Asiatic Squadron of the United States Navy destroys the Pacific Squadron of the Spanish Navy after a seven-hour battle. Spain loses all seven of its ships, and 381 Spanish sailors die. There are no American vessel losses or combat deaths.",
-    "fallbackStart": "Spanish–American War"
+    "fallbackStart": "Spanish–American War",
+    "quiz": {
+      "question": "Which of the following territories did the United States NOT acquire as a direct result of the Spanish–American War?",
+      "choices": [
+        "Puerto Rico",
+        "Cuba",
+        "Guam",
+        "The Philippines"
+      ],
+      "answer": "Cuba"
+    }
   },
   {
     "date": "2026-05-02",
@@ -679,7 +1145,17 @@
       "Communism"
     ],
     "eventSummary": "On this day in 1889: Menelik II, Emperor of Ethiopia, signs the Treaty of Wuchale, giving Italy control over Eritrea.",
-    "fallbackStart": "Menelik II"
+    "fallbackStart": "Menelik II",
+    "quiz": {
+      "question": "In what year did Menelik II become Emperor of Ethiopia?",
+      "choices": [
+        "1866",
+        "1889",
+        "1896",
+        "1913"
+      ],
+      "answer": "1889"
+    }
   },
   {
     "date": "2026-05-03",
@@ -698,7 +1174,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1855: American adventurer William Walker departs from San Francisco with about 60 men to conquer Nicaragua.",
-    "fallbackStart": "William Walker (filibuster)"
+    "fallbackStart": "William Walker (filibuster)",
+    "quiz": {
+      "question": "According to the article, what term was used in William Walker's era to describe his type of unauthorized military expeditions?",
+      "choices": [
+        "Mercenary campaigns",
+        "Filibustering",
+        "Manifest destiny operations",
+        "Colonial conquest"
+      ],
+      "answer": "Filibustering"
+    }
   },
   {
     "date": "2026-05-04",
@@ -717,7 +1203,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1886: Haymarket affair: In Chicago, United States, a homemade bomb is thrown at police officers trying to break up a labor rally, killing one officer. Ensuing gunfire leads to the deaths of a further seven officers and four civilians.",
-    "fallbackStart": "Haymarket affair"
+    "fallbackStart": "Haymarket affair",
+    "quiz": {
+      "question": "What was the primary reason for the workers' demonstration at Haymarket Square on May 4, 1886?",
+      "choices": [
+        "To protest against the McCormick Harvesting Machine Company",
+        "To support workers striking for an eight-hour work day",
+        "To demand better safety conditions in factories",
+        "To commemorate workers killed in previous labor disputes"
+      ],
+      "answer": "To support workers striking for an eight-hour work day"
+    }
   },
   {
     "date": "2026-05-05",
@@ -736,7 +1232,17 @@
       "New York City"
     ],
     "eventSummary": "On this day in 1891: The Music Hall in New York City (later known as Carnegie Hall) has its grand opening and first public performance, with Tchaikovsky as the guest conductor.",
-    "fallbackStart": "Carnegie Hall"
+    "fallbackStart": "Carnegie Hall",
+    "quiz": {
+      "question": "Who was the architect that designed Carnegie Hall?",
+      "choices": [
+        "William Burnet Tuthill",
+        "Andrew Carnegie",
+        "Stanford White",
+        "Richard Morris Hunt"
+      ],
+      "answer": "William Burnet Tuthill"
+    }
   },
   {
     "date": "2026-05-06",
@@ -755,7 +1261,17 @@
       "French Revolution"
     ],
     "eventSummary": "On this day in 1889: The Eiffel Tower is officially opened to the public at the Universal Exposition in Paris.",
-    "fallbackStart": "Eiffel Tower"
+    "fallbackStart": "Eiffel Tower",
+    "quiz": {
+      "question": "During which years was the Eiffel Tower designed and built?",
+      "choices": [
+        "1887 to 1889",
+        "1885 to 1887",
+        "1889 to 1891",
+        "1890 to 1900"
+      ],
+      "answer": "1887 to 1889"
+    }
   },
   {
     "date": "2026-05-07",
@@ -774,7 +1290,17 @@
       "Architecture"
     ],
     "eventSummary": "On this day in 1895: In Saint Petersburg, Russian scientist Alexander Stepanovich Popov demonstrates to the Russian Physical and Chemical Society his invention, the Popov lightning detector—a primitive radio receiver. In some parts of the former Soviet Union the anniversary of this day is celebrated as Radio Day.",
-    "fallbackStart": "Saint Petersburg"
+    "fallbackStart": "Saint Petersburg",
+    "quiz": {
+      "question": "According to the article, Saint Petersburg is situated on which river?",
+      "choices": [
+        "The River Neva",
+        "The River Volga",
+        "The River Don",
+        "The River Dnieper"
+      ],
+      "answer": "The River Neva"
+    }
   },
   {
     "date": "2026-05-08",
@@ -793,7 +1319,17 @@
       "Italy"
     ],
     "eventSummary": "On this day in 1898: The first games of the Italian football league system are played.",
-    "fallbackStart": "Italian football league system"
+    "fallbackStart": "Italian football league system",
+    "quiz": {
+      "question": "According to the article, how many of the nine tournaments in the Italian football league system are professional?",
+      "choices": [
+        "The first two",
+        "The first three",
+        "The first four",
+        "All nine"
+      ],
+      "answer": "The first three"
+    }
   },
   {
     "date": "2026-05-09",
@@ -812,7 +1348,17 @@
       "Ancient Rome"
     ],
     "eventSummary": "On this day in 1877: Mihail Kogălniceanu reads, in the Chamber of Deputies, the Declaration of Independence of Romania. The date will become recognised as the Independence Day of Romania.",
-    "fallbackStart": "Mihail Kogălniceanu"
+    "fallbackStart": "Mihail Kogălniceanu",
+    "quiz": {
+      "question": "In what year did Mihail Kogălniceanu deliver a Romantic nationalist inaugural speech that brought him into conflict with authorities?",
+      "choices": [
+        "1843",
+        "1848",
+        "1859",
+        "1863"
+      ],
+      "answer": "1843"
+    }
   },
   {
     "date": "2026-05-10",
@@ -831,7 +1377,17 @@
       "Greece"
     ],
     "eventSummary": "On this day in 1881: Carol I is crowned the King of the Romanian Kingdom.",
-    "fallbackStart": "Carol I of Romania"
+    "fallbackStart": "Carol I of Romania",
+    "quiz": {
+      "question": "In what year was Carol I proclaimed King of Romania?",
+      "choices": [
+        "1866",
+        "1877",
+        "1881",
+        "1914"
+      ],
+      "answer": "1881"
+    }
   },
   {
     "date": "2026-05-11",
@@ -850,7 +1406,17 @@
       "Socialism"
     ],
     "eventSummary": "On this day in 1894: Four thousand Pullman Palace Car Company workers go on a wildcat strike.",
-    "fallbackStart": "Pullman Strike"
+    "fallbackStart": "Pullman Strike",
+    "quiz": {
+      "question": "During which months did the nationwide railroad boycott in the Pullman Strike take place?",
+      "choices": [
+        "May 11 to July 20, 1894",
+        "March 15 to June 30, 1894",
+        "April 1 to August 15, 1894",
+        "June 1 to September 1, 1894"
+      ],
+      "answer": "May 11 to July 20, 1894"
+    }
   },
   {
     "date": "2026-05-12",
@@ -869,7 +1435,17 @@
       "Byzantine Empire"
     ],
     "eventSummary": "On this day in 1881: In North Africa, Tunisia becomes a French protectorate.",
-    "fallbackStart": "Ottoman Tunisia"
+    "fallbackStart": "Ottoman Tunisia",
+    "quiz": {
+      "question": "During which time period did Ottoman Tunisia exist as a semi-autonomous territory of the Ottoman Empire?",
+      "choices": [
+        "The 16th to the 19th century",
+        "The 13th to the 15th century",
+        "The 19th to the 20th century",
+        "The 14th to the 18th century"
+      ],
+      "answer": "The 16th to the 19th century"
+    }
   },
   {
     "date": "2026-05-13",
@@ -888,7 +1464,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1888: With the passage of the Lei Áurea (\"Golden Law\"), the Empire of Brazil abolishes slavery.",
-    "fallbackStart": "Lei Áurea"
+    "fallbackStart": "Lei Áurea",
+    "quiz": {
+      "question": "Who signed the Lei Áurea into law in 1888?",
+      "choices": [
+        "Isabel, Princess Imperial of Brazil",
+        "Emperor Pedro II",
+        "A democratic parliament",
+        "The Brazilian military government"
+      ],
+      "answer": "Isabel, Princess Imperial of Brazil"
+    }
   },
   {
     "date": "2026-05-14",
@@ -907,7 +1493,17 @@
       "Africa"
     ],
     "eventSummary": "On this day in 1879: The first group of 463 Indian indentured laborers arrives in Fiji aboard the Leonidas.",
-    "fallbackStart": "Indian indenture system"
+    "fallbackStart": "Indian indenture system",
+    "quiz": {
+      "question": "According to the article, in what year did the Indian indenture system begin with the Atlas voyage to Mauritius?",
+      "choices": [
+        "1833",
+        "1834",
+        "1848",
+        "1863"
+      ],
+      "answer": "1834"
+    }
   },
   {
     "date": "2026-05-15",
@@ -926,7 +1522,17 @@
       "Age of Enlightenment"
     ],
     "eventSummary": "On this day in 1891: Pope Leo XIII defends workers' rights and property rights in the encyclical Rerum novarum, the beginning of modern Catholic social teaching.",
-    "fallbackStart": "Pope Leo XIII"
+    "fallbackStart": "Pope Leo XIII",
+    "quiz": {
+      "question": "In what year did Pope Leo XIII's reign as head of the Catholic Church begin?",
+      "choices": [
+        "1878",
+        "1903",
+        "1876",
+        "1881"
+      ],
+      "answer": "1878"
+    }
   },
   {
     "date": "2026-05-16",
@@ -945,7 +1551,17 @@
       "Galileo Galilei"
     ],
     "eventSummary": "On this day in 1888: Nikola Tesla delivers a lecture describing the equipment which will allow efficient generation and use of alternating currents to transmit electric power over long distances.",
-    "fallbackStart": "Nikola Tesla"
+    "fallbackStart": "Nikola Tesla",
+    "quiz": {
+      "question": "According to the article, what nationality was Nikola Tesla?",
+      "choices": [
+        "Serbian-American",
+        "Croatian-American",
+        "Hungarian-American",
+        "Polish-American"
+      ],
+      "answer": "Serbian-American"
+    }
   },
   {
     "date": "2026-05-17",
@@ -964,7 +1580,46 @@
       "China"
     ],
     "eventSummary": "On this day in 1865: The International Telegraph Union (later the International Telecommunication Union) is established in Paris.",
-    "fallbackStart": "International Telecommunication Union"
+    "fallbackStart": "International Telecommunication Union",
+    "quiz": {
+      "question": "In what year was the International Telecommunication Union originally established as the International Telegraph Union?",
+      "choices": [
+        "1865",
+        "1945",
+        "1875",
+        "1950"
+      ],
+      "answer": "1865"
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "puzzleNumber": 56,
+    "startTitle": "Supreme Court of the United States",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Supreme Court of the United States",
+      "Judaism",
+      "Philosophy",
+      "Medicine",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Judaism"
+    ],
+    "eventSummary": "On this day in 1896: The United States Supreme Court rules in Plessy v. Ferguson that the \"separate but equal\" doctrine is constitutional.",
+    "fallbackStart": "Supreme Court of the United States",
+    "quiz": {
+      "question": "In what year did the Supreme Court of the United States assert itself the power of judicial review?",
+      "choices": [
+        "1787",
+        "1803",
+        "1868",
+        "1925"
+      ],
+      "answer": "1803"
+    }
   },
   {
     "date": "2026-05-19",
@@ -983,7 +1638,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1883: Buffalo Bill's first Buffalo Bill's Wild West opens in Omaha, Nebraska.",
-    "fallbackStart": "Buffalo Bill"
+    "fallbackStart": "Buffalo Bill",
+    "quiz": {
+      "question": "In what year did Buffalo Bill found his famous Wild West show?",
+      "choices": [
+        "1883",
+        "1887",
+        "1875",
+        "1890"
+      ],
+      "answer": "1883"
+    }
   },
   {
     "date": "2026-05-20",
@@ -1002,7 +1667,17 @@
       "Age of Enlightenment"
     ],
     "eventSummary": "On this day in 1891: History of cinema: The first public display of Thomas Edison's prototype kinetoscope.",
-    "fallbackStart": "History of film"
+    "fallbackStart": "History of film",
+    "quiz": {
+      "question": "According to the extract, when did film technologies that created this visual art form begin?",
+      "choices": [
+        "The early 19th century",
+        "The late 19th century",
+        "The mid-20th century",
+        "The early 18th century"
+      ],
+      "answer": "The late 19th century"
+    }
   },
   {
     "date": "2026-05-21",
@@ -1021,7 +1696,17 @@
       "Italy"
     ],
     "eventSummary": "On this day in 1881: The American Red Cross is established by Clara Barton in Dansville, New York.",
-    "fallbackStart": "American Red Cross"
+    "fallbackStart": "American Red Cross",
+    "quiz": {
+      "question": "In what year did Clara Barton found the American Red Cross?",
+      "choices": [
+        "1863",
+        "1881",
+        "1875",
+        "1890"
+      ],
+      "answer": "1881"
+    }
   },
   {
     "date": "2026-05-22",
@@ -1040,7 +1725,17 @@
       "Abraham Lincoln"
     ],
     "eventSummary": "On this day in 1872: Reconstruction Era: President Ulysses S. Grant signs the Amnesty Act into law, restoring full civil and political rights to all but about 500 Confederate sympathizers.",
-    "fallbackStart": "Reconstruction era"
+    "fallbackStart": "Reconstruction era",
+    "quiz": {
+      "question": "According to the article, what were two methods that former Confederate states used to circumvent the new constitutional amendments protecting freed slaves?",
+      "choices": [
+        "Poll taxes and literacy tests",
+        "Property ownership requirements and religious tests",
+        "Military occupation and forced labor agreements",
+        "Segregation laws and grandfather clauses"
+      ],
+      "answer": "Poll taxes and literacy tests"
+    }
   },
   {
     "date": "2026-05-23",
@@ -1059,7 +1754,46 @@
       "British Empire"
     ],
     "eventSummary": "On this day in 1873: The Canadian Parliament establishes the North-West Mounted Police, the forerunner of the Royal Canadian Mounted Police.",
-    "fallbackStart": "North-West Mounted Police"
+    "fallbackStart": "North-West Mounted Police",
+    "quiz": {
+      "question": "Why did the North-West Mounted Police deliberately wear red coats as part of their uniform?",
+      "choices": [
+        "To make them easily visible to the public and deter criminals",
+        "To be reminiscent of British and Canadian military uniforms",
+        "To distinguish them from American law enforcement across the border",
+        "Because red was the cheapest dye available for fabric at the time"
+      ],
+      "answer": "To be reminiscent of British and Canadian military uniforms"
+    }
+  },
+  {
+    "date": "2026-05-24",
+    "puzzleNumber": 62,
+    "startTitle": "Brooklyn Bridge",
+    "endTitle": "Norse mythology",
+    "optimalPath": [
+      "Brooklyn Bridge",
+      "Cold War",
+      "Africa",
+      "Myth",
+      "Norse mythology"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Cold War"
+    ],
+    "eventSummary": "On this day in 1883: The Brooklyn Bridge in New York City is opened to traffic after 14 years of construction.",
+    "fallbackStart": "Brooklyn Bridge",
+    "quiz": {
+      "question": "In what year was the Brooklyn Bridge officially renamed from the New York and Brooklyn Bridge to the Brooklyn Bridge?",
+      "choices": [
+        "1883",
+        "1915",
+        "1920",
+        "1925"
+      ],
+      "answer": "1915"
+    }
   },
   {
     "date": "2026-05-25",
@@ -1078,7 +1812,17 @@
       "Dante Alighieri"
     ],
     "eventSummary": "On this day in 1895: Playwright, poet and novelist Oscar Wilde is convicted of \"committing acts of gross indecency with other male persons\" and sentenced to serve two years in prison.",
-    "fallbackStart": "Oscar Wilde"
+    "fallbackStart": "Oscar Wilde",
+    "quiz": {
+      "question": "According to the article, which of the following is Oscar Wilde best known for?",
+      "choices": [
+        "His Gothic novel The Picture of Dorian Gray, his epigrams, plays and bedtime stories for children",
+        "His poetry collections and his work as a literary critic in France",
+        "His translations of ancient Greek texts and his philosophical essays",
+        "His novels about Irish history and his contributions to political reform"
+      ],
+      "answer": "His Gothic novel The Picture of Dorian Gray, his epigrams, plays and bedtime stories for children"
+    }
   },
   {
     "date": "2026-05-26",
@@ -1097,7 +1841,17 @@
       "Communism"
     ],
     "eventSummary": "On this day in 1896: Nicholas II is crowned as the last Tsar of Imperial Russia.",
-    "fallbackStart": "Nicholas II"
+    "fallbackStart": "Nicholas II",
+    "quiz": {
+      "question": "In what year did Nicholas II abdicate as Emperor of Russia?",
+      "choices": [
+        "1894",
+        "1917",
+        "1918",
+        "1914"
+      ],
+      "answer": "1917"
+    }
   },
   {
     "date": "2026-05-27",
@@ -1116,7 +1870,17 @@
       "United Kingdom"
     ],
     "eventSummary": "On this day in 1896: The F4-strength St. Louis–East St. Louis tornado hits in St. Louis, Missouri, and East St. Louis, Illinois, killing at least 255 people and causing over $10 million in damage.",
-    "fallbackStart": "Fujita scale"
+    "fallbackStart": "Fujita scale",
+    "quiz": {
+      "question": "In what year did the United States replace the Fujita scale with the Enhanced Fujita scale (EF-Scale)?",
+      "choices": [
+        "February 2004",
+        "February 2007",
+        "April 2013",
+        "March 2009"
+      ],
+      "answer": "February 2007"
+    }
   },
   {
     "date": "2026-05-28",
@@ -1135,7 +1899,17 @@
       "Climate change"
     ],
     "eventSummary": "On this day in 1892: In San Francisco, John Muir organizes the Sierra Club.",
-    "fallbackStart": "San Francisco"
+    "fallbackStart": "San Francisco",
+    "quiz": {
+      "question": "According to the article, how is San Francisco ranked among U.S. cities with a population of 300,000 or more in terms of per capita income?",
+      "choices": [
+        "First",
+        "Second",
+        "Third",
+        "Sixth"
+      ],
+      "answer": "First"
+    }
   },
   {
     "date": "2026-05-29",
@@ -1154,7 +1928,17 @@
       "Biology"
     ],
     "eventSummary": "On this day in 1886: The pharmacist John Pemberton places his first advertisement for Coca-Cola, which appeared in The Atlanta Journal.",
-    "fallbackStart": "Pharmacist"
+    "fallbackStart": "Pharmacist",
+    "quiz": {
+      "question": "According to the article, in Commonwealth English, what alternative term is used for a pharmacist?",
+      "choices": [
+        "Chemist",
+        "Apothecary",
+        "Druggist",
+        "Pharmacologist"
+      ],
+      "answer": "Chemist"
+    }
   },
   {
     "date": "2026-05-30",
@@ -1173,7 +1957,17 @@
       "Cold War"
     ],
     "eventSummary": "On this day in 1883: In New York City, 12 people are killed in a stampede on the recently opened Brooklyn Bridge.",
-    "fallbackStart": "Brooklyn Bridge"
+    "fallbackStart": "Brooklyn Bridge",
+    "quiz": {
+      "question": "In what year was the Brooklyn Bridge officially renamed to its current name?",
+      "choices": [
+        "1883",
+        "1915",
+        "1920",
+        "1905"
+      ],
+      "answer": "1915"
+    }
   },
   {
     "date": "2026-05-31",
@@ -1192,7 +1986,17 @@
       "British Empire"
     ],
     "eventSummary": "On this day in 1884: The arrival at Plymouth of Tāwhiao, King of Maoris, to claim the protection of Queen Victoria.",
-    "fallbackStart": "Plymouth"
+    "fallbackStart": "Plymouth",
+    "quiz": {
+      "question": "According to the article, Plymouth is located between which two rivers?",
+      "choices": [
+        "The Plym and Tamar",
+        "The Exe and Plym",
+        "The Tamar and Dart",
+        "The Exe and Tamar"
+      ],
+      "answer": "The Plym and Tamar"
+    }
   },
   {
     "date": "2026-06-01",
@@ -1211,7 +2015,45 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1890: The United States Census Bureau begins using Herman Hollerith's tabulating machine to count census returns.",
-    "fallbackStart": "United States Census Bureau"
+    "fallbackStart": "United States Census Bureau",
+    "quiz": {
+      "question": "Under which department of the United States government does the Census Bureau operate?",
+      "choices": [
+        "United States Department of Commerce",
+        "United States Department of the Interior",
+        "United States Department of Labor",
+        "United States Department of Health and Human Services"
+      ],
+      "answer": "United States Department of Commerce"
+    }
+  },
+  {
+    "date": "2026-06-02",
+    "puzzleNumber": 71,
+    "startTitle": "Guglielmo Marconi",
+    "endTitle": "Gravity",
+    "optimalPath": [
+      "Guglielmo Marconi",
+      "Albert Einstein",
+      "Electromagnetism",
+      "Gravity"
+    ],
+    "pathLength": 3,
+    "hintLinks": [
+      "Albert Einstein"
+    ],
+    "eventSummary": "On this day in 1896: Guglielmo Marconi applies for a patent for his wireless telegraph.",
+    "fallbackStart": "Guglielmo Marconi",
+    "quiz": {
+      "question": "In what year did Guglielmo Marconi share the Nobel Prize in Physics, and with whom did he share it?",
+      "choices": [
+        "1909 with Ferdinand Braun",
+        "1909 with Nikola Tesla",
+        "1912 with Ferdinand Braun",
+        "1905 with Augusto Righi"
+      ],
+      "answer": "1909 with Ferdinand Braun"
+    }
   },
   {
     "date": "2026-06-03",
@@ -1230,7 +2072,17 @@
       "New York City"
     ],
     "eventSummary": "On this day in 1889: The first long-distance electric power transmission line in the United States is completed, running 14 miles (23 km) between a generator at Willamette Falls and downtown Portland, Oregon.",
-    "fallbackStart": "Electric power transmission"
+    "fallbackStart": "Electric power transmission",
+    "quiz": {
+      "question": "According to the article, what is the term used in the power industry to distinguish the local wiring between high-voltage substations and customers from bulk power movement?",
+      "choices": [
+        "Electric power distribution",
+        "Transmission network",
+        "Electrical grid",
+        "Power delivery system"
+      ],
+      "answer": "Electric power distribution"
+    }
   },
   {
     "date": "2026-06-04",
@@ -1249,7 +2101,17 @@
       "Adolf Hitler"
     ],
     "eventSummary": "On this day in 1896: Henry Ford completes the Ford Quadricycle, his first gasoline-powered automobile and also gives it a successful test run.",
-    "fallbackStart": "Henry Ford"
+    "fallbackStart": "Henry Ford",
+    "quiz": {
+      "question": "What system did Henry Ford pioneer that made automobiles affordable for middle-class Americans?",
+      "choices": [
+        "Fordism",
+        "Assembly line manufacturing",
+        "Mass production distribution",
+        "Automotive franchising"
+      ],
+      "answer": "Fordism"
+    }
   },
   {
     "date": "2026-06-05",
@@ -1268,7 +2130,17 @@
       "Athens"
     ],
     "eventSummary": "On this day in 1883: The first regularly scheduled Orient Express departs Paris.",
-    "fallbackStart": "Orient Express"
+    "fallbackStart": "Orient Express",
+    "quiz": {
+      "question": "In what year was the Orient Express created?",
+      "choices": [
+        "1883",
+        "1873",
+        "1893",
+        "1903"
+      ],
+      "answer": "1883"
+    }
   },
   {
     "date": "2026-06-06",
@@ -1287,7 +2159,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1894: Governor Davis H. Waite orders the Colorado state militia to protect and support the miners engaged in the Cripple Creek miners' strike.",
-    "fallbackStart": "List of governors of Colorado"
+    "fallbackStart": "List of governors of Colorado",
+    "quiz": {
+      "question": "According to the article, which of the following powers does the governor of Colorado NOT have?",
+      "choices": [
+        "Granting pardons in cases of treason",
+        "Vetoing bills passed by the Colorado General Assembly",
+        "Convening the legislature",
+        "Serving as commander-in-chief of the state's military forces"
+      ],
+      "answer": "Granting pardons in cases of treason"
+    }
   },
   {
     "date": "2026-06-07",
@@ -1306,7 +2188,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1866: One thousand eight hundred Fenian raiders are repelled back to the United States after looting and plundering the Saint-Armand and Frelighsburg areas of Canada East.",
-    "fallbackStart": "Fenian raids"
+    "fallbackStart": "Fenian raids",
+    "quiz": {
+      "question": "According to the article, what was the primary goal of the Fenian raids on Canada?",
+      "choices": [
+        "To establish an independent Irish state in Canada",
+        "To bring pressure on the British government to withdraw from Ireland",
+        "To gain control of Canadian military fortifications for the Fenian Brotherhood",
+        "To secure funding from Canadian merchants for Irish independence"
+      ],
+      "answer": "To bring pressure on the British government to withdraw from Ireland"
+    }
   },
   {
     "date": "2026-06-08",
@@ -1325,7 +2217,17 @@
       "France"
     ],
     "eventSummary": "On this day in 1887: Herman Hollerith applies for US patent #395,781 for the 'Art of Compiling Statistics', which was his punched card calculator.",
-    "fallbackStart": "Herman Hollerith"
+    "fallbackStart": "Herman Hollerith",
+    "quiz": {
+      "question": "In what year did Herman Hollerith patent his punched card tabulating machine?",
+      "choices": [
+        "1884",
+        "1876",
+        "1892",
+        "1901"
+      ],
+      "answer": "1884"
+    }
   },
   {
     "date": "2026-06-09",
@@ -1344,7 +2246,46 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1863: American Civil War: The Battle of Brandy Station in Virginia, the largest cavalry battle on American soil, ends Confederate cavalry dominance in the eastern theater.",
-    "fallbackStart": "Battle of Brandy Station"
+    "fallbackStart": "Battle of Brandy Station",
+    "quiz": {
+      "question": "On what date was the Battle of Brandy Station fought?",
+      "choices": [
+        "June 9, 1863",
+        "June 3, 1863",
+        "June 15, 1863",
+        "July 1, 1863"
+      ],
+      "answer": "June 9, 1863"
+    }
+  },
+  {
+    "date": "2026-06-10",
+    "puzzleNumber": 79,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: In the Battle of Guantánamo Bay, U.S. Marines begin the American invasion of Spanish-held Cuba.",
+    "fallbackStart": "Spanish–American War",
+    "quiz": {
+      "question": "Which of the following territories did the United States NOT acquire sovereignty over as a result of the Spanish–American War?",
+      "choices": [
+        "Puerto Rico",
+        "Guam",
+        "Cuba",
+        "The Philippines"
+      ],
+      "answer": "Cuba"
+    }
   },
   {
     "date": "2026-06-11",
@@ -1363,7 +2304,17 @@
       "Christianity"
     ],
     "eventSummary": "On this day in 1892: The Limelight Department, one of the world's first film studios, is officially established in Melbourne, Australia.",
-    "fallbackStart": "Limelight Department"
+    "fallbackStart": "Limelight Department",
+    "quiz": {
+      "question": "In what year did the Limelight Department begin its operations as an Australian film studio?",
+      "choices": [
+        "1885",
+        "1891",
+        "1900",
+        "1910"
+      ],
+      "answer": "1891"
+    }
   },
   {
     "date": "2026-06-12",
@@ -1382,7 +2333,17 @@
       "Abraham Lincoln"
     ],
     "eventSummary": "On this day in 1864: American Civil War, Overland Campaign: Battle of Cold Harbor: Ulysses S. Grant gives the Confederate forces under Robert E. Lee a victory when he pulls his Union troops from their position at Cold Harbor, Virginia and moves south.",
-    "fallbackStart": "American Civil War"
+    "fallbackStart": "American Civil War",
+    "quiz": {
+      "question": "According to the article, what was the primary reason that Southern states seceded from the Union to form the Confederacy?",
+      "choices": [
+        "To preserve slavery, which they believed was threatened by Lincoln's election and the abolitionist movement",
+        "To establish their own independent government with different economic policies",
+        "To protest unfair taxation imposed by the federal government",
+        "To resist the expansion of railroads and industrial development in the South"
+      ],
+      "answer": "To preserve slavery, which they believed was threatened by Lincoln's election and the abolitionist movement"
+    }
   },
   {
     "date": "2026-06-13",
@@ -1401,7 +2362,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1893: Grover Cleveland notices a rough spot in his mouth and on July 1 undergoes secret, successful surgery to remove a large, cancerous portion of his jaw; the operation was not revealed to the public until 1917, nine years after the president's death.",
-    "fallbackStart": "Grover Cleveland"
+    "fallbackStart": "Grover Cleveland",
+    "quiz": {
+      "question": "What was unique about Grover Cleveland's presidential terms?",
+      "choices": [
+        "He was the first president to serve nonconsecutive terms",
+        "He was the only president to serve three terms",
+        "He was the first Republican president after the Civil War",
+        "He served the longest total time of any 19th-century president"
+      ],
+      "answer": "He was the first president to serve nonconsecutive terms"
+    }
   },
   {
     "date": "2026-06-14",
@@ -1420,7 +2391,17 @@
       "Europe"
     ],
     "eventSummary": "On this day in 1888: The White Rajahs territories become the British protectorate of Sarawak.",
-    "fallbackStart": "White Rajahs"
+    "fallbackStart": "White Rajahs",
+    "quiz": {
+      "question": "In what year did James Brooke establish the Raj of Sarawak after being granted the province of Kuching by the Sultanate of Brunei?",
+      "choices": [
+        "1841",
+        "1851",
+        "1835",
+        "1846"
+      ],
+      "answer": "1841"
+    }
   },
   {
     "date": "2026-06-15",
@@ -1439,7 +2420,17 @@
       "Napoleonic Wars"
     ],
     "eventSummary": "On this day in 1864: American Civil War: The Second Battle of Petersburg begins.",
-    "fallbackStart": "American Civil War"
+    "fallbackStart": "American Civil War",
+    "quiz": {
+      "question": "According to the article, in what year was the Confederacy formed?",
+      "choices": [
+        "1859",
+        "1861",
+        "1865",
+        "1863"
+      ],
+      "answer": "1861"
+    }
   },
   {
     "date": "2026-06-16",
@@ -1458,7 +2449,17 @@
       "English language"
     ],
     "eventSummary": "On this day in 1897: A treaty annexing the Republic of Hawaii to the United States is signed; the Republic would not be dissolved until a year later.",
-    "fallbackStart": "Republic of Hawaii"
+    "fallbackStart": "Republic of Hawaii",
+    "quiz": {
+      "question": "Which U.S. President refused to annex Hawaii when the Committee of Public Safety requested it?",
+      "choices": [
+        "Grover Cleveland",
+        "William McKinley",
+        "Benjamin Harrison",
+        "Theodore Roosevelt"
+      ],
+      "answer": "Grover Cleveland"
+    }
   },
   {
     "date": "2026-06-17",
@@ -1477,7 +2478,17 @@
       "Korean War"
     ],
     "eventSummary": "On this day in 1898: The United States Navy Hospital Corps is established.",
-    "fallbackStart": "Hospital corpsman"
+    "fallbackStart": "Hospital corpsman",
+    "quiz": {
+      "question": "When was the U.S. Navy Hospital Corps officially created?",
+      "choices": [
+        "17 June 1898",
+        "17 June 1918",
+        "After World War II",
+        "1776"
+      ],
+      "answer": "17 June 1898"
+    }
   },
   {
     "date": "2026-06-18",
@@ -1496,7 +2507,17 @@
       "Europe"
     ],
     "eventSummary": "On this day in 1887: The Reinsurance Treaty between Germany and Russia is signed.",
-    "fallbackStart": "Reinsurance Treaty"
+    "fallbackStart": "Reinsurance Treaty",
+    "quiz": {
+      "question": "During which years was the Reinsurance Treaty in effect?",
+      "choices": [
+        "1879 to 1885",
+        "1887 to 1890",
+        "1890 to 1894",
+        "1885 to 1888"
+      ],
+      "answer": "1887 to 1890"
+    }
   },
   {
     "date": "2026-06-19",
@@ -1515,7 +2536,17 @@
       "Age of Enlightenment"
     ],
     "eventSummary": "On this day in 1867: Maximilian I of the Second Mexican Empire is executed by a firing squad in Querétaro, Querétaro.",
-    "fallbackStart": "Maximilian I of Mexico"
+    "fallbackStart": "Maximilian I of Mexico",
+    "quiz": {
+      "question": "According to the article, when did Maximilian I's reign as emperor of the Second Mexican Empire end?",
+      "choices": [
+        "10 April 1864",
+        "19 June 1867",
+        "15 May 1866",
+        "3 November 1868"
+      ],
+      "answer": "19 June 1867"
+    }
   },
   {
     "date": "2026-06-20",
@@ -1534,7 +2565,17 @@
       "Adolf Hitler"
     ],
     "eventSummary": "On this day in 1895: The Kiel Canal, crossing the base of the Jutland peninsula and the busiest artificial waterway in the world, is officially opened.",
-    "fallbackStart": "Kiel Canal"
+    "fallbackStart": "Kiel Canal",
+    "quiz": {
+      "question": "During which time period was the Kiel Canal widened?",
+      "choices": [
+        "1887 and 1895",
+        "1895 and 1907",
+        "1907 and 1914",
+        "1914 and 1925"
+      ],
+      "answer": "1907 and 1914"
+    }
   },
   {
     "date": "2026-06-21",
@@ -1553,7 +2594,17 @@
       "Christopher Columbus"
     ],
     "eventSummary": "On this day in 1898: The United States captures Guam from Spain. The few warning shots fired by the U.S. naval vessels are misinterpreted as salutes by the Spanish garrison, which was unaware that the two nations were at war.",
-    "fallbackStart": "Capture of Guam"
+    "fallbackStart": "Capture of Guam",
+    "quiz": {
+      "question": "What was the name of the U.S. Navy cruiser sent to capture Guam from Spain?",
+      "choices": [
+        "USS Charleston",
+        "USS Maine",
+        "USS Oregon",
+        "USS New York"
+      ],
+      "answer": "USS Charleston"
+    }
   },
   {
     "date": "2026-06-22",
@@ -1572,7 +2623,17 @@
       "Asia"
     ],
     "eventSummary": "On this day in 1898: Spanish–American War: In a chaotic operation, 6,000 men of the U.S. Fifth Army Corps begins landing at Daiquirí, Cuba, about 16 miles (26 km) east of Santiago de Cuba. Lt. Gen. Arsenio Linares y Pombo of the Spanish Army outnumbers them two-to-one, but does not oppose the landings.",
-    "fallbackStart": "Spanish–American War"
+    "fallbackStart": "Spanish–American War",
+    "quiz": {
+      "question": "According to the article, which event triggered the beginning of the Spanish–American War?",
+      "choices": [
+        "The sinking of the USS Maine in Havana Harbor",
+        "The declaration of independence by the Philippines",
+        "Spain's attack on a U.S. naval base in Puerto Rico",
+        "Cuban forces sinking Spanish ships in Caribbean waters"
+      ],
+      "answer": "The sinking of the USS Maine in Havana Harbor"
+    }
   },
   {
     "date": "2026-06-23",
@@ -1591,7 +2652,17 @@
       "Beijing"
     ],
     "eventSummary": "On this day in 1894: The International Olympic Committee is founded at the Sorbonne in Paris, at the initiative of Baron Pierre de Coubertin.",
-    "fallbackStart": "International Olympic Committee"
+    "fallbackStart": "International Olympic Committee",
+    "quiz": {
+      "question": "In what year was the International Olympic Committee founded?",
+      "choices": [
+        "1884",
+        "1894",
+        "1904",
+        "1924"
+      ],
+      "answer": "1894"
+    }
   },
   {
     "date": "2026-06-24",
@@ -1610,7 +2681,17 @@
       "Capitalism"
     ],
     "eventSummary": "On this day in 1894: Assassination of the French President, Sadi Carnot by Sante Caserio during the Ère des attentats (1892–1894).",
-    "fallbackStart": "Assassination of Sadi Carnot"
+    "fallbackStart": "Assassination of Sadi Carnot",
+    "quiz": {
+      "question": "In what year was French President Sadi Carnot assassinated?",
+      "choices": [
+        "1892",
+        "1894",
+        "1896",
+        "1898"
+      ],
+      "answer": "1894"
+    }
   },
   {
     "date": "2026-06-25",
@@ -1629,7 +2710,17 @@
       "Age of Discovery"
     ],
     "eventSummary": "On this day in 1876: American Indian Wars: Battle of the Little Bighorn: 300 men of the U.S. 7th Cavalry Regiment under Lieutenant Colonel George Armstrong Custer are wiped out by 5,000 Lakota, Cheyenne and Arapaho, led by Sitting Bull and Crazy Horse.",
-    "fallbackStart": "American Indian Wars"
+    "fallbackStart": "American Indian Wars",
+    "quiz": {
+      "question": "According to the article, what was the most common factor that resulted in the American Indian Wars?",
+      "choices": [
+        "The desire of settlers and governments for Indian tribes' lands",
+        "Religious conversion efforts by European missionaries",
+        "Trade disputes over valuable furs and resources",
+        "Conflicts between different European colonial empires"
+      ],
+      "answer": "The desire of settlers and governments for Indian tribes' lands"
+    }
   },
   {
     "date": "2026-06-26",
@@ -1648,7 +2739,17 @@
       "Christianity"
     ],
     "eventSummary": "On this day in 1889: Bangui is founded by Albert Dolisie and Alfred Uzac in what was then the upper reaches of the French Congo.",
-    "fallbackStart": "Bangui"
+    "fallbackStart": "Bangui",
+    "quiz": {
+      "question": "According to the article, what does the word 'Bangui' derive from?",
+      "choices": [
+        "Its location on the northern bank of the Ubangi River",
+        "A Bobangi word meaning 'capital city'",
+        "The French word for 'settlement'",
+        "A local term meaning 'confluence of waters'"
+      ],
+      "answer": "Its location on the northern bank of the Ubangi River"
+    }
   },
   {
     "date": "2026-06-27",
@@ -1667,7 +2768,17 @@
       "Atlantic Ocean"
     ],
     "eventSummary": "On this day in 1898: The first solo circumnavigation of the globe is completed by Joshua Slocum from Briar Island, Nova Scotia.",
-    "fallbackStart": "Circumnavigation"
+    "fallbackStart": "Circumnavigation",
+    "quiz": {
+      "question": "According to the article on Circumnavigation, what does the term circumnavigation refer to?",
+      "choices": [
+        "The complete navigation around an entire island, continent, or astronomical body",
+        "The process of sailing only around an island without visiting the mainland",
+        "The mapping of all oceans on Earth using modern technology",
+        "The study of navigation routes used by ancient explorers"
+      ],
+      "answer": "The complete navigation around an entire island, continent, or astronomical body"
+    }
   },
   {
     "date": "2026-06-28",
@@ -1686,7 +2797,17 @@
       "New York City"
     ],
     "eventSummary": "On this day in 1894: Labor Day becomes an official US holiday.",
-    "fallbackStart": "Labor Day"
+    "fallbackStart": "Labor Day",
+    "quiz": {
+      "question": "According to the article, on what day of the week is Labor Day in the United States celebrated?",
+      "choices": [
+        "The first Monday of September",
+        "The first Tuesday of September",
+        "September 1st",
+        "The last Friday of August"
+      ],
+      "answer": "The first Monday of September"
+    }
   },
   {
     "date": "2026-06-29",
@@ -1705,7 +2826,17 @@
       "London"
     ],
     "eventSummary": "On this day in 1889: Hyde Park and several other Illinois townships vote to be annexed by Chicago, forming the largest United States city in area and second largest in population at the time.",
-    "fallbackStart": "Hyde Park Township, Illinois"
+    "fallbackStart": "Hyde Park Township, Illinois",
+    "quiz": {
+      "question": "In what year was Hyde Park Township annexed into the city of Chicago?",
+      "choices": [
+        "1861",
+        "1889",
+        "1895",
+        "1912"
+      ],
+      "answer": "1889"
+    }
   },
   {
     "date": "2026-06-30",
@@ -1724,7 +2855,46 @@
       "Cold War"
     ],
     "eventSummary": "On this day in 1892: The Homestead Strike begins near Pittsburgh, Pennsylvania.",
-    "fallbackStart": "Homestead strike"
+    "fallbackStart": "Homestead strike",
+    "quiz": {
+      "question": "In what year did the Homestead strike occur?",
+      "choices": [
+        "1890",
+        "1892",
+        "1894",
+        "1896"
+      ],
+      "answer": "1892"
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "puzzleNumber": 100,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: The Battle of San Juan Hill is fought in Santiago de Cuba, Cuba.",
+    "fallbackStart": "Spanish–American War",
+    "quiz": {
+      "question": "Which of the following territories did the United States NOT acquire sovereignty over as a result of the Spanish–American War?",
+      "choices": [
+        "Puerto Rico",
+        "Guam",
+        "Cuba",
+        "The Philippines"
+      ],
+      "answer": "Cuba"
+    }
   },
   {
     "date": "2026-07-02",
@@ -1743,7 +2913,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1890: The U.S. Congress passes the Sherman Antitrust Act.",
-    "fallbackStart": "United States Congress"
+    "fallbackStart": "United States Congress",
+    "quiz": {
+      "question": "According to the article, which two bodies make up the bicameral legislature of the United States Congress?",
+      "choices": [
+        "The House of Representatives and the Senate",
+        "The House of Representatives and the Supreme Court",
+        "The Senate and the Executive Branch",
+        "The House of Representatives and the Cabinet"
+      ],
+      "answer": "The House of Representatives and the Senate"
+    }
   },
   {
     "date": "2026-07-03",
@@ -1762,7 +2942,17 @@
       "France"
     ],
     "eventSummary": "On this day in 1898: A Spanish squadron, led by Pascual Cervera y Topete, is defeated by an American squadron under William T. Sampson in the Battle of Santiago de Cuba.",
-    "fallbackStart": "Pascual Cervera y Topete"
+    "fallbackStart": "Pascual Cervera y Topete",
+    "quiz": {
+      "question": "During the Spanish–American War, Pascual Cervera y Topete commanded which naval unit?",
+      "choices": [
+        "The Cuba Squadron",
+        "The Philippines Fleet",
+        "The Atlantic Squadron",
+        "The Mediterranean Fleet"
+      ],
+      "answer": "The Cuba Squadron"
+    }
   },
   {
     "date": "2026-07-04",
@@ -1781,7 +2971,17 @@
       "China"
     ],
     "eventSummary": "On this day in 1898: En route from New York to Le Havre, the SS La Bourgogne collides with another ship and sinks off the coast of Sable Island, with the loss of 549 lives.",
-    "fallbackStart": "Le Havre"
+    "fallbackStart": "Le Havre",
+    "quiz": {
+      "question": "According to the article, what is the largest container port in France?",
+      "choices": [
+        "Le Havre",
+        "Rouen",
+        "Marseille",
+        "Calais"
+      ],
+      "answer": "Le Havre"
+    }
   },
   {
     "date": "2026-07-05",
@@ -1799,7 +2999,17 @@
       "Adolf Hitler"
     ],
     "eventSummary": "On this day in 1884: Germany takes possession of Cameroon.",
-    "fallbackStart": "German Empire"
+    "fallbackStart": "German Empire",
+    "quiz": {
+      "question": "According to the extract, how many states made up the German Empire?",
+      "choices": [
+        "21 states",
+        "25 states",
+        "30 states",
+        "19 states"
+      ],
+      "answer": "25 states"
+    }
   },
   {
     "date": "2026-07-06",
@@ -1817,7 +3027,17 @@
       "Ancient Egypt"
     ],
     "eventSummary": "On this day in 1892: Three thousand eight hundred striking steelworkers engage in a day-long battle with Pinkerton agents during the Homestead Strike, leaving ten dead and dozens wounded.",
-    "fallbackStart": "Strike action"
+    "fallbackStart": "Strike action",
+    "quiz": {
+      "question": "According to the article, during which historical period did strikes become common as a widespread practice?",
+      "choices": [
+        "The Industrial Revolution",
+        "The American Civil War",
+        "The Renaissance",
+        "The Medieval period"
+      ],
+      "answer": "The Industrial Revolution"
+    }
   },
   {
     "date": "2026-07-07",
@@ -1836,7 +3056,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1898: US president William McKinley signs the Newlands Resolution, annexing Hawaii as a territory of the United States.",
-    "fallbackStart": "President of the United States"
+    "fallbackStart": "President of the United States",
+    "quiz": {
+      "question": "According to the article, which of the following is NOT listed as a role or responsibility of the President of the United States?",
+      "choices": [
+        "Head of state and head of government",
+        "Commander-in-chief of the United States Armed Forces",
+        "Director of the executive branch",
+        "Chief justice of the Supreme Court"
+      ],
+      "answer": "Chief justice of the Supreme Court"
+    }
   },
   {
     "date": "2026-07-08",
@@ -1855,7 +3085,17 @@
       "Industrial Revolution"
     ],
     "eventSummary": "On this day in 1892: St. John's, Newfoundland is devastated in the Great Fire of 1892.",
-    "fallbackStart": "St. John's, Newfoundland and Labrador"
+    "fallbackStart": "St. John's, Newfoundland and Labrador",
+    "quiz": {
+      "question": "According to the article, what geographic distinction does St. John's hold in North America?",
+      "choices": [
+        "It is the easternmost city in North America",
+        "It is the northernmost city in North America",
+        "It is the largest city in North America",
+        "It is the oldest city in North America"
+      ],
+      "answer": "It is the easternmost city in North America"
+    }
   },
   {
     "date": "2026-07-09",
@@ -1874,7 +3114,17 @@
       "Bible"
     ],
     "eventSummary": "On this day in 1896: William Jennings Bryan delivers his Cross of Gold speech advocating bimetallism at the 1896 Democratic National Convention in Chicago.",
-    "fallbackStart": "William Jennings Bryan"
+    "fallbackStart": "William Jennings Bryan",
+    "quiz": {
+      "question": "How many times did William Jennings Bryan run as the Democratic Party's nominee for President of the United States?",
+      "choices": [
+        "Two times",
+        "Three times",
+        "Four times",
+        "Five times"
+      ],
+      "answer": "Three times"
+    }
   },
   {
     "date": "2026-07-10",
@@ -1893,7 +3143,17 @@
       "China"
     ],
     "eventSummary": "On this day in 1890: Wyoming is admitted as the 44th U.S. state.",
-    "fallbackStart": "Wyoming"
+    "fallbackStart": "Wyoming",
+    "quiz": {
+      "question": "According to the article, what is Wyoming's ranking by area among all U.S. states?",
+      "choices": [
+        "Second-largest",
+        "Tenth-largest",
+        "Fifth-largest",
+        "Fifteenth-largest"
+      ],
+      "answer": "Tenth-largest"
+    }
   },
   {
     "date": "2026-07-11",
@@ -1912,7 +3172,17 @@
       "Brazil"
     ],
     "eventSummary": "On this day in 1899: Fiat founded by Giovanni Agnelli in Turin, Italy.",
-    "fallbackStart": "Fiat"
+    "fallbackStart": "Fiat",
+    "quiz": {
+      "question": "According to the article, Fiat is an automobile manufacturer from which country?",
+      "choices": [
+        "Italy",
+        "Germany",
+        "France",
+        "Spain"
+      ],
+      "answer": "Italy"
+    }
   },
   {
     "date": "2026-07-12",
@@ -1931,7 +3201,17 @@
       "Abraham Lincoln"
     ],
     "eventSummary": "On this day in 1862: The Medal of Honor is authorized by the United States Congress.",
-    "fallbackStart": "Medal of Honor"
+    "fallbackStart": "Medal of Honor",
+    "quiz": {
+      "question": "According to the article, who normally awards the Medal of Honor?",
+      "choices": [
+        "The president of the United States",
+        "The Secretary of Defense",
+        "The Joint Chiefs of Staff",
+        "The Speaker of Congress"
+      ],
+      "answer": "The president of the United States"
+    }
   },
   {
     "date": "2026-07-13",
@@ -1950,7 +3230,17 @@
       "Otto von Bismarck"
     ],
     "eventSummary": "On this day in 1878: Treaty of Berlin: The European powers redraw the map of the Balkans. Serbia, Montenegro and Romania become completely independent of the Ottoman Empire.",
-    "fallbackStart": "Treaty of Berlin (1878)"
+    "fallbackStart": "Treaty of Berlin (1878)",
+    "quiz": {
+      "question": "Who served as the chairman of the Congress of Berlin in 1878?",
+      "choices": [
+        "Otto von Bismarck",
+        "Benjamin Disraeli",
+        "Count Andrássy",
+        "Jules Ferry"
+      ],
+      "answer": "Otto von Bismarck"
+    }
   },
   {
     "date": "2026-07-14",
@@ -1969,7 +3259,17 @@
       "Italy"
     ],
     "eventSummary": "On this day in 1865: The first ascent of the Matterhorn is completed by Edward Whymper and his party, four of whom die on the descent.",
-    "fallbackStart": "First ascent of the Matterhorn"
+    "fallbackStart": "First ascent of the Matterhorn",
+    "quiz": {
+      "question": "What triggered the fatal accident during the descent of the Matterhorn's first ascent in 1865?",
+      "choices": [
+        "Douglas Hadow slipped and pulled three other climbers with him",
+        "Peter Taugwalder lost his footing on the north face",
+        "Edward Whymper fell and caused a chain reaction",
+        "Michel Croz deliberately cut the rope to save himself"
+      ],
+      "answer": "Douglas Hadow slipped and pulled three other climbers with him"
+    }
   },
   {
     "date": "2026-07-15",
@@ -1988,7 +3288,17 @@
       "Italy"
     ],
     "eventSummary": "On this day in 1888: The stratovolcano Mount Bandai erupts, killing approximately 500 people in Fukushima Prefecture, Japan.",
-    "fallbackStart": "Stratovolcano"
+    "fallbackStart": "Stratovolcano",
+    "quiz": {
+      "question": "According to the article, what is the maximum distance that extensive felsic lava flows from stratovolcanoes can travel?",
+      "choices": [
+        "2 kilometres",
+        "8 kilometres",
+        "15 kilometres",
+        "25 kilometres"
+      ],
+      "answer": "8 kilometres"
+    }
   },
   {
     "date": "2026-07-16",
@@ -2007,7 +3317,17 @@
       "World War II"
     ],
     "eventSummary": "On this day in 1862: American Civil War: David Farragut is promoted to rear admiral, becoming the first officer in United States Navy to hold an admiral rank.",
-    "fallbackStart": "David Farragut"
+    "fallbackStart": "David Farragut",
+    "quiz": {
+      "question": "What was David Farragut's famous order at the Battle of Mobile Bay?",
+      "choices": [
+        "Damn the torpedoes ... full speed ahead",
+        "Fire at will ... no surrender",
+        "Steady as she goes ... hold the line",
+        "All hands on deck ... prepare for battle"
+      ],
+      "answer": "Damn the torpedoes ... full speed ahead"
+    }
   },
   {
     "date": "2026-07-17",
@@ -2026,7 +3346,17 @@
       "China"
     ],
     "eventSummary": "On this day in 1899: NEC Corporation is organized as the first Japanese joint venture with foreign capital.",
-    "fallbackStart": "NEC"
+    "fallbackStart": "NEC",
+    "quiz": {
+      "question": "In which Tokyo ward is NEC Corporation's headquarters, the NEC Supertower, located?",
+      "choices": [
+        "Minato",
+        "Chiyoda",
+        "Shinjuku",
+        "Shibuya"
+      ],
+      "answer": "Minato"
+    }
   },
   {
     "date": "2026-07-18",
@@ -2045,7 +3375,17 @@
       "Age of Enlightenment"
     ],
     "eventSummary": "On this day in 1870: The First Vatican Council decrees the dogma of papal infallibility.",
-    "fallbackStart": "First Vatican Council"
+    "fallbackStart": "First Vatican Council",
+    "quiz": {
+      "question": "According to the article, what was the best-known decision made by the First Vatican Council?",
+      "choices": [
+        "The definition of papal infallibility",
+        "The condemnation of modernism in the Catholic Church",
+        "The reform of the liturgy and Latin Mass",
+        "The establishment of Vatican City as an independent state"
+      ],
+      "answer": "The definition of papal infallibility"
+    }
   },
   {
     "date": "2026-07-19",
@@ -2064,7 +3404,17 @@
       "France"
     ],
     "eventSummary": "On this day in 1870: Franco-Prussian War: France declares war on Prussia.",
-    "fallbackStart": "Franco-Prussian War"
+    "fallbackStart": "Franco-Prussian War",
+    "quiz": {
+      "question": "According to the article, what event in 1866 prompted France's determination to reassert its dominant position in continental Europe?",
+      "choices": [
+        "The Prussian victory over Austria",
+        "The unification of Germany",
+        "The French defeat in Italy",
+        "The British intervention in European affairs"
+      ],
+      "answer": "The Prussian victory over Austria"
+    }
   },
   {
     "date": "2026-07-20",
@@ -2083,7 +3433,17 @@
       "United Kingdom"
     ],
     "eventSummary": "On this day in 1885: The Football Association legalizes professionalism in association football under pressure from the British Football Association.",
-    "fallbackStart": "The Football Association"
+    "fallbackStart": "The Football Association",
+    "quiz": {
+      "question": "In what year was The Football Association formed?",
+      "choices": [
+        "1863",
+        "1875",
+        "1888",
+        "1892"
+      ],
+      "answer": "1863"
+    }
   },
   {
     "date": "2026-07-21",
@@ -2102,7 +3462,17 @@
       "Abraham Lincoln"
     ],
     "eventSummary": "On this day in 1877: After rioting by Baltimore and Ohio Railroad workers and the deaths of nine rail workers at the hands of the Maryland militia, workers in Pittsburgh, Pennsylvania, stage a sympathy strike that is met with an assault by the state militia.",
-    "fallbackStart": "Baltimore and Ohio Railroad"
+    "fallbackStart": "Baltimore and Ohio Railroad",
+    "quiz": {
+      "question": "In what year did the Baltimore and Ohio Railroad begin construction?",
+      "choices": [
+        "1830",
+        "1828",
+        "1825",
+        "1835"
+      ],
+      "answer": "1828"
+    }
   },
   {
     "date": "2026-07-22",
@@ -2121,7 +3491,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1893: Katharine Lee Bates writes \"America the Beautiful\" after admiring the view from the top of Pikes Peak near Colorado Springs, Colorado.",
-    "fallbackStart": "Katharine Lee Bates"
+    "fallbackStart": "Katharine Lee Bates",
+    "quiz": {
+      "question": "For which of the following works is Katharine Lee Bates chiefly remembered?",
+      "choices": [
+        "America the Beautiful",
+        "The Battle Hymn of the Republic",
+        "The Star-Spangled Banner",
+        "God Bless America"
+      ],
+      "answer": "America the Beautiful"
+    }
   },
   {
     "date": "2026-07-23",
@@ -2140,7 +3520,17 @@
       "Atlantic Ocean"
     ],
     "eventSummary": "On this day in 1881: The Boundary Treaty of 1881 between Chile and Argentina is signed in Buenos Aires.",
-    "fallbackStart": "Boundary Treaty of 1881 between Chile and Argentina"
+    "fallbackStart": "Boundary Treaty of 1881 between Chile and Argentina",
+    "quiz": {
+      "question": "On what date was the Boundary Treaty of 1881 between Argentina and Chile signed?",
+      "choices": [
+        "23 July 1881",
+        "23 June 1881",
+        "23 July 1880",
+        "23 August 1881"
+      ],
+      "answer": "23 July 1881"
+    }
   },
   {
     "date": "2026-07-24",
@@ -2159,7 +3549,46 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1866: Reconstruction: Tennessee becomes the first U.S. state to be readmitted to Congress following the American Civil War.",
-    "fallbackStart": "Reconstruction era"
+    "fallbackStart": "Reconstruction era",
+    "quiz": {
+      "question": "According to the article, what methods did former Confederate states use to try to circumvent the new constitutional amendments that granted rights to freed slaves?",
+      "choices": [
+        "Poll taxes and literacy tests",
+        "Military occupation and forced labor laws",
+        "Deportation and segregation acts",
+        "Property seizure and exile orders"
+      ],
+      "answer": "Poll taxes and literacy tests"
+    }
+  },
+  {
+    "date": "2026-07-25",
+    "puzzleNumber": 124,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: The American invasion of Spanish-held Puerto Rico begins, as United States Army troops under General Nelson A. Miles land and secure the port at Guánica.",
+    "fallbackStart": "Spanish–American War",
+    "quiz": {
+      "question": "Which event in Havana Harbor triggered the beginning of the Spanish–American War?",
+      "choices": [
+        "The sinking of the USS Maine",
+        "The explosion of a Spanish naval blockade",
+        "The capture of an American merchant vessel",
+        "The bombardment of American troops"
+      ],
+      "answer": "The sinking of the USS Maine"
+    }
   },
   {
     "date": "2026-07-26",
@@ -2178,7 +3607,17 @@
       "New York City"
     ],
     "eventSummary": "On this day in 1899: Ulises Heureaux, the 27th President of the Dominican Republic, is assassinated.",
-    "fallbackStart": "Ulises Heureaux"
+    "fallbackStart": "Ulises Heureaux",
+    "quiz": {
+      "question": "What was Ulises Heureaux's nickname?",
+      "choices": [
+        "Lilís",
+        "Lilo",
+        "Ulis",
+        "Héctor"
+      ],
+      "answer": "Lilís"
+    }
   },
   {
     "date": "2026-07-27",
@@ -2197,7 +3636,17 @@
       "British Empire"
     ],
     "eventSummary": "On this day in 1880: Second Anglo-Afghan War: Battle of Maiwand: Afghan forces led by Mohammad Ayub Khan defeat the British Army in battle near Maiwand, Afghanistan.",
-    "fallbackStart": "Second Anglo-Afghan War"
+    "fallbackStart": "Second Anglo-Afghan War",
+    "quiz": {
+      "question": "During the Second Anglo-Afghan War, which emir ruled the Emirate of Afghanistan?",
+      "choices": [
+        "Sher Ali Khan",
+        "Dost Mohammad Khan",
+        "Abdur Rahman Khan",
+        "Habibullah Khan"
+      ],
+      "answer": "Sher Ali Khan"
+    }
   },
   {
     "date": "2026-07-28",
@@ -2216,7 +3665,46 @@
       "Africa"
     ],
     "eventSummary": "On this day in 1896: The city of Miami is incorporated.",
-    "fallbackStart": "Miami"
+    "fallbackStart": "Miami",
+    "quiz": {
+      "question": "According to the extract, how many high-rises with over 491 feet (150 meters) in height does Miami have?",
+      "choices": [
+        "30",
+        "70",
+        "150",
+        "300"
+      ],
+      "answer": "70"
+    }
+  },
+  {
+    "date": "2026-07-29",
+    "puzzleNumber": 128,
+    "startTitle": "Hague Conventions of 1899 and 1907",
+    "endTitle": "Theory of relativity",
+    "optimalPath": [
+      "Hague Conventions of 1899 and 1907",
+      "Abraham Lincoln",
+      "Benjamin Franklin",
+      "History",
+      "Theory of relativity"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Abraham Lincoln"
+    ],
+    "eventSummary": "On this day in 1899: The First Hague Convention is signed.",
+    "fallbackStart": "Hague Conventions of 1899 and 1907",
+    "quiz": {
+      "question": "According to the article extract, why did the third Hague peace conference planned for 1914 never take place?",
+      "choices": [
+        "Because of the start of World War I",
+        "Because of disagreements between major European powers",
+        "Because the Netherlands refused to host it",
+        "Because of a lack of international support for peace conferences"
+      ],
+      "answer": "Because of the start of World War I"
+    }
   },
   {
     "date": "2026-07-30",
@@ -2235,7 +3723,17 @@
       "World War II"
     ],
     "eventSummary": "On this day in 1871: The Staten Island Ferry Westfield's boiler explodes, killing over 85 people.",
-    "fallbackStart": "Staten Island Ferry"
+    "fallbackStart": "Staten Island Ferry",
+    "quiz": {
+      "question": "According to the article, in what year did the Staten Island Ferry become fare-free?",
+      "choices": [
+        "1995",
+        "1997",
+        "2000",
+        "2005"
+      ],
+      "answer": "1997"
+    }
   },
   {
     "date": "2026-07-31",
@@ -2254,7 +3752,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1874: Patrick Francis Healy became the first African-American inaugurated as president of a predominantly white university, Georgetown University.",
-    "fallbackStart": "Patrick Francis Healy"
+    "fallbackStart": "Patrick Francis Healy",
+    "quiz": {
+      "question": "What building at Georgetown University is named after Patrick Francis Healy?",
+      "choices": [
+        "Healy Hall",
+        "Healy Library",
+        "Healy Center",
+        "Healy Chapel"
+      ],
+      "answer": "Healy Hall"
+    }
   },
   {
     "date": "2026-08-01",
@@ -2273,7 +3781,17 @@
       "Beijing"
     ],
     "eventSummary": "On this day in 1894: The Empire of Japan and Qing China declare war on each other after a week of fighting over Korea, formally inaugurating the First Sino-Japanese War.",
-    "fallbackStart": "Empire of Japan"
+    "fallbackStart": "Empire of Japan",
+    "quiz": {
+      "question": "According to the article, when did the Empire of Japan officially end?",
+      "choices": [
+        "3 May 1947, when the Constitution of Japan took effect",
+        "2 September 1945, with Japan's formal surrender",
+        "3 January 1868, at the start of the Meiji Restoration",
+        "1972, when Okinawa was handed over to Japan"
+      ],
+      "answer": "3 May 1947, when the Constitution of Japan took effect"
+    }
   },
   {
     "date": "2026-08-02",
@@ -2292,7 +3810,17 @@
       "Agriculture"
     ],
     "eventSummary": "On this day in 1869: Japan's Edo society class system is abolished as part of the Meiji Restoration reforms.",
-    "fallbackStart": "Edo society"
+    "fallbackStart": "Edo society",
+    "quiz": {
+      "question": "During which time period did Edo society exist under the rule of the Tokugawa Shogunate?",
+      "choices": [
+        "1603 to 1868",
+        "1543 to 1603",
+        "1868 to 1912",
+        "1467 to 1615"
+      ],
+      "answer": "1603 to 1868"
+    }
   },
   {
     "date": "2026-08-03",
@@ -2311,7 +3839,17 @@
       "Age of Enlightenment"
     ],
     "eventSummary": "On this day in 1852: Harvard University wins the first Boat Race between Yale University and Harvard. The race is also known as the first ever American intercollegiate athletic event.",
-    "fallbackStart": "Harvard University"
+    "fallbackStart": "Harvard University",
+    "quiz": {
+      "question": "In what year was Harvard University named after its first benefactor, John Harvard?",
+      "choices": [
+        "1636",
+        "1639",
+        "1642",
+        "1650"
+      ],
+      "answer": "1639"
+    }
   },
   {
     "date": "2026-08-04",
@@ -2330,7 +3868,17 @@
       "Age of Discovery"
     ],
     "eventSummary": "On this day in 1873: American Indian Wars: While protecting a railroad survey party in Montana, the United States 7th Cavalry, under Lieutenant Colonel George Armstrong Custer clashes for the first time with the Cheyenne and Lakota people near the Tongue River; only one man on each side is killed.",
-    "fallbackStart": "American Indian Wars"
+    "fallbackStart": "American Indian Wars",
+    "quiz": {
+      "question": "According to the article, what was the most common factor that resulted in the American Indian Wars?",
+      "choices": [
+        "The desire of settlers and governments for Indian tribes' lands",
+        "Religious conflicts between European colonists and Native Americans",
+        "Competition between European powers for trade routes",
+        "Disputes over fishing and hunting rights in coastal regions"
+      ],
+      "answer": "The desire of settlers and governments for Indian tribes' lands"
+    }
   },
   {
     "date": "2026-08-05",
@@ -2349,7 +3897,17 @@
       "Adolf Hitler"
     ],
     "eventSummary": "On this day in 1888: Bertha Benz drives from Mannheim to Pforzheim and back in the first long distance automobile trip, commemorated as the Bertha Benz Memorial Route since 2008.",
-    "fallbackStart": "Bertha Benz"
+    "fallbackStart": "Bertha Benz",
+    "quiz": {
+      "question": "What distance did Bertha Benz travel on her historic automobile journey on August 5, 1888?",
+      "choices": [
+        "75 km",
+        "105 km",
+        "150 km",
+        "200 km"
+      ],
+      "answer": "105 km"
+    }
   },
   {
     "date": "2026-08-06",
@@ -2368,7 +3926,17 @@
       "France"
     ],
     "eventSummary": "On this day in 1870: Franco-Prussian War: The Battle of Spicheren is fought, resulting in a German victory.",
-    "fallbackStart": "Franco-Prussian War"
+    "fallbackStart": "Franco-Prussian War",
+    "quiz": {
+      "question": "What event in 1866 prompted France to question its dominant position in continental Europe, leading to the Franco-Prussian War?",
+      "choices": [
+        "The decisive Prussian victory over Austria",
+        "The unification of the German states under Prussian leadership",
+        "The French loss of territory in the Rhineland",
+        "The formation of the North German Confederation"
+      ],
+      "answer": "The decisive Prussian victory over Austria"
+    }
   },
   {
     "date": "2026-08-07",
@@ -2387,7 +3955,17 @@
       "World War I"
     ],
     "eventSummary": "On this day in 1858: The first Australian rules football match is played between Melbourne Grammar and Scotch College.",
-    "fallbackStart": "Australian rules football"
+    "fallbackStart": "Australian rules football",
+    "quiz": {
+      "question": "According to the extract, how many players are on each team in Australian rules football?",
+      "choices": [
+        "16 players",
+        "18 players",
+        "20 players",
+        "22 players"
+      ],
+      "answer": "18 players"
+    }
   },
   {
     "date": "2026-08-08",
@@ -2406,7 +3984,17 @@
       "France"
     ],
     "eventSummary": "On this day in 1897: Italian anarchist Michele Angiolillo assassinates Spanish Prime Minister Antonio Cánovas del Castillo",
-    "fallbackStart": "Assassination of Antonio Cánovas del Castillo"
+    "fallbackStart": "Assassination of Antonio Cánovas del Castillo",
+    "quiz": {
+      "question": "According to the article, what reason did Michele Angiolillo give for assassinating Prime Minister Cánovas del Castillo?",
+      "choices": [
+        "Revenge for torture during the Montjuic trial",
+        "Political opposition to Spain's colonial policies",
+        "Retaliation for the suppression of anarchist movements",
+        "Personal grievance over a business dispute"
+      ],
+      "answer": "Revenge for torture during the Montjuic trial"
+    }
   },
   {
     "date": "2026-08-09",
@@ -2424,7 +4012,17 @@
       "Italy"
     ],
     "eventSummary": "On this day in 1897: The first International Congress of Mathematicians is held in Zürich, Switzerland.",
-    "fallbackStart": "International Congress of Mathematicians"
+    "fallbackStart": "International Congress of Mathematicians",
+    "quiz": {
+      "question": "How frequently does the International Congress of Mathematicians meet?",
+      "choices": [
+        "Once every two years",
+        "Once every four years",
+        "Once every five years",
+        "Once every year"
+      ],
+      "answer": "Once every four years"
+    }
   },
   {
     "date": "2026-08-10",
@@ -2443,7 +4041,46 @@
       "Abraham Lincoln"
     ],
     "eventSummary": "On this day in 1861: American Civil War: Battle of Wilson's Creek: A mixed force of Confederate, Missouri State Guard, and Arkansas State troops defeat outnumbered attacking Union forces in the southwestern part of the state.",
-    "fallbackStart": "American Civil War"
+    "fallbackStart": "American Civil War",
+    "quiz": {
+      "question": "According to the article, in what year was the Confederacy formed?",
+      "choices": [
+        "1859",
+        "1861",
+        "1865",
+        "1863"
+      ],
+      "answer": "1861"
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "puzzleNumber": 141,
+    "startTitle": "Spanish–American War",
+    "endTitle": "Vaccine",
+    "optimalPath": [
+      "Spanish–American War",
+      "Asia",
+      "Black Death",
+      "Antibiotic",
+      "Vaccine"
+    ],
+    "pathLength": 4,
+    "hintLinks": [
+      "Asia"
+    ],
+    "eventSummary": "On this day in 1898: Spanish–American War: American troops enter the city of Mayagüez, Puerto Rico.",
+    "fallbackStart": "Spanish–American War",
+    "quiz": {
+      "question": "Which of the following territories did the United States NOT acquire as a result of the Spanish–American War?",
+      "choices": [
+        "Puerto Rico",
+        "Guam",
+        "Cuba",
+        "the Philippines"
+      ],
+      "answer": "Cuba"
+    }
   },
   {
     "date": "2026-08-12",
@@ -2462,7 +4099,17 @@
       "United Kingdom"
     ],
     "eventSummary": "On this day in 1898: The Hawaiian flag is lowered from ʻIolani Palace in an elaborate annexation ceremony and replaced with the flag of the United States to signify the transfer of sovereignty from the Republic of Hawaii to the United States where it is formally recognized as Hawaii.",
-    "fallbackStart": "Flag of Hawaii"
+    "fallbackStart": "Flag of Hawaii",
+    "quiz": {
+      "question": "According to the article, what is the sequence of colors in the eight horizontal stripes of the Hawaiian flag?",
+      "choices": [
+        "White, red, blue, white, red, blue, white, red",
+        "Red, white, blue, red, white, blue, red, white",
+        "Blue, white, red, blue, white, red, blue, white",
+        "White, blue, red, white, blue, red, white, blue"
+      ],
+      "answer": "White, red, blue, white, red, blue, white, red"
+    }
   },
   {
     "date": "2026-08-13",
@@ -2481,7 +4128,17 @@
       "Asia"
     ],
     "eventSummary": "On this day in 1898: Spanish–American War: Spanish and American forces engage in a mock battle for Manila, after which the Spanish commander surrendered in order to keep the city out of Filipino rebel hands.",
-    "fallbackStart": "Spanish–American War"
+    "fallbackStart": "Spanish–American War",
+    "quiz": {
+      "question": "According to the article, which event triggered the beginning of the Spanish–American War?",
+      "choices": [
+        "The sinking of the USS Maine in Havana Harbor",
+        "Spain's invasion of Puerto Rico",
+        "The outbreak of the Philippine Revolution",
+        "The United States declaration of war on Spanish colonies"
+      ],
+      "answer": "The sinking of the USS Maine in Havana Harbor"
+    }
   },
   {
     "date": "2026-08-14",
@@ -2500,7 +4157,17 @@
       "Beijing"
     ],
     "eventSummary": "On this day in 1893: France becomes the first country to introduce motor vehicle registration.",
-    "fallbackStart": "Vehicle registration plate"
+    "fallbackStart": "Vehicle registration plate",
+    "quiz": {
+      "question": "According to the article, what is the scope of uniqueness for vehicle registration identifiers that varies between different countries?",
+      "choices": [
+        "Unique within the entire country versus unique within a state or province",
+        "Unique within a city versus unique within a region",
+        "Unique to the vehicle owner versus unique to the vehicle manufacturer",
+        "Unique within a single jurisdiction versus shared across multiple jurisdictions"
+      ],
+      "answer": "Unique within the entire country versus unique within a state or province"
+    }
   },
   {
     "date": "2026-08-15",
@@ -2519,7 +4186,17 @@
       "London"
     ],
     "eventSummary": "On this day in 1899: Fratton Park football ground in Portsmouth, England is officially first opened.",
-    "fallbackStart": "Fratton Park"
+    "fallbackStart": "Fratton Park",
+    "quiz": {
+      "question": "In what year was Fratton Park constructed?",
+      "choices": [
+        "1899",
+        "1885",
+        "1912",
+        "1923"
+      ],
+      "answer": "1899"
+    }
   },
   {
     "date": "2026-08-16",
@@ -2538,7 +4215,17 @@
       "Adolf Hitler"
     ],
     "eventSummary": "On this day in 1876: Richard Wagner's Siegfried, the penultimate opera in his Ring cycle, is premiered at the Bayreuth Festspielhaus.",
-    "fallbackStart": "Richard Wagner"
+    "fallbackStart": "Richard Wagner",
+    "quiz": {
+      "question": "According to the extract, what was the name of Wagner's four-opera cycle in which he most fully realized his concept of the Gesamtkunstwerk?",
+      "choices": [
+        "Der Ring des Nibelungen",
+        "Die Meistersinger von Nürnberg",
+        "Tristan und Isolde",
+        "Der fliegende Holländer"
+      ],
+      "answer": "Der Ring des Nibelungen"
+    }
   },
   {
     "date": "2026-08-17",
@@ -2556,7 +4243,17 @@
       "Atlantic Ocean"
     ],
     "eventSummary": "On this day in 1883: The first public performance of the Dominican Republic's national anthem, Himno Nacional.",
-    "fallbackStart": "Dominican Republic"
+    "fallbackStart": "Dominican Republic",
+    "quiz": {
+      "question": "According to the article, what fraction of the island of Hispaniola does the Dominican Republic occupy?",
+      "choices": [
+        "The eastern three-fifths",
+        "The eastern five-eighths",
+        "The western five-eighths",
+        "The entire island"
+      ],
+      "answer": "The eastern five-eighths"
+    }
   },
   {
     "date": "2026-08-18",
@@ -2575,7 +4272,17 @@
       "Astronomy"
     ],
     "eventSummary": "On this day in 1877: American astronomer Asaph Hall discovers Phobos, one of Mars's moons.",
-    "fallbackStart": "Astronomer"
+    "fallbackStart": "Astronomer",
+    "quiz": {
+      "question": "According to the article, what is the key difference between astronomy and physical cosmology?",
+      "choices": [
+        "Physical cosmology studies the universe as a whole, while astronomy focuses on specific objects or fields outside Earth's scope",
+        "Physical cosmology only uses theoretical models, while astronomy relies solely on observation",
+        "Physical cosmology studies planets and moons, while astronomy studies galaxies and stars",
+        "Physical cosmology is concerned with Earth's atmosphere, while astronomy ignores it entirely"
+      ],
+      "answer": "Physical cosmology studies the universe as a whole, while astronomy focuses on specific objects or fields outside Earth's scope"
+    }
   },
   {
     "date": "2026-08-19",
@@ -2594,7 +4301,17 @@
       "Abraham Lincoln"
     ],
     "eventSummary": "On this day in 1862: Dakota War: During an uprising in Minnesota, Lakota warriors decide not to attack heavily defended Fort Ridgely and instead turn to the settlement of New Ulm, killing white settlers along the way.",
-    "fallbackStart": "Dakota War of 1862"
+    "fallbackStart": "Dakota War of 1862",
+    "quiz": {
+      "question": "How many Dakota men were hanged following the Dakota War of 1862?",
+      "choices": [
+        "Eighteen Dakota men",
+        "Thirty-eight Dakota men",
+        "Fifty-three Dakota men",
+        "Seventy-two Dakota men"
+      ],
+      "answer": "Thirty-eight Dakota men"
+    }
   },
   {
     "date": "2026-08-20",
@@ -2613,7 +4330,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1866: President Andrew Johnson formally declares the American Civil War over.",
-    "fallbackStart": "President of the United States"
+    "fallbackStart": "President of the United States",
+    "quiz": {
+      "question": "According to the article, which of the following is NOT listed as a role of the President of the United States?",
+      "choices": [
+        "Head of state and head of government",
+        "Commander-in-chief of the United States Armed Forces",
+        "Chief Justice of the Supreme Court",
+        "Director of the executive branch"
+      ],
+      "answer": "Chief Justice of the Supreme Court"
+    }
   },
   {
     "date": "2026-08-21",
@@ -2632,7 +4359,17 @@
       "American Civil War"
     ],
     "eventSummary": "On this day in 1863: Lawrence, Kansas is destroyed by pro-Confederate guerrillas known as Quantrill's Raiders.",
-    "fallbackStart": "Lawrence, Kansas"
+    "fallbackStart": "Lawrence, Kansas",
+    "quiz": {
+      "question": "According to the article, what is Lawrence's rank among Kansas cities by population?",
+      "choices": [
+        "The largest city in Kansas",
+        "The fourth-largest city in Kansas",
+        "The sixth-largest city in Kansas",
+        "The tenth-largest city in Kansas"
+      ],
+      "answer": "The sixth-largest city in Kansas"
+    }
   },
   {
     "date": "2026-08-22",
@@ -2651,7 +4388,17 @@
       "Aristotle"
     ],
     "eventSummary": "On this day in 1894: Mahatma Gandhi forms the Natal Indian Congress (NIC) in order to fight discrimination against Indian traders in Natal.",
-    "fallbackStart": "Mahatma Gandhi"
+    "fallbackStart": "Mahatma Gandhi",
+    "quiz": {
+      "question": "In which location was the honorific title 'Mahātmā' first applied to Gandhi?",
+      "choices": [
+        "South Africa",
+        "India",
+        "Great Britain",
+        "Kenya"
+      ],
+      "answer": "South Africa"
+    }
   },
   {
     "date": "2026-08-23",
@@ -2670,233 +4417,16 @@
       "Holy Roman Empire"
     ],
     "eventSummary": "On this day in 1866: The Austro-Prussian War ends with the Treaty of Prague.",
-    "fallbackStart": "Austro-Prussian War"
-  },
-  {
-    "date": "2026-04-07",
-    "puzzleNumber": 142,
-    "startTitle": "Thomas D'Arcy McGee",
-    "endTitle": "Medicine",
-    "optimalPath": [
-      "Thomas D'Arcy McGee",
-      "British Empire",
-      "Africa",
-      "Mesopotamia",
-      "Medicine"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "British Empire"
-    ],
-    "eventSummary": "On this day in 1868: Thomas D'Arcy McGee, one of the Canadian Fathers of Confederation, is assassinated by a Fenian activist.",
-    "fallbackStart": "Thomas D'Arcy McGee"
-  },
-  {
-    "date": "2026-04-15",
-    "puzzleNumber": 143,
-    "startTitle": "General Electric",
-    "endTitle": "Norse mythology",
-    "optimalPath": [
-      "General Electric",
-      "New York City",
-      "Athens",
-      "Greek mythology",
-      "Norse mythology"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "New York City"
-    ],
-    "eventSummary": "On this day in 1892: The General Electric Company is formed.",
-    "fallbackStart": "General Electric"
-  },
-  {
-    "date": "2026-04-20",
-    "puzzleNumber": 144,
-    "startTitle": "William McKinley",
-    "endTitle": "Telephone",
-    "optimalPath": [
-      "William McKinley",
-      "American Civil War",
-      "Cold War",
-      "Internet",
-      "Telephone"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "American Civil War"
-    ],
-    "eventSummary": "On this day in 1898: U.S. President William McKinley signs a joint resolution to Congress for declaration of war against Spain, beginning the Spanish–American War.",
-    "fallbackStart": "William McKinley"
-  },
-  {
-    "date": "2026-04-25",
-    "puzzleNumber": 145,
-    "startTitle": "Spanish–American War",
-    "endTitle": "Vaccine",
-    "optimalPath": [
-      "Spanish–American War",
-      "Asia",
-      "Black Death",
-      "Antibiotic",
-      "Vaccine"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "Asia"
-    ],
-    "eventSummary": "On this day in 1898: Spanish–American War: The United States Congress declares that a state of war between the U.S. and Spain has existed since April 21, when an American naval blockade of the Spanish colony of Cuba began.",
-    "fallbackStart": "Spanish–American War"
-  },
-  {
-    "date": "2026-05-18",
-    "puzzleNumber": 146,
-    "startTitle": "Supreme Court of the United States",
-    "endTitle": "Vaccine",
-    "optimalPath": [
-      "Supreme Court of the United States",
-      "Judaism",
-      "Philosophy",
-      "Medicine",
-      "Vaccine"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "Judaism"
-    ],
-    "eventSummary": "On this day in 1896: The United States Supreme Court rules in Plessy v. Ferguson that the \"separate but equal\" doctrine is constitutional.",
-    "fallbackStart": "Supreme Court of the United States"
-  },
-  {
-    "date": "2026-05-24",
-    "puzzleNumber": 147,
-    "startTitle": "Brooklyn Bridge",
-    "endTitle": "Norse mythology",
-    "optimalPath": [
-      "Brooklyn Bridge",
-      "Cold War",
-      "Africa",
-      "Myth",
-      "Norse mythology"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "Cold War"
-    ],
-    "eventSummary": "On this day in 1883: The Brooklyn Bridge in New York City is opened to traffic after 14 years of construction.",
-    "fallbackStart": "Brooklyn Bridge"
-  },
-  {
-    "date": "2026-06-02",
-    "puzzleNumber": 148,
-    "startTitle": "Guglielmo Marconi",
-    "endTitle": "Gravity",
-    "optimalPath": [
-      "Guglielmo Marconi",
-      "Albert Einstein",
-      "Electromagnetism",
-      "Gravity"
-    ],
-    "pathLength": 3,
-    "hintLinks": [
-      "Albert Einstein"
-    ],
-    "eventSummary": "On this day in 1896: Guglielmo Marconi applies for a patent for his wireless telegraph.",
-    "fallbackStart": "Guglielmo Marconi"
-  },
-  {
-    "date": "2026-06-10",
-    "puzzleNumber": 149,
-    "startTitle": "Spanish–American War",
-    "endTitle": "Vaccine",
-    "optimalPath": [
-      "Spanish–American War",
-      "Asia",
-      "Black Death",
-      "Antibiotic",
-      "Vaccine"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "Asia"
-    ],
-    "eventSummary": "On this day in 1898: Spanish–American War: In the Battle of Guantánamo Bay, U.S. Marines begin the American invasion of Spanish-held Cuba.",
-    "fallbackStart": "Spanish–American War"
-  },
-  {
-    "date": "2026-07-01",
-    "puzzleNumber": 150,
-    "startTitle": "Spanish–American War",
-    "endTitle": "Vaccine",
-    "optimalPath": [
-      "Spanish–American War",
-      "Asia",
-      "Black Death",
-      "Antibiotic",
-      "Vaccine"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "Asia"
-    ],
-    "eventSummary": "On this day in 1898: Spanish–American War: The Battle of San Juan Hill is fought in Santiago de Cuba, Cuba.",
-    "fallbackStart": "Spanish–American War"
-  },
-  {
-    "date": "2026-07-25",
-    "puzzleNumber": 151,
-    "startTitle": "Spanish–American War",
-    "endTitle": "Vaccine",
-    "optimalPath": [
-      "Spanish–American War",
-      "Asia",
-      "Black Death",
-      "Antibiotic",
-      "Vaccine"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "Asia"
-    ],
-    "eventSummary": "On this day in 1898: Spanish–American War: The American invasion of Spanish-held Puerto Rico begins, as United States Army troops under General Nelson A. Miles land and secure the port at Guánica.",
-    "fallbackStart": "Spanish–American War"
-  },
-  {
-    "date": "2026-07-29",
-    "puzzleNumber": 152,
-    "startTitle": "Hague Conventions of 1899 and 1907",
-    "endTitle": "Theory of relativity",
-    "optimalPath": [
-      "Hague Conventions of 1899 and 1907",
-      "Abraham Lincoln",
-      "Benjamin Franklin",
-      "History",
-      "Theory of relativity"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "Abraham Lincoln"
-    ],
-    "eventSummary": "On this day in 1899: The First Hague Convention is signed.",
-    "fallbackStart": "Hague Conventions of 1899 and 1907"
-  },
-  {
-    "date": "2026-08-11",
-    "puzzleNumber": 153,
-    "startTitle": "Spanish–American War",
-    "endTitle": "Vaccine",
-    "optimalPath": [
-      "Spanish–American War",
-      "Asia",
-      "Black Death",
-      "Antibiotic",
-      "Vaccine"
-    ],
-    "pathLength": 4,
-    "hintLinks": [
-      "Asia"
-    ],
-    "eventSummary": "On this day in 1898: Spanish–American War: American troops enter the city of Mayagüez, Puerto Rico.",
-    "fallbackStart": "Spanish–American War"
+    "fallbackStart": "Austro-Prussian War",
+    "quiz": {
+      "question": "According to the article, which country was Prussia allied with during the Austro-Prussian War?",
+      "choices": [
+        "The Kingdom of Italy",
+        "The Russian Empire",
+        "The French Empire",
+        "The Ottoman Empire"
+      ],
+      "answer": "The Kingdom of Italy"
+    }
   }
 ]
